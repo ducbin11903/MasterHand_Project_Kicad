@@ -557,14 +557,14 @@ definitions:
 
   # Metadata ===================================================================
 
-  PROJECT_NAME: Project Name
-  BOARD_NAME: Board Name
+  PROJECT_NAME: Master Hand
+  BOARD_NAME: Motor Control Board
 
-  COMPANY: Company Name
-  DESIGNER: Author
+  COMPANY: Willas
+  DESIGNER: Damon
 
   LOGO: 'Logos/dummy_logo.png'
-  GIT_URL: 'https://github.com/nguyen-v/KDT_Hierarchical_KiBot'
+  GIT_URL: 'https://github.com/ducbin11903/MasterHand_Project_Kicad.git'
 
   # Preflight ==================================================================
 
