@@ -470,6 +470,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -998,23 +999,15 @@
     ],
     [
       "f06537ee-772d-44d3-8c50-e0ba41038c9c",
-      "MCU 1 - POWER"
+      "MCU - POWER"
     ],
     [
       "e744f3ce-03a6-44a6-8792-1447ef232b9a",
-      "MCU 1 - I/Os"
-    ],
-    [
-      "34c32ec3-a6ba-4cae-8407-926245681f03",
-      "MCU 2 - POWER"
+      "MCU - I/Os"
     ],
     [
       "5fb05893-0da3-4f58-a52b-cb6d6f4cb80b",
       "Power - Sequencing"
-    ],
-    [
-      "98ec58f7-503b-42ca-9e90-15bebb94676d",
-      "MCU 2 - I/Os"
     ],
     [
       "6e125bd6-2f99-4e5d-b3ea-4899f4540739",
@@ -1029,7 +1022,7 @@
     "FABRICATION_NOTES": "FABRICATION NOTES",
     "GIT_HASH_PCB": "",
     "GIT_HASH_SCH": "",
-    "GIT_URL": "https://github.com/ducbin11903/MasterHand_Project_Kicad.git",
+    "GIT_URL": "",
     "PROJECT_NAME": "MASTER HAND",
     "RELEASE_BODY_1.0.0": "",
     "RELEASE_BODY_1.0.1": "",

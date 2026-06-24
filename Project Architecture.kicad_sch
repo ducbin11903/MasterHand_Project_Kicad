@@ -253,92 +253,6 @@
 		(uuid "9543d363-0f36-4c41-97bc-b97723f48818")
 	)
 	(sheet
-		(at 60.96 86.36)
-		(size 43.18 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "34c32ec3-a6ba-4cae-8407-926245681f03")
-		(property "Sheetname" "MCU 2 - POWER"
-			(at 60.96 85.6484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 60.96 112.3446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 60.96 129.54)
-		(size 36.83 20.32)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 128 255 128 0.5000)
-		)
-		(uuid "98ec58f7-503b-42ca-9e90-15bebb94676d")
-		(property "Sheetname" "MCU 2 - I/Os"
-			(at 60.96 128.5109 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Section A - Title A.kicad_sch"
-			(at 60.96 150.4446 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 190.5 114.3)
 		(size 36.83 20.32)
 		(exclude_from_sim no)
@@ -354,7 +268,7 @@
 			(color 255 200 0 0.5020)
 		)
 		(uuid "e744f3ce-03a6-44a6-8792-1447ef232b9a")
-		(property "Sheetname" "MCU 1 - I/Os"
+		(property "Sheetname" "MCU - I/Os"
 			(at 190.5 113.2709 0)
 			(effects
 				(font
@@ -398,7 +312,7 @@
 			(color 128 255 128 0.5000)
 		)
 		(uuid "f06537ee-772d-44d3-8c50-e0ba41038c9c")
-		(property "Sheetname" "MCU 1 - POWER"
+		(property "Sheetname" "MCU - POWER"
 			(at 190.5 75.1709 0)
 			(effects
 				(font
@@ -408,7 +322,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Section A - Title A.kicad_sch"
+		(property "Sheetfile" "MCU - POWER.kicad_sch"
 			(at 190.5 97.1046 0)
 			(effects
 				(font
