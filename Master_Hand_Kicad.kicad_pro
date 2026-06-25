@@ -1003,15 +1003,67 @@
     ],
     [
       "e744f3ce-03a6-44a6-8792-1447ef232b9a",
-      "MCU - I/Os"
+      "MCU - IOs"
+    ],
+    [
+      "042ebd96-5d8b-461b-acb5-c7c1300dab56",
+      "Power - Generation"
     ],
     [
       "5fb05893-0da3-4f58-a52b-cb6d6f4cb80b",
       "Power - Sequencing"
     ],
     [
+      "961411a1-6ec4-454f-96e4-c72953a40611",
+      "Power - Connectors"
+    ],
+    [
       "6e125bd6-2f99-4e5d-b3ea-4899f4540739",
       "Revision History"
+    ],
+    [
+      "e5d77067-0fc9-45d6-8c05-6a2497d0fba9",
+      "Interface - FD-CAN"
+    ],
+    [
+      "62e1134a-4afa-47e5-8a81-2f23b9b85122",
+      "Motor Control - Top Level"
+    ],
+    [
+      "0bb1cb44-88fa-40dc-bea3-1adee4cb244a",
+      "Misc - Board Version, DAC"
+    ],
+    [
+      "28daf353-f3ef-4ecd-aedd-b1b76d334dfe",
+      "User - LED Indicators"
+    ],
+    [
+      "2e63ad8d-085e-4704-a18e-2216b579ffe6",
+      "Sensing - Temperature"
+    ],
+    [
+      "d30056b5-4391-456e-bc80-2bde1ca0d521",
+      "Sensing - Battery"
+    ],
+    [
+      "cf7116ca-724a-4ef3-b3bf-c9d2e5ed7098",
+      "Sensing - Position"
+    ],
+    [
+      "7164844d-ef2d-4ed9-93c6-2b7c97a3348e",
+      "Interface - RS-485"
+    ],
+    [
+      "f2e2e46b-bf48-4385-80eb-484ec861c9a9",
+      "Interface - FD-CAN1"
+    ],
+    [
+      "17a3bf50-6382-4412-b8e5-9c1afeb8fb2e",
+      "Interface - Interconnects"
+    ],
+    [
+      "5f95795e-0401-405e-a7ff-2bb10fe67e18",
+      "Misc - Holes, Fiducials"
     ]
   ],
   "text_variables": {
