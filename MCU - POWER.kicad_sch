@@ -3615,6 +3615,24 @@
 					)
 				)
 				(pin unspecified line
+					(at -20.32 2.54 0)
+					(length 2.54)
+					(name "PD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
 					(at -20.32 -10.16 0)
 					(length 2.54)
 					(name "PC0"
@@ -3895,24 +3913,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -19.05 2.54 0)
-					(length 2.54)
-					(name "PD2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "55"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6627,7 +6627,7 @@
 		(uuid "fea56a37-01a4-4017-bf22-32791ea990fb")
 	)
 	(symbol
-		(lib_name "CC0402KRX7R6BB105_4")
+		(lib_name "CC0402KRX7R6BB105_2")
 		(lib_id "Duc_Library:CC0402KRX7R6BB105")
 		(at 124.46 152.4 90)
 		(unit 1)
@@ -6819,7 +6819,6 @@
 		)
 	)
 	(symbol
-		(lib_name "CC0402KRX7R9BB104_2")
 		(lib_id "Duc_Library:CC0402KRX7R9BB104")
 		(at 116.84 68.58 90)
 		(unit 1)
@@ -6916,7 +6915,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CC0402KRX7R9BB104_8")
+		(lib_name "CC0402KRX7R9BB104_1")
 		(lib_id "Duc_Library:CC0402KRX7R9BB104")
 		(at 139.7 134.62 90)
 		(unit 1)
@@ -7013,7 +7012,6 @@
 		)
 	)
 	(symbol
-		(lib_name "CC0402KRX7R6BB105_2")
 		(lib_id "Duc_Library:CC0402KRX7R6BB105")
 		(at 124.46 86.36 90)
 		(unit 1)
@@ -7111,6 +7109,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CC0402KRX7R6BB105_1")
 		(lib_id "Duc_Library:CC0402KRX7R6BB105")
 		(at 182.88 48.26 90)
 		(unit 1)
@@ -7399,7 +7398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Duc_Library:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL"
+		(property private "Footprint" "Duc_Library:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL"
 			(at 225.552 98.044 0)
 			(effects
 				(font
@@ -7408,7 +7407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/No-specification-for-star-making-plan_STMicroelectronics-STM32G474RET6_C521608.html"
+		(property private "Datasheet" "https://lcsc.com/product-detail/No-specification-for-star-making-plan_STMicroelectronics-STM32G474RET6_C521608.html"
 			(at 233.68 100.33 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7753,7 +7752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Duc_Library:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL"
+		(property private "Footprint" "Duc_Library:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL"
 			(at 225.552 164.084 0)
 			(effects
 				(font
@@ -7762,7 +7761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/No-specification-for-star-making-plan_STMicroelectronics-STM32G474RET6_C521608.html"
+		(property private "Datasheet" "https://lcsc.com/product-detail/No-specification-for-star-making-plan_STMicroelectronics-STM32G474RET6_C521608.html"
 			(at 233.68 166.37 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8010,7 +8009,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CC0402KRX7R6BB105_5")
+		(lib_name "CC0402KRX7R6BB105_3")
 		(lib_id "Duc_Library:CC0402KRX7R6BB105")
 		(at 182.88 114.3 90)
 		(unit 1)
@@ -8107,7 +8106,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CC0402KRX7R9BB104_5")
+		(lib_name "CC0402KRX7R9BB104_3")
 		(lib_id "Duc_Library:CC0402KRX7R9BB104")
 		(at 182.88 152.4 90)
 		(unit 1)
@@ -8274,7 +8273,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CC0402KRX7R9BB104_4")
+		(lib_name "CC0402KRX7R9BB104_9")
 		(lib_id "Duc_Library:CC0402KRX7R9BB104")
 		(at 182.88 86.36 90)
 		(unit 1)
@@ -8371,7 +8370,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CC0402KRX7R9BB104_7")
+		(lib_name "CC0402KRX7R9BB104_2")
 		(lib_id "Duc_Library:CC0402KRX7R9BB104")
 		(at 182.88 134.62 90)
 		(unit 1)
@@ -8608,7 +8607,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CC0402KRX7R9BB104_6")
+		(lib_name "CC0402KRX7R9BB104_8")
 		(lib_id "Duc_Library:CC0402KRX7R9BB104")
 		(at 162.56 134.62 90)
 		(unit 1)
@@ -8775,7 +8774,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CC0402KRX7R9BB104_3")
+		(lib_name "CC0402KRX7R9BB104_4")
 		(lib_id "Duc_Library:CC0402KRX7R9BB104")
 		(at 162.56 68.58 90)
 		(unit 1)
@@ -9085,7 +9084,6 @@
 		)
 	)
 	(symbol
-		(lib_name "CC0402MRX5R7BB475_1")
 		(lib_id "Duc_Library:CC0402MRX5R7BB475")
 		(at 93.98 134.62 270)
 		(unit 1)
@@ -9250,7 +9248,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CC0402KRX7R9BB104_1")
+		(lib_name "CC0402KRX7R9BB104_5")
 		(lib_id "Duc_Library:CC0402KRX7R9BB104")
 		(at 139.7 68.58 90)
 		(unit 1)
@@ -9347,7 +9345,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CC0402KRX7R6BB105_1")
+		(lib_name "CC0402KRX7R6BB105_4")
 		(lib_id "Duc_Library:CC0402KRX7R6BB105")
 		(at 160.02 86.36 90)
 		(unit 1)
@@ -9445,7 +9443,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CC0402KRX7R6BB105_3")
+		(lib_name "CC0402KRX7R6BB105_5")
 		(lib_id "Duc_Library:CC0402KRX7R6BB105")
 		(at 160.02 152.4 90)
 		(unit 1)
@@ -9684,6 +9682,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CC0402KRX7R9BB104_6")
 		(lib_id "Duc_Library:CC0402KRX7R9BB104")
 		(at 182.88 68.58 90)
 		(unit 1)
@@ -9780,7 +9779,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CC0402KRX7R9BB104_9")
+		(lib_name "CC0402KRX7R9BB104_7")
 		(lib_id "Duc_Library:CC0402KRX7R9BB104")
 		(at 116.84 134.62 90)
 		(unit 1)
@@ -10019,6 +10018,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CC0402MRX5R7BB475_1")
 		(lib_id "Duc_Library:CC0402MRX5R7BB475")
 		(at 93.98 68.58 270)
 		(unit 1)

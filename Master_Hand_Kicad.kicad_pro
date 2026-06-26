@@ -1022,10 +1022,6 @@
       "Revision History"
     ],
     [
-      "e5d77067-0fc9-45d6-8c05-6a2497d0fba9",
-      "Interface - FD-CAN"
-    ],
-    [
       "62e1134a-4afa-47e5-8a81-2f23b9b85122",
       "Motor Control - Top Level"
     ],
@@ -1122,12 +1118,12 @@
     "SHEET_NAME_37": "......................................",
     "SHEET_NAME_38": "......................................",
     "SHEET_NAME_39": "......................................",
-    "SHEET_NAME_4": "Section A - Title A",
+    "SHEET_NAME_4": "MCU - POWER",
     "SHEET_NAME_40": "......................................",
-    "SHEET_NAME_5": "Section B -Title B",
-    "SHEET_NAME_6": "Power - Sequencing",
-    "SHEET_NAME_7": "Revision History",
-    "SHEET_NAME_8": "......................................",
+    "SHEET_NAME_5": "MCU - IOs",
+    "SHEET_NAME_6": "Power - Generation",
+    "SHEET_NAME_7": "Power - Connectors",
+    "SHEET_NAME_8": "Motor Control",
     "SHEET_NAME_9": "......................................",
     "VARIANT": ""
   }
