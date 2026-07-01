@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Project Architecture")
-		(date "2025-01-12")
+		(date "2026-06-27")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
@@ -629,7 +629,7 @@
 			(color 128 255 255 0.5000)
 		)
 		(uuid "2e63ad8d-085e-4704-a18e-2216b579ffe6")
-		(property "Sheetname" "Sensing - Temperature"
+		(property "Sheetname" "Sensing - Temperature & Humidity"
 			(at 140.97 127.2409 0)
 			(effects
 				(font
@@ -882,7 +882,7 @@
 			(color 255 150 255 0.5000)
 		)
 		(uuid "7164844d-ef2d-4ed9-93c6-2b7c97a3348e")
-		(property "Sheetname" "Interface - RS-485"
+		(property "Sheetname" "Interface - RS - 485"
 			(at 140.97 214.8709 0)
 			(effects
 				(font
@@ -1244,7 +1244,7 @@
 			(color 255 150 255 0.5000)
 		)
 		(uuid "f2e2e46b-bf48-4385-80eb-484ec861c9a9")
-		(property "Sheetname" "Interface - FD-CAN1"
+		(property "Sheetname" "Interface - FD-CAN"
 			(at 55.88 138.6709 0)
 			(effects
 				(font

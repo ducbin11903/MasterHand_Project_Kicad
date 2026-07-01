@@ -1035,7 +1035,7 @@
     ],
     [
       "2e63ad8d-085e-4704-a18e-2216b579ffe6",
-      "Sensing - Temperature"
+      "Sensing - Temperature & Humidity"
     ],
     [
       "d30056b5-4391-456e-bc80-2bde1ca0d521",
@@ -1047,11 +1047,11 @@
     ],
     [
       "7164844d-ef2d-4ed9-93c6-2b7c97a3348e",
-      "Interface - RS-485"
+      "Interface - RS - 485"
     ],
     [
       "f2e2e46b-bf48-4385-80eb-484ec861c9a9",
-      "Interface - FD-CAN1"
+      "Interface - FD-CAN"
     ],
     [
       "17a3bf50-6382-4412-b8e5-9c1afeb8fb2e",

@@ -4,5 +4,9 @@
 	(generator_version "9.0")
 	(uuid "7f0c37ea-f4b2-4980-9472-740ea4277d9a")
 	(paper "A4")
+	(title_block
+		(date "2026-06-27")
+		(company "${COMPANY}")
+	)
 	(lib_symbols)
 )
