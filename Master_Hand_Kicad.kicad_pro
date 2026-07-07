@@ -836,6 +836,14 @@
       {
         "netclass": "Power 5V",
         "pattern": "/Project Architecture/Power - Generation/F_VIN_3V3"
+      },
+      {
+        "netclass": "Power 5V",
+        "pattern": "/Project Architecture/Power - Generation/+5V"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Power - Generation/+3V3"
       }
     ]
   },
