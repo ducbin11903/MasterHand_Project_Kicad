@@ -12,8 +12,8 @@
 	)
 	(lib_symbols)
 	(rectangle
-		(start 57.912 60.96)
-		(end 88.392 76.2)
+		(start 52.832 55.88)
+		(end 83.312 71.12)
 		(stroke
 			(width 0)
 			(type default)
@@ -26,8 +26,8 @@
 		(uuid 0c390133-914e-40ed-b9b9-8b77bff0142a)
 	)
 	(rectangle
-		(start 57.912 118.11)
-		(end 88.392 133.35)
+		(start 52.832 113.03)
+		(end 83.312 128.27)
 		(stroke
 			(width 0)
 			(type default)
@@ -40,8 +40,8 @@
 		(uuid 10212ef7-3dd1-4c49-bb78-801b07a6f897)
 	)
 	(rectangle
-		(start 287.02 223.52)
-		(end 332.74 378.46)
+		(start 281.94 218.44)
+		(end 327.66 373.38)
 		(stroke
 			(width 1.27)
 			(type solid)
@@ -53,8 +53,8 @@
 		(uuid 1ea56e0b-9296-4427-920c-f81dc9168de4)
 	)
 	(rectangle
-		(start 57.912 137.16)
-		(end 88.392 152.4)
+		(start 52.832 132.08)
+		(end 83.312 147.32)
 		(stroke
 			(width 0)
 			(type default)
@@ -67,8 +67,8 @@
 		(uuid 1ebcb23c-66b1-40d7-9b04-d023994a2e13)
 	)
 	(rectangle
-		(start 358.394 202.819)
-		(end 357.759 203.581)
+		(start 353.314 197.739)
+		(end 352.679 198.501)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -81,8 +81,8 @@
 		(uuid 27384609-6f69-41f5-b7f4-720824215b0c)
 	)
 	(rectangle
-		(start 187.96 132.08)
-		(end 245.745 205.74)
+		(start 182.88 127)
+		(end 240.665 200.66)
 		(stroke
 			(width 1.27)
 			(type default)
@@ -94,8 +94,8 @@
 		(uuid 4a2dbcea-dc0e-46cb-a0e5-1a43362952a7)
 	)
 	(rectangle
-		(start 358.394 372.999)
-		(end 357.759 373.761)
+		(start 353.314 367.919)
+		(end 352.679 368.681)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -108,8 +108,8 @@
 		(uuid 57d45d83-2e49-4f39-a1d6-a0e0e4556d27)
 	)
 	(rectangle
-		(start 88.519 68.199)
-		(end 89.154 68.961)
+		(start 83.439 63.119)
+		(end 84.074 63.881)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -122,8 +122,8 @@
 		(uuid 626da8e8-7fb0-458e-b553-c385acc1000b)
 	)
 	(rectangle
-		(start 57.15 144.399)
-		(end 57.785 145.161)
+		(start 52.07 139.319)
+		(end 52.705 140.081)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -136,8 +136,8 @@
 		(uuid 68a1cacd-118b-47ce-82f6-faca28d2a00a)
 	)
 	(rectangle
-		(start 57.15 68.199)
-		(end 57.785 68.961)
+		(start 52.07 63.119)
+		(end 52.705 63.881)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -150,8 +150,8 @@
 		(uuid 7d6de341-97aa-49e1-a90c-5540d6df9730)
 	)
 	(rectangle
-		(start 88.519 125.349)
-		(end 89.154 126.111)
+		(start 83.439 120.269)
+		(end 84.074 121.031)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -164,8 +164,8 @@
 		(uuid 870854be-8c73-447c-9821-da1634d5e449)
 	)
 	(rectangle
-		(start 20.32 402.59)
-		(end 91.44 403.352)
+		(start 15.24 397.51)
+		(end 86.36 398.272)
 		(stroke
 			(width 0)
 			(type default)
@@ -178,8 +178,8 @@
 		(uuid 96358351-64fb-49b9-98d4-c975a586b1c3)
 	)
 	(rectangle
-		(start 187.96 302.26)
-		(end 246.38 375.92)
+		(start 182.88 297.18)
+		(end 241.3 370.84)
 		(stroke
 			(width 1.27)
 			(type default)
@@ -191,7 +191,7 @@
 		(uuid a2b61306-bbf4-4225-885a-bd8a5cadbfee)
 	)
 	(circle
-		(center 41.402 125.73)
+		(center 36.322 120.65)
 		(radius 1.016)
 		(stroke
 			(width 0)
@@ -205,8 +205,8 @@
 		(uuid a3512195-134b-4bf2-92e8-83bd246df807)
 	)
 	(rectangle
-		(start 57.15 125.349)
-		(end 57.785 126.111)
+		(start 52.07 120.269)
+		(end 52.705 121.031)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -219,8 +219,8 @@
 		(uuid aaa3050c-91b7-4c91-b39f-047dd5912ea4)
 	)
 	(rectangle
-		(start 347.98 202.946)
-		(end 357.632 203.454)
+		(start 342.9 197.866)
+		(end 352.552 198.374)
 		(stroke
 			(width 0.001)
 			(type default)
@@ -233,8 +233,8 @@
 		(uuid be0f168a-9f70-4098-8482-db5fd516a3a9)
 	)
 	(rectangle
-		(start 347.98 373.126)
-		(end 357.632 373.634)
+		(start 342.9 368.046)
+		(end 352.552 368.554)
 		(stroke
 			(width 0.001)
 			(type default)
@@ -247,8 +247,8 @@
 		(uuid c1dd536d-b5c6-4eeb-9cc5-c73316a7877e)
 	)
 	(rectangle
-		(start 20.32 369.57)
-		(end 91.44 370.332)
+		(start 15.24 364.49)
+		(end 86.36 365.252)
 		(stroke
 			(width 0)
 			(type default)
@@ -261,8 +261,8 @@
 		(uuid ca4906af-4562-456f-b79d-f6f2c9056c36)
 	)
 	(rectangle
-		(start 287.02 53.34)
-		(end 332.74 208.28)
+		(start 281.94 48.26)
+		(end 327.66 203.2)
 		(stroke
 			(width 1.27)
 			(type solid)
@@ -274,8 +274,8 @@
 		(uuid e6c68642-220f-46b0-a550-51c87b8a5ddf)
 	)
 	(rectangle
-		(start 88.519 144.399)
-		(end 89.154 145.161)
+		(start 83.439 139.319)
+		(end 84.074 140.081)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -288,8 +288,8 @@
 		(uuid f8aa53ea-1aec-4f9b-aba6-dbb4a617aed9)
 	)
 	(rectangle
-		(start 50.292 50.8)
-		(end 96.012 160.02)
+		(start 45.212 45.72)
+		(end 90.932 154.94)
 		(stroke
 			(width 1.27)
 			(type default)
@@ -302,7 +302,7 @@
 	)
 	(text "+5V"
 		(exclude_from_sim no)
-		(at 43.942 114.3 0)
+		(at 38.862 109.22 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -317,7 +317,7 @@
 	)
 	(text "+5V"
 		(exclude_from_sim no)
-		(at 490.22 101.6 0)
+		(at 485.14 96.52 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -332,7 +332,7 @@
 	)
 	(text "+A3V3"
 		(exclude_from_sim no)
-		(at 180.34 114.3 0)
+		(at 175.26 109.22 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -347,7 +347,7 @@
 	)
 	(text "+5V"
 		(exclude_from_sim no)
-		(at 106.172 57.15 0)
+		(at 101.092 52.07 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -362,7 +362,7 @@
 	)
 	(text "+5V"
 		(exclude_from_sim no)
-		(at 490.22 144.78 0)
+		(at 485.14 139.7 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -377,7 +377,7 @@
 	)
 	(text "+VBAT\n"
 		(exclude_from_sim no)
-		(at 477.52 238.76 0)
+		(at 472.44 233.68 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -392,7 +392,7 @@
 	)
 	(text "+VBAT\n"
 		(exclude_from_sim no)
-		(at 180.34 66.04 0)
+		(at 175.26 60.96 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -407,7 +407,7 @@
 	)
 	(text "+5V"
 		(exclude_from_sim no)
-		(at 369.824 205.232 0)
+		(at 364.744 200.152 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -422,7 +422,7 @@
 	)
 	(text "+5V"
 		(exclude_from_sim no)
-		(at 369.824 375.412 0)
+		(at 364.744 370.332 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -437,7 +437,7 @@
 	)
 	(text "+5V"
 		(exclude_from_sim no)
-		(at 490.22 271.78 0)
+		(at 485.14 266.7 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -452,7 +452,7 @@
 	)
 	(text "+A3V3"
 		(exclude_from_sim no)
-		(at 180.34 284.48 0)
+		(at 175.26 279.4 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -467,7 +467,7 @@
 	)
 	(text "+5V"
 		(exclude_from_sim no)
-		(at 490.22 187.96 0)
+		(at 485.14 182.88 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -482,7 +482,7 @@
 	)
 	(text "+A3V3"
 		(exclude_from_sim no)
-		(at 180.34 261.62 0)
+		(at 175.26 256.54 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -497,7 +497,7 @@
 	)
 	(text "+5V"
 		(exclude_from_sim no)
-		(at 490.22 314.96 0)
+		(at 485.14 309.88 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -512,7 +512,7 @@
 	)
 	(text "+5V"
 		(exclude_from_sim no)
-		(at 490.22 358.14 0)
+		(at 485.14 353.06 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -527,7 +527,7 @@
 	)
 	(text "+A3V3"
 		(exclude_from_sim no)
-		(at 180.34 91.44 0)
+		(at 175.26 86.36 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -542,7 +542,7 @@
 	)
 	(text "+3V3"
 		(exclude_from_sim no)
-		(at 107.442 114.3 0)
+		(at 102.362 109.22 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -557,7 +557,7 @@
 	)
 	(text "+VBAT"
 		(exclude_from_sim no)
-		(at 36.322 48.26 0)
+		(at 31.242 43.18 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -572,7 +572,7 @@
 	)
 	(text "+3V3"
 		(exclude_from_sim no)
-		(at 278.13 49.53 0)
+		(at 273.05 44.45 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -587,7 +587,7 @@
 	)
 	(text "+VBAT\n"
 		(exclude_from_sim no)
-		(at 477.52 325.12 0)
+		(at 472.44 320.04 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -602,7 +602,7 @@
 	)
 	(text "+VBAT\n"
 		(exclude_from_sim no)
-		(at 477.52 281.94 0)
+		(at 472.44 276.86 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -617,7 +617,7 @@
 	)
 	(text "+VBAT\n"
 		(exclude_from_sim no)
-		(at 477.52 111.76 0)
+		(at 472.44 106.68 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -632,7 +632,7 @@
 	)
 	(text "+VBAT\n"
 		(exclude_from_sim no)
-		(at 477.52 68.58 0)
+		(at 472.44 63.5 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -647,7 +647,7 @@
 	)
 	(text "+3V3"
 		(exclude_from_sim no)
-		(at 278.13 219.71 0)
+		(at 273.05 214.63 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -662,7 +662,7 @@
 	)
 	(text "+VBAT\n"
 		(exclude_from_sim no)
-		(at 477.52 154.94 0)
+		(at 472.44 149.86 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -677,7 +677,7 @@
 	)
 	(text "+A3V3"
 		(exclude_from_sim no)
-		(at 107.442 133.35 0)
+		(at 102.362 128.27 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -692,7 +692,7 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 215.265 177.8 0)
+		(at 210.185 172.72 0)
 		(size 5.08 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -715,7 +715,7 @@
 	)
 	(text_box "BUZZER\n"
 		(exclude_from_sim no)
-		(at 200.66 236.22 0)
+		(at 195.58 231.14 0)
 		(size 27.94 12.7)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -738,7 +738,7 @@
 	)
 	(text_box "AUX1"
 		(exclude_from_sim no)
-		(at 289.56 325.12 0)
+		(at 284.48 320.04 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -761,7 +761,7 @@
 	)
 	(text_box "SWDIO, SWCLK, NRST"
 		(exclude_from_sim no)
-		(at 244.475 314.96 0)
+		(at 239.395 309.88 0)
 		(size 40.005 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -784,7 +784,7 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 144.78 177.8 0)
+		(at 139.7 172.72 0)
 		(size 47.625 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -807,7 +807,7 @@
 	)
 	(text_box "TIM\nCH3,4\n"
 		(exclude_from_sim no)
-		(at 335.28 325.12 0)
+		(at 330.2 320.04 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -830,7 +830,7 @@
 	)
 	(text_box "I2C\n"
 		(exclude_from_sim no)
-		(at 289.56 119.38 0)
+		(at 284.48 114.3 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -853,7 +853,7 @@
 	)
 	(text_box "MODE, DIAG, OCC, EN"
 		(exclude_from_sim no)
-		(at 386.08 269.24 0)
+		(at 381 264.16 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -876,7 +876,7 @@
 	)
 	(text_box "Current Sense\n"
 		(exclude_from_sim no)
-		(at 386.08 175.26 0)
+		(at 381 170.18 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -899,7 +899,7 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 238.76 325.12 0)
+		(at 233.68 320.04 0)
 		(size 10.16 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -922,7 +922,7 @@
 	)
 	(text_box "TB9051FTG\nMotor Driver 6\n"
 		(exclude_from_sim no)
-		(at 426.72 325.12 0)
+		(at 421.64 320.04 0)
 		(size 35.56 38.1)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -945,7 +945,7 @@
 	)
 	(text_box "7.4 - 8.2 V"
 		(exclude_from_sim no)
-		(at 67.31 370.84 0)
+		(at 62.23 365.76 0)
 		(size 24.13 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -967,7 +967,7 @@
 	)
 	(text_box " TIM	\nCH1,2"
 		(exclude_from_sim no)
-		(at 335.28 165.1 0)
+		(at 330.2 160.02 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -990,7 +990,7 @@
 	)
 	(text_box "MODE, DIAG, OCC, EN"
 		(exclude_from_sim no)
-		(at 386.08 185.42 0)
+		(at 381 180.34 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1013,7 +1013,7 @@
 	)
 	(text_box "USB"
 		(exclude_from_sim no)
-		(at 289.56 335.28 0)
+		(at 284.48 330.2 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1036,7 +1036,7 @@
 	)
 	(text_box "ADC"
 		(exclude_from_sim no)
-		(at 289.56 68.58 0)
+		(at 284.48 63.5 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1059,7 +1059,7 @@
 	)
 	(text_box "ADC"
 		(exclude_from_sim no)
-		(at 289.56 104.14 0)
+		(at 284.48 99.06 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1082,7 +1082,7 @@
 	)
 	(text_box "TIM\nCH3,4\n"
 		(exclude_from_sim no)
-		(at 335.28 111.76 0)
+		(at 330.2 106.68 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1105,7 +1105,7 @@
 	)
 	(text_box "ADC"
 		(exclude_from_sim no)
-		(at 289.56 264.16 0)
+		(at 284.48 259.08 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1128,7 +1128,7 @@
 	)
 	(text_box "M1, M2, C1, C2, VCC, GND"
 		(exclude_from_sim no)
-		(at 464.82 83.82 0)
+		(at 459.74 78.74 0)
 		(size 53.34 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1151,7 +1151,7 @@
 	)
 	(text_box "Temperature & Humidity\n"
 		(exclude_from_sim no)
-		(at 200.66 116.84 0)
+		(at 195.58 111.76 0)
 		(size 27.94 12.7)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1174,7 +1174,7 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 149.86 363.22 0)
+		(at 144.78 358.14 0)
 		(size 70.485 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1197,7 +1197,7 @@
 	)
 	(text_box "Temperature & Humidity\n"
 		(exclude_from_sim no)
-		(at 200.66 287.02 0)
+		(at 195.58 281.94 0)
 		(size 27.94 12.7)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1220,7 +1220,7 @@
 	)
 	(text_box "M1, M2, C1, C2, VCC, GND"
 		(exclude_from_sim no)
-		(at 464.82 127 0)
+		(at 459.74 121.92 0)
 		(size 53.34 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1243,7 +1243,7 @@
 	)
 	(text_box "Current Sense\n"
 		(exclude_from_sim no)
-		(at 386.08 88.9 0)
+		(at 381 83.82 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1266,7 +1266,7 @@
 	)
 	(text_box "TIM6"
 		(exclude_from_sim no)
-		(at 317.5 335.28 0)
+		(at 312.42 330.2 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1289,7 +1289,7 @@
 	)
 	(text_box "MODE, DIAG, OCC, EN"
 		(exclude_from_sim no)
-		(at 386.08 99.06 0)
+		(at 381 93.98 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1312,7 +1312,7 @@
 	)
 	(text_box "RC Filter"
 		(exclude_from_sim no)
-		(at 228.6 154.94 0)
+		(at 223.52 149.86 0)
 		(size 10.16 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1335,7 +1335,7 @@
 	)
 	(text_box "SPI1, I2C1, USART2, TIM2_CH1-2 , TIM3_CH2"
 		(exclude_from_sim no)
-		(at 246.38 325.12 0)
+		(at 241.3 320.04 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1358,7 +1358,7 @@
 	)
 	(text_box "1x FD-CAN Connectors"
 		(exclude_from_sim no)
-		(at 116.84 177.8 0)
+		(at 111.76 172.72 0)
 		(size 27.94 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1381,7 +1381,7 @@
 	)
 	(text_box "ADC"
 		(exclude_from_sim no)
-		(at 289.56 274.32 0)
+		(at 284.48 269.24 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1404,7 +1404,7 @@
 	)
 	(text_box "TIM \nCH3,4"
 		(exclude_from_sim no)
-		(at 335.28 68.58 0)
+		(at 330.2 63.5 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1427,7 +1427,7 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 177.8 193.04 0)
+		(at 172.72 187.96 0)
 		(size 42.545 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1450,7 +1450,7 @@
 	)
 	(text_box "600kHZ - 1Mhz\n"
 		(exclude_from_sim no)
-		(at 67.31 393.7 0)
+		(at 62.23 388.62 0)
 		(size 34.29 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -1472,7 +1472,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 231.14 254 0)
+		(at 226.06 248.92 0)
 		(size 53.34 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1495,7 +1495,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 335.28 88.9 0)
+		(at 330.2 83.82 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1518,7 +1518,7 @@
 	)
 	(text_box "I2C\n"
 		(exclude_from_sim no)
-		(at 289.56 289.56 0)
+		(at 284.48 284.48 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1541,7 +1541,7 @@
 	)
 	(text_box "1x AUX1 Connector"
 		(exclude_from_sim no)
-		(at 190.5 154.94 0)
+		(at 185.42 149.86 0)
 		(size 27.94 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1564,7 +1564,7 @@
 	)
 	(text_box "STM32G474RET6\n"
 		(exclude_from_sim no)
-		(at 289.56 55.88 0)
+		(at 284.48 50.8 0)
 		(size 40.64 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -1587,7 +1587,7 @@
 	)
 	(text_box "1"
 		(exclude_from_sim no)
-		(at 307.34 66.04 0)
+		(at 302.26 60.96 0)
 		(size 5.08 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -1610,7 +1610,7 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 215.9 347.98 0)
+		(at 210.82 342.9 0)
 		(size 5.08 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1633,7 +1633,7 @@
 	)
 	(text_box "GPIO5\n"
 		(exclude_from_sim no)
-		(at 317.5 312.42 0)
+		(at 312.42 307.34 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1656,7 +1656,7 @@
 	)
 	(text_box "TIM1"
 		(exclude_from_sim no)
-		(at 317.5 78.74 0)
+		(at 312.42 73.66 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1679,7 +1679,7 @@
 	)
 	(text_box "TIM2\n"
 		(exclude_from_sim no)
-		(at 317.5 121.92 0)
+		(at 312.42 116.84 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1702,7 +1702,7 @@
 	)
 	(text_box "Termination Switch"
 		(exclude_from_sim no)
-		(at 193.04 347.98 0)
+		(at 187.96 342.9 0)
 		(size 22.86 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1725,7 +1725,7 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 218.44 144.78 0)
+		(at 213.36 139.7 0)
 		(size 26.035 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1748,7 +1748,7 @@
 	)
 	(text_box "Gate Control\n"
 		(exclude_from_sim no)
-		(at 386.08 111.76 0)
+		(at 381 106.68 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1771,7 +1771,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 231.14 289.56 0)
+		(at 226.06 284.48 0)
 		(size 53.34 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1794,7 +1794,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 335.28 302.26 0)
+		(at 330.2 297.18 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1817,7 +1817,7 @@
 	)
 	(text_box "INTERFACE"
 		(exclude_from_sim no)
-		(at 190.5 134.62 0)
+		(at 185.42 129.54 0)
 		(size 27.94 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -1840,7 +1840,7 @@
 	)
 	(text_box "MODE, DIAG, OCC, EN"
 		(exclude_from_sim no)
-		(at 386.08 355.6 0)
+		(at 381 350.52 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1863,7 +1863,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 231.14 264.16 0)
+		(at 226.06 259.08 0)
 		(size 53.34 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1886,7 +1886,7 @@
 	)
 	(text_box "Gate Control\n"
 		(exclude_from_sim no)
-		(at 386.08 68.58 0)
+		(at 381 63.5 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1909,7 +1909,7 @@
 	)
 	(text_box "M1, M2, C1, C2, VCC, GND"
 		(exclude_from_sim no)
-		(at 464.82 254 0)
+		(at 459.74 248.92 0)
 		(size 53.34 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1932,7 +1932,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 335.28 355.6 0)
+		(at 330.2 350.52 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1955,7 +1955,7 @@
 	)
 	(text_box "Page 11"
 		(exclude_from_sim no)
-		(at 355.6 208.28 0)
+		(at 350.52 203.2 0)
 		(size 17.78 5.08)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1980,7 +1980,7 @@
 	)
 	(text_box "SWD"
 		(exclude_from_sim no)
-		(at 289.56 144.78 0)
+		(at 284.48 139.7 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2003,7 +2003,7 @@
 	)
 	(text_box "DC Gear Motor Connector 3"
 		(exclude_from_sim no)
-		(at 520.7 165.1 0)
+		(at 515.62 160.02 0)
 		(size 27.94 17.78)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2026,7 +2026,7 @@
 	)
 	(text_box "3x \nHALL SENSOR"
 		(exclude_from_sim no)
-		(at 200.66 81.28 0)
+		(at 195.58 76.2 0)
 		(size 27.94 33.02)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2049,7 +2049,7 @@
 	)
 	(text_box "DC Gear Motor Connector 2"
 		(exclude_from_sim no)
-		(at 520.7 121.92 0)
+		(at 515.62 116.84 0)
 		(size 27.94 17.78)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2072,7 +2072,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 231.14 68.58 0)
+		(at 226.06 63.5 0)
 		(size 53.34 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2095,7 +2095,7 @@
 	)
 	(text_box "Page 11"
 		(exclude_from_sim no)
-		(at 355.6 378.46 0)
+		(at 350.52 373.38 0)
 		(size 17.78 5.08)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2120,7 +2120,7 @@
 	)
 	(text_box "Peak current:"
 		(exclude_from_sim no)
-		(at 20.32 386.08 0)
+		(at 15.24 381 0)
 		(size 41.91 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -2144,7 +2144,7 @@
 	)
 	(text_box "Current Sense\n"
 		(exclude_from_sim no)
-		(at 386.08 302.26 0)
+		(at 381 297.18 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2167,7 +2167,7 @@
 	)
 	(text_box "FDCAN"
 		(exclude_from_sim no)
-		(at 289.56 177.8 0)
+		(at 284.48 172.72 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2190,7 +2190,7 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 149.86 200.66 0)
+		(at 144.78 195.58 0)
 		(size 27.94 162.56)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2213,7 +2213,7 @@
 	)
 	(text_box "M1, M2, C1, C2, VCC, GND"
 		(exclude_from_sim no)
-		(at 464.82 297.18 0)
+		(at 459.74 292.1 0)
 		(size 53.34 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2236,7 +2236,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 335.28 345.44 0)
+		(at 330.2 340.36 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2259,7 +2259,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 335.28 312.42 0)
+		(at 330.2 307.34 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2282,7 +2282,7 @@
 	)
 	(text_box "Encoder\n"
 		(exclude_from_sim no)
-		(at 386.08 248.92 0)
+		(at 381 243.84 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2305,7 +2305,7 @@
 	)
 	(text_box "PWM3\n"
 		(exclude_from_sim no)
-		(at 317.5 154.94 0)
+		(at 312.42 149.86 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2328,7 +2328,7 @@
 	)
 	(text_box "USART1"
 		(exclude_from_sim no)
-		(at 243.205 363.22 0)
+		(at 238.125 358.14 0)
 		(size 41.275 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2351,7 +2351,7 @@
 	)
 	(text_box " TIM	\nCH1,2"
 		(exclude_from_sim no)
-		(at 335.28 121.92 0)
+		(at 330.2 116.84 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2374,7 +2374,7 @@
 	)
 	(text_box "Termination Switch"
 		(exclude_from_sim no)
-		(at 192.405 177.8 0)
+		(at 187.325 172.72 0)
 		(size 22.86 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2397,7 +2397,7 @@
 	)
 	(text_box "Current Sense\n"
 		(exclude_from_sim no)
-		(at 386.08 259.08 0)
+		(at 381 254 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2420,7 +2420,7 @@
 	)
 	(text_box "TB9051FTG\nMotor Driver 2\n"
 		(exclude_from_sim no)
-		(at 426.72 111.76 0)
+		(at 421.64 106.68 0)
 		(size 35.56 38.1)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2443,7 +2443,7 @@
 	)
 	(text_box "AUX1"
 		(exclude_from_sim no)
-		(at 289.56 154.94 0)
+		(at 284.48 149.86 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2466,7 +2466,7 @@
 	)
 	(text_box "INTERFACE"
 		(exclude_from_sim no)
-		(at 190.5 304.8 0)
+		(at 185.42 299.72 0)
 		(size 27.94 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -2489,7 +2489,7 @@
 	)
 	(text_box "Current Sense\n"
 		(exclude_from_sim no)
-		(at 386.08 132.08 0)
+		(at 381 127 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2512,7 +2512,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 335.28 269.24 0)
+		(at 330.2 264.16 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2535,7 +2535,7 @@
 	)
 	(text_box "STM32G474RET6\n"
 		(exclude_from_sim no)
-		(at 289.56 226.06 0)
+		(at 284.48 220.98 0)
 		(size 40.64 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -2558,7 +2558,7 @@
 	)
 	(text_box "DP, DM\n\n"
 		(exclude_from_sim no)
-		(at 244.348 335.28 0)
+		(at 239.268 330.2 0)
 		(size 40.132 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2581,7 +2581,7 @@
 	)
 	(text_box "Encoder\n"
 		(exclude_from_sim no)
-		(at 386.08 165.1 0)
+		(at 381 160.02 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2604,7 +2604,7 @@
 	)
 	(text_box "PWM"
 		(exclude_from_sim no)
-		(at 289.56 238.76 0)
+		(at 284.48 233.68 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2627,7 +2627,7 @@
 	)
 	(text_box "~200 uF Bulk Capacitance"
 		(exclude_from_sim no)
-		(at 50.927 78.105 0)
+		(at 57.15 72.39 0)
 		(size 25.4 10.16)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2651,7 +2651,7 @@
 	)
 	(text_box "Encoder\n"
 		(exclude_from_sim no)
-		(at 386.08 335.28 0)
+		(at 381 330.2 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2674,7 +2674,7 @@
 	)
 	(text_box "DC Gear Motor Connector 5"
 		(exclude_from_sim no)
-		(at 520.7 292.1 0)
+		(at 515.62 287.02 0)
 		(size 27.94 17.78)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2697,7 +2697,7 @@
 	)
 	(text_box "ADC3"
 		(exclude_from_sim no)
-		(at 317.5 175.26 0)
+		(at 312.42 170.18 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2720,7 +2720,7 @@
 	)
 	(text_box "RS-422 Transceiver"
 		(exclude_from_sim no)
-		(at 220.345 193.04 0)
+		(at 215.265 187.96 0)
 		(size 22.86 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2743,7 +2743,7 @@
 	)
 	(text_box "GPIO6\n"
 		(exclude_from_sim no)
-		(at 317.5 355.6 0)
+		(at 312.42 350.52 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2766,7 +2766,7 @@
 	)
 	(text_box "RC Filter"
 		(exclude_from_sim no)
-		(at 228.6 325.12 0)
+		(at 223.52 320.04 0)
 		(size 10.16 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2789,7 +2789,7 @@
 	)
 	(text_box "1x Debug Connector"
 		(exclude_from_sim no)
-		(at 190.5 144.78 0)
+		(at 185.42 139.7 0)
 		(size 27.94 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2812,7 +2812,7 @@
 	)
 	(text_box "FD-CAN Transceiver"
 		(exclude_from_sim no)
-		(at 220.98 347.98 0)
+		(at 215.9 342.9 0)
 		(size 22.225 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2835,7 +2835,7 @@
 	)
 	(text_box "Gate Control\n"
 		(exclude_from_sim no)
-		(at 386.08 325.12 0)
+		(at 381 320.04 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2881,7 +2881,7 @@
 	)
 	(text_box "1x AUX1 Connector"
 		(exclude_from_sim no)
-		(at 190.5 325.12 0)
+		(at 185.42 320.04 0)
 		(size 27.94 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2904,7 +2904,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 335.28 132.08 0)
+		(at 330.2 127 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2927,7 +2927,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 231.14 274.32 0)
+		(at 226.06 269.24 0)
 		(size 53.34 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2950,7 +2950,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 335.28 175.26 0)
+		(at 330.2 170.18 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2973,7 +2973,7 @@
 	)
 	(text_box "Encoder\n"
 		(exclude_from_sim no)
-		(at 386.08 121.92 0)
+		(at 381 116.84 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -2996,7 +2996,7 @@
 	)
 	(text_box "2A"
 		(exclude_from_sim no)
-		(at 67.31 378.46 0)
+		(at 62.23 373.38 0)
 		(size 24.13 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -3018,7 +3018,7 @@
 	)
 	(text_box "3x \nHALL SENSOR"
 		(exclude_from_sim no)
-		(at 200.66 251.46 0)
+		(at 195.58 246.38 0)
 		(size 27.94 33.02)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3041,7 +3041,7 @@
 	)
 	(text_box "Input voltage:"
 		(exclude_from_sim no)
-		(at 20.32 370.84 0)
+		(at 15.24 365.76 0)
 		(size 41.91 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -3065,7 +3065,7 @@
 	)
 	(text_box "SECTION"
 		(exclude_from_sim no)
-		(at 200.66 55.88 0)
+		(at 195.58 50.8 0)
 		(size 27.94 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -3088,7 +3088,7 @@
 	)
 	(text_box "FDCAN2"
 		(exclude_from_sim no)
-		(at 243.205 347.98 0)
+		(at 238.125 342.9 0)
 		(size 41.275 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3111,7 +3111,7 @@
 	)
 	(text_box "Gate Control\n"
 		(exclude_from_sim no)
-		(at 386.08 281.94 0)
+		(at 381 276.86 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3134,7 +3134,7 @@
 	)
 	(text_box "3x MOTOR LEDs"
 		(exclude_from_sim no)
-		(at 347.345 382.905 0)
+		(at 342.265 377.825 0)
 		(size 38.735 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -3158,7 +3158,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 335.28 142.24 0)
+		(at 330.2 137.16 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3181,7 +3181,7 @@
 	)
 	(text_box "Buck\nMax 3A"
 		(exclude_from_sim no)
-		(at 60.452 63.5 0)
+		(at 55.372 58.42 0)
 		(size 25.4 10.16)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3204,7 +3204,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 231.14 83.82 0)
+		(at 226.06 78.74 0)
 		(size 53.34 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3227,7 +3227,7 @@
 	)
 	(text_box "PWM4\n"
 		(exclude_from_sim no)
-		(at 317.5 238.76 0)
+		(at 312.42 233.68 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3250,7 +3250,7 @@
 	)
 	(text_box "Buck\nMax 1A"
 		(exclude_from_sim no)
-		(at 60.452 120.65 0)
+		(at 55.372 115.57 0)
 		(size 25.4 10.795)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3273,7 +3273,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 335.28 259.08 0)
+		(at 330.2 254 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3296,7 +3296,7 @@
 	)
 	(text_box "Target specifications:"
 		(exclude_from_sim no)
-		(at 17.78 360.68 0)
+		(at 12.7 355.6 0)
 		(size 73.66 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -3320,7 +3320,7 @@
 	)
 	(text_box "TIM\nCH1,2"
 		(exclude_from_sim no)
-		(at 335.28 248.92 0)
+		(at 330.2 243.84 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3343,7 +3343,7 @@
 	)
 	(text_box " TIM	\nCH1,2"
 		(exclude_from_sim no)
-		(at 335.28 292.1 0)
+		(at 330.2 287.02 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3366,7 +3366,7 @@
 	)
 	(text_box "M1, M2, C1, C2, VCC, GND"
 		(exclude_from_sim no)
-		(at 464.82 170.18 0)
+		(at 459.74 165.1 0)
 		(size 53.34 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3389,7 +3389,7 @@
 	)
 	(text_box "SPI1, I2C1, USART2, TIM2_CH1-2 , TIM3_CH2"
 		(exclude_from_sim no)
-		(at 246.38 154.94 0)
+		(at 241.3 149.86 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3412,7 +3412,7 @@
 	)
 	(text_box "ADC4"
 		(exclude_from_sim no)
-		(at 317.5 259.08 0)
+		(at 312.42 254 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3435,7 +3435,7 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 218.44 335.28 0)
+		(at 213.36 330.2 0)
 		(size 27.432 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3458,7 +3458,7 @@
 	)
 	(text_box "FD-CAN Transceiver"
 		(exclude_from_sim no)
-		(at 220.345 177.8 0)
+		(at 215.265 172.72 0)
 		(size 22.86 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3481,7 +3481,7 @@
 	)
 	(text_box "ADC6"
 		(exclude_from_sim no)
-		(at 317.5 345.44 0)
+		(at 312.42 340.36 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3504,7 +3504,7 @@
 	)
 	(text_box "RS-422 Transceiver"
 		(exclude_from_sim no)
-		(at 220.345 363.22 0)
+		(at 215.265 358.14 0)
 		(size 22.86 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3527,7 +3527,7 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 131.445 347.98 0)
+		(at 126.365 342.9 0)
 		(size 61.595 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3550,7 +3550,7 @@
 	)
 	(text_box "ADC5\n"
 		(exclude_from_sim no)
-		(at 317.5 302.26 0)
+		(at 312.42 297.18 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3573,7 +3573,7 @@
 	)
 	(text_box "2"
 		(exclude_from_sim no)
-		(at 307.34 236.22 0)
+		(at 302.26 231.14 0)
 		(size 5.08 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -3596,7 +3596,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 231.14 238.76 0)
+		(at 226.06 233.68 0)
 		(size 53.34 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3619,7 +3619,7 @@
 	)
 	(text_box "MODE, DIAG, OCC, EN"
 		(exclude_from_sim no)
-		(at 386.08 142.24 0)
+		(at 381 137.16 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3642,7 +3642,7 @@
 	)
 	(text_box "1x USB Connector\n"
 		(exclude_from_sim no)
-		(at 190.5 165.1 0)
+		(at 185.42 160.02 0)
 		(size 27.94 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3665,7 +3665,7 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 116.84 185.42 0)
+		(at 111.76 180.34 0)
 		(size 27.94 170.18)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3688,7 +3688,7 @@
 	)
 	(text_box "TIM \nCH3,4"
 		(exclude_from_sim no)
-		(at 335.28 238.76 0)
+		(at 330.2 233.68 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3711,7 +3711,7 @@
 	)
 	(text_box "Page #"
 		(exclude_from_sim no)
-		(at 184.15 251.46 0)
+		(at 179.07 246.38 0)
 		(size 17.78 5.08)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3735,7 +3735,7 @@
 	)
 	(text_box "4A"
 		(exclude_from_sim no)
-		(at 67.31 386.08 0)
+		(at 62.23 381 0)
 		(size 24.13 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -3757,7 +3757,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 335.28 99.06 0)
+		(at 330.2 93.98 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3780,7 +3780,7 @@
 	)
 	(text_box "GPIO1\n"
 		(exclude_from_sim no)
-		(at 317.5 99.06 0)
+		(at 312.42 93.98 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3803,7 +3803,7 @@
 	)
 	(text_box "1x Debug Connector"
 		(exclude_from_sim no)
-		(at 190.5 314.96 0)
+		(at 185.42 309.88 0)
 		(size 27.94 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3826,7 +3826,7 @@
 	)
 	(text_box "UART"
 		(exclude_from_sim no)
-		(at 289.56 193.04 0)
+		(at 284.48 187.96 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3849,7 +3849,7 @@
 	)
 	(text_box "FDCAN"
 		(exclude_from_sim no)
-		(at 289.56 347.98 0)
+		(at 284.48 342.9 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3872,7 +3872,7 @@
 	)
 	(text_box "ADC1"
 		(exclude_from_sim no)
-		(at 317.5 88.9 0)
+		(at 312.42 83.82 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3895,7 +3895,7 @@
 	)
 	(text_box "Encoder\n"
 		(exclude_from_sim no)
-		(at 386.08 78.74 0)
+		(at 381 73.66 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3918,7 +3918,7 @@
 	)
 	(text_box "TIM4"
 		(exclude_from_sim no)
-		(at 317.5 248.92 0)
+		(at 312.42 243.84 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3941,7 +3941,7 @@
 	)
 	(text_box "M1, M2, C1, C2, VCC, GND"
 		(exclude_from_sim no)
-		(at 464.82 340.36 0)
+		(at 459.74 335.28 0)
 		(size 53.34 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3964,7 +3964,7 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 218.44 154.94 0)
+		(at 213.36 149.86 0)
 		(size 10.16 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -3987,7 +3987,7 @@
 	)
 	(text_box "SECTION"
 		(exclude_from_sim no)
-		(at 200.66 226.06 0)
+		(at 195.58 220.98 0)
 		(size 27.94 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -4010,7 +4010,7 @@
 	)
 	(text_box "TIM\nCH3,4\n"
 		(exclude_from_sim no)
-		(at 335.28 281.94 0)
+		(at 330.2 276.86 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4033,7 +4033,7 @@
 	)
 	(text_box "GPIO"
 		(exclude_from_sim no)
-		(at 317.5 198.12 0)
+		(at 312.42 193.04 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4056,7 +4056,7 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 238.76 154.94 0)
+		(at 233.68 149.86 0)
 		(size 10.16 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4079,7 +4079,7 @@
 	)
 	(text_box "ADC"
 		(exclude_from_sim no)
-		(at 289.56 83.82 0)
+		(at 284.48 78.74 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4102,7 +4102,7 @@
 	)
 	(text_box "DC Gear Motor Connector 4"
 		(exclude_from_sim no)
-		(at 520.7 248.92 0)
+		(at 515.62 243.84 0)
 		(size 27.94 17.78)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4125,7 +4125,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 231.14 119.38 0)
+		(at 226.06 114.3 0)
 		(size 53.34 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4148,7 +4148,7 @@
 	)
 	(text_box "SWD"
 		(exclude_from_sim no)
-		(at 289.56 314.96 0)
+		(at 284.48 309.88 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4171,7 +4171,7 @@
 	)
 	(text_box "TIM\nCH1,2"
 		(exclude_from_sim no)
-		(at 335.28 78.74 0)
+		(at 330.2 73.66 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4194,7 +4194,7 @@
 	)
 	(text_box " TIM	\nCH1,2"
 		(exclude_from_sim no)
-		(at 335.28 335.28 0)
+		(at 330.2 330.2 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4217,7 +4217,7 @@
 	)
 	(text_box "DC Gear Motor Connector 1"
 		(exclude_from_sim no)
-		(at 520.7 78.74 0)
+		(at 515.62 73.66 0)
 		(size 27.94 17.78)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4240,7 +4240,7 @@
 	)
 	(text_box "DC Gear Motor Connector 6"
 		(exclude_from_sim no)
-		(at 520.7 335.28 0)
+		(at 515.62 330.2 0)
 		(size 27.94 17.78)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4263,7 +4263,7 @@
 	)
 	(text_box "Gate Control\n"
 		(exclude_from_sim no)
-		(at 386.08 238.76 0)
+		(at 381 233.68 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4286,7 +4286,7 @@
 	)
 	(text_box "ADC"
 		(exclude_from_sim no)
-		(at 289.56 254 0)
+		(at 284.48 248.92 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4309,7 +4309,7 @@
 	)
 	(text_box "GPIO2\n"
 		(exclude_from_sim no)
-		(at 317.5 142.24 0)
+		(at 312.42 137.16 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4332,7 +4332,7 @@
 	)
 	(text_box "ADC2\n"
 		(exclude_from_sim no)
-		(at 317.5 132.08 0)
+		(at 312.42 127 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4355,7 +4355,7 @@
 	)
 	(text_box "PWM6\n"
 		(exclude_from_sim no)
-		(at 317.5 325.12 0)
+		(at 312.42 320.04 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4378,7 +4378,7 @@
 	)
 	(text_box "ADC"
 		(exclude_from_sim no)
-		(at 289.56 93.98 0)
+		(at 284.48 88.9 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4401,7 +4401,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 231.14 104.14 0)
+		(at 226.06 99.06 0)
 		(size 53.34 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4424,7 +4424,7 @@
 	)
 	(text_box "Switching frequency:"
 		(exclude_from_sim no)
-		(at 20.32 393.7 0)
+		(at 15.24 388.62 0)
 		(size 44.45 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -4448,7 +4448,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 335.28 185.42 0)
+		(at 330.2 180.34 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4471,7 +4471,7 @@
 	)
 	(text_box "PWM2\n"
 		(exclude_from_sim no)
-		(at 317.5 111.76 0)
+		(at 312.42 106.68 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4494,7 +4494,7 @@
 	)
 	(text_box "TIM\nCH3,4\n"
 		(exclude_from_sim no)
-		(at 335.28 154.94 0)
+		(at 330.2 149.86 0)
 		(size 48.26 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4517,7 +4517,7 @@
 	)
 	(text_box "GPIO"
 		(exclude_from_sim no)
-		(at 317.5 368.3 0)
+		(at 312.42 363.22 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4540,7 +4540,7 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 218.44 165.1 0)
+		(at 213.36 160.02 0)
 		(size 27.432 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4563,7 +4563,7 @@
 	)
 	(text_box "USB\n"
 		(exclude_from_sim no)
-		(at 289.56 165.1 0)
+		(at 284.48 160.02 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4586,7 +4586,7 @@
 	)
 	(text_box "FDCAN2"
 		(exclude_from_sim no)
-		(at 243.205 177.8 0)
+		(at 238.125 172.72 0)
 		(size 41.275 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4609,7 +4609,7 @@
 	)
 	(text_box "BATTERY VOLTAGE\n\n"
 		(exclude_from_sim no)
-		(at 200.66 66.04 0)
+		(at 195.58 60.96 0)
 		(size 27.94 12.7)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4632,7 +4632,7 @@
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
-		(at 231.14 93.98 0)
+		(at 226.06 88.9 0)
 		(size 53.34 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4655,7 +4655,7 @@
 	)
 	(text_box "TIM5\n"
 		(exclude_from_sim no)
-		(at 317.5 292.1 0)
+		(at 312.42 287.02 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4678,7 +4678,7 @@
 	)
 	(text_box "1x USB Connector\n"
 		(exclude_from_sim no)
-		(at 190.5 335.28 0)
+		(at 185.42 330.2 0)
 		(size 27.94 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4701,7 +4701,7 @@
 	)
 	(text_box "TIM3"
 		(exclude_from_sim no)
-		(at 317.5 165.1 0)
+		(at 312.42 160.02 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4724,7 +4724,7 @@
 	)
 	(text_box "Continuous current:"
 		(exclude_from_sim no)
-		(at 20.32 378.46 0)
+		(at 15.24 373.38 0)
 		(size 43.18 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -4748,7 +4748,7 @@
 	)
 	(text_box "PWM1\n"
 		(exclude_from_sim no)
-		(at 317.5 68.58 0)
+		(at 312.42 63.5 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4771,7 +4771,7 @@
 	)
 	(text_box "LDO\nMax 500mA"
 		(exclude_from_sim no)
-		(at 60.452 139.7 0)
+		(at 55.372 134.62 0)
 		(size 25.4 10.16)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4794,7 +4794,7 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 218.44 314.96 0)
+		(at 213.36 309.88 0)
 		(size 26.035 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4817,7 +4817,7 @@
 	)
 	(text_box "TB9051FTG\nMotor Driver 3\n"
 		(exclude_from_sim no)
-		(at 426.72 154.94 0)
+		(at 421.64 149.86 0)
 		(size 35.56 38.1)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4840,7 +4840,7 @@
 	)
 	(text_box "SWDIO, SWCLK, NRST"
 		(exclude_from_sim no)
-		(at 244.475 144.78 0)
+		(at 239.395 139.7 0)
 		(size 40.005 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4863,7 +4863,7 @@
 	)
 	(text_box "TB9051FTG\nMotor Driver 4\n"
 		(exclude_from_sim no)
-		(at 426.72 238.76 0)
+		(at 421.64 233.68 0)
 		(size 35.56 38.1)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4886,7 +4886,7 @@
 	)
 	(text_box "TB9051FTG\nMotor Driver 5\n"
 		(exclude_from_sim no)
-		(at 426.72 281.94 0)
+		(at 421.64 276.86 0)
 		(size 35.56 38.1)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4909,7 +4909,7 @@
 	)
 	(text_box "Gate Control\n"
 		(exclude_from_sim no)
-		(at 386.08 154.94 0)
+		(at 381 149.86 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4932,7 +4932,7 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 218.44 325.12 0)
+		(at 213.36 320.04 0)
 		(size 10.16 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4955,7 +4955,7 @@
 	)
 	(text_box "GPIO4\n"
 		(exclude_from_sim no)
-		(at 317.5 269.24 0)
+		(at 312.42 264.16 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -4978,7 +4978,7 @@
 	)
 	(text_box "GPIO3\n"
 		(exclude_from_sim no)
-		(at 317.5 185.42 0)
+		(at 312.42 180.34 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -5001,7 +5001,7 @@
 	)
 	(text_box "1x RS-422 Connector"
 		(exclude_from_sim no)
-		(at 149.86 193.04 0)
+		(at 144.78 187.96 0)
 		(size 27.94 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -5024,7 +5024,7 @@
 	)
 	(text_box "PWM5\n"
 		(exclude_from_sim no)
-		(at 317.5 281.94 0)
+		(at 312.42 276.86 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -5047,7 +5047,7 @@
 	)
 	(text_box "Current Sense\n"
 		(exclude_from_sim no)
-		(at 386.08 345.44 0)
+		(at 381 340.36 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -5070,7 +5070,7 @@
 	)
 	(text_box "DP, DM\n\n"
 		(exclude_from_sim no)
-		(at 244.348 165.1 0)
+		(at 239.268 160.02 0)
 		(size 40.132 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -5093,7 +5093,7 @@
 	)
 	(text_box "USART1"
 		(exclude_from_sim no)
-		(at 243.205 193.04 0)
+		(at 238.125 187.96 0)
 		(size 41.275 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -5116,7 +5116,7 @@
 	)
 	(text_box "Encoder\n"
 		(exclude_from_sim no)
-		(at 386.08 292.1 0)
+		(at 381 287.02 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -5139,7 +5139,7 @@
 	)
 	(text_box "MODE, DIAG, OCC, EN"
 		(exclude_from_sim no)
-		(at 386.08 312.42 0)
+		(at 381 307.34 0)
 		(size 38.1 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -5162,7 +5162,7 @@
 	)
 	(text_box "TB9051FTG\nMotor Driver 1\n"
 		(exclude_from_sim no)
-		(at 426.72 68.58 0)
+		(at 421.64 63.5 0)
 		(size 35.56 38.1)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -5185,7 +5185,7 @@
 	)
 	(text_box "UART"
 		(exclude_from_sim no)
-		(at 289.56 363.22 0)
+		(at 284.48 358.14 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -5208,7 +5208,7 @@
 	)
 	(text_box "3x MOTOR LEDs"
 		(exclude_from_sim no)
-		(at 347.345 213.36 0)
+		(at 342.265 208.28 0)
 		(size 38.735 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -5232,7 +5232,7 @@
 	)
 	(polyline
 		(pts
-			(xy 477.52 289.56) (xy 482.6 289.56)
+			(xy 472.44 284.48) (xy 477.52 284.48)
 		)
 		(stroke
 			(width 1.016)
@@ -5243,7 +5243,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 116.84) (xy 482.6 119.38)
+			(xy 477.52 111.76) (xy 477.52 114.3)
 		)
 		(stroke
 			(width 1.016)
@@ -5254,7 +5254,7 @@
 	)
 	(polyline
 		(pts
-			(xy 355.6 198.12) (xy 354.33 198.12)
+			(xy 350.52 193.04) (xy 349.25 193.04)
 		)
 		(stroke
 			(width 0.508)
@@ -5265,7 +5265,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 111.76) (xy 485.14 111.76)
+			(xy 477.52 106.68) (xy 480.06 106.68)
 		)
 		(stroke
 			(width 1.016)
@@ -5276,7 +5276,7 @@
 	)
 	(polyline
 		(pts
-			(xy 274.32 60.96) (xy 287.02 60.96)
+			(xy 269.24 55.88) (xy 281.94 55.88)
 		)
 		(stroke
 			(width 1.016)
@@ -5287,7 +5287,7 @@
 	)
 	(polyline
 		(pts
-			(xy 480.06 238.76) (xy 485.14 238.76)
+			(xy 474.98 233.68) (xy 480.06 233.68)
 		)
 		(stroke
 			(width 1.016)
@@ -5298,7 +5298,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 281.94) (xy 482.6 289.56)
+			(xy 477.52 276.86) (xy 477.52 284.48)
 		)
 		(stroke
 			(width 1.016)
@@ -5309,7 +5309,7 @@
 	)
 	(polyline
 		(pts
-			(xy 347.98 373.38) (xy 347.98 373.38)
+			(xy 342.9 368.3) (xy 342.9 368.3)
 		)
 		(stroke
 			(width 1.016)
@@ -5320,7 +5320,7 @@
 	)
 	(polyline
 		(pts
-			(xy 103.632 115.57) (xy 103.632 125.73)
+			(xy 98.552 110.49) (xy 98.552 120.65)
 		)
 		(stroke
 			(width 1.016)
@@ -5331,7 +5331,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.66 76.2) (xy 185.42 76.2)
+			(xy 195.58 71.12) (xy 180.34 71.12)
 		)
 		(stroke
 			(width 1.016)
@@ -5342,7 +5342,7 @@
 	)
 	(polyline
 		(pts
-			(xy 182.88 261.62) (xy 187.96 261.62)
+			(xy 177.8 256.54) (xy 182.88 256.54)
 		)
 		(stroke
 			(width 1.016)
@@ -5353,7 +5353,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 312.42) (xy 482.6 308.61)
+			(xy 477.52 307.34) (xy 477.52 303.53)
 		)
 		(stroke
 			(width 1.016)
@@ -5364,7 +5364,7 @@
 	)
 	(polyline
 		(pts
-			(xy 332.74 203.2) (xy 345.44 203.2)
+			(xy 327.66 198.12) (xy 340.36 198.12)
 		)
 		(stroke
 			(width 1.016)
@@ -5375,7 +5375,7 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 284.48) (xy 185.42 292.1)
+			(xy 180.34 279.4) (xy 180.34 287.02)
 		)
 		(stroke
 			(width 1.016)
@@ -5386,7 +5386,7 @@
 	)
 	(polyline
 		(pts
-			(xy 88.9 144.78) (xy 103.632 144.78)
+			(xy 83.82 139.7) (xy 98.552 139.7)
 		)
 		(stroke
 			(width 1.016)
@@ -5397,7 +5397,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 154.94) (xy 485.14 154.94)
+			(xy 477.52 149.86) (xy 480.06 149.86)
 		)
 		(stroke
 			(width 1.016)
@@ -5408,7 +5408,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 269.24) (xy 462.28 269.24)
+			(xy 477.52 264.16) (xy 457.2 264.16)
 		)
 		(stroke
 			(width 1.016)
@@ -5419,7 +5419,7 @@
 	)
 	(polyline
 		(pts
-			(xy 350.52 200.66) (xy 350.52 205.74)
+			(xy 345.44 195.58) (xy 345.44 200.66)
 		)
 		(stroke
 			(width 0.508)
@@ -5430,7 +5430,7 @@
 	)
 	(polyline
 		(pts
-			(xy 363.22 207.01) (xy 363.22 203.2)
+			(xy 358.14 201.93) (xy 358.14 198.12)
 		)
 		(stroke
 			(width 1.016)
@@ -5441,7 +5441,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 68.58) (xy 485.14 68.58)
+			(xy 477.52 63.5) (xy 480.06 63.5)
 		)
 		(stroke
 			(width 1.016)
@@ -5452,7 +5452,7 @@
 	)
 	(polyline
 		(pts
-			(xy 356.235 200.025) (xy 358.775 198.12)
+			(xy 351.155 194.945) (xy 353.695 193.04)
 		)
 		(stroke
 			(width 0.508)
@@ -5463,7 +5463,7 @@
 	)
 	(polyline
 		(pts
-			(xy 103.632 58.42) (xy 99.822 58.42)
+			(xy 98.552 53.34) (xy 94.742 53.34)
 		)
 		(stroke
 			(width 1.016)
@@ -5474,7 +5474,7 @@
 	)
 	(polyline
 		(pts
-			(xy 480.06 68.58) (xy 485.14 68.58)
+			(xy 474.98 63.5) (xy 480.06 63.5)
 		)
 		(stroke
 			(width 1.016)
@@ -5485,7 +5485,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 238.76) (xy 485.14 238.76)
+			(xy 477.52 233.68) (xy 480.06 233.68)
 		)
 		(stroke
 			(width 1.016)
@@ -5496,7 +5496,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 269.24) (xy 482.6 265.43)
+			(xy 477.52 264.16) (xy 477.52 260.35)
 		)
 		(stroke
 			(width 1.016)
@@ -5507,7 +5507,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 146.05) (xy 482.6 142.24)
+			(xy 477.52 140.97) (xy 477.52 137.16)
 		)
 		(stroke
 			(width 1.016)
@@ -5518,7 +5518,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 99.06) (xy 462.28 99.06)
+			(xy 477.52 93.98) (xy 457.2 93.98)
 		)
 		(stroke
 			(width 1.016)
@@ -5529,7 +5529,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 102.87) (xy 482.6 99.06)
+			(xy 477.52 97.79) (xy 477.52 93.98)
 		)
 		(stroke
 			(width 1.016)
@@ -5540,7 +5540,7 @@
 	)
 	(polyline
 		(pts
-			(xy 356.235 370.205) (xy 358.775 368.3)
+			(xy 351.155 365.125) (xy 353.695 363.22)
 		)
 		(stroke
 			(width 0.508)
@@ -5551,7 +5551,7 @@
 	)
 	(polyline
 		(pts
-			(xy 345.44 203.2) (xy 347.98 203.2)
+			(xy 340.36 198.12) (xy 342.9 198.12)
 		)
 		(stroke
 			(width 1.016)
@@ -5562,7 +5562,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 154.94) (xy 482.6 162.56)
+			(xy 477.52 149.86) (xy 477.52 157.48)
 		)
 		(stroke
 			(width 1.016)
@@ -5573,7 +5573,7 @@
 	)
 	(polyline
 		(pts
-			(xy 182.88 284.48) (xy 187.96 284.48)
+			(xy 177.8 279.4) (xy 182.88 279.4)
 		)
 		(stroke
 			(width 1.016)
@@ -5584,7 +5584,7 @@
 	)
 	(polyline
 		(pts
-			(xy 477.52 119.38) (xy 482.6 119.38)
+			(xy 472.44 114.3) (xy 477.52 114.3)
 		)
 		(stroke
 			(width 1.016)
@@ -5595,7 +5595,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 154.94) (xy 485.14 154.94)
+			(xy 477.52 149.86) (xy 480.06 149.86)
 		)
 		(stroke
 			(width 1.016)
@@ -5606,7 +5606,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 325.12) (xy 482.6 332.74)
+			(xy 477.52 320.04) (xy 477.52 327.66)
 		)
 		(stroke
 			(width 1.016)
@@ -5617,7 +5617,7 @@
 	)
 	(polyline
 		(pts
-			(xy 103.632 58.42) (xy 103.632 68.58)
+			(xy 98.552 53.34) (xy 98.552 63.5)
 		)
 		(stroke
 			(width 1.016)
@@ -5628,7 +5628,7 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 261.62) (xy 185.42 269.24)
+			(xy 180.34 256.54) (xy 180.34 264.16)
 		)
 		(stroke
 			(width 1.016)
@@ -5639,7 +5639,7 @@
 	)
 	(polyline
 		(pts
-			(xy 355.6 368.3) (xy 354.33 368.3)
+			(xy 350.52 363.22) (xy 349.25 363.22)
 		)
 		(stroke
 			(width 0.508)
@@ -5650,7 +5650,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 142.24) (xy 482.6 138.43)
+			(xy 477.52 137.16) (xy 477.52 133.35)
 		)
 		(stroke
 			(width 1.016)
@@ -5661,7 +5661,7 @@
 	)
 	(polyline
 		(pts
-			(xy 274.32 220.98) (xy 274.32 231.14)
+			(xy 269.24 215.9) (xy 269.24 226.06)
 		)
 		(stroke
 			(width 1.016)
@@ -5672,7 +5672,7 @@
 	)
 	(polyline
 		(pts
-			(xy 462.28 246.38) (xy 477.52 246.38)
+			(xy 457.2 241.3) (xy 472.44 241.3)
 		)
 		(stroke
 			(width 1.016)
@@ -5683,7 +5683,7 @@
 	)
 	(polyline
 		(pts
-			(xy 480.06 154.94) (xy 485.14 154.94)
+			(xy 474.98 149.86) (xy 480.06 149.86)
 		)
 		(stroke
 			(width 1.016)
@@ -5694,7 +5694,7 @@
 	)
 	(polyline
 		(pts
-			(xy 103.632 134.62) (xy 99.822 134.62)
+			(xy 98.552 129.54) (xy 94.742 129.54)
 		)
 		(stroke
 			(width 1.016)
@@ -5705,7 +5705,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 68.58) (xy 485.14 68.58)
+			(xy 477.52 63.5) (xy 480.06 63.5)
 		)
 		(stroke
 			(width 1.016)
@@ -5716,7 +5716,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 316.23) (xy 482.6 312.42)
+			(xy 477.52 311.15) (xy 477.52 307.34)
 		)
 		(stroke
 			(width 1.016)
@@ -5727,7 +5727,7 @@
 	)
 	(polyline
 		(pts
-			(xy 41.402 115.57) (xy 41.402 125.73)
+			(xy 36.322 110.49) (xy 36.322 120.65)
 		)
 		(stroke
 			(width 1.016)
@@ -5738,7 +5738,7 @@
 	)
 	(polyline
 		(pts
-			(xy 350.52 373.38) (xy 354.33 375.92)
+			(xy 345.44 368.3) (xy 349.25 370.84)
 		)
 		(stroke
 			(width 0.508)
@@ -5749,7 +5749,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 111.76) (xy 482.6 119.38)
+			(xy 477.52 106.68) (xy 477.52 114.3)
 		)
 		(stroke
 			(width 1.016)
@@ -5760,7 +5760,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 359.41) (xy 482.6 355.6)
+			(xy 477.52 354.33) (xy 477.52 350.52)
 		)
 		(stroke
 			(width 1.016)
@@ -5771,7 +5771,7 @@
 	)
 	(polyline
 		(pts
-			(xy 358.775 368.3) (xy 358.394 369.57)
+			(xy 353.695 363.22) (xy 353.314 364.49)
 		)
 		(stroke
 			(width 0.508)
@@ -5782,7 +5782,7 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 114.3) (xy 185.42 121.92)
+			(xy 180.34 109.22) (xy 180.34 116.84)
 		)
 		(stroke
 			(width 1.016)
@@ -5793,7 +5793,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 325.12) (xy 485.14 325.12)
+			(xy 477.52 320.04) (xy 480.06 320.04)
 		)
 		(stroke
 			(width 1.016)
@@ -5804,7 +5804,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 119.38) (xy 482.6 119.38)
+			(xy 477.52 114.3) (xy 477.52 114.3)
 		)
 		(stroke
 			(width 1.016)
@@ -5815,7 +5815,7 @@
 	)
 	(polyline
 		(pts
-			(xy 274.32 50.8) (xy 270.51 50.8)
+			(xy 269.24 45.72) (xy 265.43 45.72)
 		)
 		(stroke
 			(width 1.016)
@@ -5826,7 +5826,7 @@
 	)
 	(polyline
 		(pts
-			(xy 274.32 50.8) (xy 274.32 60.96)
+			(xy 269.24 45.72) (xy 269.24 55.88)
 		)
 		(stroke
 			(width 1.016)
@@ -5837,7 +5837,7 @@
 	)
 	(polyline
 		(pts
-			(xy 41.402 125.73) (xy 41.402 144.78)
+			(xy 36.322 120.65) (xy 36.322 139.7)
 		)
 		(stroke
 			(width 1.016)
@@ -5848,7 +5848,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 238.76) (xy 482.6 246.38)
+			(xy 477.52 233.68) (xy 477.52 241.3)
 		)
 		(stroke
 			(width 1.016)
@@ -5859,7 +5859,7 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 284.48) (xy 182.88 284.48)
+			(xy 180.34 279.4) (xy 177.8 279.4)
 		)
 		(stroke
 			(width 1.016)
@@ -5870,7 +5870,7 @@
 	)
 	(polyline
 		(pts
-			(xy 477.52 76.2) (xy 482.6 76.2)
+			(xy 472.44 71.12) (xy 477.52 71.12)
 		)
 		(stroke
 			(width 1.016)
@@ -5881,7 +5881,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 355.6) (xy 462.28 355.6)
+			(xy 477.52 350.52) (xy 457.2 350.52)
 		)
 		(stroke
 			(width 1.016)
@@ -5892,7 +5892,7 @@
 	)
 	(polyline
 		(pts
-			(xy 462.28 162.56) (xy 472.44 162.56)
+			(xy 457.2 157.48) (xy 467.36 157.48)
 		)
 		(stroke
 			(width 1.016)
@@ -5903,7 +5903,7 @@
 	)
 	(polyline
 		(pts
-			(xy 350.52 373.38) (xy 354.33 370.84)
+			(xy 345.44 368.3) (xy 349.25 365.76)
 		)
 		(stroke
 			(width 0.508)
@@ -5914,7 +5914,7 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 66.04) (xy 187.96 66.04)
+			(xy 180.34 60.96) (xy 182.88 60.96)
 		)
 		(stroke
 			(width 1.016)
@@ -5925,7 +5925,7 @@
 	)
 	(polyline
 		(pts
-			(xy 45.212 115.57) (xy 41.402 115.57)
+			(xy 40.132 110.49) (xy 36.322 110.49)
 		)
 		(stroke
 			(width 1.016)
@@ -5936,7 +5936,7 @@
 	)
 	(polyline
 		(pts
-			(xy 345.44 203.2) (xy 347.98 203.2)
+			(xy 340.36 198.12) (xy 342.9 198.12)
 		)
 		(stroke
 			(width 1.016)
@@ -5947,7 +5947,7 @@
 	)
 	(polyline
 		(pts
-			(xy 480.06 281.94) (xy 485.14 281.94)
+			(xy 474.98 276.86) (xy 480.06 276.86)
 		)
 		(stroke
 			(width 1.016)
@@ -5958,7 +5958,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.66 269.24) (xy 185.42 269.24)
+			(xy 195.58 264.16) (xy 180.34 264.16)
 		)
 		(stroke
 			(width 1.016)
@@ -5969,7 +5969,7 @@
 	)
 	(polyline
 		(pts
-			(xy 354.33 200.66) (xy 354.33 205.74)
+			(xy 349.25 195.58) (xy 349.25 200.66)
 		)
 		(stroke
 			(width 0.508)
@@ -5980,7 +5980,7 @@
 	)
 	(polyline
 		(pts
-			(xy 477.52 332.74) (xy 482.6 332.74)
+			(xy 472.44 327.66) (xy 477.52 327.66)
 		)
 		(stroke
 			(width 1.016)
@@ -5991,7 +5991,7 @@
 	)
 	(polyline
 		(pts
-			(xy 41.402 58.42) (xy 41.402 60.96)
+			(xy 36.322 53.34) (xy 36.322 55.88)
 		)
 		(stroke
 			(width 1.016)
@@ -6002,7 +6002,7 @@
 	)
 	(polyline
 		(pts
-			(xy 462.28 332.74) (xy 477.52 332.74)
+			(xy 457.2 327.66) (xy 472.44 327.66)
 		)
 		(stroke
 			(width 1.016)
@@ -6013,7 +6013,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.66 292.1) (xy 185.42 292.1)
+			(xy 195.58 287.02) (xy 180.34 287.02)
 		)
 		(stroke
 			(width 1.016)
@@ -6024,7 +6024,7 @@
 	)
 	(polyline
 		(pts
-			(xy 103.632 115.57) (xy 99.822 115.57)
+			(xy 98.552 110.49) (xy 94.742 110.49)
 		)
 		(stroke
 			(width 1.016)
@@ -6035,7 +6035,7 @@
 	)
 	(polyline
 		(pts
-			(xy 335.28 373.38) (xy 347.98 373.38)
+			(xy 330.2 368.3) (xy 342.9 368.3)
 		)
 		(stroke
 			(width 1.016)
@@ -6046,7 +6046,7 @@
 	)
 	(polyline
 		(pts
-			(xy 358.775 198.12) (xy 358.394 199.39)
+			(xy 353.695 193.04) (xy 353.314 194.31)
 		)
 		(stroke
 			(width 0.508)
@@ -6057,7 +6057,7 @@
 	)
 	(polyline
 		(pts
-			(xy 462.28 76.2) (xy 477.52 76.2)
+			(xy 457.2 71.12) (xy 472.44 71.12)
 		)
 		(stroke
 			(width 1.016)
@@ -6068,7 +6068,7 @@
 	)
 	(polyline
 		(pts
-			(xy 477.52 246.38) (xy 482.6 246.38)
+			(xy 472.44 241.3) (xy 477.52 241.3)
 		)
 		(stroke
 			(width 1.016)
@@ -6079,7 +6079,7 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 66.04) (xy 185.42 76.2)
+			(xy 180.34 60.96) (xy 180.34 71.12)
 		)
 		(stroke
 			(width 1.016)
@@ -6090,7 +6090,7 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 114.3) (xy 182.88 114.3)
+			(xy 180.34 109.22) (xy 177.8 109.22)
 		)
 		(stroke
 			(width 1.016)
@@ -6101,7 +6101,7 @@
 	)
 	(polyline
 		(pts
-			(xy 353.06 370.205) (xy 355.6 368.3)
+			(xy 347.98 365.125) (xy 350.52 363.22)
 		)
 		(stroke
 			(width 0.508)
@@ -6112,7 +6112,7 @@
 	)
 	(polyline
 		(pts
-			(xy 363.22 203.2) (xy 358.14 203.2)
+			(xy 358.14 198.12) (xy 353.06 198.12)
 		)
 		(stroke
 			(width 1.016)
@@ -6123,7 +6123,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 281.94) (xy 485.14 281.94)
+			(xy 477.52 276.86) (xy 480.06 276.86)
 		)
 		(stroke
 			(width 1.016)
@@ -6134,7 +6134,7 @@
 	)
 	(polyline
 		(pts
-			(xy 107.442 115.57) (xy 103.632 115.57)
+			(xy 102.362 110.49) (xy 98.552 110.49)
 		)
 		(stroke
 			(width 1.016)
@@ -6145,7 +6145,7 @@
 	)
 	(polyline
 		(pts
-			(xy 278.13 50.8) (xy 274.32 50.8)
+			(xy 273.05 45.72) (xy 269.24 45.72)
 		)
 		(stroke
 			(width 1.016)
@@ -6156,7 +6156,7 @@
 	)
 	(polyline
 		(pts
-			(xy 354.33 370.84) (xy 354.33 375.92)
+			(xy 349.25 365.76) (xy 349.25 370.84)
 		)
 		(stroke
 			(width 0.508)
@@ -6167,7 +6167,7 @@
 	)
 	(polyline
 		(pts
-			(xy 462.28 289.56) (xy 477.52 289.56)
+			(xy 457.2 284.48) (xy 472.44 284.48)
 		)
 		(stroke
 			(width 1.016)
@@ -6178,7 +6178,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 73.66) (xy 482.6 76.2)
+			(xy 477.52 68.58) (xy 477.52 71.12)
 		)
 		(stroke
 			(width 1.016)
@@ -6189,7 +6189,7 @@
 	)
 	(polyline
 		(pts
-			(xy 37.592 48.26) (xy 41.402 48.26)
+			(xy 32.512 43.18) (xy 36.322 43.18)
 		)
 		(stroke
 			(width 1.016)
@@ -6200,7 +6200,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.66 99.06) (xy 185.42 99.06)
+			(xy 195.58 93.98) (xy 180.34 93.98)
 		)
 		(stroke
 			(width 1.016)
@@ -6211,7 +6211,7 @@
 	)
 	(polyline
 		(pts
-			(xy 353.06 200.025) (xy 355.6 198.12)
+			(xy 347.98 194.945) (xy 350.52 193.04)
 		)
 		(stroke
 			(width 0.508)
@@ -6222,7 +6222,7 @@
 	)
 	(polyline
 		(pts
-			(xy 355.6 198.12) (xy 355.219 199.39)
+			(xy 350.52 193.04) (xy 350.139 194.31)
 		)
 		(stroke
 			(width 0.508)
@@ -6233,7 +6233,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 238.76) (xy 485.14 238.76)
+			(xy 477.52 233.68) (xy 480.06 233.68)
 		)
 		(stroke
 			(width 1.016)
@@ -6244,7 +6244,7 @@
 	)
 	(polyline
 		(pts
-			(xy 107.442 134.62) (xy 103.632 134.62)
+			(xy 102.362 129.54) (xy 98.552 129.54)
 		)
 		(stroke
 			(width 1.016)
@@ -6255,7 +6255,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.66 121.92) (xy 185.42 121.92)
+			(xy 195.58 116.84) (xy 180.34 116.84)
 		)
 		(stroke
 			(width 1.016)
@@ -6266,7 +6266,7 @@
 	)
 	(polyline
 		(pts
-			(xy 358.775 368.3) (xy 357.505 368.3)
+			(xy 353.695 363.22) (xy 352.425 363.22)
 		)
 		(stroke
 			(width 0.508)
@@ -6277,7 +6277,7 @@
 	)
 	(polyline
 		(pts
-			(xy 363.22 373.38) (xy 358.14 373.38)
+			(xy 358.14 368.3) (xy 353.06 368.3)
 		)
 		(stroke
 			(width 1.016)
@@ -6288,7 +6288,7 @@
 	)
 	(polyline
 		(pts
-			(xy 347.98 373.38) (xy 347.98 373.38)
+			(xy 342.9 368.3) (xy 342.9 368.3)
 		)
 		(stroke
 			(width 1.016)
@@ -6299,7 +6299,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 68.58) (xy 482.6 76.2)
+			(xy 477.52 63.5) (xy 477.52 71.12)
 		)
 		(stroke
 			(width 1.016)
@@ -6310,7 +6310,7 @@
 	)
 	(polyline
 		(pts
-			(xy 472.44 162.56) (xy 482.6 162.56)
+			(xy 467.36 157.48) (xy 477.52 157.48)
 		)
 		(stroke
 			(width 1.016)
@@ -6321,7 +6321,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 185.42) (xy 462.28 185.42)
+			(xy 477.52 180.34) (xy 457.2 180.34)
 		)
 		(stroke
 			(width 1.016)
@@ -6332,7 +6332,7 @@
 	)
 	(polyline
 		(pts
-			(xy 107.442 58.42) (xy 103.632 58.42)
+			(xy 102.362 53.34) (xy 98.552 53.34)
 		)
 		(stroke
 			(width 1.016)
@@ -6343,7 +6343,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 332.74) (xy 482.6 332.74)
+			(xy 477.52 327.66) (xy 477.52 327.66)
 		)
 		(stroke
 			(width 1.016)
@@ -6354,7 +6354,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 325.12) (xy 485.14 325.12)
+			(xy 477.52 320.04) (xy 480.06 320.04)
 		)
 		(stroke
 			(width 1.016)
@@ -6365,7 +6365,7 @@
 	)
 	(polyline
 		(pts
-			(xy 350.52 370.84) (xy 350.52 375.92)
+			(xy 345.44 365.76) (xy 345.44 370.84)
 		)
 		(stroke
 			(width 0.508)
@@ -6376,7 +6376,7 @@
 	)
 	(polyline
 		(pts
-			(xy 363.22 373.38) (xy 363.22 369.57)
+			(xy 358.14 368.3) (xy 358.14 364.49)
 		)
 		(stroke
 			(width 1.016)
@@ -6387,7 +6387,7 @@
 	)
 	(polyline
 		(pts
-			(xy 41.402 48.26) (xy 41.402 58.42)
+			(xy 36.322 43.18) (xy 36.322 53.34)
 		)
 		(stroke
 			(width 1.016)
@@ -6398,7 +6398,7 @@
 	)
 	(polyline
 		(pts
-			(xy 89.027 125.73) (xy 103.632 125.73)
+			(xy 83.947 120.65) (xy 98.552 120.65)
 		)
 		(stroke
 			(width 1.016)
@@ -6409,7 +6409,7 @@
 	)
 	(polyline
 		(pts
-			(xy 332.74 373.38) (xy 335.28 373.38)
+			(xy 327.66 368.3) (xy 330.2 368.3)
 		)
 		(stroke
 			(width 1.016)
@@ -6420,7 +6420,7 @@
 	)
 	(polyline
 		(pts
-			(xy 41.402 48.26) (xy 45.212 48.26)
+			(xy 36.322 43.18) (xy 40.132 43.18)
 		)
 		(stroke
 			(width 1.016)
@@ -6431,7 +6431,7 @@
 	)
 	(polyline
 		(pts
-			(xy 182.88 91.44) (xy 187.96 91.44)
+			(xy 177.8 86.36) (xy 182.88 86.36)
 		)
 		(stroke
 			(width 1.016)
@@ -6442,7 +6442,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 99.06) (xy 482.6 95.25)
+			(xy 477.52 93.98) (xy 477.52 90.17)
 		)
 		(stroke
 			(width 1.016)
@@ -6453,7 +6453,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 142.24) (xy 462.28 142.24)
+			(xy 477.52 137.16) (xy 457.2 137.16)
 		)
 		(stroke
 			(width 1.016)
@@ -6464,7 +6464,7 @@
 	)
 	(polyline
 		(pts
-			(xy 363.22 203.2) (xy 363.22 199.39)
+			(xy 358.14 198.12) (xy 358.14 194.31)
 		)
 		(stroke
 			(width 1.016)
@@ -6475,7 +6475,7 @@
 	)
 	(polyline
 		(pts
-			(xy 182.88 66.04) (xy 187.96 66.04)
+			(xy 177.8 60.96) (xy 182.88 60.96)
 		)
 		(stroke
 			(width 1.016)
@@ -6486,7 +6486,7 @@
 	)
 	(polyline
 		(pts
-			(xy 350.52 203.2) (xy 354.33 205.74)
+			(xy 345.44 198.12) (xy 349.25 200.66)
 		)
 		(stroke
 			(width 0.508)
@@ -6497,7 +6497,7 @@
 	)
 	(polyline
 		(pts
-			(xy 41.402 58.42) (xy 41.402 68.58)
+			(xy 36.322 53.34) (xy 36.322 63.5)
 		)
 		(stroke
 			(width 1.016)
@@ -6508,7 +6508,7 @@
 	)
 	(polyline
 		(pts
-			(xy 480.06 111.76) (xy 485.14 111.76)
+			(xy 474.98 106.68) (xy 480.06 106.68)
 		)
 		(stroke
 			(width 1.016)
@@ -6519,7 +6519,7 @@
 	)
 	(polyline
 		(pts
-			(xy 358.775 198.12) (xy 357.505 198.12)
+			(xy 353.695 193.04) (xy 352.425 193.04)
 		)
 		(stroke
 			(width 0.508)
@@ -6530,7 +6530,7 @@
 	)
 	(polyline
 		(pts
-			(xy 182.88 114.3) (xy 187.96 114.3)
+			(xy 177.8 109.22) (xy 182.88 109.22)
 		)
 		(stroke
 			(width 1.016)
@@ -6541,7 +6541,7 @@
 	)
 	(polyline
 		(pts
-			(xy 57.404 68.58) (xy 41.402 68.58)
+			(xy 52.324 63.5) (xy 36.322 63.5)
 		)
 		(stroke
 			(width 1.016)
@@ -6552,7 +6552,7 @@
 	)
 	(polyline
 		(pts
-			(xy 355.6 368.3) (xy 355.219 369.57)
+			(xy 350.52 363.22) (xy 350.139 364.49)
 		)
 		(stroke
 			(width 0.508)
@@ -6563,7 +6563,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 76.2) (xy 482.6 76.2)
+			(xy 477.52 71.12) (xy 477.52 71.12)
 		)
 		(stroke
 			(width 1.016)
@@ -6574,7 +6574,7 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 91.44) (xy 182.88 91.44)
+			(xy 180.34 86.36) (xy 177.8 86.36)
 		)
 		(stroke
 			(width 1.016)
@@ -6585,7 +6585,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 289.56) (xy 482.6 289.56)
+			(xy 477.52 284.48) (xy 477.52 284.48)
 		)
 		(stroke
 			(width 1.016)
@@ -6596,7 +6596,7 @@
 	)
 	(polyline
 		(pts
-			(xy 41.402 144.78) (xy 57.404 144.78)
+			(xy 36.322 139.7) (xy 52.324 139.7)
 		)
 		(stroke
 			(width 1.016)
@@ -6607,7 +6607,7 @@
 	)
 	(polyline
 		(pts
-			(xy 103.632 134.62) (xy 103.632 144.78)
+			(xy 98.552 129.54) (xy 98.552 139.7)
 		)
 		(stroke
 			(width 1.016)
@@ -6618,7 +6618,7 @@
 	)
 	(polyline
 		(pts
-			(xy 278.13 220.98) (xy 274.32 220.98)
+			(xy 273.05 215.9) (xy 269.24 215.9)
 		)
 		(stroke
 			(width 1.016)
@@ -6629,7 +6629,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 111.76) (xy 485.14 111.76)
+			(xy 477.52 106.68) (xy 480.06 106.68)
 		)
 		(stroke
 			(width 1.016)
@@ -6640,7 +6640,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 243.84) (xy 482.6 246.38)
+			(xy 477.52 238.76) (xy 477.52 241.3)
 		)
 		(stroke
 			(width 1.016)
@@ -6651,7 +6651,7 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 91.44) (xy 185.42 99.06)
+			(xy 180.34 86.36) (xy 180.34 93.98)
 		)
 		(stroke
 			(width 1.016)
@@ -6662,7 +6662,7 @@
 	)
 	(polyline
 		(pts
-			(xy 274.32 231.14) (xy 287.02 231.14)
+			(xy 269.24 226.06) (xy 281.94 226.06)
 		)
 		(stroke
 			(width 1.016)
@@ -6673,7 +6673,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 185.42) (xy 482.6 181.61)
+			(xy 477.52 180.34) (xy 477.52 176.53)
 		)
 		(stroke
 			(width 1.016)
@@ -6684,7 +6684,7 @@
 	)
 	(polyline
 		(pts
-			(xy 88.9 68.58) (xy 103.632 68.58)
+			(xy 83.82 63.5) (xy 98.552 63.5)
 		)
 		(stroke
 			(width 1.016)
@@ -6695,7 +6695,7 @@
 	)
 	(polyline
 		(pts
-			(xy 462.28 119.38) (xy 477.52 119.38)
+			(xy 457.2 114.3) (xy 472.44 114.3)
 		)
 		(stroke
 			(width 1.016)
@@ -6706,7 +6706,7 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 261.62) (xy 182.88 261.62)
+			(xy 180.34 256.54) (xy 177.8 256.54)
 		)
 		(stroke
 			(width 1.016)
@@ -6717,7 +6717,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 312.42) (xy 462.28 312.42)
+			(xy 477.52 307.34) (xy 457.2 307.34)
 		)
 		(stroke
 			(width 1.016)
@@ -6728,7 +6728,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 189.23) (xy 482.6 185.42)
+			(xy 477.52 184.15) (xy 477.52 180.34)
 		)
 		(stroke
 			(width 1.016)
@@ -6739,7 +6739,7 @@
 	)
 	(polyline
 		(pts
-			(xy 350.52 203.2) (xy 354.33 200.66)
+			(xy 345.44 198.12) (xy 349.25 195.58)
 		)
 		(stroke
 			(width 0.508)
@@ -6750,7 +6750,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 273.05) (xy 482.6 269.24)
+			(xy 477.52 267.97) (xy 477.52 264.16)
 		)
 		(stroke
 			(width 1.016)
@@ -6761,7 +6761,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 355.6) (xy 482.6 351.79)
+			(xy 477.52 350.52) (xy 477.52 346.71)
 		)
 		(stroke
 			(width 1.016)
@@ -6772,7 +6772,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 162.56) (xy 477.52 162.56)
+			(xy 477.52 157.48) (xy 472.44 157.48)
 		)
 		(stroke
 			(width 1.016)
@@ -6783,7 +6783,7 @@
 	)
 	(polyline
 		(pts
-			(xy 480.06 325.12) (xy 485.14 325.12)
+			(xy 474.98 320.04) (xy 480.06 320.04)
 		)
 		(stroke
 			(width 1.016)
@@ -6794,7 +6794,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 281.94) (xy 485.14 281.94)
+			(xy 477.52 276.86) (xy 480.06 276.86)
 		)
 		(stroke
 			(width 1.016)
@@ -6805,7 +6805,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 246.38) (xy 482.6 246.38)
+			(xy 477.52 241.3) (xy 477.52 241.3)
 		)
 		(stroke
 			(width 1.016)
@@ -6816,7 +6816,7 @@
 	)
 	(polyline
 		(pts
-			(xy 274.32 220.98) (xy 270.51 220.98)
+			(xy 269.24 215.9) (xy 265.43 215.9)
 		)
 		(stroke
 			(width 1.016)
@@ -6827,7 +6827,7 @@
 	)
 	(polyline
 		(pts
-			(xy 482.6 287.02) (xy 482.6 289.56)
+			(xy 477.52 281.94) (xy 477.52 284.48)
 		)
 		(stroke
 			(width 1.016)
@@ -6838,7 +6838,7 @@
 	)
 	(polyline
 		(pts
-			(xy 41.402 125.73) (xy 57.404 125.73)
+			(xy 36.322 120.65) (xy 52.324 120.65)
 		)
 		(stroke
 			(width 1.016)
@@ -6849,7 +6849,7 @@
 	)
 	(polyline
 		(pts
-			(xy 363.22 377.19) (xy 363.22 373.38)
+			(xy 358.14 372.11) (xy 358.14 368.3)
 		)
 		(stroke
 			(width 1.016)
@@ -6860,7 +6860,7 @@
 	)
 	(polyline
 		(pts
-			(xy 41.402 115.57) (xy 37.592 115.57)
+			(xy 36.322 110.49) (xy 32.512 110.49)
 		)
 		(stroke
 			(width 1.016)

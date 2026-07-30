@@ -1200,7 +1200,7 @@
 			(color 128 255 128 0.5000)
 		)
 		(uuid "f06537ee-772d-44d3-8c50-e0ba41038c9c")
-		(property "Sheetname" "MCU - POWER"
+		(property "Sheetname" "MCU - Power"
 			(at 190.5 75.1709 0)
 			(effects
 				(font
