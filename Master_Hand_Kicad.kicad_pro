@@ -866,6 +866,18 @@
       {
         "netclass": "High Power",
         "pattern": "/Project Architecture/Power - Generation/+VBAT"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/Power - Connectors/+VBAT"
+      },
+      {
+        "netclass": "Power 5V",
+        "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Index/+5V"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Index/+VBAT"
       }
     ]
   },
@@ -1090,6 +1102,30 @@
     [
       "5f95795e-0401-405e-a7ff-2bb10fe67e18",
       "Misc - Holes, Fiducials"
+    ],
+    [
+      "e821eb64-9ae4-415d-bd98-904a6c2e602a",
+      "Motor Control - Index"
+    ],
+    [
+      "d22c5670-9da0-4f2f-acb0-4fbe9e5abdf2",
+      "Motor Control - Middle"
+    ],
+    [
+      "de27a8ad-4ccd-4684-b8fe-8c9f4a929096",
+      "Motor Control - Ring"
+    ],
+    [
+      "bf1e7bca-f9b2-4856-846e-fc1f6043602e",
+      "Motor Control - Pinky"
+    ],
+    [
+      "94775c79-64e9-48cf-ae2a-63b83b072321",
+      "Motor Control - Thumb 1"
+    ],
+    [
+      "e82d2a8d-1211-43fb-9e66-97549fc9c750",
+      "Motor Control - Thumb 2"
     ]
   ],
   "text_variables": {
@@ -1148,7 +1184,7 @@
     "SHEET_NAME_37": "......................................",
     "SHEET_NAME_38": "......................................",
     "SHEET_NAME_39": "......................................",
-    "SHEET_NAME_4": "MCU - POWER",
+    "SHEET_NAME_4": "MCU - Power",
     "SHEET_NAME_40": "......................................",
     "SHEET_NAME_5": "MCU - IOs",
     "SHEET_NAME_6": "Power - Generation",

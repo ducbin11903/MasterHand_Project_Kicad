@@ -1210,7 +1210,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MCU - POWER.kicad_sch"
+		(property "Sheetfile" "MCU - Power.kicad_sch"
 			(at 190.5 97.1046 0)
 			(effects
 				(font

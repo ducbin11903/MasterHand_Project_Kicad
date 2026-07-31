@@ -5030,7 +5030,7 @@
 	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
-		(at 12.7 12.7 0)
+		(at 12.7 13.97 0)
 		(size 393.7 12.7)
 		(margins 4.4999 4.4999 4.4999 4.4999)
 		(stroke
