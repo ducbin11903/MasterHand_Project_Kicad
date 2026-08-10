@@ -878,6 +878,14 @@
       {
         "netclass": "High Power",
         "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Index/+VBAT"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/MCU - Power/+3V3"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Index/+3.3V"
       }
     ]
   },

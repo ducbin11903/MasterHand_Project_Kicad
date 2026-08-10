@@ -8774,7 +8774,7 @@
 		)
 		(uuid "8a4f452d-8050-4a7c-8d44-cd2969d56f28")
 	)
-	(label "GPIO-LED_I"
+	(label "GPIO-LED_M"
 		(at 21.59 229.87 0)
 		(effects
 			(font
@@ -8928,7 +8928,7 @@
 		)
 		(uuid "94eb44b7-db9a-4e30-b088-b5c753269788")
 	)
-	(label "ADC-POS_I"
+	(label "ADC-POS_M"
 		(at 21.59 207.01 0)
 		(effects
 			(font
@@ -9148,7 +9148,7 @@
 		)
 		(uuid "a96ef451-ded4-4457-b872-3cc18630dbca")
 	)
-	(label "GPIO-LED_I"
+	(label "GPIO-LED_M"
 		(at 134.62 167.64 0)
 		(effects
 			(font
@@ -9478,7 +9478,7 @@
 		)
 		(uuid "c879d1df-ba40-43df-9c3f-0b6e9381a3f3")
 	)
-	(label "ADC-POS_I"
+	(label "ADC-POS_M"
 		(at 356.87 222.25 0)
 		(effects
 			(font
@@ -9720,7 +9720,7 @@
 		)
 		(uuid "de03f5d1-df22-4e60-8398-6ba580648740")
 	)
-	(label "ADC-POS_I"
+	(label "ADC-POS_M"
 		(at 210.82 217.17 0)
 		(effects
 			(font
