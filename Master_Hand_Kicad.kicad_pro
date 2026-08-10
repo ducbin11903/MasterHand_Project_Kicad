@@ -69,16 +69,19 @@
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
+        "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -89,9 +92,11 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
@@ -103,10 +108,13 @@
         "solder_mask_bridge": "warning",
         "starved_thermal": "error",
         "text_height": "ignore",
+        "text_on_edge_cuts": "error",
         "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
+        "track_angle": "error",
         "track_dangling": "warning",
+        "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -119,6 +127,7 @@
         "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.25,
+        "min_groove_width": 0.0,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
@@ -138,16 +147,17 @@
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -158,7 +168,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -169,7 +179,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -836,6 +846,46 @@
       {
         "netclass": "Power 5V",
         "pattern": "/Project Architecture/Power - Generation/F_VIN_3V3"
+      },
+      {
+        "netclass": "Power 5V",
+        "pattern": "/Project Architecture/Power - Generation/+5V"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Power - Generation/+3V3"
+      },
+      {
+        "netclass": "Power A3V3",
+        "pattern": "/Project Architecture/Power - Generation/+A3V3"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/MCU - POWER/+3V3"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/Power - Generation/+VBAT"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/Power - Connectors/+VBAT"
+      },
+      {
+        "netclass": "Power 5V",
+        "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Index/+5V"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Index/+VBAT"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/MCU - Power/+3V3"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Index/+3.3V"
       }
     ]
   },
@@ -999,7 +1049,7 @@
     ],
     [
       "f06537ee-772d-44d3-8c50-e0ba41038c9c",
-      "MCU - POWER"
+      "MCU - Power"
     ],
     [
       "e744f3ce-03a6-44a6-8792-1447ef232b9a",
@@ -1060,49 +1110,73 @@
     [
       "5f95795e-0401-405e-a7ff-2bb10fe67e18",
       "Misc - Holes, Fiducials"
+    ],
+    [
+      "e821eb64-9ae4-415d-bd98-904a6c2e602a",
+      "Motor Control - Index"
+    ],
+    [
+      "d22c5670-9da0-4f2f-acb0-4fbe9e5abdf2",
+      "Motor Control - Middle"
+    ],
+    [
+      "de27a8ad-4ccd-4684-b8fe-8c9f4a929096",
+      "Motor Control - Ring"
+    ],
+    [
+      "bf1e7bca-f9b2-4856-846e-fc1f6043602e",
+      "Motor Control - Pinky"
+    ],
+    [
+      "94775c79-64e9-48cf-ae2a-63b83b072321",
+      "Motor Control - Thumb 1"
+    ],
+    [
+      "e82d2a8d-1211-43fb-9e66-97549fc9c750",
+      "Motor Control - Thumb 2"
     ]
   ],
   "text_variables": {
-    "ASSEMBLY_NOTES": "ASSEMBLY NOTES",
-    "BOARD_NAME": "MOTOR CONTROL BOARD",
-    "COMPANY": "WILLAS",
-    "DESIGNER": "DAMON",
-    "FABRICATION_NOTES": "FABRICATION NOTES",
-    "GIT_HASH_PCB": "",
-    "GIT_HASH_SCH": "",
-    "GIT_URL": "",
-    "PROJECT_NAME": "MASTER HAND",
+    "ASSEMBLY_NOTES": "",
+    "BOARD_NAME": "Motor Control Board",
+    "COMPANY": "Willas",
+    "DESIGNER": "Damon",
+    "FABRICATION_NOTES": "",
+    "GIT_HASH_PCB": "c12dc26",
+    "GIT_HASH_SCH": "c12dc26",
+    "GIT_URL": "https://github.com/ducbin11903/MasterHand_Project_Kicad.git",
+    "PROJECT_NAME": "Master Hand",
     "RELEASE_BODY_1.0.0": "",
     "RELEASE_BODY_1.0.1": "",
     "RELEASE_BODY_1.0.2": "",
     "RELEASE_BODY_1.1.0": "",
-    "RELEASE_BODY_UNRELEASED": "",
-    "RELEASE_DATE": "DD-MMM-YYYY",
-    "RELEASE_DATE_NUM": "YYYY-MM-DD",
+    "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
+    "RELEASE_DATE": "10-Aug-2026",
+    "RELEASE_DATE_NUM": "2026-08-10",
     "RELEASE_TITLE_1.0.0": "",
     "RELEASE_TITLE_1.0.1": "",
     "RELEASE_TITLE_1.0.2": "",
     "RELEASE_TITLE_1.1.0": "",
-    "RELEASE_TITLE_UNRELEASED": "",
-    "REVISION": "",
+    "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
+    "REVISION": "+ (Unreleased)",
     "SHEET_NAME_1": "Cover Page",
-    "SHEET_NAME_10": "......................................",
-    "SHEET_NAME_11": "......................................",
-    "SHEET_NAME_12": "......................................",
-    "SHEET_NAME_13": "......................................",
-    "SHEET_NAME_14": "......................................",
-    "SHEET_NAME_15": "......................................",
-    "SHEET_NAME_16": "......................................",
-    "SHEET_NAME_17": "......................................",
-    "SHEET_NAME_18": "......................................",
-    "SHEET_NAME_19": "......................................",
+    "SHEET_NAME_10": "Motor Control - Top Level",
+    "SHEET_NAME_11": "Misc - Board Version, DAC",
+    "SHEET_NAME_12": "User - LED Indicators",
+    "SHEET_NAME_13": "Sensing - Temperature & Humidity",
+    "SHEET_NAME_14": "Sensing - Battery",
+    "SHEET_NAME_15": "Sensing - Position",
+    "SHEET_NAME_16": "Interface - RS - 485",
+    "SHEET_NAME_17": "Interface - FD-CAN",
+    "SHEET_NAME_18": "Interface - Interconnects",
+    "SHEET_NAME_19": "Misc - Holes, Fiducials",
     "SHEET_NAME_2": "Block Diagram",
-    "SHEET_NAME_20": "......................................",
-    "SHEET_NAME_21": "......................................",
-    "SHEET_NAME_22": "......................................",
-    "SHEET_NAME_23": "......................................",
-    "SHEET_NAME_24": "......................................",
-    "SHEET_NAME_25": "......................................",
+    "SHEET_NAME_20": "Motor Control - Index",
+    "SHEET_NAME_21": "Motor Control - Middle",
+    "SHEET_NAME_22": "Motor Control - Ring",
+    "SHEET_NAME_23": "Motor Control - Pinky",
+    "SHEET_NAME_24": "Motor Control - Thumb 1",
+    "SHEET_NAME_25": "Motor Control - Thumb 2",
     "SHEET_NAME_26": "......................................",
     "SHEET_NAME_27": "......................................",
     "SHEET_NAME_28": "......................................",
@@ -1118,13 +1192,13 @@
     "SHEET_NAME_37": "......................................",
     "SHEET_NAME_38": "......................................",
     "SHEET_NAME_39": "......................................",
-    "SHEET_NAME_4": "MCU - POWER",
+    "SHEET_NAME_4": "MCU - Power",
     "SHEET_NAME_40": "......................................",
     "SHEET_NAME_5": "MCU - IOs",
     "SHEET_NAME_6": "Power - Generation",
-    "SHEET_NAME_7": "Power - Connectors",
-    "SHEET_NAME_8": "Motor Control",
-    "SHEET_NAME_9": "......................................",
-    "VARIANT": ""
+    "SHEET_NAME_7": "Power - Sequencing",
+    "SHEET_NAME_8": "Power - Connectors",
+    "SHEET_NAME_9": "Revision History",
+    "VARIANT": "DRAFT"
   }
 }
