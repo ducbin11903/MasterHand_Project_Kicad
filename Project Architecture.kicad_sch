@@ -362,6 +362,90 @@
 		)
 	)
 	(sheet
+		(at 254 86.36)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 128 128 0.5000)
+		)
+		(uuid "0ad8e17f-d145-48f3-a9e5-8d5e790e9ed0")
+		(property "Sheetname" "Motor Control - Pinky"
+			(at 254 85.3309 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor Control - Pinky.kicad_sch"
+			(at 254 102.1846 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 254 93.98 180)
+			(uuid "6f4881aa-fe6e-4285-9341-bbce746247a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3.3V" input
+			(at 254 99.06 180)
+			(uuid "4ca43c85-c235-4a6e-94c2-e9d5d90b2497")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{MD4}" bidirectional
+			(at 279.4 93.98 0)
+			(uuid "415810a3-396d-4ebd-b223-2271ade93c94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+VBAT" input
+			(at 254 88.9 180)
+			(uuid "b943abbe-7861-46b1-b92d-1795167855eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 260.35 171.45)
 		(size 40.64 10.16)
 		(exclude_from_sim no)
@@ -558,6 +642,90 @@
 		)
 	)
 	(sheet
+		(at 355.6 50.8)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 128 128 0.5000)
+		)
+		(uuid "21b04569-7cad-42c8-b7c4-043848eb996c")
+		(property "Sheetname" "Motor Control - Ring"
+			(at 355.6 49.7709 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor Control - Ring.kicad_sch"
+			(at 355.6 66.6246 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3.3V" input
+			(at 355.6 63.5 180)
+			(uuid "a95c9795-582a-4ee0-a874-0bdbf1f2b82b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V" input
+			(at 355.6 58.42 180)
+			(uuid "c9012ab3-c602-4e66-aef5-43a14e776dbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{MD3}" bidirectional
+			(at 381 58.42 0)
+			(uuid "22d403c0-b03d-4125-9bc8-75d9b224d0a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+VBAT" input
+			(at 355.6 53.34 180)
+			(uuid "ea25a1ac-a563-4116-aec0-cd4fc7dedd5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 262.89 146.05)
 		(size 40.64 10.16)
 		(exclude_from_sim no)
@@ -707,6 +875,90 @@
 		)
 	)
 	(sheet
+		(at 302.26 86.36)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 128 128 0.5000)
+		)
+		(uuid "305bbf3d-632b-44c5-9393-c63a1a318790")
+		(property "Sheetname" "Motor Control - Thumb 1"
+			(at 302.26 85.3309 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor Control - Thumb 1.kicad_sch"
+			(at 302.26 102.1846 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+VBAT" input
+			(at 302.26 88.9 180)
+			(uuid "59dcfed7-6fda-4a74-8e99-374aa00e17d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V" input
+			(at 302.26 93.98 180)
+			(uuid "d8f7261a-0dd7-4fc2-b2bc-454e4b691405")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3.3V" input
+			(at 302.26 99.06 180)
+			(uuid "059321b6-4d54-404c-803b-953f9fab3f0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{MD5}" bidirectional
+			(at 327.66 93.98 0)
+			(uuid "80be7367-a3a1-496f-be3d-a00c26dce319")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 53.34 172.72)
 		(size 40.64 20.32)
 		(exclude_from_sim no)
@@ -751,8 +1003,8 @@
 		)
 	)
 	(sheet
-		(at 265.43 63.5)
-		(size 40.64 68.58)
+		(at 355.6 86.36)
+		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -765,9 +1017,9 @@
 		(fill
 			(color 255 128 128 0.5000)
 		)
-		(uuid "62e1134a-4afa-47e5-8a81-2f23b9b85122")
-		(property "Sheetname" "Motor Control - Top Level"
-			(at 265.43 62.4709 0)
+		(uuid "6ac7dd3a-0d52-4fe3-8277-47c257d86de3")
+		(property "Sheetname" "Motor Control - Thumb 2"
+			(at 355.6 85.3309 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -776,8 +1028,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Motor Control - Top Level.kicad_sch"
-			(at 265.43 132.6646 0)
+		(property "Sheetfile" "Motor Control - Thumb 2.kicad_sch"
+			(at 355.6 102.1846 0)
 			(effects
 				(font
 					(face "Arial")
@@ -786,74 +1038,42 @@
 				(justify left top)
 			)
 		)
-		(pin "MOTOR_FAULT" output
-			(at 265.43 120.65 180)
-			(uuid "610effc9-c0d6-42e7-a2f6-1ee0cc5fc2c3")
+		(pin "+5V" input
+			(at 355.6 93.98 180)
+			(uuid "5a42a1a5-14b5-453f-b74b-d711c035d27a")
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
 				)
 				(justify left)
 			)
 		)
-		(pin "MOTOR_HIZ" input
-			(at 265.43 100.33 180)
-			(uuid "996ad352-f3e9-4331-8858-bf0200c8d783")
+		(pin "{MD6}" bidirectional
+			(at 381 93.98 0)
+			(uuid "429a8168-5ce7-4c2e-90df-ec7460fdfe1d")
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "+VBAT" input
+			(at 355.6 88.9 180)
+			(uuid "45507e7d-daaa-45a5-afb5-aa89616fabbc")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
-		(pin "{DRV_SPI}" bidirectional
-			(at 265.43 106.68 180)
-			(uuid "ab8387ef-6670-493c-b40d-58de2d173fc4")
+		(pin "+3.3V" input
+			(at 355.6 99.06 180)
+			(uuid "b0b34022-9f38-47ed-be94-bcc849f088ce")
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(pin "MOTOR_ENABLE" input
-			(at 265.43 87.63 180)
-			(uuid "3cf83c9d-85dc-4ce4-a361-73d373114d44")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(pin "{PWM_PHASE}" input
-			(at 265.43 93.98 180)
-			(uuid "89f9ebf4-b2fa-475f-bf8f-f00c980d76b5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(pin "{CURRENT_SENSE}" output
-			(at 265.43 74.93 180)
-			(uuid "86fa6fa5-6a63-4ddf-95ca-72c64d40fa87")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
 				)
 				(justify left)
 			)
@@ -861,7 +1081,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "8")
+					(page "13")
 				)
 			)
 		)
@@ -1004,8 +1224,8 @@
 		)
 	)
 	(sheet
-		(at 140.97 154.94)
-		(size 31.75 15.24)
+		(at 254 50.8)
+		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1016,11 +1236,11 @@
 			(type solid)
 		)
 		(fill
-			(color 128 255 255 0.5020)
+			(color 255 128 128 0.5000)
 		)
-		(uuid "cf7116ca-724a-4ef3-b3bf-c9d2e5ed7098")
-		(property "Sheetname" "Sensing - Position"
-			(at 140.97 153.9109 0)
+		(uuid "9fef4a7d-fe15-42af-a3b5-95e4268f1da7")
+		(property "Sheetname" "Motor Control - Index"
+			(at 254 49.7709 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1029,8 +1249,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sensing - Position.kicad_sch"
-			(at 140.97 170.7646 0)
+		(property "Sheetfile" "Motor Control - Index.kicad_sch"
+			(at 254 66.6246 0)
 			(effects
 				(font
 					(face "Arial")
@@ -1039,26 +1259,42 @@
 				(justify left top)
 			)
 		)
-		(pin "{AUX1}" bidirectional
-			(at 172.72 162.56 0)
-			(uuid "d7635ad4-4a3d-477a-88d9-727ca473e56d")
+		(pin "+3.3V" input
+			(at 254 63.5 180)
+			(uuid "21fa2c86-bb15-4aab-b67a-ceed4602c197")
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(pin "{AUX2}" bidirectional
-			(at 172.72 158.75 0)
-			(uuid "b35c7c63-7e9f-40b1-b771-8ee65db08f75")
+		(pin "+VBAT" input
+			(at 254 53.34 180)
+			(uuid "bc75e598-a523-439f-9947-2be7fb7eed38")
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V" input
+			(at 254 58.42 180)
+			(uuid "87251b5d-babf-45f6-b954-22516e8fbf52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{MD1}" bidirectional
+			(at 279.4 58.42 0)
+			(uuid "56d373d9-7d5b-4f7b-a8b6-8d9aeb96908c")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
@@ -1066,7 +1302,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "13")
+					(page "8")
 				)
 			)
 		)
@@ -1136,6 +1372,90 @@
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
 					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 302.26 50.8)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 128 128 0.5000)
+		)
+		(uuid "d622f5b6-19d6-40b1-8c69-868393d4ee00")
+		(property "Sheetname" "Motor Control - Middle"
+			(at 302.26 49.7709 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor Control - Middle.kicad_sch"
+			(at 302.26 66.6246 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3.3V" input
+			(at 302.26 63.5 180)
+			(uuid "6db8be74-88cb-4f49-a229-60733d5c8822")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V" input
+			(at 302.26 58.42 180)
+			(uuid "e2a0192d-51f8-401a-b9cd-fe87ef154548")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+VBAT" input
+			(at 302.26 53.34 180)
+			(uuid "0f1e23b9-ed60-445d-94ad-98d86de4c708")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{MD2}" bidirectional
+			(at 327.66 58.42 0)
+			(uuid "246195e3-c85d-41e8-b2cd-0e93fbe9f08d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "9")
 				)
 			)
 		)

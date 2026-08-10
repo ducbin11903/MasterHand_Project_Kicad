@@ -7384,7 +7384,7 @@
 			(uuid "afa2008b-abdb-4a7f-8775-71f90bb6493a")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
 					(reference "C33")
 					(unit 1)
@@ -7481,7 +7481,7 @@
 			(uuid "fdb0eebb-9df7-4856-9b8f-7fbcaf0c4d41")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
 					(reference "R2")
 					(unit 1)
@@ -7934,7 +7934,7 @@
 			(uuid "2ea3ecce-b3c6-451a-b088-24c780209bc2")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
 					(reference "R1")
 					(unit 1)
@@ -8000,7 +8000,7 @@
 			(uuid "118de76b-2295-40e4-afa0-42c21e8b5669")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
 					(reference "#PWR018")
 					(unit 1)
@@ -8192,7 +8192,7 @@
 			(uuid "306030c5-eb0e-4512-973f-4bfdd6c80428")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
 					(reference "FB3")
 					(unit 1)
@@ -8385,7 +8385,7 @@
 			(uuid "f14d8949-0c8d-4786-b28c-9832196fa3a2")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
 					(reference "C21")
 					(unit 1)
@@ -9198,7 +9198,7 @@
 			(uuid "b544d4c2-d228-4c9b-a34f-61fb40c4273c")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
 					(reference "#PWR04")
 					(unit 1)
@@ -9458,7 +9458,7 @@
 			(uuid "7b0c11a8-559f-40d2-81b7-07eed526d247")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
 					(reference "C26")
 					(unit 1)
@@ -9554,7 +9554,7 @@
 			(uuid "f6edb7de-0726-423f-81ac-ddd32b057f1e")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
 					(reference "C19")
 					(unit 1)
@@ -9651,7 +9651,7 @@
 			(uuid "af820a1a-eebd-4092-9a1c-d97f2419a04b")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
 					(reference "C34")
 					(unit 1)
@@ -9814,7 +9814,7 @@
 			(uuid "262d1520-c5ae-49fb-81de-1a4f2b96dd79")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
 					(reference "C25")
 					(unit 1)
@@ -10379,7 +10379,7 @@
 			(uuid "eac733ff-c1e8-415e-b4ef-667c959e6892")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
 					(reference "U3")
 					(unit 1)
@@ -10970,7 +10970,7 @@
 			(uuid "c706a46d-fa70-4d54-9417-41ea38462c30")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
 					(reference "#PWR017")
 					(unit 1)

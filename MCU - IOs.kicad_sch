@@ -1684,7 +1684,7 @@
 	)
 	(rectangle
 		(start 118.11 144.78)
-		(end 191.77 194.31)
+		(end 191.77 195.58)
 		(stroke
 			(width 1)
 			(type default)
@@ -1935,7 +1935,7 @@
 	)
 	(text_box "LEDs"
 		(exclude_from_sim no)
-		(at 118.11 184.785 0)
+		(at 118.11 186.055 0)
 		(size 73.66 9.525)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -13716,7 +13716,7 @@
 			(uuid "f629da19-5ca7-4ed7-813f-46d126cb9c46")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
 					(reference "U6")
 					(unit 2)

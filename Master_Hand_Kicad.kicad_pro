@@ -626,7 +626,7 @@
         "microvia_drill": 0.1,
         "name": "Power 3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(220, 142, 0)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -643,7 +643,7 @@
         "microvia_drill": 0.1,
         "name": "Power 5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 6,
         "schematic_color": "rgb(212, 0, 32)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -692,84 +692,16 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "RS422 Diff Pair",
-        "pattern": "/Project Architecture/Interface - Interconnects/RS422_R+"
-      },
-      {
-        "netclass": "RS422 Diff Pair",
-        "pattern": "/Project Architecture/Interface - Interconnects/RS422_R-"
-      },
-      {
-        "netclass": "RS422 Diff Pair",
-        "pattern": "/Project Architecture/Interface - Interconnects/RS422_D-"
-      },
-      {
-        "netclass": "RS422 Diff Pair",
-        "pattern": "/Project Architecture/Interface - Interconnects/RS422_D+"
-      },
-      {
-        "netclass": "Chassis",
-        "pattern": "CHASSIS"
+        "netclass": "CAN Bus",
+        "pattern": "/Project Architecture/Interface - FD-CAN/FDCAN_N"
       },
       {
         "netclass": "CAN Bus",
         "pattern": "/Project Architecture/Interface - FD-CAN/FDCAN_P"
       },
       {
-        "netclass": "CAN Bus",
-        "pattern": "/Project Architecture/Interface - FD-CAN/FDCAN_N"
-      },
-      {
-        "netclass": "Kelvin Diff Pair",
-        "pattern": "/Project Architecture/Motor Control - Top Level/SA_P"
-      },
-      {
-        "netclass": "Kelvin Diff Pair",
-        "pattern": "/Project Architecture/Motor Control - Top Level/SA_N"
-      },
-      {
-        "netclass": "Kelvin Diff Pair",
-        "pattern": "/Project Architecture/Motor Control - Top Level/SB_P"
-      },
-      {
-        "netclass": "Kelvin Diff Pair",
-        "pattern": "/Project Architecture/Motor Control - Top Level/SB_N"
-      },
-      {
-        "netclass": "Kelvin Diff Pair",
-        "pattern": "/Project Architecture/Motor Control - Top Level/SC_P"
-      },
-      {
-        "netclass": "Kelvin Diff Pair",
-        "pattern": "/Project Architecture/Motor Control - Top Level/SC_N"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHA"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHB"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHC"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_C"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_B"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_A"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "+VBAT"
+        "netclass": "Chassis",
+        "pattern": "CHASSIS"
       },
       {
         "netclass": "GND",
@@ -777,7 +709,27 @@
       },
       {
         "netclass": "High Power",
-        "pattern": "/Project Architecture/Power - Generation/VIN_5V"
+        "pattern": "+VBAT"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/Motor Control - Index/+VBAT"
+      },
+      {
+        "netclass": "Power 5V",
+        "pattern": "/Project Architecture/Motor Control - Middle/+5V"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/Motor Control - Middle/+VBAT"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/Power - Connectors/+VBAT"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/Power - Generation/+VBAT"
       },
       {
         "netclass": "High Power",
@@ -785,27 +737,11 @@
       },
       {
         "netclass": "High Power",
-        "pattern": "/Project Architecture/Power - Generation/F_VBAT_12V"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Power - Generation/F_VBAT_5V"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Power - Generation/F_VIN_5V"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Power - Generation/F_VIN_12V"
+        "pattern": "/Project Architecture/Power - Generation/VIN_5V"
       },
       {
         "netclass": "Power 12V",
         "pattern": "+12V"
-      },
-      {
-        "netclass": "Power 12V",
-        "pattern": "/Project Architecture/Power - Generation/SW_12V"
       },
       {
         "netclass": "Power 3V3",
@@ -813,23 +749,15 @@
       },
       {
         "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/MCU - Power/+3V3"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Power - Generation/+3V3"
+      },
+      {
+        "netclass": "Power 3V3",
         "pattern": "/Project Architecture/Power - Generation/SW_3V3"
-      },
-      {
-        "netclass": "Power 5V",
-        "pattern": "+5V"
-      },
-      {
-        "netclass": "Power 5V",
-        "pattern": "/Project Architecture/Power - Generation/SW_5V"
-      },
-      {
-        "netclass": "Power A3V3",
-        "pattern": "+A3V3"
-      },
-      {
-        "netclass": "Power A3V3",
-        "pattern": "/Project Architecture/MCU - Power/F_A3V3"
       },
       {
         "netclass": "Power 3V3",
@@ -840,52 +768,92 @@
         "pattern": "/Project Architecture/Sensing - Position/DIS_VDD3V"
       },
       {
-        "netclass": "GND",
-        "pattern": "/Project Architecture/Interface - Fan Control/FAN_SW"
+        "netclass": "Power 5V",
+        "pattern": "+5V"
       },
       {
         "netclass": "Power 5V",
-        "pattern": "/Project Architecture/Power - Generation/F_VIN_3V3"
+        "pattern": "/Project Architecture/Motor Control - Index/+3.3V"
+      },
+      {
+        "netclass": "Power 5V",
+        "pattern": "/Project Architecture/Motor Control - Index/+5V"
       },
       {
         "netclass": "Power 5V",
         "pattern": "/Project Architecture/Power - Generation/+5V"
       },
       {
-        "netclass": "Power 3V3",
-        "pattern": "/Project Architecture/Power - Generation/+3V3"
+        "netclass": "Power A3V3",
+        "pattern": "+A3V3"
       },
       {
         "netclass": "Power A3V3",
         "pattern": "/Project Architecture/Power - Generation/+A3V3"
       },
       {
+        "netclass": "RS422 Diff Pair",
+        "pattern": "/Project Architecture/Interface - Interconnects/RS422_D-"
+      },
+      {
+        "netclass": "RS422 Diff Pair",
+        "pattern": "/Project Architecture/Interface - Interconnects/RS422_R+"
+      },
+      {
         "netclass": "Power 3V3",
-        "pattern": "/Project Architecture/MCU - POWER/+3V3"
+        "pattern": "/Project Architecture/Motor Control - Middle/+3.3V"
+      },
+      {
+        "netclass": "Default",
+        "pattern": ""
       },
       {
         "netclass": "High Power",
-        "pattern": "/Project Architecture/Power - Generation/+VBAT"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Power - Connectors/+VBAT"
+        "pattern": "/Project Architecture/Motor Control - Thumb 1/+VBAT"
       },
       {
         "netclass": "Power 5V",
-        "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Index/+5V"
+        "pattern": "/Project Architecture/Motor Control - Thumb 1/+5V"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Motor Control - Thumb 1/+3.3V"
+      },
+      {
+        "netclass": "Power 5V",
+        "pattern": "/Project Architecture/Motor Control - Thumb 2/+5V"
       },
       {
         "netclass": "High Power",
-        "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Index/+VBAT"
+        "pattern": "/Project Architecture/Motor Control - Thumb 2/+VBAT"
       },
       {
         "netclass": "Power 3V3",
-        "pattern": "/Project Architecture/MCU - Power/+3V3"
+        "pattern": "/Project Architecture/Motor Control - Thumb 2/+3.3V"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/Motor Control - Ring/+VBAT"
+      },
+      {
+        "netclass": "Power 5V",
+        "pattern": "/Project Architecture/Motor Control - Ring/+5V"
       },
       {
         "netclass": "Power 3V3",
-        "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Index/+3.3V"
+        "pattern": "/Project Architecture/Motor Control - Ring/+3.3V"
+      },
+      {
+        "netclass": "Power 12V",
+        "pattern": "/Project Architecture/Motor Control - Pinky/+VBAT"
+      },
+      {
+        "netclass": "Power 5V",
+        "pattern": "/Project Architecture/Motor Control - Pinky/+5V"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Motor Control - Pinky/+3.3V"
       }
     ]
   },
@@ -1072,28 +1040,44 @@
       "Revision History"
     ],
     [
-      "62e1134a-4afa-47e5-8a81-2f23b9b85122",
-      "Motor Control - Top Level"
+      "9fef4a7d-fe15-42af-a3b5-95e4268f1da7",
+      "Motor Control - Index"
     ],
     [
       "0bb1cb44-88fa-40dc-bea3-1adee4cb244a",
       "Misc - Board Version, DAC"
     ],
     [
+      "d622f5b6-19d6-40b1-8c69-868393d4ee00",
+      "Motor Control - Middle"
+    ],
+    [
       "28daf353-f3ef-4ecd-aedd-b1b76d334dfe",
       "User - LED Indicators"
+    ],
+    [
+      "21b04569-7cad-42c8-b7c4-043848eb996c",
+      "Motor Control - Ring"
     ],
     [
       "2e63ad8d-085e-4704-a18e-2216b579ffe6",
       "Sensing - Temperature & Humidity"
     ],
     [
+      "0ad8e17f-d145-48f3-a9e5-8d5e790e9ed0",
+      "Motor Control - Pinky"
+    ],
+    [
       "d30056b5-4391-456e-bc80-2bde1ca0d521",
       "Sensing - Battery"
     ],
     [
-      "cf7116ca-724a-4ef3-b3bf-c9d2e5ed7098",
-      "Sensing - Position"
+      "305bbf3d-632b-44c5-9393-c63a1a318790",
+      "Motor Control - Thumb 1"
+    ],
+    [
+      "6ac7dd3a-0d52-4fe3-8277-47c257d86de3",
+      "Motor Control - Thumb 2"
     ],
     [
       "7164844d-ef2d-4ed9-93c6-2b7c97a3348e",
@@ -1110,30 +1094,6 @@
     [
       "5f95795e-0401-405e-a7ff-2bb10fe67e18",
       "Misc - Holes, Fiducials"
-    ],
-    [
-      "e821eb64-9ae4-415d-bd98-904a6c2e602a",
-      "Motor Control - Index"
-    ],
-    [
-      "d22c5670-9da0-4f2f-acb0-4fbe9e5abdf2",
-      "Motor Control - Middle"
-    ],
-    [
-      "de27a8ad-4ccd-4684-b8fe-8c9f4a929096",
-      "Motor Control - Ring"
-    ],
-    [
-      "bf1e7bca-f9b2-4856-846e-fc1f6043602e",
-      "Motor Control - Pinky"
-    ],
-    [
-      "94775c79-64e9-48cf-ae2a-63b83b072321",
-      "Motor Control - Thumb 1"
-    ],
-    [
-      "e82d2a8d-1211-43fb-9e66-97549fc9c750",
-      "Motor Control - Thumb 2"
     ]
   ],
   "text_variables": {
