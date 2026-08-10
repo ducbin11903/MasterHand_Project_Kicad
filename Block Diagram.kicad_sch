@@ -632,21 +632,6 @@
 	)
 	(text "+VBAT\n"
 		(exclude_from_sim no)
-		(at 180.34 233.68 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.286 2.286)
-				(thickness 0.4572)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "a8f9aab6-9bc8-4651-8707-11e92c0242e9")
-	)
-	(text "+VBAT\n"
-		(exclude_from_sim no)
 		(at 477.52 68.58 0)
 		(effects
 			(font
@@ -728,7 +713,7 @@
 		)
 		(uuid "00db6c5d-01c6-43a6-9933-72017bfd58f6")
 	)
-	(text_box "BATTERY VOLTAGE\n\n"
+	(text_box "BUZZER\n"
 		(exclude_from_sim no)
 		(at 200.66 236.22 0)
 		(size 27.94 12.7)
@@ -2617,14 +2602,14 @@
 		)
 		(uuid "69ab53d9-2fc9-487e-87d7-90acbe89c34d")
 	)
-	(text_box "ADC"
+	(text_box "PWM"
 		(exclude_from_sim no)
 		(at 289.56 238.76 0)
 		(size 12.7 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
 			(width -0.0001)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type color)
@@ -3217,30 +3202,6 @@
 		)
 		(uuid "875fe386-9b48-4c24-a41b-93492a5642ea")
 	)
-	(text_box "Page #"
-		(exclude_from_sim no)
-		(at 182.88 238.76 0)
-		(size 17.78 5.08)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.286 2.286)
-				(thickness 0.4572)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify right top)
-		)
-		(uuid "89fdf9eb-2baa-4932-a5ec-2153594e8b10")
-	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
 		(at 231.14 83.82 0)
@@ -3747,30 +3708,6 @@
 			)
 		)
 		(uuid "a6e2e9a5-77ba-4e5d-b282-a4b4bfb92fbf")
-	)
-	(text_box "Page #"
-		(exclude_from_sim no)
-		(at 184.15 251.46 0)
-		(size 17.78 5.08)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.286 2.286)
-				(thickness 0.4572)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify right top)
-		)
-		(uuid "a8900c94-1801-4531-91dd-ed43f281f122")
 	)
 	(text_box "4A"
 		(exclude_from_sim no)
@@ -5744,17 +5681,6 @@
 	)
 	(polyline
 		(pts
-			(xy 182.88 236.22) (xy 187.96 236.22)
-		)
-		(stroke
-			(width 1.016)
-			(type default)
-			(color 198 71 194 1)
-		)
-		(uuid "590921e7-00a1-4091-a457-f0b0e720fba2")
-	)
-	(polyline
-		(pts
 			(xy 482.6 68.58) (xy 485.14 68.58)
 		)
 		(stroke
@@ -5887,17 +5813,6 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 236.22) (xy 185.42 246.38)
-		)
-		(stroke
-			(width 1.016)
-			(type default)
-			(color 198 71 194 1)
-		)
-		(uuid "7c8877b9-248c-44ab-a64c-f270362216cc")
-	)
-	(polyline
-		(pts
 			(xy 41.402 125.73) (xy 41.402 144.78)
 		)
 		(stroke
@@ -6016,17 +5931,6 @@
 			(color 198 71 194 1)
 		)
 		(uuid "8f990554-ad1a-4457-887a-19066506d254")
-	)
-	(polyline
-		(pts
-			(xy 185.42 236.22) (xy 187.96 236.22)
-		)
-		(stroke
-			(width 1.016)
-			(type default)
-			(color 198 71 194 1)
-		)
-		(uuid "911d5ac6-a378-4204-8be5-15a852b1ea40")
 	)
 	(polyline
 		(pts
@@ -6401,17 +6305,6 @@
 			(color 212 0 32 1)
 		)
 		(uuid "c415b16c-3bef-4b9b-b38c-5b53187319a2")
-	)
-	(polyline
-		(pts
-			(xy 200.66 246.38) (xy 185.42 246.38)
-		)
-		(stroke
-			(width 1.016)
-			(type default)
-			(color 198 71 194 1)
-		)
-		(uuid "c4cb85ed-5a8b-43c3-bf87-1841e8f247a8")
 	)
 	(polyline
 		(pts
