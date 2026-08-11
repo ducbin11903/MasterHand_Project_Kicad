@@ -9,5 +9,1189 @@
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Duc-Resistors:RES SMD 0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RES 0603"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Duc:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES SMD 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO(国巨)"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RT0603FRE13100KL"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C4107493"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RES SMD 0603_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RES SMD 0603_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Power_symbols:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power Symbol - Global Ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_0"
+				(pin power_in line
+					(at 0 1.27 90)
+					(length 0)
+					(hide yes)
+					(name "-VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.54) (xy 0.762 2.54) (xy 0 3.81) (xy -0.762 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 6 0 0 1)
+					)
+					(fill
+						(type color)
+						(color 6 0 0 1)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(arc
+		(start 118.11 120.65)
+		(mid 116.3198 119.9002)
+		(end 115.57 118.11)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2b6b2a98-a95b-490d-9c29-159d9506a8ee)
+	)
+	(arc
+		(start 115.57 115.57)
+		(mid 115.1951 116.4651)
+		(end 114.3 116.84)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2c6e2689-4123-4fd0-84a4-c83f094f937b)
+	)
+	(rectangle
+		(start 135.382 97.79)
+		(end 136.144 120.65)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 1)
+		)
+		(uuid 3feb65fc-6234-45a4-a67c-8a736fef88da)
+	)
+	(arc
+		(start 118.12 111.77)
+		(mid 116.3298 111.0202)
+		(end 115.58 109.23)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 52e68fa7-8bd2-4f4e-b4cd-d4edef15abb9)
+	)
+	(arc
+		(start 115.57 115.57)
+		(mid 116.3139 113.7739)
+		(end 118.11 113.03)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5886ea81-307e-41cf-9aac-292d8be9c32d)
+	)
+	(arc
+		(start 114.3 116.84)
+		(mid 115.1951 117.2149)
+		(end 115.57 118.11)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5c9a0c4d-f332-425d-a4f7-8c8c88e0e275)
+	)
+	(rectangle
+		(start 38.1 25.4)
+		(end 254 152.4)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 645b3390-508b-42d0-9ebb-90d8605439d2)
+	)
+	(rectangle
+		(start 137.16 96.012)
+		(end 175.26 96.774)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 1)
+		)
+		(uuid 660ad9eb-3960-4c8c-87ac-c9358828d930)
+	)
+	(arc
+		(start 115.58 101.61)
+		(mid 116.3239 99.8139)
+		(end 118.12 99.07)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9fd10281-a6a8-4ced-8220-b055a35a5252)
+	)
+	(arc
+		(start 114.31 105.42)
+		(mid 115.2051 105.7949)
+		(end 115.58 106.69)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b7b04df6-ce54-420f-90d3-76d9f2169529)
+	)
+	(arc
+		(start 115.58 104.15)
+		(mid 115.2051 105.0451)
+		(end 114.31 105.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c6501abc-3e64-4857-9e11-39f7683c6e6e)
+	)
+	(text_box "DESIGN NOTE:\nNecessary to be compatible with BH FW."
+		(exclude_from_sim no)
+		(at 116.84 50.8 0)
+		(size 26.67 8.89)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 165 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "0bbb76df-15c7-4f03-802f-6d9bbde51ba4")
+	)
+	(text_box "r1.3"
+		(exclude_from_sim no)
+		(at 119.38 105.41 0)
+		(size 16.51 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 0 0 127 1)
+			)
+		)
+		(uuid "0c6f517a-3661-4837-a86c-2bb4fc5fed31")
+	)
+	(text_box "TOP"
+		(exclude_from_sim no)
+		(at 137.16 88.9 0)
+		(size 19.05 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 0 0 127 1)
+			)
+		)
+		(uuid "117a3023-bb20-4d83-bb20-a238c32f967d")
+	)
+	(text_box "BOTTOM"
+		(exclude_from_sim no)
+		(at 156.21 88.9 0)
+		(size 19.05 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 0 0 127 1)
+			)
+		)
+		(uuid "1d4f6a7a-c4d5-4b5e-81b7-00e33177c778")
+	)
+	(text_box "r1.1, r1.2"
+		(exclude_from_sim no)
+		(at 119.38 97.79 0)
+		(size 16.51 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 0 0 127 1)
+			)
+		)
+		(uuid "2ee11179-7492-4a8b-8f24-39b40f316981")
+	)
+	(text_box "Amulet"
+		(exclude_from_sim no)
+		(at 100.33 114.3 0)
+		(size 13.335 5.08)
+		(margins 1.4287 1.4287 1.4287 1.4287)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "322ca691-0c4f-48d9-971a-41b5fe2f866c")
+	)
+	(text_box "DESIGN NOTE:\nPin is also used at compile time to output analog debug data (DAC)."
+		(exclude_from_sim no)
+		(at 116.84 64.135 0)
+		(size 26.67 11.43)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "40892a43-7cc8-4645-9080-f29f99adad45")
+	)
+	(text_box "Board Version Resistor Divider"
+		(exclude_from_sim no)
+		(at 99.06 128.905 0)
+		(size 91.44 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "48bd68f3-7e27-4095-9784-88a52b9194fb")
+	)
+	(text_box "100k"
+		(exclude_from_sim no)
+		(at 156.21 97.79 0)
+		(size 19.05 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 0 0 127 1)
+			)
+		)
+		(uuid "516d2b6a-155a-4eab-ae14-aa071cae2ac7")
+	)
+	(text_box "moteus"
+		(exclude_from_sim no)
+		(at 100.33 102.87 0)
+		(size 13.335 5.08)
+		(margins 1.4287 1.4287 1.4287 1.4287)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "79df7c0d-95b3-46a9-af45-c3f738b02caf")
+	)
+	(text_box "100k"
+		(exclude_from_sim no)
+		(at 137.16 113.03 0)
+		(size 19.05 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 0 0 127 1)
+			)
+		)
+		(uuid "812d9ae3-40e7-4c34-9269-2c1097e606a7")
+	)
+	(text_box "×"
+		(exclude_from_sim no)
+		(at 156.21 105.41 0)
+		(size 19.05 7.62)
+		(margins 3 3 3 3)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(bold yes)
+				(color 0 0 127 1)
+			)
+		)
+		(uuid "aba0efbb-6721-41a8-ab50-eb32900f3bd9")
+	)
+	(text_box "100k"
+		(exclude_from_sim no)
+		(at 137.16 105.41 0)
+		(size 19.05 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 0 0 127 1)
+			)
+		)
+		(uuid "bba4f0eb-e450-4626-a5d6-6f9853ed0b32")
+	)
+	(text_box "100k"
+		(exclude_from_sim no)
+		(at 156.21 113.03 0)
+		(size 19.05 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 0 0 127 1)
+			)
+		)
+		(uuid "c04bed80-1305-4429-8c3c-e25cadb5114b")
+	)
+	(text_box "×"
+		(exclude_from_sim no)
+		(at 137.16 97.79 0)
+		(size 19.05 7.62)
+		(margins 3 3 3 3)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(bold yes)
+				(color 0 0 127 1)
+			)
+		)
+		(uuid "d8e9697d-cec3-48c8-b0a2-6fa96d147bcb")
+	)
+	(text_box "[${#}] ${SHEETNAME}"
+		(exclude_from_sim no)
+		(at 12.7 12.7 0)
+		(size 271.78 12.7)
+		(margins 4.4999 4.4999 4.4999 4.4999)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "f0160c62-d49e-47d8-a7fa-5aba579dfb75")
+	)
+	(text_box "v1.0-1.1"
+		(exclude_from_sim no)
+		(at 119.38 113.03 0)
+		(size 16.51 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 0 0 127 1)
+			)
+		)
+		(uuid "f2f7da8c-0722-448a-9f8f-3df921c842b8")
+	)
+	(junction
+		(at 147.32 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fa247c9-8e69-4fc1-8af1-876d8f18fd73")
+	)
+	(wire
+		(pts
+			(xy 144.78 41.91) (xy 147.32 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c3051d-7233-499e-bef0-3e6e0cd1c5ef")
+	)
+	(polyline
+		(pts
+			(xy 115.57 106.68) (xy 115.57 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "493105d8-2271-4b7b-a557-a105087d0008")
+	)
+	(wire
+		(pts
+			(xy 147.32 63.5) (xy 147.32 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "520ecc32-66b0-4247-a7d6-3a76ff9ef1de")
+	)
+	(wire
+		(pts
+			(xy 160.02 63.5) (xy 147.32 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d7a6fff-a366-48c1-b2f8-24fab7008eac")
+	)
+	(wire
+		(pts
+			(xy 147.32 41.91) (xy 147.32 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e190a0-14e0-499c-9dd5-34760525082c")
+	)
+	(wire
+		(pts
+			(xy 147.32 80.01) (xy 147.32 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8518b2c-cd63-4694-920a-28a59d561311")
+	)
+	(wire
+		(pts
+			(xy 147.32 63.5) (xy 147.32 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eebd69f7-e9bb-4a69-9089-a4114d7df615")
+	)
+	(polyline
+		(pts
+			(xy 115.57 101.6) (xy 115.57 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35580af-a1d4-42b2-a07c-5b028b2c2bb2")
+	)
+	(hierarchical_label "BOARD_VERSION"
+		(shape output)
+		(at 160.02 63.5 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1193c07d-83f5-4f26-9b5f-deac21d8c186")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 144.78 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66599dbb-fe71-429f-877d-228780a34b66")
+	)
+	(symbol
+		(lib_id "Power_symbols:GND")
+		(at 147.32 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58fcda21-ac55-4851-8e95-cb2dae87a749")
+		(property "Reference" "#PWR078"
+			(at 147.32 78.74 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Symbol - Global Ground"
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96c15b2f-4619-4097-952a-7fa7a806860b")
+		)
+		(instances
+			(project ""
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Duc-Resistors:RES SMD 0603")
+		(at 147.32 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a175da42-8e25-4a69-96f5-eab073cc9c3e")
+		(property "Reference" "R26"
+			(at 149.86 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100K 0.1% 0603"
+			(at 149.86 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Duc:R0603"
+			(at 154.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
+			(at 157.48 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 0603"
+			(at 147.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 160.02 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RT0402FRE07100KL"
+			(at 147.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "Digikey"
+			(at 147.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "YAG2307CT-ND"
+			(at 147.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603FRE13100KL"
+			(at 162.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4107493"
+			(at 165.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3d2c366-adf0-4900-ac36-4da22fe7462a")
+		)
+		(pin "2"
+			(uuid "da65bd8e-3729-4a0d-a01c-d6d34f0b24fb")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Duc-Resistors:RES SMD 0603")
+		(at 147.32 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ada536d2-0cd3-4e40-8aa5-dfdaa07090ba")
+		(property "Reference" "R25"
+			(at 149.86 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100K 0.1% 0603"
+			(at 149.86 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Duc:R0603"
+			(at 154.94 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
+			(at 157.48 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 0603"
+			(at 147.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 160.02 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RT0402FRE07100KL"
+			(at 147.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "Digikey"
+			(at 147.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "YAG2307CT-ND"
+			(at 147.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603FRE13100KL"
+			(at 162.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4107493"
+			(at 165.1 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d396942-72a0-43dc-a820-5cf69ad9e91b")
+		)
+		(pin "2"
+			(uuid "802c93ca-0d01-4f8d-abac-c38c8984aed5")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

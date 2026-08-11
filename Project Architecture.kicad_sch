@@ -5,7 +5,6 @@
 	(uuid "07236397-3ba4-47af-9809-3faac3a2aa49")
 	(paper "A3")
 	(title_block
-		(title "Project Architecture")
 		(date "2026-06-27")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
@@ -189,14 +188,14 @@
 		)
 		(uuid "97bb5e92-ab26-4907-9b80-08d49465fc86")
 	)
-	(text_box "[${#}] ${TITLE}"
+	(text_box "[${#}] ${SHEETNAME}"
 		(exclude_from_sim no)
-		(at 144.78 21.59 0)
-		(size 130.81 12.7)
-		(margins 5.9999 5.9999 5.9999 5.9999)
+		(at 88.9 12.7 0)
+		(size 254 12.7)
+		(margins 4.4999 4.4999 4.4999 4.4999)
 		(stroke
 			(width -0.0001)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -204,13 +203,13 @@
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 8 8)
+				(size 6 6)
 				(thickness 1.2)
 				(bold yes)
 				(color 162 22 34 1)
 			)
 		)
-		(uuid "f4789478-c68e-4cee-9edd-5d11b744f94d")
+		(uuid "e1b1569d-bc2d-48f5-8be8-521dd04681c8")
 	)
 	(polyline
 		(pts
@@ -496,7 +495,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "9")
+					(page "21")
 				)
 			)
 		)
@@ -776,7 +775,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "10")
+					(page "17")
 				)
 			)
 		)
@@ -869,7 +868,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "11")
+					(page "18")
 				)
 			)
 		)
@@ -997,7 +996,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "17")
+					(page "20")
 				)
 			)
 		)
@@ -1102,7 +1101,7 @@
 			(color 255 150 255 0.5000)
 		)
 		(uuid "7164844d-ef2d-4ed9-93c6-2b7c97a3348e")
-		(property "Sheetname" "Interface - RS - 485"
+		(property "Sheetname" "Interface - USB 2.0"
 			(at 140.97 214.8709 0)
 			(effects
 				(font
@@ -1371,7 +1370,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "12")
+					(page "19")
 				)
 			)
 		)
@@ -1564,7 +1563,7 @@
 			(color 255 150 255 0.5000)
 		)
 		(uuid "f2e2e46b-bf48-4385-80eb-484ec861c9a9")
-		(property "Sheetname" "Interface - FD-CAN"
+		(property "Sheetname" "Interface - FD - CAN"
 			(at 55.88 138.6709 0)
 			(effects
 				(font

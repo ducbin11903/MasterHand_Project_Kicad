@@ -10,4 +10,40 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols)
+	(rectangle
+		(start 38.1 25.4)
+		(end 254 152.4)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4a46c3d0-f6a7-4f67-af2a-1800c22e5892)
+	)
+	(text_box "[${#}] ${SHEETNAME}"
+		(exclude_from_sim no)
+		(at 12.7 12.7 0)
+		(size 271.78 12.7)
+		(margins 4.4999 4.4999 4.4999 4.4999)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "6b60e701-d549-47f6-a09e-4d41aa793359")
+	)
 )

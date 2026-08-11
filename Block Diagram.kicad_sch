@@ -5,7 +5,6 @@
 	(uuid "d4440dba-022e-49b2-97f2-6fc1871c7304")
 	(paper "A2")
 	(title_block
-		(title "Block Diagram")
 		(date "2026-06-27")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
@@ -2856,29 +2855,6 @@
 		)
 		(uuid "72ba5f3b-a518-470b-9b2c-e6b46d839eef")
 	)
-	(text_box "[${#}] ${TITLE}"
-		(exclude_from_sim no)
-		(at 233.68 17.78 0)
-		(size 130.81 12.7)
-		(margins 5.9999 5.9999 5.9999 5.9999)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 8 8)
-				(thickness 1.2)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-		)
-		(uuid "73b2b29c-2473-4e80-be0b-4f57c6856c3e")
-	)
 	(text_box "1x AUX1 Connector"
 		(exclude_from_sim no)
 		(at 185.42 320.04 0)
@@ -3846,6 +3822,29 @@
 			)
 		)
 		(uuid "afc95fc2-9da7-4ebb-bfc1-a55cf37de05e")
+	)
+	(text_box "[${#}] ${SHEETNAME}"
+		(exclude_from_sim no)
+		(at 165.1 12.7 0)
+		(size 266.7 12.7)
+		(margins 4.4999 4.4999 4.4999 4.4999)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "afd97c59-edb0-4c94-96fd-11f216ab7911")
 	)
 	(text_box "FDCAN"
 		(exclude_from_sim no)

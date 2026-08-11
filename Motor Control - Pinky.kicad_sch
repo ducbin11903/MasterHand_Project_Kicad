@@ -1240,94 +1240,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_symbols:DGND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "DGND"
-				(at 0 -0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power Symbol - Digital Ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DGND_1_0"
-				(pin power_in line
-					(at 0 1.27 90)
-					(length 0)
-					(hide yes)
-					(name "-VBAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "DGND_1_1"
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 2.54) (xy 0.762 2.54) (xy 0 3.81) (xy -0.762 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 6 0 0 1)
-					)
-					(fill
-						(type color)
-						(color 255 255 255 1)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Power_symbols:GND"
 			(power)
 			(exclude_from_sim no)
@@ -1431,17 +1343,40 @@
 		)
 		(uuid 0660878c-8d38-46b8-9751-e47ae2406651)
 	)
-	(junction
-		(at 147.32 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "065d8708-3e63-4f80-902e-be022e99dc74")
+	(text_box "[${#}] ${SHEETNAME}"
+		(exclude_from_sim no)
+		(at 12.7 12.7 0)
+		(size 271.78 12.7)
+		(margins 4.4999 4.4999 4.4999 4.4999)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "d12f0dcd-ecbe-4a8b-94ff-22a67853a2b7")
 	)
 	(junction
 		(at 104.14 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a5042e3-6da2-4a6f-adce-d03bf8232e55")
+	)
+	(junction
+		(at 139.7 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a6f33f6-94c6-4665-980f-014e819f1ae1")
 	)
 	(junction
 		(at 185.42 116.84)
@@ -1456,16 +1391,16 @@
 		(uuid "20709ce9-4995-4bdf-a6d5-3e1ce2462612")
 	)
 	(junction
-		(at 162.56 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b1fc541-db47-4533-9149-c6438e9fb1e1")
-	)
-	(junction
 		(at 139.7 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "315f4528-b078-44aa-b4a5-9ccca8a5dd2c")
+	)
+	(junction
+		(at 139.7 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "585892ca-f40d-4cef-a3d3-a4610fbb7501")
 	)
 	(junction
 		(at 139.7 50.8)
@@ -1478,6 +1413,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61dfeb86-d93f-4674-ac50-24ecbfd3c915")
+	)
+	(junction
+		(at 66.04 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "657067c8-7a7e-402f-873f-9909995c3266")
 	)
 	(junction
 		(at 104.14 50.8)
@@ -1502,6 +1443,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7947f726-6b50-47eb-a3a2-3ce3d90c9f0d")
+	)
+	(junction
+		(at 121.92 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d4dde6a-4e2b-4ac4-adfd-1e122b8c8edc")
+	)
+	(junction
+		(at 162.56 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f6dce90-586e-4c65-bb69-0143400642d1")
 	)
 	(junction
 		(at 139.7 55.88)
@@ -1532,12 +1485,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9c6a011-c99e-41f4-a4b9-576e902ca82f")
-	)
-	(junction
-		(at 66.04 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc19fb44-f18f-44ef-ba9d-3bcd131c7ac1")
 	)
 	(junction
 		(at 99.06 71.12)
@@ -1761,7 +1708,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 76.2) (xy 147.32 76.2)
+			(xy 137.16 76.2) (xy 139.7 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1828,6 +1775,16 @@
 			(type default)
 		)
 		(uuid "326fcff1-0f07-4d41-a153-fa8eba7fb9af")
+	)
+	(wire
+		(pts
+			(xy 104.14 86.36) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c48d3e-4aeb-487f-8681-57580a85af94")
 	)
 	(wire
 		(pts
@@ -1971,6 +1928,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 76.2) (xy 139.7 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664f4130-0b63-4dcc-bfe2-593d4e0748a8")
+	)
+	(wire
+		(pts
 			(xy 148.59 63.5) (xy 148.59 66.04)
 		)
 		(stroke
@@ -2091,7 +2058,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 53.34) (xy 104.14 87.63)
+			(xy 104.14 53.34) (xy 104.14 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2168,16 +2135,6 @@
 			(type default)
 		)
 		(uuid "8ec291cf-562c-4b6f-ab32-0679ec5303a7")
-	)
-	(wire
-		(pts
-			(xy 147.32 78.74) (xy 147.32 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ee81dee-3143-45f6-8165-0373300d5e39")
 	)
 	(wire
 		(pts
@@ -2321,6 +2278,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 78.74) (xy 139.7 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af437751-3175-4b3b-98d8-2f95fa13b082")
+	)
+	(wire
+		(pts
 			(xy 191.77 52.07) (xy 213.36 52.07)
 		)
 		(stroke
@@ -2381,16 +2348,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 76.2) (xy 147.32 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c30ea734-6414-4177-b9db-7a9e3dbee1d0")
-	)
-	(wire
-		(pts
 			(xy 99.06 76.2) (xy 106.68 76.2)
 		)
 		(stroke
@@ -2401,7 +2358,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 78.74) (xy 147.32 78.74)
+			(xy 137.16 78.74) (xy 139.7 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2491,7 +2448,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 60.96) (xy 139.7 86.36)
+			(xy 139.7 60.96) (xy 139.7 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4007,72 +3964,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_symbols:DGND")
-		(at 147.32 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6dd79f48-4477-4843-b25e-c3c37304164c")
-		(property "Reference" "#PWR050"
-			(at 147.32 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DGND"
-			(at 147.32 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power Symbol - Digital Ground"
-			(at 147.32 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6dd0112a-3589-47b2-bf8e-4c14aa5a3668")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0ad8e17f-d145-48f3-a9e5-8d5e790e9ed0"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_symbols:GND")
 		(at 233.68 114.3 270)
 		(unit 1)
@@ -4140,7 +4031,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_symbols:DGND")
+		(lib_id "Power_symbols:GND")
 		(at 162.56 128.27 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4148,9 +4039,10 @@
 		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "85e5e041-893d-49d6-9b96-191b9cbc5d0f")
+		(uuid "87d266fd-c194-4647-ae61-83305658afac")
 		(property "Reference" "#PWR051"
 			(at 162.56 128.27 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4158,7 +4050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "DGND"
+		(property "Value" "GND"
 			(at 162.56 134.62 0)
 			(effects
 				(font
@@ -4184,7 +4076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power Symbol - Digital Ground"
+		(property "Description" "Power Symbol - Global Ground"
 			(at 162.56 128.27 0)
 			(effects
 				(font
@@ -4194,78 +4086,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f63e4964-a539-4566-9cfb-fa794dae3206")
+			(uuid "d3cd5990-0677-4b3c-9c96-332ae352638a")
 		)
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0ad8e17f-d145-48f3-a9e5-8d5e790e9ed0"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:DGND")
-		(at 66.04 128.27 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b80bf326-88ca-4a37-b694-8038f465832e")
-		(property "Reference" "#PWR046"
-			(at 66.04 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DGND"
-			(at 66.04 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power Symbol - Digital Ground"
-			(at 66.04 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8baaae10-91ca-4ceb-aa9e-103d542823cb")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0ad8e17f-d145-48f3-a9e5-8d5e790e9ed0"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4367,17 +4193,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_symbols:DGND")
-		(at 104.14 86.36 180)
+		(lib_id "Power_symbols:GND")
+		(at 66.04 128.27 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dbf6db8b-7904-440a-9485-d0ac77f56543")
-		(property "Reference" "#PWR047"
-			(at 104.14 86.36 0)
+		(uuid "f817df56-7100-425c-8b3b-1d99ceee7ad7")
+		(property "Reference" "#PWR050"
+			(at 66.04 128.27 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4385,8 +4212,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "DGND"
-			(at 104.14 92.71 0)
+		(property "Value" "GND"
+			(at 66.04 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +4221,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 86.36 0)
+			(at 66.04 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,7 +4230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 86.36 0)
+			(at 66.04 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4411,8 +4238,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power Symbol - Digital Ground"
-			(at 104.14 86.36 0)
+		(property "Description" "Power Symbol - Global Ground"
+			(at 66.04 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,12 +4248,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0036c08a-afd1-4013-861b-afed65503d15")
+			(uuid "86645236-f625-48bb-beb1-eca0328fb07c")
 		)
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0ad8e17f-d145-48f3-a9e5-8d5e790e9ed0"
-					(reference "#PWR047")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)

@@ -5,7 +5,6 @@
 	(uuid "ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a")
 	(paper "A3")
 	(title_block
-		(title "MCU - Power")
 		(date "2026-06-27")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
@@ -4981,7 +4980,7 @@
 	)
 	(text_box "Microcontroller Power Supply Scheme"
 		(exclude_from_sim no)
-		(at 88.9 129.54 0)
+		(at 88.9 130.81 0)
 		(size 144.78 7.62)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -5027,29 +5026,6 @@
 			(justify left top)
 		)
 		(uuid "2c0b292e-0959-42cd-88a8-8eefc3af1ab2")
-	)
-	(text_box "[${#}] ${TITLE}"
-		(exclude_from_sim no)
-		(at 12.7 13.97 0)
-		(size 393.7 12.7)
-		(margins 4.4999 4.4999 4.4999 4.4999)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 6 6)
-				(thickness 1.2)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-		)
-		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
 	)
 	(junction
 		(at 167.64 162.56)
