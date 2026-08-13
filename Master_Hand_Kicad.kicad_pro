@@ -866,6 +866,10 @@
       {
         "netclass": "Power 3V3",
         "pattern": "/Project Architecture/Misc - Board Version, DAC/+3.3V"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Sensing - Temperature & Humidity/+3V3"
       }
     ]
   },
@@ -1081,7 +1085,7 @@
     ],
     [
       "28daf353-f3ef-4ecd-aedd-b1b76d334dfe",
-      "User - LED Indicators"
+      "User - LED Indicators & Buzzer"
     ],
     [
       "2e63ad8d-085e-4704-a18e-2216b579ffe6",

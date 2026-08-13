@@ -1343,6 +1343,19 @@
 		)
 		(uuid 71bf101e-1972-4b78-bbe5-85be8cb7383e)
 	)
+	(rectangle
+		(start 177.8 25.4)
+		(end 254 76.2)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 84623447-bf6d-4700-98a4-da9df1e7cc98)
+	)
 	(text_box "[${#}] ${SHEETNAME}"
 		(exclude_from_sim no)
 		(at 12.7 12.7 0)

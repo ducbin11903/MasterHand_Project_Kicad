@@ -740,7 +740,7 @@
 			(color 255 255 150 0.5000)
 		)
 		(uuid "28daf353-f3ef-4ecd-aedd-b1b76d334dfe")
-		(property "Sheetname" "User - LED Indicators"
+		(property "Sheetname" "User - LED Indicators & Buzzer"
 			(at 262.89 145.0209 0)
 			(effects
 				(font

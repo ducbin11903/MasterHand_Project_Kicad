@@ -1331,6 +1331,19 @@
 		)
 	)
 	(rectangle
+		(start 177.8 25.4)
+		(end 254 76.2)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b928c539-1c45-480b-a29c-a6bc7b8b7eb9)
+	)
+	(rectangle
 		(start 38.1 25.4)
 		(end 254 152.4)
 		(stroke

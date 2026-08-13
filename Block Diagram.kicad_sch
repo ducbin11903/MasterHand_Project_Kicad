@@ -1171,29 +1171,6 @@
 		)
 		(uuid "1cceef5d-db46-4b61-a286-47e545dac1c3")
 	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 144.78 358.14 0)
-		(size 70.485 7.62)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 255 181 181 1)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.286 2.286)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "1d70d2c3-fe24-4ec3-9eb4-2a630f3e72ca")
-	)
 	(text_box "Temperature & Humidity\n"
 		(exclude_from_sim no)
 		(at 195.58 281.94 0)
@@ -1401,6 +1378,29 @@
 		)
 		(uuid "2568ce54-fb1d-4e03-a12a-11b8ed8ddeab")
 	)
+	(text_box "1x USART Connector"
+		(exclude_from_sim no)
+		(at 187.96 187.96 0)
+		(size 22.86 7.62)
+		(margins 1.7144 1.7144 1.7144 1.7144)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 175 92 173 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "262d713d-a192-402d-bac8-2c4077fd8b6b")
+	)
 	(text_box "TIM \nCH3,4"
 		(exclude_from_sim no)
 		(at 330.2 63.5 0)
@@ -1426,8 +1426,8 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 172.72 187.96 0)
-		(size 42.545 7.62)
+		(at 210.82 187.96 0)
+		(size 26.67 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
 			(width -0.0001)
@@ -2046,6 +2046,52 @@
 		)
 		(uuid "4a46816f-b3d0-4881-b2a0-dac41c7aef51")
 	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 166.37 358.14 0)
+		(size 21.59 7.62)
+		(margins 1.7144 1.7144 1.7144 1.7144)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 181 181 1)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "4af93b5a-47ff-4654-a32a-4659aeed1e70")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 152.4 187.96 0)
+		(size 35.56 7.62)
+		(margins 1.7144 1.7144 1.7144 1.7144)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 181 181 1)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "4b3b6825-8375-4ad2-8a03-f8255eb93289")
+	)
 	(text_box "DC Gear Motor Connector 2"
 		(exclude_from_sim no)
 		(at 515.62 116.84 0)
@@ -2164,6 +2210,29 @@
 		)
 		(uuid "52a13dc8-1016-45b8-9834-b31b190aad13")
 	)
+	(text_box "1x USART Connector"
+		(exclude_from_sim no)
+		(at 187.96 358.14 0)
+		(size 22.86 7.62)
+		(margins 1.7144 1.7144 1.7144 1.7144)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 175 92 173 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "5360bf36-ae61-4812-91d9-497c201330c9")
+	)
 	(text_box "FDCAN"
 		(exclude_from_sim no)
 		(at 284.48 172.72 0)
@@ -2186,29 +2255,6 @@
 			)
 		)
 		(uuid "551544c7-666e-4ff0-8f58-a3169492d419")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 144.78 195.58 0)
-		(size 27.94 162.56)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 255 181 181 1)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.286 2.286)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "555b6ded-b486-4a2f-9e56-e1beab07bd45")
 	)
 	(text_box "M1, M2, C1, C2, VCC, GND"
 		(exclude_from_sim no)
@@ -2716,29 +2762,6 @@
 			)
 		)
 		(uuid "6c49a33e-c6b8-4703-a55c-14de726f6715")
-	)
-	(text_box "RS-422 Transceiver"
-		(exclude_from_sim no)
-		(at 215.265 187.96 0)
-		(size 22.86 7.62)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 175 92 173 1)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2.286 2.286)
-				(bold yes)
-				(color 255 255 255 1)
-			)
-		)
-		(uuid "6dcf8aa0-3a08-449e-9e2e-86890599b542")
 	)
 	(text_box "GPIO6\n"
 		(exclude_from_sim no)
@@ -3455,6 +3478,29 @@
 		)
 		(uuid "9b686b9b-99ed-41a0-ac13-160566eba24d")
 	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 152.4 195.58 90)
+		(size 13.97 170.18)
+		(margins 1.7144 1.7144 1.7144 1.7144)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 181 181 1)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "9c3f91f5-aa7a-4bcf-8271-6ed0806c672e")
+	)
 	(text_box "ADC6"
 		(exclude_from_sim no)
 		(at 312.42 340.36 0)
@@ -3477,29 +3523,6 @@
 			)
 		)
 		(uuid "9da73784-7463-4ab2-9810-22d7fb4a06ea")
-	)
-	(text_box "RS-422 Transceiver"
-		(exclude_from_sim no)
-		(at 215.265 358.14 0)
-		(size 22.86 7.62)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 175 92 173 1)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2.286 2.286)
-				(bold yes)
-				(color 255 255 255 1)
-			)
-		)
-		(uuid "a039e3c9-53c4-4187-8b8b-5f8f177e9bab")
 	)
 	(text_box ""
 		(exclude_from_sim no)
@@ -4998,29 +5021,6 @@
 		)
 		(uuid "f158882b-3dea-4a69-a71a-cd6745ad6d15")
 	)
-	(text_box "1x RS-422 Connector"
-		(exclude_from_sim no)
-		(at 144.78 187.96 0)
-		(size 27.94 7.62)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 175 92 173 1)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2.286 2.286)
-				(bold yes)
-				(color 255 255 255 1)
-			)
-		)
-		(uuid "f1a2c033-79a4-4ca2-9fe3-f0d9b40f43ed")
-	)
 	(text_box "PWM5\n"
 		(exclude_from_sim no)
 		(at 312.42 276.86 0)
@@ -5092,8 +5092,8 @@
 	)
 	(text_box "USART1"
 		(exclude_from_sim no)
-		(at 238.125 187.96 0)
-		(size 41.275 7.62)
+		(at 237.49 187.96 0)
+		(size 41.91 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
 			(width -0.0001)
@@ -5158,6 +5158,29 @@
 			)
 		)
 		(uuid "f70a9348-2469-4f4d-8693-e628e9577fe9")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 210.82 358.14 0)
+		(size 27.94 7.62)
+		(margins 1.7144 1.7144 1.7144 1.7144)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 181 181 1)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "faf00029-4af7-4eef-90b9-6dc3eb15e970")
 	)
 	(text_box "TB9051FTG\nMotor Driver 1\n"
 		(exclude_from_sim no)
