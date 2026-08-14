@@ -2,11 +2,11 @@
   <img alt="Logo" width="33%" src="Logos/dummy_logo.svg">
 </p>
 
-<h1 align="center">MOTOR CONTROL BOARD</h1>
+<h1 align="center">Motor Control Board</h1>
 
 <p align="center" width="100%">
-  <a href="/actions/workflows/ci.yaml">
-    <img alt="CI Badge" src="/actions/workflows/ci.yaml/badge.svg?branch=">
+  <a href="https://github.com/ducbin11903/MasterHand_Project_Kicad.git/actions/workflows/ci.yaml">
+    <img alt="CI Badge" src="https://github.com/ducbin11903/MasterHand_Project_Kicad.git/actions/workflows/ci.yaml/badge.svg?branch=">
   </a>
 </p>
 
