@@ -11,9 +11,9 @@
 	)
 	(lib_symbols)
 	(arc
-		(start 185.42 85.09)
-		(mid 185.0451 85.9851)
-		(end 184.15 86.36)
+		(start 102.87 102.87)
+		(mid 102.4951 103.7651)
+		(end 101.6 104.14)
 		(stroke
 			(width 0)
 			(type default)
@@ -63,9 +63,9 @@
 		(uuid 62bb3cd5-23b6-4c8e-a8f2-a293aca5d83b)
 	)
 	(arc
-		(start 184.15 86.36)
-		(mid 185.0451 86.7349)
-		(end 185.42 87.63)
+		(start 101.6 104.14)
+		(mid 102.4951 104.5149)
+		(end 102.87 105.41)
 		(stroke
 			(width 0)
 			(type default)
@@ -76,9 +76,9 @@
 		(uuid 787eda22-1bf9-4d1b-96b2-11995bb2af0f)
 	)
 	(arc
-		(start 187.96 101.6)
-		(mid 186.1698 100.8502)
-		(end 185.42 99.06)
+		(start 105.41 119.38)
+		(mid 103.6198 118.6302)
+		(end 102.87 116.84)
 		(stroke
 			(width 0)
 			(type default)
@@ -102,9 +102,9 @@
 		(uuid 94ad6bc3-4505-4c4a-89fc-83d0c51dd562)
 	)
 	(arc
-		(start 185.42 73.66)
-		(mid 186.1639 71.8639)
-		(end 187.96 71.12)
+		(start 102.87 91.44)
+		(mid 103.6139 89.6439)
+		(end 105.41 88.9)
 		(stroke
 			(width 0)
 			(type default)
@@ -144,7 +144,7 @@
 	)
 	(text_box "Description"
 		(exclude_from_sim no)
-		(at 166.37 83.82 0)
+		(at 83.82 101.6 0)
 		(size 17.145 5.08)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
@@ -213,7 +213,7 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 87.63) (xy 185.42 99.06)
+			(xy 102.87 105.41) (xy 102.87 116.84)
 		)
 		(stroke
 			(width 0)
@@ -233,7 +233,7 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 85.09) (xy 185.42 73.66)
+			(xy 102.87 102.87) (xy 102.87 91.44)
 		)
 		(stroke
 			(width 0)
@@ -252,7 +252,7 @@
 		(uuid "9543d363-0f36-4c41-97bc-b97723f48818")
 	)
 	(sheet
-		(at 128.27 68.58)
+		(at 123.19 50.8)
 		(size 31.75 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -268,7 +268,7 @@
 		)
 		(uuid "042ebd96-5d8b-461b-acb5-c7c1300dab56")
 		(property "Sheetname" "Power - Generation"
-			(at 128.27 67.5509 0)
+			(at 123.19 49.7709 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -278,7 +278,7 @@
 			)
 		)
 		(property "Sheetfile" "Power - Generation.kicad_sch"
-			(at 128.27 89.4846 0)
+			(at 123.19 71.7046 0)
 			(effects
 				(font
 					(face "Arial")
@@ -288,7 +288,7 @@
 			)
 		)
 		(pin "+VBAT" input
-			(at 128.27 73.66 180)
+			(at 123.19 55.88 180)
 			(uuid "0efe6e22-af88-4349-9eba-336a361ce682")
 			(effects
 				(font
@@ -301,7 +301,7 @@
 			)
 		)
 		(pin "+5V" output
-			(at 160.02 74.93 0)
+			(at 154.94 57.15 0)
 			(uuid "24802154-0c05-41d6-962d-aa56d705da70")
 			(effects
 				(font
@@ -314,7 +314,7 @@
 			)
 		)
 		(pin "+3V3" output
-			(at 160.02 77.47 0)
+			(at 154.94 59.69 0)
 			(uuid "53d5f7b2-1dc6-4e2e-9659-0bda0e7c440b")
 			(effects
 				(font
@@ -327,7 +327,7 @@
 			)
 		)
 		(pin "+12V" output
-			(at 160.02 72.39 0)
+			(at 154.94 54.61 0)
 			(uuid "1253d5f8-ca67-409f-9d85-0ec554fe5822")
 			(effects
 				(font
@@ -340,7 +340,7 @@
 			)
 		)
 		(pin "+A3V3" output
-			(at 160.02 80.01 0)
+			(at 154.94 62.23 0)
 			(uuid "6a5cd574-fe42-4b3c-ab76-8c9cb456ea90")
 			(effects
 				(font
@@ -750,7 +750,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "User - LED Indicators.kicad_sch"
+		(property "Sheetfile" "User - LED Indicators & Buzzer.kicad_sch"
 			(at 262.89 156.7946 0)
 			(effects
 				(font
@@ -781,7 +781,7 @@
 		)
 	)
 	(sheet
-		(at 140.97 128.27)
+		(at 140.97 137.16)
 		(size 31.75 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -797,7 +797,7 @@
 		)
 		(uuid "2e63ad8d-085e-4704-a18e-2216b579ffe6")
 		(property "Sheetname" "Sensing - Temperature & Humidity"
-			(at 140.97 127.2409 0)
+			(at 140.97 136.1309 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -807,7 +807,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensing - Temperature.kicad_sch"
-			(at 140.97 147.9046 0)
+			(at 140.97 156.7946 0)
 			(effects
 				(font
 					(face "Arial")
@@ -817,7 +817,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 140.97 133.35 180)
+			(at 140.97 142.24 180)
 			(uuid "5759f3ee-6bf9-4051-ab8f-3516e731714e")
 			(effects
 				(font
@@ -830,7 +830,7 @@
 			)
 		)
 		(pin "NTC_MOT_L" input
-			(at 140.97 143.51 180)
+			(at 140.97 152.4 180)
 			(uuid "e9d7d7d6-7045-4021-98b1-ec554d090fa0")
 			(effects
 				(font
@@ -842,7 +842,7 @@
 			)
 		)
 		(pin "NTC_MOT_H" output
-			(at 140.97 140.97 180)
+			(at 140.97 149.86 180)
 			(uuid "a683ce28-c87c-44fe-bdca-28b281df599c")
 			(effects
 				(font
@@ -854,7 +854,7 @@
 			)
 		)
 		(pin "{SENSE_TEMP}" output
-			(at 172.72 133.35 0)
+			(at 172.72 142.24 0)
 			(uuid "ff276037-11ed-4a42-8575-c717babade9d")
 			(effects
 				(font
@@ -1086,7 +1086,7 @@
 		)
 	)
 	(sheet
-		(at 140.97 215.9)
+		(at 140.97 220.98)
 		(size 31.75 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1102,7 +1102,7 @@
 		)
 		(uuid "7164844d-ef2d-4ed9-93c6-2b7c97a3348e")
 		(property "Sheetname" "Interface - USB 2.0"
-			(at 140.97 214.8709 0)
+			(at 140.97 219.9509 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1111,8 +1111,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Interface - RS-422.kicad_sch"
-			(at 140.97 231.7246 0)
+		(property "Sheetfile" "Interface - USB 2.0.kicad_sch"
+			(at 140.97 236.8046 0)
 			(effects
 				(font
 					(face "Arial")
@@ -1122,7 +1122,7 @@
 			)
 		)
 		(pin "{RS422_TTL}" bidirectional
-			(at 172.72 223.52 0)
+			(at 172.72 228.6 0)
 			(uuid "729c5426-64d9-4526-ab11-5a0a98d8ba82")
 			(effects
 				(font
@@ -1134,7 +1134,7 @@
 			)
 		)
 		(pin "{RS422}" bidirectional
-			(at 140.97 219.71 180)
+			(at 140.97 224.79 180)
 			(uuid "d6919da6-d536-469d-b7c7-1112d22ed351")
 			(effects
 				(font
@@ -1146,7 +1146,7 @@
 			)
 		)
 		(pin "{AUX1}" bidirectional
-			(at 172.72 219.71 0)
+			(at 172.72 224.79 0)
 			(uuid "772dd851-32f0-4987-8320-a90f8637e67a")
 			(effects
 				(font
@@ -1166,7 +1166,7 @@
 		)
 	)
 	(sheet
-		(at 93.98 81.28)
+		(at 72.39 50.8)
 		(size 31.75 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1182,7 +1182,7 @@
 		)
 		(uuid "961411a1-6ec4-454f-96e4-c72953a40611")
 		(property "Sheetname" "Power - Connectors"
-			(at 93.98 80.2509 0)
+			(at 72.39 49.7709 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1192,7 +1192,7 @@
 			)
 		)
 		(property "Sheetfile" "Power - Connectors.kicad_sch"
-			(at 93.98 102.1846 0)
+			(at 72.39 71.7046 0)
 			(effects
 				(font
 					(face "Arial")
@@ -1202,7 +1202,7 @@
 			)
 		)
 		(pin "+VBAT" output
-			(at 125.73 86.36 0)
+			(at 104.14 55.88 0)
 			(uuid "04a7b4a3-803d-40bd-b29e-3fbb6fc7e5d9")
 			(effects
 				(font
