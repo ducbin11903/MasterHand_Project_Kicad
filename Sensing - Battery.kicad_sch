@@ -708,7 +708,7 @@
 			(uuid "1f64bdc3-9902-4dc3-9aed-567dbf23d37c")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/d30056b5-4391-456e-bc80-2bde1ca0d521"
 					(reference "#PWR081")
 					(unit 1)
@@ -805,7 +805,7 @@
 			(uuid "5e5bbbaa-63b7-41c9-b998-c51aae6440e0")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/d30056b5-4391-456e-bc80-2bde1ca0d521"
 					(reference "R37")
 					(unit 1)
@@ -902,7 +902,7 @@
 			(uuid "a1c8cdc7-4efe-43b2-ba10-9e52dce465b0")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/d30056b5-4391-456e-bc80-2bde1ca0d521"
 					(reference "C72")
 					(unit 1)

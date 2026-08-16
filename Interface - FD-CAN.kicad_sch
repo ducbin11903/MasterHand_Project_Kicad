@@ -3922,7 +3922,7 @@
 			(uuid "d6c61633-d5a7-4286-969b-c24e3e4c771e")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f2e2e46b-bf48-4385-80eb-484ec861c9a9"
 					(reference "#PWR089")
 					(unit 1)
@@ -4345,7 +4345,7 @@
 			(uuid "5589f7f4-09b4-479c-9fe0-9e776367625f")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f2e2e46b-bf48-4385-80eb-484ec861c9a9"
 					(reference "C75")
 					(unit 1)
@@ -4413,7 +4413,7 @@
 			(uuid "7d64aa48-cee2-463b-8071-9b30a1f977cd")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f2e2e46b-bf48-4385-80eb-484ec861c9a9"
 					(reference "#PWR091")
 					(unit 1)
@@ -4507,7 +4507,7 @@
 			(uuid "d862e81e-47f4-4bb7-84d1-b37569b797ff")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f2e2e46b-bf48-4385-80eb-484ec861c9a9"
 					(reference "R48")
 					(unit 1)
@@ -5285,7 +5285,7 @@
 			(uuid "61693600-c938-47b9-aac7-d70aea59ef2e")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f2e2e46b-bf48-4385-80eb-484ec861c9a9"
 					(reference "U17")
 					(unit 1)

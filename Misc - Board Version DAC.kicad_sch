@@ -938,7 +938,7 @@
 			(uuid "96c15b2f-4619-4097-952a-7fa7a806860b")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
 					(reference "#PWR078")
 					(unit 1)
