@@ -19,7 +19,7 @@ Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufactur
 18,1,D7,White 0603,https://www.lcsc.com/datasheet/C965810.pdf,LED0603-RD_WHITE,LED WARM WHITE YELLOW LENS 0603 SMD,XINGLIGHT(成兴光),,
 19,1,D4,Yellow 0603,https://www.lcsc.com/datasheet/C965810.pdf,LED0603-RD_WHITE,LED WARM WHITE YELLOW LENS 0603 SMD,XINGLIGHT(成兴光),,
 20,4,FB1 FB2 FB3 FB4,1k @ 100MHz,https://www.lcsc.com/datasheet/C52178237.pdf,L0805,300mΩ 1 ±25% 1kΩ@100MHz 0805 Ferrite Beads and Chips RoHS,PROD(谱罗德),,
-21,10,J1 J2 J3 J4 J5 J6 J7 J8 J9,DC-044A-20A,https://lcsc.com/product-detail/DC-Connectors_1-65-2-0-DCseat-11-6mm-10-1mm_C129006.html,DC-IN-TH_DC-044A-20A,CONN PWR JACK 2mm x 5.9mm TH R/A CONN HEADER SMD 9POS 1mm CONN RCPT Type-C 16POS SMD R/A,韩国韩荣 JST SHOU HAN(首韩),,
+21,12,FPC1 H1 J1 J2 J3 J4 J5 J6 J7 J8 J9,5025982393,https://www.lcsc.com/datasheet/C7021254.pdf,FPC-SMD_23P-P0.60_502598-2393,CONN FFC FPC 23POS 0.3mm TOP AND BOTTOM CNT SMD R/A CONN HEADER 6POS 2.54mm DUAL ROW TH CONN PWR JACK 2mm x 5.9mm TH R/A CONN HEADER SMD 9POS 1mm CONN RCPT Type-C 16POS SMD R/A,MOLEX JXTCONN(聚兴泰) 韩国韩荣 JST SHOU HAN(首韩),,
 22,1,L1,ANR3015T2R2M,https://www.lcsc.com/datasheet/C6364793.pdf,IND-SMD_L3.0-W3.0_SMNR3015,2.2uH 2A,APV(爱普微),,
 23,1,Q3,2SC1815,https://www.lcsc.com/datasheet/C20069143.pdf,SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR,TRANS NPN 50V 0.15A SOT-23,R+O(宏嘉诚),,
 24,2,Q1 Q2,HV10N03,https://www.lcsc.com/datasheet/C53329063.pdf,SOT-89-3_L4.5-W2.5-P1.50-LS4.0-BR,"3W 30V 10A 1.5V 18mΩ@10V 1 N-channel N-Channel SOT-89 Single FETs, MOSFETs RoHS",R+O(宏嘉诚),,
