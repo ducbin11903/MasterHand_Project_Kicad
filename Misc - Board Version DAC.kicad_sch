@@ -493,14 +493,14 @@
 		)
 		(uuid "2ee11179-7492-4a8b-8f24-39b40f316981")
 	)
-	(text_box "Amulet"
+	(text_box "MB\n"
 		(exclude_from_sim no)
 		(at 100.33 114.3 0)
 		(size 13.335 5.08)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
 			(width -0.0001)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -586,14 +586,14 @@
 		)
 		(uuid "516d2b6a-155a-4eab-ae14-aa071cae2ac7")
 	)
-	(text_box "moteus"
+	(text_box "MCB\n"
 		(exclude_from_sim no)
 		(at 100.33 102.87 0)
 		(size 13.335 5.08)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
 			(width -0.0001)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)

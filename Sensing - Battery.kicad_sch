@@ -426,8 +426,8 @@
 	)
 	(text_box "Battery Voltage Sensing"
 		(exclude_from_sim no)
-		(at 93.98 121.92 0)
-		(size 111.76 9.525)
+		(at 38.1 142.875 0)
+		(size 215.9 9.525)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
 			(width -0.0001)

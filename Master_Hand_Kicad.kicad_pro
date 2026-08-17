@@ -870,6 +870,14 @@
       {
         "netclass": "Power 3V3",
         "pattern": "/Project Architecture/Sensing - Temperature & Humidity/+3V3"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Interface - Interconnects/+3V3"
+      },
+      {
+        "netclass": "Power 5V",
+        "pattern": "/Project Architecture/Interface - Interconnects/+5V"
       }
     ]
   },
