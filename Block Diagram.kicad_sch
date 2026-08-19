@@ -691,8 +691,8 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 210.185 172.72 0)
-		(size 5.08 7.62)
+		(at 209.55 172.72 0)
+		(size 29.21 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
 			(width -0.0001)
@@ -1381,7 +1381,7 @@
 	(text_box "1x USART Connector"
 		(exclude_from_sim no)
 		(at 187.96 187.96 0)
-		(size 22.86 7.62)
+		(size 24.13 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
 			(width -0.0001)
@@ -1426,8 +1426,8 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 210.82 187.96 0)
-		(size 26.67 7.62)
+		(at 212.09 187.96 0)
+		(size 25.4 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
 			(width -0.0001)
@@ -1607,29 +1607,6 @@
 		)
 		(uuid "30b6c0b9-12ea-437f-8265-86d55540d874")
 	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 210.82 342.9 0)
-		(size 5.08 7.62)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 255 170 204 1)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.286 2.286)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "30c4b1d6-f5e7-472c-ac85-089294335e6c")
-	)
 	(text_box "GPIO5\n"
 		(exclude_from_sim no)
 		(at 312.42 307.34 0)
@@ -1698,29 +1675,6 @@
 			)
 		)
 		(uuid "3839ac2e-ef7b-4927-b4d8-60f5c1e10ce9")
-	)
-	(text_box "Termination Switch"
-		(exclude_from_sim no)
-		(at 187.96 342.9 0)
-		(size 22.86 7.62)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 175 92 173 1)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2.286 2.286)
-				(bold yes)
-				(color 255 255 255 1)
-			)
-		)
-		(uuid "3978572a-c56c-4a20-929c-f54398fdf6e1")
 	)
 	(text_box ""
 		(exclude_from_sim no)
@@ -2417,29 +2371,6 @@
 		)
 		(uuid "5b14339f-044a-49db-9f08-8aa2d75e0001")
 	)
-	(text_box "Termination Switch"
-		(exclude_from_sim no)
-		(at 187.325 172.72 0)
-		(size 22.86 7.62)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 175 92 173 1)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2.286 2.286)
-				(bold yes)
-				(color 255 255 255 1)
-			)
-		)
-		(uuid "5ec95390-89b5-4928-88d0-dd7ea5b7f9c7")
-	)
 	(text_box "Current Sense\n"
 		(exclude_from_sim no)
 		(at 381 254 0)
@@ -2834,8 +2765,8 @@
 	)
 	(text_box "FD-CAN Transceiver"
 		(exclude_from_sim no)
-		(at 215.9 342.9 0)
-		(size 22.225 7.62)
+		(at 187.96 342.9 0)
+		(size 22.86 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
 			(width -0.0001)
@@ -3087,8 +3018,8 @@
 	)
 	(text_box "FDCAN2"
 		(exclude_from_sim no)
-		(at 238.125 342.9 0)
-		(size 41.275 7.62)
+		(at 210.82 342.9 0)
+		(size 68.58 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
 			(width -0.0001)
@@ -3457,7 +3388,7 @@
 	)
 	(text_box "FD-CAN Transceiver"
 		(exclude_from_sim no)
-		(at 215.265 172.72 0)
+		(at 186.69 172.72 0)
 		(size 22.86 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke

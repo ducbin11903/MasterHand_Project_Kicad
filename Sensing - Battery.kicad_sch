@@ -641,7 +641,7 @@
 		(at 198.12 81.28 0)
 		(effects
 			(font
-				(face "Arial")
+				(face "KiCad Font")
 				(size 1.27 1.27)
 				(bold yes)
 			)
@@ -659,7 +659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "074d06d0-4dee-4df9-9f6e-7f3c3be43bc2")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR0104"
 			(at 166.37 101.6 0)
 			(do_not_autoplace yes)
 			(effects
@@ -710,7 +710,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/d30056b5-4391-456e-bc80-2bde1ca0d521"
-					(reference "#PWR081")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -726,7 +726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5edd3ea7-5d04-4570-ac89-39a96bdf81d6")
-		(property "Reference" "R37"
+		(property "Reference" "R54"
 			(at 168.91 72.3899 90)
 			(effects
 				(font
@@ -807,7 +807,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/d30056b5-4391-456e-bc80-2bde1ca0d521"
-					(reference "R37")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -823,7 +823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77e0ac8e-c25a-4250-bb86-a1a179bcf7db")
-		(property "Reference" "C72"
+		(property "Reference" "C84"
 			(at 194.31 87.6299 90)
 			(effects
 				(font
@@ -904,7 +904,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/d30056b5-4391-456e-bc80-2bde1ca0d521"
-					(reference "C72")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -920,7 +920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df3b4f5d-c4a9-49ee-a9fa-eaf2506b5121")
-		(property "Reference" "R38"
+		(property "Reference" "R55"
 			(at 168.91 87.6299 90)
 			(effects
 				(font
@@ -1001,7 +1001,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/d30056b5-4391-456e-bc80-2bde1ca0d521"
-					(reference "R38")
+					(reference "R55")
 					(unit 1)
 				)
 			)

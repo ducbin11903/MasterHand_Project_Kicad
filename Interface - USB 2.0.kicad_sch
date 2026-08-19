@@ -322,14 +322,14 @@
 				(pin unspecified line
 					(at 6.35 12.7 180)
 					(length 6.35)
-					(name "GND"
+					(name "VBUS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A1B12"
+					(number "A4B9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -347,7 +347,7 @@
 							)
 						)
 					)
-					(number "A4B9"
+					(number "B4A9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -357,24 +357,6 @@
 				)
 				(pin unspecified line
 					(at 6.35 7.62 180)
-					(length 6.35)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 6.35 5.08 180)
 					(length 6.35)
 					(name "CC1"
 						(effects
@@ -392,25 +374,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 6.35 2.54 180)
-					(length 6.35)
-					(name "Dn2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 6.35 0 180)
+					(at 6.35 5.08 180)
 					(length 6.35)
 					(name "Dp1"
 						(effects
@@ -428,7 +392,25 @@
 					)
 				)
 				(pin unspecified line
-					(at 6.35 -2.54 180)
+					(at 6.35 2.54 180)
+					(length 6.35)
+					(name "Dp2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 0 180)
 					(length 6.35)
 					(name "Dn1"
 						(effects
@@ -446,16 +428,34 @@
 					)
 				)
 				(pin unspecified line
-					(at 6.35 -5.08 180)
+					(at 6.35 -2.54 180)
 					(length 6.35)
-					(name "Dp2"
+					(name "Dn2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B6"
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -5.08 180)
+					(length 6.35)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -484,14 +484,14 @@
 				(pin unspecified line
 					(at 6.35 -10.16 180)
 					(length 6.35)
-					(name "CC2"
+					(name "SBU2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B5"
+					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -502,14 +502,14 @@
 				(pin unspecified line
 					(at 6.35 -12.7 180)
 					(length 6.35)
-					(name "VBUS"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B4A9"
+					(number "A1B12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1522,12 +1522,6 @@
 		(uuid "0e00036c-40b3-42a3-aa23-a49e5417d711")
 	)
 	(junction
-		(at 135.89 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0fb947fc-c200-4f1a-b610-fc8e859c5574")
-	)
-	(junction
 		(at 170.18 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1582,7 +1576,7 @@
 		(uuid "8a605710-74ba-4e4b-ad0f-8688a05d8eff")
 	)
 	(junction
-		(at 133.35 36.83)
+		(at 135.89 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b258c4e-333f-41a4-a02d-b3adc879acaf")
@@ -1636,19 +1630,19 @@
 		(uuid "c44be4e6-5711-459c-918e-aae809db0281")
 	)
 	(junction
-		(at 133.35 87.63)
+		(at 135.89 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c53d5776-02c0-43cb-bb6f-f93d073e056c")
 	)
 	(junction
-		(at 133.35 91.44)
+		(at 135.89 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f639efd5-d8aa-4bb3-bbf6-69042e0bc98b")
 	)
 	(junction
-		(at 133.35 40.64)
+		(at 135.89 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f879a516-b408-4991-8195-ede810f6c46d")
@@ -1841,7 +1835,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 81.28) (xy 133.35 87.63)
+			(xy 135.89 81.28) (xy 135.89 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1902,7 +1896,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 87.63) (xy 133.35 91.44)
+			(xy 135.89 87.63) (xy 135.89 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1919,16 +1913,6 @@
 			(type default)
 		)
 		(uuid "17371acb-1677-4f9d-aae4-29ad27cb52ba")
-	)
-	(wire
-		(pts
-			(xy 137.16 68.58) (xy 135.89 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17b1e4dd-2221-48b0-af62-845cf57ca4bb")
 	)
 	(wire
 		(pts
@@ -1959,6 +1943,16 @@
 			(type default)
 		)
 		(uuid "1bf6352b-31a2-49ae-8340-0854b1aef610")
+	)
+	(wire
+		(pts
+			(xy 135.89 93.98) (xy 133.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1db43e25-8820-4f77-83ca-aad1d0fe10fa")
 	)
 	(wire
 		(pts
@@ -2102,7 +2096,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 81.28) (xy 175.26 81.28)
+			(xy 135.89 81.28) (xy 175.26 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2302,7 +2296,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 91.44) (xy 133.35 93.98)
+			(xy 135.89 91.44) (xy 135.89 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2372,7 +2366,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 40.64) (xy 133.35 43.18)
+			(xy 135.89 40.64) (xy 135.89 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2462,6 +2456,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 43.18) (xy 133.35 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "916d56b7-c645-4c90-88a8-d65387067b87")
+	)
+	(wire
+		(pts
 			(xy 172.72 58.42) (xy 177.8 58.42)
 		)
 		(stroke
@@ -2480,6 +2484,16 @@
 		)
 		(uuid "91d17d44-05a6-4396-8713-e451286259b7")
 	)
+	(wire
+		(pts
+			(xy 135.89 40.64) (xy 133.35 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f28820-00fd-4d71-bf1b-9064e9078753")
+	)
 	(bus
 		(pts
 			(xy 181.61 138.43) (xy 193.04 138.43)
@@ -2489,16 +2503,6 @@
 			(type default)
 		)
 		(uuid "967cff72-1168-4f59-9dc4-e0a74532d2d8")
-	)
-	(wire
-		(pts
-			(xy 133.35 66.04) (xy 135.89 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99faf636-9010-4ad7-a652-e98fa02fa940")
 	)
 	(wire
 		(pts
@@ -2542,7 +2546,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 30.48) (xy 133.35 36.83)
+			(xy 135.89 30.48) (xy 135.89 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2592,7 +2596,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 36.83) (xy 140.97 36.83)
+			(xy 135.89 36.83) (xy 140.97 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2712,7 +2716,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 87.63) (xy 140.97 87.63)
+			(xy 135.89 87.63) (xy 140.97 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2729,6 +2733,16 @@
 			(type default)
 		)
 		(uuid "c492ab51-a7bc-4871-b2ce-12285f10523b")
+	)
+	(wire
+		(pts
+			(xy 135.89 91.44) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c51d5e17-2882-4cd9-99f8-bd621ceeaf5e")
 	)
 	(wire
 		(pts
@@ -2749,16 +2763,6 @@
 			(type default)
 		)
 		(uuid "caf196de-8113-4984-8847-453f333e8def")
-	)
-	(wire
-		(pts
-			(xy 135.89 66.04) (xy 135.89 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1306888-35a8-4f51-ac4b-f8b45de03b33")
 	)
 	(wire
 		(pts
@@ -2812,7 +2816,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 68.58) (xy 133.35 68.58)
+			(xy 133.35 68.58) (xy 137.16 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2822,7 +2826,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 36.83) (xy 133.35 40.64)
+			(xy 135.89 36.83) (xy 135.89 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2842,7 +2846,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 30.48) (xy 175.26 30.48)
+			(xy 135.89 30.48) (xy 175.26 30.48)
 		)
 		(stroke
 			(width 0)
@@ -8727,7 +8731,79 @@
 			"bABrAG8AdAAvAGgAYwBEAGcAYwBEADEAVgBaAFMAYwBrAFAAQgBCAEUAeABYADkAZQBhAEEAYgBC"
 			"AFEAdwBuAGYANwBuADIAOQArAGwAdQBOAEcAWAB2AGMAaABSAHEANAAvAEcATQBDADkATABJAHQA"
 			"ZABMAE0AdgAxAFoASAAyAEkAdQBpAHEATABrAG8AagB2AEsAdwBJAGkAMgB6AEQAOABtAHkATABI"
-			"AG0AbwAxAHQAaQB4AHIAbgBhAFcARwBWADYARQB3AHoASw=="
+			"AG0AbwAxAHQAaQB4AHIAbgBhAFcARwBWADYARQB3AHoASwBwAHMAcQA5AC8AdgArAE4AOQBiAGwA"
+			"WABiAFgASQBSAEgAUQBpAFkAbQBXADMAcABKAFUAeQB4AHYAQwBOAC8AZgBtAHYAZgAvADMAVABu"
+			"AC8ANQAwAE8AWgAvAHIAdQBuADUANABmAE4AdwBmAGQAZwA4AFAARAAwAFYAUgBRAEQAYgBGADIA"
+			"KwBiAHcAMgAyAFEAYwBlAEEAcQBIADYAWQAyAGwARAA2ADYANwBNAHEAVQBZAFUAKwBKAGUAbABv"
+			"ADkAeABDAFIANgBVAGwARgBxAGIANAA3AEUAeAB4AFgAQwA5ADMAVQA0AG4AagBOAEgAYgBSAFEA"
+			"agBDAEYASQBOADMAQgB2AEcANQBhAGUAWAArAEsARgBXAEIAUwBnAE4AUQBDAEMARgBDAFMAZwBS"
+			"AEEAcgAzAHEANgBLAC8AUQBJAEEAQwBIAEMANgA3AGQAYgA0AHMAdwAxAFgANAB5AGIAcQBSADkA"
+			"cABqAFQASABBAE0AQQA1ADkAMQB5ADkAMgBDAFQANgBFAEUARwBLAEkAdgBQAE0AUAArAHcATQBi"
+			"AHcAcABQAEEARgBBAEgANABVAGEANgBnACsALwBzAHQAOQA2AHYAWAByACsALwA5ADIAcwBOAEYA"
+			"UgBJAGEANQBwAHAAUwBzAHQAYQBmAFQANgBYAHcANgBRAFUAeQA3ADMAZQA3AHgANgBWAEYAcAB4"
+			"AFIANgBSAGIATQBsAEcAMwBQAGoARAByAEIAbwBRADAAaQBzAEgAOQB0ADgAUQBPAGQAYQBXAEgA"
+			"UwBUADQALwBQAG4ATAByAGIAdgAxAGYAVwArAHQAbABWAEkAZQBIADQANAAvAC8AZgBqAFQANwAz"
+			"ADcAMwBPADYAbQBrAHMAOAA0AEgANwA1ADIAUABNAGMAcQAxAHcAUAByADEAMwBlAE8AZwB2ADcA"
+			"YQB5ADEAcQBaAC8AdwBnAFEAaQBJAFEAVQBnAEQAMgBBADkAVwBxACsAdgBGAHIANwAyAC8AcABm"
+			"AFAALwBaAC8ALwBZAGoAOQAvAGgAdQA1AEcAMAB5AEEAdwBGAGIAWABSAGgAMQAzADUANABhAG4A"
+			"NQBtADkALwBYAC8AKwA3AEgAcwBOACsAOQBKAFAAZABsAEgAagB0AHYAcAB4AFMAbwBNAEUAVgBW"
+			"AEkAVgBBAEsAawBZAEIAWQBsAHkAcQB0AHEAZgBEAHEAQwAvAG4ATgBhAHoAWABpAEYAQQBKAFQA"
+			"ZwBuAGwAZQBwAG4ARwA4ADMAVwA3AEQAMABIAHYAdgBpADgASQBjAEQAbwBlAEgAaAA0AGUAbQBh"
+			"AFQAWgBoAGkASwBJAG8AQwBQAEYAeQBQAFgALwArAC8ARgBUADcAMwBWADUAcABGAFUASgBZADUA"
+			"aQBYAEUAVQBKAFYAVgBVAFIAcgBJAFkANABxAEUAQwBKAHcAUQBoAEIAQgBvAFgAYQB2ADMAdQB6"
+			"ADIAdgBmAGwAYgBFAGkAbgBsAGQAawBlAEIASABoAEkAQQBRAFEAdgBMAGUAegAvAE4AMABQAHAA"
+			"LwBQADUANwBOAGQAbAByAHAAdQBmAHYAegBoAGgALwBmAHYAMwArADkAMwArADcAcQBxAFkANAB5"
+			"ADMANwBzAFoANgBXAGMAWQBVAEkAZwA5AFgAZwBMAFUAUgBnAFkARgBBAEIATgA3ADcARQBPAEsA"
+			"ZABHAC8AYQBiAEUAKwBkAE8ATQBBAGQAUwBCAE8AdgBjAFAAQwArAFgAeQArAFYAeQB2AFMAegBM"
+			"AHMAbQB0ADMANwA5ACsALwBmADMAeAA0AHIATwBxAEsAQgBEAEgAcwBjAEoAbQBYAHkALwBWAGkA"
+			"bgBaAFYAQwBLAHEANAA2AEoAWQBRAEEASQBVAFoASQA2AEUATgBJAHcAYQBjAFkAWAB2AHMATQBL"
+			"AFUARgBLAGwARQBCAEUASQBCAGQAMQBBAEMAbABRAEoAawBxAFgAVAB2AHgAeQBoAGIAKwArAEwA"
+			"QgA4AC8AeABjAHUARgB4AGoANQBPAFEAdwBwAE8AVgBxAFoANAAzAEoAYwAvAHYAaABmAC8ALwB0"
+			"AC8AQgBUAHgALwB3ADgAUgBnAGYAOQA5AGgAVQBGAHEAQgBmADUAdABGAGEASQBXAFYAUgBsAEYA"
+			"cABxAEwAVQBnAEMAUgBoADkAVABqAEkASgBJAEkASwBRAEEAMABlAFYATQBiAGwAdQA5AGMASABk"
+			"AGkAaABCAEMAYwA4ADkAegA2AGUAMwBsADUAbQBhAFkAaABzAHYAZgBjAGIAbABkAFYAVgBWADEA"
+			"WABUAGEATQBBAFIARQBwAEoAWgBiAE0AMQBHAFMAUAB6AGQAcwBmAGcAZwAxAFMAUwBOAFkAQgBU"
+			"AGcAcwBSAHUARABsAHgAUgBaAGEAZwBWAEEASwB4ADYAUAAyADkAYQBrAEMAbQBFAGUATABuAGMA"
+			"VABxAGQAegAzAC8AZABzAHMAZgBmAHcAOABQAGoAMAArAEYAaQBYAEYAWABNADIAZQBkADYATwBS"
+			"AEYAcQByAHcAaABoAG0AawBsAG0ANwBqAE8ATgBrAG4AVwBYAHAAUwBSAFkAQgBCAEcAQQBEADQA"
+			"QQBBAEoAWQBvAHIAOABmAEgAbgAvAHgAcwBoAGkAQQBjAGkAcwB4AGgAaABUADMAMwBmAG4AMAA3"
+			"AG4AcgBPADAASgBpAEkAYQBXAHEAcgBMAEkAVQAxAFoAMAAzAHUAMQAxAFIARgBsAHIAcAB0AHEA"
+			"MgByAHMAbQBLAEMAaQAvAGUAZQBXACsAZABsAFUAUQBvAHAAQgBVAGsAaQBJAEkARQBrAEEASgBF"
+			"AHkARABZAGkATgA0AHoAaABFAHgAcABTADEAWQBYAHgAQwA2ADIARgAwAGMATAA0AHQAbgAxACsA"
+			"VwBmAC8ANwBaAC8ALwBuAFQAZgBIADYAeAAvAGMAMwBiAEMAUQBXAFkAWABkAFgAKwArAEYANwAv"
+			"ADcAZwBQADgAOQBCADUAKwBmAEEAKwBQAFIAOQBnADEAcgBxADIAdwBNAEkASwBFAFQAMgBrAFkA"
+			"cAA3ADQAZgBuAEgAVQBFAHEARQBsAEoARQBwAFIATABHADAAUgBBAFEAYgBCADIANwByAFkAZAB0"
+			"AEsASQBPAFUAZwBUAEEARQBNAEkAMABUAHQAZgByAHAAZQBzADYANQA1AHcAUwAwAGgAagBOADcA"
+			"UwBsAFQARwBFAEUAaQA1AFcAdwBpAEUAYQBHAFEATABKAE0AdQBpAHEATAAwAHoAbwAvAFQATgBQ"
+			"AFEARABJAGQAVgBWAHIAVABYAHgALwBlAFQAQgBpAFoAUQBvAEIARQBDAEMARQBPAE4AOQBjAFIA"
+			"QgBqAGQASQA3AG4ARgBnAFAAZgBXAEQAWgBOAEsATQB1AHEAYQBaAHEAeQBMAEUAVgBXACsARQBK"
+			"AGMAaQB6AE0AbABtAGQAOQB1AGoARABFAEEAcwBDAHgAMgBHAE0AWgBiAGQAMwBQAE8AYQBxADIA"
+			"VgAwAGsAeQBoAEkAQgBMAGMAdABTAGYASwA4AEIAcgBnAFQAWQBVAFEAUQB2AFQAZQB6AGYAUABj"
+			"ADMAVwA3AFgANgA4ADAANQBKADUAVwBzADYAMgBhADMAYQA2AHUAcQB6AGsAUABaAFAATwBuADgA"
+			"ZAB1AGsARABBADAAMgBKAGEATwBqADcAMAArAG4ARgBXAGcAcwBJAFUAcgBMAGoASQBTAFgASQBO"
+			"AG0AaABhADUAOABaAGQAagBFAHgAbwBkAGQATQAwAEQAOABOAHcAUABwAC8ASABjAFkAdwB4ADEA"
+			"WABYADkAKwBQAEMAdwAyACsAMgBVADAAawBRAGkAcAA0AEYATQBGAEMAYwBFAFIAQwBuAFoARQBD"
+			"AEwARABPAGoAZwAwAGwAawBYAHAAbgBCAHYASABnAFUARwBiADcAUABuAEIAVgBZAFEAZwA0AEcA"
+			"VwAyAHAAUQBYAE8AKwBYAG0AWgB4AFIALwArADcAcAAvAFcAUgBEAGUATAAzAFgANwAvADkAZABz"
+			"ADEARwBrAEMASwA3AFAAVQBoAGgARABaAEMASwB5AE8AbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
 	(image
@@ -14459,10 +14535,82 @@
 			"Duru8PH7+fru6ursCQoSEREPEQ8ECgYIBAT6Av7+/wD+/f4C/wIBAgEA/wD///7/AQECAQL///8A"
 			"AAAAAAAAAAAAAQAB/wEAAAAAAQAAAAAAAAAA/wD/AAAAAAAAAAAAAP8BAQEAAQEAAAD+//8CAQEC"
 			"BAMDBAIEBAL9/f0CAgIAAAACAgEAAAEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAAAAAA"
-			"AAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+			"AAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAByADkAZABoAEgASwBSAFUAVwBaAHEA"
+			"UwBtAHcAWABPAFYAMQBjAFAAdwAvAEIAMABlAHEAcgByAG0AagBCAEUAaABSAEIAbABVAGUANgBx"
+			"AFgAVgA3AGsARgBOADQARgBBAE0ANQA1AFUAVwBUAFQATwBQADMAcABuAC8ANwBwAFgALwA3AGwA"
+			"agAzAC8AdwBnADcALwB4ADIANwAvADkAMgA3AC8AeQBLADcAOAA4AGoAZQBQAFQAMAA1AE8AeABS"
+			"AGkAbwBwAGwAYQBxAHEATQBzADAAeQBpAGsAeAAyAFgAYgBlAHUANgB6AHgAUABGAEcARgBRAG4A"
+			"cgBqAEcAQQBJAEsAeABoAGoARgBrAG4AQgBQAEsAaABKAEoAcQBDAHgAMwBlADUAMwB4AGUAMQBC"
+			"AHkAMwAwAE8AMAB0AGYAYgBEAEYAYQBIADQAQgB6AFkARQBmAHYAVAA0AFYAOABhAEcAUABmADYA"
+			"QQA1AFAAdgA3ADYAcABuAGgAKwBJAGMAMwB4AGsAaQB0ADAAOQB5AHQAKwArAHEAdgBmADMAdQBQ"
+			"ADYAaABPAFoANABKAGwALwA4ADAALwB6AEMAKwBvAE4AeAA1AEMASABsADUAWAB5ADAAeQBJAFgA"
+			"MQB1AHgAVwBGAFUAUgBnAEEARwBHAE4ANABRADEAQgBuAFYAQwAvAEUAUQBoAGsATABoAFoASABY"
+			"AGQAZQAyAEgAMABUAGgARABGAEMANwBPAGEAeQBPAGoAagBVAFoAQQBLAFoAVQBRAGoAQQBXAFEA"
+			"ZABnAHYAZQBEAEEANABtADEAeQBlAHQAawArAEIAcQBVAEkAZQBIAEYAMwAzAEQANABCAHMAUABw"
+			"AG0AawBpAE4AQQByAGgAdQBmADYARQBVAGwARwBhAEoAbABJAEsAQwBwAFoAdAB1ADUASwArAFQA"
+			"bQA0AFAATwBQAGcAWQBkAG8AZwArAGQAUABOAEYAMwBHAFkASgBnAFQAVwBXAGUARQBXAHYAMQAv"
+			"AHAANgB2AFEAegBEAG0AQwBUAEoAYgByADkANwA4ACsAWgBOAEgARQBmAEQATQBNADcAegBwAFAA"
+			"VgBLAG0ARABkAEoAbwBoAGgARAByAFkAMgAxAGoAZwBwAG4AUABuAG8AawAyAEUAQgArAGMATAB2"
+			"AFcANwBXADgAQQBWAEUATgBvAGoATABWADIARwBJAGIAegA1AFgAeQA5AFgAcQBaAHAAYwBzADYA"
+			"bQBXAGYAYgBtAHoAWgB2AGoAdwAxAEcAcABhAEoAawBYAC8AawBkAC8AKwBMADkAUQBFAEgAQgBa"
+			"AGwAcQA1AHQASwBhAHQAQgBCAHYANAAyAGEAaABRAGQASQBIAGQAVwByAHkAdQBKAFgAZQBJAE4A"
+			"dABkAFoASQBxAGMAcQB5AEwATQBvAGkAVQBoADUANQA4AGMANABKADMANwB4AHAARABPAFcAbgAz"
+			"AGwAZwBnADAARgBCAEUAcABMAEoAcgB3AGcAYQBYAFUAbQA0ACsAaQBvADgAcgBlADQAbwBZAFQA"
+			"cwBXAG0AbAA4AHUANQA3AHcAZgBxADUAawB2AFQAbABFAHIAZgBxAE0ARQBTAEUARgBhAHQATgAw"
+			"AFQANwBaADcAWQA0ADIAYgBEAFcAQQBZAEIAVQBaAEgATQByAEEATgBkADMAMwBlAFYAeQAxAFYA"
+			"cABIAGMAYQB5AGsAZABNADUAeAB3AFQAMgBwAFAAZgBoAEYAMgBiAGIAdAAyADYAKwArAEcAcQBj"
+			"AEoAQQBaAFIAUwBTAFoAbwBVAFoAYgBIAGYANwBhAGsAMQBMAHkAeABuAFgANwBtAEUAZAB6AEoA"
+			"cwArADAARwBoAEYAUwBFAEYAZQBXAE4AYQA2ADcAYgByAHIAdgBWADEAMQBUAHAASgA0AGsAaABG"
+			"ADIANQA0AEEAZwBHAEUAWQB6AHAAZgBMADUAWABKAHAAMgBtAGEAYQBaAGoASQB1AHkAcgBMAE0A"
+			"cwBpAHgATgBFAGkAawAzAGsARgAxADgAdwBiAE0AQwBiADQAawBCAGcAVABNAFMAYgBqAGwAagBG"
+			"AE8AWQBTAFEAcgBUADAAdgBPAHQASwBhADUAcgBxAEYAOABEAEIAdgBNAHoAbgA4AC8AbgB0AGwA"
+			"MgArADcAcgBqAFAAVwBxAEUAZwBWAGUAVgBGAFcAWgBaADcAbgBjAFIASQB6AEgAMQBNAEMAOABo"
+			"AFQAZgB2AHYAMwB5AEwALwA3AGkATAA0AHEAeQArAEkAMgAvAC8ALwBjAGYASAAxACsAOQBlAC8A"
+			"KwB1AHIAdQBzAHMAeQA1AEkAMABXAGQAYQBsADYAegBzAEUAagBPAE0ASQBFAFcAMQBvAGwAbQBi"
+			"AEUAMQBzAEMANQBzADQANQBpAHQAVwAxAGIAVQA0AG0AZABVAGgASwBjAEkAMQBxAHQAYgBkAHQA"
+			"cwBDAG4AZwBUAEkAeQA5AHQANgBuAHUAWgB2AEEAMwBJAEwANgBJADUAWAB2AEoAVgB2ADEAWgBN"
+			"AGYAcQBBADUAdgB1ADcAcgAzADAASgB6AGYATwBKADQATQBlAHYAKwBnAHUAYgA0AHUAaABUADcA"
+			"dAB6AGgAZQB2AHIAZQBQADMAdgB4ADAAVwBPADYAWQBCAGQAVgA4AEEAQQBBAGcAQQBFAGwARQBR"
+			"AFYAUgBuAHYAUgBZAEEAQQBQAG4ASABCAEUAMQBQAHAAUgBuAEgAQgBFADEAUABwAFIASgBVAHIA"
+			"aABhAEMASgB4AHgAOQBYAHoAbAA0AFUARgAxAHEAZQBBAGEARQBZAEkAeQA2AFUARgBJAFMAcQBB"
+			"AFUAMQBPAEUAcwBvAGsAbgBwAGQAQwBXAG8ASQBBAFEAVwBYAG4ARABNAEEATQBNAFkAQgBJADMA"
+			"YQB3AGIANQA1AGwAQQBuAHgARgAzADMATQBDADYANgBJADMAdABUAEcATQBBAHkATAB1ADkALwB2"
+			"AEgAeAA4AGYARAAvAHMAQQBZAFcAKwBiAFoAYQBJADAATQBwAFYAUgBjAGUASwBBAE0ARgB5AHcA"
+			"egBEAHcAUwBJAG4AMQA2AGMAdwBXAEIAQwBnAEoAQQBTAGcAdgArAGYAdgBUAGQAdAB0AGkAUQBy"
+			"AHoAOABYAGUAZAAwADAANQBaACsANwBoAEQARABYAFEAUQBDAE0ARQBrAGgAQQBDAHkAWQBCADAA"
+			"UQBRAGgAMABrAGEAOQBzAFgALwA4AEEAaAA0AGYANwB3AGYANwBrAHUATwBGAHcAaABNAE4AaABE"
+			"AFgARQBsAE8AKwB6AGYANQBiAGkAVwBMAEEAdQBCAEwAUgBCAGkARQBEAFQAUQBkAE4AZAA4AGgA"
+			"agAzAGsAMwBqAG0AdgB5AFIALwBlAHoASAAxAE8AVgBaADMAVABYAFUAMgBEAHIAcQBUAFEANgBo"
+			"AFAAVgBwADMAYgB0AHYAVABOAHoANQBjAHIAMQBUAHMALwA3AFAAQQBCAGcAcgBkADMAdAA5AGgA"
+			"ZQBYAGwAMgBXADUASgBhAHgASwBuAG0AZQBuAEoANgBlAG4AcAA2AGQAeABGAEEAcwBwAG4ASABO"
+			"AGwAdQBlAHUANgBUAGsAbwBSAGgAagBGAGoAagBKAHEAeABsAEcASQAzAEsARwB2AGYAWQBqAG0A"
+			"dQBrAEUARQBlAHIARABIADkATQBQAFIAZABSADQAbgByAHQAdQAyAEMAUQBDAFYASgBXAGgAVABG"
+			"AGMAcgBsAE0AawBuAFQAcwB3AFAAKwBUAGYALwBkAC8AQgBFAEUAUQBoAFMARQBBADEASABWAGQA"
+			"NwBrAHIAYQBzAE0ASQB3AEUAcAB4AFIAZwBZAFkAcQB4AFMAUwByADAATABiAE4AYgByAGMAcgBk"
+			"AHoAdQB0AHQAZQBBADgAagBLAEkAcwBUAFkAbgBIAFQAUQBnAHgAbABuAGkAbQBMAFcAdwBNAFYA"
+			"cQBZAGwAYwBpAGkAVABBAGcAQQB5AFYARgBJAEYAWQBjAGcANQA2ADkAcAB1AHYAOQA5ADMAYgBX"
+			"AGUATgBGAFUAUwBBAHgAZABpAFkALwBBAEgAMAA0AEwAegAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeAAAeCcAsgDQuqt2oQIAAIDU"
+			"SwuhAgAAoDhoD6ECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
-	(label "USB-DM_1"
+	(label "USB-DM_2"
 		(at 222.25 104.14 0)
 		(effects
 			(font
@@ -14485,7 +14633,7 @@
 		(uuid "0bcf8d96-2afb-4498-9808-d44f983a0564")
 	)
 	(label "VBUS_1"
-		(at 133.35 30.48 0)
+		(at 135.89 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14527,7 +14675,7 @@
 		)
 		(uuid "70985a9f-f033-4db7-90a8-c35739e9343c")
 	)
-	(label "USB-DP_1"
+	(label "USB-DP_2"
 		(at 222.25 101.6 0)
 		(effects
 			(font
@@ -14571,8 +14719,8 @@
 		)
 		(uuid "9311ced2-db15-40b8-a74e-a51a4404f257")
 	)
-	(label "VBUS_1"
-		(at 133.35 81.28 0)
+	(label "VBUS_2"
+		(at 135.89 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14603,7 +14751,7 @@
 		)
 		(uuid "17b903fe-38a8-4cad-bb72-2fad8f499be1")
 	)
-	(hierarchical_label "VBUS_DET1"
+	(hierarchical_label "VBUS_DET2"
 		(shape input)
 		(at 224.79 93.98 0)
 		(effects
@@ -14650,7 +14798,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10e5590e-e5c1-43bf-9813-d384b7040e36")
-		(property "Reference" "D12"
+		(property "Reference" "D2"
 			(at 156.21 34.29 0)
 			(effects
 				(font
@@ -14729,7 +14877,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "D12")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -14745,7 +14893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "202ded06-bab4-4dbd-aa72-6033daf6408a")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR072"
 			(at 109.22 68.58 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14797,7 +14945,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "#PWR031")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -14813,7 +14961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23d9b4f2-ac7e-42da-8e83-fc9c7d021843")
-		(property "Reference" "C74"
+		(property "Reference" "C73"
 			(at 198.12 86.3599 90)
 			(effects
 				(font
@@ -14894,7 +15042,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "C74")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -14910,7 +15058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c4f7113-267d-4e3f-a06c-220baa1404fe")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR077"
 			(at 158.75 96.52 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14962,7 +15110,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "#PWR071")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -14977,7 +15125,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33fa988f-447f-4693-9ff9-c683d3be78be")
-		(property "Reference" "R44"
+		(property "Reference" "R34"
 			(at 144.78 106.68 0)
 			(effects
 				(font
@@ -15056,7 +15204,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "R44")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -15072,7 +15220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ebba6ef-54ad-47be-a19d-d310ba4f3d76")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR080"
 			(at 109.22 119.38 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15124,7 +15272,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "#PWR063")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -15140,7 +15288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fadc8f9-fa6c-41d3-b76d-1b4b1b9f2514")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR079"
 			(at 201.93 115.57 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15191,7 +15339,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "#PWR082")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -15207,7 +15355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "486a89cf-fe63-4586-a1ca-e3f086c1338f")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 120.65 33.02 0)
 			(effects
 				(font
@@ -15322,7 +15470,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -15338,7 +15486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57059ef5-4042-4e36-a31d-8b04b959fd43")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR073"
 			(at 135.89 68.58 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15390,7 +15538,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "#PWR032")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -15406,7 +15554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6032bbf4-9095-402d-9239-7ba4139f8143")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR076"
 			(at 175.26 92.71 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15457,7 +15605,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "#PWR080")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -15472,7 +15620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "671452db-06f2-484f-a57e-9ebb109c9577")
-		(property "Reference" "D11"
+		(property "Reference" "D3"
 			(at 177.8 35.56 90)
 			(effects
 				(font
@@ -15553,7 +15701,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "D11")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -15568,7 +15716,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67e8c937-e5ec-4d91-bdce-5d76bf198359")
-		(property "Reference" "R30"
+		(property "Reference" "R29"
 			(at 144.78 55.88 0)
 			(effects
 				(font
@@ -15647,7 +15795,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "R30")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -15663,7 +15811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69d89175-705c-4ead-a82e-ae1288494650")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR075"
 			(at 109.22 91.44 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15715,7 +15863,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "#PWR039")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -15730,7 +15878,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b2f83f0-a5a5-4212-8955-577b99714a14")
-		(property "Reference" "R39"
+		(property "Reference" "R25"
 			(at 210.82 27.94 0)
 			(effects
 				(font
@@ -15809,7 +15957,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "R39")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -15825,7 +15973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7925a236-b60e-42df-994c-a53f093319eb")
-		(property "Reference" "J9"
+		(property "Reference" "J10"
 			(at 120.65 83.82 0)
 			(effects
 				(font
@@ -15940,7 +16088,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "J9")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -15956,7 +16104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8154070b-d99b-49ea-b6e9-bfd5acecad9e")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR081"
 			(at 135.89 119.38 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16008,7 +16156,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "#PWR070")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -16023,7 +16171,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "831619cf-a7f9-4036-803b-5b813d9a28d8")
-		(property "Reference" "R42"
+		(property "Reference" "R32"
 			(at 144.78 85.09 0)
 			(effects
 				(font
@@ -16102,7 +16250,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "R42")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -16118,7 +16266,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "854b245e-3294-4431-9ca5-8d760919f452")
-		(property "Reference" "D15"
+		(property "Reference" "D7"
 			(at 187.96 105.41 0)
 			(effects
 				(font
@@ -16209,7 +16357,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "D15")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -16224,7 +16372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "968ac53d-cd3b-40cb-80a7-29cb661bc538")
-		(property "Reference" "R43"
+		(property "Reference" "R33"
 			(at 144.78 93.98 0)
 			(effects
 				(font
@@ -16303,7 +16451,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "R43")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -16319,7 +16467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ada307b1-817c-4bb0-ae27-67ff8c2585e1")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR078"
 			(at 158.75 109.22 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16371,7 +16519,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "#PWR079")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -16386,7 +16534,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b54d311e-1040-4f39-8fed-b627b0022ed3")
-		(property "Reference" "R29"
+		(property "Reference" "R28"
 			(at 144.78 43.18 0)
 			(effects
 				(font
@@ -16465,7 +16613,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "R29")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -16481,7 +16629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5981be3-3310-4ba8-92cf-6f45f1345dbc")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR066"
 			(at 243.84 30.48 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16533,7 +16681,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "#PWR062")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -16549,7 +16697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7094fdf-c161-450d-8b3d-d258663f1d81")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR069"
 			(at 158.75 45.72 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16601,7 +16749,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "#PWR046")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -16617,7 +16765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be04f64d-7ce3-48f0-ab46-6c9fab32176d")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR071"
 			(at 201.93 64.77 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16668,7 +16816,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "#PWR054")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -16684,7 +16832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d096aa68-1a87-4e0d-86e4-717bd4a8ce33")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR068"
 			(at 175.26 41.91 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16735,7 +16883,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "#PWR055")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -16751,7 +16899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0edb84c-a9b7-4bd3-b6df-cf68b6e49fea")
-		(property "Reference" "C73"
+		(property "Reference" "C72"
 			(at 198.12 35.5599 90)
 			(effects
 				(font
@@ -16832,7 +16980,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "C73")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -16847,7 +16995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "daa4ed15-3cc6-4aab-9600-f237f0a5ce14")
-		(property "Reference" "R41"
+		(property "Reference" "R27"
 			(at 144.78 34.29 0)
 			(effects
 				(font
@@ -16926,7 +17074,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "R41")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -16941,7 +17089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc8002d4-e9b2-4bfb-aaa3-5f51d24ea0d9")
-		(property "Reference" "D14"
+		(property "Reference" "D6"
 			(at 177.8 86.36 90)
 			(effects
 				(font
@@ -17022,7 +17170,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "D14")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -17038,7 +17186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e15e34ce-2b9d-4b2d-bffc-433ced4a815f")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR070"
 			(at 158.75 58.42 0)
 			(do_not_autoplace yes)
 			(effects
@@ -17090,7 +17238,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "#PWR047")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -17106,7 +17254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e432d94c-4c6c-460f-97c9-8269fa8da197")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR074"
 			(at 243.84 81.28 0)
 			(do_not_autoplace yes)
 			(effects
@@ -17158,7 +17306,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "#PWR083")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -17173,7 +17321,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e73f9090-57f1-47af-a27a-509669d2017d")
-		(property "Reference" "R45"
+		(property "Reference" "R30"
 			(at 210.82 78.74 0)
 			(effects
 				(font
@@ -17252,7 +17400,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "R45")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -17268,7 +17416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e80a026a-d1b0-4a9b-b5c0-f1e54d98b56f")
-		(property "Reference" "D13"
+		(property "Reference" "D5"
 			(at 156.21 85.09 0)
 			(effects
 				(font
@@ -17347,7 +17495,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "D13")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -17362,7 +17510,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f42ed5d6-1258-442c-a9ad-ff3b254f4483")
-		(property "Reference" "R46"
+		(property "Reference" "R31"
 			(at 233.68 78.74 0)
 			(effects
 				(font
@@ -17441,7 +17589,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "R46")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -17456,7 +17604,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4e0a308-f206-4443-8b02-a2413b25d542")
-		(property "Reference" "R40"
+		(property "Reference" "R26"
 			(at 233.68 27.94 0)
 			(effects
 				(font
@@ -17535,7 +17683,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "R40")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -17551,7 +17699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd583355-14c7-44e0-9628-4c46dea1ebf5")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR067"
 			(at 109.22 40.64 0)
 			(do_not_autoplace yes)
 			(effects
@@ -17603,7 +17751,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "#PWR015")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -17619,7 +17767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe225c2f-872f-4c47-bf3f-936366efa666")
-		(property "Reference" "D10"
+		(property "Reference" "D4"
 			(at 187.96 54.61 0)
 			(effects
 				(font
@@ -17710,7 +17858,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "D10")
+					(reference "D4")
 					(unit 1)
 				)
 			)

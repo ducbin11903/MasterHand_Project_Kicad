@@ -861,14 +861,14 @@
 		(at 160.02 63.5 0)
 		(effects
 			(font
-				(face "Arial")
+				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
 		(uuid "1193c07d-83f5-4f26-9b5f-deac21d8c186")
 	)
-	(hierarchical_label "+3.3V"
+	(hierarchical_label "+3V3"
 		(shape input)
 		(at 144.78 41.91 180)
 		(effects
@@ -889,7 +889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58fcda21-ac55-4851-8e95-cb2dae87a749")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR0105"
 			(at 147.32 78.74 0)
 			(do_not_autoplace yes)
 			(effects
@@ -940,7 +940,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "#PWR078")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -956,7 +956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a175da42-8e25-4a69-96f5-eab073cc9c3e")
-		(property "Reference" "R26"
+		(property "Reference" "R57"
 			(at 149.86 71.1199 90)
 			(effects
 				(font
@@ -1064,7 +1064,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "R26")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -1080,7 +1080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ada536d2-0cd3-4e40-8aa5-dfdaa07090ba")
-		(property "Reference" "R25"
+		(property "Reference" "R56"
 			(at 149.86 53.3399 90)
 			(effects
 				(font
@@ -1188,7 +1188,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "R25")
+					(reference "R56")
 					(unit 1)
 				)
 			)

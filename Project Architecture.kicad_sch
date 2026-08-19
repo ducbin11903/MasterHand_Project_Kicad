@@ -252,7 +252,7 @@
 		(uuid "9543d363-0f36-4c41-97bc-b97723f48818")
 	)
 	(sheet
-		(at 123.19 50.8)
+		(at 127 50.8)
 		(size 31.75 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -268,7 +268,7 @@
 		)
 		(uuid "042ebd96-5d8b-461b-acb5-c7c1300dab56")
 		(property "Sheetname" "Power - Generation"
-			(at 123.19 49.7709 0)
+			(at 127 49.7709 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -278,7 +278,7 @@
 			)
 		)
 		(property "Sheetfile" "Power - Generation.kicad_sch"
-			(at 123.19 71.7046 0)
+			(at 127 71.7046 0)
 			(effects
 				(font
 					(face "Arial")
@@ -288,7 +288,7 @@
 			)
 		)
 		(pin "+VBAT" input
-			(at 123.19 55.88 180)
+			(at 127 55.88 180)
 			(uuid "0efe6e22-af88-4349-9eba-336a361ce682")
 			(effects
 				(font
@@ -301,7 +301,7 @@
 			)
 		)
 		(pin "+5V" output
-			(at 154.94 57.15 0)
+			(at 158.75 57.15 0)
 			(uuid "24802154-0c05-41d6-962d-aa56d705da70")
 			(effects
 				(font
@@ -314,7 +314,7 @@
 			)
 		)
 		(pin "+3V3" output
-			(at 154.94 59.69 0)
+			(at 158.75 59.69 0)
 			(uuid "53d5f7b2-1dc6-4e2e-9659-0bda0e7c440b")
 			(effects
 				(font
@@ -327,7 +327,7 @@
 			)
 		)
 		(pin "+12V" output
-			(at 154.94 54.61 0)
+			(at 158.75 54.61 0)
 			(uuid "1253d5f8-ca67-409f-9d85-0ec554fe5822")
 			(effects
 				(font
@@ -340,7 +340,7 @@
 			)
 		)
 		(pin "+A3V3" output
-			(at 154.94 62.23 0)
+			(at 158.75 62.23 0)
 			(uuid "6a5cd574-fe42-4b3c-ab76-8c9cb456ea90")
 			(effects
 				(font
@@ -406,7 +406,7 @@
 				(justify left)
 			)
 		)
-		(pin "+3.3V" input
+		(pin "+3V3" input
 			(at 254 99.06 180)
 			(uuid "4ca43c85-c235-4a6e-94c2-e9d5d90b2497")
 			(effects
@@ -676,7 +676,7 @@
 				(justify left top)
 			)
 		)
-		(pin "+3.3V" input
+		(pin "+3V3" input
 			(at 355.6 63.5 180)
 			(uuid "a95c9795-582a-4ee0-a874-0bdbf1f2b82b")
 			(effects
@@ -929,7 +929,7 @@
 				(justify left)
 			)
 		)
-		(pin "+3.3V" input
+		(pin "+3V3" input
 			(at 302.26 99.06 180)
 			(uuid "059321b6-4d54-404c-803b-953f9fab3f0b")
 			(effects
@@ -1067,7 +1067,7 @@
 				(justify left)
 			)
 		)
-		(pin "+3.3V" input
+		(pin "+3V3" input
 			(at 355.6 99.06 180)
 			(uuid "b0b34022-9f38-47ed-be94-bcc849f088ce")
 			(effects
@@ -1258,7 +1258,7 @@
 				(justify left top)
 			)
 		)
-		(pin "+3.3V" input
+		(pin "+3V3" input
 			(at 254 63.5 180)
 			(uuid "21fa2c86-bb15-4aab-b67a-ceed4602c197")
 			(effects
@@ -1411,7 +1411,7 @@
 				(justify left top)
 			)
 		)
-		(pin "+3.3V" input
+		(pin "+3V3" input
 			(at 302.26 63.5 180)
 			(uuid "6db8be74-88cb-4f49-a229-60733d5c8822")
 			(effects

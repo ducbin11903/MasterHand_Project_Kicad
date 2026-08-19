@@ -844,7 +844,7 @@
         "pattern": "/Project Architecture/Motor Control - Ring/+3.3V"
       },
       {
-        "netclass": "Power 12V",
+        "netclass": "High Power",
         "pattern": "/Project Architecture/Motor Control - Pinky/+VBAT"
       },
       {
@@ -878,6 +878,74 @@
       {
         "netclass": "Power 5V",
         "pattern": "/Project Architecture/Interface - Interconnects/+5V"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Motor Control - Index/+3V3"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Motor Control - Middle/+3V3"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Motor Control - Ring/+3V3"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Motor Control - Pinky/+3V3"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Motor Control - Thumb 1/+3V3"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Motor Control - Thumb 2/+3V3"
+      },
+      {
+        "netclass": "Power 5V",
+        "pattern": "/Project Architecture/Interface - FD - CAN/+5V"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Interface - FD - CAN/+3V3"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/User - LED Indicators & Buzzer/+3V3"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Misc - Board Version, DAC/+3V3"
+      },
+      {
+        "netclass": "Power A3V3",
+        "pattern": "/Project Architecture/MCU - Power/+A3V3"
+      },
+      {
+        "netclass": "Power A3V3",
+        "pattern": "/Project Architecture/Motor Control - Index/+A3V3"
+      },
+      {
+        "netclass": "Power A3V3",
+        "pattern": "/Project Architecture/Motor Control - Middle/+A3V3"
+      },
+      {
+        "netclass": "Power A3V3",
+        "pattern": "/Project Architecture/Motor Control - Ring/+A3V3"
+      },
+      {
+        "netclass": "Power A3V3",
+        "pattern": "/Project Architecture/Motor Control - Thumb 1/+A3V3"
+      },
+      {
+        "netclass": "Power A3V3",
+        "pattern": "/Project Architecture/Motor Control - Thumb 2/+A3V3"
+      },
+      {
+        "netclass": "Power A3V3",
+        "pattern": "/Project Architecture/Motor Control - Pinky/+A3V3"
       }
     ]
   },
