@@ -946,6 +946,14 @@
       {
         "netclass": "Power A3V3",
         "pattern": "/Project Architecture/Motor Control - Pinky/+A3V3"
+      },
+      {
+        "netclass": "Power 5V",
+        "pattern": "/Project Architecture/Interface - FD-CAN/+5V"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Interface - FD-CAN/+3V3"
       }
     ]
   },
@@ -1108,20 +1116,20 @@
       "Project Architecture"
     ],
     [
-      "f06537ee-772d-44d3-8c50-e0ba41038c9c",
-      "MCU - Power"
-    ],
-    [
-      "e744f3ce-03a6-44a6-8792-1447ef232b9a",
-      "MCU - IOs"
-    ],
-    [
       "042ebd96-5d8b-461b-acb5-c7c1300dab56",
       "Power - Generation"
     ],
     [
       "961411a1-6ec4-454f-96e4-c72953a40611",
       "Power - Connectors"
+    ],
+    [
+      "f06537ee-772d-44d3-8c50-e0ba41038c9c",
+      "MCU - Power"
+    ],
+    [
+      "e744f3ce-03a6-44a6-8792-1447ef232b9a",
+      "MCU - IOs"
     ],
     [
       "9fef4a7d-fe15-42af-a3b5-95e4268f1da7",
@@ -1153,7 +1161,7 @@
     ],
     [
       "f2e2e46b-bf48-4385-80eb-484ec861c9a9",
-      "Interface - FD - CAN"
+      "Interface - FD-CAN"
     ],
     [
       "17a3bf50-6382-4412-b8e5-9c1afeb8fb2e",
@@ -1177,7 +1185,7 @@
     ],
     [
       "0bb1cb44-88fa-40dc-bea3-1adee4cb244a",
-      "Misc - Board Version, DAC"
+      "Misc - Board Version, Switch"
     ],
     [
       "5fb05893-0da3-4f58-a52b-cb6d6f4cb80b",
