@@ -1,14 +1,3 @@
-(kicad_sch
-	(version 20250114)
-	(generator "eeschema")
-	(generator_version "9.0")
-	(uuid "536bc32b-a126-4835-9b51-fe1dae17a7c7")
-	(paper "A4")
-	(title_block
-		(date "2026-06-27")
-		(rev "${REVISION}")
-		(company "${COMPANY}")
-	)
 	(bus_alias "MD_I" (members "PWMA_I" "PWMB_I" "EN_I" "DIAG_I" "OCM_I" "ECA_I" "ECB_I" "ECC_I"))
 	(bus_alias "MD_M" (members "PWMA_M" "PWMB_M" "EN_M" "DIAG_M" "OCM_M" "ECA_M" "ECB_M" "ECC_M"))
 	(bus_alias "MD_R" (members "PWMA_R" "PWMB_R" "EN_R" "DIAG_R" "OCM_R" "ECA_R" "ECB_R" "ECC_R"))
@@ -31,5 +20,3 @@
 	(bus_alias "USB_2" (members "USB-DP_2" "USB-DM_2" "VBUS_DET2"))
 	(bus_alias "MCU_ID" (members "MCU_ID1" "MCU_ID2"))
 	(bus_alias "SW_BOOT" (members "BOOT_1" "BOOT_2"))
-	(lib_symbols)
-)

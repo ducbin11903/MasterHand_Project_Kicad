@@ -1816,7 +1816,7 @@
 			(in_bom no)
 			(on_board no)
 			(property "Reference" "#PWR"
-				(at -0.254 8.636 0)
+				(at 0 0 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -1826,8 +1826,7 @@
 				)
 			)
 			(property "Value" "GND"
-				(at -2.54 -4.064 0)
-				(do_not_autoplace)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1853,7 +1852,7 @@
 				)
 			)
 			(property "Description" "Power Symbol - Global Ground"
-				(at 0 -6.858 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1863,10 +1862,10 @@
 			)
 			(symbol "GND_1_0"
 				(pin power_in line
-					(at -2.54 0 270)
-					(length 1.27)
+					(at 0 1.27 90)
+					(length 0)
 					(hide yes)
-					(name "GND"
+					(name "-VBAT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1885,7 +1884,7 @@
 			(symbol "GND_1_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -2.54 -1.27) (xy -1.778 -1.27) (xy -2.54 -2.54) (xy -3.302 -1.27) (xy -2.54 -1.27)
+						(xy 0 1.27) (xy 0 2.54) (xy 0.762 2.54) (xy 0 3.81) (xy -0.762 2.54) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2036,6 +2035,12 @@
 		(uuid "35204fe5-4b53-443e-9a20-6f41509f65e5")
 	)
 	(junction
+		(at 175.26 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35b84993-17cc-4657-acc2-6014198d01e3")
+	)
+	(junction
 		(at 167.64 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2090,12 +2095,6 @@
 		(uuid "4979b16b-6189-4e7c-8c29-db0df325f016")
 	)
 	(junction
-		(at 175.26 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "548e99f0-f9da-4ddd-9e48-d6efb62d47ad")
-	)
-	(junction
 		(at 284.48 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2112,12 +2111,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b5ad324-b3f3-4d2b-9f38-c954b9942894")
-	)
-	(junction
-		(at 175.26 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5bef48c0-6b9f-47ee-921d-ac0c934c36e9")
 	)
 	(junction
 		(at 175.26 187.96)
@@ -2154,6 +2147,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7669972-14d9-4b3a-8339-7ce8ff6a190a")
+	)
+	(junction
+		(at 175.26 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afc9b7f6-6928-42fe-a148-4ae352d995bb")
 	)
 	(junction
 		(at 233.68 78.74)
@@ -2568,16 +2567,6 @@
 			(type default)
 		)
 		(uuid "429b881e-84ad-4c65-b670-35917e29d484")
-	)
-	(wire
-		(pts
-			(xy 175.26 205.74) (xy 175.26 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43c51525-11b9-4a70-88e3-1fa28d35feed")
 	)
 	(wire
 		(pts
@@ -3131,16 +3120,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 179.07) (xy 144.78 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4142fdd-7689-47d0-8ca6-60fca98e8054")
-	)
-	(wire
-		(pts
 			(xy 203.2 104.14) (xy 210.82 104.14)
 		)
 		(stroke
@@ -3228,16 +3207,6 @@
 			(type default)
 		)
 		(uuid "cdcc469b-5438-4925-ac1b-c8983ae7815f")
-	)
-	(wire
-		(pts
-			(xy 175.26 121.92) (xy 175.26 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce645bf5-4cdb-4afa-8524-7fcd643812d7")
 	)
 	(wire
 		(pts
@@ -3419,6 +3388,16 @@
 		)
 		(uuid "fea56a37-01a4-4017-bf22-32791ea990fb")
 	)
+	(wire
+		(pts
+			(xy 144.78 177.8) (xy 144.78 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff713429-e3cf-4c3e-937e-a31b9bec745e")
+	)
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 142.24 78.74 180)
@@ -3494,7 +3473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08364a5a-af74-4732-a260-cf3d2823b725")
-		(property "Reference" "L2"
+		(property "Reference" "L3"
 			(at 198.12 101.6 0)
 			(effects
 				(font
@@ -3573,7 +3552,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "L2")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -3677,15 +3656,15 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:GND")
-		(at 236.22 154.94 0)
+		(at 233.68 153.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(uuid "190794c0-2cb9-453a-b138-23b3fe88960d")
-		(property "Reference" "#PWR029"
-			(at 235.966 146.304 0)
+		(property "Reference" "#PWR25"
+			(at 233.68 147.32 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -3695,7 +3674,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 159.004 0)
+			(at 233.68 158.75 0)
 			(effects
 				(font
 					(face "KiCad Font")
@@ -3704,7 +3683,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 154.94 0)
+			(at 233.68 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +3692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 154.94 0)
+			(at 233.68 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3722,7 +3701,7 @@
 			)
 		)
 		(property "Description" "Power Symbol - Global Ground"
-			(at 236.22 161.798 0)
+			(at 233.68 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3736,7 +3715,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "#PWR029")
+					(reference "#PWR25")
 					(unit 1)
 				)
 			)
@@ -3936,15 +3915,15 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:GND")
-		(at 147.32 179.07 0)
+		(at 144.78 177.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(uuid "23d0d71d-809b-448c-8104-7bf4bf082261")
-		(property "Reference" "#PWR031"
-			(at 147.066 170.434 0)
+		(property "Reference" "#PWR27"
+			(at 144.78 177.8 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3954,7 +3933,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 183.134 0)
+			(at 144.78 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,7 +3941,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 179.07 0)
+			(at 144.78 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +3950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 179.07 0)
+			(at 144.78 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +3959,7 @@
 			)
 		)
 		(property "Description" "Power Symbol - Global Ground"
-			(at 147.32 185.928 0)
+			(at 144.78 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,7 +3973,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "#PWR031")
+					(reference "#PWR27")
 					(unit 1)
 				)
 			)
@@ -4290,15 +4269,15 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:GND")
-		(at 147.32 95.25 0)
+		(at 144.78 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(uuid "3986fbbe-903d-4644-b851-934cd382426e")
-		(property "Reference" "#PWR027"
-			(at 147.066 86.614 0)
+		(property "Reference" "#PWR23"
+			(at 144.78 93.98 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4308,7 +4287,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 99.314 0)
+			(at 144.78 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +4295,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 95.25 0)
+			(at 144.78 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,7 +4304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 95.25 0)
+			(at 144.78 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,7 +4313,7 @@
 			)
 		)
 		(property "Description" "Power Symbol - Global Ground"
-			(at 147.32 102.108 0)
+			(at 144.78 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4348,7 +4327,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "#PWR027")
+					(reference "#PWR23")
 					(unit 1)
 				)
 			)
@@ -4922,15 +4901,15 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:GND")
-		(at 287.02 175.26 0)
+		(at 284.48 173.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(uuid "5bf1bd09-129b-4f04-b363-e14fdb53e5dd")
-		(property "Reference" "#PWR030"
-			(at 286.766 166.624 0)
+		(property "Reference" "#PWR26"
+			(at 284.48 173.99 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4940,7 +4919,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 179.324 0)
+			(at 284.48 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4948,7 +4927,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 287.02 175.26 0)
+			(at 284.48 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4957,7 +4936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 175.26 0)
+			(at 284.48 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,7 +4945,7 @@
 			)
 		)
 		(property "Description" "Power Symbol - Global Ground"
-			(at 287.02 182.118 0)
+			(at 284.48 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4980,7 +4959,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "#PWR030")
+					(reference "#PWR26")
 					(unit 1)
 				)
 			)
@@ -5091,7 +5070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72d4de84-317f-4aa2-aaae-9caececc2a69")
-		(property "Reference" "L3"
+		(property "Reference" "L4"
 			(at 198.12 185.42 0)
 			(effects
 				(font
@@ -5170,7 +5149,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "L3")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -5656,15 +5635,15 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:GND")
-		(at 177.8 121.92 0)
+		(at 175.26 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(uuid "aebedf99-eb56-428f-bdc5-b031554fd3d7")
-		(property "Reference" "#PWR028"
-			(at 177.546 113.284 0)
+		(property "Reference" "#PWR24"
+			(at 175.26 118.11 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5674,7 +5653,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 125.984 0)
+			(at 175.26 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5682,7 +5661,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 121.92 0)
+			(at 175.26 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5691,7 +5670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 121.92 0)
+			(at 175.26 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5700,7 +5679,7 @@
 			)
 		)
 		(property "Description" "Power Symbol - Global Ground"
-			(at 177.8 128.778 0)
+			(at 175.26 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5714,7 +5693,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "#PWR028")
+					(reference "#PWR24")
 					(unit 1)
 				)
 			)
@@ -6010,15 +5989,15 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:GND")
-		(at 236.22 71.12 0)
+		(at 233.68 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(uuid "da4c3256-33ce-4bc1-b02b-86038864f846")
-		(property "Reference" "#PWR025"
-			(at 235.966 62.484 0)
+		(property "Reference" "#PWR21"
+			(at 233.68 63.5 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -6028,7 +6007,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 75.184 0)
+			(at 233.68 74.93 0)
 			(effects
 				(font
 					(face "KiCad Font")
@@ -6037,7 +6016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 71.12 0)
+			(at 233.68 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +6025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 71.12 0)
+			(at 233.68 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,7 +6034,7 @@
 			)
 		)
 		(property "Description" "Power Symbol - Global Ground"
-			(at 236.22 77.978 0)
+			(at 233.68 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6069,7 +6048,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "#PWR025")
+					(reference "#PWR21")
 					(unit 1)
 				)
 			)
@@ -6269,15 +6248,15 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:GND")
-		(at 287.02 91.44 0)
+		(at 284.48 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(uuid "eef85599-4b4f-48d5-9bf0-240b6805a98b")
-		(property "Reference" "#PWR026"
-			(at 286.766 82.804 0)
+		(property "Reference" "#PWR22"
+			(at 284.48 90.17 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6287,7 +6266,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 95.504 0)
+			(at 284.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6295,7 +6274,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 287.02 91.44 0)
+			(at 284.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6304,7 +6283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 91.44 0)
+			(at 284.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6313,7 +6292,7 @@
 			)
 		)
 		(property "Description" "Power Symbol - Global Ground"
-			(at 287.02 98.298 0)
+			(at 284.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6327,7 +6306,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "#PWR026")
+					(reference "#PWR22")
 					(unit 1)
 				)
 			)
@@ -6335,15 +6314,15 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:GND")
-		(at 177.8 205.74 0)
+		(at 175.26 201.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(uuid "f332c9d0-ff5b-464d-9d53-0123325615b2")
-		(property "Reference" "#PWR032"
-			(at 177.546 197.104 0)
+		(property "Reference" "#PWR28"
+			(at 175.26 201.93 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6353,7 +6332,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 209.804 0)
+			(at 175.26 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6361,7 +6340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 205.74 0)
+			(at 175.26 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,7 +6349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 205.74 0)
+			(at 175.26 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6379,7 +6358,7 @@
 			)
 		)
 		(property "Description" "Power Symbol - Global Ground"
-			(at 177.8 212.598 0)
+			(at 175.26 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6393,7 +6372,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "#PWR032")
+					(reference "#PWR28")
 					(unit 1)
 				)
 			)

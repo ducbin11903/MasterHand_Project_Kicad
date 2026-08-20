@@ -327,7 +327,7 @@
 			(in_bom no)
 			(on_board no)
 			(property "Reference" "#PWR"
-				(at -0.254 8.636 0)
+				(at 0 0 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -337,8 +337,7 @@
 				)
 			)
 			(property "Value" "GND"
-				(at -2.54 -4.064 0)
-				(do_not_autoplace)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -364,7 +363,7 @@
 				)
 			)
 			(property "Description" "Power Symbol - Global Ground"
-				(at 0 -6.858 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -374,10 +373,10 @@
 			)
 			(symbol "GND_1_0"
 				(pin power_in line
-					(at -2.54 0 270)
-					(length 1.27)
+					(at 0 1.27 90)
+					(length 0)
 					(hide yes)
-					(name "GND"
+					(name "-VBAT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -396,7 +395,7 @@
 			(symbol "GND_1_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -2.54 -1.27) (xy -1.778 -1.27) (xy -2.54 -2.54) (xy -3.302 -1.27) (xy -2.54 -1.27)
+						(xy 0 1.27) (xy 0 2.54) (xy 0.762 2.54) (xy 0 3.81) (xy -0.762 2.54) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -652,7 +651,7 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:GND")
-		(at 168.91 102.87 0)
+		(at 166.37 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -660,8 +659,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "074d06d0-4dee-4df9-9f6e-7f3c3be43bc2")
-		(property "Reference" "#PWR0135"
-			(at 168.656 94.234 0)
+		(property "Reference" "#PWR131"
+			(at 166.37 101.6 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -679,7 +678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 102.87 0)
+			(at 166.37 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -688,7 +687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 102.87 0)
+			(at 166.37 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -697,7 +696,7 @@
 			)
 		)
 		(property "Description" "Power Symbol - Global Ground"
-			(at 168.91 109.728 0)
+			(at 166.37 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -711,7 +710,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/d30056b5-4391-456e-bc80-2bde1ca0d521"
-					(reference "#PWR0135")
+					(reference "#PWR131")
 					(unit 1)
 				)
 			)
