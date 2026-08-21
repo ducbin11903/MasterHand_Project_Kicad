@@ -150,7 +150,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -3.81 0 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -168,7 +168,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 3.81 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -535,7 +535,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 83.82) (xy 190.5 81.28)
+			(xy 190.5 81.28) (xy 190.5 85.09)
 		)
 		(stroke
 			(width 0)
@@ -575,7 +575,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 93.98) (xy 190.5 97.79)
+			(xy 190.5 92.71) (xy 190.5 97.79)
 		)
 		(stroke
 			(width 0)
@@ -736,7 +736,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RES 0603"
+		(property "Value" "100K 0.1% 0603"
 			(at 168.91 74.9299 90)
 			(effects
 				(font
@@ -833,7 +833,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 0603"
+		(property "Value" "100nF 50V 0603"
 			(at 194.31 90.1699 90)
 			(effects
 				(font
@@ -930,7 +930,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RES 0603"
+		(property "Value" "47K 0.1% 0603"
 			(at 168.91 90.1699 90)
 			(effects
 				(font

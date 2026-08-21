@@ -10,7 +10,7 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols
-		(symbol "Duc-Capacitors:CAP CER 0402"
+		(symbol "Duc-Capacitors:CAP CER 0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -22,14 +22,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0 3.302 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "CAP CER 0402"
+			(property "Value" "CAP CER 0603"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -37,7 +37,34 @@
 					)
 				)
 			)
-			(property "Footprint" "Duc_Library:C0402"
+			(property "Footprint" "Duc:C0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO(国巨)"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -46,7 +73,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "MPN" "CAP CER 0603"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -55,35 +82,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CAP CER 0402"
-				(at 0 -7.366 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" ""
+			(property "LCSC Part" "C14663"
 				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CC0402KRX5R7BB105"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C325464"
-				(at 0 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -100,10 +100,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "CAP CER 0402_0_1"
+			(symbol "CAP CER 0603_0_1"
 				(polyline
 					(pts
-						(xy -1.27 0) (xy -0.508 0)
+						(xy -0.51 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -139,7 +139,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 0.508 0)
+						(xy 2.54 0) (xy 0.51 0)
 					)
 					(stroke
 						(width 0)
@@ -149,12 +149,10 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "CAP CER 0402_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
-					(name ""
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -172,7 +170,7 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
-					(name ""
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -190,12 +188,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Duc-Resistors:RES SMD 0402"
+		(symbol "Duc-Resistors:RES SMD 0603"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -209,15 +206,15 @@
 					)
 				)
 			)
-			(property "Value" "RES 0402"
-				(at 0 -3.048 0)
+			(property "Value" "RES 0603"
+				(at 0 -3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Duc_Library:R0402"
+			(property "Footprint" "Duc:R0603"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -226,7 +223,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -235,8 +232,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RES SMD 0402"
-				(at -0.508 -3.048 0)
+			(property "Description" "RES SMD 0603"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -244,7 +241,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" ""
+			(property "Manufacturer" "YAGEO(国巨)"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -253,7 +250,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "RT0402FRE07100KL"
+			(property "MPN" "RT0603FRE13100KL"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -262,7 +259,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C728576"
+			(property "LCSC Part" "C4107493"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -271,7 +268,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RES SMD 0402_0_1"
+			(symbol "RES SMD 0603_0_1"
 				(rectangle
 					(start -2.54 1.016)
 					(end 2.54 -1.016)
@@ -284,7 +281,7 @@
 					)
 				)
 			)
-			(symbol "RES SMD 0402_1_1"
+			(symbol "RES SMD 0603_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -3096,7 +3093,43 @@
 			"YQBFAGIAWABXAFoAdQBWAG8AbwBiAEUASABkAFQAeQB1AEgAcABUADIAbAA4AG8AOQA0AEIARQBx"
 			"AG0ASwBmADUALwBvAFIAeAA3AFAAZgBYADQAKwBZAGUALwAxAFUARAA5AFUAZQBjAGYAegBPACsA"
 			"awA0AEMAUAAzAFcARQBtAHUAVAB0AEkAQQBiADAASgBJAGYAZgBCAHgARQBSAFoARwBFAFIAVQBL"
-			"AHQANQBJADYAdAArAHEAegByAEUAdwBxAEcASAAzAFQAWABUAEEAaQBWAA=="
+			"AHQANQBJADYAdAArAHEAegByAEUAdwBxAEcASAAzAFQAWABUAEEAaQBWAGsAbwBIAFkAeAB2AGYA"
+			"MAA3AGYANQBQAGcARQB1AEEAVQA3AGkASgBnAHAAMwBEADMAYwBIAGUAaQBhAHQAbgB1AGQAeQBB"
+			"ADEAaABVAFIAdAB0ADMAUwBYAGkAUQBwAGQAbgB1AFYANwBvAGYATABGAHIAcABRAGEAbAB4AE0A"
+			"RgBCADcAbQBBAFQATQBtAEoATQBLAGQAKwBQACsAWABTAFgAVABpAGMAZgBSAGgANQBIAGoARQB3"
+			"AEQAVQBhAEkAZwBDAHoAUQBSAEgAdwBlAFoAeABtAEUAYwBtAEMAVwBJAGQAOQB1AGMAbQA0AEQA"
+			"SAAxACsAOABTADYARAB2ADQATABaADgAVgB4AGoAQgBJAE0AeQBtADEAZABJAEEAcQBFACsALwB1"
+			"AE0AQQBGADUASwB6AFIAMgBFAFkAdgBPACsAWABGAFkAdwBKAHUARAB0ADAAQgBKAGkAVQAvAGoA"
+			"ZgBEAGYAbQBFAGEARwB0AFIAagBzADUAVwB0AGoAbQBZAFYAZwBXAGEAMgBhAEcAMgBJAHoAYwB1"
+			"AG0AbQA3ACsAOQBhAHMAUgBDAHMAYQBJAGMAMABWAE8AbwArAG4AZAAwAGsAQgBXADUAdQB6AE8A"
+			"eABHAEoAQwBCAEUAZwBCAEUAZgBRAGkANgB4ADAASABCAHMAVAB3AFUAVwBZAHUAdAB4AHcARwBG"
+			"AFAATgBDAGUATwBvADAANgBSAEQASQBqAGsAcQArAHIAdABWADcAUQA5ADAAegBUAGQAZwAwAE8A"
+			"NgBqAEcATABpADEAcQBJAFMAWQA2AFUAOABhADgARgA5ADUAUQB2AFQAUABaAFkAWQBBAGkASgAw"
+			"AGcANABPAGkAOABtAGIAYwBoAHMAMgA5AHgAWQBkADkAYQBHAG8ASwBiAE0AVQBLAFkAQQBsAEgA"
+			"ZABFAFMANABpAG8AawB3AE0AZAAzAGkAdABaAEQAVgBhAGIAZABzAG0AagAxAGQANgBYAEwAZgBu"
+			"AHgAWgA4AHUAYQBkAHUAcwAxAGEAMgBzAFYAdAB3ADUATwAyAGwAegBrAEMAUQBaAFcAUABPAFEA"
+			"WgB1AFoAWgA4AHkAbgBsAFUAOABhAFkATQBXAGcAawBEAG4AWgBIAEUASgBzAEkAaABpAFMAbgBl"
+			"AFQAaQBkAFcASwBRAGoAQQByAC8AKwA0AFAAOQBvAEIAUABvAHAAZgBCAHgAegBrAEwAUwBuAHEA"
+			"MwBkADIASABxAHkAVAAwACsASgBXADYAdgB0AHkATgBBADgAaQAyAGgAYwB5AEEAVABzAEEAVAAx"
+			"AG0AWgBhAGMAaAA2AFAANAA5AFQAaABqAHEAdwBZAGYAagB3AEQAaQBxAHcAMgBmAHcANwBkAG4A"
+			"ZwA0ADMAZAB0AEsARQBhAG0AVQBGAGMAWQBNAHUANgBpAGIAQQBYAGMAVAA3AEsAWgA2AGQAYwBQ"
+			"AGIAawBVAFUAOABpAEUAUAB5AGkARQBEAGsAWQBCAGkAQgBlAG0AQwBhADIAYQAwAE0AWQBJAEcA"
+			"bABpAE4AUgBLADcARQBSAGwASABFAGUAVABIAHcAQQBBAGEALwBSAGQAcgBWAGIASAAyAE4ANwBB"
+			"AFYAWABpAGQAZQBIAGUASwA2AHMATQBiACsAegB6AGkAQQBXAFYARgBOAGYARgBHADUAcQA1AGoA"
+			"WgBoAGQAagAyAHUAKwBOAGgAMAB6AE8AQgAxAGEATwBhAFUAQwBhAE8AeABiADUAVgBqADcAKwBm"
+			"AFIAKwBOAGQAVgBhAGEAcABiAG4AbABoADEAMgAzADgATAA1ADYASAAwAHkAbABsAEwAbQB4AEcA"
+			"egBhAFMATQB4ADQAcQByADEAWgBLAFEAcQBLAEQARABBAHYATgBPAEoANABxAEEATgBRAEMAaQBO"
+			"AGkAMQB6AFoAMAA3AGQAMwBiAGIAZgBVAHEAcABhAGsAMABwADEAMQByAGQAYgBsADkAeQA5AGQA"
+			"NwAxAGYAVQAvAGsAOQA3AHYAOQBnAHcAZQBQAC8AdgBLAFgAdgAzAHoANwA3AFQAZgByADkAWgBy"
+			"AFoAZQBXADYAUgBBAHgASwBJAHEAaQBYAFEAbwBHAEIARwBXAGcAZQB3AFEAbwB4AGcASQBxAEoA"
+			"VgBsAEEAaQBJADcASwAyAG8AYgBZAG0ARQBtAG4ATwArAHYAcgBrAEsAZwBhAHIAVQB2AHUALwB2"
+			"AFgAdAA2ADkAZAArAGYAUwBFAFcAMAAyADIAKwBmAFAAdgBuAC8ANgA5AEsAbQBJAEwASgBmAEwA"
+			"VAB6AC8AOQAvAE4ATgBQAGYAMwBmADMANwBqADEAbQBpAGoARQA5AGYALwA3ADgAOABaAE8AbgBy"
+			"ADYANQB2AFkAawB3AGkAYwBuADUAeAA1ADQATQBQAFAANwB5ACsAdgByAG0AKwB1AHQANwB2ADkA"
+			"NgA5AGUAdgB0AFEASwBVAHUAVQBvAHkAawBlAE8AcgBPAFgAZQAxAEsAbgBpAEYATABIAEYAMwBX"
+			"ADUAbgB2AGkAQgAyAEUAcQBPACsASABYAFkAYQBWAEEAVgBnADgAawB6AE8ANQByAEgAcQBpAHgA"
+			"YwB2AHQAcAB2ADEAMQBlAFgATAAzAC8AegBtAGsANAA4AC8AKwBYAGoAUgA5AHYAMgBpAFgAeQA2"
+			"AFgAUABnAFMAdQAxAFIAcABOADQAVgBDAGkAUgA4AFYAWgAvADQATwBRAA=="
 		)
 	)
 	(image
@@ -5026,7 +5059,43 @@
 			"dHUrbEhLSUNJQWtTWWhUbW9idHo3MUMrLzkzUFd2VFBzNHgvcFNFQUFDQUFTVVJCVklDUDJhNnZx"
 			"ekd2SFRuSjZBY2JhZjFuNjdOTjhKTFNuNGd5Z1FLak93MGRPak1YYzFMclhSdUlwc3dnU2psSWtK"
 			"Q3NtbmtsWlVHQWtCRFhadnZUWnVwV08rMCs5VGcvTHJSa1RJd0pRY2dvbkdMZk5vYTYvTkpFcUIr"
-			"dDAzUHlpWU5pWUdrRzdvTHVxTDFmNi81eDAwKzNjQzMyWE5CSVBCQ3hSRQ=="
+			"dDAzUHlpWU5pWUdrRzdvTHVxTDFmNi81eDAwKzNjQzMyWE5CSVBCQ3hSRURnSWtyT0lzSWtJWFFo"
+			"bTdMbHlOT0VLU0tTUnVrZ0pRS2N4eTl5RzJ5Qkg1VVB6ek5yUEx4eFpCOUlDTjdjbVlNSWFtZi8r"
+			"MmpjNHhjdFRXQzBDVERjaURuR3BEWmNmaDlqclhOS0tXY2pLcldzMjZacU1ZYlJRdlY1UmZDckVh"
+			"ajV3OWRYYmZEdTZMM1hWc2NRcTFLS3V3K0JBZmlMaWlDTDhPdVMxUmMreDE5LzVycXJRNDdnMk04"
+			"QTAwSHVUQm9paDBoSG9mK1g3T2psazBkb2FBUjNjb3FBZ2JTYmQrOU5kZDIzVW5vTStjUDdZQzdx"
+			"d29IQjliWlhXa09qcUV6Tm1ucXB1bmN0ZTJ0UE4vdHVpOStYK2QxamZuZEo3NWZwd3lNL3dBSkFZ"
+			"em9WbTd1ckhzMHd2OUVidmFEK0JpaGdRQWNLc0dxOTdyZnZucC8vdjQvNDlKeUtjdFZRTFE0ZzNF"
+			"SE1UbXdDU2ZNOFQ1S2l3YmNRemJIQUVRSnlZaUV6ZFFMSmFiWEhzZVJ2amZoMVFFL0gySUtqSlE4"
+			"QXpORTdla2RyT3RvZjFXd002N2pQYkJlR0JJUXdNaHlBenRJZGUwcVpuQzJhcW10WEppWUNNMnZ2"
+			"cGJmVzJwVHp2RXdTd2puYSt6L1FwWCsydm1xREI0NFNpcW0yMXJUM2xOSnl1UUF3czVRUzMyR3Ju"
+			"NFplNk5Ya2VRQ3Evai9mWFEyQk1PcGR3ODg1azVuV0ZPbnhjVnBDSE1KOHYzUnBmbjlCZm80NHN3"
+			"UDJaVWV0WFd1elVsc3BLcEkvdko4a2tIb0F5elREUUIrZkdvZnlYTEIyVjdObXZWdUZGN2RDM3Ju"
+			"eEoxOGY5L0I0U3g4ZWxsdUw3eGRhUW5vTWVRWkhNSW14dSt2blNNTXZyZnR3VlJqUWdBWTRjTFA2"
+			"dzNYOStMeDl1bjc2N3VQdCs0K0xRWnR5TSs0bVpzNXdJYmR4c2xFa2JpRmRwcGtDMzd6U3Z1bjFO"
+			"Z25IR0NseW90Q1BiNFpvTUJqYzVRZ3E3aVVTM0N1THBvT3FQQ2Jub1hlVWp0cFJtNWQ5cjYzZDVh"
+			"SmVZcmxSbEdHZWMxam1HSVJpSE9PbmpzNEJKb21SRUtCZEs2cXBsVnIzMm51dkVpUklBTkRhNkty"
+			"NkdqdmIvb3oxdFJ2ODBUQjVZdThwNTJtYWhObk02RlhON0tkQ3NIc09mNGZyUysyMXN5SFN5TjZk"
+			"eGdTM0tHemFQYktFeEV4M050aFByZGZXRG95eUhvT0FybU5iOXE3N2JXOWx0MXA3MTJtWjUyVW1k"
+			"NjJHbURFdmNDQkVWZHo2VTl0dlprWnFwQU0vWURJTkxKR2o3T3hralh0TlhhbDcwNzNyb25sK0dG"
+			"T1NnL3R2cWNZN1RKMmNSZ2w3ZUhYZjFiYTIvWEI3K2ovZjM3NS90cTMxcmZGS0pNRWFhZXRtVHNR"
+			"UXNjUStSNzRramJTNnJZWkhveXpTVXhTaDJydXQreFJpbG9zazBDZ2RNZ2FtYWU2RG9Ydysxek8y"
+			"djVQZVFIQ1lvaGJjMW5JdHFNYkg1RnhFa1lsbHpNT3dleHBGUnVUa20vYmFjb3J6bkhqR1dTOEJN"
+			"WXZRMFB3eXMrN2RkTFFia3pBVGs2cXFLZHhDV1A0VEUvWXZySy9kNEhFZTVESEdWNm9WUEREV0VZ"
+			"VzlwbWYrek1jQU1MTlNtaU80SndjZFNmb0JVNFBFSkFvSGNzRE5mbW8wMk5zRTRUaEhGRDVVWjBw"
+			"djJwM0J0YlJ0MjkwVWdBclRQSVYzajJZZDFUMU1KcUhXdHFiUUhpNjlhS3Z1amNnN3c5aUZIZUlk"
+			"RnBOR1ZERWlEVmF1WGFScUorK3RhbXMyUFR5R0dBSHdyOGsrWGk3WkRHQjNJa1hmZW5uYStxMnQz"
+			"ejNYVDl2MUgwLzllWS9HUVprOGF6V293TWtsVVJTZmcwOGhmSmo1WWFKQXZkZnV0bktvamp6bGFa"
+			"bnlOQ3RSM1FwempKNk9NeVdNQWdqN2tmYmdSeUg5K2RKUkttckZ0cFY5TDhXamNoaHpOUjF1Tm9R"
+			"dnlmR0tCMFZFUkdwbGIxV2J3WWs1NW94alh3d2t3TUVpTVVWaFNTQ0p1ZGFxMW1zcGFqWXlRbE83"
+			"MS9sZWU0ai92UFZWR3p3QmQ0V2d3YUlURVRwSlZ2Y29mdXlqTDU3UXIvVlBSbXhmYTNOY2pPZzFV"
+			"RU1nZFJDRU9UTGY1d2YrZURybEZ6NTgvTHU3Tzl4TnQxWjdWVGEwcmZiZTg1UkZDSVdRRXkyWkVV"
+			"SVhlSG91KzZkOXE3MWpTbmozR0ZRY0NiTGoxcWdQYk1xcE00T2NZS29OcmN2bWJuNFJRU3hhdXpl"
+			"bnk4TmpDZ3dBOHVzTW5nQmhnc0hVMmxxdjN6OC8vWDhmOTQrcjM5VFdyczhGdTVNRDNYVWI1VVVS"
+			"U1p5RXBxaEwwSW41NGNFZkVuS0lCSFpIMTFJM1dIdU1ZYmtzcmRsZWU3M3RaQ3c1SUlBSWg5d2VD"
+			"NGo5M2lDREYwL3ZEalBVaG5XMWZhKzlxUm1UUkxBY1diL0QzTjNBZkF4cjlyTU54aDBCQVM2MWRh"
+			"dzdDekdIRkVIOEpzc1Rab2xNSWhKQWhIMjNxcjMzQm9pcXF1clE5cUJYK2NLdmVxRC9idXVyTnZq"
+			"aHZVTVFkdzVCQmxwRFRDOXlnSzk5N2VIdjc4aVE0eGo0aXp1cnEyb295Zw=="
 		)
 	)
 	(label "I2C-SCL_1"
@@ -5130,7 +5199,7 @@
 		)
 		(uuid "64f19125-2e1e-4071-b08b-8d70c04b732d")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "+A3V3"
 		(shape input)
 		(at 173.99 105.41 0)
 		(effects
@@ -5141,7 +5210,7 @@
 		)
 		(uuid "774382f2-fe0b-4ce2-843f-3246b0166dae")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "+A3V3"
 		(shape input)
 		(at 97.79 125.73 180)
 		(effects
@@ -5152,7 +5221,7 @@
 		)
 		(uuid "7ea0e8eb-9f0d-414f-8987-ae535c2985fa")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "+A3V3"
 		(shape input)
 		(at 97.79 82.55 180)
 		(effects
@@ -5163,7 +5232,7 @@
 		)
 		(uuid "c1c29d05-8016-4974-98ea-a8a051a8d628")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "+A3V3"
 		(shape input)
 		(at 173.99 62.23 0)
 		(effects
@@ -5188,7 +5257,7 @@
 		(uuid "ffe2e9e0-afdf-4247-94b6-99f9ab4b8381")
 	)
 	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 0402")
+		(lib_id "Duc-Capacitors:CAP CER 0603")
 		(at 165.1 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5206,7 +5275,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 0402"
+		(property "Value" "100nF 50V 0603"
 			(at 168.91 71.1199 90)
 			(effects
 				(font
@@ -5215,7 +5284,34 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Duc_Library:C0402"
+		(property "Footprint" "Duc:C0603"
+			(at 172.72 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+			(at 175.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0603"
+			(at 165.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
 			(at 177.8 69.85 0)
 			(effects
 				(font
@@ -5224,7 +5320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "MPN" "CAP CER 0603"
 			(at 180.34 69.85 0)
 			(effects
 				(font
@@ -5233,35 +5329,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0402"
-			(at 172.466 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "LCSC Part" "C14663"
 			(at 182.88 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0402KRX5R7BB105"
-			(at 185.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C325464"
-			(at 187.96 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5285,7 +5354,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0402")
+		(lib_id "Duc-Resistors:RES SMD 0603")
 		(at 120.65 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5302,7 +5371,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RES 0402"
+		(property "Value" "10K 0.1% 0603"
 			(at 124.46 76.2 90)
 			(effects
 				(font
@@ -5311,7 +5380,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Duc_Library:R0402"
+		(property "Footprint" "Duc:R0603"
 			(at 128.27 74.93 0)
 			(effects
 				(font
@@ -5320,7 +5389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
 			(at 130.81 74.93 0)
 			(effects
 				(font
@@ -5329,8 +5398,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0402"
-			(at 123.698 75.438 0)
+		(property "Description" "RES SMD 0603"
+			(at 120.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5338,7 +5407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO(国巨)"
 			(at 133.35 74.93 0)
 			(effects
 				(font
@@ -5347,7 +5416,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0402FRE07100KL"
+		(property "MPN" "RT0603FRE13100KL"
 			(at 135.89 74.93 0)
 			(effects
 				(font
@@ -5356,7 +5425,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C728576"
+		(property "LCSC Part" "C4107493"
 			(at 138.43 74.93 0)
 			(effects
 				(font
@@ -5448,7 +5517,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0402")
+		(lib_id "Duc-Resistors:RES SMD 0603")
 		(at 100.33 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5466,7 +5535,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RES 0402"
+		(property "Value" "10K 0.1% 0603"
 			(at 102.87 119.3799 90)
 			(effects
 				(font
@@ -5475,7 +5544,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Duc_Library:R0402"
+		(property "Footprint" "Duc:R0603"
 			(at 107.95 118.11 0)
 			(effects
 				(font
@@ -5484,7 +5553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
 			(at 110.49 118.11 0)
 			(effects
 				(font
@@ -5493,8 +5562,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0402"
-			(at 103.378 118.618 0)
+		(property "Description" "RES SMD 0603"
+			(at 100.33 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +5571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO(国巨)"
 			(at 113.03 118.11 0)
 			(effects
 				(font
@@ -5511,7 +5580,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0402FRE07100KL"
+		(property "MPN" "RT0603FRE13100KL"
 			(at 115.57 118.11 0)
 			(effects
 				(font
@@ -5520,7 +5589,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C728576"
+		(property "LCSC Part" "C4107493"
 			(at 118.11 118.11 0)
 			(effects
 				(font
@@ -5545,7 +5614,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0402")
+		(lib_id "Duc-Resistors:RES SMD 0603")
 		(at 100.33 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5563,7 +5632,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RES 0402"
+		(property "Value" "10K 0.1% 0603"
 			(at 102.87 76.1999 90)
 			(effects
 				(font
@@ -5572,7 +5641,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Duc_Library:R0402"
+		(property "Footprint" "Duc:R0603"
 			(at 107.95 74.93 0)
 			(effects
 				(font
@@ -5581,7 +5650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
 			(at 110.49 74.93 0)
 			(effects
 				(font
@@ -5590,8 +5659,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0402"
-			(at 103.378 75.438 0)
+		(property "Description" "RES SMD 0603"
+			(at 100.33 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5599,7 +5668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO(国巨)"
 			(at 113.03 74.93 0)
 			(effects
 				(font
@@ -5608,7 +5677,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0402FRE07100KL"
+		(property "MPN" "RT0603FRE13100KL"
 			(at 115.57 74.93 0)
 			(effects
 				(font
@@ -5617,7 +5686,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C728576"
+		(property "LCSC Part" "C4107493"
 			(at 118.11 74.93 0)
 			(effects
 				(font
@@ -5642,7 +5711,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0402")
+		(lib_id "Duc-Resistors:RES SMD 0603")
 		(at 120.65 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5659,7 +5728,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RES 0402"
+		(property "Value" "10K 0.1% 0603"
 			(at 124.46 119.38 90)
 			(effects
 				(font
@@ -5668,7 +5737,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Duc_Library:R0402"
+		(property "Footprint" "Duc:R0603"
 			(at 128.27 118.11 0)
 			(effects
 				(font
@@ -5677,7 +5746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
 			(at 130.81 118.11 0)
 			(effects
 				(font
@@ -5686,8 +5755,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0402"
-			(at 123.698 118.618 0)
+		(property "Description" "RES SMD 0603"
+			(at 120.65 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5695,7 +5764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO(国巨)"
 			(at 133.35 118.11 0)
 			(effects
 				(font
@@ -5704,7 +5773,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0402FRE07100KL"
+		(property "MPN" "RT0603FRE13100KL"
 			(at 135.89 118.11 0)
 			(effects
 				(font
@@ -5713,7 +5782,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C728576"
+		(property "LCSC Part" "C4107493"
 			(at 138.43 118.11 0)
 			(effects
 				(font
@@ -5946,7 +6015,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 0402")
+		(lib_id "Duc-Capacitors:CAP CER 0603")
 		(at 165.1 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5964,7 +6033,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 0402"
+		(property "Value" "100nF 50V 0603"
 			(at 168.91 114.2999 90)
 			(effects
 				(font
@@ -5973,7 +6042,34 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Duc_Library:C0402"
+		(property "Footprint" "Duc:C0603"
+			(at 172.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+			(at 175.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0603"
+			(at 165.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
 			(at 177.8 113.03 0)
 			(effects
 				(font
@@ -5982,7 +6078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "MPN" "CAP CER 0603"
 			(at 180.34 113.03 0)
 			(effects
 				(font
@@ -5991,35 +6087,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0402"
-			(at 172.466 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "LCSC Part" "C14663"
 			(at 182.88 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0402KRX5R7BB105"
-			(at 185.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C325464"
-			(at 187.96 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)

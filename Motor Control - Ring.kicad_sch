@@ -10,7 +10,7 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols
-		(symbol "Duc-Capacitors:CAP CER 0402"
+		(symbol "Duc-Capacitors:CAP CER 0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -22,14 +22,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0 3.302 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "CAP CER 0402"
+			(property "Value" "CAP CER 0603"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -37,7 +37,34 @@
 					)
 				)
 			)
-			(property "Footprint" "Duc_Library:C0402"
+			(property "Footprint" "Duc:C0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO(国巨)"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -46,7 +73,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "MPN" "CAP CER 0603"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -55,35 +82,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CAP CER 0402"
-				(at 0 -7.366 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" ""
+			(property "LCSC Part" "C14663"
 				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CC0402KRX5R7BB105"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C325464"
-				(at 0 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -100,10 +100,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "CAP CER 0402_0_1"
+			(symbol "CAP CER 0603_0_1"
 				(polyline
 					(pts
-						(xy -1.27 0) (xy -0.508 0)
+						(xy -0.51 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -139,7 +139,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 0.508 0)
+						(xy 2.54 0) (xy 0.51 0)
 					)
 					(stroke
 						(width 0)
@@ -149,12 +149,10 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "CAP CER 0402_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
-					(name ""
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -172,7 +170,7 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
-					(name ""
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1106,12 +1104,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Duc-Resistors:RES SMD 0402"
+		(symbol "Duc-Resistors:RES SMD 0603"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1125,15 +1122,15 @@
 					)
 				)
 			)
-			(property "Value" "RES 0402"
-				(at 0 -3.048 0)
+			(property "Value" "RES 0603"
+				(at 0 -3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Duc_Library:R0402"
+			(property "Footprint" "Duc:R0603"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -1142,7 +1139,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -1151,8 +1148,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RES SMD 0402"
-				(at -0.508 -3.048 0)
+			(property "Description" "RES SMD 0603"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1160,7 +1157,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" ""
+			(property "Manufacturer" "YAGEO(国巨)"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -1169,7 +1166,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "RT0402FRE07100KL"
+			(property "MPN" "RT0603FRE13100KL"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -1178,7 +1175,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C728576"
+			(property "LCSC Part" "C4107493"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -1187,7 +1184,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RES SMD 0402_0_1"
+			(symbol "RES SMD 0603_0_1"
 				(rectangle
 					(start -2.54 1.016)
 					(end 2.54 -1.016)
@@ -1200,7 +1197,7 @@
 					)
 				)
 			)
-			(symbol "RES SMD 0402_1_1"
+			(symbol "RES SMD 0603_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -8612,7 +8609,43 @@
 			"ADEAZgB6AHAAKwBiAG0AcAB0AGQAYgBNAFEARABpAEUASgBEAEgARQBsAEoAZwBZAGgASwBaADYA"
 			"SQB4ADAAagA5ACsAaABYADQARwA3ADAAMwBKAEEAQgBtAEEAbQBHAEMANQBRAHcARQBiAEwAMABW"
 			"AGwAUgA3AGEAMQByAGEAVgBsAG8ATAB0AGMAYQBVAFkAawBwADgAVgBhAHAAMgBGADMAZgBWAE0A"
-			"WQBQAHMAMABMAHUAMQBsAG0AdQB4AFcAcgBRADEAQQBNAA=="
+			"WQBQAHMAMABMAHUAMQBsAG0AdQB4AFcAcgBRADEAQQBNAGoAWgAwADYAZABIAFIANABlAEQAZwBZ"
+			"AFUAMQB2AGgANABBAFkATwBOAGIAcwA0ADQANgBpAEIAZwBsAGMAZAAvAEEAZQBaAGcAdgBYAEYA"
+			"VQAxAHkAYwBrAHQASQBhAFYAdAByAHMAcQBpAGkANABqAE0AegBLAFQAdQA3ADAAZQBqADAAYgAx"
+			"AEEAdABOAFkAUQBRAFoARwBiADcAUwAxAHIATABZAFEAawBFAGsAUAAwAEwAagBvAFgAbQBUAFEA"
+			"egBWAHAAVQA3AFAANwAvADQAOAAzAC8AKwA1AGUAcgBxAGEAbgBkADMAOQA4ADMAcgByADAANQBl"
+			"AHYAdAB6AGEAMgBVAFgAQwBxAG8AYQA2AGEAUwBNAEkAcwBRAHIAdwBvAEwAaABCADMAQgB6AEcA"
+			"NABLAEUAcABoAHoAeQBnAEsAegB0AEcASwBjAHcAVQB1AEQAWQBDAFEAcQBjAHMASAB4ADAAOQAy"
+			"AHQAdgBkAGkAeQBKAHYAZgAzADUANwBlAHoAcwBNAEkAUwBwAFYASQBHAGcAUgBqAGkARgBxAHoA"
+			"YwB6AGcAUABZAFEAZwBXAGkAbQBBAGQATABIAEcAbAB4AGUAWABIAHoAOQArAEMAaQBHADgAZQB2"
+			"AFgANgA5AGUAcwBYAGcANgAxACsAbgBtAGYAYQBBAEEAQgBFAEUAVwBaAGsAMwBuAFEAMQBJAEcA"
+			"eQA2AHUASAA0AFAAUABQAC8AOABDAEUARgBpAGkATQBtAHkAcwBHADMAYQB2AE0AaQBQAGoANQAv"
+			"AHQANwBlACsAVgBaAGEARQBVAEoAUQBkAFAASQB1AFIAMQBuAHYAZgB2AG8AOAA1AHYAMABtAHIA"
+			"eQBQAHcAawA4AHYANAAwADYAQQBNAEIATQBqAE8AUQBEAHAASgAxAFYAMAAwAEIAZAArADgAbAA0"
+			"ACsAdgBiAG4AdAAxAGQAWABWADIAVgBSAC8AdQBFAFAAMwAvAC8AaAArACsAOQAzAHQAcgBjAFEA"
+			"QgBFAEoAMABDAEYAeQBRAEsAVgBRAGsAYQBnAE8AUQBNAG4AbAAzAFkARABzADkAWABYAFQASQBH"
+			"AEUASAAwAFUAYgB3AFAANgBMADIAcgBsADkAVgBpAE4AaAArAFAAVgBwAE0ASgB0AGoANABYAHoA"
+			"QwBNAFYAVQBaAFcAawBUAFMASwBxAHAAVgBmAGkAQgBTAEoASQBSAEkAegBBAEEAYQB5AEQAbwBv"
+			"AEYAZQBqAGYARgBzAE8AUAAvAHIAdQA4AGwALwAvAGoAegA5ADYAZABkAHcAZQAxAC8ANABJAE8A"
+			"aQBqADEAWABwADMAdQB6AGcANQBMAHIAOQA3AEEAMQArAGcARgBNAE8ANwBNADIAMQA3AGQAbQAv"
+			"AHoAUgA4ADEAKwBMAFkASQBNAEIAQwBBADAALwAvAHIASgBpAFQARQBMAEkAUQBzAHgAWQBJAEIA"
+			"NQBSAEEAbwBTAEMATQBSADUAUgArAEEAOABDAEQATQA3AFYAUQBlAG8AbQBuAEIAcQBoAG4AMQBs"
+			"AEwAagBaADAAcwBZAFoAVgBDAGQAcwBWAEMARQBCAGgAdABFAFoARQBHAG4ASAAyAGMARABIAFIA"
+			"TwBUAHYARgBoADcAVABnAGMAYgAzAHIAawBhADMANABTADAAZgAwAHMAaABFAGEAawBNAGwAQgBS"
+			"AE8AWQBiAFAAdwBJAFUAWgBmAFoAdwBJAHMAQgBCAHUAcgBhADkAdQA3AHYALwA1AHUAdQB2AC8A"
+			"KwBYAHoAZgAvAG4AaQBqADEALwBjADMAKwAwADQAYwBGAEcAVQBMADUANAAvAC8ALwBXAHYAZgAv"
+			"AE8AYgBYAC8ALwA2ADIAWgBPAG4AZQBWAGsAawBXAFoAWgBtAEMAVQBhADkAVgBKAHcAWQBkAEIA"
+			"SgBBAEsAVgBBAGEAaABZAFAAegBJAHcAdgBIADMANgBpADEAagB2AHgAcwByAGIAUgA2AEwASQB2"
+			"ADAAYwBFAEgALwBHAGYANwBoAC8AdwB1AEgAVQBOAHoAMQBnAG0AawBLAEMAQgBpADgANgB2AG8A"
+			"QgBrAFkAWgBoAEIARwBSAEEAbQAyAFIASwBHADAAcwBJAHcAagBIAHAAagAxAG4ATwBQAEQAVQBt"
+			"AEYAbQBUADQAWQBTAG8AdwBBAGcAdwBEAE8ATwBlAHEANgByAFQAZgBIAC8AcQArAE0AOQBZAHMA"
+			"RgB1AFYAMgB1AHoAWABHADIATQBUAHEAaQBIADUAaABIAE0AZwAwAE4AeAA0AEQAZgBxAGcAbwBD"
+			"AEQALwAvAHoAawA4AHYAWgBiAEwAMAB3AEkAZwBZAGUAeABnAHgAQgBJAEEAQQBCAEMAQQBCACsA"
+			"aABiADIAOQAvAHYAOQBiAHQAOAAyAGoAUwBKAGEAcgBoAFoASgBzAGMAegBTAGIASgBQAGEAQQBs"
+			"AEcATgBBADEAdwB0AHcAeQBhAGwAZAAwAHYAYwA3AGYAbAArADUALwBaAEgATwBSADIAbwA2ADgA"
+			"eAB1ADMAOQB5AGYALwBLAGsAcAB1AHgAYQBlAFgAQgBnAHAAZwBLAHgAbgBFAGcAMwBlAHgATgA4"
+			"AEUANQBFAEUAeABhAE0AQQB3AHQALwBUAEEATwBkADYAYwA2ADgARgBUADgANwBMAFcAQwBEAEMA"
+			"TwBmAHUAeQBIAHIAbgBaADMAdAAzAGQAVgBkAFQASgBHAA=="
 		)
 	)
 	(label "PWMB_R"
@@ -9023,100 +9056,6 @@
 		(uuid "f0134a6b-cb2e-4ecb-8a76-95a4cd4c64fc")
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 153.67 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0120f6af-fe0f-4d25-b0e1-8e6d9330a007")
-		(property "Reference" "R24"
-			(at 153.67 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RES 0402"
-			(at 153.67 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Duc_Library:R0402"
-			(at 153.67 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 0402"
-			(at 153.162 135.128 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 153.67 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0402FRE07100KL"
-			(at 153.67 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C728576"
-			(at 153.67 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "145609e0-8791-4ae9-a98b-a78f55c00f9b")
-		)
-		(pin "2"
-			(uuid "0cd7cfe7-4c5e-4c28-a9d2-14eee815afa4")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/21b04569-7cad-42c8-b7c4-043848eb996c"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_symbols:GND")
 		(at 53.34 116.84 0)
 		(unit 1)
@@ -9178,6 +9117,200 @@
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/21b04569-7cad-42c8-b7c4-043848eb996c"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Duc-Resistors:RES SMD 0603")
+		(at 149.86 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b45b1b0-00d1-40a1-a8eb-a94506d7c924")
+		(property "Reference" "R22"
+			(at 152.4 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220R 0.1% 0603"
+			(at 152.4 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Duc:R0603"
+			(at 142.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
+			(at 139.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 0603"
+			(at 149.86 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603FRE13100KL"
+			(at 134.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4107493"
+			(at 132.08 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93b443df-438f-4c13-b358-3e32049d39ee")
+		)
+		(pin "2"
+			(uuid "05aa3e1c-cd46-46a1-8719-5915d2f6e06f")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/21b04569-7cad-42c8-b7c4-043848eb996c"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Duc-Capacitors:CAP CER 0603")
+		(at 162.56 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b63ebaf-4710-43e2-81be-7c3108afbd68")
+		(property "Reference" "C69"
+			(at 166.37 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF 50V 0603"
+			(at 166.37 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Duc:C0603"
+			(at 170.18 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+			(at 172.72 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0603"
+			(at 162.56 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 175.26 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CAP CER 0603"
+			(at 177.8 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 180.34 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fe507c4-33c1-464c-8615-c253850777d3")
+		)
+		(pin "2"
+			(uuid "e15b26bb-3afc-4e4f-96b9-c1e35af22492")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/21b04569-7cad-42c8-b7c4-043848eb996c"
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -9360,103 +9493,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 0402")
-		(at 73.66 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21d778dc-9a36-49b1-85eb-96b7fcb0bdf4")
-		(property "Reference" "C65"
-			(at 77.47 109.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CAP CER 0402"
-			(at 77.47 111.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Duc_Library:C0402"
-			(at 86.36 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0402"
-			(at 81.026 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 91.44 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0402KRX5R7BB105"
-			(at 93.98 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C325464"
-			(at 96.52 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6f0cf279-7872-4c30-977e-3fac22687d9e")
-		)
-		(pin "1"
-			(uuid "7d39df0d-184f-4170-a504-47b9d2804e36")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/21b04569-7cad-42c8-b7c4-043848eb996c"
-					(reference "C65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_symbols:GND")
 		(at 232.41 93.98 90)
 		(unit 1)
@@ -9590,103 +9626,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 177.8 111.76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d7fca0f-8dfa-422c-aec7-cb02f57c9084")
-		(property "Reference" "R23"
-			(at 180.34 110.4899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RES 0402"
-			(at 180.34 113.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Duc_Library:R0402"
-			(at 170.18 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 0402"
-			(at 174.752 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 165.1 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0402FRE07100KL"
-			(at 162.56 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C728576"
-			(at 160.02 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d185c680-7741-4daa-ae0e-1f8d72a0ee35")
-		)
-		(pin "2"
-			(uuid "a3656df2-e352-4484-a233-9c81ac3de15c")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/21b04569-7cad-42c8-b7c4-043848eb996c"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Duc-Connectors:BM09B-SRSS-TB")
 		(at 232.41 114.3 0)
 		(mirror y)
@@ -9811,44 +9750,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 0402")
-		(at 127 110.49 90)
+		(lib_id "Duc-Resistors:RES SMD 0603")
+		(at 177.8 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4273930a-cf22-44c1-8e5b-fdd95c9cabed")
-		(property "Reference" "C67"
-			(at 130.81 109.2199 90)
+		(uuid "594f7f78-a888-4f9d-a647-9222aff09e1d")
+		(property "Reference" "R23"
+			(at 180.34 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "CAP CER 0402"
-			(at 130.81 111.7599 90)
+		(property "Value" "1K 0.1% 0603"
+			(at 180.34 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Duc_Library:C0402"
-			(at 139.7 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 110.49 0)
+		(property "Footprint" "Duc:R0603"
+			(at 170.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9856,8 +9786,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0402"
-			(at 134.366 110.49 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9865,8 +9795,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 144.78 110.49 0)
+		(property "Description" "RES SMD 0603"
+			(at 177.8 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9874,8 +9804,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX5R7BB105"
-			(at 147.32 110.49 0)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 165.1 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9883,8 +9813,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C325464"
-			(at 149.86 110.49 0)
+		(property "MPN" "RT0603FRE13100KL"
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4107493"
+			(at 160.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9893,15 +9832,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "23fb08b7-4dfb-4d88-8aab-e2e23b26dbee")
+			(uuid "9a3691d0-33b7-40e3-b954-68e6d77ecb2b")
 		)
 		(pin "2"
-			(uuid "aa158f84-1d1f-4443-bec7-8b616024937e")
+			(uuid "fa180962-cb3b-48cf-aa06-be3e6386d08e")
 		)
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/21b04569-7cad-42c8-b7c4-043848eb996c"
-					(reference "C67")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -9975,6 +9914,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Duc-Capacitors:CAP CER 0603")
+		(at 101.6 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61337210-cfa2-4b24-8d67-26cb4b98bd6d")
+		(property "Reference" "C66"
+			(at 105.41 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF 50V 0603"
+			(at 105.41 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Duc:C0603"
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+			(at 111.76 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0603"
+			(at 101.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CAP CER 0603"
+			(at 116.84 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 119.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ab03161-e88b-47d7-869e-fc37cc4586e2")
+		)
+		(pin "2"
+			(uuid "f45a7ace-a4d8-4f6e-8046-ce05610d1939")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/21b04569-7cad-42c8-b7c4-043848eb996c"
+					(reference "C66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_symbols:GND")
 		(at 116.84 144.78 0)
 		(unit 1)
@@ -10042,42 +10078,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 138.43 104.14 180)
+		(lib_id "Duc-Capacitors:CAP CER 0603")
+		(at 73.66 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "713d0a09-d6c7-4126-b3c7-be1c97df3fa8")
-		(property "Reference" "R20"
-			(at 138.43 97.79 0)
+		(uuid "689a21c6-ce61-4565-b609-96943b764b7a")
+		(property "Reference" "C65"
+			(at 77.47 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "RES 0402"
-			(at 138.43 100.33 0)
+		(property "Value" "100nF 50V 0603"
+			(at 77.47 111.7599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Duc_Library:R0402"
-			(at 138.43 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 93.98 0)
+		(property "Footprint" "Duc:C0603"
+			(at 81.28 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10085,8 +10114,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0402"
-			(at 138.938 101.092 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+			(at 83.82 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10094,8 +10123,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 138.43 91.44 0)
+		(property "Description" "CAP CER 0603"
+			(at 73.66 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10103,8 +10132,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0402FRE07100KL"
-			(at 138.43 88.9 0)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 86.36 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10112,8 +10141,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C728576"
-			(at 138.43 86.36 0)
+		(property "MPN" "CAP CER 0603"
+			(at 88.9 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10121,58 +10150,57 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "e5d65a47-b96d-4725-8e16-42b986a4c907")
+		(property "LCSC Part" "C14663"
+			(at 91.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "5f61b351-7007-4015-a3e4-3a40a36612b9")
+			(uuid "7903a2a6-b75d-45ca-a926-5d8f7e6dc259")
+		)
+		(pin "1"
+			(uuid "676445c0-2432-4336-a6be-47980f2120f4")
 		)
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/21b04569-7cad-42c8-b7c4-043848eb996c"
-					(reference "R20")
+					(reference "C65")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 187.96 104.14 0)
+		(lib_id "Duc-Resistors:RES SMD 0603")
+		(at 153.67 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84759658-154f-4f9a-b4cf-833b94bd5280")
-		(property "Reference" "R21"
-			(at 187.96 97.79 0)
+		(uuid "6fe47d21-911a-41ec-848d-42a906b7cebf")
+		(property "Reference" "R24"
+			(at 153.67 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RES 0402"
-			(at 187.96 100.33 0)
+		(property "Value" "220R 0.1% 0603"
+			(at 153.67 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Duc_Library:R0402"
-			(at 187.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 114.3 0)
+		(property "Footprint" "Duc:R0603"
+			(at 153.67 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10180,8 +10208,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0402"
-			(at 187.452 107.188 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
+			(at 153.67 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10189,8 +10217,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 187.96 116.84 0)
+		(property "Description" "RES SMD 0603"
+			(at 153.67 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10198,8 +10226,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0402FRE07100KL"
-			(at 187.96 119.38 0)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 153.67 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10207,8 +10235,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C728576"
-			(at 187.96 121.92 0)
+		(property "MPN" "RT0603FRE13100KL"
+			(at 153.67 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4107493"
+			(at 153.67 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10217,15 +10254,110 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c4875b8-3d1f-4659-b9c6-df3fdffa926e")
+			(uuid "38264068-49cb-4431-b082-cf9d962ddd53")
 		)
 		(pin "2"
-			(uuid "18f2c3c3-3b04-4c0e-a274-bd2e30827289")
+			(uuid "728c7b06-cb28-4724-bd23-d761a48dbc28")
 		)
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/21b04569-7cad-42c8-b7c4-043848eb996c"
-					(reference "R21")
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Duc-Resistors:RES SMD 0603")
+		(at 62.23 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cfea05c-806c-43c2-a696-943e19eb44f6")
+		(property "Reference" "R19"
+			(at 62.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1R 0.1% 0603"
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Duc:R0603"
+			(at 62.23 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
+			(at 62.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 0603"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 62.23 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603FRE13100KL"
+			(at 62.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4107493"
+			(at 62.23 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45973cac-378e-44fb-bcab-4d3911229344")
+		)
+		(pin "2"
+			(uuid "647418e4-2be7-4125-a526-8152262e5647")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/21b04569-7cad-42c8-b7c4-043848eb996c"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -10366,14 +10498,14 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 0402")
+		(lib_id "Duc-Capacitors:CAP CER 0603")
 		(at 114.3 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a66cd1cc-3bdb-46cc-82c4-290b6f0cd476")
+		(uuid "a9a0d083-535a-42ab-9265-9f867a181cdd")
 		(property "Reference" "C68"
 			(at 116.84 137.16 90)
 			(effects
@@ -10383,7 +10515,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 0402"
+		(property "Value" "100nF 50V 0603"
 			(at 116.84 139.7 90)
 			(effects
 				(font
@@ -10392,7 +10524,34 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Duc_Library:C0402"
+		(property "Footprint" "Duc:C0603"
+			(at 121.92 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+			(at 124.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0603"
+			(at 114.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
 			(at 127 138.43 0)
 			(effects
 				(font
@@ -10401,7 +10560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "MPN" "CAP CER 0603"
 			(at 129.54 138.43 0)
 			(effects
 				(font
@@ -10410,16 +10569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0402"
-			(at 121.666 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "LCSC Part" "C14663"
 			(at 132.08 138.43 0)
 			(effects
 				(font
@@ -10428,131 +10578,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX5R7BB105"
-			(at 134.62 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C325464"
-			(at 137.16 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
-			(uuid "497725a7-15e3-4276-82ed-b627c0f20431")
+			(uuid "25746ac7-517a-4b20-9bed-4ab46d5c86a5")
 		)
 		(pin "2"
-			(uuid "1bb2ab62-023e-407a-bd34-8e8c92e317db")
+			(uuid "c8894535-45dc-471c-bd18-b4f31fbc6cb4")
 		)
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/21b04569-7cad-42c8-b7c4-043848eb996c"
 					(reference "C68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 0402")
-		(at 50.8 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2af73b5-df4d-49b9-bf64-8d319c1925b8")
-		(property "Reference" "C64"
-			(at 54.61 109.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CAP CER 0402"
-			(at 54.61 111.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Duc_Library:C0402"
-			(at 63.5 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0402"
-			(at 58.166 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 68.58 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0402KRX5R7BB105"
-			(at 71.12 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C325464"
-			(at 73.66 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "53d2d3c2-4756-4a6b-a956-a720e122c5b8")
-		)
-		(pin "1"
-			(uuid "1583ceaa-c60a-46d6-bdf0-4d58afc4bc8a")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/21b04569-7cad-42c8-b7c4-043848eb996c"
-					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -10626,44 +10661,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 149.86 110.49 270)
+		(lib_id "Duc-Resistors:RES SMD 0603")
+		(at 138.43 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c0152f32-be75-4f05-ad3d-6bf3f41917a4")
-		(property "Reference" "R22"
-			(at 152.4 109.2199 90)
+		(uuid "c5ead8c0-2f02-4b54-bca9-fd9993849606")
+		(property "Reference" "R20"
+			(at 138.43 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "RES 0402"
-			(at 152.4 111.7599 90)
+		(property "Value" "1K 0.1% 0603"
+			(at 138.43 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Duc_Library:R0402"
-			(at 142.24 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 110.49 0)
+		(property "Footprint" "Duc:R0603"
+			(at 138.43 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10671,8 +10695,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0402"
-			(at 146.812 109.982 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
+			(at 138.43 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10680,8 +10704,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 137.16 110.49 0)
+		(property "Description" "RES SMD 0603"
+			(at 138.43 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10689,7 +10713,172 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0402FRE07100KL"
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 138.43 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603FRE13100KL"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4107493"
+			(at 138.43 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bde8b62-481a-48c6-a675-227baa677df8")
+		)
+		(pin "2"
+			(uuid "0b3dd904-1c92-4825-a215-d3bc939cdab9")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/21b04569-7cad-42c8-b7c4-043848eb996c"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Duc-Resistors:RES SMD 0603")
+		(at 187.96 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8017ec2-d472-473e-8c5c-6915d5c98bd3")
+		(property "Reference" "R21"
+			(at 187.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R 0.1% 0603"
+			(at 187.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Duc:R0603"
+			(at 187.96 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
+			(at 187.96 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 0603"
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 187.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603FRE13100KL"
+			(at 187.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4107493"
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ae32fb2-bdc8-4ef3-928f-fffb186aa6bd")
+		)
+		(pin "2"
+			(uuid "2bd968c9-25a0-4a1b-8383-b7c75fd69292")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/21b04569-7cad-42c8-b7c4-043848eb996c"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Duc-Capacitors:CAP CER 0603")
+		(at 127 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca754a86-9ecb-474a-8211-a3c0de5415a0")
+		(property "Reference" "C67"
+			(at 130.81 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "470nF 50V 0603"
+			(at 130.81 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Duc:C0603"
 			(at 134.62 110.49 0)
 			(effects
 				(font
@@ -10698,8 +10887,44 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C728576"
-			(at 132.08 110.49 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0603"
+			(at 127 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 139.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CAP CER 0603"
+			(at 142.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 144.78 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10708,32 +10933,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "bc02798e-cc06-40dc-b0e2-45922d135522")
+			(uuid "16c7b69c-02c1-48b0-8bb8-a55ab5089925")
 		)
 		(pin "2"
-			(uuid "3c11f73f-77e2-4f2a-acd6-7dbdaefc92af")
+			(uuid "0ce49b76-0803-411a-97b0-faebe80a5f39")
 		)
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/21b04569-7cad-42c8-b7c4-043848eb996c"
-					(reference "R22")
+					(reference "C67")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 0402")
-		(at 101.6 110.49 90)
+		(lib_id "Duc-Capacitors:CAP CER 0603")
+		(at 50.8 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d2cb084a-1a8c-444d-a91c-da79d3211771")
-		(property "Reference" "C66"
-			(at 105.41 109.2199 90)
+		(uuid "d223c98f-22b2-49be-a7be-60f245dcee8b")
+		(property "Reference" "C64"
+			(at 54.61 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10741,8 +10966,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 0402"
-			(at 105.41 111.7599 90)
+		(property "Value" "4.7uF 50V 0603"
+			(at 54.61 111.7599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10750,8 +10975,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Duc_Library:C0402"
-			(at 114.3 110.49 0)
+		(property "Footprint" "Duc:C0603"
+			(at 58.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10759,8 +10984,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 116.84 110.49 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+			(at 60.96 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10768,8 +10993,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0402"
-			(at 108.966 110.49 0)
+		(property "Description" "CAP CER 0603"
+			(at 50.8 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10777,8 +11002,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 119.38 110.49 0)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 63.5 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10786,8 +11011,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX5R7BB105"
-			(at 121.92 110.49 0)
+		(property "MPN" "CAP CER 0603"
+			(at 66.04 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10795,25 +11020,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C325464"
-			(at 124.46 110.49 0)
+		(property "LCSC Part" "C14663"
+			(at 68.58 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "90fc9e68-cfb6-49c9-b680-bfc46a288ecf")
 		)
 		(pin "2"
-			(uuid "6b7aa3cb-bdbc-4488-9516-ecad5860ba9d")
+			(uuid "68510632-1d21-47f6-baa1-b0312a325d87")
+		)
+		(pin "1"
+			(uuid "f9152040-2db7-472e-ae57-744d79dd6515")
 		)
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/21b04569-7cad-42c8-b7c4-043848eb996c"
-					(reference "C66")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -10881,198 +11106,6 @@
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/21b04569-7cad-42c8-b7c4-043848eb996c"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 0402")
-		(at 162.56 138.43 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e73ba24b-0fed-4175-9a3e-7f6790d18a4e")
-		(property "Reference" "C69"
-			(at 166.37 137.1599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CAP CER 0402"
-			(at 166.37 139.6999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Duc_Library:C0402"
-			(at 175.26 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0402"
-			(at 169.926 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 180.34 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0402KRX5R7BB105"
-			(at 182.88 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C325464"
-			(at 185.42 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74145688-2535-4fb8-b986-48c62ed82b47")
-		)
-		(pin "2"
-			(uuid "6254145a-85e6-4c97-a3ba-6a67e5132988")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/21b04569-7cad-42c8-b7c4-043848eb996c"
-					(reference "C69")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 62.23 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb8360ea-8fca-4b81-b33c-f88379d5cd74")
-		(property "Reference" "R19"
-			(at 62.23 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RES 0402"
-			(at 62.23 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Duc_Library:R0402"
-			(at 62.23 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 0402"
-			(at 61.722 107.188 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 62.23 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0402FRE07100KL"
-			(at 62.23 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C728576"
-			(at 62.23 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8dc9389-d82b-4aba-8d36-1bfd1b44b814")
-		)
-		(pin "2"
-			(uuid "4dc1e693-f982-4fc0-a373-f04837c80188")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/21b04569-7cad-42c8-b7c4-043848eb996c"
-					(reference "R19")
 					(unit 1)
 				)
 			)

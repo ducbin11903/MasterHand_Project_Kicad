@@ -1906,31 +1906,6 @@
 		)
 		(uuid "4665fe3c-59bc-4f80-9e7b-377080d377fb")
 	)
-	(text_box "Page 11"
-		(exclude_from_sim no)
-		(at 350.52 203.2 0)
-		(size 17.78 5.08)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.286 2.286)
-				(thickness 0.4572)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify top)
-			(href "#11")
-		)
-		(uuid "4693e973-a03e-4d86-a35b-8b65466bdf07")
-	)
 	(text_box "SWD"
 		(exclude_from_sim no)
 		(at 284.48 139.7 0)
@@ -2091,31 +2066,6 @@
 			)
 		)
 		(uuid "4d513424-74a1-4f37-89c9-5d028efc546a")
-	)
-	(text_box "Page 11"
-		(exclude_from_sim no)
-		(at 350.52 373.38 0)
-		(size 17.78 5.08)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.286 2.286)
-				(thickness 0.4572)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify top)
-			(href "#11")
-		)
-		(uuid "4f1a56ca-a273-40f9-8942-dd3ca6aab899")
 	)
 	(text_box "Peak current:"
 		(exclude_from_sim no)
@@ -3639,30 +3589,6 @@
 		)
 		(uuid "a6e2e9a5-77ba-4e5d-b282-a4b4bfb92fbf")
 	)
-	(text_box "Page #"
-		(exclude_from_sim no)
-		(at 179.07 246.38 0)
-		(size 17.78 5.08)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.286 2.286)
-				(thickness 0.4572)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify right top)
-		)
-		(uuid "a8900c94-1801-4531-91dd-ed43f281f122")
-	)
 	(text_box "4A"
 		(exclude_from_sim no)
 		(at 62.23 381 0)
@@ -5161,7 +5087,7 @@
 	)
 	(text_box "3x MOTOR LEDs"
 		(exclude_from_sim no)
-		(at 342.265 208.28 0)
+		(at 342.9 208.28 0)
 		(size 38.735 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke

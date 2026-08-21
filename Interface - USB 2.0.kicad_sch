@@ -150,7 +150,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -3.81 0 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -168,7 +168,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 3.81 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -1099,140 +1099,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Duc-Resistors:RES SMD 0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RES 0402"
-				(at 0 -3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Duc_Library:R0402"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES SMD 0402"
-				(at -0.508 -3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" ""
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "RT0402FRE07100KL"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C728576"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RES SMD 0402_0_1"
-				(rectangle
-					(start -2.54 1.016)
-					(end 2.54 -1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RES SMD 0402_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Duc-Resistors:RES SMD 0603"
 			(pin_numbers
 				(hide yes)
@@ -1493,7 +1359,7 @@
 		)
 		(uuid "b9816969-72f6-46a8-8502-97522e2388b9")
 	)
-	(text_box "DESIGN NOTE:\n[1] VBUS NOT connected to +5V/+3V3. Board is self-powered(LiPo). Sense + LED only. No backfeed to host.\n\n[2] LED direct from VBUS @ 1mA. USB2.0 §7.2.3 suspend limit2.5mA. LED 1mA + divider 33uA = 1.03mA (41%). Do NOT raise to 5mA.\n\n[3] VBUS_DET required - G474 has no dedicated VBUS pin. Self-powered device must not pull up D+ when VBUS=0. FW controls DPPU bit in USB_BCDR. 68k/100k: VBUS 4.40V -> 2.60V > VIH 2.31V. Debounce 100ms.\n\n[4] D+/D- direct to PA12/PA11. No 22R series. No external 1k5 pull-up (internal RPUI 900-1500R).\n\n[5] USB clock: PLL-Q 48MHz from HSE 8MHz. ST DFU bootloader uses HSI48+CRS - flashable without crystal.\n\n[6] Both USB ports fully isolated - no shared nets.\n\n[7] GROUND LOOP WARNING: USB from PC ties host GND to power GND (4.6A peak @20kHz). Use isolator (ADuM3160) or isolated USB-UART when debugging with motors running."
+	(text_box "DESIGN NOTE:\n[1] VBUS NOT connected to +5V/+3V3. Board is self-powered(LiPo). Sense + LED only. No backfeed to host.\n\n[2] LED direct from VBUS @ 1mA. USB2.0 suspend limit 2.5mA. LED 1mA + divider 33uA = 1.03mA (41%). Do NOT raise to 5mA.\n\n[3] VBUS_DET required - G474 has no dedicated VBUS pin. Self-powered device must not pull up D+ when VBUS=0. FW controls DPPU bit in USB_BCDR. 68k/100k: VBUS 4.40V -> 2.60V > VIH 2.31V. Debounce 100ms.\n\n[4] D+/D- direct to PA12/PA11. No 22R series. No external 1k5 pull-up (internal RPUI 900-1500R).\n\n[5] USB clock: PLL-Q 48MHz from HSE 8MHz. ST DFU bootloader uses HSI48+CRS - flashable without crystal.\n\n[6] Both USB ports fully isolated - no shared nets.\n\n[7] GROUND LOOP WARNING: USB from PC ties host GND to power GND (4.6A peak @20kHz). Use isolator (ADuM3160) or isolated USB-UART when debugging with motors running."
 		(exclude_from_sim no)
 		(at 38.1 156.21 0)
 		(size 100.33 39.37)
@@ -1559,10 +1425,10 @@
 		(uuid "5dd1a23e-ae24-4af5-97b0-87e45c8ac3ba")
 	)
 	(junction
-		(at 175.26 30.48)
+		(at 176.53 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "651ee33d-fba6-4c3a-99a4-920e0bf1a589")
+		(uuid "655b31d5-50db-4e47-b210-a42ef20a8ba7")
 	)
 	(junction
 		(at 205.74 53.34)
@@ -1619,6 +1485,12 @@
 		(uuid "aa3d6eaa-f8bc-48f2-9497-e399b2c83074")
 	)
 	(junction
+		(at 176.53 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af3ccf1e-b007-465e-bd90-d2d372d92a72")
+	)
+	(junction
 		(at 175.26 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1647,12 +1519,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f879a516-b408-4991-8195-ede810f6c46d")
-	)
-	(junction
-		(at 175.26 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa877814-68b0-4bf4-93f1-6e87ca0f6299")
 	)
 	(junction
 		(at 222.25 81.28)
@@ -1832,7 +1698,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 30.48) (xy 194.31 31.75)
+			(xy 194.31 30.48) (xy 194.31 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2333,6 +2199,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 30.48) (xy 194.31 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65bc6a9f-ec27-4ddd-8df0-956f690508cd")
+	)
+	(wire
+		(pts
 			(xy 154.94 144.78) (xy 176.53 144.78)
 		)
 		(stroke
@@ -2343,7 +2219,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 31.75) (xy 175.26 30.48)
+			(xy 176.53 31.75) (xy 176.53 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2533,7 +2409,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 92.71) (xy 194.31 93.98)
+			(xy 194.31 91.44) (xy 194.31 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2570,16 +2446,6 @@
 			(type default)
 		)
 		(uuid "a1848122-d4bf-4848-b7b2-fe709b2ff8e4")
-	)
-	(wire
-		(pts
-			(xy 194.31 81.28) (xy 194.31 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a70f666d-409d-42fc-800c-fe5ff28bc985")
 	)
 	(wire
 		(pts
@@ -2693,7 +2559,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 41.91) (xy 175.26 43.18)
+			(xy 176.53 41.91) (xy 176.53 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2773,13 +2639,23 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 43.18) (xy 175.26 43.18)
+			(xy 168.91 43.18) (xy 176.53 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "caf196de-8113-4984-8847-453f333e8def")
+	)
+	(wire
+		(pts
+			(xy 194.31 81.28) (xy 194.31 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbe7297b-3578-4aa7-a551-33b2aa70eea0")
 	)
 	(wire
 		(pts
@@ -2873,7 +2749,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 30.48) (xy 175.26 30.48)
+			(xy 135.89 30.48) (xy 176.53 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2933,7 +2809,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 41.91) (xy 194.31 43.18)
+			(xy 194.31 40.64) (xy 194.31 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2973,13 +2849,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 43.18) (xy 194.31 43.18)
+			(xy 176.53 43.18) (xy 194.31 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc57c361-3a30-4de8-aef9-d8e0a110f1fc")
+		(uuid "fb3c2f65-5a8e-49ef-a199-e07f23340f4d")
 	)
 	(wire
 		(pts
@@ -2990,16 +2866,6 @@
 			(type default)
 		)
 		(uuid "fd5f5750-2561-4c21-9555-76e92b027e7c")
-	)
-	(wire
-		(pts
-			(xy 175.26 30.48) (xy 194.31 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe5d5b62-6958-4159-b710-dd34b89b260a")
 	)
 	(wire
 		(pts
@@ -8858,7 +8724,43 @@
 			"bQBTAFcASwBTAEwATQArAHkAUABBAHMAUQBwADIAbABzADIANAA3AEQARwBjAHQALwA3AGQAZgAz"
 			"ADkAVQBnAGgAUQBpAEEATQB1ADEAYgBMAFcAMQA1AEsARABKAHMAVQBDAEEAQwBzAHEANQB1AG4A"
 			"cABiAHQAMgBsADgAdQBsAEgAZABxAEkAawBKAFYANQBmAGEAeQBLAHUAaQB5AHEASQBzAGwAegBr"
-			"AHkAWQBrAHAAVQBkAGMAWQBsAGkAdABsAGMAcwBhACsAOA=="
+			"AHkAWQBrAHAAVQBkAGMAWQBsAGkAdABsAGMAcwBhACsAOABuAEYAagBvADgAWgBBAEsAagBtAHoA"
+			"aABXAGsAOQAzAFUANQBtAG0AcwArAHoAUABkADgASQBwAGUAcgBvAG0ARwBqAFIAcABZAG0AbwBm"
+			"AHUAMQBIAGIANwA5AHoALwAvAGQAdQA4AGwANgBDAC8AdgBEAEgAUABJAGkAdwAwAHcAQQBIAHkA"
+			"cABYAFkAbwB4AGwAVwBSAEEAaABwAGUAUwBFAFgAZQBKAEQAagBsADUARQA5AE8AQwBmACsAegBl"
+			"AG8AcQBJAGkAcgBBAHIAdABqAFoAcwBUAGsAbQBmADMAcwBHAHMAWgBZAGwAbQBXAE0AOABTAEMA"
+			"egBBACsAVABpAGwAUQBQADkAbgBFAGwAaABLAFgAVwBkADkAQwBrAEEAUgBTAGkATABBAGsAUQBn"
+			"AGoAcwBRAFIAUgBKADUAUQA4AGwAZwBlAEsAbgBsAGwAWgAvADcAaQBnAEUAdgBoADgAUABRAE8A"
+			"TAAzAHkAdQA4AGYAZwBiAE4AVABJAGYAUgBSAHgANQB3ADYATwBIAC8ATgBMAEgAUwBxADgAZQBl"
+			"AGUAVQBIAE0ATgBlAFAAQQAyAGkAUABSAGYAMgBXADQAMQB4AG0AMQArAHAAUABTAGEANQB2AHIA"
+			"bQAvAHYAYgBoAGYAegBCAFkAaQBhAHUAcQA2AGIANQB1AFQAMAA5AFAAagA0AHEASwBvAHEANQBv"
+			"AEQANwBuAFgATABZAG8AQQAvAEcASgBIAC8ATABEAHgAVgBOAEQAbgA5AFgAbwBnAFEAawBRAEEA"
+			"aQBaAFkAaAA0AFkAZwBTAG0AbAA3AFcANgA3ADYAOQBwAHQANgBxAFQAcgBZAHoASwBLAEoAVABp"
+			"AEkAVwByAHQAcgBWAGEAUQBPAEgASQBvAGkARQBJAG8AWQBRAG0AQgBqAFUAbQBaAGoAdwBNAEgA"
+			"VgBqAEsAKwA0AGcAQQBpAEkAMgBBADAAVQBHADQASQBSAEcAdwBnAGsAawBVAGsAMAB0AG4AMQBZ"
+			"AGIAdgBUAGkAdQB2ADMAegB1AC8AMQAzADMAOAAvAC8AKwBZADkAeQBOADYAZQB1AFYAOABqAGUA"
+			"cABDAHQAagBtAG8AMAAvAGMATgByAFcAaABVADcARwA0AFcAagBHAHMANABsAFYAZABhAEsAZwB1"
+			"AFQAdQBOAFUAUQBCAEYAUgBrAEUAYQBNAEkAQQBmADkAeQBIAGMANABYADcAZgB2ACsAcgBBADIA"
+			"YQBNADMAQgBPAEEAUQA2AHEAbwBxAGkAcwBMAE0AKwByADcAdgBVADMASQA5AHgAQgBCAEMAagBM"
+			"AGsAbAA2AEUATQBFADYASwBjAG0AeABNAC8AeQA3AGgALwByAFoARQBmAG8AbABmAEoAQwA4AEMA"
+			"dwB4AEEANQBQAFgATAArAEIAYwBMAFAATwBwAEYAWQBiAEkAaQBBAEgAQgBBAGkAYwBoAFQAawBC"
+			"AFEAUwBsAEIAbQA4AHEAcABrAHcAdABGAGEATwB3AHcAWQBvAG4AQgBSAGoAQwA1ADAAdwA5AGkA"
+			"MAB6AG8ANQBDAEkAaABrAFoAdABVAEEAaQBZAGoAQQBSAFQAUQBRAFYAQQBCAEEARABvAFMAWAAw"
+			"AGgASQBLAFoAQQBPAGYAZwAvAEEANABGAG0AcwAvADAANgBjADkASAB2AGYAUwBmAGYAdgB0AFAA"
+			"agBCAHoAQQBBAE0AbAB6ADIAdgB2AGcAdgBSAGQAQwByAGwAYQByAHoAZQBhAHMATABBAHMANQBs"
+			"ADUALwBwAGMAMAAvAHkANAB3AGcAdwB6ADgAQwBsAEEAYgAvAFUAVwBaAHkASQBmAG4ARQBTAE0A"
+			"awBoAEEASQB4AEMAQQBBAEoAQQBjAGwAUgB1AHAAYgB2ADMAdAAxAHIAMgA2AGQAYQA5AHUANwBS"
+			"AGYAWAAvAG0ANABuAGUAOABmAEIAQwB5AFgAMABlAHAARQAvAHYAUwBoAGYAWAB1AGsAWABWAC8A"
+			"VABzAGsAdABZAHIATAB2AEkAbwBKAEEAdABOAEsAbwBPAHMAeQBLAHEAVgAxAEIAbwBRAEkAdwBU"
+			"AHYAQgArADgASABEAGwAWQBNAE4AbgBUAGQAMABCAHkASABjAFMAQwBCAEoAdABQAGEAcQBIAGMA"
+			"VQBGAGsAWgBpAFMAcABoAGoAawBPAGkAagAzADIAMgAzAEQALwBkADMAaQBXAGMAcwBTAEIAUgBs"
+			"AFcAUwAwAFcAcQA5AFUAcQBMAHcAdQBTAEUAZwBHAEoAUgBJAHcAQQBQAEcAbABiAHAAVQAyAHIA"
+			"cABDAHEASwBRAG0AdQBOAEMATQA2ADUAeABDAHMAZgArAG8ARwBJAGwASgBTAEMAQgBEAE0ASABI"
+			"AHcAaQBTAFEATgBaADgAaQBQAHYAUQBkADkAMQAyAHUANwAyAC8AdQB6AHYAcwA5ADEAMwBiAGUA"
+			"dQAvAEwAcwByAHkANAB1AEwAaQA0AHYARgBpAHYAVgBsAG0AZQBLAFMAVwBWAFUAbwBrADkAbABh"
+			"AHcAKwAwAGcAQgBUAFMAcABLAFYATQBuAG0AZQBKADcAbABzAEsAVwBVAEkAYwBSAGkARwByAHUA"
+			"LwB0AE8ASwBhAGkANQA5AFMASwA1ADQAbABRAEYAVQAvAFYAeAB2AEYANABQAEQAYQBOAEgAVQBj"
+			"AGkAeQBvAHgAWgBWAEkAdQBpAEsASQB1AGkAMABDAFoATg=="
 		)
 	)
 	(image
@@ -14680,7 +14582,43 @@
 			"MQA4ADIAKwAyADIANwAvAHUAcQByAGkAaABCAGwATQBSAHgAWABoAFMASwArAEEAcQBuAGIAWQBB"
 			"AGMARwBmAEQAZwBuAFcAUAA4AFMAbQByAG0AKwBoAEoAaABqAEgASAB1AHIAVQBYAG4ASABPAE4A"
 			"OABOAHAAOQB4AHoAcwBNAHcAWABLADEAVwA2ADgAdgBWAGIAcgB2AFQALwBXAEQAdQAzAGgAVwBj"
-			"AGsAMwB5AGgANwBnAGQAbgBUAEoAeABsAEoAOABjAG4AUg=="
+			"AGsAMwB5AGgANwBnAGQAbgBUAEoAeABsAEoAOABjAG4AUgBFAE0AMgBhAGMARgBlAFoAWABqAGYA"
+			"WQBhAE0ANABWAE4AcgBwAGcAZgBBAGUAQQBMADEAegBQAG8ANgBpADEAMQA3ADcAUQBCAFMARwBi"
+			"AHoAOQA0AHMATABxADgAZQBQAFAATgBIADYAMQBXAEYAdwBmAFkAQwBXAG0AeABxAFUAQgBtAGUA"
+			"VABhAGIARgAzAFQASgBEAEIAbAAxAFEAUgBMAGQAcgB3AGMAbwBkADcAdAB0AHUAUgBWAEsAcgBs"
+			"AGEAcgBOADMALwA4ADQALwAyACsAagBPAE8ASQA4ADAAZwBGAGEAagBhAGYAVgAwADIAVgBaAEsA"
+			"awBLAGcAdQAxADIANAA1AHoATABzAHIAegByACsAcQBaAHQAMQBxAHYAMQB3ADQAYwBQAEgAegA1"
+			"ADgAKwBQAFQAWgAwADQAdgB6ADgANwBJAHMAKwA3ADQAVgBuAEMAMgBYAHkAMAAvACsAMgBpAGUA"
+			"LwA4AFAAawB2AGYAUAB4AGoASAB3AHYARABFAEQAawBIADUAOABDADYASwAxAEQAZABMAGMAOAAw"
+			"AFQAYQAxAEgAdQB2AG4AKwArAHYAUAA1AC8AcwBiAEwAYQBZAFIAWAAzAG8ANQB2ADMAVgBKAGYA"
+			"ZQBUACsALwArAFYAQQAzAHYAWABqAFQAYwBkADUAbgB6AEgASAB6AG8ATwBkADMAOABzAGsAbgA2"
+			"AC8ARQArAHkAYwBEAG8AegBqAEYAawA0AHkAYgBHAEcAQQBNAEUAMgBnAGYASQBuAEIAaQBqAEgA"
+			"UgBrAFgANgA1AHgAegB5AEkAQQBVADcAegB3AGkAawBFAGIAVAB1AE0AZwBKAGcAbQBRADkAVwBF"
+			"AEQAawBBAHEAMQAxAC8AZABEAHUAcQAxAEUASABrAE4AYQAyAHQAVgBaAHIATQB3AHkANgB5AEcA"
+			"ZABwAGwAZwBLAC8AdgBvAEQAZQBhAGUAQQAwAHEANABQAFcAVABkAHMAUQBQADMAVABmADkAMABF"
+			"AFEAcABFAG0AaABsAEUAcQBTAE8ARQBsAGoANwAzADAAYwBoAFYAbQBXAFgAbAB4AGMAMQBIAFYA"
+			"MQBjAFgARwB4AHIANgByAGoANAAzAGEAeABXAEEAUgBCAEkARABqAEIANgA3ADIAMQBkAG4AcAAy"
+			"AGIAegB6AFcAbABRADAAegB4AGgAcABqAGkAUgBlAGoANgA3AHEANgBiAGgAQQB4AFQAZABLAGkA"
+			"SwBJAHAAaQBSAG0AQgBGAEEASgBCAEMAaABHAEUAUQBoAHEARwB6ADcAdQBMAHkAbwBxAHEAcQBK"
+			"ADAAKwBlAEcARwAwAEEASQBFADAAegBBAE0ALwA1AE8AeHFBSEFBUXdCNUFGTUFhUUIwQUhNQWFR"
+			"QXJBREVBV0FCM0FHY0FRd0IzQUhJQVFRQkRBR3dBYUFCNUFIUUFTd0E0QUZVQVp3Qm9BRklBYkFC"
+			"QkFGVUFad0JVQUU4QVVBQkZBRllBYkFCbUFHb0FUUUJHQUhJQWJnQTFBRzRBYkFBckFFOEFZZ0F4"
+			"QUdNQWNnQTNBR1VBTUFCWkFIWUFlUUJpQUhVQWJRQnVBR0VBVWdCckFISUFSZ0JEQURVQWJRQjRB"
+			"QzhBU3dBNUFFSUFOQUEzQUhNQVdBQnBBRFlBTHdCUUFHRUFWQUF6QUd3QVRRQnRBRVlBUmdCRkFH"
+			"c0Fhd0JvQUhRQVRnQktBRXNBVXdCdkFEUUFWd0JZQURjQU5RQTRBSFVBV2dCM0FIWUFXQUJrQUM4"
+			"QVdnQmFBRk1BU0FCREFETUFWd0EzQURNQU9BQklBRUlBY3dBMkFHc0FXUUJ4QUhFQVlnQldBRU1B"
+			"Y0FCS0FGTUFhUUJGQUZBQVVRQmhBR2tBTVFCaUFEZ0FUUUJzQUZBQVJ3QTRBRkFBTkFBNUFFOEFW"
+			"d0EyQUhnQU5nQlVBR1FBUVFCQkFFVUFhUUJEQUdnQVFnQkNBRkVBUndCSEFHMEFUUUJWQUVVQWJ3"
+			"QkRBSEFBWXdCWUFEVUFZUUJWQUdJQWJnQnZBRE1BVUFCU0FFOEFLd0JsQUZjQVJRQkZBRTRBWkFC"
+			"dEFFZ0FaZ0JJQUhjQU53QjJBRVFBVVFBeEFFVUFNQUJ3QUhFQWVRQkZBSGNBWndCUkFGa0FSUUI1"
+			"QUVJQWJBQkdBRGtBYndBekFGTUFWQUJGQUVFQVlnQlFBRElBVkFCMUFEY0FSUUJJQUhBQU5nQktB"
+			"RGdBVEFCMUFGY0FkQUJwQUVVQVFRQnJBR29BUmdCWkFFa0FlUUJHQUZFQVVBQmtBRzBBYkFCckFH"
+			"OEFkQUF2QUdnQVl3QkVBR2NBWXdCRUFERUFWZ0JhQUZNQVl3QnJBRkFBUWdCQ0FFVUFlQUJZQURr"
+			"QVpRQmhBRUVBWWdCQ0FGRUFkd0J1QUdZQU53QnVBRElBT1FBckFHd0FkUUJPQUVjQVdBQjJBR01B"
+			"YUFCU0FIRUFOQUF2QUVjQVRRQkRBRGtBVEFCSkFIUUFaQUJNQUUwQWRnQXhBRm9BU0FBeUFFa0Fk"
+			"UUJwQUhFQVRBQnJBRzhBYWdCMkFFc0Fkd0JKQUdrQU1nQjZBRVFBT0FCdEFIa0FUQUJJQUcwQWJ3"
+			"QXhBSFFBYVFCNEFISUFiZ0JoQUZjQVJ3QldBRFlBUlFCM0FIb0FTd0J3QUhNQWNRQTVBQzhBZGdB"
+			"ckFFNEFPUUJpQUd3QVdBQmlBRmdBU1FCU0FFZ0FVUUJwQQ=="
 		)
 	)
 	(label "USB-DM_2"
@@ -14877,7 +14815,7 @@
 				)
 			)
 		)
-		(property "Value" "LED 0603"
+		(property "Value" "Blue 0603"
 			(at 160.02 40.64 0)
 			(effects
 				(font
@@ -15023,103 +14961,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 0603")
-		(at 194.31 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23d9b4f2-ac7e-42da-8e83-fc9c7d021843")
-		(property "Reference" "C89"
-			(at 198.12 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CAP CER 0603"
-			(at 198.12 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Duc:C0603"
-			(at 201.93 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 204.47 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0603"
-			(at 194.31 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 207.01 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CAP CER 0603"
-			(at 209.55 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C14663"
-			(at 212.09 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2eb55b06-9610-433b-8f48-57c986511a35")
-		)
-		(pin "2"
-			(uuid "b0e8f8ce-1b44-40a7-a6da-7e9894e31efb")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "C89")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_symbols:GND")
 		(at 160.02 93.98 90)
 		(unit 1)
@@ -15182,100 +15023,6 @@
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
 					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 144.78 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "33fa988f-447f-4693-9ff9-c683d3be78be")
-		(property "Reference" "R52"
-			(at 144.78 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RES 0402"
-			(at 144.78 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Duc_Library:R0402"
-			(at 144.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 0402"
-			(at 144.272 112.268 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 144.78 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0402FRE07100KL"
-			(at 144.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C728576"
-			(at 144.78 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e85675c2-fddb-4916-933e-d737c5e3d6de")
-		)
-		(pin "2"
-			(uuid "d80adb8c-7d96-45ff-9509-d4dc590e1a28")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -15417,6 +15164,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Duc-Diodes:LED 0603")
+		(at 160.02 86.36 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42561ad3-742c-473b-9194-9eae6dd2b0d0")
+		(property "Reference" "D5"
+			(at 156.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Blue 0603"
+			(at 160.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Duc:LED0603-RD_WHITE"
+			(at 160.02 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965810.pdf"
+			(at 160.02 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED WARM WHITE YELLOW LENS 0603 SMD"
+			(at 160.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 160.02 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1608WWC-06"
+			(at 160.02 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965810"
+			(at 160.02 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b0c5d7c-7185-4ad6-b234-9523b02822cd")
+		)
+		(pin "2"
+			(uuid "23a7cf87-fcd0-494b-b874-6face869c18e")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Duc-Connectors:TYPE-C16PIN2MD")
 		(at 127 53.34 0)
 		(unit 1)
@@ -15542,6 +15384,100 @@
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Duc-Resistors:RES SMD 0603")
+		(at 144.78 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a9b7903-e845-4c4c-a520-3a240e866555")
+		(property "Reference" "R51"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1K 0.1% 0603"
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Duc:R0603"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 0603"
+			(at 144.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603FRE13100KL"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4107493"
+			(at 144.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fe81eba-ef55-4e18-869d-950b8b5924b8")
+		)
+		(pin "2"
+			(uuid "99151a67-cddd-45f2-bbab-3aaa6c9fcacc")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -15684,7 +15620,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Diodes:SMAJ5.0A")
-		(at 175.26 36.83 270)
+		(at 176.53 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15692,7 +15628,7 @@
 		(dnp no)
 		(uuid "671452db-06f2-484f-a57e-9ebb109c9577")
 		(property "Reference" "D3"
-			(at 177.8 35.56 90)
+			(at 179.07 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15701,7 +15637,7 @@
 			)
 		)
 		(property "Value" "SMAJ5.0A"
-			(at 177.8 38.1 90)
+			(at 179.07 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15710,7 +15646,7 @@
 			)
 		)
 		(property "Footprint" "Duc:SMA_L4.3-W2.6-LS5.2-RD"
-			(at 167.64 36.83 0)
+			(at 168.91 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15719,7 +15655,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/TVS_Littelfuse_SMAJ5-0A_SMAJ5-0A_C83329.html"
-			(at 165.1 36.83 0)
+			(at 166.37 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15728,7 +15664,7 @@
 			)
 		)
 		(property "Description" "TVS DIODE 5VWM 9.2VC DO-214AC(SMA)"
-			(at 175.26 36.83 0)
+			(at 176.53 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15737,7 +15673,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse(美国力特)"
-			(at 162.56 36.83 0)
+			(at 163.83 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15746,7 +15682,7 @@
 			)
 		)
 		(property "MPN" "SMAJ5.0A"
-			(at 160.02 36.83 0)
+			(at 161.29 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15755,7 +15691,7 @@
 			)
 		)
 		(property "LCSC Part" "C83329"
-			(at 157.48 36.83 0)
+			(at 158.75 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15779,7 +15715,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0402")
+		(lib_id "Duc-Resistors:RES SMD 0603")
 		(at 144.78 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15795,7 +15731,7 @@
 				)
 			)
 		)
-		(property "Value" "RES 0402"
+		(property "Value" "5.1K 0.1% 0603"
 			(at 144.78 60.96 0)
 			(effects
 				(font
@@ -15803,7 +15739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Duc_Library:R0402"
+		(property "Footprint" "Duc:R0603"
 			(at 144.78 66.04 0)
 			(effects
 				(font
@@ -15812,7 +15748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
 			(at 144.78 68.58 0)
 			(effects
 				(font
@@ -15821,8 +15757,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0402"
-			(at 144.272 61.468 0)
+		(property "Description" "RES SMD 0603"
+			(at 144.78 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15830,7 +15766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO(国巨)"
 			(at 144.78 71.12 0)
 			(effects
 				(font
@@ -15839,7 +15775,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0402FRE07100KL"
+		(property "MPN" "RT0603FRE13100KL"
 			(at 144.78 73.66 0)
 			(effects
 				(font
@@ -15848,7 +15784,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C728576"
+		(property "LCSC Part" "C4107493"
 			(at 144.78 76.2 0)
 			(effects
 				(font
@@ -15957,7 +15893,7 @@
 				)
 			)
 		)
-		(property "Value" "RES 0603"
+		(property "Value" "430K 0.1% 0603"
 			(at 210.82 33.02 0)
 			(effects
 				(font
@@ -16166,6 +16102,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Duc-Resistors:RES SMD 0603")
+		(at 210.82 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c3457f4-e37c-4d9a-a035-bfa74fcf5fd8")
+		(property "Reference" "R48"
+			(at 210.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "430K 0.1% 0603"
+			(at 210.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Duc:R0603"
+			(at 210.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
+			(at 210.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 0603"
+			(at 210.82 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 210.82 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603FRE13100KL"
+			(at 210.82 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4107493"
+			(at 210.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17463189-1eb1-4f74-9fc7-59d706668686")
+		)
+		(pin "2"
+			(uuid "58bc5d35-beda-4303-a6a3-a7f05896693f")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_symbols:GND")
 		(at 137.16 116.84 90)
 		(unit 1)
@@ -16228,100 +16258,6 @@
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
 					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
-		(at 144.78 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "831619cf-a7f9-4036-803b-5b813d9a28d8")
-		(property "Reference" "R50"
-			(at 144.78 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RES 0603"
-			(at 144.78 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Duc:R0603"
-			(at 144.78 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-			(at 144.78 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 0603"
-			(at 144.78 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 144.78 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603FRE13100KL"
-			(at 144.78 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C4107493"
-			(at 144.78 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ccb8d6c-af32-452c-8fd9-3ea94e721d98")
-		)
-		(pin "2"
-			(uuid "ae6eb794-656f-470f-bb6f-3608367a1f06")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -16435,100 +16371,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 144.78 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "968ac53d-cd3b-40cb-80a7-29cb661bc538")
-		(property "Reference" "R51"
-			(at 144.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RES 0402"
-			(at 144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Duc_Library:R0402"
-			(at 144.78 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 0402"
-			(at 144.272 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 144.78 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0402FRE07100KL"
-			(at 144.78 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C728576"
-			(at 144.78 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a73d4e6-7cd9-4a8b-b61c-5b68671a2dfe")
-		)
-		(pin "2"
-			(uuid "b6921b59-3532-4a6c-b5c5-e6876129e751")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "R51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_symbols:GND")
 		(at 160.02 106.68 90)
 		(unit 1)
@@ -16597,7 +16439,101 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0402")
+		(lib_id "Duc-Resistors:RES SMD 0603")
+		(at 144.78 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b06e2ea0-6cc8-48eb-a715-2221bd070091")
+		(property "Reference" "R52"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1K 0.1% 0603"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Duc:R0603"
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 0603"
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 144.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603FRE13100KL"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4107493"
+			(at 144.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6709df0-b61d-4c62-8b2b-6e88ee3ab4ff")
+		)
+		(pin "2"
+			(uuid "732c4f2c-f7d8-447f-af34-b62712bd43c7")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Duc-Resistors:RES SMD 0603")
 		(at 144.78 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16613,7 +16549,7 @@
 				)
 			)
 		)
-		(property "Value" "RES 0402"
+		(property "Value" "5.1K 0.1% 0603"
 			(at 144.78 48.26 0)
 			(effects
 				(font
@@ -16621,7 +16557,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Duc_Library:R0402"
+		(property "Footprint" "Duc:R0603"
 			(at 144.78 53.34 0)
 			(effects
 				(font
@@ -16630,7 +16566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
 			(at 144.78 55.88 0)
 			(effects
 				(font
@@ -16639,8 +16575,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0402"
-			(at 144.272 48.768 0)
+		(property "Description" "RES SMD 0603"
+			(at 144.78 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16648,7 +16584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO(国巨)"
 			(at 144.78 58.42 0)
 			(effects
 				(font
@@ -16657,7 +16593,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0402FRE07100KL"
+		(property "MPN" "RT0603FRE13100KL"
 			(at 144.78 60.96 0)
 			(effects
 				(font
@@ -16666,7 +16602,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C728576"
+		(property "LCSC Part" "C4107493"
 			(at 144.78 63.5 0)
 			(effects
 				(font
@@ -16894,8 +16830,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Duc-Resistors:RES SMD 0603")
+		(at 233.68 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be3ae91e-2817-42bb-936f-58576a28af6f")
+		(property "Reference" "R49"
+			(at 233.68 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "620K 0.1% 0603"
+			(at 233.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Duc:R0603"
+			(at 233.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
+			(at 233.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 0603"
+			(at 233.68 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 233.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603FRE13100KL"
+			(at 233.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4107493"
+			(at 233.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f512f1f4-9db7-4e6b-aa60-0c7fcd088fec")
+		)
+		(pin "2"
+			(uuid "eb144278-c190-4842-9386-3a27bfaedd32")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_symbols:GND")
-		(at 177.8 43.18 0)
+		(at 179.07 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -16904,7 +16934,7 @@
 		(fields_autoplaced yes)
 		(uuid "d096aa68-1a87-4e0d-86e4-717bd4a8ce33")
 		(property "Reference" "#PWR0100"
-			(at 177.546 34.544 0)
+			(at 178.816 34.544 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16914,7 +16944,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 48.26 0)
+			(at 176.53 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16922,7 +16952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 43.18 0)
+			(at 179.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16931,7 +16961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 43.18 0)
+			(at 179.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16940,7 +16970,7 @@
 			)
 		)
 		(property "Description" "Power Symbol - Global Ground"
-			(at 177.8 50.038 0)
+			(at 179.07 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16979,7 +17009,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 0603"
+		(property "Value" "4.7uF 50V 0603"
 			(at 198.12 38.0999 90)
 			(effects
 				(font
@@ -17074,7 +17104,7 @@
 				)
 			)
 		)
-		(property "Value" "RES 0603"
+		(property "Value" "1K 0.1% 0603"
 			(at 144.78 39.37 0)
 			(effects
 				(font
@@ -17248,6 +17278,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Duc-Resistors:RES SMD 0603")
+		(at 144.78 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddb21557-71a6-40fc-bc08-4d68a3d535e9")
+		(property "Reference" "R50"
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K 0.1% 0603"
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Duc:R0603"
+			(at 144.78 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 0603"
+			(at 144.78 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 144.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603FRE13100KL"
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4107493"
+			(at 144.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cca3a5ec-6e13-4034-9724-30ffb5d03886")
+		)
+		(pin "2"
+			(uuid "3593d694-1b5a-44f5-b5f9-e6df98a42e70")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_symbols:GND")
 		(at 160.02 55.88 90)
 		(unit 1)
@@ -17385,289 +17509,6 @@
 	)
 	(symbol
 		(lib_id "Duc-Resistors:RES SMD 0603")
-		(at 210.82 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e73f9090-57f1-47af-a27a-509669d2017d")
-		(property "Reference" "R48"
-			(at 210.82 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RES 0603"
-			(at 210.82 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Duc:R0603"
-			(at 210.82 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-			(at 210.82 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 0603"
-			(at 210.82 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 210.82 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603FRE13100KL"
-			(at 210.82 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C4107493"
-			(at 210.82 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5380d89-b51b-486c-8ded-9769452e3772")
-		)
-		(pin "2"
-			(uuid "fca10d57-fed0-4702-8027-367f992d005e")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "R48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Duc-Diodes:LED 0603")
-		(at 160.02 86.36 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e80a026a-d1b0-4a9b-b5c0-f1e54d98b56f")
-		(property "Reference" "D5"
-			(at 156.21 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED 0603"
-			(at 160.02 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Duc:LED0603-RD_WHITE"
-			(at 160.02 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965810.pdf"
-			(at 160.02 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED WARM WHITE YELLOW LENS 0603 SMD"
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "XINGLIGHT(成兴光)"
-			(at 160.02 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "XL-1608WWC-06"
-			(at 160.02 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C965810"
-			(at 160.02 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "488382cd-8527-411f-830e-34f990cab090")
-		)
-		(pin "2"
-			(uuid "ac7f5d20-f0da-464b-bab9-3becf1db1d84")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
-		(at 233.68 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f42ed5d6-1258-442c-a9ad-ff3b254f4483")
-		(property "Reference" "R49"
-			(at 233.68 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RES 0603"
-			(at 233.68 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Duc:R0603"
-			(at 233.68 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-			(at 233.68 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 0603"
-			(at 233.68 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 233.68 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603FRE13100KL"
-			(at 233.68 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C4107493"
-			(at 233.68 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e7ce2af-9478-4545-a87c-e40b2a86f24c")
-		)
-		(pin "2"
-			(uuid "8d90323b-6656-4336-b935-adbbc5b1402e")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "R49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
 		(at 233.68 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17683,7 +17524,7 @@
 				)
 			)
 		)
-		(property "Value" "RES 0603"
+		(property "Value" "620K 0.1% 0603"
 			(at 233.68 33.02 0)
 			(effects
 				(font
@@ -17755,6 +17596,103 @@
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
 					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Duc-Capacitors:CAP CER 0603")
+		(at 194.31 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f69695df-b3c5-439d-8e1c-ad236febcfa0")
+		(property "Reference" "C89"
+			(at 198.12 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF 50V 0603"
+			(at 198.12 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Duc:C0603"
+			(at 201.93 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0603"
+			(at 194.31 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 207.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CAP CER 0603"
+			(at 209.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 212.09 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "938ffe2a-876a-4222-a6ae-ee855a14f1b6")
+		)
+		(pin "2"
+			(uuid "c98cc30f-805d-4e51-b657-f5d960859a74")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
+					(reference "C89")
 					(unit 1)
 				)
 			)
