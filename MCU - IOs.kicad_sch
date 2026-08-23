@@ -3893,16 +3893,6 @@
 		)
 		(uuid "0026c102-3e61-4d83-8c3b-41678c3fa0a1")
 	)
-	(bus
-		(pts
-			(xy 153.67 213.36) (xy 153.67 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "006fcf8e-372f-4198-af45-4d640e4f3ac6")
-	)
 	(wire
 		(pts
 			(xy 82.55 97.79) (xy 105.41 97.79)
@@ -3962,16 +3952,6 @@
 			(type default)
 		)
 		(uuid "046bb8f0-d547-4979-9fb5-3a2a213b27f3")
-	)
-	(bus
-		(pts
-			(xy 232.41 219.71) (xy 232.41 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04d11bcb-3096-4274-b1ee-be4cfe14ed79")
 	)
 	(wire
 		(pts
@@ -4472,16 +4452,6 @@
 			(type default)
 		)
 		(uuid "23119e21-c699-43bd-8276-8fa593c65dda")
-	)
-	(bus
-		(pts
-			(xy 157.48 127) (xy 157.48 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23412f85-d258-44d5-a175-a95bcf53de4d")
 	)
 	(wire
 		(pts
@@ -5502,16 +5472,6 @@
 			(type default)
 		)
 		(uuid "6248f44c-f556-445b-8856-7862a4898561")
-	)
-	(bus
-		(pts
-			(xy 157.48 114.3) (xy 157.48 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62c545b3-bc99-4ef9-82ae-a453a1728084")
 	)
 	(wire
 		(pts
@@ -7033,16 +6993,6 @@
 		)
 		(uuid "b341ac78-a60b-4386-9e7f-1d3918a39595")
 	)
-	(bus
-		(pts
-			(xy 160.02 69.85) (xy 160.02 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b36bc96e-09d2-42e3-837c-e3f3aaeb5b8d")
-	)
 	(wire
 		(pts
 			(xy 248.92 168.91) (xy 243.84 168.91)
@@ -7112,16 +7062,6 @@
 			(type default)
 		)
 		(uuid "b5d577fa-1cba-4bd7-a980-4fd856aa0f19")
-	)
-	(bus
-		(pts
-			(xy 160.02 82.55) (xy 160.02 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b693fe3a-d496-4e17-a8d9-108f85af4efd")
 	)
 	(wire
 		(pts
@@ -7662,16 +7602,6 @@
 			(type default)
 		)
 		(uuid "d63b259b-9b6e-4970-8462-bd0e41be0d52")
-	)
-	(bus
-		(pts
-			(xy 153.67 226.06) (xy 153.67 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6797023-e228-4a8b-bcc9-46dc2d5c5ce8")
 	)
 	(bus
 		(pts
@@ -12307,7 +12237,7 @@
 			(uuid "afdfa97c-ee10-4fbe-9b73-f1ffb70e312f")
 		)
 		(instances
-			(project ""
+			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
 					(reference "TP9")
 					(unit 1)

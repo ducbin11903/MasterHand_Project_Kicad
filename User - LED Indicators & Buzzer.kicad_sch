@@ -10433,7 +10433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecd5010c-7a66-4c75-8529-49460b5ef3e2")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0131"
 			(at 225.806 128.524 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10484,7 +10484,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/28daf353-f3ef-4ecd-aedd-b1b76d334dfe"
-					(reference "#PWR0132")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)

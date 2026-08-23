@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.6,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.7,
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -135,11 +135,11 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.1,
-        "min_connection": 0.15,
-        "min_copper_edge_clearance": 0.25,
+        "min_connection": 0.1,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.254,
+        "min_hole_clearance": 0.1,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 1,
@@ -148,8 +148,8 @@
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.45,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.3,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -597,7 +597,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 2.0,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -607,7 +607,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
         "schematic_color": "rgb(177, 11, 198)",
-        "track_width": 0.35,
+        "track_width": 0.5,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 24
@@ -772,6 +772,14 @@
       {
         "netclass": "Power A3V3",
         "pattern": "/Project Architecture/Sensing - Temperature & Humidity/+A3V3"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/Power - Connectors/+V_BAT2S"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/Power - Connectors/+V_ADAPTER"
       }
     ]
   },

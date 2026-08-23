@@ -10,6 +10,186 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols
+		(symbol "Duc-Capacitors:CAP CER 0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CAP CER 0402"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Duc_Library:C0402"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 0402"
+				(at 0 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CC0402KRX5R7BB105"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C325464"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CAP CER 0402_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 -2.03) (xy -0.51 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CAP CER 0402_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Duc-Capacitors:CAP CER 0603"
 			(pin_numbers
 				(hide yes)
@@ -991,6 +1171,24 @@
 				(pin passive line
 					(at -10.16 2.54 0)
 					(length 2.54)
+					(name "IO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 2.54)
 					(name "IO1"
 						(effects
 							(font
@@ -1007,7 +1205,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 0 0)
+					(at -10.16 -2.54 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1025,7 +1223,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -2.54 0)
+					(at 10.16 2.54 180)
 					(length 2.54)
 					(name "IO2"
 						(effects
@@ -1034,7 +1232,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1043,7 +1241,7 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 2.54 180)
+					(at 10.16 0 180)
 					(length 2.54)
 					(name "IO1"
 						(effects
@@ -1061,7 +1259,7 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 0 180)
+					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "VBUS"
 						(effects
@@ -1078,32 +1276,15 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "IO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Duc-Resistors:RES SMD 0603"
+		(symbol "Duc-Resistors:RES SMD 0402"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1117,15 +1298,15 @@
 					)
 				)
 			)
-			(property "Value" "RES 0603"
-				(at 0 -3.302 0)
+			(property "Value" "RES 0402"
+				(at 0 -3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Duc:R0603"
+			(property "Footprint" "Duc_Library:R0402"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -1134,7 +1315,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
+			(property "Datasheet" ""
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -1143,8 +1324,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RES SMD 0603"
-				(at 0 0 0)
+			(property "Description" "RES SMD 0402"
+				(at -0.508 -3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1152,7 +1333,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "YAGEO(国巨)"
+			(property "Manufacturer" ""
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -1161,7 +1342,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "RT0603FRE13100KL"
+			(property "MPN" "RT0402FRE07100KL"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -1170,7 +1351,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C4107493"
+			(property "LCSC Part" "C728576"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -1179,7 +1360,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RES SMD 0603_0_1"
+			(symbol "RES SMD 0402_0_1"
 				(rectangle
 					(start -2.54 1.016)
 					(end 2.54 -1.016)
@@ -1192,7 +1373,7 @@
 					)
 				)
 			)
-			(symbol "RES SMD 0603_1_1"
+			(symbol "RES SMD 0402_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -1383,18 +1564,6 @@
 		(uuid "f76892ac-b591-45e9-8c11-cb673abc8526")
 	)
 	(junction
-		(at 208.28 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e00036c-40b3-42a3-aa23-a49e5417d711")
-	)
-	(junction
-		(at 170.18 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12f655b0-8f9a-4776-aff1-95fad147a2f8")
-	)
-	(junction
 		(at 135.89 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1407,10 +1576,16 @@
 		(uuid "41c2ba53-e7aa-47d1-a53a-7e97327305e8")
 	)
 	(junction
-		(at 208.28 101.6)
+		(at 203.2 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4a7e0767-4f0c-4ed9-b163-0de5c8fc4913")
+		(uuid "4b008d89-3bfe-4b28-96b9-b053060ef971")
+	)
+	(junction
+		(at 173.99 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e73139c-e731-421c-8ebd-273cfaa321e6")
 	)
 	(junction
 		(at 135.89 119.38)
@@ -1431,12 +1606,6 @@
 		(uuid "655b31d5-50db-4e47-b210-a42ef20a8ba7")
 	)
 	(junction
-		(at 205.74 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "786a2e49-e1e0-4a80-b7be-efcacd659b4d")
-	)
-	(junction
 		(at 194.31 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1455,34 +1624,16 @@
 		(uuid "8b554c8f-b2e6-4a02-b962-61fc79a2beb6")
 	)
 	(junction
-		(at 205.74 104.14)
+		(at 203.2 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8ed32e18-78e0-4a2d-a92c-e48f04b3d51b")
-	)
-	(junction
-		(at 172.72 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94a0691c-52fa-4fc9-b185-2a6279210e9e")
-	)
-	(junction
-		(at 172.72 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9805cfe8-821b-4284-9a12-f0f9596108ae")
+		(uuid "9c7e0e94-1618-4033-ac64-fe2bf86c0a9a")
 	)
 	(junction
 		(at 135.89 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6c04295-3e01-42da-99c9-0b3a85c53be3")
-	)
-	(junction
-		(at 170.18 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa3d6eaa-f8bc-48f2-9497-e399b2c83074")
 	)
 	(junction
 		(at 176.53 43.18)
@@ -1507,6 +1658,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c53d5776-02c0-43cb-bb6f-f93d073e056c")
+	)
+	(junction
+		(at 173.99 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e30b5b0a-f485-4d36-9dc5-c9bc9031d23c")
 	)
 	(junction
 		(at 135.89 91.44)
@@ -1545,14 +1702,6 @@
 	(no_connect
 		(at 133.35 114.3)
 		(uuid "1631cc5e-750f-4743-b80b-5123eca86032")
-	)
-	(no_connect
-		(at 177.8 60.96)
-		(uuid "17bca6a9-e178-4724-b506-33850a95c9c1")
-	)
-	(no_connect
-		(at 177.8 111.76)
-		(uuid "877d4fbf-b122-4bfa-b569-07dc6d339861")
 	)
 	(no_connect
 		(at 133.35 111.76)
@@ -1618,13 +1767,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 63.5) (xy 177.8 63.5)
+			(xy 191.77 116.84) (xy 203.2 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04466316-b47d-4649-9412-b20465ddf20e")
+		(uuid "00eec16b-4672-4e20-8b36-0f784e51b440")
 	)
 	(wire
 		(pts
@@ -1678,7 +1827,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 53.34) (xy 172.72 53.34)
+			(xy 135.89 53.34) (xy 177.8 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1695,6 +1844,16 @@
 			(type default)
 		)
 		(uuid "080981ee-8048-4a24-ba03-8c7f5b0b7d2e")
+	)
+	(wire
+		(pts
+			(xy 198.12 101.6) (xy 222.25 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f4f40f-a7e2-4b41-bba1-05f0a2589b53")
 	)
 	(wire
 		(pts
@@ -1718,13 +1877,23 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 53.34) (xy 222.25 53.34)
+			(xy 177.8 106.68) (xy 173.99 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "107a5f97-9570-4c98-b8be-5351119512d4")
+		(uuid "0f39eea1-7358-48d7-bf16-1150c1bf27c9")
+	)
+	(wire
+		(pts
+			(xy 203.2 106.68) (xy 210.82 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11acac15-2000-4840-a2ee-4c364380c67f")
 	)
 	(wire
 		(pts
@@ -1735,16 +1904,6 @@
 			(type default)
 		)
 		(uuid "12ade1dd-ce40-483e-bd97-57f3453ea082")
-	)
-	(wire
-		(pts
-			(xy 205.74 53.34) (xy 172.72 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1378913d-b5b5-4a44-89b8-1e52cacdb4b9")
 	)
 	(polyline
 		(pts
@@ -1779,26 +1938,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 53.34) (xy 205.74 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17371acb-1677-4f9d-aae4-29ad27cb52ba")
-	)
-	(wire
-		(pts
-			(xy 205.74 104.14) (xy 222.25 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aa5d130-0287-4a1f-abb2-befe4288f738")
-	)
-	(wire
-		(pts
 			(xy 107.95 40.64) (xy 111.76 40.64)
 		)
 		(stroke
@@ -1809,7 +1948,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 50.8) (xy 170.18 50.8)
+			(xy 135.89 50.8) (xy 177.8 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1846,16 +1985,6 @@
 			(type default)
 		)
 		(uuid "20e94605-4191-483e-9a72-a920c325e99e")
-	)
-	(wire
-		(pts
-			(xy 170.18 50.8) (xy 208.28 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20ffe296-3b56-4781-9912-9e6c492b7d63")
 	)
 	(bus
 		(pts
@@ -1909,6 +2038,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 106.68) (xy 173.99 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23cebf2f-a1d5-4e96-be75-bad0103c56f1")
+	)
+	(wire
+		(pts
 			(xy 133.35 101.6) (xy 135.89 101.6)
 		)
 		(stroke
@@ -1946,6 +2085,16 @@
 			(type default)
 		)
 		(uuid "2f15ffe0-0475-4807-94eb-0971d2c0f280")
+	)
+	(wire
+		(pts
+			(xy 198.12 55.88) (xy 203.2 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "304b8656-b974-4eb2-9073-203e7f9a0eda")
 	)
 	(wire
 		(pts
@@ -1989,7 +2138,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 60.96) (xy 201.93 66.04)
+			(xy 173.99 55.88) (xy 173.99 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2029,23 +2178,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 63.5) (xy 170.18 50.8)
+			(xy 173.99 116.84) (xy 184.15 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "451f637a-1cfd-4081-8ce7-72d19df385fd")
-	)
-	(wire
-		(pts
-			(xy 170.18 114.3) (xy 177.8 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45d97be3-3bfb-4bfe-84bb-0336f4db3bf8")
+		(uuid "454287a7-68e1-4b9a-befb-da38a5a89b6f")
 	)
 	(bus
 		(pts
@@ -2059,7 +2198,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 101.6) (xy 170.18 101.6)
+			(xy 135.89 101.6) (xy 177.8 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2086,16 +2225,6 @@
 			(type default)
 		)
 		(uuid "4b41300f-eb85-47e6-8ce4-b961c8dd4ba7")
-	)
-	(wire
-		(pts
-			(xy 172.72 109.22) (xy 177.8 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b741c89-bfcc-4836-95c9-09c0a4efa077")
 	)
 	(wire
 		(pts
@@ -2149,17 +2278,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 104.14) (xy 172.72 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d2e55bf-b331-4124-a063-187602215489")
-	)
-	(wire
-		(pts
-			(xy 135.89 104.14) (xy 172.72 104.14)
+			(xy 135.89 104.14) (xy 177.8 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2179,23 +2298,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 63.5) (xy 208.28 63.5)
+			(xy 198.12 50.8) (xy 222.25 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "648e9318-afd8-4f0d-baec-200d9336a562")
-	)
-	(wire
-		(pts
-			(xy 208.28 101.6) (xy 208.28 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "650b206e-561b-4c0d-906b-5227c4f3560a")
 	)
 	(wire
 		(pts
@@ -2216,6 +2325,26 @@
 			(type default)
 		)
 		(uuid "67ed9cfd-5344-4a22-a759-15ee7021628c")
+	)
+	(wire
+		(pts
+			(xy 203.2 106.68) (xy 203.2 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ade3987-0f6c-4595-8110-18676d1750fb")
+	)
+	(wire
+		(pts
+			(xy 191.77 66.04) (xy 203.2 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6afe4bac-2e54-442a-8f2e-17509e8f0c16")
 	)
 	(wire
 		(pts
@@ -2259,26 +2388,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 104.14) (xy 172.72 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79285b66-4285-4540-967a-22dd585f6b71")
-	)
-	(wire
-		(pts
-			(xy 172.72 53.34) (xy 172.72 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ecc47ec-d7c0-4375-96fd-49b2ea9aa15a")
-	)
-	(wire
-		(pts
 			(xy 135.89 50.8) (xy 135.89 48.26)
 		)
 		(stroke
@@ -2286,26 +2395,6 @@
 			(type default)
 		)
 		(uuid "7f3aba46-6750-4825-8ad2-fb22cacd5274")
-	)
-	(wire
-		(pts
-			(xy 208.28 50.8) (xy 222.25 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aa4a7ec-e4e4-4a30-950d-63a147d5ba13")
-	)
-	(wire
-		(pts
-			(xy 198.12 111.76) (xy 201.93 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b910cc8-d287-457c-bd60-b45070cea638")
 	)
 	(bus
 		(pts
@@ -2339,6 +2428,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 116.84) (xy 173.99 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9162aa20-9e07-4dd1-b3ab-558b9d05d0eb")
+	)
+	(wire
+		(pts
 			(xy 135.89 43.18) (xy 133.35 43.18)
 		)
 		(stroke
@@ -2346,16 +2445,6 @@
 			(type default)
 		)
 		(uuid "916d56b7-c645-4c90-88a8-d65387067b87")
-	)
-	(wire
-		(pts
-			(xy 172.72 58.42) (xy 177.8 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91cda098-112f-4229-a41f-50c9533ce320")
 	)
 	(wire
 		(pts
@@ -2499,13 +2588,23 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 60.96) (xy 201.93 60.96)
+			(xy 177.8 55.88) (xy 173.99 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b57f9a11-5d1f-4208-a15c-86ca8b28c86d")
+	)
+	(wire
+		(pts
+			(xy 173.99 66.04) (xy 173.99 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7bef41f-59d6-4bb2-b852-e5e6b579cfef")
 	)
 	(wire
 		(pts
@@ -2526,26 +2625,6 @@
 			(type default)
 		)
 		(uuid "bcc6ac99-efb1-4ea1-a7a4-8e6fbd6f9f9f")
-	)
-	(wire
-		(pts
-			(xy 208.28 50.8) (xy 208.28 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd4cdf32-8e42-49cb-bcea-5f25d862b0b2")
-	)
-	(wire
-		(pts
-			(xy 205.74 104.14) (xy 205.74 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdd49de8-bf0b-48f8-8247-556fdc7a5d8d")
 	)
 	(wire
 		(pts
@@ -2659,13 +2738,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 101.6) (xy 222.25 101.6)
+			(xy 198.12 104.14) (xy 222.25 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d137b1ab-45cd-4fe9-990d-933cb8626563")
+		(uuid "d1404376-4c46-4887-b8e8-0215ef9941de")
 	)
 	(wire
 		(pts
@@ -2699,17 +2778,17 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 111.76) (xy 201.93 116.84)
+			(xy 203.2 55.88) (xy 203.2 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6b541bd-6efd-4641-96c7-ab1268f6e05c")
+		(uuid "d79df891-a37f-45d7-888c-39e97f675dd4")
 	)
 	(wire
 		(pts
-			(xy 198.12 58.42) (xy 205.74 58.42)
+			(xy 198.12 53.34) (xy 222.25 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2739,16 +2818,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 114.3) (xy 208.28 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db5a5319-a4c3-4bce-8ab9-46505c7d9574")
-	)
-	(wire
-		(pts
 			(xy 135.89 30.48) (xy 176.53 30.48)
 		)
 		(stroke
@@ -2767,6 +2836,16 @@
 		)
 		(uuid "deae7414-250c-4649-9670-25260ee700a9")
 	)
+	(wire
+		(pts
+			(xy 198.12 106.68) (xy 203.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec5b23b-4ad0-4657-a803-b2d04d66de24")
+	)
 	(bus
 		(pts
 			(xy 125.73 142.24) (xy 125.73 144.78)
@@ -2779,13 +2858,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 114.3) (xy 170.18 101.6)
+			(xy 173.99 66.04) (xy 184.15 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e25ed3a7-ef5a-405f-8399-6a97c3ca9e99")
+		(uuid "e31e6e3c-726b-4398-a34d-c1138266a07f")
 	)
 	(wire
 		(pts
@@ -2829,13 +2908,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 109.22) (xy 205.74 109.22)
+			(xy 203.2 55.88) (xy 210.82 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5c4c6bc-f2cf-4f4c-b943-5a65897d7213")
+		(uuid "f8ac317b-5d16-42c5-b970-dc9bde0fe184")
 	)
 	(wire
 		(pts
@@ -2876,16 +2955,6 @@
 			(type default)
 		)
 		(uuid "ff866e00-884f-443e-9f1e-6ebce04c1cc9")
-	)
-	(wire
-		(pts
-			(xy 170.18 101.6) (xy 208.28 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffce021e-5aae-464b-8cf3-4b27a3efd67e")
 	)
 	(image
 		(at 71.12 105.41)
@@ -14760,6 +14829,16 @@
 		)
 		(uuid "9ba6d466-594f-4c5e-8b76-d213b20a4da0")
 	)
+	(label "VBUS_1"
+		(at 210.82 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f0f8d09-6cfa-405e-8480-f62a18c5b6b4")
+	)
 	(label "VBUS_DET2"
 		(at 154.94 149.86 0)
 		(effects
@@ -14770,6 +14849,16 @@
 			(justify left bottom)
 		)
 		(uuid "c9749676-0dc6-4dc7-9e67-721ada057ef3")
+	)
+	(label "VBUS_2"
+		(at 210.82 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f76087fe-9e3b-44f8-bc89-fd56c95d7a0e")
 	)
 	(hierarchical_label "{USB_1}"
 		(shape input)
@@ -14796,6 +14885,100 @@
 			(justify left)
 		)
 		(uuid "9df09472-ab11-4892-a3da-4dd24a192219")
+	)
+	(symbol
+		(lib_id "Duc-Capacitors:CAP CER 0402")
+		(at 187.96 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dde5b28-de38-429b-a68f-bccc2a0b6b28")
+		(property "Reference" "C89"
+			(at 187.706 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 50V 0402"
+			(at 187.96 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Duc_Library:C0402"
+			(at 187.96 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0402"
+			(at 187.96 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 187.96 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KRX5R7BB105"
+			(at 187.96 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C325464"
+			(at 187.96 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dad83412-f2d5-409d-8311-f3219adb106d")
+		)
+		(pin "2"
+			(uuid "1677b291-4b5c-4195-a314-9d03755c49ae")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
+					(reference "C89")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Duc-Diodes:LED 0603")
@@ -14887,6 +15070,100 @@
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Duc-Capacitors:CAP CER 0402")
+		(at 187.96 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e3210a4-b5e3-412d-962b-85b3aafaf359")
+		(property "Reference" "C91"
+			(at 187.706 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 50V 0402"
+			(at 187.96 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Duc_Library:C0402"
+			(at 187.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0402"
+			(at 187.96 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 187.96 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KRX5R7BB105"
+			(at 187.96 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C325464"
+			(at 187.96 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a83d4aa1-2f3c-4032-85fa-2cb1edaa2eae")
+		)
+		(pin "2"
+			(uuid "6efff1ed-3235-4db3-abfc-e005b3c33b8f")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -15029,6 +15306,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Duc-Diodes:USBLC6-2SC6")
+		(at 187.96 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "321b76aa-063a-478a-bc80-ad2174bce0a7")
+		(property "Reference" "D7"
+			(at 187.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 187.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Duc:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+			(at 187.96 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2827654.pdf"
+			(at 187.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD DIODE 5VWM 12VC SOT-23-6"
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TECH PUBLIC(台舟)"
+			(at 187.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USBLC6-2SC6"
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2827654"
+			(at 187.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "911f1f80-976b-4fcd-9f3b-bd03eac7f064")
+		)
+		(pin "3"
+			(uuid "79906282-5ba1-4982-af6f-0d7dd5c22529")
+		)
+		(pin "6"
+			(uuid "d87f7f88-ba61-4c63-9780-5eba57da85fe")
+		)
+		(pin "4"
+			(uuid "bb618bb3-15d7-4a83-9f14-577eeb7dcae7")
+		)
+		(pin "5"
+			(uuid "47929113-e850-4a02-8911-f5527ee10581")
+		)
+		(pin "1"
+			(uuid "6343e2be-45e4-4736-b4bd-45924b111a09")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_symbols:GND")
 		(at 107.95 121.92 270)
 		(unit 1)
@@ -15091,73 +15474,6 @@
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
 					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:GND")
-		(at 204.47 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fadc8f9-fa6c-41d3-b76d-1b4b1b9f2514")
-		(property "Reference" "#PWR0111"
-			(at 204.216 108.204 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 201.93 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power Symbol - Global Ground"
-			(at 204.47 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ebe2b63-a2eb-4ced-a5e4-6608bd9e9ea7")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -15390,7 +15706,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
+		(lib_id "Duc-Resistors:RES SMD 0402")
 		(at 144.78 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15406,7 +15722,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1K 0.1% 0603"
+		(property "Value" "5.1K 0.1% 0402"
 			(at 144.78 99.06 0)
 			(effects
 				(font
@@ -15414,7 +15730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Duc:R0603"
+		(property "Footprint" "Duc_Library:R0402"
 			(at 144.78 104.14 0)
 			(effects
 				(font
@@ -15432,8 +15748,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0603"
-			(at 144.78 96.52 0)
+		(property "Description" "RES SMD 0402"
+			(at 144.272 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15450,7 +15766,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0603FRE13100KL"
+		(property "MPN" "RT0402FRE07100KL"
 			(at 144.78 111.76 0)
 			(effects
 				(font
@@ -15459,7 +15775,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4107493"
+		(property "LCSC Part" "C728576"
 			(at 144.78 114.3 0)
 			(effects
 				(font
@@ -15715,7 +16031,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
+		(lib_id "Duc-Resistors:RES SMD 0402")
 		(at 144.78 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15731,7 +16047,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1K 0.1% 0603"
+		(property "Value" "5.1K 0.1% 0402"
 			(at 144.78 60.96 0)
 			(effects
 				(font
@@ -15739,7 +16055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Duc:R0603"
+		(property "Footprint" "Duc_Library:R0402"
 			(at 144.78 66.04 0)
 			(effects
 				(font
@@ -15757,8 +16073,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0603"
-			(at 144.78 58.42 0)
+		(property "Description" "RES SMD 0402"
+			(at 144.272 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15775,7 +16091,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0603FRE13100KL"
+		(property "MPN" "RT0402FRE07100KL"
 			(at 144.78 73.66 0)
 			(effects
 				(font
@@ -15784,7 +16100,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4107493"
+		(property "LCSC Part" "C728576"
 			(at 144.78 76.2 0)
 			(effects
 				(font
@@ -15877,7 +16193,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
+		(lib_id "Duc-Resistors:RES SMD 0402")
 		(at 210.82 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15893,7 +16209,7 @@
 				)
 			)
 		)
-		(property "Value" "430K 0.1% 0603"
+		(property "Value" "430K 0.1% 0402"
 			(at 210.82 33.02 0)
 			(effects
 				(font
@@ -15901,7 +16217,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Duc:R0603"
+		(property "Footprint" "Duc_Library:R0402"
 			(at 210.82 38.1 0)
 			(effects
 				(font
@@ -15919,8 +16235,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0603"
-			(at 210.82 30.48 0)
+		(property "Description" "RES SMD 0402"
+			(at 210.312 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15937,7 +16253,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0603FRE13100KL"
+		(property "MPN" "RT0402FRE07100KL"
 			(at 210.82 45.72 0)
 			(effects
 				(font
@@ -15946,7 +16262,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4107493"
+		(property "LCSC Part" "C728576"
 			(at 210.82 48.26 0)
 			(effects
 				(font
@@ -16102,7 +16418,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
+		(lib_id "Duc-Resistors:RES SMD 0402")
 		(at 210.82 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16118,7 +16434,7 @@
 				)
 			)
 		)
-		(property "Value" "430K 0.1% 0603"
+		(property "Value" "430K 0.1% 0402"
 			(at 210.82 83.82 0)
 			(effects
 				(font
@@ -16126,7 +16442,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Duc:R0603"
+		(property "Footprint" "Duc_Library:R0402"
 			(at 210.82 88.9 0)
 			(effects
 				(font
@@ -16144,8 +16460,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0603"
-			(at 210.82 81.28 0)
+		(property "Description" "RES SMD 0402"
+			(at 210.312 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16162,7 +16478,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0603FRE13100KL"
+		(property "MPN" "RT0402FRE07100KL"
 			(at 210.82 96.52 0)
 			(effects
 				(font
@@ -16171,7 +16487,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4107493"
+		(property "LCSC Part" "C728576"
 			(at 210.82 99.06 0)
 			(effects
 				(font
@@ -16190,6 +16506,74 @@
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
 					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_symbols:GND")
+		(at 171.45 119.38 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "810402a4-8ec0-41bd-9d4c-8ec8c3095a15")
+		(property "Reference" "#PWR0111"
+			(at 171.704 110.744 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Symbol - Global Ground"
+			(at 171.45 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6a39f1e-3e52-4b52-b734-f1c1dc878935")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -16264,113 +16648,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Diodes:USBLC6-2SC6")
-		(at 187.96 111.76 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "854b245e-3294-4431-9ca5-8d760919f452")
-		(property "Reference" "D7"
-			(at 187.96 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USBLC6-2SC6"
-			(at 187.96 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Duc:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
-			(at 187.96 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2827654.pdf"
-			(at 187.96 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD DIODE 5VWM 12VC SOT-23-6"
-			(at 187.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TECH PUBLIC(台舟)"
-			(at 187.96 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "USBLC6-2SC6"
-			(at 187.96 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2827654"
-			(at 187.96 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4c11615a-d9b1-40a4-95df-0ddab1dead08")
-		)
-		(pin "3"
-			(uuid "22d84b74-9185-4c92-a7e4-a5af93c79034")
-		)
-		(pin "6"
-			(uuid "7ad6659a-c3b2-45e0-b29e-6be88d032aeb")
-		)
-		(pin "4"
-			(uuid "73154764-9984-441e-8278-7a2dd6bf4608")
-		)
-		(pin "5"
-			(uuid "0b056a3f-074c-4770-9403-123823890a3d")
-		)
-		(pin "1"
-			(uuid "69aeedf2-54c7-4058-bda7-511a105ad84c")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_symbols:GND")
 		(at 160.02 106.68 90)
 		(unit 1)
@@ -16439,7 +16716,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
+		(lib_id "Duc-Resistors:RES SMD 0402")
 		(at 144.78 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16455,7 +16732,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1K 0.1% 0603"
+		(property "Value" "5.1K 0.1% 0402"
 			(at 144.78 111.76 0)
 			(effects
 				(font
@@ -16463,7 +16740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Duc:R0603"
+		(property "Footprint" "Duc_Library:R0402"
 			(at 144.78 116.84 0)
 			(effects
 				(font
@@ -16481,8 +16758,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0603"
-			(at 144.78 109.22 0)
+		(property "Description" "RES SMD 0402"
+			(at 144.272 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16499,7 +16776,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0603FRE13100KL"
+		(property "MPN" "RT0402FRE07100KL"
 			(at 144.78 124.46 0)
 			(effects
 				(font
@@ -16508,7 +16785,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4107493"
+		(property "LCSC Part" "C728576"
 			(at 144.78 127 0)
 			(effects
 				(font
@@ -16533,7 +16810,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
+		(lib_id "Duc-Resistors:RES SMD 0402")
 		(at 144.78 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16549,7 +16826,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1K 0.1% 0603"
+		(property "Value" "5.1K 0.1% 0402"
 			(at 144.78 48.26 0)
 			(effects
 				(font
@@ -16557,7 +16834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Duc:R0603"
+		(property "Footprint" "Duc_Library:R0402"
 			(at 144.78 53.34 0)
 			(effects
 				(font
@@ -16575,8 +16852,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0603"
-			(at 144.78 45.72 0)
+		(property "Description" "RES SMD 0402"
+			(at 144.272 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16593,7 +16870,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0603FRE13100KL"
+		(property "MPN" "RT0402FRE07100KL"
 			(at 144.78 60.96 0)
 			(effects
 				(font
@@ -16602,7 +16879,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4107493"
+		(property "LCSC Part" "C728576"
 			(at 144.78 63.5 0)
 			(effects
 				(font
@@ -16764,7 +17041,8 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:GND")
-		(at 204.47 66.04 0)
+		(at 171.45 68.58 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -16773,7 +17051,7 @@
 		(fields_autoplaced yes)
 		(uuid "be04f64d-7ce3-48f0-ab46-6c9fab32176d")
 		(property "Reference" "#PWR0103"
-			(at 204.216 57.404 0)
+			(at 171.704 59.944 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16783,7 +17061,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 71.12 0)
+			(at 173.99 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16791,7 +17069,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 66.04 0)
+			(at 171.45 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16800,7 +17078,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 66.04 0)
+			(at 171.45 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16809,7 +17087,7 @@
 			)
 		)
 		(property "Description" "Power Symbol - Global Ground"
-			(at 204.47 72.898 0)
+			(at 171.45 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16830,7 +17108,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
+		(lib_id "Duc-Resistors:RES SMD 0402")
 		(at 233.68 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16846,7 +17124,7 @@
 				)
 			)
 		)
-		(property "Value" "620K 0.1% 0603"
+		(property "Value" "620K 0.1% 0402"
 			(at 233.68 83.82 0)
 			(effects
 				(font
@@ -16854,7 +17132,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Duc:R0603"
+		(property "Footprint" "Duc_Library:R0402"
 			(at 233.68 88.9 0)
 			(effects
 				(font
@@ -16872,8 +17150,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0603"
-			(at 233.68 81.28 0)
+		(property "Description" "RES SMD 0402"
+			(at 233.172 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16890,7 +17168,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0603FRE13100KL"
+		(property "MPN" "RT0402FRE07100KL"
 			(at 233.68 96.52 0)
 			(effects
 				(font
@@ -16899,7 +17177,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4107493"
+		(property "LCSC Part" "C728576"
 			(at 233.68 99.06 0)
 			(effects
 				(font
@@ -16931,7 +17209,6 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d096aa68-1a87-4e0d-86e4-717bd4a8ce33")
 		(property "Reference" "#PWR0100"
 			(at 178.816 34.544 0)
@@ -16944,7 +17221,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 48.26 0)
+			(at 176.53 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17088,7 +17365,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
+		(lib_id "Duc-Resistors:RES SMD 0402")
 		(at 144.78 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17104,7 +17381,7 @@
 				)
 			)
 		)
-		(property "Value" "1K 0.1% 0603"
+		(property "Value" "1K 0.1% 0402"
 			(at 144.78 39.37 0)
 			(effects
 				(font
@@ -17112,7 +17389,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Duc:R0603"
+		(property "Footprint" "Duc_Library:R0402"
 			(at 144.78 44.45 0)
 			(effects
 				(font
@@ -17130,8 +17407,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0603"
-			(at 144.78 36.83 0)
+		(property "Description" "RES SMD 0402"
+			(at 144.272 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17148,7 +17425,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0603FRE13100KL"
+		(property "MPN" "RT0402FRE07100KL"
 			(at 144.78 52.07 0)
 			(effects
 				(font
@@ -17157,7 +17434,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4107493"
+		(property "LCSC Part" "C728576"
 			(at 144.78 54.61 0)
 			(effects
 				(font
@@ -17278,7 +17555,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
+		(lib_id "Duc-Resistors:RES SMD 0402")
 		(at 144.78 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17294,7 +17571,7 @@
 				)
 			)
 		)
-		(property "Value" "1K 0.1% 0603"
+		(property "Value" "1K 0.1% 0402"
 			(at 144.78 90.17 0)
 			(effects
 				(font
@@ -17302,7 +17579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Duc:R0603"
+		(property "Footprint" "Duc_Library:R0402"
 			(at 144.78 95.25 0)
 			(effects
 				(font
@@ -17320,8 +17597,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0603"
-			(at 144.78 87.63 0)
+		(property "Description" "RES SMD 0402"
+			(at 144.272 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17338,7 +17615,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0603FRE13100KL"
+		(property "MPN" "RT0402FRE07100KL"
 			(at 144.78 102.87 0)
 			(effects
 				(font
@@ -17347,7 +17624,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4107493"
+		(property "LCSC Part" "C728576"
 			(at 144.78 105.41 0)
 			(effects
 				(font
@@ -17508,7 +17785,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
+		(lib_id "Duc-Resistors:RES SMD 0402")
 		(at 233.68 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17524,7 +17801,7 @@
 				)
 			)
 		)
-		(property "Value" "620K 0.1% 0603"
+		(property "Value" "620K 0.1% 0402"
 			(at 233.68 33.02 0)
 			(effects
 				(font
@@ -17532,7 +17809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Duc:R0603"
+		(property "Footprint" "Duc_Library:R0402"
 			(at 233.68 38.1 0)
 			(effects
 				(font
@@ -17550,8 +17827,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0603"
-			(at 233.68 30.48 0)
+		(property "Description" "RES SMD 0402"
+			(at 233.172 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17568,7 +17845,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0603FRE13100KL"
+		(property "MPN" "RT0402FRE07100KL"
 			(at 233.68 45.72 0)
 			(effects
 				(font
@@ -17577,7 +17854,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4107493"
+		(property "LCSC Part" "C728576"
 			(at 233.68 48.26 0)
 			(effects
 				(font
@@ -17611,7 +17888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f69695df-b3c5-439d-8e1c-ad236febcfa0")
-		(property "Reference" "C89"
+		(property "Reference" "C90"
 			(at 198.12 86.3599 90)
 			(effects
 				(font
@@ -17692,7 +17969,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e"
-					(reference "C89")
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -17768,8 +18045,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Diodes:USBLC6-2SC6")
-		(at 187.96 60.96 0)
-		(mirror y)
+		(at 187.96 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17777,7 +18053,7 @@
 		(dnp no)
 		(uuid "fe225c2f-872f-4c47-bf3f-936366efa666")
 		(property "Reference" "D4"
-			(at 187.96 54.61 0)
+			(at 187.96 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17785,7 +18061,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 187.96 67.31 0)
+			(at 187.96 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17793,7 +18069,7 @@
 			)
 		)
 		(property "Footprint" "Duc:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
-			(at 187.96 71.12 0)
+			(at 187.96 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17802,7 +18078,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2827654.pdf"
-			(at 187.96 73.66 0)
+			(at 187.96 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17811,7 +18087,7 @@
 			)
 		)
 		(property "Description" "ESD DIODE 5VWM 12VC SOT-23-6"
-			(at 187.96 60.96 0)
+			(at 187.96 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17820,7 +18096,7 @@
 			)
 		)
 		(property "Manufacturer" "TECH PUBLIC(台舟)"
-			(at 187.96 76.2 0)
+			(at 187.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17829,7 +18105,7 @@
 			)
 		)
 		(property "MPN" "USBLC6-2SC6"
-			(at 187.96 78.74 0)
+			(at 187.96 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17838,7 +18114,7 @@
 			)
 		)
 		(property "LCSC Part" "C2827654"
-			(at 187.96 81.28 0)
+			(at 187.96 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)

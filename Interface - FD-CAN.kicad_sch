@@ -830,7 +830,7 @@
 		(uuid "2102a636-9e38-4321-87a6-b40742e7c8be")
 	)
 	(junction
-		(at 118.11 52.07)
+		(at 118.11 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2edff529-ae05-409b-89ef-10a9019d95c7")
@@ -842,7 +842,7 @@
 		(uuid "4a6827c5-7b90-4046-a642-01a896780159")
 	)
 	(junction
-		(at 95.25 57.15)
+		(at 95.25 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53af1ee9-dced-4956-b0e8-eae06056503d")
@@ -854,7 +854,7 @@
 		(uuid "790f9ec7-fe9f-4e95-ba90-4ef3ac263f4e")
 	)
 	(junction
-		(at 163.83 59.69)
+		(at 163.83 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3437e1c-ee6d-4e56-bdb0-09188b7ab03f")
@@ -915,7 +915,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 41.91) (xy 118.11 43.18)
+			(xy 118.11 40.64) (xy 118.11 41.91)
 		)
 		(stroke
 			(width 0)
@@ -965,7 +965,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 52.07) (xy 149.86 52.07)
+			(xy 143.51 50.8) (xy 149.86 50.8)
 		)
 		(stroke
 			(width 0)
@@ -975,7 +975,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 59.69) (xy 123.19 59.69)
+			(xy 109.22 58.42) (xy 123.19 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1055,7 +1055,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 57.15) (xy 95.25 60.96)
+			(xy 95.25 55.88) (xy 95.25 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1105,7 +1105,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 50.8) (xy 118.11 52.07)
+			(xy 118.11 49.53) (xy 118.11 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1115,7 +1115,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 59.69) (xy 168.91 59.69)
+			(xy 163.83 58.42) (xy 168.91 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1125,7 +1125,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 54.61) (xy 163.83 54.61)
+			(xy 143.51 53.34) (xy 163.83 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1155,7 +1155,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 68.58) (xy 95.25 72.39)
+			(xy 95.25 67.31) (xy 95.25 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1165,7 +1165,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 52.07) (xy 123.19 52.07)
+			(xy 118.11 50.8) (xy 123.19 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1195,7 +1195,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 59.69) (xy 163.83 59.69)
+			(xy 143.51 58.42) (xy 163.83 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1205,7 +1205,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 57.15) (xy 123.19 57.15)
+			(xy 95.25 55.88) (xy 123.19 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1235,7 +1235,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 57.15) (xy 163.83 57.15)
+			(xy 143.51 55.88) (xy 163.83 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1285,7 +1285,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 57.15) (xy 95.25 57.15)
+			(xy 90.17 55.88) (xy 95.25 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1295,7 +1295,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 41.91) (xy 118.11 41.91)
+			(xy 116.84 40.64) (xy 118.11 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1315,7 +1315,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 59.69) (xy 163.83 63.5)
+			(xy 163.83 58.42) (xy 163.83 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1395,7 +1395,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 52.07) (xy 163.83 52.07)
+			(xy 157.48 50.8) (xy 163.83 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1405,7 +1405,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 52.07) (xy 118.11 52.07)
+			(xy 109.22 50.8) (xy 118.11 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1445,7 +1445,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 71.12) (xy 163.83 74.93)
+			(xy 163.83 69.85) (xy 163.83 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1465,7 +1465,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 54.61) (xy 123.19 54.61)
+			(xy 109.22 53.34) (xy 123.19 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3532,7 +3532,7 @@
 		(uuid "09cc9b69-89b7-4876-9d74-9880a46ffd7d")
 	)
 	(label "FDCAN1_RX"
-		(at 109.22 59.69 180)
+		(at 109.22 58.42 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -3587,7 +3587,7 @@
 		(uuid "8b173fb1-ad62-467b-b4f7-fec0a9338a43")
 	)
 	(label "FDCAN_N"
-		(at 163.83 57.15 0)
+		(at 163.83 55.88 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -3620,7 +3620,7 @@
 		(uuid "9e282b90-6569-4183-adfa-78eac2304fc9")
 	)
 	(label "FDCAN_P"
-		(at 163.83 54.61 0)
+		(at 163.83 53.34 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -3653,7 +3653,7 @@
 		(uuid "d8211c9e-09c1-4c6b-aabb-bf249f9b8c1d")
 	)
 	(label "FDCAN1_TX"
-		(at 109.22 52.07 180)
+		(at 109.22 50.8 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -3687,7 +3687,7 @@
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
-		(at 116.84 41.91 180)
+		(at 116.84 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3735,7 +3735,7 @@
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
-		(at 168.91 59.69 0)
+		(at 168.91 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3770,7 +3770,7 @@
 	)
 	(hierarchical_label "+5V"
 		(shape input)
-		(at 90.17 57.15 180)
+		(at 90.17 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3875,7 +3875,7 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:GND")
-		(at 97.79 72.39 0)
+		(at 97.79 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3884,7 +3884,7 @@
 		(fields_autoplaced yes)
 		(uuid "05ba7dfc-d1dd-4584-80e5-dab0e7c27611")
 		(property "Reference" "#PWR0115"
-			(at 97.536 63.754 0)
+			(at 97.536 62.484 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3894,7 +3894,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 77.47 0)
+			(at 95.25 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,7 +3902,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 72.39 0)
+			(at 97.79 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,7 +3911,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 72.39 0)
+			(at 97.79 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,7 +3920,7 @@
 			)
 		)
 		(property "Description" "Power Symbol - Global Ground"
-			(at 97.79 79.248 0)
+			(at 97.79 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,7 +3942,7 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:GND")
-		(at 163.83 49.53 90)
+		(at 163.83 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3951,7 +3951,7 @@
 		(fields_autoplaced yes)
 		(uuid "13e8f9f4-206f-4d46-b1c6-aeb9f84f9194")
 		(property "Reference" "#PWR0113"
-			(at 155.194 49.784 0)
+			(at 155.194 48.514 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3961,7 +3961,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 52.0699 90)
+			(at 167.64 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +3970,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 49.53 0)
+			(at 163.83 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,7 +3979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 49.53 0)
+			(at 163.83 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3988,7 +3988,7 @@
 			)
 		)
 		(property "Description" "Power Symbol - Global Ground"
-			(at 170.688 49.53 0)
+			(at 170.688 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4084,7 +4084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23ffd58f-8877-43fd-836b-798353faaa7d")
-		(property "Reference" "C92"
+		(property "Reference" "C94"
 			(at 87.63 110.49 90)
 			(effects
 				(font
@@ -4093,7 +4093,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 0603"
+		(property "Value" "100nF 50V 0603"
 			(at 74.93 113.03 90)
 			(effects
 				(font
@@ -4165,7 +4165,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f2e2e46b-bf48-4385-80eb-484ec861c9a9"
-					(reference "C92")
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -4173,15 +4173,15 @@
 	)
 	(symbol
 		(lib_id "Duc-Capacitors:CAP CER 0603")
-		(at 163.83 67.31 90)
+		(at 163.83 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4a678568-c2e7-44bb-b752-82347f3c6b28")
-		(property "Reference" "C91"
-			(at 166.37 66.04 90)
+		(property "Reference" "C93"
+			(at 166.37 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,8 +4189,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 0603"
-			(at 166.37 68.58 90)
+		(property "Value" "100nF 50V 0603"
+			(at 166.37 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,7 +4199,7 @@
 			)
 		)
 		(property "Footprint" "Duc:C0603"
-			(at 171.45 67.31 0)
+			(at 171.45 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,7 +4208,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 173.99 67.31 0)
+			(at 173.99 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4217,7 +4217,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0603"
-			(at 163.83 67.31 0)
+			(at 163.83 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,7 +4226,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 176.53 67.31 0)
+			(at 176.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4235,7 +4235,7 @@
 			)
 		)
 		(property "MPN" "CAP CER 0603"
-			(at 179.07 67.31 0)
+			(at 179.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,7 +4244,7 @@
 			)
 		)
 		(property "LCSC Part" "C14663"
-			(at 181.61 67.31 0)
+			(at 181.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +4261,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f2e2e46b-bf48-4385-80eb-484ec861c9a9"
-					(reference "C91")
+					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -4269,15 +4269,15 @@
 	)
 	(symbol
 		(lib_id "Duc-Capacitors:CAP CER 0603")
-		(at 95.25 64.77 90)
+		(at 95.25 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5349cec0-3a13-4bff-a34d-adf7503fe33d")
-		(property "Reference" "C90"
-			(at 88.9 63.5 90)
+		(property "Reference" "C92"
+			(at 88.9 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,8 +4285,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 0603"
-			(at 76.2 66.04 90)
+		(property "Value" "100nF 50V 0603"
+			(at 76.2 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4295,7 +4295,7 @@
 			)
 		)
 		(property "Footprint" "Duc:C0603"
-			(at 102.87 64.77 0)
+			(at 102.87 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +4304,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 105.41 64.77 0)
+			(at 105.41 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4313,7 +4313,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0603"
-			(at 95.25 64.77 0)
+			(at 95.25 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4322,7 +4322,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 107.95 64.77 0)
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +4331,7 @@
 			)
 		)
 		(property "MPN" "CAP CER 0603"
-			(at 110.49 64.77 0)
+			(at 110.49 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,7 +4340,7 @@
 			)
 		)
 		(property "LCSC Part" "C14663"
-			(at 113.03 64.77 0)
+			(at 113.03 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,7 +4357,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f2e2e46b-bf48-4385-80eb-484ec861c9a9"
-					(reference "C90")
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -4365,7 +4365,7 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:GND")
-		(at 109.22 57.15 270)
+		(at 109.22 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4374,7 +4374,7 @@
 		(fields_autoplaced yes)
 		(uuid "54e6bda0-cbae-4d5e-9fe1-e94fdf5fee1f")
 		(property "Reference" "#PWR0114"
-			(at 117.856 56.896 0)
+			(at 117.856 55.626 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4384,7 +4384,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 54.6099 90)
+			(at 105.41 53.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4393,7 +4393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 57.15 0)
+			(at 109.22 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4402,7 +4402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 57.15 0)
+			(at 109.22 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4411,7 +4411,7 @@
 			)
 		)
 		(property "Description" "Power Symbol - Global Ground"
-			(at 102.362 57.15 0)
+			(at 102.362 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4433,7 +4433,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Resistors:RES SMD 0603")
-		(at 153.67 52.07 0)
+		(at 153.67 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4441,7 +4441,7 @@
 		(dnp no)
 		(uuid "57aaca3e-da88-4e2c-8de7-6abbb1cc92ad")
 		(property "Reference" "R54"
-			(at 153.67 46.99 0)
+			(at 153.67 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4449,7 +4449,7 @@
 			)
 		)
 		(property "Value" "10K 0.1% 0603"
-			(at 153.67 49.53 0)
+			(at 153.67 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4457,7 +4457,7 @@
 			)
 		)
 		(property "Footprint" "Duc:R0603"
-			(at 153.67 59.69 0)
+			(at 153.67 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4466,7 +4466,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-			(at 153.67 62.23 0)
+			(at 153.67 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,7 +4475,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0603"
-			(at 153.67 52.07 0)
+			(at 153.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,7 +4484,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 153.67 64.77 0)
+			(at 153.67 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +4493,7 @@
 			)
 		)
 		(property "MPN" "RT0603FRE13100KL"
-			(at 153.67 67.31 0)
+			(at 153.67 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,7 +4502,7 @@
 			)
 		)
 		(property "LCSC Part" "C4107493"
-			(at 153.67 69.85 0)
+			(at 153.67 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4534,7 +4534,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b762ec4-68b2-4e07-8b30-3f590f2ccba6")
-		(property "Reference" "C93"
+		(property "Reference" "C95"
 			(at 165.1 113.03 90)
 			(effects
 				(font
@@ -4543,7 +4543,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 0603"
+		(property "Value" "100nF 50V 0603"
 			(at 165.1 115.57 90)
 			(effects
 				(font
@@ -4615,7 +4615,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f2e2e46b-bf48-4385-80eb-484ec861c9a9"
-					(reference "C93")
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -4896,7 +4896,7 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:GND")
-		(at 166.37 74.93 0)
+		(at 166.37 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4905,7 +4905,7 @@
 		(fields_autoplaced yes)
 		(uuid "8915af15-bf8c-42e3-ad3d-6e5740a462e7")
 		(property "Reference" "#PWR0116"
-			(at 166.116 66.294 0)
+			(at 166.116 65.024 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4915,7 +4915,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 80.01 0)
+			(at 163.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4923,7 +4923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 74.93 0)
+			(at 166.37 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4932,7 +4932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 74.93 0)
+			(at 166.37 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4941,7 +4941,7 @@
 			)
 		)
 		(property "Description" "Power Symbol - Global Ground"
-			(at 166.37 81.788 0)
+			(at 166.37 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4963,7 +4963,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Resistors:RES SMD 0603")
-		(at 118.11 46.99 90)
+		(at 118.11 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4971,7 +4971,7 @@
 		(dnp no)
 		(uuid "ccd00dd9-6a40-4977-8acc-9fe16b4dd28c")
 		(property "Reference" "R53"
-			(at 114.3 45.72 90)
+			(at 114.3 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4979,7 +4979,7 @@
 			)
 		)
 		(property "Value" "10K 0.1% 0603"
-			(at 109.22 48.26 90)
+			(at 109.22 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4987,7 +4987,7 @@
 			)
 		)
 		(property "Footprint" "Duc:R0603"
-			(at 125.73 46.99 0)
+			(at 125.73 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4996,7 +4996,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-			(at 128.27 46.99 0)
+			(at 128.27 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,7 +5005,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0603"
-			(at 118.11 46.99 0)
+			(at 118.11 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,7 +5014,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 130.81 46.99 0)
+			(at 130.81 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +5023,7 @@
 			)
 		)
 		(property "MPN" "RT0603FRE13100KL"
-			(at 133.35 46.99 0)
+			(at 133.35 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5032,7 +5032,7 @@
 			)
 		)
 		(property "LCSC Part" "C4107493"
-			(at 135.89 46.99 0)
+			(at 135.89 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,7 +5193,7 @@
 	)
 	(symbol
 		(lib_id "Duc-ICs:TJA1051T_3")
-		(at 133.35 55.88 0)
+		(at 133.35 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5201,7 +5201,7 @@
 		(dnp no)
 		(uuid "f45d2d3e-a9f1-4c02-a06c-0200b68c5c83")
 		(property "Reference" "U14"
-			(at 133.35 48.26 0)
+			(at 133.35 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5209,7 +5209,7 @@
 			)
 		)
 		(property "Value" "TJA1051T/3"
-			(at 133.35 63.5 0)
+			(at 133.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,7 +5217,7 @@
 			)
 		)
 		(property "Footprint" "Duc:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1"
-			(at 133.35 67.31 0)
+			(at 133.35 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5226,7 +5226,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5342108.pdf"
-			(at 133.35 69.85 0)
+			(at 133.35 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,7 +5235,7 @@
 			)
 		)
 		(property "Description" "TJA1051T/3 CAN Transceiver"
-			(at 133.35 55.88 0)
+			(at 133.35 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5244,7 +5244,7 @@
 			)
 		)
 		(property "Manufacturer" "Tokmas(托克马斯)"
-			(at 133.35 72.39 0)
+			(at 133.35 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,7 +5253,7 @@
 			)
 		)
 		(property "MPN" "TJA1051T/3"
-			(at 133.35 74.93 0)
+			(at 133.35 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5262,7 +5262,7 @@
 			)
 		)
 		(property "LCSC Part" "C5342108"
-			(at 133.35 77.47 0)
+			(at 133.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
