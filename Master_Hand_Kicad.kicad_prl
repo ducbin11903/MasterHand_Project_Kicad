@@ -124,19 +124,32 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "Master_Hand_Kicad.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 1936,
+          "size_y": 1048
+        }
+      }
+    ]
   },
   "schematic": {
     "selection_filter": {
-      "graphics": true,
-      "images": true,
-      "labels": true,
+      "graphics": false,
+      "images": false,
+      "labels": false,
       "lockedItems": false,
-      "otherItems": true,
-      "pins": true,
+      "otherItems": false,
+      "pins": false,
       "symbols": true,
-      "text": true,
-      "wires": true
+      "text": false,
+      "wires": false
     }
   }
 }
