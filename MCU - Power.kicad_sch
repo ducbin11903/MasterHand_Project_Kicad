@@ -188,6 +188,175 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Duc-Inductors:PBBHAQ2012H-102T10"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1k @ 100MHz"
+				(at 0.254 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Duc:L0805"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C52178237.pdf"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "300mΩ 1 ±25% 1kΩ@100MHz 0805 Ferrite Beads and Chips RoHS"
+				(at -6.35 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "PROD(谱罗德)"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "PBBHAQ2012H-102T10"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C52178237"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PBBHAQ2012H-102T10_0_1"
+				(arc
+					(start -4.06 0.01)
+					(mid -3.035 1.02)
+					(end -2.03 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.03 0.01)
+					(mid -1.005 1.02)
+					(end 0 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.01)
+					(mid 1.025 1.02)
+					(end 2.03 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.03 0.01)
+					(mid 3.055 1.02)
+					(end 4.06 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PBBHAQ2012H-102T10_1_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Duc-MCUs:STM32G474RET6"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -210,7 +379,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Duc_Library:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL"
+			(property "Footprint" "Duc:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL"
 				(at 0 -46.99 0)
 				(effects
 					(font
@@ -1639,175 +1808,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Duc_Library:PBBHAQ2012H-102T10"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PBBHAQ2012H-102T10"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Duc_Library:L0805"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C52178237.pdf"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "300m? 1 �25% 1k?@100MHz 0805 Ferrite Beads and Chips RoHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "PROD(谱罗德)"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "PBBHAQ2012H-102T10"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C52178237"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PBBHAQ2012H-102T10_0_1"
-				(arc
-					(start -4.06 0.01)
-					(mid -3.035 1.02)
-					(end -2.03 -0.01)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.03 0.01)
-					(mid -1.005 1.02)
-					(end 0 -0.01)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.01)
-					(mid 1.025 1.02)
-					(end 2.03 -0.01)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.03 0.01)
-					(mid 3.055 1.02)
-					(end 4.06 -0.01)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Power_symbols:GND"
 			(power)
 			(exclude_from_sim no)
@@ -1825,7 +1825,6 @@
 			)
 			(property "Value" "GND"
 				(at -2.54 -4.064 0)
-				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3484,7 +3483,7 @@
 		(uuid "f2c27c8d-bb42-424e-9980-434dacfa61a3")
 	)
 	(symbol
-		(lib_id "Duc_Library:PBBHAQ2012H-102T10")
+		(lib_id "Duc-Inductors:PBBHAQ2012H-102T10")
 		(at 198.12 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3508,7 +3507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Duc_Library:L0805"
+		(property "Footprint" "Duc:L0805"
 			(at 198.12 111.76 0)
 			(effects
 				(font
@@ -3526,8 +3525,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "300m? 1 �25% 1k?@100MHz 0805 Ferrite Beads and Chips RoHS"
-			(at 198.12 104.14 0)
+		(property "Description" "300mΩ 1 ±25% 1kΩ@100MHz 0805 Ferrite Beads and Chips RoHS"
+			(at 191.77 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +4379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Duc_Library:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL"
+		(property "Footprint" "Duc:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL"
 			(at 266.7 201.93 0)
 			(effects
 				(font
@@ -4663,7 +4662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Duc_Library:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL"
+		(property "Footprint" "Duc:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL"
 			(at 266.7 118.11 0)
 			(effects
 				(font
@@ -5081,7 +5080,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc_Library:PBBHAQ2012H-102T10")
+		(lib_id "Duc-Inductors:PBBHAQ2012H-102T10")
 		(at 198.12 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5105,7 +5104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Duc_Library:L0805"
+		(property "Footprint" "Duc:L0805"
 			(at 198.12 195.58 0)
 			(effects
 				(font
@@ -5123,8 +5122,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "300m? 1 �25% 1k?@100MHz 0805 Ferrite Beads and Chips RoHS"
-			(at 198.12 187.96 0)
+		(property "Description" "300mΩ 1 ±25% 1kΩ@100MHz 0805 Ferrite Beads and Chips RoHS"
+			(at 191.77 192.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -72,10 +72,10 @@
 		(members "BOOT_1" "BOOT_2")
 	)
 	(bus_alias "USB_1"
-		(members "USB-DP_1" "USB-DM_1" "VBUS_DET1")
+		(members "USB1_P" "USB1_N" "VBUS_DET1")
 	)
 	(bus_alias "USB_2"
-		(members "USB-DP_2" "USB-DM_2" "VBUS_DET2")
+		(members "USB2_P" "USB2_N" "VBUS_DET2")
 	)
 	(text "Variant: ${VARIANT}"
 		(exclude_from_sim no)
