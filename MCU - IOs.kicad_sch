@@ -8186,7 +8186,7 @@
 		(uuid "05be31f8-56e5-4afc-b749-b2e7e958ba4d")
 	)
 	(label "ECB_I"
-		(at 21.59 107.95 0)
+		(at 21.59 105.41 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -8603,7 +8603,7 @@
 		(uuid "2dd4e471-64a1-44cf-8ea6-f5b28ec66bfe")
 	)
 	(label "ECB_T1"
-		(at 105.41 69.85 180)
+		(at 105.41 67.31 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -8702,7 +8702,7 @@
 		(uuid "349fcca8-f416-472d-ad0c-60f6e8094851")
 	)
 	(label "DIAG_T2"
-		(at 21.59 123.19 0)
+		(at 21.59 125.73 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -9701,7 +9701,7 @@
 		(uuid "89cd135e-6dd2-4027-81b9-245366e4a6d6")
 	)
 	(label "ECA_I"
-		(at 21.59 105.41 0)
+		(at 21.59 107.95 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -9899,7 +9899,7 @@
 		(uuid "9c6f78d9-fbcb-4156-b3a8-2699c5be9e98")
 	)
 	(label "ECA_T1"
-		(at 105.41 67.31 180)
+		(at 105.41 69.85 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -10753,7 +10753,7 @@
 		(uuid "e1ccb391-24de-4281-9dcd-f4b73927b161")
 	)
 	(label "OCM_T2"
-		(at 105.41 57.15 180)
+		(at 105.41 59.69 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -10786,7 +10786,7 @@
 		(uuid "e569c930-c0d7-450e-8cce-c090754704a2")
 	)
 	(label "DIAG_T1"
-		(at 21.59 125.73 0)
+		(at 21.59 123.19 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -10983,7 +10983,7 @@
 		(uuid "fbf2c97b-696d-4211-9f43-1d8d151d2937")
 	)
 	(label "OCM_T1"
-		(at 105.41 59.69 180)
+		(at 105.41 57.15 180)
 		(effects
 			(font
 				(face "KiCad Font")
