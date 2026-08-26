@@ -9,8 +9,8 @@
     <textvar name="COMPANY">Willas</textvar>
     <textvar name="DESIGNER">Damon</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">02a629b</textvar>
-    <textvar name="GIT_HASH_SCH">34041f4</textvar>
+    <textvar name="GIT_HASH_PCB">cc04374</textvar>
+    <textvar name="GIT_HASH_SCH">cc04374</textvar>
     <textvar name="GIT_URL">https://github.com/ducbin11903/MasterHand_Project_Kicad.git</textvar>
     <textvar name="PROJECT_NAME">Master Hand</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -18,8 +18,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">25-Aug-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-08-25</textvar>
+    <textvar name="RELEASE_DATE">26-Aug-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-08-26</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -711,13 +711,13 @@
     </comp>
     <comp ref="C5">
       <value>4.7uF 100V 1206</value>
-      <footprint>Duc_Library:C1206</footprint>
+      <footprint>Duc:C1206</footprint>
       <description>CAP CER 1206</description>
       <fields>
         <field name="Manufacturer"/>
         <field name="MPN">CC1206KKX7R9BB475</field>
         <field name="LCSC Part">C132170</field>
-        <field name="Footprint">Duc_Library:C1206</field>
+        <field name="Footprint">Duc:C1206</field>
         <field name="Datasheet"/>
         <field name="Description">CAP CER 1206</field>
       </fields>
@@ -733,13 +733,13 @@
     </comp>
     <comp ref="C6">
       <value>4.7uF 100V 1206</value>
-      <footprint>Duc_Library:C1206</footprint>
+      <footprint>Duc:C1206</footprint>
       <description>CAP CER 1206</description>
       <fields>
         <field name="Manufacturer"/>
         <field name="MPN">CC1206KKX7R9BB475</field>
         <field name="LCSC Part">C132170</field>
-        <field name="Footprint">Duc_Library:C1206</field>
+        <field name="Footprint">Duc:C1206</field>
         <field name="Datasheet"/>
         <field name="Description">CAP CER 1206</field>
       </fields>
@@ -801,13 +801,13 @@
     </comp>
     <comp ref="C9">
       <value>10uF 100V 1206</value>
-      <footprint>Duc_Library:C1206</footprint>
+      <footprint>Duc:C1206</footprint>
       <description>CAP CER 1206</description>
       <fields>
         <field name="Manufacturer"/>
         <field name="MPN">CC1206KKX7R9BB475</field>
         <field name="LCSC Part">C132170</field>
-        <field name="Footprint">Duc_Library:C1206</field>
+        <field name="Footprint">Duc:C1206</field>
         <field name="Datasheet"/>
         <field name="Description">CAP CER 1206</field>
       </fields>
@@ -823,13 +823,13 @@
     </comp>
     <comp ref="C10">
       <value>10uF 50V 1206</value>
-      <footprint>Duc_Library:C1206</footprint>
+      <footprint>Duc:C1206</footprint>
       <description>CAP CER 1206</description>
       <fields>
         <field name="Manufacturer"/>
         <field name="MPN">CC1206KKX7R9BB475</field>
         <field name="LCSC Part">C132170</field>
-        <field name="Footprint">Duc_Library:C1206</field>
+        <field name="Footprint">Duc:C1206</field>
         <field name="Datasheet"/>
         <field name="Description">CAP CER 1206</field>
       </fields>
@@ -845,13 +845,13 @@
     </comp>
     <comp ref="C11">
       <value>100nF 50V 1206</value>
-      <footprint>Duc_Library:C1206</footprint>
+      <footprint>Duc:C1206</footprint>
       <description>CAP CER 1206</description>
       <fields>
         <field name="Manufacturer"/>
         <field name="MPN">CC1206KKX7R9BB475</field>
         <field name="LCSC Part">C132170</field>
-        <field name="Footprint">Duc_Library:C1206</field>
+        <field name="Footprint">Duc:C1206</field>
         <field name="Datasheet"/>
         <field name="Description">CAP CER 1206</field>
       </fields>
@@ -890,13 +890,13 @@
     </comp>
     <comp ref="C13">
       <value>22uF 50V 1206</value>
-      <footprint>Duc_Library:C1206</footprint>
+      <footprint>Duc:C1206</footprint>
       <description>CAP CER 1206</description>
       <fields>
         <field name="Manufacturer"/>
         <field name="MPN">CC1206KKX7R9BB475</field>
         <field name="LCSC Part">C132170</field>
-        <field name="Footprint">Duc_Library:C1206</field>
+        <field name="Footprint">Duc:C1206</field>
         <field name="Datasheet"/>
         <field name="Description">CAP CER 1206</field>
       </fields>
@@ -912,13 +912,13 @@
     </comp>
     <comp ref="C16">
       <value>10uF 50V 1206</value>
-      <footprint>Duc_Library:C1206</footprint>
+      <footprint>Duc:C1206</footprint>
       <description>CAP CER 1206</description>
       <fields>
         <field name="Manufacturer"/>
         <field name="MPN">CC1206KKX7R9BB475</field>
         <field name="LCSC Part">C132170</field>
-        <field name="Footprint">Duc_Library:C1206</field>
+        <field name="Footprint">Duc:C1206</field>
         <field name="Datasheet"/>
         <field name="Description">CAP CER 1206</field>
       </fields>
@@ -934,13 +934,13 @@
     </comp>
     <comp ref="C17">
       <value>1uF 50V 1206</value>
-      <footprint>Duc_Library:C1206</footprint>
+      <footprint>Duc:C1206</footprint>
       <description>CAP CER 1206</description>
       <fields>
         <field name="Manufacturer"/>
         <field name="MPN">CC1206KKX7R9BB475</field>
         <field name="LCSC Part">C132170</field>
-        <field name="Footprint">Duc_Library:C1206</field>
+        <field name="Footprint">Duc:C1206</field>
         <field name="Datasheet"/>
         <field name="Description">CAP CER 1206</field>
       </fields>
@@ -956,13 +956,13 @@
     </comp>
     <comp ref="C18">
       <value>1uF 50V 1206</value>
-      <footprint>Duc_Library:C1206</footprint>
+      <footprint>Duc:C1206</footprint>
       <description>CAP CER 1206</description>
       <fields>
         <field name="Manufacturer"/>
         <field name="MPN">CC1206KKX7R9BB475</field>
         <field name="LCSC Part">C132170</field>
-        <field name="Footprint">Duc_Library:C1206</field>
+        <field name="Footprint">Duc:C1206</field>
         <field name="Datasheet"/>
         <field name="Description">CAP CER 1206</field>
       </fields>
@@ -980,14 +980,14 @@
       <value>25SVPF330M</value>
       <footprint>Duc:CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD</footprint>
       <datasheet>https://lcsc.com/product-detail/Solid-Polymer-Electrolytic-Capacitor_PANASONIC_25SVPF330M_330uF-25V_C178367.html</datasheet>
-      <description>330uF ±20% 25V</description>
+      <description>CAP ALUM POLY 330uF ±20% 25V SMD</description>
       <fields>
         <field name="Manufacturer">PANASONIC(松下)</field>
         <field name="MPN">25SVPF330M</field>
         <field name="LCSC Part">C178367</field>
         <field name="Footprint">Duc:CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Solid-Polymer-Electrolytic-Capacitor_PANASONIC_25SVPF330M_330uF-25V_C178367.html</field>
-        <field name="Description">330uF ±20% 25V</field>
+        <field name="Description">CAP ALUM POLY 330uF ±20% 25V SMD</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="25SVPF330M" description="CAP ALUM POLY 330uF ±20% 25V SMD"/>
       <property name="Manufacturer" value="PANASONIC(松下)"/>
@@ -1254,14 +1254,14 @@
     </comp>
     <comp ref="FB1">
       <value>1k @ 100MHz</value>
-      <footprint>Duc_Library:L0805</footprint>
+      <footprint>Duc:L0805</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C52178237.pdf</datasheet>
       <description>300mΩ 1 ±25% 1kΩ@100MHz 0805 Ferrite Beads and Chips RoHS</description>
       <fields>
         <field name="Manufacturer">PROD(谱罗德)</field>
         <field name="MPN">PBBHAQ2012H-102T10</field>
         <field name="LCSC Part">C52178237</field>
-        <field name="Footprint">Duc_Library:L0805</field>
+        <field name="Footprint">Duc:L0805</field>
         <field name="Datasheet">https://www.lcsc.com/datasheet/C52178237.pdf</field>
         <field name="Description">300mΩ 1 ±25% 1kΩ@100MHz 0805 Ferrite Beads and Chips RoHS</field>
       </fields>
@@ -1278,14 +1278,14 @@
       <value>ANR3015T2R2M</value>
       <footprint>Duc:IND-SMD_L3.0-W3.0_SMNR3015</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C6364793.pdf</datasheet>
-      <description>2.2uH 2A</description>
+      <description>FIXED IND 2.2uH 2A SMD,3x3mm</description>
       <fields>
         <field name="Manufacturer">APV(爱普微)</field>
         <field name="MPN">ANR3015T2R2M</field>
         <field name="LCSC Part">C6364793</field>
         <field name="Footprint">Duc:IND-SMD_L3.0-W3.0_SMNR3015</field>
         <field name="Datasheet">https://www.lcsc.com/datasheet/C6364793.pdf</field>
-        <field name="Description">2.2uH 2A</field>
+        <field name="Description">FIXED IND 2.2uH 2A SMD,3x3mm</field>
       </fields>
       <libsource lib="Duc-Inductors" part="ANR3015T2R2M" description="FIXED IND 2.2uH 2A SMD,3x3mm"/>
       <property name="Manufacturer" value="APV(爱普微)"/>
@@ -1431,10 +1431,10 @@
     </comp>
     <comp ref="TP1">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -1448,10 +1448,10 @@
     </comp>
     <comp ref="TP2">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -1465,10 +1465,10 @@
     </comp>
     <comp ref="TP3">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -1482,10 +1482,10 @@
     </comp>
     <comp ref="TP4">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -1499,10 +1499,10 @@
     </comp>
     <comp ref="TP5">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -1516,10 +1516,10 @@
     </comp>
     <comp ref="TP6">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -1533,10 +1533,10 @@
     </comp>
     <comp ref="TP7">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -1550,10 +1550,10 @@
     </comp>
     <comp ref="TP8">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -1567,14 +1567,14 @@
     </comp>
     <comp ref="U3">
       <value>TPSM63603RDHR</value>
-      <footprint>Duc_Library:QFN-30_L6.0-W4.0-P0.50_TLVM13630RDHR</footprint>
+      <footprint>Duc:QFN-30_L6.0-W4.0-P0.50_TLVM13630RDHR</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C5219327.pdf</datasheet>
       <description>Power module with 3V to 36V input  1V to 16V output and 3A current</description>
       <fields>
         <field name="Manufacturer">TI(德州仪器)</field>
         <field name="MPN">TPSM63603RDHR</field>
         <field name="LCSC Part">C5219327</field>
-        <field name="Footprint">Duc_Library:QFN-30_L6.0-W4.0-P0.50_TLVM13630RDHR</field>
+        <field name="Footprint">Duc:QFN-30_L6.0-W4.0-P0.50_TLVM13630RDHR</field>
         <field name="Datasheet">https://www.lcsc.com/datasheet/C5219327.pdf</field>
         <field name="Description">Power module with 3V to 36V input  1V to 16V output and 3A current</field>
       </fields>
@@ -2050,18 +2050,18 @@
     </comp>
     <comp ref="L2">
       <value>PBBHAQ2012H-102T10</value>
-      <footprint>Duc_Library:L0805</footprint>
+      <footprint>Duc:L0805</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C52178237.pdf</datasheet>
-      <description>300m? 1 �25% 1k?@100MHz 0805 Ferrite Beads and Chips RoHS</description>
+      <description>300mΩ 1 ±25% 1kΩ@100MHz 0805 Ferrite Beads and Chips RoHS</description>
       <fields>
         <field name="Manufacturer">PROD(谱罗德)</field>
         <field name="MPN">PBBHAQ2012H-102T10</field>
         <field name="LCSC Part">C52178237</field>
-        <field name="Footprint">Duc_Library:L0805</field>
+        <field name="Footprint">Duc:L0805</field>
         <field name="Datasheet">https://www.lcsc.com/datasheet/C52178237.pdf</field>
-        <field name="Description">300m? 1 �25% 1k?@100MHz 0805 Ferrite Beads and Chips RoHS</field>
+        <field name="Description">300mΩ 1 ±25% 1kΩ@100MHz 0805 Ferrite Beads and Chips RoHS</field>
       </fields>
-      <libsource lib="Duc_Library" part="PBBHAQ2012H-102T10" description="300m? 1 �25% 1k?@100MHz 0805 Ferrite Beads and Chips RoHS"/>
+      <libsource lib="Duc-Inductors" part="PBBHAQ2012H-102T10" description="300mΩ 1 ±25% 1kΩ@100MHz 0805 Ferrite Beads and Chips RoHS"/>
       <property name="Manufacturer" value="PROD(谱罗德)"/>
       <property name="MPN" value="PBBHAQ2012H-102T10"/>
       <property name="LCSC Part" value="C52178237"/>
@@ -2072,18 +2072,18 @@
     </comp>
     <comp ref="L3">
       <value>PBBHAQ2012H-102T10</value>
-      <footprint>Duc_Library:L0805</footprint>
+      <footprint>Duc:L0805</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C52178237.pdf</datasheet>
-      <description>300m? 1 �25% 1k?@100MHz 0805 Ferrite Beads and Chips RoHS</description>
+      <description>300mΩ 1 ±25% 1kΩ@100MHz 0805 Ferrite Beads and Chips RoHS</description>
       <fields>
         <field name="Manufacturer">PROD(谱罗德)</field>
         <field name="MPN">PBBHAQ2012H-102T10</field>
         <field name="LCSC Part">C52178237</field>
-        <field name="Footprint">Duc_Library:L0805</field>
+        <field name="Footprint">Duc:L0805</field>
         <field name="Datasheet">https://www.lcsc.com/datasheet/C52178237.pdf</field>
-        <field name="Description">300m? 1 �25% 1k?@100MHz 0805 Ferrite Beads and Chips RoHS</field>
+        <field name="Description">300mΩ 1 ±25% 1kΩ@100MHz 0805 Ferrite Beads and Chips RoHS</field>
       </fields>
-      <libsource lib="Duc_Library" part="PBBHAQ2012H-102T10" description="300m? 1 �25% 1k?@100MHz 0805 Ferrite Beads and Chips RoHS"/>
+      <libsource lib="Duc-Inductors" part="PBBHAQ2012H-102T10" description="300mΩ 1 ±25% 1kΩ@100MHz 0805 Ferrite Beads and Chips RoHS"/>
       <property name="Manufacturer" value="PROD(谱罗德)"/>
       <property name="MPN" value="PBBHAQ2012H-102T10"/>
       <property name="LCSC Part" value="C52178237"/>
@@ -2094,14 +2094,14 @@
     </comp>
     <comp ref="U6">
       <value>STM32G474RET6</value>
-      <footprint>Duc_Library:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL</footprint>
+      <footprint>Duc:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL</footprint>
       <datasheet>https://lcsc.com/product-detail/No-specification-for-star-making-plan_STMicroelectronics-STM32G474RET6_C521608.html</datasheet>
       <description>Arm Cortex-M4 32-bit MCU+FPU, 170 MHz / 213 DMIPS, 128 KB SRAM, rich analog, math acc, 184 ps 12 chan Hi-res timer</description>
       <fields>
         <field name="Manufacturer">ST(意法半导体)</field>
         <field name="MPN">STM32G474RET6</field>
         <field name="LCSC Part">C521608</field>
-        <field name="Footprint">Duc_Library:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL</field>
+        <field name="Footprint">Duc:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL</field>
         <field name="Datasheet">https://lcsc.com/product-detail/No-specification-for-star-making-plan_STMicroelectronics-STM32G474RET6_C521608.html</field>
         <field name="Description">Arm Cortex-M4 32-bit MCU+FPU, 170 MHz / 213 DMIPS, 128 KB SRAM, rich analog, math acc, 184 ps 12 chan Hi-res timer</field>
       </fields>
@@ -2117,14 +2117,14 @@
     </comp>
     <comp ref="U7">
       <value>STM32G474RET6</value>
-      <footprint>Duc_Library:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL</footprint>
+      <footprint>Duc:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL</footprint>
       <datasheet>https://lcsc.com/product-detail/No-specification-for-star-making-plan_STMicroelectronics-STM32G474RET6_C521608.html</datasheet>
       <description>Arm Cortex-M4 32-bit MCU+FPU, 170 MHz / 213 DMIPS, 128 KB SRAM, rich analog, math acc, 184 ps 12 chan Hi-res timer</description>
       <fields>
         <field name="Manufacturer">ST(意法半导体)</field>
         <field name="MPN">STM32G474RET6</field>
         <field name="LCSC Part">C521608</field>
-        <field name="Footprint">Duc_Library:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL</field>
+        <field name="Footprint">Duc:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL</field>
         <field name="Datasheet">https://lcsc.com/product-detail/No-specification-for-star-making-plan_STMicroelectronics-STM32G474RET6_C521608.html</field>
         <field name="Description">Arm Cortex-M4 32-bit MCU+FPU, 170 MHz / 213 DMIPS, 128 KB SRAM, rich analog, math acc, 184 ps 12 chan Hi-res timer</field>
       </fields>
@@ -2232,10 +2232,10 @@
     </comp>
     <comp ref="TP9">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2249,10 +2249,10 @@
     </comp>
     <comp ref="TP10">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2266,10 +2266,10 @@
     </comp>
     <comp ref="TP11">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2283,10 +2283,10 @@
     </comp>
     <comp ref="TP12">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2300,10 +2300,10 @@
     </comp>
     <comp ref="TP13">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2317,10 +2317,10 @@
     </comp>
     <comp ref="TP14">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2334,10 +2334,10 @@
     </comp>
     <comp ref="TP15">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2351,10 +2351,10 @@
     </comp>
     <comp ref="TP16">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2368,10 +2368,10 @@
     </comp>
     <comp ref="TP17">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2385,10 +2385,10 @@
     </comp>
     <comp ref="TP18">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2402,10 +2402,10 @@
     </comp>
     <comp ref="TP19">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2419,10 +2419,10 @@
     </comp>
     <comp ref="TP20">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2436,10 +2436,10 @@
     </comp>
     <comp ref="TP21">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2453,10 +2453,10 @@
     </comp>
     <comp ref="TP22">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2470,10 +2470,10 @@
     </comp>
     <comp ref="TP23">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2487,10 +2487,10 @@
     </comp>
     <comp ref="TP24">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2504,10 +2504,10 @@
     </comp>
     <comp ref="TP25">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2521,10 +2521,10 @@
     </comp>
     <comp ref="TP26">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2538,10 +2538,10 @@
     </comp>
     <comp ref="TP27">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2555,10 +2555,10 @@
     </comp>
     <comp ref="TP28">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2572,10 +2572,10 @@
     </comp>
     <comp ref="TP29">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2589,10 +2589,10 @@
     </comp>
     <comp ref="TP30">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2606,10 +2606,10 @@
     </comp>
     <comp ref="TP31">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2623,10 +2623,10 @@
     </comp>
     <comp ref="TP32">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2640,10 +2640,10 @@
     </comp>
     <comp ref="TP33">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2657,10 +2657,10 @@
     </comp>
     <comp ref="TP34">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2674,10 +2674,10 @@
     </comp>
     <comp ref="TP35">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2691,10 +2691,10 @@
     </comp>
     <comp ref="TP36">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2708,10 +2708,10 @@
     </comp>
     <comp ref="TP37">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2725,10 +2725,10 @@
     </comp>
     <comp ref="TP38">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2742,10 +2742,10 @@
     </comp>
     <comp ref="TP39">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2759,10 +2759,10 @@
     </comp>
     <comp ref="TP40">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2776,10 +2776,10 @@
     </comp>
     <comp ref="TP41">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2793,10 +2793,10 @@
     </comp>
     <comp ref="TP42">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2810,10 +2810,10 @@
     </comp>
     <comp ref="TP43">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2827,10 +2827,10 @@
     </comp>
     <comp ref="TP44">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2844,10 +2844,10 @@
     </comp>
     <comp ref="TP45">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2861,10 +2861,10 @@
     </comp>
     <comp ref="TP46">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2878,10 +2878,10 @@
     </comp>
     <comp ref="TP47">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2895,10 +2895,10 @@
     </comp>
     <comp ref="TP48">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2912,10 +2912,10 @@
     </comp>
     <comp ref="TP49">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2929,10 +2929,10 @@
     </comp>
     <comp ref="TP50">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2946,10 +2946,10 @@
     </comp>
     <comp ref="TP51">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2963,10 +2963,10 @@
     </comp>
     <comp ref="TP52">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2980,10 +2980,10 @@
     </comp>
     <comp ref="TP53">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -2997,10 +2997,10 @@
     </comp>
     <comp ref="TP54">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3014,10 +3014,10 @@
     </comp>
     <comp ref="TP55">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3031,10 +3031,10 @@
     </comp>
     <comp ref="TP56">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3048,10 +3048,10 @@
     </comp>
     <comp ref="TP57">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3065,10 +3065,10 @@
     </comp>
     <comp ref="TP58">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3082,10 +3082,10 @@
     </comp>
     <comp ref="TP59">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3099,10 +3099,10 @@
     </comp>
     <comp ref="TP60">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3116,10 +3116,10 @@
     </comp>
     <comp ref="TP61">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3133,10 +3133,10 @@
     </comp>
     <comp ref="TP62">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3150,10 +3150,10 @@
     </comp>
     <comp ref="TP63">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3167,10 +3167,10 @@
     </comp>
     <comp ref="TP64">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3184,10 +3184,10 @@
     </comp>
     <comp ref="TP65">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3201,10 +3201,10 @@
     </comp>
     <comp ref="TP66">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3218,10 +3218,10 @@
     </comp>
     <comp ref="TP67">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3235,10 +3235,10 @@
     </comp>
     <comp ref="TP68">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3252,10 +3252,10 @@
     </comp>
     <comp ref="TP69">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3269,10 +3269,10 @@
     </comp>
     <comp ref="TP70">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3286,10 +3286,10 @@
     </comp>
     <comp ref="TP71">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3303,10 +3303,10 @@
     </comp>
     <comp ref="TP72">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3320,10 +3320,10 @@
     </comp>
     <comp ref="TP73">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3337,10 +3337,10 @@
     </comp>
     <comp ref="TP74">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3354,10 +3354,10 @@
     </comp>
     <comp ref="TP75">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3371,10 +3371,10 @@
     </comp>
     <comp ref="TP76">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3388,10 +3388,10 @@
     </comp>
     <comp ref="TP77">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3405,10 +3405,10 @@
     </comp>
     <comp ref="TP78">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3422,10 +3422,10 @@
     </comp>
     <comp ref="TP79">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3439,10 +3439,10 @@
     </comp>
     <comp ref="TP80">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3456,10 +3456,10 @@
     </comp>
     <comp ref="TP81">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3473,10 +3473,10 @@
     </comp>
     <comp ref="TP82">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3490,10 +3490,10 @@
     </comp>
     <comp ref="TP83">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3507,10 +3507,10 @@
     </comp>
     <comp ref="TP84">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3524,10 +3524,10 @@
     </comp>
     <comp ref="TP85">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3541,10 +3541,10 @@
     </comp>
     <comp ref="TP86">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3558,10 +3558,10 @@
     </comp>
     <comp ref="TP87">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3575,10 +3575,10 @@
     </comp>
     <comp ref="TP88">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3592,10 +3592,10 @@
     </comp>
     <comp ref="TP89">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3609,10 +3609,10 @@
     </comp>
     <comp ref="TP90">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3626,10 +3626,10 @@
     </comp>
     <comp ref="TP91">
       <value>~</value>
-      <footprint>Duc_Library:TestPoint_Pad_D0.5mm</footprint>
+      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
       <description>Test Point Pad D0.5mm</description>
       <fields>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -3982,14 +3982,14 @@
     </comp>
     <comp ref="U8">
       <value>TB9051FTG,EL</value>
-      <footprint>Duc_Library:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</footprint>
+      <footprint>Duc:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C2150635.pdf</datasheet>
       <description>UQFN-28-EP(6x6) Motor Drivers, Controllers RoHS</description>
       <fields>
         <field name="Manufacturer">TOSHIBA(东芝)</field>
         <field name="MPN">TB9051FTG,EL</field>
         <field name="LCSC Part">C2150635</field>
-        <field name="Footprint">Duc_Library:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</field>
+        <field name="Footprint">Duc:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</field>
         <field name="Datasheet">https://www.lcsc.com/datasheet/C2150635.pdf</field>
         <field name="Description">UQFN-28-EP(6x6) Motor Drivers, Controllers RoHS</field>
       </fields>
@@ -4298,14 +4298,14 @@
     </comp>
     <comp ref="U9">
       <value>TB9051FTG,EL</value>
-      <footprint>Duc_Library:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</footprint>
+      <footprint>Duc:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C2150635.pdf</datasheet>
       <description>UQFN-28-EP(6x6) Motor Drivers, Controllers RoHS</description>
       <fields>
         <field name="Manufacturer">TOSHIBA(东芝)</field>
         <field name="MPN">TB9051FTG,EL</field>
         <field name="LCSC Part">C2150635</field>
-        <field name="Footprint">Duc_Library:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</field>
+        <field name="Footprint">Duc:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</field>
         <field name="Datasheet">https://www.lcsc.com/datasheet/C2150635.pdf</field>
         <field name="Description">UQFN-28-EP(6x6) Motor Drivers, Controllers RoHS</field>
       </fields>
@@ -4614,14 +4614,14 @@
     </comp>
     <comp ref="U10">
       <value>TB9051FTG,EL</value>
-      <footprint>Duc_Library:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</footprint>
+      <footprint>Duc:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C2150635.pdf</datasheet>
       <description>UQFN-28-EP(6x6) Motor Drivers, Controllers RoHS</description>
       <fields>
         <field name="Manufacturer">TOSHIBA(东芝)</field>
         <field name="MPN">TB9051FTG,EL</field>
         <field name="LCSC Part">C2150635</field>
-        <field name="Footprint">Duc_Library:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</field>
+        <field name="Footprint">Duc:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</field>
         <field name="Datasheet">https://www.lcsc.com/datasheet/C2150635.pdf</field>
         <field name="Description">UQFN-28-EP(6x6) Motor Drivers, Controllers RoHS</field>
       </fields>
@@ -4930,14 +4930,14 @@
     </comp>
     <comp ref="U11">
       <value>TB9051FTG,EL</value>
-      <footprint>Duc_Library:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</footprint>
+      <footprint>Duc:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C2150635.pdf</datasheet>
       <description>UQFN-28-EP(6x6) Motor Drivers, Controllers RoHS</description>
       <fields>
         <field name="Manufacturer">TOSHIBA(东芝)</field>
         <field name="MPN">TB9051FTG,EL</field>
         <field name="LCSC Part">C2150635</field>
-        <field name="Footprint">Duc_Library:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</field>
+        <field name="Footprint">Duc:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</field>
         <field name="Datasheet">https://www.lcsc.com/datasheet/C2150635.pdf</field>
         <field name="Description">UQFN-28-EP(6x6) Motor Drivers, Controllers RoHS</field>
       </fields>
@@ -5246,14 +5246,14 @@
     </comp>
     <comp ref="U12">
       <value>TB9051FTG,EL</value>
-      <footprint>Duc_Library:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</footprint>
+      <footprint>Duc:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C2150635.pdf</datasheet>
       <description>UQFN-28-EP(6x6) Motor Drivers, Controllers RoHS</description>
       <fields>
         <field name="Manufacturer">TOSHIBA(东芝)</field>
         <field name="MPN">TB9051FTG,EL</field>
         <field name="LCSC Part">C2150635</field>
-        <field name="Footprint">Duc_Library:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</field>
+        <field name="Footprint">Duc:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</field>
         <field name="Datasheet">https://www.lcsc.com/datasheet/C2150635.pdf</field>
         <field name="Description">UQFN-28-EP(6x6) Motor Drivers, Controllers RoHS</field>
       </fields>
@@ -5562,14 +5562,14 @@
     </comp>
     <comp ref="U13">
       <value>TB9051FTG,EL</value>
-      <footprint>Duc_Library:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</footprint>
+      <footprint>Duc:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C2150635.pdf</datasheet>
       <description>UQFN-28-EP(6x6) Motor Drivers, Controllers RoHS</description>
       <fields>
         <field name="Manufacturer">TOSHIBA(东芝)</field>
         <field name="MPN">TB9051FTG,EL</field>
         <field name="LCSC Part">C2150635</field>
-        <field name="Footprint">Duc_Library:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</field>
+        <field name="Footprint">Duc:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</field>
         <field name="Datasheet">https://www.lcsc.com/datasheet/C2150635.pdf</field>
         <field name="Description">UQFN-28-EP(6x6) Motor Drivers, Controllers RoHS</field>
       </fields>
@@ -5801,7 +5801,7 @@
         <field name="Datasheet">https://www.lcsc.com/datasheet/C2827654.pdf</field>
         <field name="Description">ESD DIODE 5VWM 12VC SOT-23-6</field>
       </fields>
-      <libsource lib="Duc-Diodes" part="USBLC6-2SC6" description="ESD DIODE 5VWM 12VC SOT-23-6"/>
+      <libsource lib="" part="USBLC6-2SC6_1" description="ESD DIODE 5VWM 12VC SOT-23-6"/>
       <property name="Manufacturer" value="TECH PUBLIC(台舟)"/>
       <property name="MPN" value="USBLC6-2SC6"/>
       <property name="LCSC Part" value="C2827654"/>
@@ -6191,28 +6191,6 @@
       <sheetpath names="/Project Architecture/Interface - FD-CAN/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f2e2e46b-bf48-4385-80eb-484ec861c9a9/"/>
       <tstamps>ccd00dd9-6a40-4977-8acc-9fe16b4dd28c</tstamps>
     </comp>
-    <comp ref="R54">
-      <value>10K 0.1% 0603</value>
-      <footprint>Duc:R0603</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
-      <description>RES SMD 0603</description>
-      <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">RT0603FRE13100KL</field>
-        <field name="LCSC Part">C4107493</field>
-        <field name="Footprint">Duc:R0603</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
-        <field name="Description">RES SMD 0603</field>
-      </fields>
-      <libsource lib="Duc-Resistors" part="RES SMD 0603" description="RES SMD 0603"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="RT0603FRE13100KL"/>
-      <property name="LCSC Part" value="C4107493"/>
-      <property name="Sheetname" value="Interface - FD-CAN"/>
-      <property name="Sheetfile" value="Interface - FD-CAN.kicad_sch"/>
-      <sheetpath names="/Project Architecture/Interface - FD-CAN/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f2e2e46b-bf48-4385-80eb-484ec861c9a9/"/>
-      <tstamps>57aaca3e-da88-4e2c-8de7-6abbb1cc92ad</tstamps>
-    </comp>
     <comp ref="R55">
       <value>10K 0.1% 0603</value>
       <footprint>Duc:R0603</footprint>
@@ -6234,28 +6212,6 @@
       <property name="Sheetfile" value="Interface - FD-CAN.kicad_sch"/>
       <sheetpath names="/Project Architecture/Interface - FD-CAN/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f2e2e46b-bf48-4385-80eb-484ec861c9a9/"/>
       <tstamps>04baa75a-aeae-441b-9856-6c368206852a</tstamps>
-    </comp>
-    <comp ref="R56">
-      <value>10K 0.1% 0603</value>
-      <footprint>Duc:R0603</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
-      <description>RES SMD 0603</description>
-      <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">RT0603FRE13100KL</field>
-        <field name="LCSC Part">C4107493</field>
-        <field name="Footprint">Duc:R0603</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
-        <field name="Description">RES SMD 0603</field>
-      </fields>
-      <libsource lib="Duc-Resistors" part="RES SMD 0603" description="RES SMD 0603"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="RT0603FRE13100KL"/>
-      <property name="LCSC Part" value="C4107493"/>
-      <property name="Sheetname" value="Interface - FD-CAN"/>
-      <property name="Sheetfile" value="Interface - FD-CAN.kicad_sch"/>
-      <sheetpath names="/Project Architecture/Interface - FD-CAN/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f2e2e46b-bf48-4385-80eb-484ec861c9a9/"/>
-      <tstamps>6a1016ef-d872-4945-899b-ae1daf91df8b</tstamps>
     </comp>
     <comp ref="U14">
       <value>TJA1051T/3</value>
@@ -7660,6 +7616,28 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="" part="USBLC6-2SC6_1">
+      <description>ESD DIODE 5VWM 12VC SOT-23-6</description>
+      <docs>https://www.lcsc.com/datasheet/C2827654.pdf</docs>
+      <fields>
+        <field name="Reference">D7</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">Duc:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C2827654.pdf</field>
+        <field name="Description">ESD DIODE 5VWM 12VC SOT-23-6</field>
+        <field name="Manufacturer">TECH PUBLIC(台舟)</field>
+        <field name="MPN">USBLC6-2SC6</field>
+        <field name="LCSC Part">C2827654</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IO1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="IO2" type="passive"/>
+        <pin num="4" name="IO2" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="IO1" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Duc-Capacitors" part="25SVPF330M">
       <description>CAP ALUM POLY 330uF ±20% 25V SMD</description>
       <docs>https://lcsc.com/product-detail/Solid-Polymer-Electrolytic-Capacitor_PANASONIC_25SVPF330M_330uF-25V_C178367.html</docs>
@@ -7718,7 +7696,7 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">CAP CER 1206</field>
-        <field name="Footprint">Duc_Library:C1206</field>
+        <field name="Footprint">Duc:C1206</field>
         <field name="Datasheet"/>
         <field name="Description">CAP CER 1206</field>
         <field name="Manufacturer"/>
@@ -8051,7 +8029,7 @@
       <fields>
         <field name="Reference">U</field>
         <field name="Value">TB9051FTG,EL</field>
-        <field name="Footprint">Duc_Library:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</field>
+        <field name="Footprint">Duc:UQFN-28_L6.0-W6.0-P0.65-BL-EP4.0</field>
         <field name="Datasheet">https://www.lcsc.com/datasheet/C2150635.pdf</field>
         <field name="Description">UQFN-28-EP(6x6) Motor Drivers, Controllers RoHS</field>
         <field name="Manufacturer">TOSHIBA(东芝)</field>
@@ -8138,7 +8116,7 @@
       <fields>
         <field name="Reference">FB</field>
         <field name="Value">1k @ 100MHz</field>
-        <field name="Footprint">Duc_Library:L0805</field>
+        <field name="Footprint">Duc:L0805</field>
         <field name="Datasheet">https://www.lcsc.com/datasheet/C52178237.pdf</field>
         <field name="Description">300mΩ 1 ±25% 1kΩ@100MHz 0805 Ferrite Beads and Chips RoHS</field>
         <field name="Manufacturer">PROD(谱罗德)</field>
@@ -8156,7 +8134,7 @@
       <fields>
         <field name="Reference">U</field>
         <field name="Value">STM32G474RET6</field>
-        <field name="Footprint">Duc_Library:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL</field>
+        <field name="Footprint">Duc:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL</field>
         <field name="Datasheet">https://lcsc.com/product-detail/No-specification-for-star-making-plan_STMicroelectronics-STM32G474RET6_C521608.html</field>
         <field name="Description">Arm Cortex-M4 32-bit MCU+FPU, 170 MHz / 213 DMIPS, 128 KB SRAM, rich analog, math acc, 184 ps 12 chan Hi-res timer</field>
         <field name="Manufacturer">ST(意法半导体)</field>
@@ -8344,7 +8322,7 @@
       <fields>
         <field name="Reference">U</field>
         <field name="Value">TPSM63603RDHR</field>
-        <field name="Footprint">Duc_Library:QFN-30_L6.0-W4.0-P0.50_TLVM13630RDHR</field>
+        <field name="Footprint">Duc:QFN-30_L6.0-W4.0-P0.50_TLVM13630RDHR</field>
         <field name="Datasheet">https://www.lcsc.com/datasheet/C5219327.pdf</field>
         <field name="Description">Power module with 3V to 36V input  1V to 16V output and 3A current</field>
         <field name="Manufacturer">TI(德州仪器)</field>
@@ -8478,24 +8456,6 @@
         <pin num="3" name="S" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Duc_Library" part="PBBHAQ2012H-102T10">
-      <description>300m? 1 �25% 1k?@100MHz 0805 Ferrite Beads and Chips RoHS</description>
-      <docs>https://www.lcsc.com/datasheet/C52178237.pdf</docs>
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">PBBHAQ2012H-102T10</field>
-        <field name="Footprint">Duc_Library:L0805</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C52178237.pdf</field>
-        <field name="Description">300m? 1 �25% 1k?@100MHz 0805 Ferrite Beads and Chips RoHS</field>
-        <field name="Manufacturer">PROD(谱罗德)</field>
-        <field name="MPN">PBBHAQ2012H-102T10</field>
-        <field name="LCSC Part">C52178237</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Power_symbols" part="Fiducial">
       <description>Fiducial Markers</description>
       <fields>
@@ -8528,7 +8488,7 @@
       <fields>
         <field name="Reference">TP</field>
         <field name="Value"/>
-        <field name="Footprint">Duc_Library:TestPoint_Pad_D0.5mm</field>
+        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Test Point Pad D0.5mm</field>
       </fields>
@@ -8738,35 +8698,35 @@
     </net>
     <net code="5" name="/Project Architecture/Interface - FD-CAN/FDCAN1_RX" class="Default">
       <node ref="TP31" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U14" pin="4" pinfunction="RXD" pintype="passive"/>
+      <node ref="U15" pin="4" pinfunction="RXD" pintype="passive"/>
       <node ref="U6" pin="34" pinfunction="PB12" pintype="passive"/>
     </net>
     <net code="6" name="/Project Architecture/Interface - FD-CAN/FDCAN1_TX" class="Default">
-      <node ref="R53" pin="1" pintype="passive"/>
+      <node ref="R55" pin="1" pintype="passive"/>
       <node ref="TP29" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U14" pin="1" pinfunction="TXD" pintype="passive"/>
+      <node ref="U15" pin="1" pinfunction="TXD" pintype="passive"/>
       <node ref="U6" pin="35" pinfunction="PB13" pintype="passive"/>
     </net>
     <net code="7" name="/Project Architecture/Interface - FD-CAN/FDCAN2_RX" class="Default">
       <node ref="TP36" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U15" pin="4" pinfunction="RXD" pintype="passive"/>
+      <node ref="U14" pin="4" pinfunction="RXD" pintype="passive"/>
       <node ref="U7" pin="34" pinfunction="PB12" pintype="passive"/>
     </net>
     <net code="8" name="/Project Architecture/Interface - FD-CAN/FDCAN2_TX" class="Default">
-      <node ref="R55" pin="1" pintype="passive"/>
+      <node ref="R53" pin="1" pintype="passive"/>
       <node ref="TP34" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U15" pin="1" pinfunction="TXD" pintype="passive"/>
+      <node ref="U14" pin="1" pinfunction="TXD" pintype="passive"/>
       <node ref="U7" pin="35" pinfunction="PB13" pintype="passive"/>
     </net>
     <net code="9" name="/Project Architecture/Interface - FD-CAN/FDCAN_N" class="Default">
-      <node ref="D8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J11" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R60" pin="1" pintype="passive"/>
       <node ref="U14" pin="6" pinfunction="CANL" pintype="passive"/>
       <node ref="U15" pin="6" pinfunction="CANL" pintype="passive"/>
     </net>
     <net code="10" name="/Project Architecture/Interface - FD-CAN/FDCAN_P" class="Default">
-      <node ref="D8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="J11" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="R59" pin="2" pintype="passive"/>
       <node ref="U14" pin="7" pinfunction="CANH" pintype="passive"/>
@@ -8834,23 +8794,23 @@
       <node ref="J12" pin="18" pinfunction="18" pintype="passive"/>
       <node ref="J13" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="28" name="/Project Architecture/Interface - USB 2.0/USB-DM_1" class="Default">
+    <net code="28" name="/Project Architecture/Interface - USB 2.0/USB1_N" class="Default">
       <node ref="D4" pin="6" pinfunction="IO1" pintype="passive"/>
       <node ref="TP66" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U6" pin="45" pinfunction="PA11" pintype="passive"/>
     </net>
-    <net code="29" name="/Project Architecture/Interface - USB 2.0/USB-DM_2" class="Default">
-      <node ref="D7" pin="6" pinfunction="IO1" pintype="passive"/>
-      <node ref="TP71" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="45" pinfunction="PA11" pintype="passive"/>
-    </net>
-    <net code="30" name="/Project Architecture/Interface - USB 2.0/USB-DP_1" class="Default">
+    <net code="29" name="/Project Architecture/Interface - USB 2.0/USB1_P" class="Default">
       <node ref="D4" pin="4" pinfunction="IO2" pintype="passive"/>
       <node ref="TP64" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U6" pin="46" pinfunction="PA12" pintype="passive"/>
     </net>
-    <net code="31" name="/Project Architecture/Interface - USB 2.0/USB-DP_2" class="Default">
+    <net code="30" name="/Project Architecture/Interface - USB 2.0/USB2_N" class="Default">
       <node ref="D7" pin="4" pinfunction="IO2" pintype="passive"/>
+      <node ref="TP71" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U7" pin="45" pinfunction="PA11" pintype="passive"/>
+    </net>
+    <net code="31" name="/Project Architecture/Interface - USB 2.0/USB2_P" class="Default">
+      <node ref="D7" pin="6" pinfunction="IO1" pintype="passive"/>
       <node ref="TP69" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U7" pin="46" pinfunction="PA12" pintype="passive"/>
     </net>
@@ -8939,17 +8899,17 @@
     <net code="48" name="/Project Architecture/MCU - IOs/ECA_M" class="Default">
       <node ref="J4" pin="6" pinfunction="6" pintype="passive"/>
       <node ref="TP32" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="12" pinfunction="PA0" pintype="passive"/>
+      <node ref="U7" pin="13" pinfunction="PA1" pintype="passive"/>
     </net>
     <net code="49" name="/Project Architecture/MCU - IOs/ECA_P" class="Default">
       <node ref="J6" pin="6" pinfunction="6" pintype="passive"/>
       <node ref="TP62" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="38" pinfunction="PC6" pintype="passive"/>
+      <node ref="U7" pin="39" pinfunction="PC7" pintype="passive"/>
     </net>
     <net code="50" name="/Project Architecture/MCU - IOs/ECA_R" class="Default">
       <node ref="J5" pin="6" pinfunction="6" pintype="passive"/>
       <node ref="TP47" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="20" pinfunction="PA6" pintype="passive"/>
+      <node ref="U7" pin="21" pinfunction="PA7" pintype="passive"/>
     </net>
     <net code="51" name="/Project Architecture/MCU - IOs/ECA_T1" class="Default">
       <node ref="J7" pin="6" pinfunction="6" pintype="passive"/>
@@ -8969,17 +8929,17 @@
     <net code="54" name="/Project Architecture/MCU - IOs/ECB_M" class="Default">
       <node ref="J4" pin="7" pinfunction="7" pintype="passive"/>
       <node ref="TP33" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="13" pinfunction="PA1" pintype="passive"/>
+      <node ref="U7" pin="12" pinfunction="PA0" pintype="passive"/>
     </net>
     <net code="55" name="/Project Architecture/MCU - IOs/ECB_P" class="Default">
       <node ref="J6" pin="7" pinfunction="7" pintype="passive"/>
       <node ref="TP63" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="39" pinfunction="PC7" pintype="passive"/>
+      <node ref="U7" pin="38" pinfunction="PC6" pintype="passive"/>
     </net>
     <net code="56" name="/Project Architecture/MCU - IOs/ECB_R" class="Default">
       <node ref="J5" pin="7" pinfunction="7" pintype="passive"/>
       <node ref="TP49" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="21" pinfunction="PA7" pintype="passive"/>
+      <node ref="U7" pin="20" pinfunction="PA6" pintype="passive"/>
     </net>
     <net code="57" name="/Project Architecture/MCU - IOs/ECB_T1" class="Default">
       <node ref="J7" pin="7" pinfunction="7" pintype="passive"/>
@@ -9189,12 +9149,12 @@
     </net>
     <net code="95" name="/Project Architecture/MCU - IOs/PWMA_I" class="Default">
       <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="36" pinfunction="PB14" pintype="passive"/>
+      <node ref="U6" pin="37" pinfunction="PB15" pintype="passive"/>
       <node ref="U8" pin="8" pinfunction="PWM1" pintype="passive"/>
     </net>
     <net code="96" name="/Project Architecture/MCU - IOs/PWMA_M" class="Default">
       <node ref="TP23" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="8" pinfunction="PC0" pintype="passive"/>
+      <node ref="U7" pin="9" pinfunction="PC1" pintype="passive"/>
       <node ref="U9" pin="8" pinfunction="PWM1" pintype="passive"/>
     </net>
     <net code="97" name="/Project Architecture/MCU - IOs/PWMA_P" class="Default">
@@ -9205,7 +9165,7 @@
     <net code="98" name="/Project Architecture/MCU - IOs/PWMA_R" class="Default">
       <node ref="TP37" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U10" pin="8" pinfunction="PWM1" pintype="passive"/>
-      <node ref="U7" pin="10" pinfunction="PC2" pintype="passive"/>
+      <node ref="U7" pin="11" pinfunction="PC3" pintype="passive"/>
     </net>
     <net code="99" name="/Project Architecture/MCU - IOs/PWMA_T1" class="Default">
       <node ref="TP68" pin="1" pinfunction="1" pintype="passive"/>
@@ -9219,12 +9179,12 @@
     </net>
     <net code="101" name="/Project Architecture/MCU - IOs/PWMB_I" class="Default">
       <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="37" pinfunction="PB15" pintype="passive"/>
+      <node ref="U6" pin="36" pinfunction="PB14" pintype="passive"/>
       <node ref="U8" pin="9" pinfunction="PWM2" pintype="passive"/>
     </net>
     <net code="102" name="/Project Architecture/MCU - IOs/PWMB_M" class="Default">
       <node ref="TP25" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="9" pinfunction="PC1" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="PC0" pintype="passive"/>
       <node ref="U9" pin="9" pinfunction="PWM2" pintype="passive"/>
     </net>
     <net code="103" name="/Project Architecture/MCU - IOs/PWMB_P" class="Default">
@@ -9235,7 +9195,7 @@
     <net code="104" name="/Project Architecture/MCU - IOs/PWMB_R" class="Default">
       <node ref="TP39" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U10" pin="9" pinfunction="PWM2" pintype="passive"/>
-      <node ref="U7" pin="11" pinfunction="PC3" pintype="passive"/>
+      <node ref="U7" pin="10" pinfunction="PC2" pintype="passive"/>
     </net>
     <net code="105" name="/Project Architecture/MCU - IOs/PWMB_T1" class="Default">
       <node ref="TP70" pin="1" pinfunction="1" pintype="passive"/>
@@ -9261,12 +9221,12 @@
       <node ref="U7" pin="23" pinfunction="PC5" pintype="passive"/>
     </net>
     <net code="122" name="/Project Architecture/Motor Control - Index/OUT1_I" class="Default">
-      <node ref="J3" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="9" pintype="passive"/>
       <node ref="U8" pin="13" pinfunction="OUT1" pintype="passive"/>
       <node ref="U8" pin="14" pinfunction="OUT1" pintype="passive"/>
     </net>
     <net code="123" name="/Project Architecture/Motor Control - Index/OUT2_I" class="Default">
-      <node ref="J3" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="U8" pin="22" pinfunction="OUT2" pintype="passive"/>
       <node ref="U8" pin="23" pinfunction="OUT2" pintype="passive"/>
     </net>
@@ -9290,12 +9250,12 @@
       <node ref="U8" pin="7" pinfunction="OCM" pintype="passive"/>
     </net>
     <net code="128" name="/Project Architecture/Motor Control - Middle/OUT1_M" class="Default">
-      <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="9" pintype="passive"/>
       <node ref="U9" pin="13" pinfunction="OUT1" pintype="passive"/>
       <node ref="U9" pin="14" pinfunction="OUT1" pintype="passive"/>
     </net>
     <net code="129" name="/Project Architecture/Motor Control - Middle/OUT2_M" class="Default">
-      <node ref="J4" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="U9" pin="22" pinfunction="OUT2" pintype="passive"/>
       <node ref="U9" pin="23" pinfunction="OUT2" pintype="passive"/>
     </net>
@@ -9319,12 +9279,12 @@
       <node ref="U9" pin="7" pinfunction="OCM" pintype="passive"/>
     </net>
     <net code="134" name="/Project Architecture/Motor Control - Pinky/OUT1_P" class="Default">
-      <node ref="J6" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J6" pin="9" pinfunction="9" pintype="passive"/>
       <node ref="U11" pin="13" pinfunction="OUT1" pintype="passive"/>
       <node ref="U11" pin="14" pinfunction="OUT1" pintype="passive"/>
     </net>
     <net code="135" name="/Project Architecture/Motor Control - Pinky/OUT2_P" class="Default">
-      <node ref="J6" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="U11" pin="22" pinfunction="OUT2" pintype="passive"/>
       <node ref="U11" pin="23" pinfunction="OUT2" pintype="passive"/>
     </net>
@@ -9348,12 +9308,12 @@
       <node ref="U11" pin="7" pinfunction="OCM" pintype="passive"/>
     </net>
     <net code="140" name="/Project Architecture/Motor Control - Ring/OUT1_R" class="Default">
-      <node ref="J5" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J5" pin="9" pinfunction="9" pintype="passive"/>
       <node ref="U10" pin="13" pinfunction="OUT1" pintype="passive"/>
       <node ref="U10" pin="14" pinfunction="OUT1" pintype="passive"/>
     </net>
     <net code="141" name="/Project Architecture/Motor Control - Ring/OUT2_R" class="Default">
-      <node ref="J5" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="U10" pin="22" pinfunction="OUT2" pintype="passive"/>
       <node ref="U10" pin="23" pinfunction="OUT2" pintype="passive"/>
     </net>
@@ -9377,12 +9337,12 @@
       <node ref="U10" pin="7" pinfunction="OCM" pintype="passive"/>
     </net>
     <net code="146" name="/Project Architecture/Motor Control - Thumb 1/OUT1_T1" class="Default">
-      <node ref="J7" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J7" pin="9" pinfunction="9" pintype="passive"/>
       <node ref="U12" pin="13" pinfunction="OUT1" pintype="passive"/>
       <node ref="U12" pin="14" pinfunction="OUT1" pintype="passive"/>
     </net>
     <net code="147" name="/Project Architecture/Motor Control - Thumb 1/OUT2_T1" class="Default">
-      <node ref="J7" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="U12" pin="22" pinfunction="OUT2" pintype="passive"/>
       <node ref="U12" pin="23" pinfunction="OUT2" pintype="passive"/>
     </net>
@@ -9406,12 +9366,12 @@
       <node ref="U12" pin="7" pinfunction="OCM" pintype="passive"/>
     </net>
     <net code="152" name="/Project Architecture/Motor Control - Thumb 2/OUT1_T2" class="Default">
-      <node ref="J8" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J8" pin="9" pinfunction="9" pintype="passive"/>
       <node ref="U13" pin="13" pinfunction="OUT1" pintype="passive"/>
       <node ref="U13" pin="14" pinfunction="OUT1" pintype="passive"/>
     </net>
     <net code="153" name="/Project Architecture/Motor Control - Thumb 2/OUT2_T2" class="Default">
-      <node ref="J8" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="U13" pin="22" pinfunction="OUT2" pintype="passive"/>
       <node ref="U13" pin="23" pinfunction="OUT2" pintype="passive"/>
     </net>
@@ -9652,8 +9612,6 @@
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="R51" pin="2" pintype="passive"/>
       <node ref="R52" pin="2" pintype="passive"/>
-      <node ref="R54" pin="2" pintype="passive"/>
-      <node ref="R56" pin="2" pintype="passive"/>
       <node ref="R75" pin="1" pintype="passive"/>
       <node ref="R78" pin="2" pintype="passive"/>
       <node ref="R79" pin="1" pintype="passive"/>
@@ -9709,7 +9667,9 @@
       <node ref="U13" pin="3" pinfunction="ENB" pintype="passive"/>
       <node ref="U13" pin="4" pinfunction="AGND" pintype="passive"/>
       <node ref="U14" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U14" pin="8" pinfunction="S" pintype="passive"/>
       <node ref="U15" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U15" pin="8" pinfunction="S" pintype="passive"/>
       <node ref="U16" pin="4" pinfunction="VSS" pintype="passive"/>
       <node ref="U17" pin="4" pinfunction="VSS" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="GND" pintype="passive"/>
@@ -9853,12 +9813,12 @@
       <node ref="R52" pin="1" pintype="passive"/>
     </net>
     <net code="186" name="Net-(J10-Dn1)" class="Default">
-      <node ref="D7" pin="1" pinfunction="IO1" pintype="passive"/>
+      <node ref="D7" pin="3" pinfunction="IO2" pintype="passive"/>
       <node ref="J10" pin="A7" pinfunction="Dn1" pintype="passive"/>
       <node ref="J10" pin="B7" pinfunction="Dn2" pintype="passive"/>
     </net>
     <net code="187" name="Net-(J10-Dp1)" class="Default">
-      <node ref="D7" pin="3" pinfunction="IO2" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="IO1" pintype="passive"/>
       <node ref="J10" pin="A6" pinfunction="Dp1" pintype="passive"/>
       <node ref="J10" pin="B6" pinfunction="Dp2" pintype="passive"/>
     </net>
@@ -9916,162 +9876,154 @@
       <node ref="U7" pin="28" pinfunction="VREF+" pintype="passive"/>
       <node ref="U7" pin="29" pinfunction="VDDA" pintype="passive"/>
     </net>
-    <net code="200" name="Net-(U14-S)" class="Default">
-      <node ref="R54" pin="1" pintype="passive"/>
-      <node ref="U14" pin="8" pinfunction="S" pintype="passive"/>
-    </net>
-    <net code="201" name="Net-(U15-S)" class="Default">
-      <node ref="R56" pin="1" pintype="passive"/>
-      <node ref="U15" pin="8" pinfunction="S" pintype="passive"/>
-    </net>
-    <net code="202" name="unconnected-(BZ1-Pad3)" class="Default">
+    <net code="200" name="unconnected-(BZ1-Pad3)" class="Default">
       <node ref="BZ1" pin="3" pintype="passive+no_connect"/>
     </net>
-    <net code="203" name="unconnected-(BZ1-Pad4)" class="Default">
+    <net code="201" name="unconnected-(BZ1-Pad4)" class="Default">
       <node ref="BZ1" pin="4" pintype="passive+no_connect"/>
     </net>
-    <net code="204" name="unconnected-(H1-Pad1)" class="Default">
+    <net code="202" name="unconnected-(H1-Pad1)" class="Default">
       <node ref="H1" pin="1" pinfunction="1" pintype="input+no_connect"/>
     </net>
-    <net code="205" name="unconnected-(H2-Pad1)" class="Default">
+    <net code="203" name="unconnected-(H2-Pad1)" class="Default">
       <node ref="H2" pin="1" pinfunction="1" pintype="input+no_connect"/>
     </net>
-    <net code="206" name="unconnected-(H3-Pad1)" class="Default">
+    <net code="204" name="unconnected-(H3-Pad1)" class="Default">
       <node ref="H3" pin="1" pinfunction="1" pintype="input+no_connect"/>
     </net>
-    <net code="207" name="unconnected-(J1-Pad3)" class="Default">
+    <net code="205" name="unconnected-(J1-Pad3)" class="Default">
       <node ref="J1" pin="3" pinfunction="3" pintype="passive+no_connect"/>
     </net>
-    <net code="208" name="unconnected-(J1-Pad4)" class="Default">
+    <net code="206" name="unconnected-(J1-Pad4)" class="Default">
       <node ref="J1" pin="4" pinfunction="4" pintype="passive+no_connect"/>
     </net>
-    <net code="209" name="unconnected-(J2-Pad4)" class="Default">
+    <net code="207" name="unconnected-(J2-Pad4)" class="Default">
       <node ref="J2" pin="4" pinfunction="4" pintype="passive+no_connect"/>
     </net>
-    <net code="210" name="unconnected-(J2-Pad5)" class="Default">
+    <net code="208" name="unconnected-(J2-Pad5)" class="Default">
       <node ref="J2" pin="5" pinfunction="5" pintype="passive+no_connect"/>
     </net>
-    <net code="211" name="unconnected-(J9-SBU1-PadA8)" class="Default">
+    <net code="209" name="unconnected-(J9-SBU1-PadA8)" class="Default">
       <node ref="J9" pin="A8" pinfunction="SBU1" pintype="passive+no_connect"/>
     </net>
-    <net code="212" name="unconnected-(J9-SBU2-PadB8)" class="Default">
+    <net code="210" name="unconnected-(J9-SBU2-PadB8)" class="Default">
       <node ref="J9" pin="B8" pinfunction="SBU2" pintype="passive+no_connect"/>
     </net>
-    <net code="213" name="unconnected-(J10-SBU1-PadA8)" class="Default">
+    <net code="211" name="unconnected-(J10-SBU1-PadA8)" class="Default">
       <node ref="J10" pin="A8" pinfunction="SBU1" pintype="passive+no_connect"/>
     </net>
-    <net code="214" name="unconnected-(J10-SBU2-PadB8)" class="Default">
+    <net code="212" name="unconnected-(J10-SBU2-PadB8)" class="Default">
       <node ref="J10" pin="B8" pinfunction="SBU2" pintype="passive+no_connect"/>
     </net>
-    <net code="215" name="unconnected-(J11-Pad4)" class="Default">
+    <net code="213" name="unconnected-(J11-Pad4)" class="Default">
       <node ref="J11" pin="4" pinfunction="4" pintype="passive+no_connect"/>
     </net>
-    <net code="216" name="unconnected-(J11-Pad5)" class="Default">
+    <net code="214" name="unconnected-(J11-Pad5)" class="Default">
       <node ref="J11" pin="5" pinfunction="5" pintype="passive+no_connect"/>
     </net>
-    <net code="217" name="unconnected-(J12-Pad24)" class="Default">
+    <net code="215" name="unconnected-(J12-Pad24)" class="Default">
       <node ref="J12" pin="24" pinfunction="24" pintype="passive+no_connect"/>
     </net>
-    <net code="218" name="unconnected-(J12-Pad25)" class="Default">
+    <net code="216" name="unconnected-(J12-Pad25)" class="Default">
       <node ref="J12" pin="25" pinfunction="25" pintype="passive+no_connect"/>
     </net>
-    <net code="219" name="unconnected-(U3-SW-Pad11)" class="Default">
+    <net code="217" name="unconnected-(U3-SW-Pad11)" class="Default">
       <node ref="U3" pin="11" pinfunction="SW" pintype="passive+no_connect"/>
     </net>
-    <net code="220" name="unconnected-(U5-NC-Pad4)" class="Default">
+    <net code="218" name="unconnected-(U5-NC-Pad4)" class="Default">
       <node ref="U5" pin="4" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="221" name="unconnected-(U6B-PB3-Pad56)" class="Default">
+    <net code="219" name="unconnected-(U6B-PB3-Pad56)" class="Default">
       <node ref="U6" pin="56" pinfunction="PB3" pintype="passive+no_connect"/>
     </net>
-    <net code="222" name="unconnected-(U6B-PB4-Pad57)" class="Default">
+    <net code="220" name="unconnected-(U6B-PB4-Pad57)" class="Default">
       <node ref="U6" pin="57" pinfunction="PB4" pintype="passive+no_connect"/>
     </net>
-    <net code="223" name="unconnected-(U6B-PB5-Pad58)" class="Default">
+    <net code="221" name="unconnected-(U6B-PB5-Pad58)" class="Default">
       <node ref="U6" pin="58" pinfunction="PB5" pintype="passive+no_connect"/>
     </net>
-    <net code="224" name="unconnected-(U6B-PB6-Pad59)" class="Default">
+    <net code="222" name="unconnected-(U6B-PB6-Pad59)" class="Default">
       <node ref="U6" pin="59" pinfunction="PB6" pintype="passive+no_connect"/>
     </net>
-    <net code="225" name="unconnected-(U6B-PB7-Pad60)" class="Default">
+    <net code="223" name="unconnected-(U6B-PB7-Pad60)" class="Default">
       <node ref="U6" pin="60" pinfunction="PB7" pintype="passive+no_connect"/>
     </net>
-    <net code="226" name="unconnected-(U7B-PB3-Pad56)" class="Default">
+    <net code="224" name="unconnected-(U7B-PB3-Pad56)" class="Default">
       <node ref="U7" pin="56" pinfunction="PB3" pintype="passive+no_connect"/>
     </net>
-    <net code="227" name="unconnected-(U7B-PB4-Pad57)" class="Default">
+    <net code="225" name="unconnected-(U7B-PB4-Pad57)" class="Default">
       <node ref="U7" pin="57" pinfunction="PB4" pintype="passive+no_connect"/>
     </net>
-    <net code="228" name="unconnected-(U7B-PB5-Pad58)" class="Default">
+    <net code="226" name="unconnected-(U7B-PB5-Pad58)" class="Default">
       <node ref="U7" pin="58" pinfunction="PB5" pintype="passive+no_connect"/>
     </net>
-    <net code="229" name="unconnected-(U7B-PB6-Pad59)" class="Default">
+    <net code="227" name="unconnected-(U7B-PB6-Pad59)" class="Default">
       <node ref="U7" pin="59" pinfunction="PB6" pintype="passive+no_connect"/>
     </net>
-    <net code="230" name="unconnected-(U7B-PB7-Pad60)" class="Default">
+    <net code="228" name="unconnected-(U7B-PB7-Pad60)" class="Default">
       <node ref="U7" pin="60" pinfunction="PB7" pintype="passive+no_connect"/>
     </net>
-    <net code="231" name="unconnected-(U7B-PB9-Pad62)" class="Default">
+    <net code="229" name="unconnected-(U7B-PB9-Pad62)" class="Default">
       <node ref="U7" pin="62" pinfunction="PB9" pintype="passive+no_connect"/>
     </net>
-    <net code="232" name="unconnected-(U8-NC-Pad6)" class="Default">
+    <net code="230" name="unconnected-(U8-NC-Pad6)" class="Default">
       <node ref="U8" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="233" name="unconnected-(U8-NC-Pad10)" class="Default">
+    <net code="231" name="unconnected-(U8-NC-Pad10)" class="Default">
       <node ref="U8" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="234" name="unconnected-(U8-NC-Pad26)" class="Default">
+    <net code="232" name="unconnected-(U8-NC-Pad26)" class="Default">
       <node ref="U8" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="235" name="unconnected-(U9-NC-Pad6)" class="Default">
+    <net code="233" name="unconnected-(U9-NC-Pad6)" class="Default">
       <node ref="U9" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="236" name="unconnected-(U9-NC-Pad10)" class="Default">
+    <net code="234" name="unconnected-(U9-NC-Pad10)" class="Default">
       <node ref="U9" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="237" name="unconnected-(U9-NC-Pad26)" class="Default">
+    <net code="235" name="unconnected-(U9-NC-Pad26)" class="Default">
       <node ref="U9" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="238" name="unconnected-(U10-NC-Pad6)" class="Default">
+    <net code="236" name="unconnected-(U10-NC-Pad6)" class="Default">
       <node ref="U10" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="239" name="unconnected-(U10-NC-Pad10)" class="Default">
+    <net code="237" name="unconnected-(U10-NC-Pad10)" class="Default">
       <node ref="U10" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="240" name="unconnected-(U10-NC-Pad26)" class="Default">
+    <net code="238" name="unconnected-(U10-NC-Pad26)" class="Default">
       <node ref="U10" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="241" name="unconnected-(U11-NC-Pad6)" class="Default">
+    <net code="239" name="unconnected-(U11-NC-Pad6)" class="Default">
       <node ref="U11" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="242" name="unconnected-(U11-NC-Pad10)" class="Default">
+    <net code="240" name="unconnected-(U11-NC-Pad10)" class="Default">
       <node ref="U11" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="243" name="unconnected-(U11-NC-Pad26)" class="Default">
+    <net code="241" name="unconnected-(U11-NC-Pad26)" class="Default">
       <node ref="U11" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="244" name="unconnected-(U12-NC-Pad6)" class="Default">
+    <net code="242" name="unconnected-(U12-NC-Pad6)" class="Default">
       <node ref="U12" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="245" name="unconnected-(U12-NC-Pad10)" class="Default">
+    <net code="243" name="unconnected-(U12-NC-Pad10)" class="Default">
       <node ref="U12" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="246" name="unconnected-(U12-NC-Pad26)" class="Default">
+    <net code="244" name="unconnected-(U12-NC-Pad26)" class="Default">
       <node ref="U12" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="247" name="unconnected-(U13-NC-Pad6)" class="Default">
+    <net code="245" name="unconnected-(U13-NC-Pad6)" class="Default">
       <node ref="U13" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="248" name="unconnected-(U13-NC-Pad10)" class="Default">
+    <net code="246" name="unconnected-(U13-NC-Pad10)" class="Default">
       <node ref="U13" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="249" name="unconnected-(U13-NC-Pad26)" class="Default">
+    <net code="247" name="unconnected-(U13-NC-Pad26)" class="Default">
       <node ref="U13" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="250" name="unconnected-(U16-EP-Pad5)" class="Default">
+    <net code="248" name="unconnected-(U16-EP-Pad5)" class="Default">
       <node ref="U16" pin="5" pinfunction="EP" pintype="passive+no_connect"/>
     </net>
-    <net code="251" name="unconnected-(U17-EP-Pad5)" class="Default">
+    <net code="249" name="unconnected-(U17-EP-Pad5)" class="Default">
       <node ref="U17" pin="5" pinfunction="EP" pintype="passive+no_connect"/>
     </net>
   </nets>
