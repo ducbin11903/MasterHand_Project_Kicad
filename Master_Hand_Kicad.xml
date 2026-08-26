@@ -9,7 +9,7 @@
     <textvar name="COMPANY">Willas</textvar>
     <textvar name="DESIGNER">Damon</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">cc04374</textvar>
+    <textvar name="GIT_HASH_PCB">b8d7806</textvar>
     <textvar name="GIT_HASH_SCH">cc04374</textvar>
     <textvar name="GIT_URL">https://github.com/ducbin11903/MasterHand_Project_Kicad.git</textvar>
     <textvar name="PROJECT_NAME">Master Hand</textvar>
@@ -18,8 +18,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">26-Aug-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-08-26</textvar>
+    <textvar name="RELEASE_DATE">27-Aug-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-08-27</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -8884,17 +8884,17 @@
     <net code="45" name="/Project Architecture/MCU - IOs/DIAG_T1" class="Default">
       <node ref="R33" pin="2" pintype="passive"/>
       <node ref="TP74" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="3" pinfunction="PC14" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="PC13" pintype="passive"/>
     </net>
     <net code="46" name="/Project Architecture/MCU - IOs/DIAG_T2" class="Default">
       <node ref="R39" pin="2" pintype="passive"/>
       <node ref="TP85" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="2" pinfunction="PC13" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="PC14" pintype="passive"/>
     </net>
     <net code="47" name="/Project Architecture/MCU - IOs/ECA_I" class="Default">
       <node ref="J3" pin="6" pinfunction="6" pintype="passive"/>
       <node ref="TP16" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="38" pinfunction="PC6" pintype="passive"/>
+      <node ref="U6" pin="39" pinfunction="PC7" pintype="passive"/>
     </net>
     <net code="48" name="/Project Architecture/MCU - IOs/ECA_M" class="Default">
       <node ref="J4" pin="6" pinfunction="6" pintype="passive"/>
@@ -8914,7 +8914,7 @@
     <net code="51" name="/Project Architecture/MCU - IOs/ECA_T1" class="Default">
       <node ref="J7" pin="6" pinfunction="6" pintype="passive"/>
       <node ref="TP76" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="20" pinfunction="PA6" pintype="passive"/>
+      <node ref="U6" pin="21" pinfunction="PA7" pintype="passive"/>
     </net>
     <net code="52" name="/Project Architecture/MCU - IOs/ECA_T2" class="Default">
       <node ref="J8" pin="6" pinfunction="6" pintype="passive"/>
@@ -8924,7 +8924,7 @@
     <net code="53" name="/Project Architecture/MCU - IOs/ECB_I" class="Default">
       <node ref="J3" pin="7" pinfunction="7" pintype="passive"/>
       <node ref="TP18" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="39" pinfunction="PC7" pintype="passive"/>
+      <node ref="U6" pin="38" pinfunction="PC6" pintype="passive"/>
     </net>
     <net code="54" name="/Project Architecture/MCU - IOs/ECB_M" class="Default">
       <node ref="J4" pin="7" pinfunction="7" pintype="passive"/>
@@ -8944,7 +8944,7 @@
     <net code="57" name="/Project Architecture/MCU - IOs/ECB_T1" class="Default">
       <node ref="J7" pin="7" pinfunction="7" pintype="passive"/>
       <node ref="TP78" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="21" pinfunction="PA7" pintype="passive"/>
+      <node ref="U6" pin="20" pinfunction="PA6" pintype="passive"/>
     </net>
     <net code="58" name="/Project Architecture/MCU - IOs/ECB_T2" class="Default">
       <node ref="J8" pin="7" pinfunction="7" pintype="passive"/>
@@ -9119,13 +9119,13 @@
       <node ref="R32" pin="1" pintype="passive"/>
       <node ref="R34" pin="1" pintype="passive"/>
       <node ref="TP75" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="17" pinfunction="PA3" pintype="passive"/>
+      <node ref="U6" pin="14" pinfunction="PA2" pintype="passive"/>
     </net>
     <net code="90" name="/Project Architecture/MCU - IOs/OCM_T2" class="Default">
       <node ref="R38" pin="1" pintype="passive"/>
       <node ref="R40" pin="1" pintype="passive"/>
       <node ref="TP87" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="14" pinfunction="PA2" pintype="passive"/>
+      <node ref="U6" pin="17" pinfunction="PA3" pintype="passive"/>
     </net>
     <net code="91" name="/Project Architecture/MCU - IOs/OSC-IN_1" class="Default">
       <node ref="C48" pin="2" pinfunction="2" pintype="passive"/>
