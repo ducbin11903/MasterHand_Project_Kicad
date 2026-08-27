@@ -8592,7 +8592,7 @@
 		(uuid "2d450b33-246a-4015-b172-6b8c20d67c99")
 	)
 	(label "PWMA_R"
-		(at 21.59 213.36 0)
+		(at 21.59 205.74 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -8977,7 +8977,7 @@
 		(uuid "4c55c5c4-0562-4bc5-a533-a86d09d68706")
 	)
 	(label "PWMB_M"
-		(at 21.59 205.74 0)
+		(at 21.59 210.82 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -9164,7 +9164,7 @@
 		(uuid "59313435-58ca-476c-b0dc-881bf3f3828f")
 	)
 	(label "PWMA_M"
-		(at 21.59 208.28 0)
+		(at 21.59 213.36 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -10260,7 +10260,7 @@
 		(uuid "bd66eb46-8b95-4757-83e7-ad74917259f4")
 	)
 	(label "PWMB_R"
-		(at 21.59 210.82 0)
+		(at 21.59 208.28 0)
 		(effects
 			(font
 				(face "KiCad Font")
