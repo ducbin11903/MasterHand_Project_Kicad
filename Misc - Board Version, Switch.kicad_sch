@@ -6978,7 +6978,43 @@
 			"AGYAWQBKACsAdQA0AGgAQQA0AEwATAB0AG4AZQBkADgALwA1AHUAbgArADYAeABjAFIAZQBRAGMA"
 			"aQBnAG8AcQBFAG8AZQB1AEcALwBKADUALwBmAEgAeQBPADQANwBUAGQANwBzADYAbgBpAC8AZgBz"
 			"AHYAYgAvAGYAYwBoAEEAOABuADgAOAB2AEwAOQBmAE4ATgBoAEUAQgA3AHoARwBJADUALwAvAE4A"
-			"cQB4AHcASQBuADEAQwA3AHcAVQ=="
+			"cQB4AHcASQBuADEAQwA3AHcAVQAvAGYAUABmADUAUwBwAGcASQBBAFkAQgAyAFAAdwB6AGcATQB3"
+			"AC8AdgA3AGUANQBIAG4AegBQAHoAbAB5ADUAYwAwAFQAYQBkAHAAYQB0AHYAdQAxADEALwAvADEA"
+			"dgBjAGQAaQB6AC8AaABJAFMAagBQAFIAZQBSAGIAUQA2AGIALwB0AGsAcwBDAGUAdgBKADIANQBt"
+			"AEUAWQBiAHYAZAA3AGYAcwArAGQAOQBkAHYATgBiAHIAVQBLAEkAbABuAFYAZABWADEAVgBsAFcA"
+			"VgBWAEEAWQBDAEoATgBOAEUAcABpAG0ATgBFACsARABrAEQAOABFAGYAZABzAEEAZwBSAHcATQB2"
+			"AFQASgBBAFMAMgBFAFoAeQBEAHIAdQAyAHIAcQByAHIAbgA5ADYAcQBxAEIATwBSADgAUABsADgA"
+			"dQBsADEAVwAyAFMAcABMAEUAVwBWAGMAVQB4AGYAMQArAEgANABhAHUAcgB1AHIAUAA1AE4ATgBh"
+			"AEYAOABjAHgAUwBBAGgAYgBnADYANQBEAGYAagB6AG8AUAB6AEUAeQBqAHYAMQBDAEEAaQB6AEkA"
+			"egBGAHEAcABxAGkAcQAvADUAMwBsAGUAegBOAE4AawBqAE4AbQBzAE4ANQB2AHQANwBuAHcAKwBB"
+			"ADQAQwB3AHIATgBmAHIASwBEAEoARgBXAFEAUgBoAHgAdgB2ADcAUgAxAEEAaQBiAHoAWQBiAHAA"
+			"WgBSAGUANQBQAEsAZwBBAGMAQgBvAFQAVQBTAEkAWgByADMAWgBtAEMAaABTADIAbwBCAEEAVQBl"
+			"AFQALwA4AHIAZAAvAHEAYQBvAHkAVABkAE4AcABuAHEAZABwAGkAdQBQADQAKwB2AEsAeQAyADIA"
+			"NAAzAG0ANgAzAFcAUgBrAFMARQBGADkAcwBZADUAdQBoAGYAZABYAGQATAByAEkAZwBJAGcATAB6"
+			"AFUAMABnAFYARQBnAEUAUgBLAEsANQBXAHQAMQA0AGcAawBEAE0ANgA3AHIAeAA5AGYALwA4AHQA"
+			"ZgAvAG0ASwBkAFcANgBXAHIAbAA5AGUAWAB5ACsAVgB5AHYAbAB5AHkAMQBRAG8AUgBRADkAeQBu"
+			"AGQAVwBCAHoASABwAG0ARQBIADYARQBsAHEAUwBVAFkALwA4ADQAWgBNADUAQQBIAEEAaABGADAA"
+			"UQBrAEcAcwBEAGkASwBvAEkANwBVADkAYgBLAEoAWQBKADgAYQBMAG0AKwAwAG8AMwBwAEsAMQA0"
+			"AEQAMABnAG8AbQBoAGkAcwAwAGIAWgBhAFkAcgBaAGcAcAB1AEIAVgBLAFIASQBhAFkAVQBLAHIA"
+			"QQBmADkANAAyAE0AdgAwAFAASQBMAEEAZwBuADYAbQBNAEMAZgBPAEwAOQBuAE0AawBBAGsAbABI"
+			"AHkATABTAE8AZwBXAEkAVQBBAEsARQBiAFYAVwBTAFoASgBrAFcAWgBhAHUAVQBtAGIATwBpADIA"
+			"SQBhAHAALwBQAGwAagBJAGgASgBrAG0AYQByAGwAWQBsAFUATQBKAFMAaABIAHQAWQB6AEMARABN"
+			"ADkAOAA3AC8AZgBLAEsAMQB2AE8ARwA2AFoAWABrAEkAQQA5AE8ASQBFAFMARgBCADUAQQBBADgA"
+			"UwBHAHUAeABvAGIAVwBKAEYAUwBSAEoAcABqAGUAUABZAGwAWABVADUAZAB5ADAAdwBHAHkASgBB"
+			"AFkARwBIAGwASABkAGwAUgBoAG4AYQB1AEMAZwAyAGkARQBDAE8AVABlAEYARABPAGcAMwBWAGcA"
+			"TgBDAEQAdwBrAHUAZABmAHMAZwBxAC8AbQA0AEEASABoAFMAbwBDAC8ARwBpAFkAOQBGAHgAdwA1"
+			"ADcAMQBZADkAcwB6AGoATgBFADMAVAA3AEoAMQBMADQAZwBSAFIARwBXAFAAbQAyAGYAYgA5AHMA"
+			"RgA3AFAAVQBXAFIAZwA2AFEAZwBRADQAZwBMADUAdABqAE4AKwBOAHUASAA0AEIANgBmAHEAQgA3"
+			"ADgAYwBxAHMAdgB0AHoATQB4AE4AMAArAFQAMwB2AEsAbwBxAHIAZgBVAHYAdgAvAHkAUwBKAHUA"
+			"dAA1AG4AcABqADkANQArAGUASAA5ACsANwAxADkAVwBXADMAMwAwAFcAUgBmAHIANgBXAEgAcgBM"
+			"AFQAWgA1AGIANQB1AGYAUwB5ADEARgBaACsARwAvAHUAQgBNAFUAZwBrADEAUABBAEIARQBnAGwA"
+			"NwA1ADEAeABaAFYAZgBrADkAdgA5AC8AdgAxAHQAcgAxAGUAbgAwADgAbgB2AGIANwB3AHoAQQBP"
+			"AFQAZAB2AFcAZABWAFYAVgBsAGYAZgBlAHUAbQBtADMAMwBSADQATwBCADYASwBnAEcAVgB6AHMA"
+			"TgBRAEEAbwBRAGcARQBHAEEAVgBJAEsAQgBVAEsARgBKAFMASQBDAEEAdwBFAFIATQBDAEcAZwBn"
+			"AEEASgBNAEUARgBEAEEAVwB6AHQAMgB6AFYAVABrAGMAMwBVAGIAeQB2AHYAVQAxAGMAQQAyAGkA"
+			"cwAxAHEAcwA5AG4AcwBqADEARwA2AEUAVABJAGQAawBIAEkAeQBXAGwAZgBPADEAbgA3AGUAZQBs"
+			"AEwANwA2AHkAWABPAEUAbABTAEEASwBzAEIAWQBlAFMASwB0AGIAOAA4AFoAVABzAEkAUwBvAEMA"
+			"KwBGAGwAbwB0AEYAeABXAGQARw=="
 		)
 	)
 	(label "BOOT_2"
@@ -7155,7 +7191,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF 50V 0603"
+		(property "Value" "CAP CER 0603"
 			(at 163.83 113.0299 90)
 			(effects
 				(font
@@ -7252,7 +7288,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K 0.1% 0603"
+		(property "Value" "RES 0603"
 			(at 185.42 133.3499 90)
 			(effects
 				(font
@@ -7448,7 +7484,7 @@
 				)
 			)
 		)
-		(property "Value" "0R 0.1% 0603"
+		(property "Value" "RES 0603"
 			(at 160.02 72.39 0)
 			(effects
 				(font
@@ -7543,7 +7579,7 @@
 				)
 			)
 		)
-		(property "Value" "10K 0.1% 0603"
+		(property "Value" "RES 0603"
 			(at 149.86 101.6 0)
 			(effects
 				(font
@@ -7630,7 +7666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58fcda21-ac55-4851-8e95-cb2dae87a749")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR136"
 			(at 92.456 75.184 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7681,7 +7717,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "#PWR0136")
+					(reference "#PWR136")
 					(unit 1)
 				)
 			)
@@ -7697,7 +7733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d5a11bb-7cd7-4dcf-997f-99dd0dddf337")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR135"
 			(at 161.544 67.564 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7749,7 +7785,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "#PWR0135")
+					(reference "#PWR135")
 					(unit 1)
 				)
 			)
@@ -7772,7 +7808,7 @@
 				)
 			)
 		)
-		(property "Value" "0R 0.1% 0603"
+		(property "Value" "RES 0603"
 			(at 160.02 58.42 0)
 			(effects
 				(font
@@ -7866,7 +7902,7 @@
 				)
 			)
 		)
-		(property "Value" "10K 0.1% 0603"
+		(property "Value" "RES 0603"
 			(at 149.86 123.19 0)
 			(effects
 				(font
@@ -7953,7 +7989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "804f3cb2-7107-41a7-b171-c11524993396")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR138"
 			(at 185.166 129.794 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8004,7 +8040,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "#PWR0138")
+					(reference "#PWR138")
 					(unit 1)
 				)
 			)
@@ -8029,7 +8065,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K 0.1% 0603"
+		(property "Value" "RES 0603"
 			(at 92.71 77.4699 90)
 			(effects
 				(font
@@ -8067,33 +8103,6 @@
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
 			(at 102.87 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RT0402FRE07100KL"
-			(at 90.17 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "Digikey"
-			(at 90.17 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number 1" "YAG2307CT-ND"
-			(at 90.17 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8153,7 +8162,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K 0.1% 0603"
+		(property "Value" "RES 0603"
 			(at 92.71 59.6899 90)
 			(effects
 				(font
@@ -8191,33 +8200,6 @@
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
 			(at 102.87 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RT0402FRE07100KL"
-			(at 90.17 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "Digikey"
-			(at 90.17 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number 1" "YAG2307CT-ND"
-			(at 90.17 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8277,7 +8259,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K 0.1% 0603"
+		(property "Value" "RES 0603"
 			(at 185.42 113.0299 90)
 			(effects
 				(font
@@ -8374,7 +8356,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF 50V 0603"
+		(property "Value" "CAP CER 0603"
 			(at 163.83 133.3499 90)
 			(effects
 				(font
@@ -8462,7 +8444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df7f47c5-a073-48af-84e2-6c08c5f6e605")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR137"
 			(at 185.166 109.474 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8513,7 +8495,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "#PWR0137")
+					(reference "#PWR137")
 					(unit 1)
 				)
 			)

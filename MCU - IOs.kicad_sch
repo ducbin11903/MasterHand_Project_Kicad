@@ -11509,7 +11509,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "8pF 16V 0603"
+		(property "Value" "CAP CER 0603"
 			(at 251.46 151.13 90)
 			(effects
 				(font
@@ -12919,7 +12919,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "8pF 16V 0603"
+		(property "Value" "CAP CER 0603"
 			(at 196.85 176.53 90)
 			(effects
 				(font
@@ -15624,7 +15624,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "959712f8-e595-4c9a-b5cb-e9982222d861")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR34"
 			(at 251.206 147.574 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15675,7 +15675,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "#PWR034")
+					(reference "#PWR34")
 					(unit 1)
 				)
 			)
@@ -16129,7 +16129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b56c9d5d-89e7-443e-a52b-a98518a5b428")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR35"
 			(at 215.646 172.974 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16180,7 +16180,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "#PWR035")
+					(reference "#PWR35")
 					(unit 1)
 				)
 			)
@@ -16962,7 +16962,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "8pF 16V 0603"
+		(property "Value" "CAP CER 0603"
 			(at 196.85 151.13 90)
 			(effects
 				(font
@@ -18090,7 +18090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec01deeb-2234-43e1-a4e5-0af461b3c8a2")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR36"
 			(at 251.206 172.974 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18141,7 +18141,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "#PWR036")
+					(reference "#PWR36")
 					(unit 1)
 				)
 			)
@@ -18667,7 +18667,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "fbebfce8-b2dd-43cd-93b4-e28ce9a0c410")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR33"
 			(at 215.646 147.574 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18718,7 +18718,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "#PWR033")
+					(reference "#PWR33")
 					(unit 1)
 				)
 			)
@@ -18742,7 +18742,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "8pF 16V 0603"
+		(property "Value" "CAP CER 0603"
 			(at 251.46 176.53 90)
 			(effects
 				(font

@@ -518,7 +518,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.13,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -544,7 +544,7 @@
         "microvia_drill": 0.1,
         "name": "CAN Bus",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 12,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.55,
@@ -552,18 +552,8 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
-        "name": "CAN_120",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -571,7 +561,7 @@
         "microvia_drill": 0.1,
         "name": "Chassis",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 2,
         "schematic_color": "rgb(139, 103, 213)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -588,7 +578,7 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 11,
+        "priority": 9,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -605,7 +595,7 @@
         "microvia_drill": 0.1,
         "name": "High Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 3,
         "schematic_color": "rgb(177, 11, 198)",
         "track_width": 0.5,
         "via_diameter": 0.8,
@@ -622,7 +612,7 @@
         "microvia_drill": 0.1,
         "name": "Kelvin Diff Pair",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -630,14 +620,16 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.8,
+        "clearance": 0.3,
+        "line_style": 0,
         "name": "Motor Out",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.35,
+        "priority": 1,
+        "schematic_color": "rgb(3, 255, 16)",
+        "track_width": 0.5,
         "via_diameter": 0.8,
-        "via_drill": 0.4
+        "via_drill": 0.4,
+        "wire_width": 24
       },
       {
         "bus_width": 12,
@@ -649,7 +641,7 @@
         "microvia_drill": 0.1,
         "name": "Power 12V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 5,
         "schematic_color": "rgb(255, 0, 171)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -658,7 +650,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.4,
+        "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -666,7 +658,7 @@
         "microvia_drill": 0.1,
         "name": "Power 3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 7,
         "schematic_color": "rgb(220, 142, 0)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -675,7 +667,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.5,
+        "clearance": 0.3,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -683,7 +675,7 @@
         "microvia_drill": 0.1,
         "name": "Power 5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 6,
         "schematic_color": "rgb(212, 0, 32)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -692,7 +684,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.4,
+        "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -700,7 +692,7 @@
         "microvia_drill": 0.1,
         "name": "Power A3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 8,
         "schematic_color": "rgb(162, 155, 0)",
         "track_width": 0.25,
         "via_diameter": 0.55,
@@ -708,27 +700,11 @@
         "wire_width": 24
       },
       {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.28,
-        "diff_pair_width": 0.2032,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "RS422 Diff Pair",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.25,
-        "wire_width": 6
-      },
-      {
         "clearance": 0.25,
+        "line_style": 0,
         "name": "USB_D90",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.6,
@@ -780,6 +756,38 @@
       {
         "netclass": "High Power",
         "pattern": "/Project Architecture/Power - Connectors/+V_ADAPTER"
+      },
+      {
+        "netclass": "CAN Bus",
+        "pattern": "/Project Architecture/Interface - FD-CAN/FDCAN_P"
+      },
+      {
+        "netclass": "CAN Bus",
+        "pattern": "/Project Architecture/Interface - FD-CAN/FDCAN_N"
+      },
+      {
+        "netclass": "USB_D90",
+        "pattern": "/Project Architecture/Interface - USB 2.0/USB1_P"
+      },
+      {
+        "netclass": "USB_D90",
+        "pattern": "/Project Architecture/Interface - USB 2.0/USB1_N"
+      },
+      {
+        "netclass": "USB_D90",
+        "pattern": "/Project Architecture/Interface - USB 2.0/USB2_P"
+      },
+      {
+        "netclass": "USB_D90",
+        "pattern": "/Project Architecture/Interface - USB 2.0/USB2_N"
+      },
+      {
+        "netclass": "Motor Out",
+        "pattern": "*OUT1_*"
+      },
+      {
+        "netclass": "Motor Out",
+        "pattern": "*OUT2_*"
       }
     ]
   },
