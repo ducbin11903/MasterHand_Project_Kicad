@@ -9,7 +9,7 @@
     <textvar name="COMPANY">Willas</textvar>
     <textvar name="DESIGNER">Damon</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">b8d7806</textvar>
+    <textvar name="GIT_HASH_PCB">1c02af4</textvar>
     <textvar name="GIT_HASH_SCH">cc04374</textvar>
     <textvar name="GIT_URL">https://github.com/ducbin11903/MasterHand_Project_Kicad.git</textvar>
     <textvar name="PROJECT_NAME">Master Hand</textvar>
@@ -484,7 +484,7 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -507,7 +507,7 @@
       <tstamps>7f2d69bf-20f8-4374-95b5-c4d0b164b840</tstamps>
     </comp>
     <comp ref="C2">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -530,7 +530,7 @@
       <tstamps>1032ec1a-f1a6-41d5-bec2-adbe063eee27</tstamps>
     </comp>
     <comp ref="C3">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -553,7 +553,7 @@
       <tstamps>b5a606af-257d-4559-aed7-80adc617c301</tstamps>
     </comp>
     <comp ref="C4">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -576,48 +576,47 @@
       <tstamps>80ec82c4-8d5b-4c9b-91bc-63071eaa135c</tstamps>
     </comp>
     <comp ref="J1">
-      <value>XT60PW-M</value>
-      <footprint>Duc:CONN-TH_XT60PW-M</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C98732.pdf</datasheet>
-      <description>Power Connectors RoHS</description>
+      <value>XT30PW-F</value>
+      <footprint>Duc:CONN-TH_XT30PW-F-1</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C2913282.pdf</datasheet>
+      <description>Power Connectors</description>
       <fields>
         <field name="Manufacturer">AMASS(艾迈斯)</field>
-        <field name="MPN">XT60PW-M</field>
-        <field name="LCSC Part">C98732</field>
-        <field name="Footprint">Duc:CONN-TH_XT60PW-M</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C98732.pdf</field>
-        <field name="Description">Power Connectors RoHS</field>
+        <field name="MPN">XT30PW-F20.G.Y</field>
+        <field name="LCSC Part">C2913282</field>
+        <field name="Footprint">Duc:CONN-TH_XT30PW-F-1</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C2913282.pdf</field>
+        <field name="Description">Power Connectors</field>
       </fields>
-      <libsource lib="Duc-Connectors" part="XT60PW-M" description="Power Connectors RoHS"/>
+      <libsource lib="Duc-Connectors" part="XT30PW-F" description="Power Connectors"/>
       <property name="Manufacturer" value="AMASS(艾迈斯)"/>
-      <property name="MPN" value="XT60PW-M"/>
-      <property name="LCSC Part" value="C98732"/>
+      <property name="MPN" value="XT30PW-F20.G.Y"/>
+      <property name="LCSC Part" value="C2913282"/>
       <property name="Sheetname" value="Power - Connectors"/>
       <property name="Sheetfile" value="Power - Connectors.kicad_sch"/>
-      <property name="ki_keywords" value="Power Connectors"/>
       <sheetpath names="/Project Architecture/Power - Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/961411a1-6ec4-454f-96e4-c72953a40611/"/>
       <tstamps>ec29f456-6aeb-4b69-832a-c861bde873a4</tstamps>
     </comp>
     <comp ref="J2">
-      <value>DC-044A-20A</value>
-      <footprint>Duc:DC-IN-TH_DC-044A-20A</footprint>
-      <datasheet>https://lcsc.com/product-detail/DC-Connectors_1-65-2-0-DCseat-11-6mm-10-1mm_C129006.html</datasheet>
-      <description>CONN PWR JACK 2mm x 5.9mm TH R/A</description>
+      <value>KF350-3.5-2P</value>
+      <footprint>Duc:CONN-TH_P3.50_KF350-3.5-2P</footprint>
+      <datasheet>https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF350-3-5-2P_C474892.html</datasheet>
+      <description>TERM BLK 2POS 3.5mm TH</description>
       <fields>
-        <field name="Manufacturer">韩国韩荣</field>
-        <field name="MPN">DC-044A-20A</field>
-        <field name="LCSC Part">C129006</field>
-        <field name="Footprint">Duc:DC-IN-TH_DC-044A-20A</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/DC-Connectors_1-65-2-0-DCseat-11-6mm-10-1mm_C129006.html</field>
-        <field name="Description">CONN PWR JACK 2mm x 5.9mm TH R/A</field>
+        <field name="Manufacturer">KEFA(科发)</field>
+        <field name="MPN">KF350-3.5-2P</field>
+        <field name="LCSC Part">C474892</field>
+        <field name="Footprint">Duc:CONN-TH_P3.50_KF350-3.5-2P</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF350-3-5-2P_C474892.html</field>
+        <field name="Description">TERM BLK 2POS 3.5mm TH</field>
       </fields>
-      <libsource lib="Duc-Connectors" part="DC-044A-20A" description="CONN PWR JACK 2mm x 5.9mm TH R/A"/>
-      <property name="Manufacturer" value="韩国韩荣"/>
-      <property name="MPN" value="DC-044A-20A"/>
-      <property name="LCSC Part" value="C129006"/>
+      <libsource lib="Duc-Connectors" part="KF350-3.5-2P" description="TERM BLK 2POS 3.5mm TH"/>
+      <property name="Manufacturer" value="KEFA(科发)"/>
+      <property name="MPN" value="KF350-3.5-2P"/>
+      <property name="LCSC Part" value="C474892"/>
       <property name="Sheetname" value="Power - Connectors"/>
       <property name="Sheetfile" value="Power - Connectors.kicad_sch"/>
-      <property name="ki_keywords" value="AC/DC Power Connectors"/>
+      <property name="ki_keywords" value="Screw terminal"/>
       <sheetpath names="/Project Architecture/Power - Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/961411a1-6ec4-454f-96e4-c72953a40611/"/>
       <tstamps>e78ec147-790f-401e-aa2e-18e2e531793b</tstamps>
     </comp>
@@ -710,7 +709,7 @@
       <tstamps>bcf2b9c5-5d5a-417a-a1dd-22cf415f21f9</tstamps>
     </comp>
     <comp ref="C5">
-      <value>4.7uF 100V 1206</value>
+      <value>CAP CER 1206</value>
       <footprint>Duc:C1206</footprint>
       <description>CAP CER 1206</description>
       <fields>
@@ -732,7 +731,7 @@
       <tstamps>b2003c59-ad47-4322-8a4d-b2af4bfe2f49</tstamps>
     </comp>
     <comp ref="C6">
-      <value>4.7uF 100V 1206</value>
+      <value>CAP CER 1206</value>
       <footprint>Duc:C1206</footprint>
       <description>CAP CER 1206</description>
       <fields>
@@ -754,7 +753,7 @@
       <tstamps>f385b209-59d9-4bec-840b-3684c18a68b0</tstamps>
     </comp>
     <comp ref="C7">
-      <value>2.2uF 100V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -777,7 +776,7 @@
       <tstamps>bb082483-0115-48d3-b07c-439e6763e8f9</tstamps>
     </comp>
     <comp ref="C8">
-      <value>2.2uF 100V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -800,7 +799,7 @@
       <tstamps>ad8066a9-a2c5-4118-b89b-f7d0619ea25c</tstamps>
     </comp>
     <comp ref="C9">
-      <value>10uF 100V 1206</value>
+      <value>CAP CER 1206</value>
       <footprint>Duc:C1206</footprint>
       <description>CAP CER 1206</description>
       <fields>
@@ -822,7 +821,7 @@
       <tstamps>f01adb46-1ae2-47ea-8023-ef883071a131</tstamps>
     </comp>
     <comp ref="C10">
-      <value>10uF 50V 1206</value>
+      <value>CAP CER 1206</value>
       <footprint>Duc:C1206</footprint>
       <description>CAP CER 1206</description>
       <fields>
@@ -844,7 +843,7 @@
       <tstamps>5ebc0e8c-e4db-4fe7-ae77-54d49d013cbb</tstamps>
     </comp>
     <comp ref="C11">
-      <value>100nF 50V 1206</value>
+      <value>CAP CER 1206</value>
       <footprint>Duc:C1206</footprint>
       <description>CAP CER 1206</description>
       <fields>
@@ -866,7 +865,7 @@
       <tstamps>6a26f710-fd45-42dd-b086-31ac7e3fbf03</tstamps>
     </comp>
     <comp ref="C12">
-      <value>1uF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -889,7 +888,7 @@
       <tstamps>675c5add-4add-45b4-a5a7-53d62f064027</tstamps>
     </comp>
     <comp ref="C13">
-      <value>22uF 50V 1206</value>
+      <value>CAP CER 1206</value>
       <footprint>Duc:C1206</footprint>
       <description>CAP CER 1206</description>
       <fields>
@@ -911,7 +910,7 @@
       <tstamps>9d41961c-5c9a-45f6-873b-2f81a4021876</tstamps>
     </comp>
     <comp ref="C16">
-      <value>10uF 50V 1206</value>
+      <value>CAP CER 1206</value>
       <footprint>Duc:C1206</footprint>
       <description>CAP CER 1206</description>
       <fields>
@@ -933,7 +932,7 @@
       <tstamps>983c87e5-091f-4a8c-aa89-fed218c47141</tstamps>
     </comp>
     <comp ref="C17">
-      <value>1uF 50V 1206</value>
+      <value>CAP CER 1206</value>
       <footprint>Duc:C1206</footprint>
       <description>CAP CER 1206</description>
       <fields>
@@ -955,7 +954,7 @@
       <tstamps>be9d41c7-a671-4f8c-8b78-16d66c5c53e1</tstamps>
     </comp>
     <comp ref="C18">
-      <value>1uF 50V 1206</value>
+      <value>CAP CER 1206</value>
       <footprint>Duc:C1206</footprint>
       <description>CAP CER 1206</description>
       <fields>
@@ -1000,7 +999,7 @@
       <tstamps>1cc4b0a4-c9b6-44c6-8f4d-b4b7b6e063ad</tstamps>
     </comp>
     <comp ref="C20">
-      <value>10uF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1023,7 +1022,7 @@
       <tstamps>b22ece22-9e5d-437f-aaf8-0fe2a69d502b</tstamps>
     </comp>
     <comp ref="C21">
-      <value>10uF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1046,7 +1045,7 @@
       <tstamps>a4775c3a-f57c-4b10-9e01-54459b7f7181</tstamps>
     </comp>
     <comp ref="C22">
-      <value>10uF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1069,7 +1068,7 @@
       <tstamps>66fd45e0-4598-4597-9b78-164d6df7717a</tstamps>
     </comp>
     <comp ref="C23">
-      <value>10uF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1092,7 +1091,7 @@
       <tstamps>46a0c7f3-7346-47f9-8175-83e78f431142</tstamps>
     </comp>
     <comp ref="C24">
-      <value>10uF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1115,7 +1114,7 @@
       <tstamps>020b0d85-35d0-4b26-8c6b-3bc64b0e0c09</tstamps>
     </comp>
     <comp ref="C25">
-      <value>10uF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1138,7 +1137,7 @@
       <tstamps>ce2dc87c-e464-4f3c-b9bc-48c2fc9a9846</tstamps>
     </comp>
     <comp ref="C26">
-      <value>10uF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1161,7 +1160,7 @@
       <tstamps>e2a4b472-795c-46ec-8dbe-a705f71b431a</tstamps>
     </comp>
     <comp ref="C27">
-      <value>10uF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1184,7 +1183,7 @@
       <tstamps>3621fd95-175e-4f78-be80-ebde6d31018f</tstamps>
     </comp>
     <comp ref="C28">
-      <value>10uF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1207,7 +1206,7 @@
       <tstamps>ce2d5f5c-f33c-47d9-bfd8-c5fec1e2dbd4</tstamps>
     </comp>
     <comp ref="C29">
-      <value>10uF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1298,7 +1297,7 @@
       <tstamps>0129a2a0-114f-4dca-b5d3-09506e2d4941</tstamps>
     </comp>
     <comp ref="R1">
-      <value>41.2K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -1320,7 +1319,7 @@
       <tstamps>c141801b-db5b-4aa2-868a-30bd65853e3a</tstamps>
     </comp>
     <comp ref="R2">
-      <value>10K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -1342,7 +1341,7 @@
       <tstamps>bf88259a-1561-492d-b468-ccfc29fae111</tstamps>
     </comp>
     <comp ref="R3">
-      <value>40.2K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -1364,7 +1363,7 @@
       <tstamps>56b67d2c-97bb-4ea4-b52c-71096e2719a4</tstamps>
     </comp>
     <comp ref="R4">
-      <value>13K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -1386,7 +1385,7 @@
       <tstamps>04349949-dc73-430a-8995-d9abdf6f28d5</tstamps>
     </comp>
     <comp ref="R5">
-      <value>10K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -1408,7 +1407,7 @@
       <tstamps>290d7f86-3e39-40a6-a2ee-7f569f1c660a</tstamps>
     </comp>
     <comp ref="R6">
-      <value>100K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -1635,7 +1634,7 @@
       <tstamps>da002f48-53aa-4748-8675-97a3f65c7591</tstamps>
     </comp>
     <comp ref="C30">
-      <value>1uF 10V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1658,7 +1657,7 @@
       <tstamps>3912f499-ec9b-493a-b14a-2f8b98c30029</tstamps>
     </comp>
     <comp ref="C31">
-      <value>4.7uF 16V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1681,7 +1680,7 @@
       <tstamps>f985519f-7631-4655-898b-5b05d0d9109f</tstamps>
     </comp>
     <comp ref="C32">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1704,7 +1703,7 @@
       <tstamps>12de6cdf-3325-4ffb-b22b-e6ab83f90b55</tstamps>
     </comp>
     <comp ref="C33">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1727,7 +1726,7 @@
       <tstamps>cef0e30e-285a-4f9e-9102-53d12dd90264</tstamps>
     </comp>
     <comp ref="C34">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1750,7 +1749,7 @@
       <tstamps>876772f4-203d-40d6-9628-2053a485dce2</tstamps>
     </comp>
     <comp ref="C35">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1773,7 +1772,7 @@
       <tstamps>dfc49b81-4b42-40ce-9071-ed6c8c9c2dc7</tstamps>
     </comp>
     <comp ref="C36">
-      <value>1uF 10V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1796,7 +1795,7 @@
       <tstamps>38a59e5f-3256-453b-bff3-29e3254334b8</tstamps>
     </comp>
     <comp ref="C37">
-      <value>1uF 10V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1819,7 +1818,7 @@
       <tstamps>d0d384ed-6f96-495f-862b-3091db33770c</tstamps>
     </comp>
     <comp ref="C38">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1842,7 +1841,7 @@
       <tstamps>69231b1b-db59-44cc-af6a-031f19e8e8ae</tstamps>
     </comp>
     <comp ref="C39">
-      <value>1uF 10V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1865,7 +1864,7 @@
       <tstamps>d569b9ae-c8b3-4863-9c24-23d24d03b10c</tstamps>
     </comp>
     <comp ref="C40">
-      <value>4.7uF 16V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1888,7 +1887,7 @@
       <tstamps>757b93d1-9964-4964-a31f-1971e8540ff6</tstamps>
     </comp>
     <comp ref="C41">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1911,7 +1910,7 @@
       <tstamps>dd25b2cb-c3b7-4dff-8555-ec25452e741d</tstamps>
     </comp>
     <comp ref="C42">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1934,7 +1933,7 @@
       <tstamps>2d680aac-c020-4374-81c6-27277be5bc7c</tstamps>
     </comp>
     <comp ref="C43">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1957,7 +1956,7 @@
       <tstamps>7dcafbef-29dc-4706-b446-43934c42bf49</tstamps>
     </comp>
     <comp ref="C44">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -1980,7 +1979,7 @@
       <tstamps>219115f9-e2bd-4aba-b2a3-fc0231b28a34</tstamps>
     </comp>
     <comp ref="C45">
-      <value>1uF 10V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -2003,7 +2002,7 @@
       <tstamps>9a071b1a-1e02-4095-b263-3b4bbdaffeaf</tstamps>
     </comp>
     <comp ref="C46">
-      <value>1uF 10V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -2026,7 +2025,7 @@
       <tstamps>1c19a132-6cb5-4af0-85c5-2d2526bead0b</tstamps>
     </comp>
     <comp ref="C47">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -2048,8 +2047,8 @@
       <sheetpath names="/Project Architecture/MCU - Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>77068237-bc4d-4e31-b3cc-5d7b36e9104d</tstamps>
     </comp>
-    <comp ref="L2">
-      <value>PBBHAQ2012H-102T10</value>
+    <comp ref="FB2">
+      <value>1k @ 100MHz</value>
       <footprint>Duc:L0805</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C52178237.pdf</datasheet>
       <description>300mΩ 1 ±25% 1kΩ@100MHz 0805 Ferrite Beads and Chips RoHS</description>
@@ -2070,8 +2069,8 @@
       <sheetpath names="/Project Architecture/MCU - Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>08364a5a-af74-4732-a260-cf3d2823b725</tstamps>
     </comp>
-    <comp ref="L3">
-      <value>PBBHAQ2012H-102T10</value>
+    <comp ref="FB3">
+      <value>1k @ 100MHz</value>
       <footprint>Duc:L0805</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C52178237.pdf</datasheet>
       <description>300mΩ 1 ±25% 1kΩ@100MHz 0805 Ferrite Beads and Chips RoHS</description>
@@ -2139,7 +2138,7 @@
       <tstamps>3bb38c4e-d06b-44be-ac97-adf92668717c</tstamps>
     </comp>
     <comp ref="C48">
-      <value>8pF 16V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -2162,7 +2161,7 @@
       <tstamps>d2853cde-eebb-4c09-919c-7b588d242aba</tstamps>
     </comp>
     <comp ref="C49">
-      <value>8pF 16V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -2185,7 +2184,7 @@
       <tstamps>0768f78e-2c24-4b34-8cb7-80240479eed7</tstamps>
     </comp>
     <comp ref="C50">
-      <value>8pF 16V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -2208,7 +2207,7 @@
       <tstamps>45439ce0-04a4-43b9-ad2e-8fb1fbbaf476</tstamps>
     </comp>
     <comp ref="C51">
-      <value>8pF 16V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -3688,20 +3687,19 @@
       <tstamps>baa7cbb0-7f4e-4049-86cd-7eb9332c799d</tstamps>
     </comp>
     <comp ref="C52">
-      <value>4.7uF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Index"/>
@@ -3711,20 +3709,19 @@
       <tstamps>bb3b6fe2-606e-4002-abe4-1deaafebf020</tstamps>
     </comp>
     <comp ref="C53">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Index"/>
@@ -3734,20 +3731,19 @@
       <tstamps>dae2905c-c0c0-43f2-848a-7826936d34e2</tstamps>
     </comp>
     <comp ref="C54">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Index"/>
@@ -3757,20 +3753,19 @@
       <tstamps>045b7e6b-3ca7-47db-8271-67481e104b9d</tstamps>
     </comp>
     <comp ref="C55">
-      <value>470nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Index"/>
@@ -3780,20 +3775,19 @@
       <tstamps>d50c8461-b016-4170-b487-b252a1b4b5a9</tstamps>
     </comp>
     <comp ref="C56">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Index"/>
@@ -3803,20 +3797,19 @@
       <tstamps>769e28f6-5198-42ee-97a8-88ae51c8e376</tstamps>
     </comp>
     <comp ref="C57">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Index"/>
@@ -3849,20 +3842,19 @@
       <tstamps>369789f9-02ad-4607-85df-b1578a2ee722</tstamps>
     </comp>
     <comp ref="R7">
-      <value>1R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Index"/>
@@ -3871,20 +3863,19 @@
       <tstamps>72e49f5d-d0a4-4034-90c2-95cca1d7775f</tstamps>
     </comp>
     <comp ref="R8">
-      <value>1K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Index"/>
@@ -3893,20 +3884,19 @@
       <tstamps>de68dafb-de6c-408f-95a6-5ca733f9d1f7</tstamps>
     </comp>
     <comp ref="R9">
-      <value>220R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Index"/>
@@ -3915,20 +3905,19 @@
       <tstamps>f41e283a-4462-40f1-982e-95810c23f938</tstamps>
     </comp>
     <comp ref="R10">
-      <value>220R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Index"/>
@@ -3937,20 +3926,19 @@
       <tstamps>58a6f3c4-d1d9-4fe0-9ad9-c63317bf2cfb</tstamps>
     </comp>
     <comp ref="R11">
-      <value>1K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Index"/>
@@ -3959,20 +3947,19 @@
       <tstamps>65539a7f-a6e0-4e13-91bd-b30735eeef26</tstamps>
     </comp>
     <comp ref="R12">
-      <value>220R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Index"/>
@@ -4004,20 +3991,19 @@
       <tstamps>c290a6df-6fca-4ce9-8eae-6df633502205</tstamps>
     </comp>
     <comp ref="C58">
-      <value>4.7uF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Middle"/>
@@ -4027,20 +4013,19 @@
       <tstamps>108296a4-f983-45f9-b0be-a687e2b31fea</tstamps>
     </comp>
     <comp ref="C59">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Middle"/>
@@ -4050,20 +4035,19 @@
       <tstamps>5cd1755d-cae1-434a-bf33-f30c77288272</tstamps>
     </comp>
     <comp ref="C60">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Middle"/>
@@ -4073,20 +4057,19 @@
       <tstamps>7f3c13b3-097f-46ed-84a5-78ade561f45f</tstamps>
     </comp>
     <comp ref="C61">
-      <value>470nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Middle"/>
@@ -4096,20 +4079,19 @@
       <tstamps>fe24da0a-f01e-4358-99c1-d06596772da1</tstamps>
     </comp>
     <comp ref="C62">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Middle"/>
@@ -4119,20 +4101,19 @@
       <tstamps>a3506a63-435e-4d96-b53a-43a9181b2081</tstamps>
     </comp>
     <comp ref="C63">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Middle"/>
@@ -4165,20 +4146,19 @@
       <tstamps>0c28f0fa-3e95-4713-a95b-b6159c07f36b</tstamps>
     </comp>
     <comp ref="R13">
-      <value>1R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Middle"/>
@@ -4187,20 +4167,19 @@
       <tstamps>23886bd1-f90d-43c3-9a1c-96b14606ebe9</tstamps>
     </comp>
     <comp ref="R14">
-      <value>1K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Middle"/>
@@ -4209,20 +4188,19 @@
       <tstamps>183c5922-bbc3-4a70-aced-7f8d34ea884e</tstamps>
     </comp>
     <comp ref="R15">
-      <value>220R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Middle"/>
@@ -4231,20 +4209,19 @@
       <tstamps>63e383fa-4d35-4262-b7fb-b6304164fc19</tstamps>
     </comp>
     <comp ref="R16">
-      <value>220R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Middle"/>
@@ -4253,20 +4230,19 @@
       <tstamps>91ca58eb-8e25-45eb-9a23-fa1a009d5d4e</tstamps>
     </comp>
     <comp ref="R17">
-      <value>1K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Middle"/>
@@ -4275,20 +4251,19 @@
       <tstamps>e3d8da82-4a9c-488d-9df7-481f23b243c6</tstamps>
     </comp>
     <comp ref="R18">
-      <value>220R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Middle"/>
@@ -4320,20 +4295,19 @@
       <tstamps>83481383-4876-430d-a398-702b85ca28f0</tstamps>
     </comp>
     <comp ref="C64">
-      <value>4.7uF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Ring"/>
@@ -4343,20 +4317,19 @@
       <tstamps>d223c98f-22b2-49be-a7be-60f245dcee8b</tstamps>
     </comp>
     <comp ref="C65">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Ring"/>
@@ -4366,20 +4339,19 @@
       <tstamps>689a21c6-ce61-4565-b609-96943b764b7a</tstamps>
     </comp>
     <comp ref="C66">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Ring"/>
@@ -4389,20 +4361,19 @@
       <tstamps>61337210-cfa2-4b24-8d67-26cb4b98bd6d</tstamps>
     </comp>
     <comp ref="C67">
-      <value>470nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Ring"/>
@@ -4412,20 +4383,19 @@
       <tstamps>ca754a86-9ecb-474a-8211-a3c0de5415a0</tstamps>
     </comp>
     <comp ref="C68">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Ring"/>
@@ -4435,20 +4405,19 @@
       <tstamps>a9a0d083-535a-42ab-9265-9f867a181cdd</tstamps>
     </comp>
     <comp ref="C69">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Ring"/>
@@ -4481,20 +4450,19 @@
       <tstamps>4025a1ed-b777-45a0-8362-825aa10351e4</tstamps>
     </comp>
     <comp ref="R19">
-      <value>1R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Ring"/>
@@ -4503,20 +4471,19 @@
       <tstamps>7cfea05c-806c-43c2-a696-943e19eb44f6</tstamps>
     </comp>
     <comp ref="R20">
-      <value>1K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Ring"/>
@@ -4525,20 +4492,19 @@
       <tstamps>c5ead8c0-2f02-4b54-bca9-fd9993849606</tstamps>
     </comp>
     <comp ref="R21">
-      <value>220R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Ring"/>
@@ -4547,20 +4513,19 @@
       <tstamps>c8017ec2-d472-473e-8c5c-6915d5c98bd3</tstamps>
     </comp>
     <comp ref="R22">
-      <value>220R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Ring"/>
@@ -4569,20 +4534,19 @@
       <tstamps>1b45b1b0-00d1-40a1-a8eb-a94506d7c924</tstamps>
     </comp>
     <comp ref="R23">
-      <value>1K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Ring"/>
@@ -4591,20 +4555,19 @@
       <tstamps>594f7f78-a888-4f9d-a647-9222aff09e1d</tstamps>
     </comp>
     <comp ref="R24">
-      <value>220R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Ring"/>
@@ -4636,20 +4599,19 @@
       <tstamps>20072b22-dbfa-42fd-845d-00205063a780</tstamps>
     </comp>
     <comp ref="C70">
-      <value>4.7uF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Pinky"/>
@@ -4659,20 +4621,19 @@
       <tstamps>859c6f9a-96dd-453c-8aea-c863fc433414</tstamps>
     </comp>
     <comp ref="C71">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Pinky"/>
@@ -4682,20 +4643,19 @@
       <tstamps>b3c7aa4e-f8f0-4bac-a5cb-799a7d2f2146</tstamps>
     </comp>
     <comp ref="C72">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Pinky"/>
@@ -4705,20 +4665,19 @@
       <tstamps>1ca5fc03-9e89-4d70-97ab-bb6ce5b5acc1</tstamps>
     </comp>
     <comp ref="C73">
-      <value>470nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Pinky"/>
@@ -4728,20 +4687,19 @@
       <tstamps>c8736ac5-d2f8-426d-abf6-5df3cbb8104a</tstamps>
     </comp>
     <comp ref="C74">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Pinky"/>
@@ -4751,20 +4709,19 @@
       <tstamps>e77027e4-ae72-4b74-8acf-131acfe22733</tstamps>
     </comp>
     <comp ref="C75">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Pinky"/>
@@ -4797,20 +4754,19 @@
       <tstamps>e4e7c7e6-b10a-4fec-996c-be795588e25c</tstamps>
     </comp>
     <comp ref="R25">
-      <value>1R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Pinky"/>
@@ -4819,20 +4775,19 @@
       <tstamps>f6074520-6d4d-43d7-9255-d1dea6aab89a</tstamps>
     </comp>
     <comp ref="R26">
-      <value>1K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Pinky"/>
@@ -4841,20 +4796,19 @@
       <tstamps>ea580f11-ffc1-41ae-aac5-b439859217f1</tstamps>
     </comp>
     <comp ref="R27">
-      <value>220R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Pinky"/>
@@ -4863,20 +4817,19 @@
       <tstamps>18769ecf-a936-4325-afb7-a2d0981c8895</tstamps>
     </comp>
     <comp ref="R28">
-      <value>220R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Pinky"/>
@@ -4885,20 +4838,19 @@
       <tstamps>5e8124a6-0754-4b7c-8822-fd2649cf9782</tstamps>
     </comp>
     <comp ref="R29">
-      <value>1K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Pinky"/>
@@ -4907,20 +4859,19 @@
       <tstamps>a216fbe4-03b9-422e-bf89-c886f762b431</tstamps>
     </comp>
     <comp ref="R30">
-      <value>220R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Pinky"/>
@@ -4952,20 +4903,19 @@
       <tstamps>2717aecb-dada-4e64-9686-9235a57ee8fe</tstamps>
     </comp>
     <comp ref="C76">
-      <value>4.7uF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Thumb 1"/>
@@ -4975,20 +4925,19 @@
       <tstamps>105f6329-4819-4afb-91aa-186d1420ef02</tstamps>
     </comp>
     <comp ref="C77">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Thumb 1"/>
@@ -4998,20 +4947,19 @@
       <tstamps>0c10cccc-9344-45f4-a6a7-9bac20d4a239</tstamps>
     </comp>
     <comp ref="C78">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Thumb 1"/>
@@ -5021,20 +4969,19 @@
       <tstamps>52560e38-53dd-4b9a-8b3f-fdbf96bf5154</tstamps>
     </comp>
     <comp ref="C79">
-      <value>470nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Thumb 1"/>
@@ -5044,20 +4991,19 @@
       <tstamps>b7d69e4d-4a0e-43d1-b4bf-5c277c60926c</tstamps>
     </comp>
     <comp ref="C80">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Thumb 1"/>
@@ -5067,20 +5013,19 @@
       <tstamps>bd5b16d8-224d-4504-bc8f-50a98a5db907</tstamps>
     </comp>
     <comp ref="C81">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Thumb 1"/>
@@ -5113,20 +5058,19 @@
       <tstamps>4de9b14b-5264-4bf3-8ddb-c29c78d8966d</tstamps>
     </comp>
     <comp ref="R31">
-      <value>1R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Thumb 1"/>
@@ -5135,20 +5079,19 @@
       <tstamps>e3055a45-f7ae-4319-9097-eab3b87ab6da</tstamps>
     </comp>
     <comp ref="R32">
-      <value>1K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Thumb 1"/>
@@ -5157,20 +5100,19 @@
       <tstamps>994e86ae-e4f6-4025-9edf-50b5e6722850</tstamps>
     </comp>
     <comp ref="R33">
-      <value>220R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Thumb 1"/>
@@ -5179,20 +5121,19 @@
       <tstamps>a3248f75-74e3-4543-93f8-856b0fb67353</tstamps>
     </comp>
     <comp ref="R34">
-      <value>220R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Thumb 1"/>
@@ -5201,20 +5142,19 @@
       <tstamps>aea6fba4-2e92-4c6d-a197-d9f46e52b8c8</tstamps>
     </comp>
     <comp ref="R35">
-      <value>1K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Thumb 1"/>
@@ -5223,20 +5163,19 @@
       <tstamps>038aedf4-3a5c-4faa-88e4-2b54fade0501</tstamps>
     </comp>
     <comp ref="R36">
-      <value>220R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Thumb 1"/>
@@ -5268,20 +5207,19 @@
       <tstamps>f2971caa-6bcb-4e25-89cb-3797e427a80e</tstamps>
     </comp>
     <comp ref="C82">
-      <value>4.7uF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Thumb 2"/>
@@ -5291,20 +5229,19 @@
       <tstamps>86d33000-ec42-4d42-8831-e2be07ed71fa</tstamps>
     </comp>
     <comp ref="C83">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Thumb 2"/>
@@ -5314,20 +5251,19 @@
       <tstamps>72cabbcb-9c1d-448c-b936-7b3da97e98b0</tstamps>
     </comp>
     <comp ref="C84">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Thumb 2"/>
@@ -5337,20 +5273,19 @@
       <tstamps>cf3eb122-ee10-4756-a769-ee13ae82707c</tstamps>
     </comp>
     <comp ref="C85">
-      <value>470nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Thumb 2"/>
@@ -5360,20 +5295,19 @@
       <tstamps>c4ec5e49-d827-477b-9661-518ca45161a7</tstamps>
     </comp>
     <comp ref="C86">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Thumb 2"/>
@@ -5383,20 +5317,19 @@
       <tstamps>a53e77d9-276c-4c60-9c37-a875241b620b</tstamps>
     </comp>
     <comp ref="C87">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">CC0402KRX5R7BB105</field>
         <field name="LCSC Part">C325464</field>
         <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="Datasheet"/>
         <field name="Description">CAP CER 0402</field>
       </fields>
       <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="CC0402KRX5R7BB105"/>
       <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="Motor Control - Thumb 2"/>
@@ -5429,20 +5362,19 @@
       <tstamps>362e2ba0-628e-451a-af70-72d1a54a0468</tstamps>
     </comp>
     <comp ref="R37">
-      <value>1R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Thumb 2"/>
@@ -5451,20 +5383,19 @@
       <tstamps>ad4b89e3-368b-4b23-8c5a-06684bafbcd6</tstamps>
     </comp>
     <comp ref="R38">
-      <value>1K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Thumb 2"/>
@@ -5473,20 +5404,19 @@
       <tstamps>6412bb11-f6ef-48ff-981c-ac4a2d550c0b</tstamps>
     </comp>
     <comp ref="R39">
-      <value>220R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Thumb 2"/>
@@ -5495,20 +5425,19 @@
       <tstamps>3fd7c80b-ae93-4b47-9a5e-d6069c2662fc</tstamps>
     </comp>
     <comp ref="R40">
-      <value>220R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Thumb 2"/>
@@ -5517,20 +5446,19 @@
       <tstamps>856d832d-0258-41f4-a1e5-5435462a6693</tstamps>
     </comp>
     <comp ref="R41">
-      <value>1K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Thumb 2"/>
@@ -5539,20 +5467,19 @@
       <tstamps>335dc4bd-5279-45a2-8ec6-557a5690e068</tstamps>
     </comp>
     <comp ref="R42">
-      <value>220R 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Motor Control - Thumb 2"/>
@@ -5584,7 +5511,7 @@
       <tstamps>1c23577d-aa45-4dcd-abf3-f92cf5d8bf10</tstamps>
     </comp>
     <comp ref="C88">
-      <value>4.7uF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -5607,7 +5534,7 @@
       <tstamps>d0edb84c-a9b7-4bd3-b6df-cf68b6e49fea</tstamps>
     </comp>
     <comp ref="C89">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
       <description>CAP CER 0402</description>
       <fields>
@@ -5629,7 +5556,7 @@
       <tstamps>0dde5b28-de38-429b-a68f-bccc2a0b6b28</tstamps>
     </comp>
     <comp ref="C90">
-      <value>4.7uF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -5652,7 +5579,7 @@
       <tstamps>f69695df-b3c5-439d-8e1c-ad236febcfa0</tstamps>
     </comp>
     <comp ref="C91">
-      <value>100nF 50V 0402</value>
+      <value>CAP CER 0402</value>
       <footprint>Duc:C0402</footprint>
       <description>CAP CER 0402</description>
       <fields>
@@ -5674,7 +5601,7 @@
       <tstamps>1e3210a4-b5e3-412d-962b-85b3aafaf359</tstamps>
     </comp>
     <comp ref="D2">
-      <value>Blue 0603</value>
+      <value>LED 0603</value>
       <footprint>Duc:LED0603-RD_WHITE</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C965810.pdf</datasheet>
       <description>LED WARM WHITE YELLOW LENS 0603 SMD</description>
@@ -5743,7 +5670,7 @@
       <tstamps>fe225c2f-872f-4c47-bf3f-936366efa666</tstamps>
     </comp>
     <comp ref="D5">
-      <value>Blue 0603</value>
+      <value>LED 0603</value>
       <footprint>Duc:LED0603-RD_WHITE</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C965810.pdf</datasheet>
       <description>LED WARM WHITE YELLOW LENS 0603 SMD</description>
@@ -5801,7 +5728,7 @@
         <field name="Datasheet">https://www.lcsc.com/datasheet/C2827654.pdf</field>
         <field name="Description">ESD DIODE 5VWM 12VC SOT-23-6</field>
       </fields>
-      <libsource lib="" part="USBLC6-2SC6_1" description="ESD DIODE 5VWM 12VC SOT-23-6"/>
+      <libsource lib="Duc-Diodes" part="USBLC6-2SC6" description="ESD DIODE 5VWM 12VC SOT-23-6"/>
       <property name="Manufacturer" value="TECH PUBLIC(台舟)"/>
       <property name="MPN" value="USBLC6-2SC6"/>
       <property name="LCSC Part" value="C2827654"/>
@@ -5858,20 +5785,19 @@
       <tstamps>7925a236-b60e-42df-994c-a53f093319eb</tstamps>
     </comp>
     <comp ref="R43">
-      <value>430K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Interface - USB 2.0"/>
@@ -5880,20 +5806,19 @@
       <tstamps>6b2f83f0-a5a5-4212-8955-577b99714a14</tstamps>
     </comp>
     <comp ref="R44">
-      <value>620K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Interface - USB 2.0"/>
@@ -5902,20 +5827,19 @@
       <tstamps>f4e0a308-f206-4443-8b02-a2413b25d542</tstamps>
     </comp>
     <comp ref="R45">
-      <value>1K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Interface - USB 2.0"/>
@@ -5924,20 +5848,19 @@
       <tstamps>daa4ed15-3cc6-4aab-9600-f237f0a5ce14</tstamps>
     </comp>
     <comp ref="R46">
-      <value>5.1K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Interface - USB 2.0"/>
@@ -5946,20 +5869,19 @@
       <tstamps>b54d311e-1040-4f39-8fed-b627b0022ed3</tstamps>
     </comp>
     <comp ref="R47">
-      <value>5.1K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Interface - USB 2.0"/>
@@ -5968,20 +5890,19 @@
       <tstamps>67e8c937-e5ec-4d91-bdce-5d76bf198359</tstamps>
     </comp>
     <comp ref="R48">
-      <value>430K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Interface - USB 2.0"/>
@@ -5990,20 +5911,19 @@
       <tstamps>7c3457f4-e37c-4d9a-a035-bfa74fcf5fd8</tstamps>
     </comp>
     <comp ref="R49">
-      <value>620K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Interface - USB 2.0"/>
@@ -6012,20 +5932,19 @@
       <tstamps>be3ae91e-2817-42bb-936f-58576a28af6f</tstamps>
     </comp>
     <comp ref="R50">
-      <value>1K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Interface - USB 2.0"/>
@@ -6034,20 +5953,19 @@
       <tstamps>ddb21557-71a6-40fc-bc08-4d68a3d535e9</tstamps>
     </comp>
     <comp ref="R51">
-      <value>5.1K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Interface - USB 2.0"/>
@@ -6056,20 +5974,19 @@
       <tstamps>4a9b7903-e845-4c4c-a520-3a240e866555</tstamps>
     </comp>
     <comp ref="R52">
-      <value>5.1K 0.1% 0402</value>
+      <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0402</description>
       <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
+        <field name="Manufacturer"/>
         <field name="MPN">RT0402FRE07100KL</field>
         <field name="LCSC Part">C728576</field>
         <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">RES SMD 0402</field>
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
+      <property name="Manufacturer" value=""/>
       <property name="MPN" value="RT0402FRE07100KL"/>
       <property name="LCSC Part" value="C728576"/>
       <property name="Sheetname" value="Interface - USB 2.0"/>
@@ -6078,7 +5995,7 @@
       <tstamps>b06e2ea0-6cc8-48eb-a715-2221bd070091</tstamps>
     </comp>
     <comp ref="C92">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -6101,7 +6018,7 @@
       <tstamps>5349cec0-3a13-4bff-a34d-adf7503fe33d</tstamps>
     </comp>
     <comp ref="C93">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -6124,7 +6041,7 @@
       <tstamps>4a678568-c2e7-44bb-b752-82347f3c6b28</tstamps>
     </comp>
     <comp ref="C94">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -6147,7 +6064,7 @@
       <tstamps>23ffd58f-8877-43fd-836b-798353faaa7d</tstamps>
     </comp>
     <comp ref="C95">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -6170,7 +6087,7 @@
       <tstamps>5b762ec4-68b2-4e07-8b30-3f590f2ccba6</tstamps>
     </comp>
     <comp ref="R53">
-      <value>10K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -6192,7 +6109,7 @@
       <tstamps>ccd00dd9-6a40-4977-8acc-9fe16b4dd28c</tstamps>
     </comp>
     <comp ref="R55">
-      <value>10K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -6260,7 +6177,7 @@
       <tstamps>65107831-0d13-40db-954b-19003852710e</tstamps>
     </comp>
     <comp ref="C96">
-      <value>4.7uF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -6283,7 +6200,7 @@
       <tstamps>c4d276df-8a57-4950-979f-b0feb1ae9a45</tstamps>
     </comp>
     <comp ref="C97">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -6306,7 +6223,7 @@
       <tstamps>68629f84-f8c7-4584-b953-e1c0f67082a6</tstamps>
     </comp>
     <comp ref="C98">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -6329,7 +6246,7 @@
       <tstamps>2f24bc9c-4cb6-43bd-b939-6a163c2fb9bb</tstamps>
     </comp>
     <comp ref="C99">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -6486,7 +6403,7 @@
       <tstamps>912ea4be-cd52-47d4-8cde-ebd2094443e3</tstamps>
     </comp>
     <comp ref="R57">
-      <value>2.2K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -6508,7 +6425,7 @@
       <tstamps>7b8b04c3-1e17-4293-8deb-cab856489772</tstamps>
     </comp>
     <comp ref="R58">
-      <value>2.2K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -6530,7 +6447,7 @@
       <tstamps>864db118-f77a-4e92-9bca-7f2904000f4d</tstamps>
     </comp>
     <comp ref="R59">
-      <value>60R4 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -6552,7 +6469,7 @@
       <tstamps>5fbbb52b-10e7-4759-8ee5-b14b6ce5df94</tstamps>
     </comp>
     <comp ref="R60">
-      <value>60R4 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -6597,7 +6514,7 @@
       <tstamps>69401375-82bd-4d1a-bade-cc30d7f49c43</tstamps>
     </comp>
     <comp ref="D9">
-      <value>RED 0603</value>
+      <value>LED 0603</value>
       <footprint>Duc:LED0603-RD_WHITE</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C965810.pdf</datasheet>
       <description>LED WARM WHITE YELLOW LENS 0603 SMD</description>
@@ -6620,7 +6537,7 @@
       <tstamps>b37a5e7d-ec5b-44d4-ab2a-e9c9d7267125</tstamps>
     </comp>
     <comp ref="D10">
-      <value>Orange 0603</value>
+      <value>LED 0603</value>
       <footprint>Duc:LED0603-RD_WHITE</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C965810.pdf</datasheet>
       <description>LED WARM WHITE YELLOW LENS 0603 SMD</description>
@@ -6643,7 +6560,7 @@
       <tstamps>ff3ab08c-06ab-499d-af26-4d9bc4f3c0ff</tstamps>
     </comp>
     <comp ref="D11">
-      <value>Yellow 0603</value>
+      <value>LED 0603</value>
       <footprint>Duc:LED0603-RD_WHITE</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C965810.pdf</datasheet>
       <description>LED WARM WHITE YELLOW LENS 0603 SMD</description>
@@ -6666,7 +6583,7 @@
       <tstamps>0acd6621-bdb8-4400-b553-f17dd693dc30</tstamps>
     </comp>
     <comp ref="D12">
-      <value>Green 0603</value>
+      <value>LED 0603</value>
       <footprint>Duc:LED0603-RD_WHITE</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C965810.pdf</datasheet>
       <description>LED WARM WHITE YELLOW LENS 0603 SMD</description>
@@ -6689,7 +6606,7 @@
       <tstamps>e39e5edf-7e23-48c8-bef7-53ece6d9906f</tstamps>
     </comp>
     <comp ref="D13">
-      <value>Blue 0603</value>
+      <value>LED 0603</value>
       <footprint>Duc:LED0603-RD_WHITE</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C965810.pdf</datasheet>
       <description>LED WARM WHITE YELLOW LENS 0603 SMD</description>
@@ -6712,7 +6629,7 @@
       <tstamps>a7c865ed-4454-466f-ba80-9bcca15c641c</tstamps>
     </comp>
     <comp ref="D14">
-      <value>White 0603</value>
+      <value>LED 0603</value>
       <footprint>Duc:LED0603-RD_WHITE</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C965810.pdf</datasheet>
       <description>LED WARM WHITE YELLOW LENS 0603 SMD</description>
@@ -6758,7 +6675,7 @@
       <tstamps>2e1b6d69-373a-48dc-bc38-4c7edd428247</tstamps>
     </comp>
     <comp ref="D16">
-      <value>Red 0603</value>
+      <value>LED 0603</value>
       <footprint>Duc:LED0603-RD_WHITE</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C965810.pdf</datasheet>
       <description>LED WARM WHITE YELLOW LENS 0603 SMD</description>
@@ -6781,7 +6698,7 @@
       <tstamps>5328f6cf-94ae-4969-9b92-67a859a3abe4</tstamps>
     </comp>
     <comp ref="D17">
-      <value>Red 0603</value>
+      <value>LED 0603</value>
       <footprint>Duc:LED0603-RD_WHITE</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C965810.pdf</datasheet>
       <description>LED WARM WHITE YELLOW LENS 0603 SMD</description>
@@ -6826,7 +6743,7 @@
       <tstamps>5066ed54-0991-4ddd-88c8-8aaf9f16bff8</tstamps>
     </comp>
     <comp ref="R61">
-      <value>330R 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -6848,7 +6765,7 @@
       <tstamps>33c5c9f2-8d0b-4b3d-9150-8bd98313360b</tstamps>
     </comp>
     <comp ref="R62">
-      <value>330R 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -6870,7 +6787,7 @@
       <tstamps>dabb077d-79b7-488d-bee6-0c817831ada7</tstamps>
     </comp>
     <comp ref="R63">
-      <value>330R 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -6892,7 +6809,7 @@
       <tstamps>3151f23b-6da0-4fd3-a810-29145a0adba9</tstamps>
     </comp>
     <comp ref="R64">
-      <value>100R 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -6914,7 +6831,7 @@
       <tstamps>b09feee4-cd02-44a6-aa73-bb7c3506f762</tstamps>
     </comp>
     <comp ref="R65">
-      <value>100R 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -6936,7 +6853,7 @@
       <tstamps>d1c6b634-4e5f-4ed9-8525-79f1fc4cb846</tstamps>
     </comp>
     <comp ref="R66">
-      <value>100R 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -6958,7 +6875,7 @@
       <tstamps>01c2cbb5-1663-4c1b-9868-9dace2cd8b27</tstamps>
     </comp>
     <comp ref="R67">
-      <value>330R 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -6980,7 +6897,7 @@
       <tstamps>6cfcb588-2942-4880-8794-775b383a28ac</tstamps>
     </comp>
     <comp ref="R68">
-      <value>330R 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -7002,7 +6919,7 @@
       <tstamps>d3918934-25f3-481a-90a7-c77c9037bb7d</tstamps>
     </comp>
     <comp ref="R69">
-      <value>470R 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -7024,7 +6941,7 @@
       <tstamps>6afd8d68-5fc8-4edd-900c-81cd9d39f5f2</tstamps>
     </comp>
     <comp ref="C100">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -7047,7 +6964,7 @@
       <tstamps>23484b60-ebab-45d6-882b-373c1ae41be9</tstamps>
     </comp>
     <comp ref="C101">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -7070,7 +6987,7 @@
       <tstamps>dcc316b4-820d-4a20-b8ba-e78030d4f784</tstamps>
     </comp>
     <comp ref="R70">
-      <value>10K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -7092,7 +7009,7 @@
       <tstamps>6dc3a831-8fd2-4150-8bf8-0e8d49358e8c</tstamps>
     </comp>
     <comp ref="R71">
-      <value>10K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -7114,7 +7031,7 @@
       <tstamps>4a9439f9-1c6b-4e98-beb5-e51b7bf1e1a7</tstamps>
     </comp>
     <comp ref="R72">
-      <value>10K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -7136,7 +7053,7 @@
       <tstamps>63fd367a-fbd2-4151-8544-ca273c4d976f</tstamps>
     </comp>
     <comp ref="R73">
-      <value>10K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -7202,7 +7119,7 @@
       <tstamps>b287fd8b-9a0d-4050-92fc-e2eacbc39594</tstamps>
     </comp>
     <comp ref="C102">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -7225,7 +7142,7 @@
       <tstamps>77e0ac8e-c25a-4250-bb86-a1a179bcf7db</tstamps>
     </comp>
     <comp ref="R74">
-      <value>100K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -7247,7 +7164,7 @@
       <tstamps>5edd3ea7-5d04-4570-ac89-39a96bdf81d6</tstamps>
     </comp>
     <comp ref="R75">
-      <value>47K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -7359,7 +7276,7 @@
       <tstamps>5b982ab1-db2b-48a5-9ddb-d9e188d59991</tstamps>
     </comp>
     <comp ref="C103">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -7382,7 +7299,7 @@
       <tstamps>1349cd85-3e06-4707-a244-dd66afb62e20</tstamps>
     </comp>
     <comp ref="C104">
-      <value>100nF 50V 0603</value>
+      <value>CAP CER 0603</value>
       <footprint>Duc:C0603</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
       <description>CAP CER 0603</description>
@@ -7405,7 +7322,7 @@
       <tstamps>df63dc41-687f-45ea-86f5-399280b123d6</tstamps>
     </comp>
     <comp ref="R76">
-      <value>0R 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -7427,15 +7344,12 @@
       <tstamps>6cf1cfdd-a01d-4959-9849-fad9248bd823</tstamps>
     </comp>
     <comp ref="R77">
-      <value>100K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="Manufacturer Part Number">RT0402FRE07100KL</field>
-        <field name="Supplier 1">Digikey</field>
-        <field name="Supplier Part Number 1">YAG2307CT-ND</field>
         <field name="MPN">RT0603FRE13100KL</field>
         <field name="LCSC Part">C4107493</field>
         <field name="Footprint">Duc:R0603</field>
@@ -7444,9 +7358,6 @@
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0603" description="RES SMD 0603"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="Manufacturer Part Number" value="RT0402FRE07100KL"/>
-      <property name="Supplier 1" value="Digikey"/>
-      <property name="Supplier Part Number 1" value="YAG2307CT-ND"/>
       <property name="MPN" value="RT0603FRE13100KL"/>
       <property name="LCSC Part" value="C4107493"/>
       <property name="Sheetname" value="Misc - Board Version, Switch"/>
@@ -7455,7 +7366,7 @@
       <tstamps>ada536d2-0cd3-4e40-8aa5-dfdaa07090ba</tstamps>
     </comp>
     <comp ref="R78">
-      <value>0R 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -7477,15 +7388,12 @@
       <tstamps>3c34543a-56a8-4c1d-910a-5e60ce09d6dc</tstamps>
     </comp>
     <comp ref="R79">
-      <value>100K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="Manufacturer Part Number">RT0402FRE07100KL</field>
-        <field name="Supplier 1">Digikey</field>
-        <field name="Supplier Part Number 1">YAG2307CT-ND</field>
         <field name="MPN">RT0603FRE13100KL</field>
         <field name="LCSC Part">C4107493</field>
         <field name="Footprint">Duc:R0603</field>
@@ -7494,9 +7402,6 @@
       </fields>
       <libsource lib="Duc-Resistors" part="RES SMD 0603" description="RES SMD 0603"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="Manufacturer Part Number" value="RT0402FRE07100KL"/>
-      <property name="Supplier 1" value="Digikey"/>
-      <property name="Supplier Part Number 1" value="YAG2307CT-ND"/>
       <property name="MPN" value="RT0603FRE13100KL"/>
       <property name="LCSC Part" value="C4107493"/>
       <property name="Sheetname" value="Misc - Board Version, Switch"/>
@@ -7505,7 +7410,7 @@
       <tstamps>a175da42-8e25-4a69-96f5-eab073cc9c3e</tstamps>
     </comp>
     <comp ref="R80">
-      <value>10K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -7527,7 +7432,7 @@
       <tstamps>5215c880-e64b-4d05-92dc-f5b0130b87dd</tstamps>
     </comp>
     <comp ref="R81">
-      <value>10K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -7549,7 +7454,7 @@
       <tstamps>ae1073e9-91ea-49cb-a5ce-b466b78ac109</tstamps>
     </comp>
     <comp ref="R82">
-      <value>10K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -7571,7 +7476,7 @@
       <tstamps>748ae3e4-9c48-402d-8a55-0376bd7711ae</tstamps>
     </comp>
     <comp ref="R83">
-      <value>10K 0.1% 0603</value>
+      <value>RES 0603</value>
       <footprint>Duc:R0603</footprint>
       <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
       <description>RES SMD 0603</description>
@@ -7616,28 +7521,6 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="" part="USBLC6-2SC6_1">
-      <description>ESD DIODE 5VWM 12VC SOT-23-6</description>
-      <docs>https://www.lcsc.com/datasheet/C2827654.pdf</docs>
-      <fields>
-        <field name="Reference">D7</field>
-        <field name="Value">USBLC6-2SC6</field>
-        <field name="Footprint">Duc:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C2827654.pdf</field>
-        <field name="Description">ESD DIODE 5VWM 12VC SOT-23-6</field>
-        <field name="Manufacturer">TECH PUBLIC(台舟)</field>
-        <field name="MPN">USBLC6-2SC6</field>
-        <field name="LCSC Part">C2827654</field>
-      </fields>
-      <pins>
-        <pin num="1" name="IO1" type="passive"/>
-        <pin num="2" name="GND" type="passive"/>
-        <pin num="3" name="IO2" type="passive"/>
-        <pin num="4" name="IO2" type="passive"/>
-        <pin num="5" name="VBUS" type="passive"/>
-        <pin num="6" name="IO1" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Duc-Capacitors" part="25SVPF330M">
       <description>CAP ALUM POLY 330uF ±20% 25V SMD</description>
       <docs>https://lcsc.com/product-detail/Solid-Polymer-Electrolytic-Capacitor_PANASONIC_25SVPF330M_330uF-25V_C178367.html</docs>
@@ -7797,25 +7680,22 @@
         <pin num="11" name="11" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Duc-Connectors" part="DC-044A-20A">
-      <description>CONN PWR JACK 2mm x 5.9mm TH R/A</description>
-      <docs>https://lcsc.com/product-detail/DC-Connectors_1-65-2-0-DCseat-11-6mm-10-1mm_C129006.html</docs>
+    <libpart lib="Duc-Connectors" part="KF350-3.5-2P">
+      <description>TERM BLK 2POS 3.5mm TH</description>
+      <docs>https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF350-3-5-2P_C474892.html</docs>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">DC-044A-20A</field>
-        <field name="Footprint">Duc:DC-IN-TH_DC-044A-20A</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/DC-Connectors_1-65-2-0-DCseat-11-6mm-10-1mm_C129006.html</field>
-        <field name="Description">CONN PWR JACK 2mm x 5.9mm TH R/A</field>
-        <field name="Manufacturer">韩国韩荣</field>
-        <field name="MPN">DC-044A-20A</field>
-        <field name="LCSC Part">C129006</field>
+        <field name="Value">KF350-3.5-2P</field>
+        <field name="Footprint">Duc:CONN-TH_P3.50_KF350-3.5-2P</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF350-3-5-2P_C474892.html</field>
+        <field name="Description">TERM BLK 2POS 3.5mm TH</field>
+        <field name="Manufacturer">KEFA(科发)</field>
+        <field name="MPN">KF350-3.5-2P</field>
+        <field name="LCSC Part">C474892</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
-        <pin num="4" name="4" type="passive"/>
-        <pin num="5" name="5" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Duc-Connectors" part="PH2.54-2X3P-H25">
@@ -7870,22 +7750,22 @@
         <pin num="B8" name="SBU2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Duc-Connectors" part="XT60PW-M">
-      <description>Power Connectors RoHS</description>
-      <docs>https://www.lcsc.com/datasheet/C98732.pdf</docs>
+    <libpart lib="Duc-Connectors" part="XT30PW-F">
+      <description>Power Connectors</description>
+      <docs>https://www.lcsc.com/datasheet/C2913282.pdf</docs>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">XT60PW-M</field>
-        <field name="Footprint">Duc:CONN-TH_XT60PW-M</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C98732.pdf</field>
-        <field name="Description">Power Connectors RoHS</field>
+        <field name="Value">XT30PW-F</field>
+        <field name="Footprint">Duc:CONN-TH_XT30PW-F-1</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C2913282.pdf</field>
+        <field name="Description">Power Connectors</field>
         <field name="Manufacturer">AMASS(艾迈斯)</field>
-        <field name="MPN">XT60PW-M</field>
-        <field name="LCSC Part">C98732</field>
+        <field name="MPN">XT30PW-F20.G.Y</field>
+        <field name="LCSC Part">C2913282</field>
       </fields>
       <pins>
-        <pin num="1" name="-" type="passive"/>
-        <pin num="2" name="+" type="passive"/>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
         <pin num="3" name="3" type="passive"/>
         <pin num="4" name="4" type="passive"/>
       </pins>
@@ -8524,6 +8404,7 @@
       <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="FB3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J12" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="J12" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="J12" pin="6" pinfunction="6" pintype="passive"/>
@@ -8541,7 +8422,6 @@
       <node ref="J7" pin="8" pinfunction="8" pintype="passive"/>
       <node ref="J8" pin="8" pinfunction="8" pintype="passive"/>
       <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="R23" pin="2" pintype="passive"/>
@@ -8624,13 +8504,13 @@
       <node ref="C74" pin="2" pintype="passive"/>
       <node ref="C80" pin="2" pintype="passive"/>
       <node ref="C86" pin="2" pintype="passive"/>
+      <node ref="FB2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="J5" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="J6" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="J7" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="J8" pin="3" pinfunction="3" pintype="passive"/>
-      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R70" pin="1" pintype="passive"/>
       <node ref="R71" pin="1" pintype="passive"/>
       <node ref="R72" pin="1" pintype="passive"/>
@@ -8805,12 +8685,12 @@
       <node ref="U6" pin="46" pinfunction="PA12" pintype="passive"/>
     </net>
     <net code="30" name="/Project Architecture/Interface - USB 2.0/USB2_N" class="Default">
-      <node ref="D7" pin="4" pinfunction="IO2" pintype="passive"/>
+      <node ref="D7" pin="6" pinfunction="IO1" pintype="passive"/>
       <node ref="TP71" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U7" pin="45" pinfunction="PA11" pintype="passive"/>
     </net>
     <net code="31" name="/Project Architecture/Interface - USB 2.0/USB2_P" class="Default">
-      <node ref="D7" pin="6" pinfunction="IO1" pintype="passive"/>
+      <node ref="D7" pin="4" pinfunction="IO2" pintype="passive"/>
       <node ref="TP69" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U7" pin="46" pinfunction="PA12" pintype="passive"/>
     </net>
@@ -9397,7 +9277,7 @@
     <net code="158" name="/Project Architecture/Power - Connectors/+V_ADAPTER" class="Default">
       <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="Q2" pin="2" pinfunction="D" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="EN" pintype="passive"/>
       <node ref="U2" pin="6" pinfunction="ANODE" pintype="passive"/>
@@ -9405,7 +9285,7 @@
     <net code="159" name="/Project Architecture/Power - Connectors/+V_BAT2S" class="Default">
       <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="J1" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="EN" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="ANODE" pintype="passive"/>
@@ -9553,7 +9433,7 @@
       <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D7" pin="2" pinfunction="GND" pintype="passive"/>
       <node ref="D8" pin="3" pinfunction="3" pintype="passive"/>
-      <node ref="J1" pin="1" pinfunction="-" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="J10" pin="13" pinfunction="EH" pintype="passive"/>
       <node ref="J10" pin="14" pinfunction="EH" pintype="passive"/>
       <node ref="J10" pin="A1B12" pinfunction="GND" pintype="passive"/>
@@ -9566,8 +9446,7 @@
       <node ref="J13" pin="5" pinfunction="5" pintype="passive"/>
       <node ref="J14" pin="5" pinfunction="5" pintype="passive"/>
       <node ref="J15" pin="5" pinfunction="5" pintype="passive"/>
-      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J3" pin="10" pinfunction="10" pintype="passive"/>
       <node ref="J3" pin="11" pinfunction="11" pintype="passive"/>
@@ -9813,12 +9692,12 @@
       <node ref="R52" pin="1" pintype="passive"/>
     </net>
     <net code="186" name="Net-(J10-Dn1)" class="Default">
-      <node ref="D7" pin="3" pinfunction="IO2" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="IO1" pintype="passive"/>
       <node ref="J10" pin="A7" pinfunction="Dn1" pintype="passive"/>
       <node ref="J10" pin="B7" pinfunction="Dn2" pintype="passive"/>
     </net>
     <net code="187" name="Net-(J10-Dp1)" class="Default">
-      <node ref="D7" pin="1" pinfunction="IO1" pintype="passive"/>
+      <node ref="D7" pin="3" pinfunction="IO2" pintype="passive"/>
       <node ref="J10" pin="A6" pinfunction="Dp1" pintype="passive"/>
       <node ref="J10" pin="B6" pinfunction="Dp2" pintype="passive"/>
     </net>
@@ -9865,14 +9744,14 @@
     <net code="198" name="Net-(U6A-VDDA)" class="Default">
       <node ref="C37" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="C38" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="FB2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U6" pin="28" pinfunction="VREF+" pintype="passive"/>
       <node ref="U6" pin="29" pinfunction="VDDA" pintype="passive"/>
     </net>
     <net code="199" name="Net-(U7A-VDDA)" class="Default">
       <node ref="C46" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="C47" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="FB3" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U7" pin="28" pinfunction="VREF+" pintype="passive"/>
       <node ref="U7" pin="29" pinfunction="VDDA" pintype="passive"/>
     </net>
@@ -9897,133 +9776,127 @@
     <net code="206" name="unconnected-(J1-Pad4)" class="Default">
       <node ref="J1" pin="4" pinfunction="4" pintype="passive+no_connect"/>
     </net>
-    <net code="207" name="unconnected-(J2-Pad4)" class="Default">
-      <node ref="J2" pin="4" pinfunction="4" pintype="passive+no_connect"/>
-    </net>
-    <net code="208" name="unconnected-(J2-Pad5)" class="Default">
-      <node ref="J2" pin="5" pinfunction="5" pintype="passive+no_connect"/>
-    </net>
-    <net code="209" name="unconnected-(J9-SBU1-PadA8)" class="Default">
+    <net code="207" name="unconnected-(J9-SBU1-PadA8)" class="Default">
       <node ref="J9" pin="A8" pinfunction="SBU1" pintype="passive+no_connect"/>
     </net>
-    <net code="210" name="unconnected-(J9-SBU2-PadB8)" class="Default">
+    <net code="208" name="unconnected-(J9-SBU2-PadB8)" class="Default">
       <node ref="J9" pin="B8" pinfunction="SBU2" pintype="passive+no_connect"/>
     </net>
-    <net code="211" name="unconnected-(J10-SBU1-PadA8)" class="Default">
+    <net code="209" name="unconnected-(J10-SBU1-PadA8)" class="Default">
       <node ref="J10" pin="A8" pinfunction="SBU1" pintype="passive+no_connect"/>
     </net>
-    <net code="212" name="unconnected-(J10-SBU2-PadB8)" class="Default">
+    <net code="210" name="unconnected-(J10-SBU2-PadB8)" class="Default">
       <node ref="J10" pin="B8" pinfunction="SBU2" pintype="passive+no_connect"/>
     </net>
-    <net code="213" name="unconnected-(J11-Pad4)" class="Default">
+    <net code="211" name="unconnected-(J11-Pad4)" class="Default">
       <node ref="J11" pin="4" pinfunction="4" pintype="passive+no_connect"/>
     </net>
-    <net code="214" name="unconnected-(J11-Pad5)" class="Default">
+    <net code="212" name="unconnected-(J11-Pad5)" class="Default">
       <node ref="J11" pin="5" pinfunction="5" pintype="passive+no_connect"/>
     </net>
-    <net code="215" name="unconnected-(J12-Pad24)" class="Default">
+    <net code="213" name="unconnected-(J12-Pad24)" class="Default">
       <node ref="J12" pin="24" pinfunction="24" pintype="passive+no_connect"/>
     </net>
-    <net code="216" name="unconnected-(J12-Pad25)" class="Default">
+    <net code="214" name="unconnected-(J12-Pad25)" class="Default">
       <node ref="J12" pin="25" pinfunction="25" pintype="passive+no_connect"/>
     </net>
-    <net code="217" name="unconnected-(U3-SW-Pad11)" class="Default">
+    <net code="215" name="unconnected-(U3-SW-Pad11)" class="Default">
       <node ref="U3" pin="11" pinfunction="SW" pintype="passive+no_connect"/>
     </net>
-    <net code="218" name="unconnected-(U5-NC-Pad4)" class="Default">
+    <net code="216" name="unconnected-(U5-NC-Pad4)" class="Default">
       <node ref="U5" pin="4" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="219" name="unconnected-(U6B-PB3-Pad56)" class="Default">
+    <net code="217" name="unconnected-(U6B-PB3-Pad56)" class="Default">
       <node ref="U6" pin="56" pinfunction="PB3" pintype="passive+no_connect"/>
     </net>
-    <net code="220" name="unconnected-(U6B-PB4-Pad57)" class="Default">
+    <net code="218" name="unconnected-(U6B-PB4-Pad57)" class="Default">
       <node ref="U6" pin="57" pinfunction="PB4" pintype="passive+no_connect"/>
     </net>
-    <net code="221" name="unconnected-(U6B-PB5-Pad58)" class="Default">
+    <net code="219" name="unconnected-(U6B-PB5-Pad58)" class="Default">
       <node ref="U6" pin="58" pinfunction="PB5" pintype="passive+no_connect"/>
     </net>
-    <net code="222" name="unconnected-(U6B-PB6-Pad59)" class="Default">
+    <net code="220" name="unconnected-(U6B-PB6-Pad59)" class="Default">
       <node ref="U6" pin="59" pinfunction="PB6" pintype="passive+no_connect"/>
     </net>
-    <net code="223" name="unconnected-(U6B-PB7-Pad60)" class="Default">
+    <net code="221" name="unconnected-(U6B-PB7-Pad60)" class="Default">
       <node ref="U6" pin="60" pinfunction="PB7" pintype="passive+no_connect"/>
     </net>
-    <net code="224" name="unconnected-(U7B-PB3-Pad56)" class="Default">
+    <net code="222" name="unconnected-(U7B-PB3-Pad56)" class="Default">
       <node ref="U7" pin="56" pinfunction="PB3" pintype="passive+no_connect"/>
     </net>
-    <net code="225" name="unconnected-(U7B-PB4-Pad57)" class="Default">
+    <net code="223" name="unconnected-(U7B-PB4-Pad57)" class="Default">
       <node ref="U7" pin="57" pinfunction="PB4" pintype="passive+no_connect"/>
     </net>
-    <net code="226" name="unconnected-(U7B-PB5-Pad58)" class="Default">
+    <net code="224" name="unconnected-(U7B-PB5-Pad58)" class="Default">
       <node ref="U7" pin="58" pinfunction="PB5" pintype="passive+no_connect"/>
     </net>
-    <net code="227" name="unconnected-(U7B-PB6-Pad59)" class="Default">
+    <net code="225" name="unconnected-(U7B-PB6-Pad59)" class="Default">
       <node ref="U7" pin="59" pinfunction="PB6" pintype="passive+no_connect"/>
     </net>
-    <net code="228" name="unconnected-(U7B-PB7-Pad60)" class="Default">
+    <net code="226" name="unconnected-(U7B-PB7-Pad60)" class="Default">
       <node ref="U7" pin="60" pinfunction="PB7" pintype="passive+no_connect"/>
     </net>
-    <net code="229" name="unconnected-(U7B-PB9-Pad62)" class="Default">
+    <net code="227" name="unconnected-(U7B-PB9-Pad62)" class="Default">
       <node ref="U7" pin="62" pinfunction="PB9" pintype="passive+no_connect"/>
     </net>
-    <net code="230" name="unconnected-(U8-NC-Pad6)" class="Default">
+    <net code="228" name="unconnected-(U8-NC-Pad6)" class="Default">
       <node ref="U8" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="231" name="unconnected-(U8-NC-Pad10)" class="Default">
+    <net code="229" name="unconnected-(U8-NC-Pad10)" class="Default">
       <node ref="U8" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="232" name="unconnected-(U8-NC-Pad26)" class="Default">
+    <net code="230" name="unconnected-(U8-NC-Pad26)" class="Default">
       <node ref="U8" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="233" name="unconnected-(U9-NC-Pad6)" class="Default">
+    <net code="231" name="unconnected-(U9-NC-Pad6)" class="Default">
       <node ref="U9" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="234" name="unconnected-(U9-NC-Pad10)" class="Default">
+    <net code="232" name="unconnected-(U9-NC-Pad10)" class="Default">
       <node ref="U9" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="235" name="unconnected-(U9-NC-Pad26)" class="Default">
+    <net code="233" name="unconnected-(U9-NC-Pad26)" class="Default">
       <node ref="U9" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="236" name="unconnected-(U10-NC-Pad6)" class="Default">
+    <net code="234" name="unconnected-(U10-NC-Pad6)" class="Default">
       <node ref="U10" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="237" name="unconnected-(U10-NC-Pad10)" class="Default">
+    <net code="235" name="unconnected-(U10-NC-Pad10)" class="Default">
       <node ref="U10" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="238" name="unconnected-(U10-NC-Pad26)" class="Default">
+    <net code="236" name="unconnected-(U10-NC-Pad26)" class="Default">
       <node ref="U10" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="239" name="unconnected-(U11-NC-Pad6)" class="Default">
+    <net code="237" name="unconnected-(U11-NC-Pad6)" class="Default">
       <node ref="U11" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="240" name="unconnected-(U11-NC-Pad10)" class="Default">
+    <net code="238" name="unconnected-(U11-NC-Pad10)" class="Default">
       <node ref="U11" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="241" name="unconnected-(U11-NC-Pad26)" class="Default">
+    <net code="239" name="unconnected-(U11-NC-Pad26)" class="Default">
       <node ref="U11" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="242" name="unconnected-(U12-NC-Pad6)" class="Default">
+    <net code="240" name="unconnected-(U12-NC-Pad6)" class="Default">
       <node ref="U12" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="243" name="unconnected-(U12-NC-Pad10)" class="Default">
+    <net code="241" name="unconnected-(U12-NC-Pad10)" class="Default">
       <node ref="U12" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="244" name="unconnected-(U12-NC-Pad26)" class="Default">
+    <net code="242" name="unconnected-(U12-NC-Pad26)" class="Default">
       <node ref="U12" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="245" name="unconnected-(U13-NC-Pad6)" class="Default">
+    <net code="243" name="unconnected-(U13-NC-Pad6)" class="Default">
       <node ref="U13" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="246" name="unconnected-(U13-NC-Pad10)" class="Default">
+    <net code="244" name="unconnected-(U13-NC-Pad10)" class="Default">
       <node ref="U13" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="247" name="unconnected-(U13-NC-Pad26)" class="Default">
+    <net code="245" name="unconnected-(U13-NC-Pad26)" class="Default">
       <node ref="U13" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="248" name="unconnected-(U16-EP-Pad5)" class="Default">
+    <net code="246" name="unconnected-(U16-EP-Pad5)" class="Default">
       <node ref="U16" pin="5" pinfunction="EP" pintype="passive+no_connect"/>
     </net>
-    <net code="249" name="unconnected-(U17-EP-Pad5)" class="Default">
+    <net code="247" name="unconnected-(U17-EP-Pad5)" class="Default">
       <node ref="U17" pin="5" pinfunction="EP" pintype="passive+no_connect"/>
     </net>
   </nets>
