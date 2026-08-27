@@ -9,7 +9,7 @@
     <textvar name="COMPANY">Willas</textvar>
     <textvar name="DESIGNER">Damon</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">1c02af4</textvar>
+    <textvar name="GIT_HASH_PCB">66451d2</textvar>
     <textvar name="GIT_HASH_SCH">cc04374</textvar>
     <textvar name="GIT_URL">https://github.com/ducbin11903/MasterHand_Project_Kicad.git</textvar>
     <textvar name="PROJECT_NAME">Master Hand</textvar>
@@ -18,8 +18,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">27-Aug-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-08-27</textvar>
+    <textvar name="RELEASE_DATE">28-Aug-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-08-28</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -9034,7 +9034,7 @@
     </net>
     <net code="96" name="/Project Architecture/MCU - IOs/PWMA_M" class="Default">
       <node ref="TP23" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="9" pinfunction="PC1" pintype="passive"/>
+      <node ref="U7" pin="11" pinfunction="PC3" pintype="passive"/>
       <node ref="U9" pin="8" pinfunction="PWM1" pintype="passive"/>
     </net>
     <net code="97" name="/Project Architecture/MCU - IOs/PWMA_P" class="Default">
@@ -9045,7 +9045,7 @@
     <net code="98" name="/Project Architecture/MCU - IOs/PWMA_R" class="Default">
       <node ref="TP37" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U10" pin="8" pinfunction="PWM1" pintype="passive"/>
-      <node ref="U7" pin="11" pinfunction="PC3" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="PC0" pintype="passive"/>
     </net>
     <net code="99" name="/Project Architecture/MCU - IOs/PWMA_T1" class="Default">
       <node ref="TP68" pin="1" pinfunction="1" pintype="passive"/>
@@ -9064,7 +9064,7 @@
     </net>
     <net code="102" name="/Project Architecture/MCU - IOs/PWMB_M" class="Default">
       <node ref="TP25" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="8" pinfunction="PC0" pintype="passive"/>
+      <node ref="U7" pin="10" pinfunction="PC2" pintype="passive"/>
       <node ref="U9" pin="9" pinfunction="PWM2" pintype="passive"/>
     </net>
     <net code="103" name="/Project Architecture/MCU - IOs/PWMB_P" class="Default">
@@ -9075,7 +9075,7 @@
     <net code="104" name="/Project Architecture/MCU - IOs/PWMB_R" class="Default">
       <node ref="TP39" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U10" pin="9" pinfunction="PWM2" pintype="passive"/>
-      <node ref="U7" pin="10" pinfunction="PC2" pintype="passive"/>
+      <node ref="U7" pin="9" pinfunction="PC1" pintype="passive"/>
     </net>
     <net code="105" name="/Project Architecture/MCU - IOs/PWMB_T1" class="Default">
       <node ref="TP70" pin="1" pinfunction="1" pintype="passive"/>
