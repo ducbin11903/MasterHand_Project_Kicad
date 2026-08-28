@@ -10,69 +10,42 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols
-		(symbol "Duc-Capacitors:25SVPF330M"
+		(symbol "Duc-Capacitors:CAP CER 0402"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.508 4.064 0)
+				(at 0 3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "25SVPF330M"
-				(at 1.524 -4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Duc:CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Solid-Polymer-Electrolytic-Capacitor_PANASONIC_25SVPF330M_330uF-25V_C178367.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CAP ALUM POLY 330uF ±20% 25V SMD"
-				(at 1.524 -4.318 0)
+			(property "Value" "CAP CER 0402"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Manufacturer" "PANASONIC(松下)"
+			(property "Footprint" "Duc:C0402"
 				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "MPN" "25SVPF330M"
+			(property "Datasheet" ""
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -81,7 +54,16 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C178367"
+			(property "Description" "CAP CER 0402"
+				(at 0 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -90,7 +72,25 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Solid Polymer Electrolytic Capacitor"
+			(property "MPN" "CC0402KRX5R7BB105"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C325464"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -99,23 +99,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "25SVPF330M_0_1"
-				(arc
-					(start -0.385 2.54)
-					(mid 0.2044 1.332)
-					(end 0.385 0)
-					(stroke
-						(width 0)
-						(type default)
+			(symbol "CAP CER 0402_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.385 0)
-					(mid 0.2136 -1.3347)
-					(end -0.385 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -126,7 +114,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 1.27 -2.54)
+						(xy -0.51 -2.03) (xy -0.51 2.03)
 					)
 					(stroke
 						(width 0)
@@ -136,50 +124,36 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 1.655 1.395)
-					(end 2.665 1.375)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 2.135 1.905)
-					(end 2.155 0.885)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.508 0)
+					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
+			)
+			(symbol "CAP CER 0402_1_1"
 				(pin passive line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "1"
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -187,6 +161,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -538,6 +530,199 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Duc-Capacitors:SM337M025E0800"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SM337M025E0800"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Duc:CAP-SMD_BD6.3-L6.6-W6.6-FD-1"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C44606382.pdf"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "330uF ±20% 25V SMD"
+				(at -0.254 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "SHENGYANG(升阳)"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SM337M025E0800"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C44606382"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SM337M025E0800_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.29 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.78 1.78) (xy -1.78 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 1.78) (xy -0.51 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.13 -1.75)
+					(mid 0.4201 0.0241)
+					(end 1.15 1.79)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2151,11 +2336,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Duc-Resistors:RES SMD 0603"
+		(symbol "Duc-Resistors:RES SMD 0402"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -2169,15 +2355,15 @@
 					)
 				)
 			)
-			(property "Value" "RES 0603"
-				(at 0 -3.302 0)
+			(property "Value" "RES 0402"
+				(at 0 -3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Duc:R0603"
+			(property "Footprint" "Duc:R0402"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -2186,7 +2372,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
+			(property "Datasheet" ""
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -2195,8 +2381,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RES SMD 0603"
-				(at 0 0 0)
+			(property "Description" "RES SMD 0402"
+				(at -0.508 -3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2204,7 +2390,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "YAGEO(国巨)"
+			(property "Manufacturer" ""
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -2213,7 +2399,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "RT0603FRE13100KL"
+			(property "MPN" "RT0402FRE07100KL"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -2222,7 +2408,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C4107493"
+			(property "LCSC Part" "C728576"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -2231,7 +2417,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RES SMD 0603_0_1"
+			(symbol "RES SMD 0402_0_1"
 				(rectangle
 					(start -2.54 1.016)
 					(end 2.54 -1.016)
@@ -2244,7 +2430,7 @@
 					)
 				)
 			)
-			(symbol "RES SMD 0603_1_1"
+			(symbol "RES SMD 0402_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -2833,12 +3019,6 @@
 		(uuid "045c25af-1016-4536-bcd7-a933f552720b")
 	)
 	(junction
-		(at 114.3 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a4194eb-35ce-4c2f-bc3f-c5cc64f35409")
-	)
-	(junction
 		(at 104.14 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2911,7 +3091,7 @@
 		(uuid "3a4fced7-b258-4886-9c85-e4acf46eb296")
 	)
 	(junction
-		(at 50.8 50.8)
+		(at 78.74 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c7298dd-9686-4514-a13e-016ed806239f")
@@ -2927,12 +3107,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b8d3e8a-5918-4c43-be5e-616520f1b4f8")
-	)
-	(junction
-		(at 142.24 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "503885fe-2dbc-4af8-b3f5-a32a1bdfd8d3")
 	)
 	(junction
 		(at 256.54 50.8)
@@ -3025,6 +3199,12 @@
 		(uuid "9460a44e-4272-4dc0-811c-0370f4a77499")
 	)
 	(junction
+		(at 88.9 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96753a46-6bc1-437e-a617-11a9b1b7885b")
+	)
+	(junction
 		(at 256.54 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3061,7 +3241,7 @@
 		(uuid "ad12992a-682e-4727-ba0e-fa76bb50c565")
 	)
 	(junction
-		(at 83.82 68.58)
+		(at 111.76 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aebae950-cd6e-457b-8e0d-8f479e6d3420")
@@ -3073,16 +3253,16 @@
 		(uuid "af5d9c83-0790-456f-bbca-aee42ef09c75")
 	)
 	(junction
-		(at 71.12 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b39cb2d9-efa7-4171-bd18-1803f1a2d08f")
-	)
-	(junction
-		(at 114.3 50.8)
+		(at 142.24 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b59b5ede-eddf-4e2d-b01f-8239ba09a55c")
+	)
+	(junction
+		(at 154.94 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b80f1082-bf39-4a5c-b8a1-d047fe221a75")
 	)
 	(junction
 		(at 226.06 208.28)
@@ -3151,7 +3331,7 @@
 		(uuid "d78a4513-cc31-4d1d-b933-45a7ca8615b6")
 	)
 	(junction
-		(at 83.82 50.8)
+		(at 111.76 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8104d29-5261-43f3-964d-79e70a3b3daf")
@@ -3185,12 +3365,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f39d5c88-0f54-45da-84cb-6a9c3b546525")
-	)
-	(junction
-		(at 133.35 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f44b018c-5b1e-4bbd-9b8d-c81383f1c776")
 	)
 	(junction
 		(at 270.51 223.52)
@@ -3242,7 +3416,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 50.8) (xy 83.82 55.88)
+			(xy 111.76 50.8) (xy 111.76 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3422,7 +3596,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 63.5) (xy 114.3 68.58)
+			(xy 142.24 63.5) (xy 142.24 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3582,6 +3756,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 50.8) (xy 167.64 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ac842d4-14c2-45fe-8168-ce490c9dbaa6")
+	)
+	(wire
+		(pts
 			(xy 256.54 88.9) (xy 256.54 91.44)
 		)
 		(stroke
@@ -3622,17 +3806,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 50.8) (xy 142.24 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dba2a66-b440-4946-a36f-7dca35bfc2ad")
-	)
-	(wire
-		(pts
-			(xy 50.8 68.58) (xy 71.12 68.58)
+			(xy 78.74 68.58) (xy 88.9 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3669,16 +3843,6 @@
 			(type default)
 		)
 		(uuid "33ce623c-d339-4e04-9c43-6fe0883be21a")
-	)
-	(wire
-		(pts
-			(xy 114.3 68.58) (xy 142.24 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37d2da58-eb2e-4c47-9042-aa6573b544ea")
 	)
 	(wire
 		(pts
@@ -3742,7 +3906,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 50.8) (xy 133.35 50.8)
+			(xy 142.24 50.8) (xy 154.94 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3792,7 +3956,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 63.5) (xy 83.82 68.58)
+			(xy 111.76 63.5) (xy 111.76 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3819,16 +3983,6 @@
 			(type default)
 		)
 		(uuid "49439e47-f0f3-4740-9b86-dc29fb7b0e33")
-	)
-	(wire
-		(pts
-			(xy 142.24 50.8) (xy 142.24 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a448be8-5d98-453c-9737-6027dcbe0626")
 	)
 	(wire
 		(pts
@@ -4202,16 +4356,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 63.5) (xy 142.24 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8383603c-4799-423e-8c14-feea1dd1bf3c")
-	)
-	(wire
-		(pts
 			(xy 224.79 132.08) (xy 231.14 132.08)
 		)
 		(stroke
@@ -4412,16 +4556,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 50.8) (xy 167.64 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b89724c-e711-4536-a032-c9af94599581")
-	)
-	(wire
-		(pts
 			(xy 194.31 83.82) (xy 194.31 82.55)
 		)
 		(stroke
@@ -4512,7 +4646,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 68.58) (xy 114.3 68.58)
+			(xy 111.76 68.58) (xy 142.24 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4529,6 +4663,16 @@
 			(type default)
 		)
 		(uuid "ac581bf9-bd88-40e7-95b3-138b691859c7")
+	)
+	(wire
+		(pts
+			(xy 88.9 68.58) (xy 111.76 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b00d387a-acb6-42b6-bfbd-30da432048e1")
 	)
 	(wire
 		(pts
@@ -4602,7 +4746,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 68.58) (xy 83.82 73.66)
+			(xy 111.76 68.58) (xy 111.76 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4722,7 +4866,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 50.8) (xy 93.98 50.8)
+			(xy 111.76 50.8) (xy 121.92 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4732,7 +4876,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 50.8) (xy 50.8 54.61)
+			(xy 78.74 50.8) (xy 78.74 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4782,7 +4926,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 50.8) (xy 83.82 50.8)
+			(xy 78.74 50.8) (xy 111.76 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4842,7 +4986,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 50.8) (xy 50.8 50.8)
+			(xy 63.5 50.8) (xy 78.74 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4872,7 +5016,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 50.8) (xy 114.3 50.8)
+			(xy 132.08 50.8) (xy 142.24 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4902,23 +5046,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 64.77) (xy 50.8 68.58)
+			(xy 78.74 64.77) (xy 78.74 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e031e918-b733-4c96-8524-8897f055aa87")
-	)
-	(wire
-		(pts
-			(xy 71.12 68.58) (xy 83.82 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e08be7a0-8e98-4c1c-994f-a214f46595e7")
 	)
 	(wire
 		(pts
@@ -5172,7 +5306,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 50.8) (xy 114.3 55.88)
+			(xy 142.24 50.8) (xy 142.24 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5954,11 +6088,47 @@
 			"QTYzQXFOQ25rRHVSbVNCRDgrbUwvOHlmVXRPY01vZ3U1QTVDNnNlY1BZNzcxRXdBQWdIVjRIbnNB"
 			"QUFDc3grNSt2eGx6MGVMRjFVWDFmZmZRK3J2UDMzNzBDbDdmM0ZiVmx3OUQ1MXlPdmlGLzRYWUFX"
 			"SmU3aDIxbkdPWDZZbDlzcUZLQUg4clNkMXZWOXRtdkh6czNqVlBieTZIYnl1WjArcjcyMVB3QkFB"
-			"QUFBRW9qcFFJQXdLSjI5L3ZObU5kTjdlUmVWZXZ0NUM3Y0RnQ2NvcE03c0FibnRtZExiTw=="
+			"QUFBRW9qcFFJQXdLSjI5L3ZObU5kTjdlUmVWZXZ0NUM3Y0RnQ2NvcE03c0FibnRtZExiTy9hdXNZ"
+			"UDZTUVBBQUFBQUxBV2tpb0FBR1FqVk1oOUxVSDNJY3NxM0E0QTZWcWlpN3FRTzFDeTVuYnM2ei9W"
+			"cHZuVDlidzV4ekRtOXdDUXVySDdzakhmK0FrQUFFRDVwRlVBQUZqYzJDN3VWUlVtNUY1VjVZZmNo"
+			"d1RiaGRzQmdLb1NjZ2ZLZHh4bzczb3N0QlFDOWdBQUFBQUFPWGtlZXdBQUFLelQ3bjYvR2R1ZDU4"
+			"WFZSZlY5OTlENnU4L2ZmdlFPWnRjaDhDOGZ4b3dpVFVPQys2ZHVDQkJ1QjRBMExORzkvWGgrWFFI"
+			"TDY0djk0dU1CbUtwUGFQenJQOVhtOWN2cVVEOS9ybTFkVjhDK25qZmpERG1uTC8xbTkyTnEwMDVk"
+			"MnFrTEFBQUFrSkxaTzVNQUFNQXBVNzZDdGl2a1hoc2EwczQ1NkQ3MHdxSndlOXJxUUUwcUhSeWJB"
+			"Wi9ZWTBwcExBQno2d3BZbnR2K2hRaG1ucHBIMjM1cTZEeHR3NEdRK240RHhhbHU3YzJRK2REdGIr"
+			"ejVyMUdJOC9kU0E3cTUxbWJ1OCtCYzZ6STNkV0VPWTg5SHBuenJKd0FBQU9YUndSMEFnS2ltZG5L"
+			"dnF1NmcrNUJ1N2xYMStJSmNEbUgzTVJjUVR3WGJxMHE0bmFkMDZnV0lZOHIydHc2R1Rabkd1VTd1"
+			"Yzh3VEFFNEpmWjVlVDYrRWNLN2F0Rk9YZHVvQ0FBQUE1TUJkMEFBQUpHRktKL2VxQ3QvTnZaWmkw"
+			"SDNzQlVQaDlueWswcVc4TGFRWXUydGtLclVCbUZ2ZmJzQlRwM1hPMkczdHVYbmFoZ01oRGRubXRI"
+			"VlI3OU05L1hnNmZlZXZnM3NZUzV5YjV4ck9MYVUyb1R1NGwxS1gwTlNGSlV3NS85REZIUUFBZ0pv"
+			"VFJBQUFrcEZxeUwwV00rdys1ZUtnWUh1ZVV1MkFHenRVSStBT3JFVXFBZmN4OCtzelQ5dHdJS1No"
+			"MjV4bTBMd1pMRDgzclRFQjkrUFh6Ukd3TDluUzUrRTVCWE5McTAyb2dIdHBkUWxGWFZqYTJITVFB"
+			"WGNBQUFCcVRoQUJBRWpLM0NIM3Fnb1g2Sjd6NG1DSUM0SG5ndTFWSmR5ZXVoUkQ3ckZETlFMdXdG"
+			"b01DVGdlaHlXUHc1cm5wdGRINkhuYWhnTWg5ZG5HOWRudWpMMDVKM2JBdmxTeGJqTFBJWmhiWW0x"
+			"Q0JOeExyRXNJNmtJTUF1NEFBQUJNNVFRUkFJRGtUQTI1VjlXeVFmZGpReTRjem5HeHIwK3d2YXFF"
+			"MitubitJSms3RkNOZ0R1d0ZuMERqbTJkZ0t0cVdHQ3lqOUR6dEEwSFF1cTdqVHUxN1prUwAAAABz"
+			"EshIY08FgAAAAAAAAAAAAwAAAAAAAABQq22pawEAAHESzkgAUAWAAAAAAAAAAAB+Es1IWY0DgBAg"
+			"YKlrAQAAfxLMSABRBYAAJkypawEAAAEAAAAAAAAAAAAAAAAAAAB9EsJIcVIFgAAAAAAAAAAACAAA"
+			"AAAAAABw5JmoawEAAHsSwEgAUwWAAAAAAAAAAAB4EsdIdo8DgEM6L1dpbmRveRLGSG9UBYBcZWdh"
+			"NDA4NTAuZm9uAFMAUwBzAEsAegAHEsRIbVUFgLAfYKlrAQAAAwAAAAAAAAAgKEypawEAAAUSukgA"
+			"VgWAAAAAAAAAAAACErlIOJEDgAAAAAAAAAAAAxK4SABXBYCAKEypawEAAAEAAAAAAAAAAAAAAAAA"
+			"AAABEr5Ib1gFgAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA8SvEgAWQWAAAAAAAAAAAAMErNISJMD"
+			"gAAAAAAAAAAADRKySABaBYABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAALErBISlsFgAAAAAAAAAAA"
+			"AwAAAAAAAABQrm2pawEAAAkStkgAXAWAAAAAAAAAAAAWErVISJUDgEAjYKlrAQAAFxK0SABdBYDw"
+			"qm2pawEAAAEAAAAAAAAAAAAAAAAAAAAVEqpIeF4FgAAAAAAAAAAABAAAAAAAAAABAAAAAAAAABMS"
+			"qEgAXwWAAAAAAAAAAAAQEq9IeJcDgJAhYKlrAQAAERKuSABgBYDwp22pawEAAAEAAAAAAAAAAAAA"
+			"AAAAAAAfEqxIOWEFgLAZYKlrAQAAAwAAAAAAAAAwq22pawEAAB0SokgAYgWAAAAAAAAAAAAaEqFI"
+			"ZpkDgAAAAAAAAAAAGxKgSABjBYAw65moawEAAAEAAAAAAAAAAAAAAAAAAAAZEqZIL2QFgAAAAAAA"
+			"AAAACAAAAAAAAABw55moawEAACcSpEgAZQWAAAAAAAAAAAAkEptIRJsDgAAAAAAAAAAAJRKaSABm"
+			"BYAQKUypawEAAAEAAAAAAAAAAAAAAAAAAAAjEphIa2cFgAAAAAAAAAAAAwAAAAAAAADgJ0ypawEA"
+			"ACESnkgAaAWAAAAAAAAAAAAuEp1IUp0DgAAAAAAAAAAALxKcSABpBYDAKEypawEAAAEAAAAAAAAA"
+			"AAAAAAAAAAAtEpJIMWoFgAAAAAAAAAAAAwAAAAAAAADwIUypawEAACsSkEgAawWAAAAAAAAAAAAo"
+			"EpdIc58DgBAdYKlrAQAAKRKWSABsBYBAI0ypawEAAAEAAAAAAAAAAAAAAAAAAAA3EpRIMG0FgDAk"
+			"YKlrAQAAAwAAAAAAAAAQJ0ypawEAADUSikgAbgWAAAAAAAAAAAAyEolIV6EDgKAjYKlrAQ=="
 		)
 	)
 	(image
-		(at 134.62 82.55)
+		(at 161.29 96.52)
 		(scale 0.511291)
 		(uuid "ad3e8537-9b5a-4dcf-9441-323bc9ba6e43")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAYEAAABPCAIAAACCru4DAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -6602,7 +6772,43 @@
 			"AAAAAAAAAAAAAJR4JMts8QKAAAAAAAAAAAADAAAAAAAAAMD+XFr9AQAAAQAAAAAAAAAAAAAAAAAA"
 			"AJd4IcsA8gKAAAAAAAAAAAAEAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAJJ4IssA8wKA"
 			"AAAAAAAAAAAEAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAI14L8sA9AKAQzovV2luZG93"
-			"cy9mb250c1xDYXNjYWRpYUNvZGUudHRmAAAAAAAAAIh4KMsA9QKAAAAAAAAAAAADAAAAAA=="
+			"cy9mb250c1xDYXNjYWRpYUNvZGUudHRmAAAAAAAAAIh4KMsA9QKAAAAAAAAAAAADAAAAAPUCgLCu"
+			"UautAQAAKRJzcW9tBIBOb3Jtw6FsbmUAdGYAAEQAZQBmADcAUwArEm1xNG4EgNCe0LHRi9GH0L3R"
+			"i9C5AAABAAAAAAAAAC0Sb3EAbwSATVMgR290aGljAGhxRfcCgAAAAAAAAAAALxJpcQBwBIBNaWNy"
+			"b3NvZnQgSmhlbmdIZWkAAAAAAAAhEmtxTnEEgEJvbGQgSXRhbGljAAAAAAAwGTqrrQEAACMSZXEA"
+			"cgSATGloYXZvaXR1AGZxZvkCgAAAAAAAAAAAJRJncQBzBIBQb2dydWJpb255AAAAAAAAAAAAAAAA"
+			"AAAnEmFxUHQEgM6Izr3PhM6/zr3OsQAAAABgGzqrrQEAADkSY3EAdQSAAAAAAAAAAABbZfyLbPsC"
+			"gJCtUautAQAAOxKdcAB2BIBMaWhhdm9pdHUAAAAAAAAAAAAAAAAAAAA9Ep9wd3cEgEdyYXNzZXR0"
+			"bwAAAAAAAAAQoAGqrQEAAD8SmXAAeASA77yt77yzIOOCtOOCt+ODg+OCrwAAAAAAMRKbcAB5BIAG"
+			"AAAAEAAAALAixv//////AAAAAAAAAAAzEpVwc3oEgG9iecSNZWpuw6kAAAAAAAAQlAGqrQEAADUS"
+			"l3AAewSABgAAABAAAABgIcb//////wAAAAAAAAAANxKRcG98BIAAAAAAAAAAAJGiaykAAHkAUK9R"
+			"q60BAAAJEpNwS30EgE5vcm1hbG55AAAAAAAAAACwGzqrrQEAAAsSjXAAfgSAU3RhbmRhYXJkAI5w"
+			"TQEDgAAAAAAAAAAADRKPcAB/BIDOms6xzr3Ov869zrnOus6sAAAAAAAAAAAPEolweoAEgNCe0LHR"
+			"i9GH0L3Ri9C5AAAQmwGqrQEAAAESi3AAgQSAAAAAAAAAAAAeS/0xSAMDgJC1UautAQAAAxKFcACC"
+			"BIAGAAAAEAAAAED6xf//////AAAAAAAAAAAFEodwbYMEgEbDqWxrw7Z2w6lyAAAAAABQfwirrQEA"
+			"AAcSgXAAhASABgAAABAAAACQJcb//////wAAAAAAAAAAGRKDcACFBIAGAAAAEAAAAGAkxv//////"
+			"AAAAAAAAAAAbEr1wYYYEgOW+rui7n+ato+m7kemrlADAGTqrrQEAAB0Sv3AAhwSATWljcm9zb2Z0"
+			"IFlhSGVpIFVJAKutAQAAHxK5cACIBIBNaWNyb3NvZnQgWWFIZWkgVUkAAAAAAAARErtweYkEgOW+"
+			"rui7n+ato+m7kemrlCBMaWdodAAAABMStXAAigSA0J/QvtC70YPQttC40YDQvdGL0LkAAAAAFRK3"
+			"cACLBIDlvq7ova/pm4Xpu5EAAAAAAAAAAAAAAAAXErFwWowEgE1pY3Jvc29mdCBKaGVuZwAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
 	(label "EN_3V3"
@@ -6779,7 +6985,7 @@
 	)
 	(hierarchical_label "+VBAT"
 		(shape input)
-		(at 35.56 50.8 180)
+		(at 63.5 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7035,7 +7241,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
+		(lib_id "Duc-Resistors:RES SMD 0402")
 		(at 204.47 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7053,7 +7259,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RES 0603"
+		(property "Value" "RES 0402"
 			(at 207.01 102.8699 90)
 			(effects
 				(font
@@ -7062,7 +7268,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Duc:R0603"
+		(property "Footprint" "Duc:R0402"
 			(at 212.09 101.6 0)
 			(effects
 				(font
@@ -7080,8 +7286,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0603"
-			(at 204.47 101.6 0)
+		(property "Description" "RES SMD 0402"
+			(at 207.518 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7098,7 +7304,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0603FRE13100KL"
+		(property "MPN" "RT0402FRE07100KL"
 			(at 219.71 101.6 0)
 			(effects
 				(font
@@ -7107,7 +7313,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4107493"
+		(property "LCSC Part" "C728576"
 			(at 222.25 101.6 0)
 			(effects
 				(font
@@ -7198,8 +7404,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Capacitors:25SVPF330M")
-		(at 104.14 215.9 90)
+		(lib_id "Duc-Capacitors:SM337M025E0800")
+		(at 104.14 215.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7207,7 +7413,7 @@
 		(dnp no)
 		(uuid "1cc4b0a4-c9b6-44c6-8f4d-b4b7b6e063ad")
 		(property "Reference" "C19"
-			(at 107.95 214.63 90)
+			(at 110.49 214.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,8 +7421,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "25SVPF330M"
-			(at 108.458 214.376 0)
+		(property "Value" "SM337M025E0800"
+			(at 99.06 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7224,8 +7430,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Duc:CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD"
-			(at 111.76 215.9 0)
+		(property "Footprint" "Duc:CAP-SMD_BD6.3-L6.6-W6.6-FD-1"
+			(at 96.52 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7233,8 +7439,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Solid-Polymer-Electrolytic-Capacitor_PANASONIC_25SVPF330M_330uF-25V_C178367.html"
-			(at 114.3 215.9 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C44606382.pdf"
+			(at 93.98 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,26 +7448,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM POLY 330uF ±20% 25V SMD"
-			(at 107.95 217.17 90)
+		(property "Description" "330uF ±20% 25V SMD"
+			(at 116.84 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Manufacturer" "PANASONIC(松下)"
-			(at 116.84 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "25SVPF330M"
-			(at 119.38 215.9 0)
+		(property "Manufacturer" "SHENGYANG(升阳)"
+			(at 91.44 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7269,8 +7465,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C178367"
-			(at 121.92 215.9 0)
+		(property "MPN" "SM337M025E0800"
+			(at 88.9 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C44606382"
+			(at 86.36 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7368,7 +7573,7 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:PWR_FLAG")
-		(at 78.74 68.58 180)
+		(at 96.52 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7377,7 +7582,7 @@
 		(fields_autoplaced yes)
 		(uuid "225e6702-c1c9-48b2-9f3d-0028c65ded99")
 		(property "Reference" "#FLG3"
-			(at 78.74 70.485 0)
+			(at 96.52 70.485 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -7387,7 +7592,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 78.74 73.66 0)
+			(at 96.52 73.66 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -7397,7 +7602,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 68.58 0)
+			(at 96.52 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7406,7 +7611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 68.58 0)
+			(at 96.52 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7415,7 +7620,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 68.58 0)
+			(at 96.52 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7436,7 +7641,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
+		(lib_id "Duc-Resistors:RES SMD 0402")
 		(at 289.56 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7454,7 +7659,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RES 0603"
+		(property "Value" "RES 0402"
 			(at 292.1 104.1399 90)
 			(effects
 				(font
@@ -7463,7 +7668,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Duc:R0603"
+		(property "Footprint" "Duc:R0402"
 			(at 297.18 102.87 0)
 			(effects
 				(font
@@ -7481,8 +7686,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0603"
-			(at 289.56 102.87 0)
+		(property "Description" "RES SMD 0402"
+			(at 292.608 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7499,7 +7704,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0603FRE13100KL"
+		(property "MPN" "RT0402FRE07100KL"
 			(at 304.8 102.87 0)
 			(effects
 				(font
@@ -7508,7 +7713,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4107493"
+		(property "LCSC Part" "C728576"
 			(at 307.34 102.87 0)
 			(effects
 				(font
@@ -7697,7 +7902,7 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:PWR_FLAG")
-		(at 125.73 50.8 0)
+		(at 147.32 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7706,7 +7911,7 @@
 		(fields_autoplaced yes)
 		(uuid "375631c0-db96-4d0a-a804-18695d488ce0")
 		(property "Reference" "#FLG2"
-			(at 125.73 48.895 0)
+			(at 147.32 48.895 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -7716,7 +7921,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 125.73 45.72 0)
+			(at 147.32 45.72 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -7726,7 +7931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 50.8 0)
+			(at 147.32 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7735,7 +7940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 50.8 0)
+			(at 147.32 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7744,7 +7949,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 50.8 0)
+			(at 147.32 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7766,7 +7971,7 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:GND")
-		(at 86.36 73.66 0)
+		(at 114.3 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7774,7 +7979,7 @@
 		(dnp no)
 		(uuid "3a3c1da6-bdfb-422e-9928-34d4841e9aa9")
 		(property "Reference" "#PWR13"
-			(at 88.9 75.438 0)
+			(at 116.84 75.438 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7784,7 +7989,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 77.724 0)
+			(at 111.76 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7792,7 +7997,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 73.66 0)
+			(at 114.3 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7801,7 +8006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 73.66 0)
+			(at 114.3 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7810,7 +8015,7 @@
 			)
 		)
 		(property "Description" "Power Symbol - Global Ground"
-			(at 86.36 80.518 0)
+			(at 114.3 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8025,7 +8230,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
+		(lib_id "Duc-Resistors:RES SMD 0402")
 		(at 289.56 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8034,24 +8239,22 @@
 		(dnp no)
 		(uuid "56b67d2c-97bb-4ea4-b52c-71096e2719a4")
 		(property "Reference" "R3"
-			(at 292.1 88.8999 90)
+			(at 293.37 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "RES 0603"
-			(at 292.1 91.4399 90)
+		(property "Value" "RES 0402"
+			(at 297.18 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Duc:R0603"
+		(property "Footprint" "Duc:R0402"
 			(at 297.18 90.17 0)
 			(effects
 				(font
@@ -8069,8 +8272,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0603"
-			(at 289.56 90.17 0)
+		(property "Description" "RES SMD 0402"
+			(at 292.608 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8087,7 +8290,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0603FRE13100KL"
+		(property "MPN" "RT0402FRE07100KL"
 			(at 304.8 90.17 0)
 			(effects
 				(font
@@ -8096,7 +8299,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4107493"
+		(property "LCSC Part" "C728576"
 			(at 307.34 90.17 0)
 			(effects
 				(font
@@ -8450,7 +8653,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 0603")
+		(lib_id "Duc-Capacitors:CAP CER 0402")
 		(at 194.31 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8459,51 +8662,22 @@
 		(dnp no)
 		(uuid "675c5add-4add-45b4-a5a7-53d62f064027")
 		(property "Reference" "C12"
-			(at 196.85 77.47 90)
+			(at 199.39 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 0603"
-			(at 196.85 80.01 90)
+		(property "Value" "CAP CER 0402"
+			(at 203.2 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Duc:C0603"
-			(at 201.93 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 204.47 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0603"
-			(at 194.31 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
+		(property "Footprint" "Duc:C0402"
 			(at 207.01 78.74 0)
 			(effects
 				(font
@@ -8512,7 +8686,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CAP CER 0603"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
 			(at 209.55 78.74 0)
 			(effects
 				(font
@@ -8521,8 +8695,35 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "Description" "CAP CER 0402"
+			(at 201.676 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
 			(at 212.09 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KRX5R7BB105"
+			(at 214.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C325464"
+			(at 217.17 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8994,7 +9195,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 1206")
+		(lib_id "Duc-Capacitors:CAP CER 0402")
 		(at 190.5 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9004,7 +9205,7 @@
 		(fields_autoplaced yes)
 		(uuid "983c87e5-091f-4a8c-aa89-fed218c47141")
 		(property "Reference" "C16"
-			(at 194.31 134.6199 90)
+			(at 194.31 133.3499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9012,8 +9213,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 1206"
-			(at 194.31 137.1599 90)
+		(property "Value" "CAP CER 0402"
+			(at 194.31 135.8899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9021,43 +9222,17 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Duc:C1206"
-			(at 198.12 135.89 0)
+		(property "Footprint" "Duc:C0402"
+			(at 194.31 138.4299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 200.66 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 1206"
-			(at 193.548 136.144 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 203.2 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC1206KKX7R9BB475"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
 			(at 205.74 135.89 0)
 			(effects
 				(font
@@ -9066,8 +9241,35 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C132170"
+		(property "Description" "CAP CER 0402"
+			(at 197.866 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
 			(at 208.28 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KRX5R7BB105"
+			(at 210.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C325464"
+			(at 213.36 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9091,7 +9293,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 1206")
+		(lib_id "Duc-Capacitors:CAP CER 0603")
 		(at 311.15 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9109,7 +9311,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 1206"
+		(property "Value" "CAP CER 0603"
 			(at 314.96 134.6199 90)
 			(effects
 				(font
@@ -9118,7 +9320,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Duc:C1206"
+		(property "Footprint" "Duc:C0603"
 			(at 318.77 133.35 0)
 			(effects
 				(font
@@ -9127,7 +9329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
 			(at 321.31 133.35 0)
 			(effects
 				(font
@@ -9136,8 +9338,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1206"
-			(at 314.198 133.604 0)
+		(property "Description" "CAP CER 0603"
+			(at 311.15 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9145,7 +9347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO(国巨)"
 			(at 323.85 133.35 0)
 			(effects
 				(font
@@ -9154,7 +9356,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC1206KKX7R9BB475"
+		(property "MPN" "CAP CER 0603"
 			(at 326.39 133.35 0)
 			(effects
 				(font
@@ -9163,7 +9365,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C132170"
+		(property "LCSC Part" "C14663"
 			(at 328.93 133.35 0)
 			(effects
 				(font
@@ -9256,7 +9458,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Diodes:SMAJ12A")
-		(at 50.8 59.69 270)
+		(at 78.74 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9265,7 +9467,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f9ced80-0cc1-4141-b11c-d23c93b29e38")
 		(property "Reference" "D1"
-			(at 54.61 57.9099 90)
+			(at 82.55 57.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9274,7 +9476,7 @@
 			)
 		)
 		(property "Value" "SMAJ12A"
-			(at 54.61 60.4499 90)
+			(at 82.55 60.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9283,7 +9485,7 @@
 			)
 		)
 		(property "Footprint" "Duc:SMA_L4.3-W2.6-LS5.2-RD"
-			(at 43.18 59.69 0)
+			(at 71.12 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9292,7 +9494,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/TVS_Littelfuse_SMAJ12A_SMAJ12A_C148213.html"
-			(at 40.64 59.69 0)
+			(at 68.58 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9301,7 +9503,7 @@
 			)
 		)
 		(property "Description" "TVS DIODE 12VWM 19.9VC DO-214AC(SMA)"
-			(at 50.8 59.69 0)
+			(at 78.74 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9310,7 +9512,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse(美国力特)"
-			(at 38.1 59.69 0)
+			(at 66.04 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9319,7 +9521,7 @@
 			)
 		)
 		(property "MPN" "SMAJ12A"
-			(at 35.56 59.69 0)
+			(at 63.5 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9328,7 +9530,7 @@
 			)
 		)
 		(property "LCSC Part" "C148213"
-			(at 33.02 59.69 0)
+			(at 60.96 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9516,7 +9718,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Inductors:PBBHAQ2012H-102T10")
-		(at 99.06 50.8 0)
+		(at 127 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9525,7 +9727,7 @@
 		(fields_autoplaced yes)
 		(uuid "a612ea27-4416-45bb-9dd4-6378c5cc266a")
 		(property "Reference" "FB1"
-			(at 99.06 44.45 0)
+			(at 127 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9533,7 +9735,7 @@
 			)
 		)
 		(property "Value" "1k @ 100MHz"
-			(at 99.06 46.99 0)
+			(at 127 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9541,7 +9743,7 @@
 			)
 		)
 		(property "Footprint" "Duc:L0805"
-			(at 99.06 58.42 0)
+			(at 127 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9550,7 +9752,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C52178237.pdf"
-			(at 99.06 60.96 0)
+			(at 127 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9559,7 +9761,7 @@
 			)
 		)
 		(property "Description" "300mΩ 1 ±25% 1kΩ@100MHz 0805 Ferrite Beads and Chips RoHS"
-			(at 92.71 55.626 0)
+			(at 120.65 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9568,7 +9770,7 @@
 			)
 		)
 		(property "Manufacturer" "PROD(谱罗德)"
-			(at 99.06 63.5 0)
+			(at 127 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9577,7 +9779,7 @@
 			)
 		)
 		(property "MPN" "PBBHAQ2012H-102T10"
-			(at 99.06 66.04 0)
+			(at 127 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9586,7 +9788,7 @@
 			)
 		)
 		(property "LCSC Part" "C52178237"
-			(at 99.06 68.58 0)
+			(at 127 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9818,8 +10020,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 0603")
-		(at 114.3 59.69 90)
+		(lib_id "Duc-Capacitors:CAP CER 0402")
+		(at 142.24 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9827,25 +10029,23 @@
 		(dnp no)
 		(uuid "ad8066a9-a2c5-4118-b89b-f7d0619ea25c")
 		(property "Reference" "C8"
-			(at 118.11 58.4199 90)
+			(at 146.05 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 0603"
-			(at 118.11 60.9599 90)
+		(property "Value" "CAP CER 0402"
+			(at 151.13 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Duc:C0603"
-			(at 121.92 59.69 0)
+		(property "Footprint" "Duc:C0402"
+			(at 154.94 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9854,7 +10054,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 124.46 59.69 0)
+			(at 157.48 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9862,8 +10062,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0603"
-			(at 114.3 59.69 0)
+		(property "Description" "CAP CER 0402"
+			(at 149.606 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9872,7 +10072,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 127 59.69 0)
+			(at 160.02 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9880,8 +10080,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CAP CER 0603"
-			(at 129.54 59.69 0)
+		(property "MPN" "CC0402KRX5R7BB105"
+			(at 162.56 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9889,8 +10089,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
-			(at 132.08 59.69 0)
+		(property "LCSC Part" "C325464"
+			(at 165.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10313,8 +10513,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 0603")
-		(at 83.82 59.69 90)
+		(lib_id "Duc-Capacitors:CAP CER 0402")
+		(at 111.76 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10322,25 +10522,23 @@
 		(dnp no)
 		(uuid "bb082483-0115-48d3-b07c-439e6763e8f9")
 		(property "Reference" "C7"
-			(at 87.63 58.4199 90)
+			(at 115.57 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 0603"
-			(at 87.63 60.9599 90)
+		(property "Value" "CAP CER 0402"
+			(at 120.65 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Duc:C0603"
-			(at 91.44 59.69 0)
+		(property "Footprint" "Duc:C0402"
+			(at 124.46 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10349,7 +10547,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 93.98 59.69 0)
+			(at 127 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10357,8 +10555,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0603"
-			(at 83.82 59.69 0)
+		(property "Description" "CAP CER 0402"
+			(at 119.126 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10367,7 +10565,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 96.52 59.69 0)
+			(at 129.54 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10375,8 +10573,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CAP CER 0603"
-			(at 99.06 59.69 0)
+		(property "MPN" "CC0402KRX5R7BB105"
+			(at 132.08 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10384,8 +10582,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
-			(at 101.6 59.69 0)
+		(property "LCSC Part" "C325464"
+			(at 134.62 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10409,7 +10607,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 1206")
+		(lib_id "Duc-Capacitors:CAP CER 0402")
 		(at 190.5 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10419,7 +10617,7 @@
 		(fields_autoplaced yes)
 		(uuid "be9d41c7-a671-4f8c-8b78-16d66c5c53e1")
 		(property "Reference" "C17"
-			(at 194.31 170.1799 90)
+			(at 194.31 168.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10427,8 +10625,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 1206"
-			(at 194.31 172.7199 90)
+		(property "Value" "CAP CER 0402"
+			(at 194.31 171.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10436,43 +10634,17 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Duc:C1206"
-			(at 198.12 171.45 0)
+		(property "Footprint" "Duc:C0402"
+			(at 194.31 173.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 200.66 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 1206"
-			(at 193.548 171.704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 203.2 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC1206KKX7R9BB475"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
 			(at 205.74 171.45 0)
 			(effects
 				(font
@@ -10481,8 +10653,35 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C132170"
+		(property "Description" "CAP CER 0402"
+			(at 197.866 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
 			(at 208.28 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KRX5R7BB105"
+			(at 210.82 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C325464"
+			(at 213.36 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10506,7 +10705,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
+		(lib_id "Duc-Resistors:RES SMD 0402")
 		(at 167.64 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10524,7 +10723,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RES 0603"
+		(property "Value" "RES 0402"
 			(at 170.18 78.7399 90)
 			(effects
 				(font
@@ -10533,7 +10732,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Duc:R0603"
+		(property "Footprint" "Duc:R0402"
 			(at 175.26 77.47 0)
 			(effects
 				(font
@@ -10551,8 +10750,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0603"
-			(at 167.64 77.47 0)
+		(property "Description" "RES SMD 0402"
+			(at 170.688 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10569,7 +10768,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0603FRE13100KL"
+		(property "MPN" "RT0402FRE07100KL"
 			(at 182.88 77.47 0)
 			(effects
 				(font
@@ -10578,7 +10777,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4107493"
+		(property "LCSC Part" "C728576"
 			(at 185.42 77.47 0)
 			(effects
 				(font
@@ -10603,7 +10802,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
+		(lib_id "Duc-Resistors:RES SMD 0402")
 		(at 167.64 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10612,24 +10811,22 @@
 		(dnp no)
 		(uuid "c141801b-db5b-4aa2-868a-30bd65853e3a")
 		(property "Reference" "R1"
-			(at 170.18 58.42 90)
+			(at 171.45 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "RES 0603"
-			(at 170.18 60.9599 90)
+		(property "Value" "RES 0402"
+			(at 173.99 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Duc:R0603"
+		(property "Footprint" "Duc:R0402"
 			(at 175.26 59.69 0)
 			(effects
 				(font
@@ -10647,8 +10844,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0603"
-			(at 167.64 59.69 0)
+		(property "Description" "RES SMD 0402"
+			(at 170.688 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10665,7 +10862,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0603FRE13100KL"
+		(property "MPN" "RT0402FRE07100KL"
 			(at 182.88 59.69 0)
 			(effects
 				(font
@@ -10674,7 +10871,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4107493"
+		(property "LCSC Part" "C728576"
 			(at 185.42 59.69 0)
 			(effects
 				(font
@@ -10699,7 +10896,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
+		(lib_id "Duc-Resistors:RES SMD 0402")
 		(at 287.02 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10708,7 +10905,7 @@
 		(dnp no)
 		(uuid "c5c37258-505a-4690-a44f-e4dafd1a467a")
 		(property "Reference" "R6"
-			(at 289.56 132.0799 90)
+			(at 289.56 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10716,16 +10913,15 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RES 0603"
-			(at 289.56 137.16 90)
+		(property "Value" "RES 0402"
+			(at 293.37 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Duc:R0603"
+		(property "Footprint" "Duc:R0402"
 			(at 294.64 133.35 0)
 			(effects
 				(font
@@ -10743,8 +10939,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0603"
-			(at 287.02 133.35 0)
+		(property "Description" "RES SMD 0402"
+			(at 290.068 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10761,7 +10957,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0603FRE13100KL"
+		(property "MPN" "RT0402FRE07100KL"
 			(at 302.26 133.35 0)
 			(effects
 				(font
@@ -10770,7 +10966,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4107493"
+		(property "LCSC Part" "C728576"
 			(at 304.8 133.35 0)
 			(effects
 				(font
@@ -11603,102 +11799,6 @@
 	)
 	(symbol
 		(lib_id "Duc-Capacitors:CAP CER 1206")
-		(at 142.24 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f01adb46-1ae2-47ea-8023-ef883071a131")
-		(property "Reference" "C9"
-			(at 146.05 58.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CAP CER 1206"
-			(at 146.05 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Duc:C1206"
-			(at 149.86 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 1206"
-			(at 145.288 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 154.94 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC1206KKX7R9BB475"
-			(at 157.48 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C132170"
-			(at 160.02 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9a33ed68-b485-4c61-9afd-b8173232eaf7")
-		)
-		(pin "1"
-			(uuid "d5eb402c-2bf3-4df7-a314-465b81855f7c")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 1206")
 		(at 281.94 55.88 270)
 		(mirror x)
 		(unit 1)
@@ -11974,7 +12074,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 1206")
+		(lib_id "Duc-Capacitors:CAP CER 0603")
 		(at 266.7 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11992,7 +12092,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 1206"
+		(property "Value" "CAP CER 0603"
 			(at 270.51 172.7199 90)
 			(effects
 				(font
@@ -12001,7 +12101,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Duc:C1206"
+		(property "Footprint" "Duc:C0603"
 			(at 274.32 171.45 0)
 			(effects
 				(font
@@ -12010,7 +12110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
 			(at 276.86 171.45 0)
 			(effects
 				(font
@@ -12019,8 +12119,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1206"
-			(at 269.748 171.704 0)
+		(property "Description" "CAP CER 0603"
+			(at 266.7 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12028,7 +12128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO(国巨)"
 			(at 279.4 171.45 0)
 			(effects
 				(font
@@ -12037,7 +12137,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC1206KKX7R9BB475"
+		(property "MPN" "CAP CER 0603"
 			(at 281.94 171.45 0)
 			(effects
 				(font
@@ -12046,7 +12146,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C132170"
+		(property "LCSC Part" "C14663"
 			(at 284.48 171.45 0)
 			(effects
 				(font
