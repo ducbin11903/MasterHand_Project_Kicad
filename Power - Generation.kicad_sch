@@ -43,6 +43,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
@@ -1049,175 +1050,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Duc-Inductors:PBBHAQ2012H-102T10"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1k @ 100MHz"
-				(at 0.254 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Duc:L0805"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C52178237.pdf"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "300mΩ 1 ±25% 1kΩ@100MHz 0805 Ferrite Beads and Chips RoHS"
-				(at -6.35 -4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "PROD(谱罗德)"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "PBBHAQ2012H-102T10"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C52178237"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PBBHAQ2012H-102T10_0_1"
-				(arc
-					(start -4.06 0.01)
-					(mid -3.035 1.02)
-					(end -2.03 -0.01)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.03 0.01)
-					(mid -1.005 1.02)
-					(end 0 -0.01)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.01)
-					(mid 1.025 1.02)
-					(end 2.03 -0.01)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.03 0.01)
-					(mid 3.055 1.02)
-					(end 4.06 -0.01)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PBBHAQ2012H-102T10_1_1"
 				(pin passive line
 					(at 5.08 0 180)
 					(length 1.27)
@@ -3091,7 +2923,7 @@
 		(uuid "3a4fced7-b258-4886-9c85-e4acf46eb296")
 	)
 	(junction
-		(at 78.74 50.8)
+		(at 127 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c7298dd-9686-4514-a13e-016ed806239f")
@@ -3107,6 +2939,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b8d3e8a-5918-4c43-be5e-616520f1b4f8")
+	)
+	(junction
+		(at 127 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dc7380f-ea53-48d2-8d3e-0b30844aaaf4")
 	)
 	(junction
 		(at 256.54 50.8)
@@ -3199,12 +3037,6 @@
 		(uuid "9460a44e-4272-4dc0-811c-0370f4a77499")
 	)
 	(junction
-		(at 88.9 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96753a46-6bc1-437e-a617-11a9b1b7885b")
-	)
-	(junction
 		(at 256.54 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3241,28 +3073,10 @@
 		(uuid "ad12992a-682e-4727-ba0e-fa76bb50c565")
 	)
 	(junction
-		(at 111.76 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aebae950-cd6e-457b-8e0d-8f479e6d3420")
-	)
-	(junction
 		(at 293.37 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af5d9c83-0790-456f-bbca-aee42ef09c75")
-	)
-	(junction
-		(at 142.24 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b59b5ede-eddf-4e2d-b01f-8239ba09a55c")
-	)
-	(junction
-		(at 154.94 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b80f1082-bf39-4a5c-b8a1-d047fe221a75")
 	)
 	(junction
 		(at 226.06 208.28)
@@ -3329,12 +3143,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d78a4513-cc31-4d1d-b933-45a7ca8615b6")
-	)
-	(junction
-		(at 111.76 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8104d29-5261-43f3-964d-79e70a3b3daf")
 	)
 	(junction
 		(at 223.52 144.78)
@@ -3413,16 +3221,6 @@
 			(type default)
 		)
 		(uuid "000ed4af-6214-4a8d-935a-fdd7d3741bff")
-	)
-	(wire
-		(pts
-			(xy 111.76 50.8) (xy 111.76 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "006eae0d-3571-4915-b042-c597b7176c40")
 	)
 	(wire
 		(pts
@@ -3596,16 +3394,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 63.5) (xy 142.24 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15ba8c98-871f-4b66-8445-1811fdf72bc4")
-	)
-	(wire
-		(pts
 			(xy 160.02 261.62) (xy 170.18 261.62)
 		)
 		(stroke
@@ -3756,7 +3544,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 50.8) (xy 167.64 50.8)
+			(xy 127 50.8) (xy 167.64 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3803,16 +3591,6 @@
 			(type default)
 		)
 		(uuid "2cef8aa9-1daa-4a8a-a3d6-7502d5b0f07f")
-	)
-	(wire
-		(pts
-			(xy 78.74 68.58) (xy 88.9 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e42ebe7-8ae5-4770-a958-ef237bafe894")
 	)
 	(wire
 		(pts
@@ -3906,16 +3684,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 50.8) (xy 154.94 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41b267ef-a4b6-4dd3-a774-afe1ffbb73a5")
-	)
-	(wire
-		(pts
 			(xy 180.34 208.28) (xy 203.2 208.28)
 		)
 		(stroke
@@ -3953,16 +3721,6 @@
 			(type default)
 		)
 		(uuid "45776ecf-a27b-479b-8d59-387a4b882dd2")
-	)
-	(wire
-		(pts
-			(xy 111.76 63.5) (xy 111.76 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "482cab2a-e253-4531-9fd0-2432f8d336d2")
 	)
 	(wire
 		(pts
@@ -4173,6 +3931,16 @@
 			(type default)
 		)
 		(uuid "64dd2ad7-e8e4-4195-910d-c121e80ef185")
+	)
+	(wire
+		(pts
+			(xy 127 71.12) (xy 127 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a53c6b6-a860-47c1-8db1-e552f1c039bd")
 	)
 	(wire
 		(pts
@@ -4646,16 +4414,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 68.58) (xy 142.24 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab9aa6ae-de3c-4040-a262-3055895dd041")
-	)
-	(wire
-		(pts
 			(xy 248.92 223.52) (xy 270.51 223.52)
 		)
 		(stroke
@@ -4663,16 +4421,6 @@
 			(type default)
 		)
 		(uuid "ac581bf9-bd88-40e7-95b3-138b691859c7")
-	)
-	(wire
-		(pts
-			(xy 88.9 68.58) (xy 111.76 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b00d387a-acb6-42b6-bfbd-30da432048e1")
 	)
 	(wire
 		(pts
@@ -4746,7 +4494,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 68.58) (xy 111.76 73.66)
+			(xy 127 64.77) (xy 127 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4866,17 +4614,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 50.8) (xy 121.92 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7e2b941-7622-4294-829f-fbdff378f60e")
-	)
-	(wire
-		(pts
-			(xy 78.74 50.8) (xy 78.74 54.61)
+			(xy 127 50.8) (xy 127 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4923,16 +4661,6 @@
 			(type default)
 		)
 		(uuid "ccf7eddc-241e-4033-bddc-4cb166e203d4")
-	)
-	(wire
-		(pts
-			(xy 78.74 50.8) (xy 111.76 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd0be37f-499e-4639-a552-71575556372c")
 	)
 	(wire
 		(pts
@@ -4986,7 +4714,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 50.8) (xy 78.74 50.8)
+			(xy 113.03 50.8) (xy 127 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5016,16 +4744,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 50.8) (xy 142.24 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dde4593c-5c07-48bf-859c-2385e3ccea2b")
-	)
-	(wire
-		(pts
 			(xy 251.46 147.32) (xy 256.54 147.32)
 		)
 		(stroke
@@ -5043,16 +4761,6 @@
 			(type default)
 		)
 		(uuid "dfd48576-6d4a-4f00-9133-6a068ff4ee1e")
-	)
-	(wire
-		(pts
-			(xy 78.74 64.77) (xy 78.74 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e031e918-b733-4c96-8524-8897f055aa87")
 	)
 	(wire
 		(pts
@@ -5276,16 +4984,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 254) (xy 170.18 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f65fdbcf-c3d4-48ab-83c7-6ab2adc83c38")
-	)
-	(wire
-		(pts
 			(xy 223.52 144.78) (xy 231.14 144.78)
 		)
 		(stroke
@@ -5303,16 +5001,6 @@
 			(type default)
 		)
 		(uuid "f77dd249-0152-4883-9fb8-5c67a691c8a4")
-	)
-	(wire
-		(pts
-			(xy 142.24 50.8) (xy 142.24 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9701a19-c95c-4658-852c-161cea7b4ba7")
 	)
 	(wire
 		(pts
@@ -6890,19 +6578,6 @@
 		)
 		(uuid "d2c1007b-0b51-4fa0-b475-c8fa3aff6b7f")
 	)
-	(label "F_VIN_5V"
-		(at 160.02 254 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "dcd74719-37c3-482c-8662-db7a7115e7ee")
-	)
 	(label "EN_3V3"
 		(at 204.47 86.36 0)
 		(effects
@@ -6925,19 +6600,6 @@
 			(justify left bottom)
 		)
 		(uuid "ec8992c7-f627-4f5c-bd3c-121b674fd67d")
-	)
-	(label "F_VIN_5V"
-		(at 184.15 50.8 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "f553c18b-ff8b-488b-901a-a17bdb900dfa")
 	)
 	(hierarchical_label "+5V"
 		(shape input)
@@ -6985,7 +6647,7 @@
 	)
 	(hierarchical_label "+VBAT"
 		(shape input)
-		(at 63.5 50.8 180)
+		(at 113.03 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7153,7 +6815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "020b0d85-35d0-4b26-8c6b-3bc64b0e0c09")
-		(property "Reference" "C24"
+		(property "Reference" "C19"
 			(at 229.87 214.6299 90)
 			(effects
 				(font
@@ -7234,7 +6896,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "C24")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -7346,7 +7008,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "0e3bd183-a60c-4e6d-8e28-68060511b09f")
-		(property "Reference" "#PWR16"
+		(property "Reference" "#PWR016"
 			(at 335.026 75.184 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7397,7 +7059,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#PWR16")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7412,7 +7074,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1cc4b0a4-c9b6-44c6-8f4d-b4b7b6e063ad")
-		(property "Reference" "C19"
+		(property "Reference" "C14"
 			(at 110.49 214.63 90)
 			(effects
 				(font
@@ -7492,7 +7154,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "C19")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -7573,7 +7235,7 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:PWR_FLAG")
-		(at 96.52 68.58 180)
+		(at 127 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7581,8 +7243,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "225e6702-c1c9-48b2-9f3d-0028c65ded99")
-		(property "Reference" "#FLG3"
-			(at 96.52 70.485 0)
+		(property "Reference" "#FLG03"
+			(at 125.095 78.74 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -7592,7 +7254,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 96.52 73.66 0)
+			(at 121.92 78.74 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -7602,7 +7264,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 68.58 0)
+			(at 127 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7611,7 +7273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 68.58 0)
+			(at 127 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7620,7 +7282,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 68.58 0)
+			(at 127 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7634,7 +7296,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#FLG3")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -7746,7 +7408,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "361f88a1-851c-4c12-abb8-ca86d8d943fc")
-		(property "Reference" "#PWR19"
+		(property "Reference" "#PWR019"
 			(at 291.846 99.314 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7797,7 +7459,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#PWR19")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7813,7 +7475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3621fd95-175e-4f78-be80-ebde6d31018f")
-		(property "Reference" "C27"
+		(property "Reference" "C22"
 			(at 297.18 214.6299 90)
 			(effects
 				(font
@@ -7894,76 +7556,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:PWR_FLAG")
-		(at 147.32 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "375631c0-db96-4d0a-a804-18695d488ce0")
-		(property "Reference" "#FLG2"
-			(at 147.32 48.895 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 147.32 45.72 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4d6a320-68bf-44a8-bc23-6d8181647cfc")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#FLG2")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -7971,15 +7564,15 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:GND")
-		(at 114.3 73.66 0)
+		(at 129.54 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(uuid "3a3c1da6-bdfb-422e-9928-34d4841e9aa9")
-		(property "Reference" "#PWR13"
-			(at 116.84 75.438 0)
+		(property "Reference" "#PWR013"
+			(at 132.08 76.708 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7989,7 +7582,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 77.724 0)
+			(at 127 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7997,7 +7590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 73.66 0)
+			(at 129.54 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8006,7 +7599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 73.66 0)
+			(at 129.54 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8015,7 +7608,7 @@
 			)
 		)
 		(property "Description" "Power Symbol - Global Ground"
-			(at 114.3 80.518 0)
+			(at 129.54 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8029,7 +7622,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#PWR13")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8045,7 +7638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46a0c7f3-7346-47f9-8175-83e78f431142")
-		(property "Reference" "C23"
+		(property "Reference" "C18"
 			(at 207.01 214.6299 90)
 			(effects
 				(font
@@ -8126,7 +7719,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "C23")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -8142,7 +7735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48451d18-6261-4845-a649-9ee862664cbd")
-		(property "Reference" "C29"
+		(property "Reference" "C24"
 			(at 342.9 214.6299 90)
 			(effects
 				(font
@@ -8223,7 +7816,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "C29")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -8333,7 +7926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "585b6332-5ad2-421b-a3a1-f9d0ef6ea034")
-		(property "Reference" "#FLG4"
+		(property "Reference" "#FLG02"
 			(at 332.74 69.215 0)
 			(effects
 				(font
@@ -8386,7 +7979,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#FLG4")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -8401,7 +7994,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "5add2390-67bf-4408-aa6a-50f2aa1718d6")
-		(property "Reference" "#PWR18"
+		(property "Reference" "#PWR018"
 			(at 243.586 99.314 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8452,7 +8045,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#PWR18")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8468,7 +8061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ebc0e8c-e4db-4fe7-ae77-54d49d013cbb")
-		(property "Reference" "C10"
+		(property "Reference" "C7"
 			(at 313.69 74.93 90)
 			(effects
 				(font
@@ -8549,7 +8142,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "C10")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8565,7 +8158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66fd45e0-4598-4597-9b78-164d6df7717a")
-		(property "Reference" "C22"
+		(property "Reference" "C17"
 			(at 184.15 214.6299 90)
 			(effects
 				(font
@@ -8646,7 +8239,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "C22")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -8661,7 +8254,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "675c5add-4add-45b4-a5a7-53d62f064027")
-		(property "Reference" "C12"
+		(property "Reference" "C9"
 			(at 199.39 77.47 90)
 			(effects
 				(font
@@ -8740,7 +8333,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "C12")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8756,7 +8349,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a26f710-fd45-42dd-b086-31ac7e3fbf03")
-		(property "Reference" "C11"
+		(property "Reference" "C8"
 			(at 339.09 74.93 90)
 			(effects
 				(font
@@ -8837,7 +8430,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "C11")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8853,7 +8446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d212c3c-e589-40a6-a87b-36569ced5426")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 121.92 257.81 90)
 			(effects
 				(font
@@ -8910,7 +8503,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -8926,7 +8519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72dfb1bc-ec45-4baa-9dc1-232057019184")
-		(property "Reference" "TP5"
+		(property "Reference" "TP4"
 			(at 121.92 261.62 90)
 			(effects
 				(font
@@ -8983,7 +8576,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "TP5")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -8999,7 +8592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7569f94e-069a-42ff-9292-336db030d8da")
-		(property "Reference" "TP7"
+		(property "Reference" "TP6"
 			(at 121.92 265.43 90)
 			(effects
 				(font
@@ -9056,7 +8649,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "TP7")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -9071,7 +8664,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "79eb05e2-efd3-45c3-8bc7-9b5d2f397700")
-		(property "Reference" "#PWR20"
+		(property "Reference" "#PWR021"
 			(at 225.806 138.684 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9122,7 +8715,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#PWR20")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9137,7 +8730,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "81358d46-3a00-4a96-8dc2-c9c7711511c9")
-		(property "Reference" "#PWR21"
+		(property "Reference" "#PWR022"
 			(at 258.826 141.224 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9188,7 +8781,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#PWR21")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9204,7 +8797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "983c87e5-091f-4a8c-aa89-fed218c47141")
-		(property "Reference" "C16"
+		(property "Reference" "C11"
 			(at 194.31 133.3499 90)
 			(effects
 				(font
@@ -9286,7 +8879,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "C16")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -9302,7 +8895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d41961c-5c9a-45f6-873b-2f81a4021876")
-		(property "Reference" "C13"
+		(property "Reference" "C10"
 			(at 314.96 132.0799 90)
 			(effects
 				(font
@@ -9383,7 +8976,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "C13")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9399,7 +8992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e9b14fe-4abc-4e2c-a268-76cb6a918993")
-		(property "Reference" "#PWR11"
+		(property "Reference" "#PWR011"
 			(at 196.596 53.594 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9450,7 +9043,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#PWR11")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9458,7 +9051,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Diodes:SMAJ12A")
-		(at 78.74 59.69 270)
+		(at 127 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9467,7 +9060,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f9ced80-0cc1-4141-b11c-d23c93b29e38")
 		(property "Reference" "D1"
-			(at 82.55 57.9099 90)
+			(at 130.81 57.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9476,7 +9069,7 @@
 			)
 		)
 		(property "Value" "SMAJ12A"
-			(at 82.55 60.4499 90)
+			(at 130.81 60.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9485,7 +9078,7 @@
 			)
 		)
 		(property "Footprint" "Duc:SMA_L4.3-W2.6-LS5.2-RD"
-			(at 71.12 59.69 0)
+			(at 119.38 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9494,7 +9087,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/TVS_Littelfuse_SMAJ12A_SMAJ12A_C148213.html"
-			(at 68.58 59.69 0)
+			(at 116.84 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9503,7 +9096,7 @@
 			)
 		)
 		(property "Description" "TVS DIODE 12VWM 19.9VC DO-214AC(SMA)"
-			(at 78.74 59.69 0)
+			(at 127 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9512,7 +9105,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse(美国力特)"
-			(at 66.04 59.69 0)
+			(at 114.3 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9521,7 +9114,7 @@
 			)
 		)
 		(property "MPN" "SMAJ12A"
-			(at 63.5 59.69 0)
+			(at 111.76 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9530,7 +9123,7 @@
 			)
 		)
 		(property "LCSC Part" "C148213"
-			(at 60.96 59.69 0)
+			(at 109.22 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9562,7 +9155,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "a2e772aa-6644-46ce-a930-4d3cf865259c")
-		(property "Reference" "#PWR24"
+		(property "Reference" "#PWR024"
 			(at 106.426 217.424 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9613,7 +9206,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#PWR24")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9629,7 +9222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4775c3a-f57c-4b10-9e01-54459b7f7181")
-		(property "Reference" "C21"
+		(property "Reference" "C16"
 			(at 161.29 214.6299 90)
 			(effects
 				(font
@@ -9710,102 +9303,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Duc-Inductors:PBBHAQ2012H-102T10")
-		(at 127 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a612ea27-4416-45bb-9dd4-6378c5cc266a")
-		(property "Reference" "FB1"
-			(at 127 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k @ 100MHz"
-			(at 127 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Duc:L0805"
-			(at 127 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C52178237.pdf"
-			(at 127 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "300mΩ 1 ±25% 1kΩ@100MHz 0805 Ferrite Beads and Chips RoHS"
-			(at 120.65 55.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "PROD(谱罗德)"
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PBBHAQ2012H-102T10"
-			(at 127 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C52178237"
-			(at 127 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54485df4-6be0-4597-a56d-c1488a3c5eef")
-		)
-		(pin "2"
-			(uuid "f0a3824f-597f-4b21-afd6-666624f5d62c")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "FB1")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -9820,7 +9318,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "a8549f91-c434-4b3b-b764-666371203952")
-		(property "Reference" "#PWR15"
+		(property "Reference" "#PWR015"
 			(at 196.596 75.184 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9871,7 +9369,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#PWR15")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9887,7 +9385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa8cf2f4-fb13-4a36-9746-425a0d7bab2f")
-		(property "Reference" "TP6"
+		(property "Reference" "TP5"
 			(at 175.26 261.62 90)
 			(effects
 				(font
@@ -9944,7 +9442,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "TP6")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -9960,7 +9458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aba4f315-06c0-49e9-a9b6-1eb05bd6296a")
-		(property "Reference" "#FLG7"
+		(property "Reference" "#FLG05"
 			(at 271.78 163.195 0)
 			(effects
 				(font
@@ -10013,174 +9511,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#FLG7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 0402")
-		(at 142.24 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad8066a9-a2c5-4118-b89b-f7d0619ea25c")
-		(property "Reference" "C8"
-			(at 146.05 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CAP CER 0402"
-			(at 151.13 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Duc:C0402"
-			(at 154.94 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 157.48 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0402"
-			(at 149.606 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 160.02 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0402KRX5R7BB105"
-			(at 162.56 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C325464"
-			(at 165.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5adde330-f8e7-43c9-a6cd-32a57cd0fcfd")
-		)
-		(pin "2"
-			(uuid "7b0c11a8-559f-40d2-81b7-07eed526d247")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 170.18 254 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0d049c6-111a-4a1a-95db-18b9fe481186")
-		(property "Reference" "TP2"
-			(at 175.26 254 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 180.594 254 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 159.512 257.556 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 259.08 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 161.544 256.032 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "989335eb-5624-48e5-b47f-32533aba5aaa")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "TP2")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -10196,7 +9527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0e1d666-69b2-4218-bec1-7fe46669d9f7")
-		(property "Reference" "#PWR12"
+		(property "Reference" "#PWR012"
 			(at 284.226 53.594 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10247,7 +9578,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#PWR12")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10359,7 +9690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b22ece22-9e5d-437f-aaf8-0fe2a69d502b")
-		(property "Reference" "C20"
+		(property "Reference" "C15"
 			(at 138.43 214.6299 90)
 			(effects
 				(font
@@ -10440,7 +9771,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "C20")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -10455,7 +9786,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "b68a2a5b-f03b-47a2-a382-a2de118ef3b9")
-		(property "Reference" "#PWR23"
+		(property "Reference" "#PWR023"
 			(at 192.786 171.704 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10506,101 +9837,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#PWR23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 0402")
-		(at 111.76 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb082483-0115-48d3-b07c-439e6763e8f9")
-		(property "Reference" "C7"
-			(at 115.57 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CAP CER 0402"
-			(at 120.65 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Duc:C0402"
-			(at 124.46 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 127 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0402"
-			(at 119.126 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 129.54 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0402KRX5R7BB105"
-			(at 132.08 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C325464"
-			(at 134.62 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b3268d0a-9c02-4f31-bb1a-08b19e9c3649")
-		)
-		(pin "1"
-			(uuid "262d1520-c5ae-49fb-81de-1a4f2b96dd79")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "C7")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10616,7 +9853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be9d41c7-a671-4f8c-8b78-16d66c5c53e1")
-		(property "Reference" "C17"
+		(property "Reference" "C12"
 			(at 194.31 168.9099 90)
 			(effects
 				(font
@@ -10698,7 +9935,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "C17")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -11000,7 +10237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c97a39cf-60d7-48c4-af1e-36a7df5e89b0")
-		(property "Reference" "#FLG6"
+		(property "Reference" "#FLG04"
 			(at 294.64 125.095 0)
 			(effects
 				(font
@@ -11053,7 +10290,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#FLG6")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -11069,7 +10306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce2d5f5c-f33c-47d9-bfd8-c5fec1e2dbd4")
-		(property "Reference" "C28"
+		(property "Reference" "C23"
 			(at 320.04 214.6299 90)
 			(effects
 				(font
@@ -11150,7 +10387,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "C28")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -11166,7 +10403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce2dc87c-e464-4f3c-b9bc-48c2fc9a9846")
-		(property "Reference" "C25"
+		(property "Reference" "C20"
 			(at 252.73 214.6299 90)
 			(effects
 				(font
@@ -11247,7 +10484,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "C25")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -11262,7 +10499,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "d53303cc-0b8b-43ca-b8b7-e0d12781a1f5")
-		(property "Reference" "#PWR17"
+		(property "Reference" "#PWR017"
 			(at 206.756 98.044 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11313,7 +10550,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#PWR17")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11432,7 +10669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd498abe-6b62-499f-9c93-80b10ada3aca")
-		(property "Reference" "TP8"
+		(property "Reference" "TP7"
 			(at 175.26 265.43 90)
 			(effects
 				(font
@@ -11489,7 +10726,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "TP8")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -11505,7 +10742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "deb7fc8b-2545-444a-ba52-90485381a45b")
-		(property "Reference" "TP4"
+		(property "Reference" "TP3"
 			(at 175.26 257.81 90)
 			(effects
 				(font
@@ -11562,7 +10799,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "TP4")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -11578,7 +10815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2a4b472-795c-46ec-8dbe-a705f71b431a")
-		(property "Reference" "C26"
+		(property "Reference" "C21"
 			(at 274.32 214.6299 90)
 			(effects
 				(font
@@ -11659,7 +10896,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "C26")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -11674,7 +10911,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "e30f0e85-f1f0-4d5f-891c-7456615c65ec")
-		(property "Reference" "#PWR14"
+		(property "Reference" "#PWR014"
 			(at 169.926 75.184 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11725,7 +10962,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#PWR14")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11740,7 +10977,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "e720db98-b0fe-4037-b207-5fe15b911c79")
-		(property "Reference" "#PWR22"
+		(property "Reference" "#PWR020"
 			(at 192.786 136.144 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11791,7 +11028,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#PWR22")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12083,7 +11320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7bdb649-1f50-4c2f-a954-9b29f0865550")
-		(property "Reference" "C18"
+		(property "Reference" "C13"
 			(at 270.51 170.1799 90)
 			(effects
 				(font
@@ -12164,7 +11401,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "C18")
+					(reference "C13")
 					(unit 1)
 				)
 			)
