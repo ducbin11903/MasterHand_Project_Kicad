@@ -788,6 +788,54 @@
       {
         "netclass": "Motor Out",
         "pattern": "*OUT2_*"
+      },
+      {
+        "netclass": "Motor Out",
+        "pattern": "/Project Architecture/Motor Control 1/OUT1"
+      },
+      {
+        "netclass": "Motor Out",
+        "pattern": "/Project Architecture/Motor Control 1/OUT2"
+      },
+      {
+        "netclass": "Motor Out",
+        "pattern": "/Project Architecture/Motor Control 2/OUT1"
+      },
+      {
+        "netclass": "Motor Out",
+        "pattern": "/Project Architecture/Motor Control 2/OUT2"
+      },
+      {
+        "netclass": "Motor Out",
+        "pattern": "/Project Architecture/Motor Control 3/OUT1"
+      },
+      {
+        "netclass": "Motor Out",
+        "pattern": "/Project Architecture/Motor Control 3/OUT2"
+      },
+      {
+        "netclass": "Motor Out",
+        "pattern": "/Project Architecture/Motor Control 4/OUT1"
+      },
+      {
+        "netclass": "Motor Out",
+        "pattern": "/Project Architecture/Motor Control 4/OUT2"
+      },
+      {
+        "netclass": "Motor Out",
+        "pattern": "/Project Architecture/Motor Control 5/OUT1"
+      },
+      {
+        "netclass": "Motor Out",
+        "pattern": "/Project Architecture/Motor Control 5/OUT2"
+      },
+      {
+        "netclass": "Motor Out",
+        "pattern": "/Project Architecture/Motor Control 6/OUT1"
+      },
+      {
+        "netclass": "Motor Out",
+        "pattern": "/Project Architecture/Motor Control 6/OUT2"
       }
     ]
   },
@@ -960,7 +1008,7 @@
       "version": 1
     },
     "net_format_name": "KiCad",
-    "page_layout_descr_file": "kicad-embed://KDT_Template_GIT.kicad_wks",
+    "page_layout_descr_file": "kicad-embed://KDT_Template_GIT - No Block.kicad_wks",
     "plot_directory": "Schematic/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -1003,27 +1051,27 @@
     ],
     [
       "9fef4a7d-fe15-42af-a3b5-95e4268f1da7",
-      "Motor Control - Index"
+      "Motor Control 1"
     ],
     [
-      "d622f5b6-19d6-40b1-8c69-868393d4ee00",
-      "Motor Control - Middle"
+      "0e310d91-42c2-4690-bfd4-9246790b766e",
+      "Motor Control 2"
     ],
     [
-      "21b04569-7cad-42c8-b7c4-043848eb996c",
-      "Motor Control - Ring"
+      "c2a0337a-9573-480d-bd2e-a37678bf00c3",
+      "Motor Control 3"
     ],
     [
-      "0ad8e17f-d145-48f3-a9e5-8d5e790e9ed0",
-      "Motor Control - Pinky"
+      "6e3f6445-cc28-4d16-974c-f01ec631a8e8",
+      "Motor Control 4"
     ],
     [
-      "305bbf3d-632b-44c5-9393-c63a1a318790",
-      "Motor Control - Thumb 1"
+      "7bf3d89d-775e-493c-829b-872d627e2e73",
+      "Motor Control 5"
     ],
     [
-      "6ac7dd3a-0d52-4fe3-8277-47c257d86de3",
-      "Motor Control - Thumb 2"
+      "532b36d3-d138-4afb-bda1-51f9683d78db",
+      "Motor Control 6"
     ],
     [
       "7164844d-ef2d-4ed9-93c6-2b7c97a3348e",

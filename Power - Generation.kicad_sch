@@ -594,7 +594,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "330uF ±20% 25V SMD"
+			(property "Description" "CAP ALUM POLY 330uF ±20% 25V SMD"
 				(at -0.254 -3.302 0)
 				(effects
 					(font
@@ -2887,6 +2887,12 @@
 		(uuid "2c4052e8-063a-499f-bfb5-3d9526c9fc7d")
 	)
 	(junction
+		(at 309.88 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ce42b03-ced4-4d0f-a441-143d12f1acfd")
+	)
+	(junction
 		(at 289.56 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2897,12 +2903,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2efaf908-1662-414d-8034-4dde7e2e126f")
-	)
-	(junction
-		(at 311.15 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3102e910-b6c6-4ea4-ab43-8832fe24ca36")
 	)
 	(junction
 		(at 340.36 71.12)
@@ -2957,6 +2957,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5441b7ec-3b74-48e3-bd3d-e9b3797dd01f")
+	)
+	(junction
+		(at 309.88 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ab5e872-8539-4b4c-a933-ea35ca276bbf")
 	)
 	(junction
 		(at 237.49 107.95)
@@ -3704,16 +3710,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 127) (xy 318.77 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "441ac84d-16c0-4bd7-869c-cf8f8e3c102b")
-	)
-	(wire
-		(pts
 			(xy 332.74 83.82) (xy 332.74 81.28)
 		)
 		(stroke
@@ -4204,7 +4200,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 144.78) (xy 311.15 144.78)
+			(xy 251.46 144.78) (xy 309.88 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4244,7 +4240,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 127) (xy 311.15 127)
+			(xy 302.26 127) (xy 309.88 127)
 		)
 		(stroke
 			(width 0)
@@ -4704,7 +4700,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 137.16) (xy 311.15 144.78)
+			(xy 309.88 137.16) (xy 309.88 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4824,7 +4820,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 127) (xy 311.15 129.54)
+			(xy 309.88 127) (xy 309.88 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4941,6 +4937,16 @@
 			(type default)
 		)
 		(uuid "f2e3c34f-dabb-47ca-84cc-250088a7a95a")
+	)
+	(wire
+		(pts
+			(xy 309.88 127) (xy 318.77 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f49fca9e-f2c1-4298-bdd7-70bdf14a8f4f")
 	)
 	(wire
 		(pts
@@ -6903,6 +6909,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_symbols:GND")
+		(at 312.42 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "02c50efa-ead2-4a07-8e7b-ddf4d088be58")
+		(property "Reference" "#PWR021"
+			(at 312.166 136.144 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 309.88 148.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Symbol - Global Ground"
+			(at 312.42 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "827557d7-7f2b-4bfe-ad75-2c36443362ab")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Duc-Resistors:RES SMD 0402")
 		(at 204.47 101.6 90)
 		(unit 1)
@@ -7110,7 +7182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "330uF ±20% 25V SMD"
+		(property "Description" "CAP ALUM POLY 330uF ±20% 25V SMD"
 			(at 116.84 218.44 90)
 			(effects
 				(font
@@ -8664,7 +8736,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "79eb05e2-efd3-45c3-8bc7-9b5d2f397700")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 225.806 138.684 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8715,7 +8787,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8730,7 +8802,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "81358d46-3a00-4a96-8dc2-c9c7711511c9")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 258.826 141.224 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8781,7 +8853,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8887,7 +8959,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Capacitors:CAP CER 0603")
-		(at 311.15 133.35 90)
+		(at 309.88 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8896,7 +8968,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d41961c-5c9a-45f6-873b-2f81a4021876")
 		(property "Reference" "C10"
-			(at 314.96 132.0799 90)
+			(at 313.69 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8905,7 +8977,7 @@
 			)
 		)
 		(property "Value" "CAP CER 0603"
-			(at 314.96 134.6199 90)
+			(at 313.69 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8914,7 +8986,7 @@
 			)
 		)
 		(property "Footprint" "Duc:C0603"
-			(at 318.77 133.35 0)
+			(at 317.5 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8923,7 +8995,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 321.31 133.35 0)
+			(at 320.04 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8932,7 +9004,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0603"
-			(at 311.15 133.35 0)
+			(at 309.88 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8941,7 +9013,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 323.85 133.35 0)
+			(at 322.58 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8950,7 +9022,7 @@
 			)
 		)
 		(property "MPN" "CAP CER 0603"
-			(at 326.39 133.35 0)
+			(at 325.12 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8959,7 +9031,7 @@
 			)
 		)
 		(property "LCSC Part" "C14663"
-			(at 328.93 133.35 0)
+			(at 327.66 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9155,7 +9227,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "a2e772aa-6644-46ce-a930-4d3cf865259c")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 106.426 217.424 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9206,7 +9278,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9786,7 +9858,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "b68a2a5b-f03b-47a2-a382-a2de118ef3b9")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 192.786 171.704 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9837,7 +9909,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/042ebd96-5d8b-461b-acb5-c7c1300dab56"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)

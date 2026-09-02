@@ -553,139 +553,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Duc-Resistors:RES SMD 0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RES 0603"
-				(at 0 -3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Duc:R0603"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES SMD 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "YAGEO(国巨)"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "RT0603FRE13100KL"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C4107493"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RES SMD 0603_0_1"
-				(rectangle
-					(start -2.54 1.016)
-					(end 2.54 -1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RES SMD 0603_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Power_symbols:GND"
 			(power)
 			(exclude_from_sim no)
@@ -7452,7 +7319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b40b9f4-5956-4d1f-a56c-ba66b978cc30")
-		(property "Reference" "R81"
+		(property "Reference" "R80"
 			(at 185.42 130.8099 90)
 			(effects
 				(font
@@ -7533,7 +7400,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "R81")
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -7641,7 +7508,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
+		(lib_id "Duc-Resistors:RES SMD 0402")
 		(at 160.02 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7649,23 +7516,23 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c34543a-56a8-4c1d-910a-5e60ce09d6dc")
-		(property "Reference" "R76"
-			(at 160.02 67.31 0)
+		(property "Reference" "R75"
+			(at 160.02 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RES 0603"
-			(at 160.02 72.39 0)
+		(property "Value" "RES 0402"
+			(at 160.02 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Duc:R0603"
+		(property "Footprint" "Duc:R0402"
 			(at 160.02 77.47 0)
 			(effects
 				(font
@@ -7683,8 +7550,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0603"
-			(at 160.02 69.85 0)
+		(property "Description" "RES SMD 0402"
+			(at 159.512 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7701,7 +7568,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0603FRE13100KL"
+		(property "MPN" "RT0402FRE07100KL"
 			(at 160.02 85.09 0)
 			(effects
 				(font
@@ -7710,7 +7577,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4107493"
+		(property "LCSC Part" "C728576"
 			(at 160.02 87.63 0)
 			(effects
 				(font
@@ -7728,7 +7595,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "R76")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -7744,7 +7611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5215c880-e64b-4d05-92dc-f5b0130b87dd")
-		(property "Reference" "R78"
+		(property "Reference" "R77"
 			(at 149.86 99.06 0)
 			(effects
 				(font
@@ -7823,7 +7690,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "R78")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -7839,7 +7706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58fcda21-ac55-4851-8e95-cb2dae87a749")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0140"
 			(at 92.456 75.184 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7890,7 +7757,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "#PWR0136")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -7906,7 +7773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d5a11bb-7cd7-4dcf-997f-99dd0dddf337")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0139"
 			(at 161.544 67.564 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7958,14 +7825,14 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "#PWR0135")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
+		(lib_id "Duc-Resistors:RES SMD 0402")
 		(at 160.02 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7973,23 +7840,23 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cf1cfdd-a01d-4959-9849-fad9248bd823")
-		(property "Reference" "R74"
-			(at 160.02 53.34 0)
+		(property "Reference" "R73"
+			(at 160.02 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RES 0603"
-			(at 160.02 58.42 0)
+		(property "Value" "RES 0402"
+			(at 160.02 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Duc:R0603"
+		(property "Footprint" "Duc:R0402"
 			(at 160.02 63.5 0)
 			(effects
 				(font
@@ -8007,8 +7874,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0603"
-			(at 160.02 55.88 0)
+		(property "Description" "RES SMD 0402"
+			(at 159.512 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8025,7 +7892,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0603FRE13100KL"
+		(property "MPN" "RT0402FRE07100KL"
 			(at 160.02 71.12 0)
 			(effects
 				(font
@@ -8034,7 +7901,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4107493"
+		(property "LCSC Part" "C728576"
 			(at 160.02 73.66 0)
 			(effects
 				(font
@@ -8052,7 +7919,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "R74")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -8067,7 +7934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "748ae3e4-9c48-402d-8a55-0376bd7711ae")
-		(property "Reference" "R80"
+		(property "Reference" "R79"
 			(at 149.86 120.65 0)
 			(effects
 				(font
@@ -8146,7 +8013,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "R80")
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -8162,7 +8029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "804f3cb2-7107-41a7-b171-c11524993396")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0142"
 			(at 185.166 129.794 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8213,14 +8080,14 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "#PWR0138")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
+		(lib_id "Duc-Resistors:RES SMD 0402")
 		(at 90.17 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8229,7 +8096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a175da42-8e25-4a69-96f5-eab073cc9c3e")
-		(property "Reference" "R77"
+		(property "Reference" "R76"
 			(at 92.71 74.9299 90)
 			(effects
 				(font
@@ -8238,7 +8105,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RES 0603"
+		(property "Value" "RES 0402"
 			(at 92.71 77.4699 90)
 			(effects
 				(font
@@ -8247,7 +8114,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Duc:R0603"
+		(property "Footprint" "Duc:R0402"
 			(at 97.79 76.2 0)
 			(effects
 				(font
@@ -8265,8 +8132,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0603"
-			(at 90.17 76.2 0)
+		(property "Description" "RES SMD 0402"
+			(at 93.218 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8283,7 +8150,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0603FRE13100KL"
+		(property "MPN" "RT0402FRE07100KL"
 			(at 105.41 76.2 0)
 			(effects
 				(font
@@ -8292,7 +8159,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4107493"
+		(property "LCSC Part" "C728576"
 			(at 107.95 76.2 0)
 			(effects
 				(font
@@ -8310,14 +8177,14 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "R77")
+					(reference "R76")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Duc-Resistors:RES SMD 0603")
+		(lib_id "Duc-Resistors:RES SMD 0402")
 		(at 90.17 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8326,7 +8193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ada536d2-0cd3-4e40-8aa5-dfdaa07090ba")
-		(property "Reference" "R75"
+		(property "Reference" "R74"
 			(at 92.71 57.1499 90)
 			(effects
 				(font
@@ -8335,7 +8202,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RES 0603"
+		(property "Value" "RES 0402"
 			(at 92.71 59.6899 90)
 			(effects
 				(font
@@ -8344,7 +8211,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Duc:R0603"
+		(property "Footprint" "Duc:R0402"
 			(at 97.79 58.42 0)
 			(effects
 				(font
@@ -8362,8 +8229,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0603"
-			(at 90.17 58.42 0)
+		(property "Description" "RES SMD 0402"
+			(at 93.218 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8380,7 +8247,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0603FRE13100KL"
+		(property "MPN" "RT0402FRE07100KL"
 			(at 105.41 58.42 0)
 			(effects
 				(font
@@ -8389,7 +8256,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4107493"
+		(property "LCSC Part" "C728576"
 			(at 107.95 58.42 0)
 			(effects
 				(font
@@ -8407,7 +8274,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "R75")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -8423,7 +8290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae1073e9-91ea-49cb-a5ce-b466b78ac109")
-		(property "Reference" "R79"
+		(property "Reference" "R78"
 			(at 185.42 110.4899 90)
 			(effects
 				(font
@@ -8504,7 +8371,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "R79")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -8617,7 +8484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df7f47c5-a073-48af-84e2-6c08c5f6e605")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0141"
 			(at 185.166 109.474 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8668,7 +8535,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "#PWR0137")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)

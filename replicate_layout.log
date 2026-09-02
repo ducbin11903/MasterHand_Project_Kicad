@@ -1,0 +1,494 @@
+09-02 23:28:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 409:Plugin executed on: 'win32'
+09-02 23:28:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 410:Plugin executed with python version: '3.11.5 (main, Jan 18 2026, 05:50:19) [MSC v.1944 64 bit (AMD64)]'
+09-02 23:28:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 411:KiCad build version: 9.0.9
+09-02 23:28:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 412:Plugin version: 4.0.3
+09-02 23:28:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 413:Frame repr: <wx._core.Frame object at 0x00000182C28D7D00>
+09-02 23:28:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 437:Preparing replicator with J4 as a reference
+09-02 23:28:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+09-02 23:28:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 485:source anchor footprint is 'J4'
+Located on: ['Project Architecture', 'Motor Control 2']
+With filenames: ['Project Architecture.kicad_sch', 'Motor Control.kicad_sch']
+With sheet_id:['Project Architecture', 'Motor Control 2']
+09-02 23:28:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 492:Corresponding footprints are 
+[('J5', ['Project Architecture', 'Motor Control 3']), ('J6', ['Project Architecture', 'Motor Control 4']), ('J4', ['Project Architecture', 'Motor Control 2']), ('J8', ['Project Architecture', 'Motor Control 6']), ('J3', ['Project Architecture', 'Motor Control 1']), ('J7', ['Project Architecture', 'Motor Control 5'])]
+09-02 23:28:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 504:Showing dialog
+09-02 23:28:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'Motor Control 2', file:'Motor Control.kicad_sch'
+09-02 23:28:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['Project Architecture', 'Motor Control 1'], ['Project Architecture', 'Motor Control 3'], ['Project Architecture', 'Motor Control 4'], ['Project Architecture', 'Motor Control 5'], ['Project Architecture', 'Motor Control 6']]
+09-02 23:28:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1512:Level selected: ['Project Architecture', 'Motor Control 2']
+09-02 23:28:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1336:Filtering list of tracks
+09-02 23:28:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 510:Toolbar position: wx.Point(3794, 110)
+09-02 23:28:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 515:Dialog position: wx.Point(3355, 110)
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'Motor Control 2', file:'Motor Control.kicad_sch'
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['Project Architecture', 'Motor Control 1'], ['Project Architecture', 'Motor Control 3'], ['Project Architecture', 'Motor Control 4'], ['Project Architecture', 'Motor Control 5'], ['Project Architecture', 'Motor Control 6']]
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1512:Level selected: ['Project Architecture', 'Motor Control 2']
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1336:Filtering list of tracks
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'Motor Control 2', file:'Motor Control.kicad_sch'
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['Project Architecture', 'Motor Control 1'], ['Project Architecture', 'Motor Control 3'], ['Project Architecture', 'Motor Control 4'], ['Project Architecture', 'Motor Control 5'], ['Project Architecture', 'Motor Control 6']]
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 248:Replicating layout
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 288:Starting replication of sheets: [['Project Architecture', 'Motor Control 1'], ['Project Architecture', 'Motor Control 3'], ['Project Architecture', 'Motor Control 4'], ['Project Architecture', 'Motor Control 5'], ['Project Architecture', 'Motor Control 6']]
+on level: ['Project Architecture', 'Motor Control 2']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=True
+09-02 23:37:56 root 340:updating GUI message: 'Preparing for replication'
+09-02 23:37:56 root 345:updating GUI with: 0
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:Getting the list of source footprints
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 368:Getting the list of all the remaining footprints
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 375:Getting source tracks
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1336:Filtering list of tracks
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 3'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 4'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: , src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 6'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 5'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1342:Track group: Replicated Group ['Project Architecture', 'Motor Control 1'], src group:
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 379:Getting source zones
+09-02 23:37:56 root 345:updating GUI with: 50
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 383:Getting source text items
+09-02 23:37:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 387:Getting source drawing items
