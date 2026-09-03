@@ -3107,10 +3107,6 @@
 		(uuid "e7743b7c-61e0-4d10-9145-f25db23164de")
 	)
 	(no_connect
-		(at 105.41 97.79)
-		(uuid "16ad72a5-63d9-45ae-a40a-ebc7afe74a0b")
-	)
-	(no_connect
 		(at 105.41 210.82)
 		(uuid "19f8d620-f30b-4880-9913-1561437a0ab7")
 	)
@@ -3119,28 +3115,16 @@
 		(uuid "329fbec6-06ac-4873-b74d-ad6b3ac7bb29")
 	)
 	(no_connect
-		(at 105.41 113.03)
-		(uuid "4c392bf2-d56a-4d75-913a-a878e10d78a0")
-	)
-	(no_connect
 		(at 105.41 228.6)
 		(uuid "7df22a2b-6dec-4bcd-9a8f-e53c708358b1")
 	)
 	(no_connect
-		(at 105.41 100.33)
-		(uuid "acf8e15b-e908-426d-9ad6-8867f0806d3b")
-	)
-	(no_connect
-		(at 105.41 215.9)
+		(at 21.59 238.76)
 		(uuid "c0418f92-084f-4e26-ab76-57f753e8fc9d")
 	)
 	(no_connect
-		(at 105.41 213.36)
+		(at 105.41 208.28)
 		(uuid "c6a37939-c888-4b1e-a327-bd5b7489456a")
-	)
-	(no_connect
-		(at 105.41 102.87)
-		(uuid "dbdb40bc-07a7-49cb-a9cc-4503a7d93e74")
 	)
 	(bus_entry
 		(at 229.87 219.71)
@@ -7244,6 +7228,39 @@
 		)
 		(uuid "ffe35b35-8b89-47ea-a512-280fd644b8f0")
 	)
+	(label "ECA_T2"
+		(at 21.59 105.41 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00119cb6-cc9b-4202-928a-f8e204dd1689")
+	)
+	(label "PWMB_T1"
+		(at 105.41 100.33 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0015f152-5047-40ea-971c-325df2f2e978")
+	)
+	(label "DIAG_T2"
+		(at 105.41 128.27 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "003ab145-8782-4255-b62b-2da38248e2f9")
+	)
 	(label "PWMA_M"
 		(at 281.94 96.52 0)
 		(effects
@@ -7276,28 +7293,6 @@
 			(justify left bottom)
 		)
 		(uuid "05be31f8-56e5-4afc-b749-b2e7e958ba4d")
-	)
-	(label "ECB_I"
-		(at 21.59 107.95 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "07b18e00-f06b-4149-9fc3-805fc79b403e")
-	)
-	(label "I2C-SDA_1"
-		(at 21.59 113.03 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "087f7fff-afd5-4dda-8405-2a437dd6a7a8")
 	)
 	(label "BOOT_1"
 		(at 105.41 110.49 180)
@@ -7333,7 +7328,7 @@
 		(uuid "08c26be7-f0d9-400e-9345-bca6d36088d2")
 	)
 	(label "ECC_R"
-		(at 105.41 180.34 180)
+		(at 105.41 177.8 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -7342,17 +7337,6 @@
 			(justify right bottom)
 		)
 		(uuid "090508c8-424a-4b84-ae39-3d8ae43accbc")
-	)
-	(label "USART1_RX1"
-		(at 105.41 107.95 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0b1a4afa-91df-407c-81ec-9673470b6f1b")
 	)
 	(label "ECA_R"
 		(at 281.94 134.62 0)
@@ -7365,17 +7349,6 @@
 		)
 		(uuid "0bb952e4-b4b9-4fca-bdef-af9fbb0bd984")
 	)
-	(label "ECB_T2"
-		(at 105.41 67.31 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0bc8005f-cb34-47ca-9f0e-3d4fabcbe8d7")
-	)
 	(label "DIAG_P"
 		(at 379.73 160.02 0)
 		(effects
@@ -7386,17 +7359,6 @@
 			(justify left bottom)
 		)
 		(uuid "0d56221f-32d8-4e4c-9fe9-b2d32b3502e9")
-	)
-	(label "EN_T2"
-		(at 105.41 92.71 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0d849183-0d7d-4b7a-ba56-8c6007f407e9")
 	)
 	(label "ECC_R"
 		(at 281.94 139.7 0)
@@ -7410,13 +7372,13 @@
 		(uuid "0f57371b-3aac-4690-adc8-5d571d53f930")
 	)
 	(label "OCM_P"
-		(at 105.41 205.74 180)
+		(at 21.59 215.9 0)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "0ff6acc8-1a87-423d-b48a-efc10f8b2d59")
 	)
@@ -7432,13 +7394,13 @@
 		(uuid "129f2a3e-4f0c-4040-acfa-08740663a745")
 	)
 	(label "EN_P"
-		(at 105.41 231.14 180)
+		(at 21.59 218.44 0)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "141f1625-abe8-4d85-9da0-adf7ed52080b")
 	)
@@ -7454,13 +7416,13 @@
 		(uuid "1467bf13-c6ff-4eab-b913-00a37414912b")
 	)
 	(label "EN_M"
-		(at 105.41 208.28 180)
+		(at 21.59 208.28 0)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "150eacd2-b6ee-4a0c-b740-ef8fef9a36ea")
 	)
@@ -7542,7 +7504,7 @@
 		(uuid "1be485c2-85b8-4abe-9e91-df9130516a4d")
 	)
 	(label "ECB_M"
-		(at 105.41 167.64 180)
+		(at 105.41 170.18 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -7662,6 +7624,17 @@
 		)
 		(uuid "27a42ba8-ba6f-4896-b069-68bfb016beb1")
 	)
+	(label "ECC_T1"
+		(at 105.41 62.23 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29fee649-1d5e-485a-b7f2-31f09cfec774")
+	)
 	(label "ECA_T2"
 		(at 281.94 210.82 0)
 		(effects
@@ -7672,6 +7645,17 @@
 			(justify left bottom)
 		)
 		(uuid "2a7c987e-a028-42cc-a60b-c512afac9cb8")
+	)
+	(label "EN_I"
+		(at 21.59 92.71 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2afd3325-e726-49e9-a2f0-d712e569546f")
 	)
 	(label "GPIO-LED_I"
 		(at 342.9 128.27 0)
@@ -7696,18 +7680,7 @@
 		(uuid "2d450b33-246a-4015-b172-6b8c20d67c99")
 	)
 	(label "PWMA_R"
-		(at 21.59 205.74 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2dd4e471-64a1-44cf-8ea6-f5b28ec66bfe")
-	)
-	(label "ECB_T1"
-		(at 105.41 54.61 180)
+		(at 105.41 213.36 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -7715,7 +7688,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "3025717d-4b86-4fd6-80b5-9b83b76d9738")
+		(uuid "2dd4e471-64a1-44cf-8ea6-f5b28ec66bfe")
 	)
 	(label "GPIO-LED_R"
 		(at 342.9 138.43 0)
@@ -7761,17 +7734,6 @@
 		)
 		(uuid "31bb5c1a-2fc3-4a1c-8d7b-7f073bc42c2a")
 	)
-	(label "GPIO-LED_Debug_1"
-		(at 105.41 77.47 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "327959fe-fc55-4a55-9a38-4760ab415a20")
-	)
 	(label "USB1_N"
 		(at 105.41 80.01 180)
 		(effects
@@ -7804,28 +7766,6 @@
 			(justify left bottom)
 		)
 		(uuid "349fcca8-f416-472d-ad0c-60f6e8094851")
-	)
-	(label "DIAG_T2"
-		(at 21.59 125.73 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "35749abb-02ba-4814-a7f3-1e4f91535a71")
-	)
-	(label "PWMA_T1"
-		(at 21.59 90.17 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "363ccf77-b4db-4f95-a21a-5df9a9a8f660")
 	)
 	(label "ECA_I"
 		(at 379.73 88.9 0)
@@ -7860,17 +7800,6 @@
 		)
 		(uuid "39acec0c-cd47-48d6-a667-32c2e4d7354d")
 	)
-	(label "ECC_I"
-		(at 21.59 100.33 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3a6b4336-0c1e-4a6f-92fc-97e41789d4d1")
-	)
 	(label "EN_I"
 		(at 281.94 76.2 0)
 		(effects
@@ -7892,6 +7821,17 @@
 			(justify left bottom)
 		)
 		(uuid "3bfa6531-e148-4db1-8a82-802ed0484f74")
+	)
+	(label "OCM_T1"
+		(at 105.41 64.77 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c4672ac-64c3-44ba-8a12-9f52a553cbd5")
 	)
 	(label "BOARD_VERSION"
 		(at 214.63 35.56 0)
@@ -7981,17 +7921,6 @@
 		)
 		(uuid "42ec00e5-d3da-4d2c-9f76-13cedc266ce0")
 	)
-	(label "ECA_T2"
-		(at 105.41 69.85 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "42ed73e2-5d5d-4390-a048-8e73883b7b1e")
-	)
 	(label "ECA_P"
 		(at 281.94 160.02 0)
 		(effects
@@ -8014,6 +7943,17 @@
 		)
 		(uuid "44e220f7-b0a3-422a-a7bc-cdc9825e3570")
 	)
+	(label "I2C-SDA_2"
+		(at 21.59 128.27 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "450a45cf-d190-4d1e-85d4-d4acdff7891f")
+	)
 	(label "FDCAN2_TX"
 		(at 342.9 118.11 0)
 		(effects
@@ -8035,6 +7975,17 @@
 			(justify left bottom)
 		)
 		(uuid "47a34878-280b-4632-ab2a-8999b21f7aa6")
+	)
+	(label "EN_T2"
+		(at 21.59 102.87 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47a86263-7701-4210-b122-f9dcc8e4d969")
 	)
 	(label "PWMA_T1"
 		(at 281.94 172.72 0)
@@ -8070,13 +8021,13 @@
 		(uuid "4c55c5c4-0562-4bc5-a533-a86d09d68706")
 	)
 	(label "PWMB_M"
-		(at 21.59 210.82 0)
+		(at 105.41 172.72 180)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4c97108d-4dae-4792-89e8-422ba3a0e746")
 	)
@@ -8103,13 +8054,13 @@
 		(uuid "4d2abae6-5fd6-481c-86be-dc1395db5f05")
 	)
 	(label "I2C-SCL_2"
-		(at 21.59 226.06 0)
+		(at 105.41 241.3 180)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4f3f53c3-088a-40a7-bf36-f7209dcd1567")
 	)
@@ -8136,13 +8087,13 @@
 		(uuid "503379f8-f288-4ce7-91fe-f64989a56f08")
 	)
 	(label "PWMB_P"
-		(at 105.41 243.84 180)
+		(at 21.59 226.06 0)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "50e9d208-ca53-4e23-9cd8-e06220e54d42")
 	)
@@ -8212,6 +8163,17 @@
 		)
 		(uuid "55c362a8-c921-4420-b40a-0228a1b230ef")
 	)
+	(label "ECC_I"
+		(at 21.59 95.25 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5686e32d-a9e5-4e1d-a1b0-01d7d5dc612f")
+	)
 	(label "OSC-OUT_2"
 		(at 251.46 168.91 0)
 		(effects
@@ -8257,13 +8219,13 @@
 		(uuid "59313435-58ca-476c-b0dc-881bf3f3828f")
 	)
 	(label "PWMA_M"
-		(at 21.59 213.36 0)
+		(at 105.41 175.26 180)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "595b09f5-7273-4971-ada6-d41c00493402")
 	)
@@ -8377,28 +8339,6 @@
 		)
 		(uuid "5f616107-f63b-4931-b35b-e901d8d6f30c")
 	)
-	(label "EN_T1"
-		(at 21.59 77.47 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5fc7146b-4880-46c0-9211-b55d522097ed")
-	)
-	(label "USART1_TX1"
-		(at 105.41 105.41 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "613ff8e0-0b41-4f45-9667-b4e7ba80c503")
-	)
 	(label "ECA_T1"
 		(at 281.94 185.42 0)
 		(effects
@@ -8444,7 +8384,7 @@
 		(uuid "677e3c85-5bf1-4618-8c09-5540659c8cdb")
 	)
 	(label "I2C-SDA_2"
-		(at 21.59 228.6 0)
+		(at 21.59 243.84 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -8453,17 +8393,6 @@
 			(justify left bottom)
 		)
 		(uuid "6d0f3345-7bf9-4719-8e0f-27495d9e1537")
-	)
-	(label "ECC_T2"
-		(at 105.41 62.23 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6e300545-deda-4929-91f6-a90c44a31d79")
 	)
 	(label "DIAG_M"
 		(at 281.94 104.14 0)
@@ -8487,16 +8416,16 @@
 		)
 		(uuid "6fadb7bf-eab4-4448-9547-674817f24499")
 	)
-	(label "GPIO-LED_T1"
-		(at 21.59 115.57 0)
+	(label "PWMA_T1"
+		(at 105.41 97.79 180)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "709e7fc8-c467-4058-a395-4ef565562bfd")
+		(uuid "7021c277-8cd5-4857-95a4-da76e9518620")
 	)
 	(label "MCU_ID1"
 		(at 212.09 114.3 0)
@@ -8541,17 +8470,6 @@
 		)
 		(uuid "74d1cf1c-c3c4-4292-9ed4-b63947cd00da")
 	)
-	(label "OCM_I"
-		(at 105.41 90.17 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "756646f9-3635-483f-868c-888330c405f4")
-	)
 	(label "OSC-IN_2"
 		(at 210.82 168.91 180)
 		(effects
@@ -8586,7 +8504,7 @@
 		(uuid "76b26366-9658-4a2d-bcd0-ff108b8f904d")
 	)
 	(label "ECB_P"
-		(at 21.59 220.98 0)
+		(at 21.59 223.52 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -8606,6 +8524,17 @@
 			(justify right bottom)
 		)
 		(uuid "77cb8604-c0df-4460-b0c4-e165970497ff")
+	)
+	(label "ECB_T2"
+		(at 21.59 107.95 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78a9a31d-7797-4fed-8518-de5e70180326")
 	)
 	(label "SWCLK2"
 		(at 342.9 93.98 0)
@@ -8628,6 +8557,17 @@
 			(justify left bottom)
 		)
 		(uuid "79d2e6f2-a0d3-414b-9b3d-b59ebed54103")
+	)
+	(label "PWMB_T2"
+		(at 21.59 110.49 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b661cd9-a423-4478-a429-a5b66f8d33c8")
 	)
 	(label "SWCLK2"
 		(at 129.54 82.55 0)
@@ -8707,7 +8647,7 @@
 		(uuid "7f9b0e6f-1685-4a81-847b-19a65ab2e644")
 	)
 	(label "ECA_R"
-		(at 105.41 185.42 180)
+		(at 105.41 220.98 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -8740,7 +8680,7 @@
 		(uuid "857c8591-852d-4872-8881-0264e7a1a90b")
 	)
 	(label "PWMB_I"
-		(at 105.41 125.73 180)
+		(at 105.41 57.15 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -8748,10 +8688,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "8614c3f0-f957-4187-80b0-05bb573d7083")
+		(uuid "866ce1d3-2e87-4ce6-a912-fe5f2bc92723")
 	)
 	(label "OCM_R"
-		(at 105.41 175.26 180)
+		(at 105.41 180.34 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -8782,6 +8722,17 @@
 			(justify left bottom)
 		)
 		(uuid "87eceeef-96da-4e76-b3f9-3fc345931d3c")
+	)
+	(label "ECC_T2"
+		(at 105.41 69.85 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "883ea645-a88f-4db1-b631-0f8de1c39b68")
 	)
 	(label "USART1_TX2"
 		(at 342.9 43.18 0)
@@ -8816,17 +8767,6 @@
 		)
 		(uuid "89cd135e-6dd2-4027-81b9-245366e4a6d6")
 	)
-	(label "ECA_I"
-		(at 21.59 105.41 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a56aee1-952f-4711-8760-03ff891466bb")
-	)
 	(label "VBUS_DET1"
 		(at 342.9 175.26 0)
 		(effects
@@ -8848,6 +8788,17 @@
 			(justify left bottom)
 		)
 		(uuid "8a7f52ec-5722-4fb8-9135-f4a4030cda85")
+	)
+	(label "ECA_I"
+		(at 105.41 52.07 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b472611-255a-47db-9751-5f86bcfdb78b")
 	)
 	(label "GPIO-LED_Debug_1"
 		(at 129.54 184.15 0)
@@ -8894,7 +8845,7 @@
 		(uuid "904c3f0e-8a4a-4d09-b4da-3da9459c9ecd")
 	)
 	(label "DIAG_R"
-		(at 21.59 241.3 0)
+		(at 21.59 193.04 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -8971,7 +8922,7 @@
 		(uuid "966cd065-acc1-43da-a173-3ff745491dfc")
 	)
 	(label "ECB_R"
-		(at 105.41 182.88 180)
+		(at 105.41 223.52 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -8982,13 +8933,13 @@
 		(uuid "970cd2e9-84f6-4ef8-8d73-5a4ad80b09c7")
 	)
 	(label "OCM_M"
-		(at 105.41 172.72 180)
+		(at 21.59 205.74 0)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "974d4518-b133-41e7-80ec-64dc6ebd0585")
 	)
@@ -9015,13 +8966,13 @@
 		(uuid "9b556219-95e0-456e-8d63-7bff2d6082e0")
 	)
 	(label "USART1_TX2"
-		(at 105.41 220.98 180)
+		(at 21.59 241.3 0)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "9bceaabd-44cc-41fb-aa09-b2bf36c34c83")
 	)
@@ -9035,17 +8986,6 @@
 			(justify left bottom)
 		)
 		(uuid "9c6f78d9-fbcb-4156-b3a8-2699c5be9e98")
-	)
-	(label "ECA_T1"
-		(at 105.41 52.07 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9c75e535-0e4a-472d-879e-b8efaba2acfc")
 	)
 	(label "I2C-SCL_2"
 		(at 342.9 162.56 0)
@@ -9103,7 +9043,7 @@
 		(uuid "a00d5ec2-982a-4734-956c-cd097412f1cc")
 	)
 	(label "ECA_P"
-		(at 21.59 223.52 0)
+		(at 21.59 220.98 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -9213,13 +9153,13 @@
 		(uuid "a87d27c5-acd5-48ce-81ec-cf99e2b28d66")
 	)
 	(label "SENSE_VBAT"
-		(at 21.59 218.44 0)
+		(at 105.41 231.14 180)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "aa52d6fc-cb7a-4429-a7ee-707a85c52f75")
 	)
@@ -9245,17 +9185,6 @@
 		)
 		(uuid "aad10c45-9143-44cf-bdc9-d50198b66536")
 	)
-	(label "EN_I"
-		(at 105.41 115.57 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ab34c241-6312-463a-97a4-71ddd0cda753")
-	)
 	(label "SWCLK1"
 		(at 129.54 69.85 0)
 		(effects
@@ -9278,6 +9207,17 @@
 		)
 		(uuid "ac21ce68-8a8e-422c-b661-53cfd78006f5")
 	)
+	(label "ECA_T1"
+		(at 105.41 105.41 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "acbae7d2-8cef-4baa-8d2c-702011773e8c")
+	)
 	(label "MCU_ID2"
 		(at 342.9 214.63 0)
 		(effects
@@ -9287,16 +9227,6 @@
 			(justify left bottom)
 		)
 		(uuid "ad146409-95c1-4191-a856-fe11cff2bb0c")
-	)
-	(label "MCU_ID1"
-		(at 21.59 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0423f06-279f-42e4-8eed-040372090a38")
 	)
 	(label "OCM_M"
 		(at 379.73 111.76 0)
@@ -9308,17 +9238,6 @@
 			(justify left bottom)
 		)
 		(uuid "b299686c-a74d-499e-ba3c-2069c62c8446")
-	)
-	(label "PWMB_T1"
-		(at 21.59 92.71 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b2fff7b2-694e-42d3-bd1e-8f2ce23a3b8d")
 	)
 	(label "ECC_T1"
 		(at 379.73 195.58 0)
@@ -9341,6 +9260,28 @@
 			(justify left bottom)
 		)
 		(uuid "b3af4ace-0a48-4ea4-b001-ef706ba1123d")
+	)
+	(label "OCM_I"
+		(at 21.59 90.17 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3b82e12-f16f-4805-9a1f-b7e690674404")
+	)
+	(label "ECB_T1"
+		(at 105.41 107.95 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b467c249-3b07-4a0e-b7d2-d50b97f289dd")
 	)
 	(label "ECC_T2"
 		(at 281.94 215.9 0)
@@ -9365,7 +9306,7 @@
 		(uuid "b7d64df0-c9a5-4c03-820e-f8f60cd0bbf8")
 	)
 	(label "ECA_M"
-		(at 105.41 170.18 180)
+		(at 105.41 167.64 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -9398,7 +9339,18 @@
 		(uuid "bd66eb46-8b95-4757-83e7-ad74917259f4")
 	)
 	(label "PWMB_R"
-		(at 21.59 208.28 0)
+		(at 105.41 215.9 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf225439-7211-41db-8541-7d715784ca76")
+	)
+	(label "DIAG_I"
+		(at 21.59 97.79 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -9406,7 +9358,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "bf225439-7211-41db-8541-7d715784ca76")
+		(uuid "bf7b2bff-769e-46f4-b17d-a88f1e8ed1f0")
 	)
 	(label "EN_M"
 		(at 379.73 106.68 0)
@@ -9418,6 +9370,17 @@
 			(justify left bottom)
 		)
 		(uuid "c02578e6-a99c-4bc8-b510-9332228c9af5")
+	)
+	(label "PWMA_I"
+		(at 105.41 59.69 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0f53bba-3298-4f0b-8bef-c0c2e8d64e67")
 	)
 	(label "ECB_M"
 		(at 281.94 111.76 0)
@@ -9431,15 +9394,26 @@
 		(uuid "c141576f-6841-4a35-a9b4-80a186a055e1")
 	)
 	(label "ECC_M"
-		(at 105.41 177.8 180)
+		(at 21.59 210.82 0)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "c14efb77-8a82-4b8d-ad54-8c5fc0534d70")
+	)
+	(label "DIAG_T1"
+		(at 21.59 77.47 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1643cc2-9fba-4612-ba6a-37ce765c5fb0")
 	)
 	(label "EN_T1"
 		(at 379.73 182.88 0)
@@ -9486,13 +9460,13 @@
 		(uuid "c30c5c6b-b821-45c1-802a-c1a44bd7dc70")
 	)
 	(label "ECC_P"
-		(at 21.59 215.9 0)
+		(at 105.41 185.42 180)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c3ba2ca9-fb33-4fa1-84c3-bfb0bf2280ab")
 	)
@@ -9508,13 +9482,13 @@
 		(uuid "c5729416-f351-4365-a419-df77792059f0")
 	)
 	(label "PWMA_P"
-		(at 105.41 241.3 180)
+		(at 21.59 228.6 0)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "c59bfbbd-0fbd-4f27-9670-2aee9b15019a")
 	)
@@ -9530,13 +9504,13 @@
 		(uuid "c5c84024-c88d-44b9-ac8e-5598e2b235cd")
 	)
 	(label "DIAG_P"
-		(at 21.59 243.84 0)
+		(at 105.41 243.84 180)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c5ef6880-c076-41db-a140-aec51a1e93c7")
 	)
@@ -9562,19 +9536,8 @@
 		)
 		(uuid "c70d9dc4-5de0-4ba1-8864-9f8f30b943e7")
 	)
-	(label "PWMA_T2"
-		(at 21.59 95.25 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c96a2cc6-9c97-4cf5-b7e2-af3bf23a9a0a")
-	)
 	(label "DIAG_M"
-		(at 21.59 238.76 0)
+		(at 21.59 213.36 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -9692,17 +9655,6 @@
 		)
 		(uuid "d513928a-0c69-4116-ab70-0171dbacaa27")
 	)
-	(label "ECC_T1"
-		(at 105.41 64.77 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d5e46763-647b-45b8-88e5-d9a74fa3dabe")
-	)
 	(label "USB2_N"
 		(at 105.41 195.58 180)
 		(effects
@@ -9736,17 +9688,6 @@
 		)
 		(uuid "d6cdce4a-cc85-46c9-826e-98984bc6ef1f")
 	)
-	(label "PWMB_T2"
-		(at 21.59 97.79 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d8b48ed7-4e85-43dd-a4ca-c0145873eae5")
-	)
 	(label "ECC_P"
 		(at 379.73 170.18 0)
 		(effects
@@ -9757,17 +9698,6 @@
 			(justify left bottom)
 		)
 		(uuid "dbcc914c-4866-4f2a-8684-9eadc4140dbc")
-	)
-	(label "PWMA_I"
-		(at 105.41 128.27 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dc92dfed-366c-42e4-840d-0ecbea643f8d")
 	)
 	(label "PWMA_T2"
 		(at 379.73 203.2 0)
@@ -9780,17 +9710,6 @@
 		)
 		(uuid "dcf5ad9f-2e96-4bb7-9434-f3223de08359")
 	)
-	(label "I2C-SCL_1"
-		(at 21.59 110.49 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dd5bc644-6b9a-42fb-8823-f7c907fb5c27")
-	)
 	(label "PWMB_P"
 		(at 379.73 154.94 0)
 		(effects
@@ -9802,17 +9721,6 @@
 		)
 		(uuid "ddb66a45-d521-4457-82b5-681b56082a9a")
 	)
-	(label "DIAG_I"
-		(at 21.59 128.27 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ddc59d31-b1fc-4fd5-8258-658e039ecfee")
-	)
 	(label "FDCAN2_RX"
 		(at 129.54 127 0)
 		(effects
@@ -9823,17 +9731,6 @@
 			(justify left bottom)
 		)
 		(uuid "de2af030-5314-44d0-82c7-d24f611700b9")
-	)
-	(label "SENSE_VBAT"
-		(at 21.59 102.87 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e043c341-7e3a-41d1-b8dc-1fdab54e0909")
 	)
 	(label "OCM_M"
 		(at 281.94 106.68 0)
@@ -9890,19 +9787,8 @@
 		)
 		(uuid "e1ccb391-24de-4281-9dcd-f4b73927b161")
 	)
-	(label "OCM_T2"
-		(at 105.41 59.69 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e2d92636-2f99-4323-9c62-60f37b745d95")
-	)
 	(label "USART1_RX2"
-		(at 105.41 223.52 180)
+		(at 105.41 205.74 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -9934,28 +9820,6 @@
 		)
 		(uuid "e569c930-c0d7-450e-8cce-c090754704a2")
 	)
-	(label "DIAG_T1"
-		(at 21.59 123.19 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5b060e9-3f50-435f-bdfd-53ddb8d00751")
-	)
-	(label "GPIO-LED_I"
-		(at 21.59 118.11 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e645aaaf-15a3-4a9b-89a8-f1e9e2ae4b5d")
-	)
 	(label "SENSE_VBAT"
 		(at 135.89 35.56 0)
 		(effects
@@ -9978,6 +9842,28 @@
 		)
 		(uuid "ea18d0ae-5d88-471f-a284-68d0a5e0d814")
 	)
+	(label "ECB_I"
+		(at 105.41 54.61 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea6ca51a-7e80-4e89-ba4e-52f2da3bdeba")
+	)
+	(label "EN_T1"
+		(at 105.41 67.31 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec02f507-1a35-40f8-8127-d283f06c0ca9")
+	)
 	(label "I2C_SCL"
 		(at 105.41 190.5 180)
 		(effects
@@ -9988,6 +9874,17 @@
 			(justify right bottom)
 		)
 		(uuid "eeb53b8a-7a26-4390-b091-24a5126ab1ab")
+	)
+	(label "PWMA_T2"
+		(at 21.59 113.03 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f069da96-56cd-4858-a2c6-2f07fb4cdb0f")
 	)
 	(label "GPIO-LED_M"
 		(at 129.54 176.53 0)
@@ -10033,17 +9930,6 @@
 		)
 		(uuid "f4379ad1-78f9-4f73-a4ab-8dc078952a4d")
 	)
-	(label "GPIO-LED_T2"
-		(at 105.41 85.09 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f45ad4a4-52c3-4ea3-b576-d226af5c45c0")
-	)
 	(label "MCU_ID2"
 		(at 212.09 116.84 0)
 		(effects
@@ -10077,13 +9963,13 @@
 		(uuid "f8fb0d8f-408b-4e00-aa95-72fe5107ef3b")
 	)
 	(label "EN_R"
-		(at 21.59 193.04 0)
+		(at 105.41 182.88 180)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "fa38e783-9433-4bc0-a2c3-117e5c2bd2a7")
 	)
@@ -10131,17 +10017,6 @@
 		)
 		(uuid "fbf2c97b-696d-4211-9f43-1d8d151d2937")
 	)
-	(label "OCM_T1"
-		(at 105.41 57.15 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fc02a0a6-eb7e-4030-a1a3-14f72b603f19")
-	)
 	(label "ECB_R"
 		(at 281.94 137.16 0)
 		(effects
@@ -10152,6 +10027,17 @@
 			(justify left bottom)
 		)
 		(uuid "fc695643-d273-4e56-a19e-8d0d21de212e")
+	)
+	(label "OCM_T2"
+		(at 21.59 100.33 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcee7139-393f-434c-89df-115f626b42c8")
 	)
 	(label "PWMA_R"
 		(at 379.73 127 0)
