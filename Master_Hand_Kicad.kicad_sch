@@ -56,11 +56,8 @@
 			"ECC_T2"
 		)
 	)
-	(bus_alias "SHT40_1"
-		(members "I2C-SDA_1" "I2C-SCL_1")
-	)
-	(bus_alias "SHT40_2"
-		(members "I2C-SDA_2" "I2C-SCL_2")
+	(bus_alias "SHT40"
+		(members "I2C-SDA" "I2C-SCL")
 	)
 	(bus_alias "SWD1"
 		(members "SWDIO1" "SWCLK1" "NRST1")

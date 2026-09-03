@@ -10,7 +10,7 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols
-		(symbol "Duc-Capacitors:CAP CER 0603"
+		(symbol "Duc-Capacitors:CAP CER 0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -22,32 +22,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0 5.08 0)
+				(at -1.016 3.048 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "CAP CER 0603"
-				(at 0 -3.81 0)
+			(property "Value" "CAP CER 0402"
+				(at 1.778 9.398 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Duc:C0603"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-				(at 0 -10.16 0)
+			(property "Footprint" "Duc:C0402"
+				(at 7.239 -5.461 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -55,25 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CAP CER 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "YAGEO(国巨)"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CAP CER 0603"
+			(property "Datasheet" ""
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -82,8 +55,35 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C14663"
+			(property "Description" "CAP CER 0402"
+				(at 0 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
 				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CC0402KRX5R7BB105"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C325464"
+				(at 0 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -100,10 +100,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "CAP CER 0603_0_1"
+			(symbol "CAP CER 0402_0_1"
 				(polyline
 					(pts
-						(xy -0.51 0) (xy -2.54 0)
+						(xy -1.27 0) (xy -0.508 0)
 					)
 					(stroke
 						(width 0)
@@ -139,7 +139,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 0.51 0)
+						(xy 1.27 0) (xy 0.508 0)
 					)
 					(stroke
 						(width 0)
@@ -149,17 +149,19 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "CAP CER 0402_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
-					(name "1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -170,14 +172,14 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
-					(name "2"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2155,19 +2157,6 @@
 		(uuid 0ff0dc9e-1f7f-494d-ae40-8b2301c47033)
 	)
 	(rectangle
-		(start 195.58 50.8)
-		(end 267.97 68.58)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 26 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 160e06b0-4ae1-408c-8423-56ee30dbe9f6)
-	)
-	(rectangle
 		(start 118.11 101.6)
 		(end 191.77 139.7)
 		(stroke
@@ -2257,19 +2246,6 @@
 			(type none)
 		)
 		(uuid 8c5264a8-12b4-409f-88e4-2ae32bce2cf9)
-	)
-	(rectangle
-		(start 195.58 77.47)
-		(end 267.97 96.52)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 26 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 927e549a-eb98-4634-87d0-affdf321fb8d)
 	)
 	(rectangle
 		(start 271.78 50.8)
@@ -2531,7 +2507,7 @@
 	)
 	(text "Temperature and Humidity"
 		(exclude_from_sim no)
-		(at 358.14 152.4 0)
+		(at 358.14 154.94 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -2867,30 +2843,6 @@
 		)
 		(uuid "9d281aaa-279b-4d6d-a465-cc26423fa3fa")
 	)
-	(text_box "Buzzer"
-		(exclude_from_sim no)
-		(at 205.74 60.96 0)
-		(size 53.34 7.62)
-		(margins 1.9049 1.9049 1.9049 1.9049)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "a0401ffe-2ef3-4de8-be49-eb6d314b5291")
-	)
 	(text_box "MCB to MB - USART\n\n"
 		(exclude_from_sim no)
 		(at 271.78 27.94 0)
@@ -2914,30 +2866,6 @@
 			(justify bottom)
 		)
 		(uuid "b51f0370-c39d-4937-a83f-81ba66e63725")
-	)
-	(text_box "MCB to MB - I2C\n"
-		(exclude_from_sim no)
-		(at 205.74 88.9 0)
-		(size 53.34 7.62)
-		(margins 1.9049 1.9049 1.9049 1.9049)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "c1194d8c-dada-4d0f-b46b-e808750ce7b2")
 	)
 	(text_box "5Mbps FD-CAN Bus"
 		(exclude_from_sim no)
@@ -3154,25 +3082,7 @@
 		(uuid "14867e36-de7a-4e75-97e0-dff706132638")
 	)
 	(bus_entry
-		(at 232.41 86.36)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "154f4e9b-aa15-4857-8e94-c3774e93e4d1")
-	)
-	(bus_entry
-		(at 151.13 228.6)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1940d414-dca9-4c24-bab6-5253c7c86aa2")
-	)
-	(bus_entry
-		(at 151.13 215.9)
+		(at 152.4 223.52)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3316,15 +3226,6 @@
 		(uuid "76c4022e-8c85-49bf-bfd3-2b871e33abcf")
 	)
 	(bus_entry
-		(at 232.41 83.82)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a84ce66-73ce-4af4-92a4-8121d4f1deb8")
-	)
-	(bus_entry
 		(at 229.87 222.25)
 		(size 2.54 -2.54)
 		(stroke
@@ -3388,15 +3289,6 @@
 		(uuid "a9ebfad4-034a-492a-85af-5691bccbeab8")
 	)
 	(bus_entry
-		(at 151.13 226.06)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0d29441-582a-4182-a98b-002cba097edc")
-	)
-	(bus_entry
 		(at 229.87 116.84)
 		(size 2.54 -2.54)
 		(stroke
@@ -3424,7 +3316,7 @@
 		(uuid "d4935800-d829-4347-b12d-b22c126e3cbe")
 	)
 	(bus_entry
-		(at 151.13 213.36)
+		(at 152.4 220.98)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3620,16 +3512,6 @@
 	)
 	(bus
 		(pts
-			(xy 153.67 222.25) (xy 153.67 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c84cc1d-995d-4bdd-9d3c-fd653189b1d4")
-	)
-	(bus
-		(pts
 			(xy 160.02 77.47) (xy 160.02 80.01)
 		)
 		(stroke
@@ -3637,16 +3519,6 @@
 			(type default)
 		)
 		(uuid "0e001771-f62f-4277-8f20-4bd0b3a31e00")
-	)
-	(wire
-		(pts
-			(xy 129.54 226.06) (xy 151.13 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ee8230d-2374-4619-b790-fce6ccbb9082")
 	)
 	(bus
 		(pts
@@ -3727,16 +3599,6 @@
 			(type default)
 		)
 		(uuid "13b64a7e-df89-40aa-9c1b-828332157e39")
-	)
-	(bus
-		(pts
-			(xy 153.67 223.52) (xy 153.67 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15174acc-7ff1-46c8-92d1-fe7acd345649")
 	)
 	(wire
 		(pts
@@ -4110,16 +3972,6 @@
 	)
 	(bus
 		(pts
-			(xy 232.41 83.82) (xy 232.41 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c55151a-cc82-4d8b-9c42-a4cc4835a09e")
-	)
-	(bus
-		(pts
 			(xy 157.48 260.35) (xy 157.48 262.89)
 		)
 		(stroke
@@ -4140,7 +3992,7 @@
 	)
 	(bus
 		(pts
-			(xy 153.67 209.55) (xy 153.67 210.82)
+			(xy 154.94 217.17) (xy 154.94 218.44)
 		)
 		(stroke
 			(width 0)
@@ -4170,7 +4022,7 @@
 	)
 	(bus
 		(pts
-			(xy 153.67 209.55) (xy 156.21 207.01)
+			(xy 154.94 217.17) (xy 157.48 214.63)
 		)
 		(stroke
 			(width 0)
@@ -4327,16 +4179,6 @@
 			(type default)
 		)
 		(uuid "3e531b8b-90cd-4788-8b0f-c2852b329bea")
-	)
-	(bus
-		(pts
-			(xy 234.95 80.01) (xy 232.41 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f106661-b50f-44d2-8d14-0c53a6b7a279")
 	)
 	(bus
 		(pts
@@ -4690,23 +4532,13 @@
 	)
 	(bus
 		(pts
-			(xy 156.21 207.01) (xy 167.64 207.01)
+			(xy 157.48 214.63) (xy 168.91 214.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "567186bd-1f20-48c1-81d4-a954658d3381")
-	)
-	(bus
-		(pts
-			(xy 232.41 82.55) (xy 232.41 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "569a8fba-e26a-4851-baf3-089257548d4c")
 	)
 	(wire
 		(pts
@@ -4910,7 +4742,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 157.48) (xy 360.68 157.48)
+			(xy 342.9 160.02) (xy 360.68 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5107,16 +4939,6 @@
 			(type default)
 		)
 		(uuid "7501f33f-c899-49af-be4a-301ff9891f16")
-	)
-	(bus
-		(pts
-			(xy 156.21 219.71) (xy 167.64 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75300ecd-f185-4168-ab40-64da1f0173c8")
 	)
 	(wire
 		(pts
@@ -5330,7 +5152,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 154.94) (xy 360.68 154.94)
+			(xy 342.9 157.48) (xy 360.68 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5517,16 +5339,6 @@
 			(type default)
 		)
 		(uuid "8ae1449c-bd9a-448e-a143-fd3b49bbc39e")
-	)
-	(wire
-		(pts
-			(xy 129.54 228.6) (xy 151.13 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bcdb95c-4cd9-4201-8811-5e4339e79c1e")
 	)
 	(wire
 		(pts
@@ -5880,16 +5692,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 88.9) (xy 229.87 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5437e21-6055-48f3-a61d-67ff4b6fe5d5")
-	)
-	(wire
-		(pts
 			(xy 21.59 226.06) (xy 43.18 226.06)
 		)
 		(stroke
@@ -6130,7 +5932,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 215.9) (xy 151.13 215.9)
+			(xy 130.81 223.52) (xy 152.4 223.52)
 		)
 		(stroke
 			(width 0)
@@ -6140,7 +5942,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 213.36) (xy 151.13 213.36)
+			(xy 130.81 220.98) (xy 152.4 220.98)
 		)
 		(stroke
 			(width 0)
@@ -6160,7 +5962,7 @@
 	)
 	(bus
 		(pts
-			(xy 153.67 210.82) (xy 153.67 213.36)
+			(xy 154.94 218.44) (xy 154.94 220.98)
 		)
 		(stroke
 			(width 0)
@@ -6237,16 +6039,6 @@
 			(type default)
 		)
 		(uuid "b53c78a7-2416-4da6-ab73-41e5a2845e1a")
-	)
-	(bus
-		(pts
-			(xy 153.67 222.25) (xy 156.21 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5d577fa-1cba-4bd7-a980-4fd856aa0f19")
 	)
 	(wire
 		(pts
@@ -6387,16 +6179,6 @@
 			(type default)
 		)
 		(uuid "be173f62-1ba8-4235-99d3-164d8910f191")
-	)
-	(wire
-		(pts
-			(xy 212.09 86.36) (xy 229.87 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf85d69b-0f3e-4d31-b059-d88931b04b4f")
 	)
 	(wire
 		(pts
@@ -6840,16 +6622,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 160.02) (xy 360.68 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc2340c7-1112-41a2-a83f-dae1a37b13b2")
-	)
-	(wire
-		(pts
 			(xy 281.94 109.22) (xy 317.5 109.22)
 		)
 		(stroke
@@ -6877,26 +6649,6 @@
 			(type default)
 		)
 		(uuid "dd0555a9-bf5f-4651-a056-6e81c9de9e88")
-	)
-	(bus
-		(pts
-			(xy 245.11 80.01) (xy 234.95 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd3a8f16-c0a6-4c8d-9af2-bbc5c51402ac")
-	)
-	(wire
-		(pts
-			(xy 342.9 162.56) (xy 360.68 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfaee035-b0f5-47ca-89f5-915538ffc6d6")
 	)
 	(wire
 		(pts
@@ -7437,17 +7189,6 @@
 		)
 		(uuid "154d6ba7-421e-46ba-9719-765a15042121")
 	)
-	(label "I2C_SDA"
-		(at 212.09 86.36 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "160c6ee7-3295-40a8-96e5-bd913ecec8bc")
-	)
 	(label "OCM_T2"
 		(at 379.73 213.36 0)
 		(effects
@@ -7470,6 +7211,16 @@
 		)
 		(uuid "17006d6b-6b9b-4ef0-8c2b-7278bdfbf4c8")
 	)
+	(label "MCU_ID1"
+		(at 21.59 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19d09950-9f6c-4745-b639-5cc255f9ba16")
+	)
 	(label "ECB_P"
 		(at 379.73 167.64 0)
 		(effects
@@ -7491,17 +7242,6 @@
 			(justify left bottom)
 		)
 		(uuid "1b71516f-77dd-4bae-88c2-e9b239b71047")
-	)
-	(label "I2C-SDA_2"
-		(at 342.9 160.02 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1be485c2-85b8-4abe-9e91-df9130516a4d")
 	)
 	(label "ECB_M"
 		(at 105.41 170.18 180)
@@ -7943,17 +7683,6 @@
 		)
 		(uuid "44e220f7-b0a3-422a-a7bc-cdc9825e3570")
 	)
-	(label "I2C-SDA_2"
-		(at 21.59 128.27 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "450a45cf-d190-4d1e-85d4-d4acdff7891f")
-	)
 	(label "FDCAN2_TX"
 		(at 342.9 118.11 0)
 		(effects
@@ -7998,8 +7727,8 @@
 		)
 		(uuid "4844ffec-4b00-4737-ad96-f0b68b29d1ad")
 	)
-	(label "I2C-SDA_1"
-		(at 342.9 154.94 0)
+	(label "I2C-SDA"
+		(at 342.9 157.48 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -8052,17 +7781,6 @@
 			(justify left bottom)
 		)
 		(uuid "4d2abae6-5fd6-481c-86be-dc1395db5f05")
-	)
-	(label "I2C-SCL_2"
-		(at 105.41 241.3 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4f3f53c3-088a-40a7-bf36-f7209dcd1567")
 	)
 	(label "GPIO-LED_M"
 		(at 105.41 200.66 180)
@@ -8129,17 +7847,6 @@
 			(justify left bottom)
 		)
 		(uuid "5468a9c3-1a89-4c3f-9cae-a4e8ee486a38")
-	)
-	(label "I2C_SCL"
-		(at 212.09 88.9 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "546ddca2-91a6-412a-acb9-0e7534080da0")
 	)
 	(label "OSC-OUT_1"
 		(at 21.59 69.85 0)
@@ -8361,8 +8068,8 @@
 		)
 		(uuid "650a1d4e-7af3-4378-a715-8490efdddaa5")
 	)
-	(label "I2C-SCL_1"
-		(at 129.54 215.9 0)
+	(label "I2C-SCL"
+		(at 130.81 223.52 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -8382,17 +8089,6 @@
 			(justify left bottom)
 		)
 		(uuid "677e3c85-5bf1-4618-8c09-5540659c8cdb")
-	)
-	(label "I2C-SDA_2"
-		(at 21.59 243.84 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6d0f3345-7bf9-4719-8e0f-27495d9e1537")
 	)
 	(label "DIAG_M"
 		(at 281.94 104.14 0)
@@ -8591,17 +8287,6 @@
 		)
 		(uuid "7da6cd25-be8c-42e7-869b-dfb83bba0d1c")
 	)
-	(label "I2C-SDA_2"
-		(at 129.54 226.06 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7db54d8f-cb24-49f4-a6c4-6ec8204fc712")
-	)
 	(label "DIAG_I"
 		(at 281.94 78.74 0)
 		(effects
@@ -8668,8 +8353,8 @@
 		)
 		(uuid "83cb0562-009a-4cb3-90e6-1a258129dd17")
 	)
-	(label "I2C-SCL_1"
-		(at 342.9 157.48 0)
+	(label "I2C-SCL"
+		(at 342.9 160.02 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -8833,7 +8518,7 @@
 		)
 		(uuid "8ef6a87d-b20e-4661-8ffb-6eaa96615dde")
 	)
-	(label "I2C_SDA"
+	(label "I2C-SDA"
 		(at 105.41 187.96 180)
 		(effects
 			(font
@@ -8986,17 +8671,6 @@
 			(justify left bottom)
 		)
 		(uuid "9c6f78d9-fbcb-4156-b3a8-2699c5be9e98")
-	)
-	(label "I2C-SCL_2"
-		(at 342.9 162.56 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c99b1a1-a648-4941-991b-bad725b14348")
 	)
 	(label "ECB_T2"
 		(at 379.73 218.44 0)
@@ -9525,8 +9199,8 @@
 		)
 		(uuid "c69c931e-d1e2-4398-a2cf-c0a1e036ef7e")
 	)
-	(label "I2C-SDA_1"
-		(at 129.54 213.36 0)
+	(label "I2C-SDA"
+		(at 130.81 220.98 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -9864,7 +9538,7 @@
 		)
 		(uuid "ec02f507-1a35-40f8-8127-d283f06c0ca9")
 	)
-	(label "I2C_SCL"
+	(label "I2C-SCL"
 		(at 105.41 190.5 180)
 		(effects
 			(font
@@ -9918,17 +9592,6 @@
 			(justify left bottom)
 		)
 		(uuid "f3266391-f47f-4325-8c8f-77b8b81b0d92")
-	)
-	(label "I2C-SCL_2"
-		(at 129.54 228.6 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4379ad1-78f9-4f73-a4ab-8dc078952a4d")
 	)
 	(label "MCU_ID2"
 		(at 212.09 116.84 0)
@@ -10119,19 +9782,6 @@
 		)
 		(uuid "0612d624-10f5-49ac-a7b4-556bb33034af")
 	)
-	(hierarchical_label "{I2C_CNT}"
-		(shape bidirectional)
-		(at 245.11 80.01 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "07528af8-9bed-4e7f-91e7-0d35bda39837")
-	)
 	(hierarchical_label "OCM_I"
 		(shape bidirectional)
 		(at 317.5 81.28 0)
@@ -10278,19 +9928,6 @@
 			(justify left)
 		)
 		(uuid "3c848898-e3de-4699-8f04-7402e53f5af8")
-	)
-	(hierarchical_label "{SHT40_2}"
-		(shape input)
-		(at 167.64 219.71 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "3d8bd3fe-5363-4bda-a538-a1f36a46f325")
 	)
 	(hierarchical_label "BOARD_VERSION"
 		(shape input)
@@ -10450,9 +10087,9 @@
 		)
 		(uuid "811983d7-5b2e-4069-8e38-4108b1ec6dfd")
 	)
-	(hierarchical_label "{SHT40_1}"
+	(hierarchical_label "{SHT40}"
 		(shape input)
-		(at 167.64 207.01 0)
+		(at 168.91 214.63 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -11040,7 +10677,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 0603")
+		(lib_id "Duc-Capacitors:CAP CER 0402")
 		(at 248.92 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11049,25 +10686,23 @@
 		(dnp no)
 		(uuid "0768f78e-2c24-4b34-8cb7-80240479eed7")
 		(property "Reference" "C44"
-			(at 251.46 148.59 90)
+			(at 245.872 150.876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 0603"
-			(at 251.46 151.13 90)
+		(property "Value" "CAP CER 0402"
+			(at 239.522 148.082 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Duc:C0603"
-			(at 256.54 149.86 0)
+		(property "Footprint" "Duc:C0402"
+			(at 254.381 142.621 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11076,33 +10711,6 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 259.08 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0603"
-			(at 248.92 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 261.62 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CAP CER 0603"
 			(at 264.16 149.86 0)
 			(effects
 				(font
@@ -11111,8 +10719,35 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "Description" "CAP CER 0402"
+			(at 256.286 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
 			(at 266.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KRX5R7BB105"
+			(at 269.24 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C325464"
+			(at 271.78 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11568,79 +11203,6 @@
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
 					(reference "TP85")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 162.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "205fe86d-8f2b-4be4-905b-fdf366d7d607")
-		(property "Reference" "TP59"
-			(at 365.76 162.56 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 162.56 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 166.116 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 167.64 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 164.592 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ed56ea6-adc2-41f0-a9b8-c806e8175407")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP59")
 					(unit 1)
 				)
 			)
@@ -12377,7 +11939,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 0603")
+		(lib_id "Duc-Capacitors:CAP CER 0402")
 		(at 213.36 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12386,25 +11948,23 @@
 		(dnp no)
 		(uuid "45439ce0-04a4-43b9-ad2e-8fb1fbbaf476")
 		(property "Reference" "C45"
-			(at 207.01 173.99 90)
+			(at 210.312 176.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 0603"
-			(at 196.85 176.53 90)
+		(property "Value" "CAP CER 0402"
+			(at 203.962 173.482 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Duc:C0603"
-			(at 220.98 175.26 0)
+		(property "Footprint" "Duc:C0402"
+			(at 218.821 168.021 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12413,33 +11973,6 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 223.52 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0603"
-			(at 213.36 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 226.06 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CAP CER 0603"
 			(at 228.6 175.26 0)
 			(effects
 				(font
@@ -12448,8 +11981,35 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "Description" "CAP CER 0402"
+			(at 220.726 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
 			(at 231.14 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KRX5R7BB105"
+			(at 233.68 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C325464"
+			(at 236.22 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12829,7 +12389,7 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 157.48 270)
+		(at 360.68 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12838,7 +12398,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f198b85-01d1-4679-aff5-3f14b8fda4fd")
 		(property "Reference" "TP55"
-			(at 365.76 157.48 90)
+			(at 365.76 160.02 90)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -12848,7 +12408,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 371.094 157.48 90)
+			(at 371.094 160.02 90)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -12859,7 +12419,7 @@
 			)
 		)
 		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 161.036 0)
+			(at 350.012 163.576 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -12869,7 +12429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 360.68 162.56 0)
+			(at 360.68 165.1 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -12879,7 +12439,7 @@
 			)
 		)
 		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 159.512 0)
+			(at 352.044 162.052 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -13041,79 +12601,6 @@
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
 					(reference "TP75")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58725d64-3b68-4785-94fb-0bc3c25c0020")
-		(property "Reference" "TP57"
-			(at 365.76 160.02 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 160.02 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 163.576 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 165.1 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 162.052 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4df8ecec-aee7-4dbc-9d4b-f14d6afa5db6")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP57")
 					(unit 1)
 				)
 			)
@@ -15837,7 +15324,7 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 154.94 270)
+		(at 360.68 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15846,7 +15333,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd84df40-ae32-4e34-a560-1b93c47c948a")
 		(property "Reference" "TP53"
-			(at 365.76 154.94 90)
+			(at 365.76 157.48 90)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -15856,7 +15343,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 371.094 154.94 90)
+			(at 371.094 157.48 90)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -15867,7 +15354,7 @@
 			)
 		)
 		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 158.496 0)
+			(at 350.012 161.036 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -15877,7 +15364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 360.68 160.02 0)
+			(at 360.68 162.56 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -15887,7 +15374,7 @@
 			)
 		)
 		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 156.972 0)
+			(at 352.044 159.512 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -16420,7 +15907,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 0603")
+		(lib_id "Duc-Capacitors:CAP CER 0402")
 		(at 213.36 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16429,25 +15916,23 @@
 		(dnp no)
 		(uuid "d2853cde-eebb-4c09-919c-7b588d242aba")
 		(property "Reference" "C43"
-			(at 207.01 148.59 90)
+			(at 210.312 150.876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 0603"
-			(at 196.85 151.13 90)
+		(property "Value" "CAP CER 0402"
+			(at 203.962 148.082 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Duc:C0603"
-			(at 220.98 149.86 0)
+		(property "Footprint" "Duc:C0402"
+			(at 218.821 142.621 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16456,33 +15941,6 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 223.52 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0603"
-			(at 213.36 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 226.06 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CAP CER 0603"
 			(at 228.6 149.86 0)
 			(effects
 				(font
@@ -16491,8 +15949,35 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "Description" "CAP CER 0402"
+			(at 220.726 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
 			(at 231.14 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KRX5R7BB105"
+			(at 233.68 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C325464"
+			(at 236.22 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18200,7 +17685,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 0603")
+		(lib_id "Duc-Capacitors:CAP CER 0402")
 		(at 248.92 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18209,25 +17694,23 @@
 		(dnp no)
 		(uuid "ff9912e2-d466-4a20-b7a1-76be5b4c6679")
 		(property "Reference" "C46"
-			(at 251.46 173.99 90)
+			(at 245.872 176.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 0603"
-			(at 251.46 176.53 90)
+		(property "Value" "CAP CER 0402"
+			(at 239.522 173.482 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Duc:C0603"
-			(at 256.54 175.26 0)
+		(property "Footprint" "Duc:C0402"
+			(at 254.381 168.021 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18236,33 +17719,6 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 259.08 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0603"
-			(at 248.92 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 261.62 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CAP CER 0603"
 			(at 264.16 175.26 0)
 			(effects
 				(font
@@ -18271,8 +17727,35 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "Description" "CAP CER 0402"
+			(at 256.286 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
 			(at 266.7 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KRX5R7BB105"
+			(at 269.24 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C325464"
+			(at 271.78 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)

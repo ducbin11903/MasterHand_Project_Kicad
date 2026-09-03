@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 8,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -16,17 +16,17 @@
       "zones": 0.6
     },
     "selection_filter": {
-      "dimensions": false,
+      "dimensions": true,
       "footprints": true,
-      "graphics": false,
-      "keepouts": false,
-      "lockedItems": false,
-      "otherItems": false,
-      "pads": false,
-      "text": false,
+      "graphics": true,
+      "keepouts": true,
+      "lockedItems": true,
+      "otherItems": true,
+      "pads": true,
+      "text": true,
       "tracks": true,
-      "vias": false,
-      "zones": false
+      "vias": true,
+      "zones": true
     },
     "visible_items": [
       "vias",
@@ -123,44 +123,19 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "Master_Hand_Kicad.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1048
-        }
-      },
-      {
-        "name": "Master_Hand_Kicad.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1048
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "selection_filter": {
-      "graphics": false,
-      "images": false,
+      "graphics": true,
+      "images": true,
       "labels": true,
       "lockedItems": false,
-      "otherItems": false,
-      "pins": false,
-      "symbols": false,
-      "text": false,
-      "wires": false
+      "otherItems": true,
+      "pins": true,
+      "symbols": true,
+      "text": true,
+      "wires": true
     }
   }
 }

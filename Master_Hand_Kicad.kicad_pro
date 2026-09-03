@@ -836,6 +836,10 @@
       {
         "netclass": "Motor Out",
         "pattern": "/Project Architecture/Motor Control 6/OUT2"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Sensing - Temperature & Humidity/+3V3"
       }
     ]
   },
