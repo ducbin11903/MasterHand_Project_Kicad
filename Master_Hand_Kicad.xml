@@ -9,7 +9,7 @@
     <textvar name="COMPANY">Willas</textvar>
     <textvar name="DESIGNER">Damon</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">df288c9</textvar>
+    <textvar name="GIT_HASH_PCB">08fbef2</textvar>
     <textvar name="GIT_HASH_SCH">49e7ef0</textvar>
     <textvar name="GIT_URL">https://github.com/ducbin11903/MasterHand_Project_Kicad.git</textvar>
     <textvar name="PROJECT_NAME">Master Hand</textvar>
@@ -8403,19 +8403,17 @@
     </net>
     <net code="25" name="/Project Architecture/Interface - Interconnects/USART1_RX1" class="Default">
       <node ref="J12" pin="9" pinfunction="9" pintype="passive"/>
-      <node ref="U6" pin="60" pinfunction="PB7" pintype="passive"/>
     </net>
     <net code="26" name="/Project Architecture/Interface - Interconnects/USART1_RX2" class="Default">
       <node ref="J12" pin="15" pinfunction="15" pintype="passive"/>
-      <node ref="U7" pin="60" pinfunction="PB7" pintype="passive"/>
+      <node ref="U7" pin="24" pinfunction="PB0" pintype="passive"/>
     </net>
     <net code="27" name="/Project Architecture/Interface - Interconnects/USART1_TX1" class="Default">
       <node ref="J12" pin="11" pinfunction="11" pintype="passive"/>
-      <node ref="U6" pin="59" pinfunction="PB6" pintype="passive"/>
     </net>
     <net code="28" name="/Project Architecture/Interface - Interconnects/USART1_TX2" class="Default">
       <node ref="J12" pin="17" pinfunction="17" pintype="passive"/>
-      <node ref="U7" pin="59" pinfunction="PB6" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="PC14" pintype="passive"/>
     </net>
     <net code="34" name="/Project Architecture/Interface - USB 2.0/USB1_N" class="Default">
       <node ref="D4" pin="6" pinfunction="IO1" pintype="passive"/>
@@ -8486,163 +8484,162 @@
     <net code="47" name="/Project Architecture/MCU - IOs/DIAG_I" class="Default">
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="4" pinfunction="PC15" pintype="passive"/>
+      <node ref="U6" pin="11" pinfunction="PC3" pintype="passive"/>
     </net>
     <net code="48" name="/Project Architecture/MCU - IOs/DIAG_M" class="Default">
       <node ref="R15" pin="2" pintype="passive"/>
       <node ref="TP27" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="2" pinfunction="PC13" pintype="passive"/>
+      <node ref="U7" pin="11" pinfunction="PC3" pintype="passive"/>
     </net>
     <net code="49" name="/Project Architecture/MCU - IOs/DIAG_P" class="Default">
       <node ref="R27" pin="2" pintype="passive"/>
       <node ref="TP58" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="4" pinfunction="PC15" pintype="passive"/>
+      <node ref="U7" pin="37" pinfunction="PB15" pintype="passive"/>
     </net>
     <net code="50" name="/Project Architecture/MCU - IOs/DIAG_R" class="Default">
       <node ref="R21" pin="2" pintype="passive"/>
       <node ref="TP42" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="3" pinfunction="PC14" pintype="passive"/>
+      <node ref="U7" pin="55" pinfunction="PD2" pintype="passive"/>
     </net>
     <net code="51" name="/Project Architecture/MCU - IOs/DIAG_T1" class="Default">
       <node ref="R33" pin="2" pintype="passive"/>
       <node ref="TP73" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="2" pinfunction="PC13" pintype="passive"/>
+      <node ref="U6" pin="55" pinfunction="PD2" pintype="passive"/>
     </net>
     <net code="52" name="/Project Architecture/MCU - IOs/DIAG_T2" class="Default">
       <node ref="R39" pin="2" pintype="passive"/>
       <node ref="TP83" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="3" pinfunction="PC14" pintype="passive"/>
+      <node ref="U6" pin="37" pinfunction="PB15" pintype="passive"/>
     </net>
     <net code="53" name="/Project Architecture/MCU - IOs/ECA_I" class="Default">
       <node ref="J3" pin="6" pinfunction="6" pintype="passive"/>
       <node ref="TP15" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="38" pinfunction="PC6" pintype="passive"/>
+      <node ref="U6" pin="12" pinfunction="PA0" pintype="passive"/>
     </net>
     <net code="54" name="/Project Architecture/MCU - IOs/ECA_M" class="Default">
       <node ref="J4" pin="6" pinfunction="6" pintype="passive"/>
       <node ref="TP31" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="13" pinfunction="PA1" pintype="passive"/>
+      <node ref="U7" pin="12" pinfunction="PA0" pintype="passive"/>
     </net>
     <net code="55" name="/Project Architecture/MCU - IOs/ECA_P" class="Default">
       <node ref="J6" pin="6" pinfunction="6" pintype="passive"/>
       <node ref="TP61" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="39" pinfunction="PC7" pintype="passive"/>
+      <node ref="U7" pin="38" pinfunction="PC6" pintype="passive"/>
     </net>
     <net code="56" name="/Project Architecture/MCU - IOs/ECA_R" class="Default">
       <node ref="J5" pin="6" pinfunction="6" pintype="passive"/>
       <node ref="TP46" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="21" pinfunction="PA7" pintype="passive"/>
+      <node ref="U7" pin="59" pinfunction="PB6" pintype="passive"/>
     </net>
     <net code="57" name="/Project Architecture/MCU - IOs/ECA_T1" class="Default">
       <node ref="J7" pin="6" pinfunction="6" pintype="passive"/>
       <node ref="TP75" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="12" pinfunction="PA0" pintype="passive"/>
+      <node ref="U6" pin="59" pinfunction="PB6" pintype="passive"/>
     </net>
     <net code="58" name="/Project Architecture/MCU - IOs/ECA_T2" class="Default">
       <node ref="J8" pin="6" pinfunction="6" pintype="passive"/>
       <node ref="TP87" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="21" pinfunction="PA7" pintype="passive"/>
+      <node ref="U6" pin="38" pinfunction="PC6" pintype="passive"/>
     </net>
     <net code="59" name="/Project Architecture/MCU - IOs/ECB_I" class="Default">
       <node ref="J3" pin="5" pinfunction="5" pintype="passive"/>
       <node ref="TP17" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="39" pinfunction="PC7" pintype="passive"/>
+      <node ref="U6" pin="13" pinfunction="PA1" pintype="passive"/>
     </net>
     <net code="60" name="/Project Architecture/MCU - IOs/ECB_M" class="Default">
       <node ref="J4" pin="5" pinfunction="5" pintype="passive"/>
       <node ref="TP32" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="12" pinfunction="PA0" pintype="passive"/>
+      <node ref="U7" pin="13" pinfunction="PA1" pintype="passive"/>
     </net>
     <net code="61" name="/Project Architecture/MCU - IOs/ECB_P" class="Default">
       <node ref="J6" pin="5" pinfunction="5" pintype="passive"/>
       <node ref="TP62" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="38" pinfunction="PC6" pintype="passive"/>
+      <node ref="U7" pin="39" pinfunction="PC7" pintype="passive"/>
     </net>
     <net code="62" name="/Project Architecture/MCU - IOs/ECB_R" class="Default">
       <node ref="J5" pin="5" pinfunction="5" pintype="passive"/>
       <node ref="TP48" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="20" pinfunction="PA6" pintype="passive"/>
+      <node ref="U7" pin="60" pinfunction="PB7" pintype="passive"/>
     </net>
     <net code="63" name="/Project Architecture/MCU - IOs/ECB_T1" class="Default">
       <node ref="J7" pin="5" pinfunction="5" pintype="passive"/>
       <node ref="TP77" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="13" pinfunction="PA1" pintype="passive"/>
+      <node ref="U6" pin="60" pinfunction="PB7" pintype="passive"/>
     </net>
     <net code="64" name="/Project Architecture/MCU - IOs/ECB_T2" class="Default">
       <node ref="J8" pin="5" pinfunction="5" pintype="passive"/>
       <node ref="TP88" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="20" pinfunction="PA6" pintype="passive"/>
+      <node ref="U6" pin="39" pinfunction="PC7" pintype="passive"/>
     </net>
     <net code="65" name="/Project Architecture/MCU - IOs/ECC_I" class="Default">
       <node ref="C52" pin="2" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
       <node ref="TP19" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="22" pinfunction="PC4" pintype="passive"/>
+      <node ref="U6" pin="10" pinfunction="PC2" pintype="passive"/>
     </net>
     <net code="66" name="/Project Architecture/MCU - IOs/ECC_M" class="Default">
       <node ref="C58" pin="2" pintype="passive"/>
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="TP34" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="18" pinfunction="PA4" pintype="passive"/>
+      <node ref="U7" pin="10" pinfunction="PC2" pintype="passive"/>
     </net>
     <net code="67" name="/Project Architecture/MCU - IOs/ECC_P" class="Default">
       <node ref="C70" pin="2" pintype="passive"/>
       <node ref="R30" pin="2" pintype="passive"/>
       <node ref="TP64" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="22" pinfunction="PC4" pintype="passive"/>
+      <node ref="U7" pin="21" pinfunction="PA7" pintype="passive"/>
     </net>
     <net code="68" name="/Project Architecture/MCU - IOs/ECC_R" class="Default">
       <node ref="C64" pin="2" pintype="passive"/>
       <node ref="R24" pin="2" pintype="passive"/>
       <node ref="TP50" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="19" pinfunction="PA5" pintype="passive"/>
+      <node ref="U7" pin="18" pinfunction="PA4" pintype="passive"/>
     </net>
     <net code="69" name="/Project Architecture/MCU - IOs/ECC_T1" class="Default">
       <node ref="C76" pin="2" pintype="passive"/>
       <node ref="R36" pin="2" pintype="passive"/>
       <node ref="TP79" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="19" pinfunction="PA5" pintype="passive"/>
+      <node ref="U6" pin="18" pinfunction="PA4" pintype="passive"/>
     </net>
     <net code="70" name="/Project Architecture/MCU - IOs/ECC_T2" class="Default">
       <node ref="C82" pin="2" pintype="passive"/>
       <node ref="R42" pin="2" pintype="passive"/>
       <node ref="TP89" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="18" pinfunction="PA4" pintype="passive"/>
+      <node ref="U6" pin="21" pinfunction="PA7" pintype="passive"/>
     </net>
     <net code="71" name="/Project Architecture/MCU - IOs/EN_I" class="Default">
       <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="30" pinfunction="PB10" pintype="passive"/>
+      <node ref="U6" pin="9" pinfunction="PC1" pintype="passive"/>
       <node ref="U8" pin="5" pinfunction="EN" pintype="passive"/>
     </net>
     <net code="72" name="/Project Architecture/MCU - IOs/EN_M" class="Default">
       <node ref="TP26" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="25" pinfunction="PB1" pintype="passive"/>
+      <node ref="U7" pin="9" pinfunction="PC1" pintype="passive"/>
       <node ref="U9" pin="5" pinfunction="EN" pintype="passive"/>
     </net>
     <net code="73" name="/Project Architecture/MCU - IOs/EN_P" class="Default">
       <node ref="TP56" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U11" pin="5" pinfunction="EN" pintype="passive"/>
-      <node ref="U7" pin="30" pinfunction="PB10" pintype="passive"/>
+      <node ref="U7" pin="23" pinfunction="PC5" pintype="passive"/>
     </net>
     <net code="74" name="/Project Architecture/MCU - IOs/EN_R" class="Default">
       <node ref="TP40" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U10" pin="5" pinfunction="EN" pintype="passive"/>
-      <node ref="U7" pin="55" pinfunction="PD2" pintype="passive"/>
+      <node ref="U7" pin="20" pinfunction="PA6" pintype="passive"/>
     </net>
     <net code="75" name="/Project Architecture/MCU - IOs/EN_T1" class="Default">
       <node ref="TP71" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U12" pin="5" pinfunction="EN" pintype="passive"/>
-      <node ref="U6" pin="55" pinfunction="PD2" pintype="passive"/>
+      <node ref="U6" pin="20" pinfunction="PA6" pintype="passive"/>
     </net>
     <net code="76" name="/Project Architecture/MCU - IOs/EN_T2" class="Default">
       <node ref="TP82" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U13" pin="5" pinfunction="EN" pintype="passive"/>
-      <node ref="U6" pin="25" pinfunction="PB1" pintype="passive"/>
+      <node ref="U6" pin="23" pinfunction="PC5" pintype="passive"/>
     </net>
     <net code="77" name="/Project Architecture/MCU - IOs/GPIO-LED_Debug_1" class="Default">
       <node ref="R65" pin="1" pintype="passive"/>
       <node ref="TP49" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="44" pinfunction="PA10" pintype="passive"/>
     </net>
     <net code="78" name="/Project Architecture/MCU - IOs/GPIO-LED_Debug_2" class="Default">
       <node ref="R66" pin="1" pintype="passive"/>
@@ -8652,7 +8649,6 @@
     <net code="79" name="/Project Architecture/MCU - IOs/GPIO-LED_I" class="Default">
       <node ref="R59" pin="1" pintype="passive"/>
       <node ref="TP37" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="53" pinfunction="PC11" pintype="passive"/>
     </net>
     <net code="80" name="/Project Architecture/MCU - IOs/GPIO-LED_M" class="Default">
       <node ref="R64" pin="1" pintype="passive"/>
@@ -8672,41 +8668,37 @@
     <net code="83" name="/Project Architecture/MCU - IOs/GPIO-LED_T1" class="Default">
       <node ref="R60" pin="1" pintype="passive"/>
       <node ref="TP39" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="52" pinfunction="PC10" pintype="passive"/>
     </net>
     <net code="84" name="/Project Architecture/MCU - IOs/GPIO-LED_T2" class="Default">
       <node ref="R61" pin="1" pintype="passive"/>
       <node ref="TP41" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="51" pinfunction="PA15" pintype="passive"/>
     </net>
     <net code="85" name="/Project Architecture/MCU - IOs/I2C-SCL_1" class="Default">
       <node ref="R68" pin="2" pintype="passive"/>
       <node ref="TP55" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U16" pin="2" pinfunction="SCL" pintype="passive"/>
-      <node ref="U6" pin="40" pinfunction="PC8" pintype="passive"/>
     </net>
     <net code="86" name="/Project Architecture/MCU - IOs/I2C-SCL_2" class="Default">
       <node ref="R70" pin="2" pintype="passive"/>
       <node ref="TP59" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U17" pin="2" pinfunction="SCL" pintype="passive"/>
-      <node ref="U7" pin="40" pinfunction="PC8" pintype="passive"/>
+      <node ref="U7" pin="36" pinfunction="PB14" pintype="passive"/>
     </net>
     <net code="87" name="/Project Architecture/MCU - IOs/I2C-SDA_1" class="Default">
       <node ref="R67" pin="2" pintype="passive"/>
       <node ref="TP53" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U16" pin="1" pinfunction="SDA" pintype="passive"/>
-      <node ref="U6" pin="41" pinfunction="PC9" pintype="passive"/>
     </net>
     <net code="88" name="/Project Architecture/MCU - IOs/I2C-SDA_2" class="Default">
       <node ref="R69" pin="2" pintype="passive"/>
       <node ref="TP57" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U17" pin="1" pinfunction="SDA" pintype="passive"/>
-      <node ref="U7" pin="41" pinfunction="PC9" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="PC15" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="PC15" pintype="passive"/>
     </net>
     <net code="89" name="/Project Architecture/MCU - IOs/MCU_ID1" class="Default">
       <node ref="R73" pin="1" pintype="passive"/>
       <node ref="TP84" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="54" pinfunction="PC12" pintype="passive"/>
     </net>
     <net code="90" name="/Project Architecture/MCU - IOs/MCU_ID2" class="Default">
       <node ref="R75" pin="1" pintype="passive"/>
@@ -8717,37 +8709,37 @@
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="TP14" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="24" pinfunction="PB0" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="PC0" pintype="passive"/>
     </net>
     <net code="92" name="/Project Architecture/MCU - IOs/OCM_M" class="Default">
       <node ref="R14" pin="1" pintype="passive"/>
       <node ref="R16" pin="1" pintype="passive"/>
       <node ref="TP29" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="14" pinfunction="PA2" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="PC0" pintype="passive"/>
     </net>
     <net code="93" name="/Project Architecture/MCU - IOs/OCM_P" class="Default">
       <node ref="R26" pin="1" pintype="passive"/>
       <node ref="R28" pin="1" pintype="passive"/>
       <node ref="TP60" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="24" pinfunction="PB0" pintype="passive"/>
+      <node ref="U7" pin="22" pinfunction="PC4" pintype="passive"/>
     </net>
     <net code="94" name="/Project Architecture/MCU - IOs/OCM_R" class="Default">
       <node ref="R20" pin="1" pintype="passive"/>
       <node ref="R22" pin="1" pintype="passive"/>
       <node ref="TP44" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="17" pinfunction="PA3" pintype="passive"/>
+      <node ref="U7" pin="19" pinfunction="PA5" pintype="passive"/>
     </net>
     <net code="95" name="/Project Architecture/MCU - IOs/OCM_T1" class="Default">
       <node ref="R32" pin="1" pintype="passive"/>
       <node ref="R34" pin="1" pintype="passive"/>
       <node ref="TP74" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="14" pinfunction="PA2" pintype="passive"/>
+      <node ref="U6" pin="19" pinfunction="PA5" pintype="passive"/>
     </net>
     <net code="96" name="/Project Architecture/MCU - IOs/OCM_T2" class="Default">
       <node ref="R38" pin="1" pintype="passive"/>
       <node ref="R40" pin="1" pintype="passive"/>
       <node ref="TP85" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="17" pinfunction="PA3" pintype="passive"/>
+      <node ref="U6" pin="22" pinfunction="PC4" pintype="passive"/>
     </net>
     <net code="97" name="/Project Architecture/MCU - IOs/OSC-IN_1" class="Default">
       <node ref="C43" pin="2" pinfunction="2" pintype="passive"/>
@@ -8771,71 +8763,70 @@
     </net>
     <net code="101" name="/Project Architecture/MCU - IOs/PWMA_I" class="Default">
       <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="37" pinfunction="PB15" pintype="passive"/>
+      <node ref="U6" pin="17" pinfunction="PA3" pintype="passive"/>
       <node ref="U8" pin="8" pinfunction="PWM1" pintype="passive"/>
     </net>
     <net code="102" name="/Project Architecture/MCU - IOs/PWMA_M" class="Default">
       <node ref="TP22" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="11" pinfunction="PC3" pintype="passive"/>
+      <node ref="U7" pin="17" pinfunction="PA3" pintype="passive"/>
       <node ref="U9" pin="8" pinfunction="PWM1" pintype="passive"/>
     </net>
     <net code="103" name="/Project Architecture/MCU - IOs/PWMA_P" class="Default">
       <node ref="TP52" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U11" pin="8" pinfunction="PWM1" pintype="passive"/>
-      <node ref="U7" pin="36" pinfunction="PB14" pintype="passive"/>
+      <node ref="U7" pin="41" pinfunction="PC9" pintype="passive"/>
     </net>
     <net code="104" name="/Project Architecture/MCU - IOs/PWMA_R" class="Default">
       <node ref="TP36" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U10" pin="8" pinfunction="PWM1" pintype="passive"/>
-      <node ref="U7" pin="8" pinfunction="PC0" pintype="passive"/>
+      <node ref="U7" pin="56" pinfunction="PB3" pintype="passive"/>
     </net>
     <net code="105" name="/Project Architecture/MCU - IOs/PWMA_T1" class="Default">
       <node ref="TP67" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U12" pin="8" pinfunction="PWM1" pintype="passive"/>
-      <node ref="U6" pin="8" pinfunction="PC0" pintype="passive"/>
+      <node ref="U6" pin="56" pinfunction="PB3" pintype="passive"/>
     </net>
     <net code="106" name="/Project Architecture/MCU - IOs/PWMA_T2" class="Default">
       <node ref="TP80" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U13" pin="8" pinfunction="PWM1" pintype="passive"/>
-      <node ref="U6" pin="10" pinfunction="PC2" pintype="passive"/>
+      <node ref="U6" pin="41" pinfunction="PC9" pintype="passive"/>
     </net>
     <net code="107" name="/Project Architecture/MCU - IOs/PWMB_I" class="Default">
       <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="36" pinfunction="PB14" pintype="passive"/>
+      <node ref="U6" pin="14" pinfunction="PA2" pintype="passive"/>
       <node ref="U8" pin="9" pinfunction="PWM2" pintype="passive"/>
     </net>
     <net code="108" name="/Project Architecture/MCU - IOs/PWMB_M" class="Default">
       <node ref="TP24" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="10" pinfunction="PC2" pintype="passive"/>
+      <node ref="U7" pin="14" pinfunction="PA2" pintype="passive"/>
       <node ref="U9" pin="9" pinfunction="PWM2" pintype="passive"/>
     </net>
     <net code="109" name="/Project Architecture/MCU - IOs/PWMB_P" class="Default">
       <node ref="TP54" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U11" pin="9" pinfunction="PWM2" pintype="passive"/>
-      <node ref="U7" pin="37" pinfunction="PB15" pintype="passive"/>
+      <node ref="U7" pin="40" pinfunction="PC8" pintype="passive"/>
     </net>
     <net code="110" name="/Project Architecture/MCU - IOs/PWMB_R" class="Default">
       <node ref="TP38" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U10" pin="9" pinfunction="PWM2" pintype="passive"/>
-      <node ref="U7" pin="9" pinfunction="PC1" pintype="passive"/>
+      <node ref="U7" pin="57" pinfunction="PB4" pintype="passive"/>
     </net>
     <net code="111" name="/Project Architecture/MCU - IOs/PWMB_T1" class="Default">
       <node ref="TP69" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U12" pin="9" pinfunction="PWM2" pintype="passive"/>
-      <node ref="U6" pin="9" pinfunction="PC1" pintype="passive"/>
+      <node ref="U6" pin="57" pinfunction="PB4" pintype="passive"/>
     </net>
     <net code="112" name="/Project Architecture/MCU - IOs/PWMB_T2" class="Default">
       <node ref="TP81" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U13" pin="9" pinfunction="PWM2" pintype="passive"/>
-      <node ref="U6" pin="11" pinfunction="PC3" pintype="passive"/>
+      <node ref="U6" pin="40" pinfunction="PC8" pintype="passive"/>
     </net>
     <net code="113" name="/Project Architecture/MCU - IOs/SENSE_VBAT" class="Default">
       <node ref="C97" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R71" pin="1" pintype="passive"/>
       <node ref="R72" pin="2" pintype="passive"/>
       <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="23" pinfunction="PC5" pintype="passive"/>
-      <node ref="U7" pin="23" pinfunction="PC5" pintype="passive"/>
+      <node ref="U7" pin="30" pinfunction="PB10" pintype="passive"/>
     </net>
     <net code="121" name="/Project Architecture/Motor Control 1/OUT1" class="Default">
       <node ref="J3" pin="8" pinfunction="8" pintype="passive"/>
@@ -9513,91 +9504,118 @@
     <net code="209" name="unconnected-(U5-NC-Pad4)" class="Default">
       <node ref="U5" pin="4" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="210" name="unconnected-(U6B-PB3-Pad56)" class="Default">
-      <node ref="U6" pin="56" pinfunction="PB3" pintype="passive+no_connect"/>
+    <net code="210" name="unconnected-(U6B-PA10-Pad44)" class="Default">
+      <node ref="U6" pin="44" pinfunction="PA10" pintype="passive"/>
     </net>
-    <net code="211" name="unconnected-(U6B-PB4-Pad57)" class="Default">
-      <node ref="U6" pin="57" pinfunction="PB4" pintype="passive+no_connect"/>
+    <net code="211" name="unconnected-(U6B-PA15-Pad51)" class="Default">
+      <node ref="U6" pin="51" pinfunction="PA15" pintype="passive"/>
     </net>
-    <net code="212" name="unconnected-(U6B-PB5-Pad58)" class="Default">
-      <node ref="U6" pin="58" pinfunction="PB5" pintype="passive+no_connect"/>
+    <net code="212" name="unconnected-(U6B-PB0-Pad24)" class="Default">
+      <node ref="U6" pin="24" pinfunction="PB0" pintype="passive"/>
     </net>
-    <net code="213" name="unconnected-(U6B-PB9-Pad62)" class="Default">
-      <node ref="U6" pin="62" pinfunction="PB9" pintype="passive+no_connect"/>
+    <net code="213" name="unconnected-(U6B-PB1-Pad25)" class="Default">
+      <node ref="U6" pin="25" pinfunction="PB1" pintype="passive"/>
     </net>
-    <net code="214" name="unconnected-(U7B-PB2-Pad26)" class="Default">
+    <net code="214" name="unconnected-(U6B-PB5-Pad58)" class="Default">
+      <node ref="U6" pin="58" pinfunction="PB5" pintype="passive"/>
+    </net>
+    <net code="215" name="unconnected-(U6B-PB9-Pad62)" class="Default">
+      <node ref="U6" pin="62" pinfunction="PB9" pintype="passive"/>
+    </net>
+    <net code="216" name="unconnected-(U6B-PB10-Pad30)" class="Default">
+      <node ref="U6" pin="30" pinfunction="PB10" pintype="passive"/>
+    </net>
+    <net code="217" name="unconnected-(U6B-PB14-Pad36)" class="Default">
+      <node ref="U6" pin="36" pinfunction="PB14" pintype="passive"/>
+    </net>
+    <net code="218" name="unconnected-(U6B-PC10-Pad52)" class="Default">
+      <node ref="U6" pin="52" pinfunction="PC10" pintype="passive"/>
+    </net>
+    <net code="219" name="unconnected-(U6B-PC11-Pad53)" class="Default">
+      <node ref="U6" pin="53" pinfunction="PC11" pintype="passive"/>
+    </net>
+    <net code="220" name="unconnected-(U6B-PC12-Pad54)" class="Default">
+      <node ref="U6" pin="54" pinfunction="PC12" pintype="passive"/>
+    </net>
+    <net code="221" name="unconnected-(U6B-PC13-Pad2)" class="Default">
+      <node ref="U6" pin="2" pinfunction="PC13" pintype="passive"/>
+    </net>
+    <net code="222" name="unconnected-(U6B-PC14-Pad3)" class="Default">
+      <node ref="U6" pin="3" pinfunction="PC14" pintype="passive"/>
+    </net>
+    <net code="223" name="unconnected-(U7B-PB1-Pad25)" class="Default">
+      <node ref="U7" pin="25" pinfunction="PB1" pintype="passive+no_connect"/>
+    </net>
+    <net code="224" name="unconnected-(U7B-PB2-Pad26)" class="Default">
       <node ref="U7" pin="26" pinfunction="PB2" pintype="passive+no_connect"/>
     </net>
-    <net code="215" name="unconnected-(U7B-PB3-Pad56)" class="Default">
-      <node ref="U7" pin="56" pinfunction="PB3" pintype="passive+no_connect"/>
-    </net>
-    <net code="216" name="unconnected-(U7B-PB4-Pad57)" class="Default">
-      <node ref="U7" pin="57" pinfunction="PB4" pintype="passive+no_connect"/>
-    </net>
-    <net code="217" name="unconnected-(U7B-PB5-Pad58)" class="Default">
+    <net code="225" name="unconnected-(U7B-PB5-Pad58)" class="Default">
       <node ref="U7" pin="58" pinfunction="PB5" pintype="passive+no_connect"/>
     </net>
-    <net code="218" name="unconnected-(U7B-PB9-Pad62)" class="Default">
+    <net code="226" name="unconnected-(U7B-PB9-Pad62)" class="Default">
       <node ref="U7" pin="62" pinfunction="PB9" pintype="passive+no_connect"/>
     </net>
-    <net code="219" name="unconnected-(U8-NC-Pad6)" class="Default">
+    <net code="227" name="unconnected-(U7B-PC13-Pad2)" class="Default">
+      <node ref="U7" pin="2" pinfunction="PC13" pintype="passive+no_connect"/>
+    </net>
+    <net code="228" name="unconnected-(U8-NC-Pad6)" class="Default">
       <node ref="U8" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="220" name="unconnected-(U8-NC-Pad10)" class="Default">
+    <net code="229" name="unconnected-(U8-NC-Pad10)" class="Default">
       <node ref="U8" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="221" name="unconnected-(U8-NC-Pad26)" class="Default">
+    <net code="230" name="unconnected-(U8-NC-Pad26)" class="Default">
       <node ref="U8" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="222" name="unconnected-(U9-NC-Pad6)" class="Default">
+    <net code="231" name="unconnected-(U9-NC-Pad6)" class="Default">
       <node ref="U9" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="223" name="unconnected-(U9-NC-Pad10)" class="Default">
+    <net code="232" name="unconnected-(U9-NC-Pad10)" class="Default">
       <node ref="U9" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="224" name="unconnected-(U9-NC-Pad26)" class="Default">
+    <net code="233" name="unconnected-(U9-NC-Pad26)" class="Default">
       <node ref="U9" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="225" name="unconnected-(U10-NC-Pad6)" class="Default">
+    <net code="234" name="unconnected-(U10-NC-Pad6)" class="Default">
       <node ref="U10" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="226" name="unconnected-(U10-NC-Pad10)" class="Default">
+    <net code="235" name="unconnected-(U10-NC-Pad10)" class="Default">
       <node ref="U10" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="227" name="unconnected-(U10-NC-Pad26)" class="Default">
+    <net code="236" name="unconnected-(U10-NC-Pad26)" class="Default">
       <node ref="U10" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="228" name="unconnected-(U11-NC-Pad6)" class="Default">
+    <net code="237" name="unconnected-(U11-NC-Pad6)" class="Default">
       <node ref="U11" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="229" name="unconnected-(U11-NC-Pad10)" class="Default">
+    <net code="238" name="unconnected-(U11-NC-Pad10)" class="Default">
       <node ref="U11" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="230" name="unconnected-(U11-NC-Pad26)" class="Default">
+    <net code="239" name="unconnected-(U11-NC-Pad26)" class="Default">
       <node ref="U11" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="231" name="unconnected-(U12-NC-Pad6)" class="Default">
+    <net code="240" name="unconnected-(U12-NC-Pad6)" class="Default">
       <node ref="U12" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="232" name="unconnected-(U12-NC-Pad10)" class="Default">
+    <net code="241" name="unconnected-(U12-NC-Pad10)" class="Default">
       <node ref="U12" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="233" name="unconnected-(U12-NC-Pad26)" class="Default">
+    <net code="242" name="unconnected-(U12-NC-Pad26)" class="Default">
       <node ref="U12" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="234" name="unconnected-(U13-NC-Pad6)" class="Default">
+    <net code="243" name="unconnected-(U13-NC-Pad6)" class="Default">
       <node ref="U13" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="235" name="unconnected-(U13-NC-Pad10)" class="Default">
+    <net code="244" name="unconnected-(U13-NC-Pad10)" class="Default">
       <node ref="U13" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="236" name="unconnected-(U13-NC-Pad26)" class="Default">
+    <net code="245" name="unconnected-(U13-NC-Pad26)" class="Default">
       <node ref="U13" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="237" name="unconnected-(U16-EP-Pad5)" class="Default">
+    <net code="246" name="unconnected-(U16-EP-Pad5)" class="Default">
       <node ref="U16" pin="5" pinfunction="EP" pintype="passive+no_connect"/>
     </net>
-    <net code="238" name="unconnected-(U17-EP-Pad5)" class="Default">
+    <net code="247" name="unconnected-(U17-EP-Pad5)" class="Default">
       <node ref="U17" pin="5" pinfunction="EP" pintype="passive+no_connect"/>
     </net>
   </nets>
