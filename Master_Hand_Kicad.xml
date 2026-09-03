@@ -9,8 +9,8 @@
     <textvar name="COMPANY">Willas</textvar>
     <textvar name="DESIGNER">Damon</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">08fbef2</textvar>
-    <textvar name="GIT_HASH_SCH">49e7ef0</textvar>
+    <textvar name="GIT_HASH_PCB">7e5a410</textvar>
+    <textvar name="GIT_HASH_SCH">7e5a410</textvar>
     <textvar name="GIT_URL">https://github.com/ducbin11903/MasterHand_Project_Kicad.git</textvar>
     <textvar name="PROJECT_NAME">Master Hand</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -18,8 +18,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">03-Sep-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-09-03</textvar>
+    <textvar name="RELEASE_DATE">04-Sep-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-09-04</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -1530,22 +1530,22 @@
       <tstamps>da002f48-53aa-4748-8675-97a3f65c7591</tstamps>
     </comp>
     <comp ref="C25">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - Power"/>
       <property name="Sheetfile" value="MCU - Power.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -1553,22 +1553,22 @@
       <tstamps>3912f499-ec9b-493a-b14a-2f8b98c30029</tstamps>
     </comp>
     <comp ref="C26">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - Power"/>
       <property name="Sheetfile" value="MCU - Power.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -1576,22 +1576,22 @@
       <tstamps>f985519f-7631-4655-898b-5b05d0d9109f</tstamps>
     </comp>
     <comp ref="C27">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - Power"/>
       <property name="Sheetfile" value="MCU - Power.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -1599,22 +1599,22 @@
       <tstamps>12de6cdf-3325-4ffb-b22b-e6ab83f90b55</tstamps>
     </comp>
     <comp ref="C28">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - Power"/>
       <property name="Sheetfile" value="MCU - Power.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -1622,22 +1622,22 @@
       <tstamps>cef0e30e-285a-4f9e-9102-53d12dd90264</tstamps>
     </comp>
     <comp ref="C29">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - Power"/>
       <property name="Sheetfile" value="MCU - Power.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -1645,22 +1645,22 @@
       <tstamps>876772f4-203d-40d6-9628-2053a485dce2</tstamps>
     </comp>
     <comp ref="C30">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - Power"/>
       <property name="Sheetfile" value="MCU - Power.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -1668,22 +1668,22 @@
       <tstamps>dfc49b81-4b42-40ce-9071-ed6c8c9c2dc7</tstamps>
     </comp>
     <comp ref="C31">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - Power"/>
       <property name="Sheetfile" value="MCU - Power.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -1691,22 +1691,22 @@
       <tstamps>38a59e5f-3256-453b-bff3-29e3254334b8</tstamps>
     </comp>
     <comp ref="C32">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - Power"/>
       <property name="Sheetfile" value="MCU - Power.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -1714,22 +1714,22 @@
       <tstamps>d0d384ed-6f96-495f-862b-3091db33770c</tstamps>
     </comp>
     <comp ref="C33">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - Power"/>
       <property name="Sheetfile" value="MCU - Power.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -1737,22 +1737,22 @@
       <tstamps>69231b1b-db59-44cc-af6a-031f19e8e8ae</tstamps>
     </comp>
     <comp ref="C34">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - Power"/>
       <property name="Sheetfile" value="MCU - Power.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -1760,22 +1760,22 @@
       <tstamps>d569b9ae-c8b3-4863-9c24-23d24d03b10c</tstamps>
     </comp>
     <comp ref="C35">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - Power"/>
       <property name="Sheetfile" value="MCU - Power.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -1783,22 +1783,22 @@
       <tstamps>757b93d1-9964-4964-a31f-1971e8540ff6</tstamps>
     </comp>
     <comp ref="C36">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - Power"/>
       <property name="Sheetfile" value="MCU - Power.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -1806,22 +1806,22 @@
       <tstamps>dd25b2cb-c3b7-4dff-8555-ec25452e741d</tstamps>
     </comp>
     <comp ref="C37">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - Power"/>
       <property name="Sheetfile" value="MCU - Power.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -1829,22 +1829,22 @@
       <tstamps>2d680aac-c020-4374-81c6-27277be5bc7c</tstamps>
     </comp>
     <comp ref="C38">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - Power"/>
       <property name="Sheetfile" value="MCU - Power.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -1852,22 +1852,22 @@
       <tstamps>7dcafbef-29dc-4706-b446-43934c42bf49</tstamps>
     </comp>
     <comp ref="C39">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - Power"/>
       <property name="Sheetfile" value="MCU - Power.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -1875,22 +1875,22 @@
       <tstamps>219115f9-e2bd-4aba-b2a3-fc0231b28a34</tstamps>
     </comp>
     <comp ref="C40">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - Power"/>
       <property name="Sheetfile" value="MCU - Power.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -1898,22 +1898,22 @@
       <tstamps>9a071b1a-1e02-4095-b263-3b4bbdaffeaf</tstamps>
     </comp>
     <comp ref="C41">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - Power"/>
       <property name="Sheetfile" value="MCU - Power.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -1921,22 +1921,22 @@
       <tstamps>1c19a132-6cb5-4af0-85c5-2d2526bead0b</tstamps>
     </comp>
     <comp ref="C42">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - Power"/>
       <property name="Sheetfile" value="MCU - Power.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -2034,22 +2034,22 @@
       <tstamps>3bb38c4e-d06b-44be-ac97-adf92668717c</tstamps>
     </comp>
     <comp ref="C43">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - IOs"/>
       <property name="Sheetfile" value="MCU - IOs.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -2057,22 +2057,22 @@
       <tstamps>d2853cde-eebb-4c09-919c-7b588d242aba</tstamps>
     </comp>
     <comp ref="C44">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - IOs"/>
       <property name="Sheetfile" value="MCU - IOs.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -2080,22 +2080,22 @@
       <tstamps>0768f78e-2c24-4b34-8cb7-80240479eed7</tstamps>
     </comp>
     <comp ref="C45">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - IOs"/>
       <property name="Sheetfile" value="MCU - IOs.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -2103,22 +2103,22 @@
       <tstamps>45439ce0-04a4-43b9-ad2e-8fb1fbbaf476</tstamps>
     </comp>
     <comp ref="C46">
-      <value>CAP CER 0603</value>
-      <footprint>Duc:C0603</footprint>
+      <value>CAP CER 0402</value>
+      <footprint>Duc:C0402</footprint>
       <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0603</description>
+      <description>CAP CER 0402</description>
       <fields>
         <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CAP CER 0603</field>
-        <field name="LCSC Part">C14663</field>
-        <field name="Footprint">Duc:C0603</field>
+        <field name="MPN">CC0402KRX5R7BB105</field>
+        <field name="LCSC Part">C325464</field>
+        <field name="Footprint">Duc:C0402</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0603</field>
+        <field name="Description">CAP CER 0402</field>
       </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0603" description="CAP CER 0603"/>
+      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
       <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CAP CER 0603"/>
-      <property name="LCSC Part" value="C14663"/>
+      <property name="MPN" value="CC0402KRX5R7BB105"/>
+      <property name="LCSC Part" value="C325464"/>
       <property name="Sheetname" value="MCU - IOs"/>
       <property name="Sheetfile" value="MCU - IOs.kicad_sch"/>
       <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
@@ -2958,23 +2958,6 @@
       <sheetpath names="/Project Architecture/MCU - IOs/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
       <tstamps>612055fe-17b9-47c4-8316-28bdc1b19dec</tstamps>
     </comp>
-    <comp ref="TP57">
-      <value>~</value>
-      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
-      <description>Test Point Pad D0.5mm</description>
-      <fields>
-        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
-        <field name="Datasheet"/>
-        <field name="Description">Test Point Pad D0.5mm</field>
-      </fields>
-      <libsource lib="Power_symbols" part="Test_Point" description="Test Point Pad D0.5mm"/>
-      <property name="Sheetname" value="MCU - IOs"/>
-      <property name="Sheetfile" value="MCU - IOs.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/Project Architecture/MCU - IOs/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
-      <tstamps>58725d64-3b68-4785-94fb-0bc3c25c0020</tstamps>
-    </comp>
     <comp ref="TP58">
       <value>~</value>
       <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
@@ -2991,23 +2974,6 @@
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Project Architecture/MCU - IOs/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
       <tstamps>13f35213-4cf3-4e3c-9e41-323072070c62</tstamps>
-    </comp>
-    <comp ref="TP59">
-      <value>~</value>
-      <footprint>Duc:TestPoint_Pad_D0.5mm</footprint>
-      <description>Test Point Pad D0.5mm</description>
-      <fields>
-        <field name="Footprint">Duc:TestPoint_Pad_D0.5mm</field>
-        <field name="Datasheet"/>
-        <field name="Description">Test Point Pad D0.5mm</field>
-      </fields>
-      <libsource lib="Power_symbols" part="Test_Point" description="Test Point Pad D0.5mm"/>
-      <property name="Sheetname" value="MCU - IOs"/>
-      <property name="Sheetfile" value="MCU - IOs.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/Project Architecture/MCU - IOs/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
-      <tstamps>205fe86d-8f2b-4be4-905b-fdf366d7d607</tstamps>
     </comp>
     <comp ref="TP60">
       <value>~</value>
@@ -6752,29 +6718,6 @@
       <sheetpath names="/Project Architecture/Sensing - Temperature &amp; Humidity/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/2e63ad8d-085e-4704-a18e-2216b579ffe6/"/>
       <tstamps>23484b60-ebab-45d6-882b-373c1ae41be9</tstamps>
     </comp>
-    <comp ref="C96">
-      <value>CAP CER 0402</value>
-      <footprint>Duc:C0402</footprint>
-      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
-      <description>CAP CER 0402</description>
-      <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">CC0402KRX5R7BB105</field>
-        <field name="LCSC Part">C325464</field>
-        <field name="Footprint">Duc:C0402</field>
-        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
-        <field name="Description">CAP CER 0402</field>
-      </fields>
-      <libsource lib="Duc-Capacitors" part="CAP CER 0402" description="CAP CER 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="CC0402KRX5R7BB105"/>
-      <property name="LCSC Part" value="C325464"/>
-      <property name="Sheetname" value="Sensing - Temperature &amp; Humidity"/>
-      <property name="Sheetfile" value="Sensing - Temperature.kicad_sch"/>
-      <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
-      <sheetpath names="/Project Architecture/Sensing - Temperature &amp; Humidity/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/2e63ad8d-085e-4704-a18e-2216b579ffe6/"/>
-      <tstamps>dcc316b4-820d-4a20-b8ba-e78030d4f784</tstamps>
-    </comp>
     <comp ref="R67">
       <value>RES 0402</value>
       <footprint>Duc:R0402</footprint>
@@ -6819,50 +6762,6 @@
       <sheetpath names="/Project Architecture/Sensing - Temperature &amp; Humidity/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/2e63ad8d-085e-4704-a18e-2216b579ffe6/"/>
       <tstamps>4a9439f9-1c6b-4e98-beb5-e51b7bf1e1a7</tstamps>
     </comp>
-    <comp ref="R69">
-      <value>RES 0402</value>
-      <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
-      <description>RES SMD 0402</description>
-      <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">RT0402FRE07100KL</field>
-        <field name="LCSC Part">C728576</field>
-        <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
-        <field name="Description">RES SMD 0402</field>
-      </fields>
-      <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="RT0402FRE07100KL"/>
-      <property name="LCSC Part" value="C728576"/>
-      <property name="Sheetname" value="Sensing - Temperature &amp; Humidity"/>
-      <property name="Sheetfile" value="Sensing - Temperature.kicad_sch"/>
-      <sheetpath names="/Project Architecture/Sensing - Temperature &amp; Humidity/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/2e63ad8d-085e-4704-a18e-2216b579ffe6/"/>
-      <tstamps>63fd367a-fbd2-4151-8544-ca273c4d976f</tstamps>
-    </comp>
-    <comp ref="R70">
-      <value>RES 0402</value>
-      <footprint>Duc:R0402</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C4107493.pdf</datasheet>
-      <description>RES SMD 0402</description>
-      <fields>
-        <field name="Manufacturer">YAGEO(国巨)</field>
-        <field name="MPN">RT0402FRE07100KL</field>
-        <field name="LCSC Part">C728576</field>
-        <field name="Footprint">Duc:R0402</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C4107493.pdf</field>
-        <field name="Description">RES SMD 0402</field>
-      </fields>
-      <libsource lib="Duc-Resistors" part="RES SMD 0402" description="RES SMD 0402"/>
-      <property name="Manufacturer" value="YAGEO(国巨)"/>
-      <property name="MPN" value="RT0402FRE07100KL"/>
-      <property name="LCSC Part" value="C728576"/>
-      <property name="Sheetname" value="Sensing - Temperature &amp; Humidity"/>
-      <property name="Sheetfile" value="Sensing - Temperature.kicad_sch"/>
-      <sheetpath names="/Project Architecture/Sensing - Temperature &amp; Humidity/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/2e63ad8d-085e-4704-a18e-2216b579ffe6/"/>
-      <tstamps>7c7252c9-fe4e-406c-b2ef-33ce01dbe268</tstamps>
-    </comp>
     <comp ref="U16">
       <value>SHT40-N-NF</value>
       <footprint>Duc:DFN-4_L1.5-W1.5-P0.80-TL-EP</footprint>
@@ -6884,28 +6783,6 @@
       <property name="Sheetfile" value="Sensing - Temperature.kicad_sch"/>
       <sheetpath names="/Project Architecture/Sensing - Temperature &amp; Humidity/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/2e63ad8d-085e-4704-a18e-2216b579ffe6/"/>
       <tstamps>a3c39f6b-9fef-4551-83b1-0d0c1692e50b</tstamps>
-    </comp>
-    <comp ref="U17">
-      <value>SHT40-N-NF</value>
-      <footprint>Duc:DFN-4_L1.5-W1.5-P0.80-TL-EP</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C54946589.pdf</datasheet>
-      <description>DFN-4(1.5x1.5) Humidity, Moisture Sensors RoHS</description>
-      <fields>
-        <field name="Manufacturer">Nyfea(徕飞)</field>
-        <field name="MPN">SHT40-N-NF</field>
-        <field name="LCSC Part">C54946589</field>
-        <field name="Footprint">Duc:DFN-4_L1.5-W1.5-P0.80-TL-EP</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C54946589.pdf</field>
-        <field name="Description">DFN-4(1.5x1.5) Humidity, Moisture Sensors RoHS</field>
-      </fields>
-      <libsource lib="Duc-Sensors" part="SHT40-N-NF" description="DFN-4(1.5x1.5) Humidity, Moisture Sensors RoHS"/>
-      <property name="Manufacturer" value="Nyfea(徕飞)"/>
-      <property name="MPN" value="SHT40-N-NF"/>
-      <property name="LCSC Part" value="C54946589"/>
-      <property name="Sheetname" value="Sensing - Temperature &amp; Humidity"/>
-      <property name="Sheetfile" value="Sensing - Temperature.kicad_sch"/>
-      <sheetpath names="/Project Architecture/Sensing - Temperature &amp; Humidity/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/2e63ad8d-085e-4704-a18e-2216b579ffe6/"/>
-      <tstamps>b287fd8b-9a0d-4050-92fc-e2eacbc39594</tstamps>
     </comp>
     <comp ref="C97">
       <value>CAP CER 0603</value>
@@ -8113,29 +7990,30 @@
   <nets>
     <net code="1" name="+3V3" class="Default">
       <node ref="C10" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C25" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C26" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C27" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C28" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C29" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C30" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C34" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C35" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C36" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C37" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C38" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C39" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C51" pin="2" pintype="passive"/>
-      <node ref="C57" pin="2" pintype="passive"/>
-      <node ref="C63" pin="2" pintype="passive"/>
-      <node ref="C69" pin="2" pintype="passive"/>
-      <node ref="C75" pin="2" pintype="passive"/>
-      <node ref="C81" pin="2" pintype="passive"/>
-      <node ref="C88" pin="2" pintype="passive"/>
-      <node ref="C90" pin="2" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="C39" pin="1" pintype="passive"/>
+      <node ref="C51" pin="1" pintype="passive"/>
+      <node ref="C57" pin="1" pintype="passive"/>
+      <node ref="C63" pin="1" pintype="passive"/>
+      <node ref="C69" pin="1" pintype="passive"/>
+      <node ref="C75" pin="1" pintype="passive"/>
+      <node ref="C81" pin="1" pintype="passive"/>
+      <node ref="C88" pin="1" pintype="passive"/>
+      <node ref="C90" pin="1" pintype="passive"/>
       <node ref="C92" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="C93" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="C94" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C95" pin="1" pintype="passive"/>
       <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
@@ -8144,10 +8022,6 @@
       <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="J12" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="J12" pin="4" pinfunction="4" pintype="passive"/>
-      <node ref="J12" pin="6" pinfunction="6" pintype="passive"/>
-      <node ref="J12" pin="8" pinfunction="8" pintype="passive"/>
       <node ref="J13" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J13" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="J14" pin="1" pinfunction="1" pintype="passive"/>
@@ -8178,6 +8052,8 @@
       <node ref="R55" pin="1" pintype="passive"/>
       <node ref="R56" pin="1" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R67" pin="1" pintype="passive"/>
+      <node ref="R68" pin="1" pintype="passive"/>
       <node ref="R73" pin="2" pintype="passive"/>
       <node ref="R74" pin="2" pintype="passive"/>
       <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
@@ -8185,6 +8061,7 @@
       <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U14" pin="5" pinfunction="VIO" pintype="passive"/>
       <node ref="U15" pin="5" pinfunction="VIO" pintype="passive"/>
+      <node ref="U16" pin="3" pinfunction="VDD" pintype="passive"/>
       <node ref="U4" pin="6" pinfunction="VOS" pintype="passive"/>
       <node ref="U6" pin="1" pinfunction="VBAT" pintype="passive"/>
       <node ref="U6" pin="16" pinfunction="VDD" pintype="passive"/>
@@ -8198,20 +8075,24 @@
       <node ref="U7" pin="64" pinfunction="VDD" pintype="passive"/>
     </net>
     <net code="2" name="+5V" class="Default">
-      <node ref="C11" pin="2" pintype="passive"/>
-      <node ref="C12" pin="2" pintype="passive"/>
-      <node ref="C47" pin="2" pintype="passive"/>
-      <node ref="C53" pin="2" pintype="passive"/>
-      <node ref="C59" pin="2" pintype="passive"/>
-      <node ref="C65" pin="2" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C47" pin="1" pintype="passive"/>
+      <node ref="C53" pin="1" pintype="passive"/>
+      <node ref="C59" pin="1" pintype="passive"/>
+      <node ref="C65" pin="1" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
-      <node ref="C71" pin="2" pintype="passive"/>
-      <node ref="C77" pin="2" pintype="passive"/>
+      <node ref="C71" pin="1" pintype="passive"/>
+      <node ref="C77" pin="1" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
-      <node ref="C87" pin="2" pintype="passive"/>
-      <node ref="C89" pin="2" pintype="passive"/>
+      <node ref="C87" pin="1" pintype="passive"/>
+      <node ref="C89" pin="1" pintype="passive"/>
+      <node ref="J12" pin="10" pinfunction="10" pintype="passive"/>
       <node ref="J12" pin="12" pinfunction="12" pintype="passive"/>
-      <node ref="J12" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J12" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J12" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J12" pin="8" pinfunction="8" pintype="passive"/>
       <node ref="R13" pin="2" pintype="passive"/>
       <node ref="R19" pin="2" pintype="passive"/>
       <node ref="R25" pin="2" pintype="passive"/>
@@ -8237,19 +8118,11 @@
     </net>
     <net code="3" name="+A3V3" class="Default">
       <node ref="C13" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C31" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C40" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C95" pin="2" pintype="passive"/>
-      <node ref="C96" pin="2" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C40" pin="1" pintype="passive"/>
       <node ref="FB1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="FB2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R67" pin="1" pintype="passive"/>
-      <node ref="R68" pin="1" pintype="passive"/>
-      <node ref="R69" pin="1" pintype="passive"/>
-      <node ref="R70" pin="1" pintype="passive"/>
       <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U16" pin="3" pinfunction="VDD" pintype="passive"/>
-      <node ref="U17" pin="3" pinfunction="VDD" pintype="passive"/>
       <node ref="U5" pin="5" pinfunction="OUT" pintype="passive"/>
     </net>
     <net code="4" name="+VBAT" class="Default">
@@ -8264,14 +8137,14 @@
       <node ref="C22" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="C23" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="C24" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C49" pin="2" pintype="passive"/>
+      <node ref="C49" pin="1" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
-      <node ref="C55" pin="2" pintype="passive"/>
+      <node ref="C55" pin="1" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
-      <node ref="C61" pin="2" pintype="passive"/>
-      <node ref="C67" pin="2" pintype="passive"/>
-      <node ref="C73" pin="2" pintype="passive"/>
-      <node ref="C79" pin="2" pintype="passive"/>
+      <node ref="C61" pin="1" pintype="passive"/>
+      <node ref="C67" pin="1" pintype="passive"/>
+      <node ref="C73" pin="1" pintype="passive"/>
+      <node ref="C79" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="C" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
@@ -8348,16 +8221,10 @@
     <net code="14" name="/Project Architecture/Interface - Interconnects/I2C_SCL" class="Default">
       <node ref="J12" pin="23" pinfunction="23" pintype="passive"/>
       <node ref="R56" pin="2" pintype="passive"/>
-      <node ref="TP76" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="43" pinfunction="PA9" pintype="passive"/>
-      <node ref="U7" pin="43" pinfunction="PA9" pintype="passive"/>
     </net>
     <net code="15" name="/Project Architecture/Interface - Interconnects/I2C_SDA" class="Default">
       <node ref="J12" pin="21" pinfunction="21" pintype="passive"/>
       <node ref="R55" pin="2" pintype="passive"/>
-      <node ref="TP78" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="42" pinfunction="PA8" pintype="passive"/>
-      <node ref="U7" pin="42" pinfunction="PA8" pintype="passive"/>
     </net>
     <net code="16" name="/Project Architecture/Interface - Interconnects/NRST1" class="Default">
       <node ref="J13" pin="6" pinfunction="6" pintype="passive"/>
@@ -8437,7 +8304,7 @@
     </net>
     <net code="38" name="/Project Architecture/Interface - USB 2.0/VBUS_1" class="Default">
       <node ref="C83" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C84" pin="2" pintype="passive"/>
+      <node ref="C84" pin="1" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="C" pintype="passive"/>
       <node ref="D4" pin="5" pinfunction="VBUS" pintype="passive"/>
       <node ref="J9" pin="A4B9" pinfunction="VBUS" pintype="passive"/>
@@ -8447,7 +8314,7 @@
     </net>
     <net code="39" name="/Project Architecture/Interface - USB 2.0/VBUS_2" class="Default">
       <node ref="C85" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C86" pin="2" pintype="passive"/>
+      <node ref="C86" pin="1" pintype="passive"/>
       <node ref="D6" pin="1" pinfunction="C" pintype="passive"/>
       <node ref="D7" pin="5" pinfunction="VBUS" pintype="passive"/>
       <node ref="J10" pin="A4B9" pinfunction="VBUS" pintype="passive"/>
@@ -8572,37 +8439,37 @@
       <node ref="U6" pin="39" pinfunction="PC7" pintype="passive"/>
     </net>
     <net code="65" name="/Project Architecture/MCU - IOs/ECC_I" class="Default">
-      <node ref="C52" pin="2" pintype="passive"/>
+      <node ref="C52" pin="1" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
       <node ref="TP19" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U6" pin="10" pinfunction="PC2" pintype="passive"/>
     </net>
     <net code="66" name="/Project Architecture/MCU - IOs/ECC_M" class="Default">
-      <node ref="C58" pin="2" pintype="passive"/>
+      <node ref="C58" pin="1" pintype="passive"/>
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="TP34" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U7" pin="10" pinfunction="PC2" pintype="passive"/>
     </net>
     <net code="67" name="/Project Architecture/MCU - IOs/ECC_P" class="Default">
-      <node ref="C70" pin="2" pintype="passive"/>
+      <node ref="C70" pin="1" pintype="passive"/>
       <node ref="R30" pin="2" pintype="passive"/>
       <node ref="TP64" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U7" pin="21" pinfunction="PA7" pintype="passive"/>
     </net>
     <net code="68" name="/Project Architecture/MCU - IOs/ECC_R" class="Default">
-      <node ref="C64" pin="2" pintype="passive"/>
+      <node ref="C64" pin="1" pintype="passive"/>
       <node ref="R24" pin="2" pintype="passive"/>
       <node ref="TP50" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U7" pin="18" pinfunction="PA4" pintype="passive"/>
     </net>
     <net code="69" name="/Project Architecture/MCU - IOs/ECC_T1" class="Default">
-      <node ref="C76" pin="2" pintype="passive"/>
+      <node ref="C76" pin="1" pintype="passive"/>
       <node ref="R36" pin="2" pintype="passive"/>
       <node ref="TP79" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U6" pin="18" pinfunction="PA4" pintype="passive"/>
     </net>
     <net code="70" name="/Project Architecture/MCU - IOs/ECC_T2" class="Default">
-      <node ref="C82" pin="2" pintype="passive"/>
+      <node ref="C82" pin="1" pintype="passive"/>
       <node ref="R42" pin="2" pintype="passive"/>
       <node ref="TP89" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U6" pin="21" pinfunction="PA7" pintype="passive"/>
@@ -8673,32 +8540,30 @@
       <node ref="R61" pin="1" pintype="passive"/>
       <node ref="TP41" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="85" name="/Project Architecture/MCU - IOs/I2C-SCL_1" class="Default">
+    <net code="85" name="/Project Architecture/MCU - IOs/I2C-SCL" class="Default">
       <node ref="R68" pin="2" pintype="passive"/>
       <node ref="TP55" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U16" pin="2" pinfunction="SCL" pintype="passive"/>
+      <node ref="U7" pin="43" pinfunction="PA9" pintype="passive"/>
     </net>
-    <net code="86" name="/Project Architecture/MCU - IOs/I2C-SCL_2" class="Default">
-      <node ref="R70" pin="2" pintype="passive"/>
-      <node ref="TP59" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U17" pin="2" pinfunction="SCL" pintype="passive"/>
-      <node ref="U7" pin="36" pinfunction="PB14" pintype="passive"/>
-    </net>
-    <net code="87" name="/Project Architecture/MCU - IOs/I2C-SDA_1" class="Default">
+    <net code="86" name="/Project Architecture/MCU - IOs/I2C-SDA" class="Default">
       <node ref="R67" pin="2" pintype="passive"/>
       <node ref="TP53" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U16" pin="1" pinfunction="SDA" pintype="passive"/>
+      <node ref="U7" pin="42" pinfunction="PA8" pintype="passive"/>
     </net>
-    <net code="88" name="/Project Architecture/MCU - IOs/I2C-SDA_2" class="Default">
-      <node ref="R69" pin="2" pintype="passive"/>
-      <node ref="TP57" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U17" pin="1" pinfunction="SDA" pintype="passive"/>
-      <node ref="U6" pin="4" pinfunction="PC15" pintype="passive"/>
-      <node ref="U7" pin="4" pinfunction="PC15" pintype="passive"/>
+    <net code="87" name="/Project Architecture/MCU - IOs/I2C_SCL" class="Default">
+      <node ref="TP76" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="43" pinfunction="PA9" pintype="passive"/>
+    </net>
+    <net code="88" name="/Project Architecture/MCU - IOs/I2C_SDA" class="Default">
+      <node ref="TP78" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="42" pinfunction="PA8" pintype="passive"/>
     </net>
     <net code="89" name="/Project Architecture/MCU - IOs/MCU_ID1" class="Default">
       <node ref="R73" pin="1" pintype="passive"/>
       <node ref="TP84" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="52" pinfunction="PC10" pintype="passive"/>
     </net>
     <net code="90" name="/Project Architecture/MCU - IOs/MCU_ID2" class="Default">
       <node ref="R75" pin="1" pintype="passive"/>
@@ -8742,22 +8607,22 @@
       <node ref="U6" pin="22" pinfunction="PC4" pintype="passive"/>
     </net>
     <net code="97" name="/Project Architecture/MCU - IOs/OSC-IN_1" class="Default">
-      <node ref="C43" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C43" pin="1" pintype="passive"/>
       <node ref="U6" pin="5" pinfunction="PF0" pintype="passive"/>
       <node ref="X1" pin="1" pinfunction="OSC1" pintype="passive"/>
     </net>
     <net code="98" name="/Project Architecture/MCU - IOs/OSC-IN_2" class="Default">
-      <node ref="C45" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C45" pin="1" pintype="passive"/>
       <node ref="U7" pin="5" pinfunction="PF0" pintype="passive"/>
       <node ref="X2" pin="1" pinfunction="OSC1" pintype="passive"/>
     </net>
     <net code="99" name="/Project Architecture/MCU - IOs/OSC-OUT_1" class="Default">
-      <node ref="C44" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C44" pin="1" pintype="passive"/>
       <node ref="U6" pin="6" pinfunction="PF1" pintype="passive"/>
       <node ref="X1" pin="3" pinfunction="OSC2" pintype="passive"/>
     </net>
     <net code="100" name="/Project Architecture/MCU - IOs/OSC-OUT_2" class="Default">
-      <node ref="C46" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C46" pin="1" pintype="passive"/>
       <node ref="U7" pin="6" pinfunction="PF1" pintype="passive"/>
       <node ref="X2" pin="3" pinfunction="OSC2" pintype="passive"/>
     </net>
@@ -8828,181 +8693,181 @@
       <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U7" pin="30" pinfunction="PB10" pintype="passive"/>
     </net>
-    <net code="121" name="/Project Architecture/Motor Control 1/OUT1" class="Default">
+    <net code="120" name="/Project Architecture/Motor Control 1/OUT1" class="Default">
       <node ref="J3" pin="8" pinfunction="8" pintype="passive"/>
       <node ref="U8" pin="13" pinfunction="OUT1" pintype="passive"/>
       <node ref="U8" pin="14" pinfunction="OUT1" pintype="passive"/>
     </net>
-    <net code="122" name="/Project Architecture/Motor Control 1/OUT2" class="Default">
+    <net code="121" name="/Project Architecture/Motor Control 1/OUT2" class="Default">
       <node ref="J3" pin="9" pinfunction="9" pintype="passive"/>
       <node ref="U8" pin="22" pinfunction="OUT2" pintype="passive"/>
       <node ref="U8" pin="23" pinfunction="OUT2" pintype="passive"/>
     </net>
-    <net code="123" name="/Project Architecture/Motor Control 1/VCC" class="Default">
-      <node ref="C48" pin="2" pintype="passive"/>
+    <net code="122" name="/Project Architecture/Motor Control 1/VCC" class="Default">
+      <node ref="C48" pin="1" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U8" pin="2" pinfunction="VCC" pintype="passive"/>
     </net>
-    <net code="124" name="/Project Architecture/Motor Control 1/_DIAG" class="Default">
+    <net code="123" name="/Project Architecture/Motor Control 1/_DIAG" class="Default">
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U8" pin="18" pinfunction="DIAG" pintype="passive"/>
     </net>
-    <net code="125" name="/Project Architecture/Motor Control 1/_ECC" class="Default">
+    <net code="124" name="/Project Architecture/Motor Control 1/_ECC" class="Default">
       <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
     </net>
-    <net code="126" name="/Project Architecture/Motor Control 1/_OCM" class="Default">
-      <node ref="C50" pin="2" pintype="passive"/>
+    <net code="125" name="/Project Architecture/Motor Control 1/_OCM" class="Default">
+      <node ref="C50" pin="1" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="U8" pin="7" pinfunction="OCM" pintype="passive"/>
     </net>
-    <net code="127" name="/Project Architecture/Motor Control 2/OUT1" class="Default">
+    <net code="126" name="/Project Architecture/Motor Control 2/OUT1" class="Default">
       <node ref="J4" pin="8" pinfunction="8" pintype="passive"/>
       <node ref="U9" pin="13" pinfunction="OUT1" pintype="passive"/>
       <node ref="U9" pin="14" pinfunction="OUT1" pintype="passive"/>
     </net>
-    <net code="128" name="/Project Architecture/Motor Control 2/OUT2" class="Default">
+    <net code="127" name="/Project Architecture/Motor Control 2/OUT2" class="Default">
       <node ref="J4" pin="9" pinfunction="9" pintype="passive"/>
       <node ref="U9" pin="22" pinfunction="OUT2" pintype="passive"/>
       <node ref="U9" pin="23" pinfunction="OUT2" pintype="passive"/>
     </net>
-    <net code="129" name="/Project Architecture/Motor Control 2/VCC" class="Default">
-      <node ref="C54" pin="2" pintype="passive"/>
+    <net code="128" name="/Project Architecture/Motor Control 2/VCC" class="Default">
+      <node ref="C54" pin="1" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="U9" pin="2" pinfunction="VCC" pintype="passive"/>
     </net>
-    <net code="130" name="/Project Architecture/Motor Control 2/_DIAG" class="Default">
+    <net code="129" name="/Project Architecture/Motor Control 2/_DIAG" class="Default">
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="R17" pin="1" pintype="passive"/>
       <node ref="U9" pin="18" pinfunction="DIAG" pintype="passive"/>
     </net>
-    <net code="131" name="/Project Architecture/Motor Control 2/_ECC" class="Default">
+    <net code="130" name="/Project Architecture/Motor Control 2/_ECC" class="Default">
       <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R18" pin="1" pintype="passive"/>
     </net>
-    <net code="132" name="/Project Architecture/Motor Control 2/_OCM" class="Default">
-      <node ref="C56" pin="2" pintype="passive"/>
+    <net code="131" name="/Project Architecture/Motor Control 2/_OCM" class="Default">
+      <node ref="C56" pin="1" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
       <node ref="U9" pin="7" pinfunction="OCM" pintype="passive"/>
     </net>
-    <net code="133" name="/Project Architecture/Motor Control 3/OUT1" class="Default">
+    <net code="132" name="/Project Architecture/Motor Control 3/OUT1" class="Default">
       <node ref="J5" pin="8" pinfunction="8" pintype="passive"/>
       <node ref="U10" pin="13" pinfunction="OUT1" pintype="passive"/>
       <node ref="U10" pin="14" pinfunction="OUT1" pintype="passive"/>
     </net>
-    <net code="134" name="/Project Architecture/Motor Control 3/OUT2" class="Default">
+    <net code="133" name="/Project Architecture/Motor Control 3/OUT2" class="Default">
       <node ref="J5" pin="9" pinfunction="9" pintype="passive"/>
       <node ref="U10" pin="22" pinfunction="OUT2" pintype="passive"/>
       <node ref="U10" pin="23" pinfunction="OUT2" pintype="passive"/>
     </net>
-    <net code="135" name="/Project Architecture/Motor Control 3/VCC" class="Default">
-      <node ref="C60" pin="2" pintype="passive"/>
+    <net code="134" name="/Project Architecture/Motor Control 3/VCC" class="Default">
+      <node ref="C60" pin="1" pintype="passive"/>
       <node ref="R19" pin="1" pintype="passive"/>
       <node ref="U10" pin="2" pinfunction="VCC" pintype="passive"/>
     </net>
-    <net code="136" name="/Project Architecture/Motor Control 3/_DIAG" class="Default">
+    <net code="135" name="/Project Architecture/Motor Control 3/_DIAG" class="Default">
       <node ref="R21" pin="1" pintype="passive"/>
       <node ref="R23" pin="1" pintype="passive"/>
       <node ref="U10" pin="18" pinfunction="DIAG" pintype="passive"/>
     </net>
-    <net code="137" name="/Project Architecture/Motor Control 3/_ECC" class="Default">
+    <net code="136" name="/Project Architecture/Motor Control 3/_ECC" class="Default">
       <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R24" pin="1" pintype="passive"/>
     </net>
-    <net code="138" name="/Project Architecture/Motor Control 3/_OCM" class="Default">
-      <node ref="C62" pin="2" pintype="passive"/>
+    <net code="137" name="/Project Architecture/Motor Control 3/_OCM" class="Default">
+      <node ref="C62" pin="1" pintype="passive"/>
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="U10" pin="7" pinfunction="OCM" pintype="passive"/>
     </net>
-    <net code="139" name="/Project Architecture/Motor Control 4/OUT1" class="Default">
+    <net code="138" name="/Project Architecture/Motor Control 4/OUT1" class="Default">
       <node ref="J6" pin="8" pinfunction="8" pintype="passive"/>
       <node ref="U11" pin="13" pinfunction="OUT1" pintype="passive"/>
       <node ref="U11" pin="14" pinfunction="OUT1" pintype="passive"/>
     </net>
-    <net code="140" name="/Project Architecture/Motor Control 4/OUT2" class="Default">
+    <net code="139" name="/Project Architecture/Motor Control 4/OUT2" class="Default">
       <node ref="J6" pin="9" pinfunction="9" pintype="passive"/>
       <node ref="U11" pin="22" pinfunction="OUT2" pintype="passive"/>
       <node ref="U11" pin="23" pinfunction="OUT2" pintype="passive"/>
     </net>
-    <net code="141" name="/Project Architecture/Motor Control 4/VCC" class="Default">
-      <node ref="C66" pin="2" pintype="passive"/>
+    <net code="140" name="/Project Architecture/Motor Control 4/VCC" class="Default">
+      <node ref="C66" pin="1" pintype="passive"/>
       <node ref="R25" pin="1" pintype="passive"/>
       <node ref="U11" pin="2" pinfunction="VCC" pintype="passive"/>
     </net>
-    <net code="142" name="/Project Architecture/Motor Control 4/_DIAG" class="Default">
+    <net code="141" name="/Project Architecture/Motor Control 4/_DIAG" class="Default">
       <node ref="R27" pin="1" pintype="passive"/>
       <node ref="R29" pin="1" pintype="passive"/>
       <node ref="U11" pin="18" pinfunction="DIAG" pintype="passive"/>
     </net>
-    <net code="143" name="/Project Architecture/Motor Control 4/_ECC" class="Default">
+    <net code="142" name="/Project Architecture/Motor Control 4/_ECC" class="Default">
       <node ref="J6" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R30" pin="1" pintype="passive"/>
     </net>
-    <net code="144" name="/Project Architecture/Motor Control 4/_OCM" class="Default">
-      <node ref="C68" pin="2" pintype="passive"/>
+    <net code="143" name="/Project Architecture/Motor Control 4/_OCM" class="Default">
+      <node ref="C68" pin="1" pintype="passive"/>
       <node ref="R26" pin="2" pintype="passive"/>
       <node ref="U11" pin="7" pinfunction="OCM" pintype="passive"/>
     </net>
-    <net code="145" name="/Project Architecture/Motor Control 5/OUT1" class="Default">
+    <net code="144" name="/Project Architecture/Motor Control 5/OUT1" class="Default">
       <node ref="J7" pin="8" pinfunction="8" pintype="passive"/>
       <node ref="U12" pin="13" pinfunction="OUT1" pintype="passive"/>
       <node ref="U12" pin="14" pinfunction="OUT1" pintype="passive"/>
     </net>
-    <net code="146" name="/Project Architecture/Motor Control 5/OUT2" class="Default">
+    <net code="145" name="/Project Architecture/Motor Control 5/OUT2" class="Default">
       <node ref="J7" pin="9" pinfunction="9" pintype="passive"/>
       <node ref="U12" pin="22" pinfunction="OUT2" pintype="passive"/>
       <node ref="U12" pin="23" pinfunction="OUT2" pintype="passive"/>
     </net>
-    <net code="147" name="/Project Architecture/Motor Control 5/VCC" class="Default">
-      <node ref="C72" pin="2" pintype="passive"/>
+    <net code="146" name="/Project Architecture/Motor Control 5/VCC" class="Default">
+      <node ref="C72" pin="1" pintype="passive"/>
       <node ref="R31" pin="1" pintype="passive"/>
       <node ref="U12" pin="2" pinfunction="VCC" pintype="passive"/>
     </net>
-    <net code="148" name="/Project Architecture/Motor Control 5/_DIAG" class="Default">
+    <net code="147" name="/Project Architecture/Motor Control 5/_DIAG" class="Default">
       <node ref="R33" pin="1" pintype="passive"/>
       <node ref="R35" pin="1" pintype="passive"/>
       <node ref="U12" pin="18" pinfunction="DIAG" pintype="passive"/>
     </net>
-    <net code="149" name="/Project Architecture/Motor Control 5/_ECC" class="Default">
+    <net code="148" name="/Project Architecture/Motor Control 5/_ECC" class="Default">
       <node ref="J7" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R36" pin="1" pintype="passive"/>
     </net>
-    <net code="150" name="/Project Architecture/Motor Control 5/_OCM" class="Default">
-      <node ref="C74" pin="2" pintype="passive"/>
+    <net code="149" name="/Project Architecture/Motor Control 5/_OCM" class="Default">
+      <node ref="C74" pin="1" pintype="passive"/>
       <node ref="R32" pin="2" pintype="passive"/>
       <node ref="U12" pin="7" pinfunction="OCM" pintype="passive"/>
     </net>
-    <net code="151" name="/Project Architecture/Motor Control 6/OUT1" class="Default">
+    <net code="150" name="/Project Architecture/Motor Control 6/OUT1" class="Default">
       <node ref="J8" pin="8" pinfunction="8" pintype="passive"/>
       <node ref="U13" pin="13" pinfunction="OUT1" pintype="passive"/>
       <node ref="U13" pin="14" pinfunction="OUT1" pintype="passive"/>
     </net>
-    <net code="152" name="/Project Architecture/Motor Control 6/OUT2" class="Default">
+    <net code="151" name="/Project Architecture/Motor Control 6/OUT2" class="Default">
       <node ref="J8" pin="9" pinfunction="9" pintype="passive"/>
       <node ref="U13" pin="22" pinfunction="OUT2" pintype="passive"/>
       <node ref="U13" pin="23" pinfunction="OUT2" pintype="passive"/>
     </net>
-    <net code="153" name="/Project Architecture/Motor Control 6/VCC" class="Default">
-      <node ref="C78" pin="2" pintype="passive"/>
+    <net code="152" name="/Project Architecture/Motor Control 6/VCC" class="Default">
+      <node ref="C78" pin="1" pintype="passive"/>
       <node ref="R37" pin="1" pintype="passive"/>
       <node ref="U13" pin="2" pinfunction="VCC" pintype="passive"/>
     </net>
-    <net code="154" name="/Project Architecture/Motor Control 6/_DIAG" class="Default">
+    <net code="153" name="/Project Architecture/Motor Control 6/_DIAG" class="Default">
       <node ref="R39" pin="1" pintype="passive"/>
       <node ref="R41" pin="1" pintype="passive"/>
       <node ref="U13" pin="18" pinfunction="DIAG" pintype="passive"/>
     </net>
-    <net code="155" name="/Project Architecture/Motor Control 6/_ECC" class="Default">
+    <net code="154" name="/Project Architecture/Motor Control 6/_ECC" class="Default">
       <node ref="J8" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R42" pin="1" pintype="passive"/>
     </net>
-    <net code="156" name="/Project Architecture/Motor Control 6/_OCM" class="Default">
-      <node ref="C80" pin="2" pintype="passive"/>
+    <net code="155" name="/Project Architecture/Motor Control 6/_OCM" class="Default">
+      <node ref="C80" pin="1" pintype="passive"/>
       <node ref="R38" pin="2" pintype="passive"/>
       <node ref="U13" pin="7" pinfunction="OCM" pintype="passive"/>
     </net>
-    <net code="157" name="/Project Architecture/Power - Connectors/+V_ADAPTER" class="Default">
+    <net code="156" name="/Project Architecture/Power - Connectors/+V_ADAPTER" class="Default">
       <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
@@ -9010,7 +8875,7 @@
       <node ref="U2" pin="3" pinfunction="EN" pintype="passive"/>
       <node ref="U2" pin="6" pinfunction="ANODE" pintype="passive"/>
     </net>
-    <net code="158" name="/Project Architecture/Power - Connectors/+V_BAT2S" class="Default">
+    <net code="157" name="/Project Architecture/Power - Connectors/+V_BAT2S" class="Default">
       <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
@@ -9018,33 +8883,33 @@
       <node ref="U1" pin="3" pinfunction="EN" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="ANODE" pintype="passive"/>
     </net>
-    <net code="159" name="/Project Architecture/Power - Generation/EN_3V3" class="Default">
+    <net code="158" name="/Project Architecture/Power - Generation/EN_3V3" class="Default">
       <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="26" pinfunction="PG" pintype="passive"/>
       <node ref="U4" pin="3" pinfunction="EN" pintype="passive"/>
       <node ref="U5" pin="3" pinfunction="EN" pintype="passive"/>
     </net>
-    <net code="160" name="/Project Architecture/Power - Generation/EN_5V" class="Default">
+    <net code="159" name="/Project Architecture/Power - Generation/EN_5V" class="Default">
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U3" pin="2" pinfunction="EN/SYNC" pintype="passive"/>
     </net>
-    <net code="161" name="/Project Architecture/Power - Generation/FB_5V" class="Default">
+    <net code="160" name="/Project Architecture/Power - Generation/FB_5V" class="Default">
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="25" pinfunction="FB" pintype="passive"/>
     </net>
-    <net code="162" name="/Project Architecture/Power - Generation/SW_3V3" class="Default">
+    <net code="161" name="/Project Architecture/Power - Generation/SW_3V3" class="Default">
       <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U4" pin="7" pinfunction="SW" pintype="passive"/>
     </net>
-    <net code="163" name="GND" class="Default">
+    <net code="162" name="GND" class="Default">
       <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="C10" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C11" pin="1" pintype="passive"/>
-      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C13" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="C14" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="C15" pin="2" pinfunction="2" pintype="passive"/>
@@ -9057,87 +8922,86 @@
       <node ref="C22" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="C23" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="C24" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C25" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C26" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C27" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C28" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C29" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C30" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C31" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C32" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C33" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C34" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C35" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C36" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C37" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C38" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C39" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C40" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C41" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C42" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C43" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C44" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C45" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C46" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C47" pin="1" pintype="passive"/>
-      <node ref="C48" pin="1" pintype="passive"/>
-      <node ref="C49" pin="1" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="C39" pin="2" pintype="passive"/>
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="C41" pin="2" pintype="passive"/>
+      <node ref="C42" pin="2" pintype="passive"/>
+      <node ref="C43" pin="2" pintype="passive"/>
+      <node ref="C44" pin="2" pintype="passive"/>
+      <node ref="C45" pin="2" pintype="passive"/>
+      <node ref="C46" pin="2" pintype="passive"/>
+      <node ref="C47" pin="2" pintype="passive"/>
+      <node ref="C48" pin="2" pintype="passive"/>
+      <node ref="C49" pin="2" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
-      <node ref="C50" pin="1" pintype="passive"/>
-      <node ref="C51" pin="1" pintype="passive"/>
-      <node ref="C52" pin="1" pintype="passive"/>
-      <node ref="C53" pin="1" pintype="passive"/>
-      <node ref="C54" pin="1" pintype="passive"/>
-      <node ref="C55" pin="1" pintype="passive"/>
-      <node ref="C56" pin="1" pintype="passive"/>
-      <node ref="C57" pin="1" pintype="passive"/>
-      <node ref="C58" pin="1" pintype="passive"/>
-      <node ref="C59" pin="1" pintype="passive"/>
+      <node ref="C50" pin="2" pintype="passive"/>
+      <node ref="C51" pin="2" pintype="passive"/>
+      <node ref="C52" pin="2" pintype="passive"/>
+      <node ref="C53" pin="2" pintype="passive"/>
+      <node ref="C54" pin="2" pintype="passive"/>
+      <node ref="C55" pin="2" pintype="passive"/>
+      <node ref="C56" pin="2" pintype="passive"/>
+      <node ref="C57" pin="2" pintype="passive"/>
+      <node ref="C58" pin="2" pintype="passive"/>
+      <node ref="C59" pin="2" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
-      <node ref="C60" pin="1" pintype="passive"/>
-      <node ref="C61" pin="1" pintype="passive"/>
-      <node ref="C62" pin="1" pintype="passive"/>
-      <node ref="C63" pin="1" pintype="passive"/>
-      <node ref="C64" pin="1" pintype="passive"/>
-      <node ref="C65" pin="1" pintype="passive"/>
-      <node ref="C66" pin="1" pintype="passive"/>
-      <node ref="C67" pin="1" pintype="passive"/>
-      <node ref="C68" pin="1" pintype="passive"/>
-      <node ref="C69" pin="1" pintype="passive"/>
+      <node ref="C60" pin="2" pintype="passive"/>
+      <node ref="C61" pin="2" pintype="passive"/>
+      <node ref="C62" pin="2" pintype="passive"/>
+      <node ref="C63" pin="2" pintype="passive"/>
+      <node ref="C64" pin="2" pintype="passive"/>
+      <node ref="C65" pin="2" pintype="passive"/>
+      <node ref="C66" pin="2" pintype="passive"/>
+      <node ref="C67" pin="2" pintype="passive"/>
+      <node ref="C68" pin="2" pintype="passive"/>
+      <node ref="C69" pin="2" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="C70" pin="1" pintype="passive"/>
-      <node ref="C71" pin="1" pintype="passive"/>
-      <node ref="C72" pin="1" pintype="passive"/>
-      <node ref="C73" pin="1" pintype="passive"/>
-      <node ref="C74" pin="1" pintype="passive"/>
-      <node ref="C75" pin="1" pintype="passive"/>
-      <node ref="C76" pin="1" pintype="passive"/>
-      <node ref="C77" pin="1" pintype="passive"/>
-      <node ref="C78" pin="1" pintype="passive"/>
-      <node ref="C79" pin="1" pintype="passive"/>
+      <node ref="C70" pin="2" pintype="passive"/>
+      <node ref="C71" pin="2" pintype="passive"/>
+      <node ref="C72" pin="2" pintype="passive"/>
+      <node ref="C73" pin="2" pintype="passive"/>
+      <node ref="C74" pin="2" pintype="passive"/>
+      <node ref="C75" pin="2" pintype="passive"/>
+      <node ref="C76" pin="2" pintype="passive"/>
+      <node ref="C77" pin="2" pintype="passive"/>
+      <node ref="C78" pin="2" pintype="passive"/>
+      <node ref="C79" pin="2" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
-      <node ref="C80" pin="1" pintype="passive"/>
-      <node ref="C81" pin="1" pintype="passive"/>
-      <node ref="C82" pin="1" pintype="passive"/>
+      <node ref="C80" pin="2" pintype="passive"/>
+      <node ref="C81" pin="2" pintype="passive"/>
+      <node ref="C82" pin="2" pintype="passive"/>
       <node ref="C83" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C84" pin="1" pintype="passive"/>
+      <node ref="C84" pin="2" pintype="passive"/>
       <node ref="C85" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C86" pin="1" pintype="passive"/>
-      <node ref="C87" pin="1" pintype="passive"/>
-      <node ref="C88" pin="1" pintype="passive"/>
-      <node ref="C89" pin="1" pintype="passive"/>
-      <node ref="C9" pin="1" pintype="passive"/>
-      <node ref="C90" pin="1" pintype="passive"/>
+      <node ref="C86" pin="2" pintype="passive"/>
+      <node ref="C87" pin="2" pintype="passive"/>
+      <node ref="C88" pin="2" pintype="passive"/>
+      <node ref="C89" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="C90" pin="2" pintype="passive"/>
       <node ref="C91" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="C92" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="C93" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="C94" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C95" pin="1" pintype="passive"/>
-      <node ref="C96" pin="1" pintype="passive"/>
+      <node ref="C95" pin="2" pintype="passive"/>
       <node ref="C97" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C98" pin="1" pintype="passive"/>
-      <node ref="C99" pin="1" pintype="passive"/>
+      <node ref="C98" pin="2" pintype="passive"/>
+      <node ref="C99" pin="2" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="C" pintype="passive"/>
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
@@ -9153,8 +9017,8 @@
       <node ref="J10" pin="B1A12" pinfunction="GND" pintype="passive"/>
       <node ref="J11" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J12" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="J12" pin="10" pinfunction="10" pintype="passive"/>
       <node ref="J12" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="J12" pin="14" pinfunction="14" pintype="passive"/>
       <node ref="J12" pin="16" pinfunction="16" pintype="passive"/>
       <node ref="J12" pin="19" pinfunction="19" pintype="passive"/>
       <node ref="J12" pin="3" pinfunction="3" pintype="passive"/>
@@ -9266,7 +9130,6 @@
       <node ref="U15" pin="2" pinfunction="GND" pintype="passive"/>
       <node ref="U15" pin="8" pinfunction="S" pintype="passive"/>
       <node ref="U16" pin="4" pinfunction="VSS" pintype="passive"/>
-      <node ref="U17" pin="4" pinfunction="VSS" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="GND" pintype="passive"/>
       <node ref="U3" pin="16" pinfunction="PGND" pintype="passive"/>
       <node ref="U3" pin="17" pinfunction="PGND" pintype="passive"/>
@@ -9320,303 +9183,306 @@
       <node ref="X2" pin="2" pinfunction="GND" pintype="passive"/>
       <node ref="X2" pin="4" pinfunction="GND" pintype="passive"/>
     </net>
-    <net code="164" name="Net-(C91-Pad2)" class="Default">
+    <net code="163" name="Net-(C91-Pad2)" class="Default">
       <node ref="C91" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R57" pin="1" pintype="passive"/>
       <node ref="R58" pin="2" pintype="passive"/>
     </net>
-    <net code="165" name="Net-(C98-Pad2)" class="Default">
-      <node ref="C98" pin="2" pintype="passive"/>
+    <net code="164" name="Net-(C98-Pad1)" class="Default">
+      <node ref="C98" pin="1" pintype="passive"/>
       <node ref="R77" pin="2" pintype="passive"/>
       <node ref="R78" pin="1" pintype="passive"/>
       <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="166" name="Net-(C99-Pad2)" class="Default">
-      <node ref="C99" pin="2" pintype="passive"/>
+    <net code="165" name="Net-(C99-Pad1)" class="Default">
+      <node ref="C99" pin="1" pintype="passive"/>
       <node ref="R79" pin="2" pintype="passive"/>
       <node ref="R80" pin="1" pintype="passive"/>
       <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="167" name="Net-(D2-A)" class="Default">
+    <net code="166" name="Net-(D2-A)" class="Default">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R45" pin="2" pintype="passive"/>
     </net>
-    <net code="168" name="Net-(D5-A)" class="Default">
+    <net code="167" name="Net-(D5-A)" class="Default">
       <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R50" pin="2" pintype="passive"/>
     </net>
-    <net code="169" name="Net-(D9-C)" class="Default">
+    <net code="168" name="Net-(D9-C)" class="Default">
       <node ref="D9" pin="1" pinfunction="C" pintype="passive"/>
       <node ref="R59" pin="2" pintype="passive"/>
     </net>
-    <net code="170" name="Net-(D10-C)" class="Default">
+    <net code="169" name="Net-(D10-C)" class="Default">
       <node ref="D10" pin="1" pinfunction="C" pintype="passive"/>
       <node ref="R60" pin="2" pintype="passive"/>
     </net>
-    <net code="171" name="Net-(D11-C)" class="Default">
+    <net code="170" name="Net-(D11-C)" class="Default">
       <node ref="D11" pin="1" pinfunction="C" pintype="passive"/>
       <node ref="R61" pin="2" pintype="passive"/>
     </net>
-    <net code="172" name="Net-(D12-C)" class="Default">
+    <net code="171" name="Net-(D12-C)" class="Default">
       <node ref="D12" pin="1" pinfunction="C" pintype="passive"/>
       <node ref="R62" pin="2" pintype="passive"/>
     </net>
-    <net code="173" name="Net-(D13-C)" class="Default">
+    <net code="172" name="Net-(D13-C)" class="Default">
       <node ref="D13" pin="1" pinfunction="C" pintype="passive"/>
       <node ref="R63" pin="2" pintype="passive"/>
     </net>
-    <net code="174" name="Net-(D14-C)" class="Default">
+    <net code="173" name="Net-(D14-C)" class="Default">
       <node ref="D14" pin="1" pinfunction="C" pintype="passive"/>
       <node ref="R64" pin="2" pintype="passive"/>
     </net>
-    <net code="175" name="Net-(D15-C)" class="Default">
+    <net code="174" name="Net-(D15-C)" class="Default">
       <node ref="D15" pin="1" pinfunction="C" pintype="passive"/>
       <node ref="R65" pin="2" pintype="passive"/>
     </net>
-    <net code="176" name="Net-(D16-C)" class="Default">
+    <net code="175" name="Net-(D16-C)" class="Default">
       <node ref="D16" pin="1" pinfunction="C" pintype="passive"/>
       <node ref="R66" pin="2" pintype="passive"/>
     </net>
-    <net code="177" name="Net-(J9-CC1)" class="Default">
+    <net code="176" name="Net-(J9-CC1)" class="Default">
       <node ref="J9" pin="A5" pinfunction="CC1" pintype="passive"/>
       <node ref="R46" pin="1" pintype="passive"/>
     </net>
-    <net code="178" name="Net-(J9-CC2)" class="Default">
+    <net code="177" name="Net-(J9-CC2)" class="Default">
       <node ref="J9" pin="B5" pinfunction="CC2" pintype="passive"/>
       <node ref="R47" pin="1" pintype="passive"/>
     </net>
-    <net code="179" name="Net-(J9-Dn1)" class="Default">
+    <net code="178" name="Net-(J9-Dn1)" class="Default">
       <node ref="D4" pin="1" pinfunction="IO1" pintype="passive"/>
       <node ref="J9" pin="A7" pinfunction="Dn1" pintype="passive"/>
       <node ref="J9" pin="B7" pinfunction="Dn2" pintype="passive"/>
     </net>
-    <net code="180" name="Net-(J9-Dp1)" class="Default">
+    <net code="179" name="Net-(J9-Dp1)" class="Default">
       <node ref="D4" pin="3" pinfunction="IO2" pintype="passive"/>
       <node ref="J9" pin="A6" pinfunction="Dp1" pintype="passive"/>
       <node ref="J9" pin="B6" pinfunction="Dp2" pintype="passive"/>
     </net>
-    <net code="181" name="Net-(J10-CC1)" class="Default">
+    <net code="180" name="Net-(J10-CC1)" class="Default">
       <node ref="J10" pin="A5" pinfunction="CC1" pintype="passive"/>
       <node ref="R51" pin="1" pintype="passive"/>
     </net>
-    <net code="182" name="Net-(J10-CC2)" class="Default">
+    <net code="181" name="Net-(J10-CC2)" class="Default">
       <node ref="J10" pin="B5" pinfunction="CC2" pintype="passive"/>
       <node ref="R52" pin="1" pintype="passive"/>
     </net>
-    <net code="183" name="Net-(J10-Dn1)" class="Default">
+    <net code="182" name="Net-(J10-Dn1)" class="Default">
       <node ref="D7" pin="3" pinfunction="IO2" pintype="passive"/>
       <node ref="J10" pin="A7" pinfunction="Dn1" pintype="passive"/>
       <node ref="J10" pin="B7" pinfunction="Dn2" pintype="passive"/>
     </net>
-    <net code="184" name="Net-(J10-Dp1)" class="Default">
+    <net code="183" name="Net-(J10-Dp1)" class="Default">
       <node ref="D7" pin="1" pinfunction="IO1" pintype="passive"/>
       <node ref="J10" pin="A6" pinfunction="Dp1" pintype="passive"/>
       <node ref="J10" pin="B6" pinfunction="Dp2" pintype="passive"/>
     </net>
-    <net code="185" name="Net-(Q1-G)" class="Default">
+    <net code="184" name="Net-(Q1-G)" class="Default">
       <node ref="Q1" pin="1" pinfunction="G" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="GATE" pintype="passive"/>
     </net>
-    <net code="186" name="Net-(Q2-G)" class="Default">
+    <net code="185" name="Net-(Q2-G)" class="Default">
       <node ref="Q2" pin="1" pinfunction="G" pintype="passive"/>
       <node ref="U2" pin="5" pinfunction="GATE" pintype="passive"/>
     </net>
-    <net code="187" name="Net-(U1-VCAP)" class="Default">
+    <net code="186" name="Net-(U1-VCAP)" class="Default">
       <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="VCAP" pintype="passive"/>
     </net>
-    <net code="188" name="Net-(U2-VCAP)" class="Default">
+    <net code="187" name="Net-(U2-VCAP)" class="Default">
       <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="VCAP" pintype="passive"/>
     </net>
-    <net code="189" name="Net-(U3-CBOOT)" class="Default">
+    <net code="188" name="Net-(U3-CBOOT)" class="Default">
       <node ref="U3" pin="20" pinfunction="CBOOT" pintype="passive"/>
       <node ref="U3" pin="21" pinfunction="RBOOT" pintype="passive"/>
     </net>
-    <net code="190" name="Net-(U3-RT)" class="Default">
+    <net code="189" name="Net-(U3-RT)" class="Default">
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="U3" pin="1" pinfunction="RT" pintype="passive"/>
     </net>
-    <net code="191" name="Net-(U3-VCC)" class="Default">
-      <node ref="C9" pin="2" pintype="passive"/>
+    <net code="190" name="Net-(U3-VCC)" class="Default">
+      <node ref="C9" pin="1" pintype="passive"/>
       <node ref="U3" pin="23" pinfunction="VCC" pintype="passive"/>
     </net>
-    <net code="192" name="Net-(U4-PG)" class="Default">
+    <net code="191" name="Net-(U4-PG)" class="Default">
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U4" pin="8" pinfunction="PG" pintype="passive"/>
     </net>
-    <net code="193" name="Net-(U6A-VDDA)" class="Default">
-      <node ref="C32" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C33" pin="2" pinfunction="2" pintype="passive"/>
+    <net code="192" name="Net-(U6A-VDDA)" class="Default">
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
       <node ref="FB1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U6" pin="28" pinfunction="VREF+" pintype="passive"/>
       <node ref="U6" pin="29" pinfunction="VDDA" pintype="passive"/>
     </net>
-    <net code="194" name="Net-(U7A-VDDA)" class="Default">
-      <node ref="C41" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C42" pin="2" pinfunction="2" pintype="passive"/>
+    <net code="193" name="Net-(U7A-VDDA)" class="Default">
+      <node ref="C41" pin="1" pintype="passive"/>
+      <node ref="C42" pin="1" pintype="passive"/>
       <node ref="FB2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U7" pin="28" pinfunction="VREF+" pintype="passive"/>
       <node ref="U7" pin="29" pinfunction="VDDA" pintype="passive"/>
     </net>
-    <net code="195" name="unconnected-(H1-Pad1)" class="Default">
+    <net code="194" name="unconnected-(H1-Pad1)" class="Default">
       <node ref="H1" pin="1" pinfunction="1" pintype="input+no_connect"/>
     </net>
-    <net code="196" name="unconnected-(H2-Pad1)" class="Default">
+    <net code="195" name="unconnected-(H2-Pad1)" class="Default">
       <node ref="H2" pin="1" pinfunction="1" pintype="input+no_connect"/>
     </net>
-    <net code="197" name="unconnected-(H3-Pad1)" class="Default">
+    <net code="196" name="unconnected-(H3-Pad1)" class="Default">
       <node ref="H3" pin="1" pinfunction="1" pintype="input+no_connect"/>
     </net>
-    <net code="198" name="unconnected-(J1-Pad3)" class="Default">
+    <net code="197" name="unconnected-(J1-Pad3)" class="Default">
       <node ref="J1" pin="3" pinfunction="3" pintype="passive+no_connect"/>
     </net>
-    <net code="199" name="unconnected-(J1-Pad4)" class="Default">
+    <net code="198" name="unconnected-(J1-Pad4)" class="Default">
       <node ref="J1" pin="4" pinfunction="4" pintype="passive+no_connect"/>
     </net>
-    <net code="200" name="unconnected-(J9-SBU1-PadA8)" class="Default">
+    <net code="199" name="unconnected-(J9-SBU1-PadA8)" class="Default">
       <node ref="J9" pin="A8" pinfunction="SBU1" pintype="passive+no_connect"/>
     </net>
-    <net code="201" name="unconnected-(J9-SBU2-PadB8)" class="Default">
+    <net code="200" name="unconnected-(J9-SBU2-PadB8)" class="Default">
       <node ref="J9" pin="B8" pinfunction="SBU2" pintype="passive+no_connect"/>
     </net>
-    <net code="202" name="unconnected-(J10-SBU1-PadA8)" class="Default">
+    <net code="201" name="unconnected-(J10-SBU1-PadA8)" class="Default">
       <node ref="J10" pin="A8" pinfunction="SBU1" pintype="passive+no_connect"/>
     </net>
-    <net code="203" name="unconnected-(J10-SBU2-PadB8)" class="Default">
+    <net code="202" name="unconnected-(J10-SBU2-PadB8)" class="Default">
       <node ref="J10" pin="B8" pinfunction="SBU2" pintype="passive+no_connect"/>
     </net>
-    <net code="204" name="unconnected-(J11-Pad4)" class="Default">
+    <net code="203" name="unconnected-(J11-Pad4)" class="Default">
       <node ref="J11" pin="4" pinfunction="4" pintype="passive+no_connect"/>
     </net>
-    <net code="205" name="unconnected-(J11-Pad5)" class="Default">
+    <net code="204" name="unconnected-(J11-Pad5)" class="Default">
       <node ref="J11" pin="5" pinfunction="5" pintype="passive+no_connect"/>
     </net>
-    <net code="206" name="unconnected-(J12-Pad24)" class="Default">
+    <net code="205" name="unconnected-(J12-Pad24)" class="Default">
       <node ref="J12" pin="24" pinfunction="24" pintype="passive+no_connect"/>
     </net>
-    <net code="207" name="unconnected-(J12-Pad25)" class="Default">
+    <net code="206" name="unconnected-(J12-Pad25)" class="Default">
       <node ref="J12" pin="25" pinfunction="25" pintype="passive+no_connect"/>
     </net>
-    <net code="208" name="unconnected-(U3-SW-Pad11)" class="Default">
+    <net code="207" name="unconnected-(U3-SW-Pad11)" class="Default">
       <node ref="U3" pin="11" pinfunction="SW" pintype="passive+no_connect"/>
     </net>
-    <net code="209" name="unconnected-(U5-NC-Pad4)" class="Default">
+    <net code="208" name="unconnected-(U5-NC-Pad4)" class="Default">
       <node ref="U5" pin="4" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="210" name="unconnected-(U6B-PA10-Pad44)" class="Default">
+    <net code="209" name="unconnected-(U6B-PA10-Pad44)" class="Default">
       <node ref="U6" pin="44" pinfunction="PA10" pintype="passive"/>
     </net>
-    <net code="211" name="unconnected-(U6B-PA15-Pad51)" class="Default">
+    <net code="210" name="unconnected-(U6B-PA15-Pad51)" class="Default">
       <node ref="U6" pin="51" pinfunction="PA15" pintype="passive"/>
     </net>
-    <net code="212" name="unconnected-(U6B-PB0-Pad24)" class="Default">
+    <net code="211" name="unconnected-(U6B-PB0-Pad24)" class="Default">
       <node ref="U6" pin="24" pinfunction="PB0" pintype="passive"/>
     </net>
-    <net code="213" name="unconnected-(U6B-PB1-Pad25)" class="Default">
+    <net code="212" name="unconnected-(U6B-PB1-Pad25)" class="Default">
       <node ref="U6" pin="25" pinfunction="PB1" pintype="passive"/>
     </net>
-    <net code="214" name="unconnected-(U6B-PB5-Pad58)" class="Default">
+    <net code="213" name="unconnected-(U6B-PB5-Pad58)" class="Default">
       <node ref="U6" pin="58" pinfunction="PB5" pintype="passive"/>
     </net>
-    <net code="215" name="unconnected-(U6B-PB9-Pad62)" class="Default">
+    <net code="214" name="unconnected-(U6B-PB9-Pad62)" class="Default">
       <node ref="U6" pin="62" pinfunction="PB9" pintype="passive"/>
     </net>
-    <net code="216" name="unconnected-(U6B-PB10-Pad30)" class="Default">
+    <net code="215" name="unconnected-(U6B-PB10-Pad30)" class="Default">
       <node ref="U6" pin="30" pinfunction="PB10" pintype="passive"/>
     </net>
-    <net code="217" name="unconnected-(U6B-PB14-Pad36)" class="Default">
+    <net code="216" name="unconnected-(U6B-PB14-Pad36)" class="Default">
       <node ref="U6" pin="36" pinfunction="PB14" pintype="passive"/>
     </net>
-    <net code="218" name="unconnected-(U6B-PC10-Pad52)" class="Default">
-      <node ref="U6" pin="52" pinfunction="PC10" pintype="passive"/>
-    </net>
-    <net code="219" name="unconnected-(U6B-PC11-Pad53)" class="Default">
+    <net code="217" name="unconnected-(U6B-PC11-Pad53)" class="Default">
       <node ref="U6" pin="53" pinfunction="PC11" pintype="passive"/>
     </net>
-    <net code="220" name="unconnected-(U6B-PC12-Pad54)" class="Default">
+    <net code="218" name="unconnected-(U6B-PC12-Pad54)" class="Default">
       <node ref="U6" pin="54" pinfunction="PC12" pintype="passive"/>
     </net>
-    <net code="221" name="unconnected-(U6B-PC13-Pad2)" class="Default">
+    <net code="219" name="unconnected-(U6B-PC13-Pad2)" class="Default">
       <node ref="U6" pin="2" pinfunction="PC13" pintype="passive"/>
     </net>
-    <net code="222" name="unconnected-(U6B-PC14-Pad3)" class="Default">
+    <net code="220" name="unconnected-(U6B-PC14-Pad3)" class="Default">
       <node ref="U6" pin="3" pinfunction="PC14" pintype="passive"/>
     </net>
-    <net code="223" name="unconnected-(U7B-PB1-Pad25)" class="Default">
+    <net code="221" name="unconnected-(U6B-PC15-Pad4)" class="Default">
+      <node ref="U6" pin="4" pinfunction="PC15" pintype="passive"/>
+    </net>
+    <net code="222" name="unconnected-(U7B-PB1-Pad25)" class="Default">
       <node ref="U7" pin="25" pinfunction="PB1" pintype="passive+no_connect"/>
     </net>
-    <net code="224" name="unconnected-(U7B-PB2-Pad26)" class="Default">
+    <net code="223" name="unconnected-(U7B-PB2-Pad26)" class="Default">
       <node ref="U7" pin="26" pinfunction="PB2" pintype="passive+no_connect"/>
     </net>
-    <net code="225" name="unconnected-(U7B-PB5-Pad58)" class="Default">
+    <net code="224" name="unconnected-(U7B-PB5-Pad58)" class="Default">
       <node ref="U7" pin="58" pinfunction="PB5" pintype="passive+no_connect"/>
     </net>
-    <net code="226" name="unconnected-(U7B-PB9-Pad62)" class="Default">
+    <net code="225" name="unconnected-(U7B-PB9-Pad62)" class="Default">
       <node ref="U7" pin="62" pinfunction="PB9" pintype="passive+no_connect"/>
+    </net>
+    <net code="226" name="unconnected-(U7B-PB14-Pad36)" class="Default">
+      <node ref="U7" pin="36" pinfunction="PB14" pintype="passive"/>
     </net>
     <net code="227" name="unconnected-(U7B-PC13-Pad2)" class="Default">
       <node ref="U7" pin="2" pinfunction="PC13" pintype="passive+no_connect"/>
     </net>
-    <net code="228" name="unconnected-(U8-NC-Pad6)" class="Default">
+    <net code="228" name="unconnected-(U7B-PC15-Pad4)" class="Default">
+      <node ref="U7" pin="4" pinfunction="PC15" pintype="passive"/>
+    </net>
+    <net code="229" name="unconnected-(U8-NC-Pad6)" class="Default">
       <node ref="U8" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="229" name="unconnected-(U8-NC-Pad10)" class="Default">
+    <net code="230" name="unconnected-(U8-NC-Pad10)" class="Default">
       <node ref="U8" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="230" name="unconnected-(U8-NC-Pad26)" class="Default">
+    <net code="231" name="unconnected-(U8-NC-Pad26)" class="Default">
       <node ref="U8" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="231" name="unconnected-(U9-NC-Pad6)" class="Default">
+    <net code="232" name="unconnected-(U9-NC-Pad6)" class="Default">
       <node ref="U9" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="232" name="unconnected-(U9-NC-Pad10)" class="Default">
+    <net code="233" name="unconnected-(U9-NC-Pad10)" class="Default">
       <node ref="U9" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="233" name="unconnected-(U9-NC-Pad26)" class="Default">
+    <net code="234" name="unconnected-(U9-NC-Pad26)" class="Default">
       <node ref="U9" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="234" name="unconnected-(U10-NC-Pad6)" class="Default">
+    <net code="235" name="unconnected-(U10-NC-Pad6)" class="Default">
       <node ref="U10" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="235" name="unconnected-(U10-NC-Pad10)" class="Default">
+    <net code="236" name="unconnected-(U10-NC-Pad10)" class="Default">
       <node ref="U10" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="236" name="unconnected-(U10-NC-Pad26)" class="Default">
+    <net code="237" name="unconnected-(U10-NC-Pad26)" class="Default">
       <node ref="U10" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="237" name="unconnected-(U11-NC-Pad6)" class="Default">
+    <net code="238" name="unconnected-(U11-NC-Pad6)" class="Default">
       <node ref="U11" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="238" name="unconnected-(U11-NC-Pad10)" class="Default">
+    <net code="239" name="unconnected-(U11-NC-Pad10)" class="Default">
       <node ref="U11" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="239" name="unconnected-(U11-NC-Pad26)" class="Default">
+    <net code="240" name="unconnected-(U11-NC-Pad26)" class="Default">
       <node ref="U11" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="240" name="unconnected-(U12-NC-Pad6)" class="Default">
+    <net code="241" name="unconnected-(U12-NC-Pad6)" class="Default">
       <node ref="U12" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="241" name="unconnected-(U12-NC-Pad10)" class="Default">
+    <net code="242" name="unconnected-(U12-NC-Pad10)" class="Default">
       <node ref="U12" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="242" name="unconnected-(U12-NC-Pad26)" class="Default">
+    <net code="243" name="unconnected-(U12-NC-Pad26)" class="Default">
       <node ref="U12" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="243" name="unconnected-(U13-NC-Pad6)" class="Default">
+    <net code="244" name="unconnected-(U13-NC-Pad6)" class="Default">
       <node ref="U13" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="244" name="unconnected-(U13-NC-Pad10)" class="Default">
+    <net code="245" name="unconnected-(U13-NC-Pad10)" class="Default">
       <node ref="U13" pin="10" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="245" name="unconnected-(U13-NC-Pad26)" class="Default">
+    <net code="246" name="unconnected-(U13-NC-Pad26)" class="Default">
       <node ref="U13" pin="26" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="246" name="unconnected-(U16-EP-Pad5)" class="Default">
+    <net code="247" name="unconnected-(U16-EP-Pad5)" class="Default">
       <node ref="U16" pin="5" pinfunction="EP" pintype="passive+no_connect"/>
-    </net>
-    <net code="247" name="unconnected-(U17-EP-Pad5)" class="Default">
-      <node ref="U17" pin="5" pinfunction="EP" pintype="passive+no_connect"/>
     </net>
   </nets>
 </export>
