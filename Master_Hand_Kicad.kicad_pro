@@ -1012,7 +1012,7 @@
       "version": 1
     },
     "net_format_name": "KiCad",
-    "page_layout_descr_file": "kicad-embed://KDT_Template_GIT - No Block.kicad_wks",
+    "page_layout_descr_file": "kicad-embed://KDT_Template_GIT.kicad_wks",
     "plot_directory": "Schematic/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
