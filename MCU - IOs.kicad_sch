@@ -22,7 +22,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at -1.016 3.048 90)
+				(at 0 3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,7 +30,7 @@
 				)
 			)
 			(property "Value" "CAP CER 0402"
-				(at 1.778 9.398 90)
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -38,7 +38,7 @@
 				)
 			)
 			(property "Footprint" "Duc:C0402"
-				(at 7.239 -5.461 90)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -161,7 +161,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -179,7 +179,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2125,10 +2125,10 @@
 		)
 	)
 	(bus_alias "USART1"
-		(members "USART1_RX1" "USART1_TX1")
+		(members "USART1_RX1" "USART1_TX1" "USART1_CK1")
 	)
 	(bus_alias "USART2"
-		(members "USART1_RX2" "USART1_TX2")
+		(members "USART1_RX2" "USART1_TX2" "USART1_CK2")
 	)
 	(rectangle
 		(start 118.11 241.3)
@@ -2209,6 +2209,19 @@
 		(uuid 60b464f5-a3c9-44be-a791-d53c926dbfbf)
 	)
 	(rectangle
+		(start 195.58 50.8)
+		(end 267.97 96.52)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 26 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 64e3e5e9-7c32-48c0-b407-58d3af53aa47)
+	)
+	(rectangle
 		(start 118.11 27.94)
 		(end 191.77 45.72)
 		(stroke
@@ -2287,7 +2300,7 @@
 		(uuid e535a9af-c22b-4cbb-b796-2cc047db196b)
 	)
 	(rectangle
-		(start 195.58 102.87)
+		(start 195.58 101.6)
 		(end 267.97 123.19)
 		(stroke
 			(width 1)
@@ -2845,8 +2858,8 @@
 	)
 	(text_box "MCB to MB - USART\n\n"
 		(exclude_from_sim no)
-		(at 271.78 27.94 0)
-		(size 129.54 6.35)
+		(at 195.58 90.17 0)
+		(size 72.39 6.35)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
 			(width -0.0001)
@@ -3035,24 +3048,44 @@
 		(uuid "e7743b7c-61e0-4d10-9145-f25db23164de")
 	)
 	(no_connect
-		(at 105.41 210.82)
-		(uuid "19f8d620-f30b-4880-9913-1561437a0ab7")
+		(at 105.41 241.3)
+		(uuid "4486144f-8969-4e68-9f84-d99dc1ecfbb8")
 	)
 	(no_connect
-		(at 105.41 218.44)
-		(uuid "329fbec6-06ac-4873-b74d-ad6b3ac7bb29")
+		(at 105.41 74.93)
+		(uuid "4dac3d59-46b7-4415-9418-2c5401073e9d")
 	)
 	(no_connect
-		(at 105.41 228.6)
-		(uuid "7df22a2b-6dec-4bcd-9a8f-e53c708358b1")
+		(at 105.41 125.73)
+		(uuid "517c757a-a236-42ce-8418-388d802be9e6")
 	)
 	(no_connect
-		(at 21.59 238.76)
-		(uuid "c0418f92-084f-4e26-ab76-57f753e8fc9d")
+		(at 21.59 241.3)
+		(uuid "596469ba-f0f8-476c-9130-bd425e47d3bf")
 	)
 	(no_connect
-		(at 105.41 208.28)
-		(uuid "c6a37939-c888-4b1e-a327-bd5b7489456a")
+		(at 105.41 205.74)
+		(uuid "5a0214a2-00f6-4ac4-8a82-e9c5a5c3be8a")
+	)
+	(no_connect
+		(at 21.59 128.27)
+		(uuid "7584a69d-8041-4a48-a013-11bf9584dcf2")
+	)
+	(no_connect
+		(at 105.41 72.39)
+		(uuid "7dc13bdc-5adf-4bed-ab04-a4eaac597bbf")
+	)
+	(no_connect
+		(at 21.59 125.73)
+		(uuid "89e3ece2-dbe0-46d2-9729-fbbef1706050")
+	)
+	(no_connect
+		(at 105.41 90.17)
+		(uuid "d6dd9638-70dc-4484-ac5e-b726d3962afe")
+	)
+	(no_connect
+		(at 21.59 243.84)
+		(uuid "eb30cbfb-1699-4be7-a461-dd0b8ce75129")
 	)
 	(bus_entry
 		(at 229.87 219.71)
@@ -3118,6 +3151,24 @@
 		(uuid "28cc30e4-4423-47b7-a8c3-5826afc3b641")
 	)
 	(bus_entry
+		(at 232.41 72.39)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b5948a1-881f-4ff7-8223-468e348a835e")
+	)
+	(bus_entry
+		(at 232.41 86.36)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307805b5-1b3d-428c-93d7-42ced9c4fa5e")
+	)
+	(bus_entry
 		(at 151.13 176.53)
 		(size 2.54 -2.54)
 		(stroke
@@ -3154,6 +3205,15 @@
 		(uuid "53afd490-c091-436e-a8ad-8a22d834b943")
 	)
 	(bus_entry
+		(at 232.41 69.85)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "570f471a-43b0-4b7c-8e11-747f6368e27d")
+	)
+	(bus_entry
 		(at 151.13 173.99)
 		(size 2.54 -2.54)
 		(stroke
@@ -3170,15 +3230,6 @@
 			(type default)
 		)
 		(uuid "5b12d1a3-ca0c-41a5-999a-3f3e91079057")
-	)
-	(bus_entry
-		(at 360.68 40.64)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cf94dd5-8ac8-4f57-a29e-134ce9c04f70")
 	)
 	(bus_entry
 		(at 157.48 85.09)
@@ -3217,13 +3268,13 @@
 		(uuid "76822f64-5ffe-4058-a0ac-d6375330cb8e")
 	)
 	(bus_entry
-		(at 360.68 43.18)
+		(at 232.41 74.93)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76c4022e-8c85-49bf-bfd3-2b871e33abcf")
+		(uuid "774fe701-2749-4895-87be-559d6297b1a4")
 	)
 	(bus_entry
 		(at 229.87 222.25)
@@ -3242,15 +3293,6 @@
 			(type default)
 		)
 		(uuid "89a49350-7b17-468f-9d36-a8e1f60ac83e")
-	)
-	(bus_entry
-		(at 302.26 40.64)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b1556ed-3c8b-4801-a61b-39f1d8d462ce")
 	)
 	(bus_entry
 		(at 157.48 82.55)
@@ -3325,6 +3367,15 @@
 		(uuid "d57fdafd-677a-4de7-9958-dc182129fd46")
 	)
 	(bus_entry
+		(at 232.41 81.28)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de4a371e-c3e8-4776-9e94-9e78d9621fa0")
+	)
+	(bus_entry
 		(at 218.44 260.35)
 		(size 2.54 -2.54)
 		(stroke
@@ -3332,15 +3383,6 @@
 			(type default)
 		)
 		(uuid "df69a07b-42b8-4642-b15c-e88e82f76937")
-	)
-	(bus_entry
-		(at 302.26 43.18)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee2163eb-19b5-4c04-8b10-7ff29259dff2")
 	)
 	(bus_entry
 		(at 151.13 171.45)
@@ -3359,6 +3401,15 @@
 			(type default)
 		)
 		(uuid "f3cc885b-40d9-443a-bb2c-33894e4969a2")
+	)
+	(bus_entry
+		(at 232.41 83.82)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe77c50f-9afa-402d-aa21-2c32f57cd797")
 	)
 	(wire
 		(pts
@@ -3409,16 +3460,6 @@
 			(type default)
 		)
 		(uuid "02d29822-6eb9-4fac-9c3c-726c497224cc")
-	)
-	(bus
-		(pts
-			(xy 363.22 36.83) (xy 363.22 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03d903a7-a8f6-4f2a-a88d-f329f0409e75")
 	)
 	(wire
 		(pts
@@ -3692,6 +3733,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 86.36) (xy 232.41 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "197b83d6-444c-49b1-a3e4-ca53a3198462")
+	)
+	(wire
+		(pts
 			(xy 83.82 182.88) (xy 105.41 182.88)
 		)
 		(stroke
@@ -3749,6 +3800,16 @@
 			(type default)
 		)
 		(uuid "1c1d7369-4c6c-4bbd-8f5d-c2cfc65ae962")
+	)
+	(wire
+		(pts
+			(xy 214.63 74.93) (xy 232.41 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c2bab4c-6aa4-436c-bc88-0ac6c9534f1c")
 	)
 	(bus
 		(pts
@@ -4000,6 +4061,16 @@
 		)
 		(uuid "2cccc4cc-14bf-4d0b-93aa-b74ceb499233")
 	)
+	(bus
+		(pts
+			(xy 234.95 78.74) (xy 237.49 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d439e5e-c806-4d98-91d3-9fd66fcbd1a3")
+	)
 	(wire
 		(pts
 			(xy 248.92 143.51) (xy 243.84 143.51)
@@ -4089,6 +4160,16 @@
 			(type default)
 		)
 		(uuid "3534e33b-3e40-4215-a408-9458bbfa6fbe")
+	)
+	(wire
+		(pts
+			(xy 214.63 81.28) (xy 232.41 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f1e733-a6ef-4d97-bc60-5b82b0fc0c1e")
 	)
 	(wire
 		(pts
@@ -4202,6 +4283,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 69.85) (xy 232.41 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b4513b-07e2-4494-99b1-295d7bb7447b")
+	)
+	(wire
+		(pts
 			(xy 21.59 115.57) (xy 41.91 115.57)
 		)
 		(stroke
@@ -4209,16 +4300,6 @@
 			(type default)
 		)
 		(uuid "41d6cefb-9ea5-43ed-890b-63fa585874d1")
-	)
-	(bus
-		(pts
-			(xy 307.34 34.29) (xy 317.5 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41ee31e2-490e-47f1-b598-e0b6eac7adb3")
 	)
 	(bus
 		(pts
@@ -4309,16 +4390,6 @@
 			(type default)
 		)
 		(uuid "465133b7-c92f-4d37-94e2-47d0f3e5a686")
-	)
-	(wire
-		(pts
-			(xy 342.9 40.64) (xy 360.68 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "469081d9-65b7-4486-a198-0f3db61b0a77")
 	)
 	(wire
 		(pts
@@ -4470,16 +4541,6 @@
 		)
 		(uuid "5047981d-6973-4f73-8a4b-c6cb5e6fb1d4")
 	)
-	(bus
-		(pts
-			(xy 304.8 36.83) (xy 307.34 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "507a48c9-fed5-4403-b83c-3195a774b59b")
-	)
 	(wire
 		(pts
 			(xy 82.55 125.73) (xy 105.41 125.73)
@@ -4499,6 +4560,16 @@
 			(type default)
 		)
 		(uuid "520e1a7a-cc15-46ff-b2e1-a10d733e47e2")
+	)
+	(bus
+		(pts
+			(xy 234.95 67.31) (xy 234.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52dbdbb5-0f16-496a-b6d0-e26b8a53362a")
 	)
 	(wire
 		(pts
@@ -4602,6 +4673,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 72.39) (xy 232.41 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a6cef72-952e-435e-8171-13dd4e83c71e")
+	)
+	(wire
+		(pts
 			(xy 281.94 106.68) (xy 317.5 106.68)
 		)
 		(stroke
@@ -4660,16 +4741,6 @@
 		)
 		(uuid "5c709a5e-fa0b-4046-a9f9-cfc9a609974f")
 	)
-	(bus
-		(pts
-			(xy 304.8 36.83) (xy 304.8 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c7630fa-cc58-413a-94ec-353e021003f6")
-	)
 	(wire
 		(pts
 			(xy 379.73 81.28) (xy 388.62 81.28)
@@ -4689,6 +4760,16 @@
 			(type default)
 		)
 		(uuid "5f345d98-561c-4786-b8f1-97e86e9cbc77")
+	)
+	(bus
+		(pts
+			(xy 234.95 66.04) (xy 234.95 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f3a2ffb-dc24-4d60-9153-0d389473dbf5")
 	)
 	(wire
 		(pts
@@ -4802,6 +4883,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 83.82) (xy 232.41 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67ba71e1-86ec-46ba-99d2-906a21ea1708")
+	)
+	(wire
+		(pts
 			(xy 379.73 106.68) (xy 388.62 106.68)
 		)
 		(stroke
@@ -4849,6 +4940,26 @@
 			(type default)
 		)
 		(uuid "6d1255cf-a1f3-4ec3-864e-5a4b7ca8e9d1")
+	)
+	(bus
+		(pts
+			(xy 234.95 69.85) (xy 234.95 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d24c3b8-7a67-4722-93b6-4552d5f63920")
+	)
+	(bus
+		(pts
+			(xy 237.49 63.5) (xy 247.65 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e6fecdb-b203-41d4-ba9f-b7c0fedd65cf")
 	)
 	(wire
 		(pts
@@ -5302,6 +5413,16 @@
 	)
 	(bus
 		(pts
+			(xy 234.95 78.74) (xy 234.95 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a7b9f2-c7ec-4887-9213-adb6cda57aa2")
+	)
+	(bus
+		(pts
 			(xy 157.48 123.19) (xy 160.02 120.65)
 		)
 		(stroke
@@ -5359,6 +5480,16 @@
 			(type default)
 		)
 		(uuid "928b1e60-5266-4fd7-bc3a-ed93197d35e8")
+	)
+	(bus
+		(pts
+			(xy 234.95 66.04) (xy 237.49 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92eb4a89-63d5-4373-b894-5e4fd7d7cb2b")
 	)
 	(bus
 		(pts
@@ -5502,16 +5633,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 43.18) (xy 360.68 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bc0d99a-08e5-497e-ac32-91de0175c5b0")
-	)
-	(wire
-		(pts
 			(xy 83.82 180.34) (xy 105.41 180.34)
 		)
 		(stroke
@@ -5642,6 +5763,16 @@
 	)
 	(bus
 		(pts
+			(xy 237.49 76.2) (xy 247.65 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0da0b1c-7b73-432d-adfd-d2faa2a799b8")
+	)
+	(bus
+		(pts
 			(xy 220.98 257.81) (xy 220.98 260.35)
 		)
 		(stroke
@@ -5669,6 +5800,16 @@
 			(type default)
 		)
 		(uuid "a2b1196a-dcfb-4bb6-bd46-c666b48cbd79")
+	)
+	(bus
+		(pts
+			(xy 234.95 81.28) (xy 234.95 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4558b1c-0600-4096-8152-e5a6d7877a92")
 	)
 	(bus
 		(pts
@@ -6029,16 +6170,6 @@
 			(type default)
 		)
 		(uuid "b506b8fa-3024-4dad-8471-f568f1bf15ee")
-	)
-	(wire
-		(pts
-			(xy 284.48 43.18) (xy 302.26 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b53c78a7-2416-4da6-ab73-41e5a2845e1a")
 	)
 	(wire
 		(pts
@@ -6412,16 +6543,6 @@
 	)
 	(bus
 		(pts
-			(xy 363.22 38.1) (xy 363.22 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf3b07a0-31c2-4bac-bd8c-43f881d9664a")
-	)
-	(bus
-		(pts
 			(xy 220.98 256.54) (xy 220.98 257.81)
 		)
 		(stroke
@@ -6489,16 +6610,6 @@
 			(type default)
 		)
 		(uuid "d589a02e-2eeb-4d74-8e00-9ae7754674a4")
-	)
-	(bus
-		(pts
-			(xy 363.22 36.83) (xy 365.76 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d60c6201-cd65-4dd4-9d09-4ff3b2752a15")
 	)
 	(wire
 		(pts
@@ -6740,16 +6851,6 @@
 		)
 		(uuid "e5f80012-ff3c-4fbb-b5ba-2d3dc58678cb")
 	)
-	(bus
-		(pts
-			(xy 365.76 34.29) (xy 375.92 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e62d5787-e312-4f36-b1d0-fb5886928826")
-	)
 	(wire
 		(pts
 			(xy 214.63 35.56) (xy 236.22 35.56)
@@ -6932,16 +7033,6 @@
 	)
 	(bus
 		(pts
-			(xy 304.8 38.1) (xy 304.8 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc1f6cb1-641e-43af-8aa1-de595b10ef4a")
-	)
-	(bus
-		(pts
 			(xy 153.67 154.94) (xy 156.21 152.4)
 		)
 		(stroke
@@ -6969,16 +7060,6 @@
 			(type default)
 		)
 		(uuid "ffd70e71-4d28-4c4d-8738-8aca96d9f60f")
-	)
-	(wire
-		(pts
-			(xy 284.48 40.64) (xy 302.26 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffe35b35-8b89-47ea-a512-280fd644b8f0")
 	)
 	(label "ECA_T2"
 		(at 21.59 105.41 0)
@@ -7112,6 +7193,28 @@
 		)
 		(uuid "0d56221f-32d8-4e4c-9fe9-b2d32b3502e9")
 	)
+	(label "USART1_CK2"
+		(at 21.59 236.22 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ebe4326-4c2c-4193-bd32-762317df255f")
+	)
+	(label "SENSE_VBAT"
+		(at 105.41 210.82 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f247341-0cae-4676-8063-97e494830e04")
+	)
 	(label "ECC_R"
 		(at 281.94 139.7 0)
 		(effects
@@ -7211,16 +7314,6 @@
 		)
 		(uuid "17006d6b-6b9b-4ef0-8c2b-7278bdfbf4c8")
 	)
-	(label "MCU_ID1"
-		(at 21.59 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "19d09950-9f6c-4745-b639-5cc255f9ba16")
-	)
 	(label "ECB_P"
 		(at 379.73 167.64 0)
 		(effects
@@ -7231,17 +7324,6 @@
 			(justify left bottom)
 		)
 		(uuid "1a0c4f18-5874-4cbe-8758-e406bfc1b1db")
-	)
-	(label "GPIO-LED_R"
-		(at 21.59 231.14 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b71516f-77dd-4bae-88c2-e9b239b71047")
 	)
 	(label "ECB_M"
 		(at 105.41 170.18 180)
@@ -7276,6 +7358,17 @@
 		)
 		(uuid "1f950f67-8f0d-4279-9ae0-5b3c4641df8b")
 	)
+	(label "GPIO-LED_Debug_2"
+		(at 105.41 208.28 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "20fd0c1b-4392-4641-94c9-74526378cea4")
+	)
 	(label "SWDIO2"
 		(at 342.9 96.52 0)
 		(effects
@@ -7287,16 +7380,16 @@
 		)
 		(uuid "216f1818-9217-43b6-aa54-48648233b511")
 	)
-	(label "USART1_RX2"
-		(at 342.9 40.64 0)
+	(label "VBUS_DET1"
+		(at 105.41 77.47 180)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "24a8b4d8-bdd8-4740-8676-56642946248f")
+		(uuid "21d3a172-bb72-48e8-b51f-27aebbd76de4")
 	)
 	(label "OCM_P"
 		(at 379.73 162.56 0)
@@ -7375,6 +7468,16 @@
 		)
 		(uuid "29fee649-1d5e-485a-b7f2-31f09cfec774")
 	)
+	(label "UART_TX"
+		(at 21.59 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a1f5c40-6720-4cdd-a47e-4e7e9aa07232")
+	)
 	(label "ECA_T2"
 		(at 281.94 210.82 0)
 		(effects
@@ -7429,6 +7532,28 @@
 			(justify right bottom)
 		)
 		(uuid "2dd4e471-64a1-44cf-8ea6-f5b28ec66bfe")
+	)
+	(label "GPIO-LED_T1"
+		(at 105.41 102.87 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e55d1f7-60a1-4b86-aca7-eddb2b581d0c")
+	)
+	(label "GPIO-LED_P"
+		(at 105.41 200.66 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2fd4fd22-7e74-47db-97c1-487e5eb61ba0")
 	)
 	(label "GPIO-LED_R"
 		(at 342.9 138.43 0)
@@ -7539,6 +7664,16 @@
 			(justify left bottom)
 		)
 		(uuid "39acec0c-cd47-48d6-a667-32c2e4d7354d")
+	)
+	(label "UART_TX"
+		(at 21.59 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3afb75d9-5d0c-4a9c-8e41-fb10b4811367")
 	)
 	(label "EN_I"
 		(at 281.94 76.2 0)
@@ -7760,17 +7895,6 @@
 		)
 		(uuid "4c97108d-4dae-4792-89e8-422ba3a0e746")
 	)
-	(label "I2C_SDA"
-		(at 105.41 72.39 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4cb54ce9-350d-404b-8972-4d6bc234e782")
-	)
 	(label "ECB_T1"
 		(at 379.73 193.04 0)
 		(effects
@@ -7782,16 +7906,15 @@
 		)
 		(uuid "4d2abae6-5fd6-481c-86be-dc1395db5f05")
 	)
-	(label "GPIO-LED_M"
-		(at 105.41 200.66 180)
+	(label "UART_RX"
+		(at 21.59 118.11 0)
 		(effects
 			(font
-				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "4f8f7770-782a-46bd-a1ff-693b72aa71cf")
+		(uuid "4da060ee-f9b3-4565-8219-154a206b42e8")
 	)
 	(label "GPIO-LED_T2"
 		(at 342.9 133.35 0)
@@ -7903,6 +8026,16 @@
 		)
 		(uuid "57acb870-f76c-4df6-9d4a-4ff5417c57e9")
 	)
+	(label "UART_RX"
+		(at 21.59 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57b65a94-a145-460a-a0e1-4fbafac30831")
+	)
 	(label "USB1_P"
 		(at 105.41 82.55 180)
 		(effects
@@ -8002,6 +8135,17 @@
 		)
 		(uuid "5d630dc9-ce40-421e-901e-b81edd19bdf9")
 	)
+	(label "USART1_CK2"
+		(at 214.63 86.36 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d6d35f2-2ea0-4cf0-b4db-4591df700a17")
+	)
 	(label "USB2_N"
 		(at 196.85 262.89 0)
 		(effects
@@ -8045,6 +8189,17 @@
 			(justify left bottom)
 		)
 		(uuid "5f616107-f63b-4931-b35b-e901d8d6f30c")
+	)
+	(label "USART1_TX2"
+		(at 214.63 83.82 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6331912a-6bb2-4430-8358-bfd5eda1c5ed")
 	)
 	(label "ECA_T1"
 		(at 281.94 185.42 0)
@@ -8144,17 +8299,6 @@
 		)
 		(uuid "71aef12e-fd84-4ff8-bdb5-0ef665883773")
 	)
-	(label "USART1_TX1"
-		(at 284.48 43.18 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "72455bde-bc5d-44d4-8fca-70d2e9c1b2df")
-	)
 	(label "OSC-IN_1"
 		(at 21.59 67.31 0)
 		(effects
@@ -8210,17 +8354,6 @@
 		)
 		(uuid "76fa363c-1b00-470d-a258-6e75aac38546")
 	)
-	(label "I2C_SCL"
-		(at 105.41 74.93 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "77cb8604-c0df-4460-b0c4-e165970497ff")
-	)
 	(label "ECB_T2"
 		(at 21.59 107.95 0)
 		(effects
@@ -8231,6 +8364,17 @@
 			(justify left bottom)
 		)
 		(uuid "78a9a31d-7797-4fed-8518-de5e70180326")
+	)
+	(label "USART1_RX1"
+		(at 214.63 69.85 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78c8cb8a-fae7-4952-b5af-11f3a9d3cbbb")
 	)
 	(label "SWCLK2"
 		(at 342.9 93.98 0)
@@ -8253,6 +8397,17 @@
 			(justify left bottom)
 		)
 		(uuid "79d2e6f2-a0d3-414b-9b3d-b59ebed54103")
+	)
+	(label "USART1_CK1"
+		(at 21.59 120.65 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a899f6e-e9b8-4279-9a1c-d5e27c568f00")
 	)
 	(label "PWMB_T2"
 		(at 21.59 110.49 0)
@@ -8287,6 +8442,17 @@
 		)
 		(uuid "7da6cd25-be8c-42e7-869b-dfb83bba0d1c")
 	)
+	(label "GPIO-LED_Debug_1"
+		(at 105.41 92.71 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7dc57b71-217b-438b-a3d6-288089f41d4f")
+	)
 	(label "DIAG_I"
 		(at 281.94 78.74 0)
 		(effects
@@ -8319,6 +8485,17 @@
 			(justify left bottom)
 		)
 		(uuid "7ece284d-f6e0-49f4-a694-6d09af5d3de1")
+	)
+	(label "GPIO-LED_T2"
+		(at 105.41 113.03 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7efefb3c-101f-4dc7-8483-47aa6ea2b243")
 	)
 	(label "FDCAN1_RX"
 		(at 129.54 114.3 0)
@@ -8397,17 +8574,6 @@
 		)
 		(uuid "86d936de-008a-4016-ac4f-749ca7a34c3c")
 	)
-	(label "GPIO-LED_P"
-		(at 21.59 233.68 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "87eceeef-96da-4e76-b3f9-3fc345931d3c")
-	)
 	(label "ECC_T2"
 		(at 105.41 69.85 180)
 		(effects
@@ -8418,17 +8584,6 @@
 			(justify right bottom)
 		)
 		(uuid "883ea645-a88f-4db1-b631-0f8de1c39b68")
-	)
-	(label "USART1_TX2"
-		(at 342.9 43.18 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "884469f9-7322-4c39-ba4c-8cda7c558cbe")
 	)
 	(label "BOOT_2"
 		(at 105.41 226.06 180)
@@ -8529,6 +8684,17 @@
 		)
 		(uuid "904c3f0e-8a4a-4d09-b4da-3da9459c9ecd")
 	)
+	(label "USART1_RX2"
+		(at 214.63 81.28 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "912c6c8a-a01e-4848-9bb7-e2788958af5d")
+	)
 	(label "DIAG_R"
 		(at 21.59 193.04 0)
 		(effects
@@ -8551,17 +8717,6 @@
 		)
 		(uuid "92f7358d-9c6f-4e17-888c-dbd39f2d5306")
 	)
-	(label "VBUS_DET1"
-		(at 105.41 118.11 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "93a3a9af-b879-4c5e-b6a6-17284c6f1f71")
-	)
 	(label "PWMB_T2"
 		(at 379.73 205.74 0)
 		(effects
@@ -8572,17 +8727,6 @@
 			(justify left bottom)
 		)
 		(uuid "93e536a7-8b15-4dcf-aadf-5dad3b8b9eb7")
-	)
-	(label "USART1_RX1"
-		(at 284.48 40.64 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "957915a8-6ba6-4480-b8bc-2755540e859f")
 	)
 	(label "BOARD_VERSION"
 		(at 105.41 95.25 180)
@@ -8650,17 +8794,6 @@
 		)
 		(uuid "9b556219-95e0-456e-8d63-7bff2d6082e0")
 	)
-	(label "USART1_TX2"
-		(at 21.59 241.3 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9bceaabd-44cc-41fb-aa09-b2bf36c34c83")
-	)
 	(label "PWMA_P"
 		(at 281.94 147.32 0)
 		(effects
@@ -8693,6 +8826,17 @@
 			(justify right)
 		)
 		(uuid "9d045695-5bb0-4eb4-8966-b66305570340")
+	)
+	(label "VBUS_DET2"
+		(at 105.41 193.04 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ea29c22-5037-41bf-b095-b1b41a8e2186")
 	)
 	(label "GPIO-LED_I"
 		(at 129.54 158.75 0)
@@ -8782,6 +8926,17 @@
 		)
 		(uuid "a3416ef6-22d1-4363-ac63-33716d71af36")
 	)
+	(label "USART1_RX1"
+		(at 105.41 118.11 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4a61892-ef69-4da1-b247-81e23dd0d504")
+	)
 	(label "PWMB_I"
 		(at 379.73 78.74 0)
 		(effects
@@ -8825,17 +8980,6 @@
 			(justify left bottom)
 		)
 		(uuid "a87d27c5-acd5-48ce-81ec-cf99e2b28d66")
-	)
-	(label "SENSE_VBAT"
-		(at 105.41 231.14 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aa52d6fc-cb7a-4429-a7ee-707a85c52f75")
 	)
 	(label "PWMB_R"
 		(at 281.94 124.46 0)
@@ -8901,6 +9045,17 @@
 			(justify left bottom)
 		)
 		(uuid "ad146409-95c1-4191-a856-fe11cff2bb0c")
+	)
+	(label "GPIO-LED_I"
+		(at 105.41 85.09 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0615926-5213-4fcb-8679-f26748a60919")
 	)
 	(label "OCM_M"
 		(at 379.73 111.76 0)
@@ -8978,6 +9133,28 @@
 			(justify left bottom)
 		)
 		(uuid "b7d64df0-c9a5-4c03-820e-f8f60cd0bbf8")
+	)
+	(label "USART1_TX1"
+		(at 214.63 72.39 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b82d9dd7-7a9d-4a77-8bb2-23c130a6b907")
+	)
+	(label "GPIO-LED_M"
+		(at 105.41 228.6 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b9cf632b-8e9f-45d4-8e22-447ca1bde2fe")
 	)
 	(label "ECA_M"
 		(at 105.41 167.64 180)
@@ -9144,6 +9321,16 @@
 		)
 		(uuid "c3ba2ca9-fb33-4fa1-84c3-bfb0bf2280ab")
 	)
+	(label "MCU_ID1"
+		(at 21.59 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4d945a5-a0a9-4268-8364-afe247c71c27")
+	)
 	(label "ECC_R"
 		(at 379.73 144.78 0)
 		(effects
@@ -9165,17 +9352,6 @@
 			(justify left bottom)
 		)
 		(uuid "c59bfbbd-0fbd-4f27-9670-2aee9b15019a")
-	)
-	(label "GPIO-LED_Debug_2"
-		(at 105.41 193.04 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c5c84024-c88d-44b9-ac8e-5598e2b235cd")
 	)
 	(label "DIAG_P"
 		(at 105.41 243.84 180)
@@ -9276,16 +9452,6 @@
 		)
 		(uuid "d21d3a30-c75d-4d29-9f44-097a77ae3cb5")
 	)
-	(label "MCU_ID2"
-		(at 21.59 236.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d2c7fd52-1294-4df5-a747-3a48dbf2234a")
-	)
 	(label "PWMB_P"
 		(at 281.94 149.86 0)
 		(effects
@@ -9296,17 +9462,6 @@
 			(justify left bottom)
 		)
 		(uuid "d2f3ff85-9ce7-4f73-b2a4-f92cda9501b4")
-	)
-	(label "VBUS_DET2"
-		(at 105.41 233.68 180)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d3d43121-8fdf-4a49-a096-f0df9310fa73")
 	)
 	(label "ECB_R"
 		(at 379.73 142.24 0)
@@ -9383,6 +9538,17 @@
 			(justify left bottom)
 		)
 		(uuid "dcf5ad9f-2e96-4bb7-9434-f3223de08359")
+	)
+	(label "USART1_RX2"
+		(at 105.41 233.68 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd82c334-ceda-41f9-bbb3-32d99788dcd9")
 	)
 	(label "PWMB_P"
 		(at 379.73 154.94 0)
@@ -9461,8 +9627,8 @@
 		)
 		(uuid "e1ccb391-24de-4281-9dcd-f4b73927b161")
 	)
-	(label "USART1_RX2"
-		(at 105.41 205.74 180)
+	(label "USART1_TX1"
+		(at 105.41 115.57 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -9470,7 +9636,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "e46537ec-068b-41a6-a46d-3ed1b0e53138")
+		(uuid "e344f650-9b86-4db2-a7be-08821b1ece7c")
 	)
 	(label "USB1_P"
 		(at 133.35 260.35 0)
@@ -9538,6 +9704,17 @@
 		)
 		(uuid "ec02f507-1a35-40f8-8127-d283f06c0ca9")
 	)
+	(label "USART1_CK1"
+		(at 214.63 74.93 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecc05920-3fcd-4e1f-9bf7-e2ad97bb4cbd")
+	)
 	(label "I2C-SCL"
 		(at 105.41 190.5 180)
 		(effects
@@ -9570,6 +9747,16 @@
 			(justify left bottom)
 		)
 		(uuid "f157bced-8d39-4da9-8b9e-6c73909a49c2")
+	)
+	(label "MCU_ID2"
+		(at 21.59 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1b5758d-1fe4-4c4d-bc0b-3b888622cadf")
 	)
 	(label "SWCLK2"
 		(at 21.59 170.18 0)
@@ -9690,6 +9877,28 @@
 			(justify left bottom)
 		)
 		(uuid "fc695643-d273-4e56-a19e-8d0d21de212e")
+	)
+	(label "GPIO-LED_R"
+		(at 105.41 218.44 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc70d479-e4d7-44b4-b9d2-7bab385967e6")
+	)
+	(label "USART1_TX2"
+		(at 105.41 231.14 180)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fcb791d0-8eea-4e6a-a903-8240ea143553")
 	)
 	(label "OCM_T2"
 		(at 21.59 100.33 0)
@@ -10062,6 +10271,19 @@
 		)
 		(uuid "76680435-c4ca-4a12-90c5-e6d3a263124f")
 	)
+	(hierarchical_label "{USART1}"
+		(shape bidirectional)
+		(at 247.65 63.5 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7d953c3f-316e-4002-ae73-acfc39420673")
+	)
 	(hierarchical_label "{FDCAN1_TTL}"
 		(shape bidirectional)
 		(at 170.18 107.95 0)
@@ -10223,19 +10445,6 @@
 			(justify left)
 		)
 		(uuid "a5d9b31c-8408-4bbd-84e1-abcbca70847f")
-	)
-	(hierarchical_label "{USART2}"
-		(shape bidirectional)
-		(at 375.92 34.29 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "a78b72ad-4dad-47a5-a2ed-0aa5ab6353a4")
 	)
 	(hierarchical_label "ECC_T2"
 		(shape bidirectional)
@@ -10431,6 +10640,19 @@
 		)
 		(uuid "df9d979e-49f1-4aeb-8510-19f9283830b9")
 	)
+	(hierarchical_label "{USART2}"
+		(shape bidirectional)
+		(at 247.65 76.2 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e3c44922-a088-4c5b-8eb9-5559f6df380f")
+	)
 	(hierarchical_label "PWMB_R"
 		(shape bidirectional)
 		(at 317.5 124.46 0)
@@ -10492,19 +10714,6 @@
 			(justify left)
 		)
 		(uuid "f5b37f15-be36-4412-9154-10c18d850e52")
-	)
-	(hierarchical_label "{USART1}"
-		(shape bidirectional)
-		(at 317.5 34.29 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "fa5ca22a-01df-44e2-857f-18551fbcd083")
 	)
 	(hierarchical_label "OCM_T1"
 		(shape bidirectional)

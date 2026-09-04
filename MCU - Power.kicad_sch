@@ -22,7 +22,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at -1.016 3.048 90)
+				(at 0 3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,7 +30,7 @@
 				)
 			)
 			(property "Value" "CAP CER 0402"
-				(at 1.778 9.398 90)
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -38,7 +38,7 @@
 				)
 			)
 			(property "Footprint" "Duc:C0402"
-				(at 7.239 -5.461 90)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -161,7 +161,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -179,7 +179,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
