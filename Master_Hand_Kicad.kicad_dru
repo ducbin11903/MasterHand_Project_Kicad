@@ -8,13 +8,13 @@
 # 2oz copper
 (rule "Minimum Trace Width and Spacing (outer layer)"
 (constraint track_width (min 0.15mm))
-(constraint clearance (min 0.15mm))
+(constraint clearance (min 0.13mm))
 (layer outer)
 (condition "A.Type == 'track'"))
 
 (rule "Minimum Trace Width and Spacing (innner layer)"
 (constraint track_width (min 0.15mm))
-(constraint clearance (min 0.15mm))
+(constraint clearance (min 0.13mm))
 (layer inner)
 (condition "A.Type == 'track'"))
 
@@ -63,19 +63,19 @@
 # ----------------------------------- Minimum clearance ------------------------------------------------
 
 (rule "hole to hole clearance (different nets)"
-(constraint hole_to_hole (min 0.2mm))
+(constraint hole_to_hole (min 0.15mm))
 (condition "A.Net != B.Net"))
 
 (rule "via to track clearance"
-(constraint hole_clearance (min 0.2mm))
+(constraint hole_clearance (min 0.13mm))
 (condition "A.Type == 'via' && B.Type == 'track'"))
 
 (rule "via to via clearance (same nets)"
-(constraint hole_to_hole (min 0.2mm))
+(constraint hole_to_hole (min 0.15mm))
 (condition "A.Type == 'via' && B.Type == A.Type && A.Net == B.Net"))
 
 (rule "pad to pad clearance (with hole, different nets)"
-(constraint hole_to_hole (min 0.5mm))
+(constraint hole_to_hole (min 0.4mm))
 (condition "A.Type == 'pad' && B.Type == A.Type && A.Net != B.Net"))
 
 (rule "pad to pad clearance (without hole, different nets)"
@@ -95,7 +95,7 @@
 (condition "A.isPlated() && A.Type != 'Via' && B.Type == 'track'"))
 
 (rule "Pad to Track clearance"
-(constraint clearance (min 0.2mm))
+(constraint clearance (min 0.15mm))
 (condition "A.isPlated() && A.Type != 'Via' && B.Type == 'track'"))
 
 # ----------------------------------- Board Outlines (PICK ONE) -------------------------------------

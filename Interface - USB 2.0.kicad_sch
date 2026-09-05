@@ -718,7 +718,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Duc-Diodes:LED 0603"
+		(symbol "Duc-Diodes:LED 0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -730,22 +730,22 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 2.54 1.27 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "LED 0603"
-				(at 0 -4.826 0)
+			(property "Value" "LED 0402"
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Duc:LED0603-RD_WHITE"
+			(property "Footprint" "Duc:LED0402-R-RD"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -754,7 +754,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C965810.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C20608784.pdf"
 				(at 0 -11.43 0)
 				(effects
 					(font
@@ -763,7 +763,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED WARM WHITE YELLOW LENS 0603 SMD"
+			(property "Description" "LED EMERALD GREEN 0402 SMD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -772,7 +772,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(property "Manufacturer" "YONGYUTAI(永裕泰)"
 				(at 0 -13.97 0)
 				(effects
 					(font
@@ -781,7 +781,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "XL-1608WWC-06"
+			(property "MPN" "YLED0402G"
 				(at 0 -16.51 0)
 				(effects
 					(font
@@ -790,7 +790,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C965810"
+			(property "LCSC Part" "C20608784"
 				(at 0 -19.05 0)
 				(effects
 					(font
@@ -799,7 +799,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Light Emitting Diodes (LED)"
+			(property "ki_keywords" "LED Indication - Discrete"
 				(at 0 0 0)
 				(effects
 					(font
@@ -808,7 +808,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED 0603_0_1"
+			(symbol "LED 0402_0_1"
+				(polyline
+					(pts
+						(xy -4.06 2.03) (xy -3.05 1.52) (xy -3.56 1.02) (xy -4.06 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy -3.05 3.05) (xy -2.03 2.54) (xy -2.54 2.03) (xy -3.05 3.05)
@@ -823,7 +835,55 @@
 				)
 				(polyline
 					(pts
-						(xy -2.03 4.06) (xy -1.02 3.56) (xy -1.52 3.05) (xy -2.03 4.06)
+						(xy -2.29 0.25) (xy -3.3 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -2.29 2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.51) (xy -1.27 -3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.51) (xy -1.27 -1.27) (xy 1.27 -3.05) (xy 1.27 0.51)
 					)
 					(stroke
 						(width 0)
@@ -835,7 +895,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -3.05 3.05)
+						(xy 2.54 -1.27) (xy 1.27 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -843,55 +903,19 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.05) (xy -1.27 0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.25 2.29) (xy -2.03 4.06)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.79) (xy -1.27 -1.27) (xy 1.27 0.51) (xy 1.27 -2.79)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(pin passive line
 					(at -5.08 -1.27 0)
-					(length 3.81)
-					(name "C"
+					(length 2.54)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -901,7 +925,7 @@
 				)
 				(pin passive line
 					(at 5.08 -1.27 180)
-					(length 3.81)
+					(length 2.54)
 					(name "A"
 						(effects
 							(font
@@ -909,7 +933,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9104,7 +9128,25 @@
 			"cABkADgAWAArAGwAaQBaAHAASQBTAGwASQBpAEgAawBoAE4ARgBIAEUAbQBtAHoAWgBBAGgAQwB3"
 			"AEQAYgBIAHEATgBJADEAKwAzADYASQBZAGkAZAB5AFQAbgBNAGMAeQBnAGMAZwBaAEoARwBZADkA"
 			"RABjAEUAeABHAE0AOQBIADMALwBHAEgAKwBiAGsAYgBiADUAVgBJAC8AeABCAFcATgBNAHYAeQBV"
-			"ADMANgBlAEEAdgBnAGUARwBoAGgANgB1AEIAaQBjAFEAdw=="
+			"ADMANgBlAEEAdgBnAGUARwBoAGgANgB1AEIAaQBjAFEAdwBLAEUAeABpAHAASgBJAGgAaABCAEYA"
+			"agBCAHcARwBDAEgANwBXAHoAeAB6ADMAWABDAEUASAA3AG4AYgBhAFkAQgBTAEIAYQA1AHcAUwBK"
+			"AHQAbQAwADIAdQA2ADMAbgBNAEoAbABNAGkAOABuAFUATwBsADgAZQBxAHYASgBRAGIAZgBmADcA"
+			"TAAzAC8AOQA2AC8ALwB3AEgAMwAvAHkAawA1AC8AOABwADYAWgBwAFgAcgB4ADQAOABjAGsAbgBu"
+			"AHkAVABHADkASAAwAFgATwBDAGcAbABJADUAdQA5AGEAZQBxAHEAcQB0AHEAdQBkAGQANwBqAFMA"
+			"QwA1AG0AUgBCADYANgA1AG4ARABZAGIAagBhAFAAdQArADEAeQBHAEMAcgB2AE8AKwA4AGIANQA1"
+			"AHYAZwAyAHgAQgA2AGgASQBIAEIAQgBoADYAWQBlADIAQQBMAFAAQQBBADQAQQBDAHMARgBJAEgA"
+			"ZwBBAFIANABUAEIARABRAEwAaAArAGUAMwBOAFAALwByAGgAcAAvAC8AOABUADMANwAwAEoAMwAv"
+			"AHkANAA1AHYAYgBjADQARgArADYASgB2AGcAcgBYAGUAMgBxAFoAdQBtAGIAaQBTAHAAcwA4AFYA"
+			"bABrAFUALwBUAE4AQgBjAGsAbABWAEgAMABoAE4AdQBPAGYASwBPAG4AMAB0AHYANwBFAEkASQBY"
+			"AGcAcgBRADIAUwB1AHMAawBTAFkAaQBvADYALwB2AG8AZQA4AFkAUgArAGkAeABsAGYATABLAFUA"
+			"MABuAHYAZgBOAEgAWABYADkAKwBWACsAdgAxAHcAdAB5AC8AMQBlAGEAWAAxAHoAOAArAHoAMQA2"
+			"ADkAZQBUAHkAYQBRAG8ASgBrAFoAcgBJAFoANABNAG0AVQBiADUAbgAyAFAAWQBIAGwAOQBhAFMA"
+			"awBEADAAMwBnAGYAdgBHAFcAQQBVAHIAcAA0AFcAagBiAFgAYgB6AFgAYQAzAFgARABlAHIAbgBU"
+			"AGcAMAB1AG0AeABwAFUAdwA0AGYANwBnADkAZgBmAFYATwA5AGYAZABzAC8AUAB0AGoAdABoAHAA"
+			"cwBxAEcAWQBhAFUAaABEAG0AYgBUAEYAOAA5AE8ALwB2AGgANQA1AE0AdgBQAHIASABYADUAMAAy"
+			"AFIASAAxAEwAVABLAHUAbQAxAFIAcQBrAFEAawBJAEMAWgBrAEkALwBtADkAYQBlAHAANQBGAEcA"
+			"OQBOAGMASgB1AFEAVQBxAFYAcABFAG0AVwA1AFUASgBTADIANwBiADcALwBiADYAdQBLAHUAdQBz"
+			"AEoASwBtAFAARwBUAGMARwByAFgAZwBNAGoAeABmAG0ANw=="
 		)
 	)
 	(image
@@ -15178,7 +15220,25 @@
 			"UQA5AGwAeAAzAE8AZgA0AEgALwAvAGgAbgAwAHIAQgBFAFgARABvACsANwBaAHAAOQB2AHQAZAB0"
 			"AGQALwBYAGQAZQBXAGQAeQA3AE4AcwB1AFYAegBNAEYANwBNAHMAegBiAEsAaQBLAEcAWQBGADQA"
 			"NgB4AHUAbQBxAHEAdQA2ADYAWgBCAHgAcwBJAG8AQwBrAEsARgBEAEIAMgBKAFcAQwBEADYAcQBW"
-			"AE0AZgAvAEYAVwB3AGcAdwBqAE8AZQBUACsARgBPAGoAZw=="
+			"AE0AZgAvAEYAVwB3AGcAdwBqAE8AZQBUACsARgBPAGoAZwBKADMASgBNAHoAVgAxAFYAVgBXAFcA"
+			"NQBKAFAAbwA4AE0AOABtAHgAVwBIAEIAOABmAHoAVwBlAHoASQBBAHoAQwBNAE0AaQBMAG4AQQB1"
+			"AEoAeQBQAGIAVgBmAHIAcwB0AHQAYgBWAEIARQBBAHAASgBVAG4AZgBNAEEANAA1AGEAYgBhAE0A"
+			"TABnAFAANgBnAHQAMABOADUATQBPAGUAbwBNAEEAdQBJAFMAbgBMAE8ARwBZAFcAeABsADUAZQBY"
+			"AFoAKwBmAG4AdQAvADIAZQBDAHkANgBWAFMAdABKADAAZQBiAFIAYwBIAGkAMgBUAE4ATwBXAGMA"
+			"VQB3AE0ASAB1AGMAQQBVAGgATwAzADIAZQA4ADUARgBIAEUAZABDAEMARwBxADUANABJAHgANwA1"
+			"ADYAbgBmAGcAagB4AFQAeAByAGkAMwB6AGoAbgBQAE8AUQBmAHYAagBkAEgARwBXAEMAawBrAFoA"
+			"NwB6AHYAQgA2AEsAaQAyAHAAVwA3AHIAbQAyAGQAOQAxAG0AUgBIADUAMgBjAGsASgBDAGYAVgBN"
+			"AHEAQgB0ADkANQBMAHAAWQBJAHcARABPAE0AbwBTAG0ATAByADMATQBYADYAYwByAGMAcgB3AFkA"
+			"TwBTAEsAbwA1AEMAUgBOAFMARABwAHUAWQBNAFoATQB3ADQAWgA1AHgAegBBAE4AWQA1AFEAbwBs"
+			"ADYANQAvAFUAdwBHAEsATwBGADQARgBLAEsAcgBtAHYAVwA2ADkAWABaADIAYgBQAE4AWgBtAFgA"
+			"cwBJAEMAVQBYAGsAaQArAFcAcwAvAHYAMwA3ADMARwB1AEcATwBPAEkASABKAEIANQBEADgAaQA1"
+			"AFUAagBKAE4AMAB5AFMASgB0AGQAYgBiAGMAcgBOAGEAWABlAHgAMgBwAFQAWQA2AHkAOQBOAG4A"
+			"egA1ADcAOAArAGYALwA5AGYALwAzAG8AaAA5ACsAMwB1AG0AKwA3AFcAawBtAFIASgBHAEcAUgBa"
+			"ADEAbQBhAGgAaQBGAEoAbgBkAHUAMgA2ADQAegBUADIAMQAzADUAdwBRADkAKwA4AEwAZAArADYA"
+			"egBlAGQAdABYAC8AegB6AFcAKwBjAFAAegB0AEQARAA5ADcAWQBPAEEAaABDAEkAZQBNAGcATwBK"
+			"ADcATgBGAE8ATgBDAFMAcwBaADUAVgBWAFYAMwA3ADkAMwAvADEALwAvADYAUAAvADkAUAAvAHQA"
+			"UAAvADcAQgBjAC8AKwBsAEgATwBoAE4AWABXAEcAdQB1AGQAWgB4ADcAQQBBAFYAaQBIAEgAdgBF"
+			"AGwAWQA0AHoANABjAG8AMwB3ADYAbwBtAGEAZgBFADYAYw=="
 		)
 	)
 	(label "USB2_N"
@@ -15472,7 +15532,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Diodes:LED 0603")
+		(lib_id "Duc-Diodes:LED 0402")
 		(at 160.02 35.56 0)
 		(mirror y)
 		(unit 1)
@@ -15482,22 +15542,22 @@
 		(dnp no)
 		(uuid "10e5590e-e5c1-43bf-9813-d384b7040e36")
 		(property "Reference" "D2"
-			(at 156.21 34.29 0)
+			(at 160.02 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED 0603"
-			(at 160.02 40.64 0)
+		(property "Value" "LED 0402"
+			(at 160.02 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Duc:LED0603-RD_WHITE"
+		(property "Footprint" "Duc:LED0402-R-RD"
 			(at 160.02 44.45 0)
 			(effects
 				(font
@@ -15506,7 +15566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965810.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C20608784.pdf"
 			(at 160.02 46.99 0)
 			(effects
 				(font
@@ -15515,7 +15575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED WARM WHITE YELLOW LENS 0603 SMD"
+		(property "Description" "LED EMERALD GREEN 0402 SMD"
 			(at 160.02 35.56 0)
 			(effects
 				(font
@@ -15524,7 +15584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "XINGLIGHT(成兴光)"
+		(property "Manufacturer" "YONGYUTAI(永裕泰)"
 			(at 160.02 49.53 0)
 			(effects
 				(font
@@ -15533,7 +15593,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "XL-1608WWC-06"
+		(property "MPN" "YLED0402G"
 			(at 160.02 52.07 0)
 			(effects
 				(font
@@ -15542,7 +15602,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C965810"
+		(property "LCSC Part" "C20608784"
 			(at 160.02 54.61 0)
 			(effects
 				(font
@@ -15971,7 +16031,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Diodes:LED 0603")
+		(lib_id "Duc-Diodes:LED 0402")
 		(at 160.02 86.36 0)
 		(mirror y)
 		(unit 1)
@@ -15981,22 +16041,22 @@
 		(dnp no)
 		(uuid "42561ad3-742c-473b-9194-9eae6dd2b0d0")
 		(property "Reference" "D5"
-			(at 156.21 85.09 0)
+			(at 160.02 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED 0603"
-			(at 160.02 91.44 0)
+		(property "Value" "LED 0402"
+			(at 160.02 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Duc:LED0603-RD_WHITE"
+		(property "Footprint" "Duc:LED0402-R-RD"
 			(at 160.02 95.25 0)
 			(effects
 				(font
@@ -16005,7 +16065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965810.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C20608784.pdf"
 			(at 160.02 97.79 0)
 			(effects
 				(font
@@ -16014,7 +16074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED WARM WHITE YELLOW LENS 0603 SMD"
+		(property "Description" "LED EMERALD GREEN 0402 SMD"
 			(at 160.02 86.36 0)
 			(effects
 				(font
@@ -16023,7 +16083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "XINGLIGHT(成兴光)"
+		(property "Manufacturer" "YONGYUTAI(永裕泰)"
 			(at 160.02 100.33 0)
 			(effects
 				(font
@@ -16032,7 +16092,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "XL-1608WWC-06"
+		(property "MPN" "YLED0402G"
 			(at 160.02 102.87 0)
 			(effects
 				(font
@@ -16041,7 +16101,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C965810"
+		(property "LCSC Part" "C20608784"
 			(at 160.02 105.41 0)
 			(effects
 				(font

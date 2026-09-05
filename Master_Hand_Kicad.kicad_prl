@@ -17,22 +17,21 @@
     },
     "selection_filter": {
       "dimensions": false,
-      "footprints": false,
+      "footprints": true,
       "graphics": false,
       "keepouts": false,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": false,
-      "pads": false,
+      "pads": true,
       "text": false,
       "tracks": true,
-      "vias": false,
+      "vias": true,
       "zones": false
     },
     "visible_items": [
       "vias",
       "footprint_text",
       "footprint_anchors",
-      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",
@@ -125,6 +124,18 @@
   "open_jobsets": [],
   "project": {
     "files": [
+      {
+        "name": "Master_Hand_Kicad.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 1936,
+          "size_y": 1048
+        }
+      },
       {
         "name": "Master_Hand_Kicad.kicad_sch",
         "open": false,
