@@ -9,7 +9,7 @@
     <textvar name="COMPANY">Willas</textvar>
     <textvar name="DESIGNER">Damon</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">5c65869</textvar>
+    <textvar name="GIT_HASH_PCB">adbb6bf</textvar>
     <textvar name="GIT_HASH_SCH">7187a9a</textvar>
     <textvar name="GIT_URL">https://github.com/ducbin11903/MasterHand_Project_Kicad.git</textvar>
     <textvar name="PROJECT_NAME">Master Hand</textvar>
@@ -18,8 +18,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">04-Sep-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-09-04</textvar>
+    <textvar name="RELEASE_DATE">05-Sep-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-09-05</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -5446,25 +5446,25 @@
       <tstamps>1e3210a4-b5e3-412d-962b-85b3aafaf359</tstamps>
     </comp>
     <comp ref="D2">
-      <value>LED 0603</value>
-      <footprint>Duc:LED0603-RD_WHITE</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C965810.pdf</datasheet>
-      <description>LED WARM WHITE YELLOW LENS 0603 SMD</description>
+      <value>LED 0402</value>
+      <footprint>Duc:LED0402-R-RD</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C20608784.pdf</datasheet>
+      <description>LED EMERALD GREEN 0402 SMD</description>
       <fields>
-        <field name="Manufacturer">XINGLIGHT(成兴光)</field>
-        <field name="MPN">XL-1608WWC-06</field>
-        <field name="LCSC Part">C965810</field>
-        <field name="Footprint">Duc:LED0603-RD_WHITE</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C965810.pdf</field>
-        <field name="Description">LED WARM WHITE YELLOW LENS 0603 SMD</field>
+        <field name="Manufacturer">YONGYUTAI(永裕泰)</field>
+        <field name="MPN">YLED0402G</field>
+        <field name="LCSC Part">C20608784</field>
+        <field name="Footprint">Duc:LED0402-R-RD</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C20608784.pdf</field>
+        <field name="Description">LED EMERALD GREEN 0402 SMD</field>
       </fields>
-      <libsource lib="Duc-Diodes" part="LED 0603" description="LED WARM WHITE YELLOW LENS 0603 SMD"/>
-      <property name="Manufacturer" value="XINGLIGHT(成兴光)"/>
-      <property name="MPN" value="XL-1608WWC-06"/>
-      <property name="LCSC Part" value="C965810"/>
+      <libsource lib="Duc-Diodes" part="LED 0402" description="LED EMERALD GREEN 0402 SMD"/>
+      <property name="Manufacturer" value="YONGYUTAI(永裕泰)"/>
+      <property name="MPN" value="YLED0402G"/>
+      <property name="LCSC Part" value="C20608784"/>
       <property name="Sheetname" value="Interface - USB 2.0"/>
       <property name="Sheetfile" value="Interface - USB 2.0.kicad_sch"/>
-      <property name="ki_keywords" value="Light Emitting Diodes (LED)"/>
+      <property name="ki_keywords" value="LED Indication - Discrete"/>
       <sheetpath names="/Project Architecture/Interface - USB 2.0/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e/"/>
       <tstamps>10e5590e-e5c1-43bf-9813-d384b7040e36</tstamps>
     </comp>
@@ -5515,25 +5515,25 @@
       <tstamps>fe225c2f-872f-4c47-bf3f-936366efa666</tstamps>
     </comp>
     <comp ref="D5">
-      <value>LED 0603</value>
-      <footprint>Duc:LED0603-RD_WHITE</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C965810.pdf</datasheet>
-      <description>LED WARM WHITE YELLOW LENS 0603 SMD</description>
+      <value>LED 0402</value>
+      <footprint>Duc:LED0402-R-RD</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C20608784.pdf</datasheet>
+      <description>LED EMERALD GREEN 0402 SMD</description>
       <fields>
-        <field name="Manufacturer">XINGLIGHT(成兴光)</field>
-        <field name="MPN">XL-1608WWC-06</field>
-        <field name="LCSC Part">C965810</field>
-        <field name="Footprint">Duc:LED0603-RD_WHITE</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C965810.pdf</field>
-        <field name="Description">LED WARM WHITE YELLOW LENS 0603 SMD</field>
+        <field name="Manufacturer">YONGYUTAI(永裕泰)</field>
+        <field name="MPN">YLED0402G</field>
+        <field name="LCSC Part">C20608784</field>
+        <field name="Footprint">Duc:LED0402-R-RD</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C20608784.pdf</field>
+        <field name="Description">LED EMERALD GREEN 0402 SMD</field>
       </fields>
-      <libsource lib="Duc-Diodes" part="LED 0603" description="LED WARM WHITE YELLOW LENS 0603 SMD"/>
-      <property name="Manufacturer" value="XINGLIGHT(成兴光)"/>
-      <property name="MPN" value="XL-1608WWC-06"/>
-      <property name="LCSC Part" value="C965810"/>
+      <libsource lib="Duc-Diodes" part="LED 0402" description="LED EMERALD GREEN 0402 SMD"/>
+      <property name="Manufacturer" value="YONGYUTAI(永裕泰)"/>
+      <property name="MPN" value="YLED0402G"/>
+      <property name="LCSC Part" value="C20608784"/>
       <property name="Sheetname" value="Interface - USB 2.0"/>
       <property name="Sheetfile" value="Interface - USB 2.0.kicad_sch"/>
-      <property name="ki_keywords" value="Light Emitting Diodes (LED)"/>
+      <property name="ki_keywords" value="LED Indication - Discrete"/>
       <sheetpath names="/Project Architecture/Interface - USB 2.0/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/7164844d-ef2d-4ed9-93c6-2b7c97a3348e/"/>
       <tstamps>42561ad3-742c-473b-9194-9eae6dd2b0d0</tstamps>
     </comp>
@@ -6225,186 +6225,186 @@
       <tstamps>7d21b0af-eb62-484a-a554-c01ed0ecbe8c</tstamps>
     </comp>
     <comp ref="D9">
-      <value>LED 0603</value>
-      <footprint>Duc:LED0603-RD_WHITE</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C965810.pdf</datasheet>
-      <description>LED WARM WHITE YELLOW LENS 0603 SMD</description>
+      <value>LED 0402</value>
+      <footprint>Duc:LED0402-R-RD</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C20608784.pdf</datasheet>
+      <description>LED EMERALD GREEN 0402 SMD</description>
       <fields>
-        <field name="Manufacturer">XINGLIGHT(成兴光)</field>
-        <field name="MPN">XL-1608WWC-06</field>
-        <field name="LCSC Part">C965810</field>
-        <field name="Footprint">Duc:LED0603-RD_WHITE</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C965810.pdf</field>
-        <field name="Description">LED WARM WHITE YELLOW LENS 0603 SMD</field>
+        <field name="Manufacturer">YONGYUTAI(永裕泰)</field>
+        <field name="MPN">YLED0402G</field>
+        <field name="LCSC Part">C20608784</field>
+        <field name="Footprint">Duc:LED0402-R-RD</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C20608784.pdf</field>
+        <field name="Description">LED EMERALD GREEN 0402 SMD</field>
       </fields>
-      <libsource lib="Duc-Diodes" part="LED 0603" description="LED WARM WHITE YELLOW LENS 0603 SMD"/>
-      <property name="Manufacturer" value="XINGLIGHT(成兴光)"/>
-      <property name="MPN" value="XL-1608WWC-06"/>
-      <property name="LCSC Part" value="C965810"/>
+      <libsource lib="Duc-Diodes" part="LED 0402" description="LED EMERALD GREEN 0402 SMD"/>
+      <property name="Manufacturer" value="YONGYUTAI(永裕泰)"/>
+      <property name="MPN" value="YLED0402G"/>
+      <property name="LCSC Part" value="C20608784"/>
       <property name="Sheetname" value="User - LED Indicators &amp; Buzzer"/>
       <property name="Sheetfile" value="User - LED Indicators &amp; Buzzer.kicad_sch"/>
-      <property name="ki_keywords" value="Light Emitting Diodes (LED)"/>
+      <property name="ki_keywords" value="LED Indication - Discrete"/>
       <sheetpath names="/Project Architecture/User - LED Indicators &amp; Buzzer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/28daf353-f3ef-4ecd-aedd-b1b76d334dfe/"/>
       <tstamps>b37a5e7d-ec5b-44d4-ab2a-e9c9d7267125</tstamps>
     </comp>
     <comp ref="D10">
-      <value>LED 0603</value>
-      <footprint>Duc:LED0603-RD_WHITE</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C965810.pdf</datasheet>
-      <description>LED WARM WHITE YELLOW LENS 0603 SMD</description>
+      <value>LED 0402</value>
+      <footprint>Duc:LED0402-R-RD</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C20608784.pdf</datasheet>
+      <description>LED EMERALD GREEN 0402 SMD</description>
       <fields>
-        <field name="Manufacturer">XINGLIGHT(成兴光)</field>
-        <field name="MPN">XL-1608WWC-06</field>
-        <field name="LCSC Part">C965810</field>
-        <field name="Footprint">Duc:LED0603-RD_WHITE</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C965810.pdf</field>
-        <field name="Description">LED WARM WHITE YELLOW LENS 0603 SMD</field>
+        <field name="Manufacturer">YONGYUTAI(永裕泰)</field>
+        <field name="MPN">YLED0402G</field>
+        <field name="LCSC Part">C20608784</field>
+        <field name="Footprint">Duc:LED0402-R-RD</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C20608784.pdf</field>
+        <field name="Description">LED EMERALD GREEN 0402 SMD</field>
       </fields>
-      <libsource lib="Duc-Diodes" part="LED 0603" description="LED WARM WHITE YELLOW LENS 0603 SMD"/>
-      <property name="Manufacturer" value="XINGLIGHT(成兴光)"/>
-      <property name="MPN" value="XL-1608WWC-06"/>
-      <property name="LCSC Part" value="C965810"/>
+      <libsource lib="Duc-Diodes" part="LED 0402" description="LED EMERALD GREEN 0402 SMD"/>
+      <property name="Manufacturer" value="YONGYUTAI(永裕泰)"/>
+      <property name="MPN" value="YLED0402G"/>
+      <property name="LCSC Part" value="C20608784"/>
       <property name="Sheetname" value="User - LED Indicators &amp; Buzzer"/>
       <property name="Sheetfile" value="User - LED Indicators &amp; Buzzer.kicad_sch"/>
-      <property name="ki_keywords" value="Light Emitting Diodes (LED)"/>
+      <property name="ki_keywords" value="LED Indication - Discrete"/>
       <sheetpath names="/Project Architecture/User - LED Indicators &amp; Buzzer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/28daf353-f3ef-4ecd-aedd-b1b76d334dfe/"/>
       <tstamps>ff3ab08c-06ab-499d-af26-4d9bc4f3c0ff</tstamps>
     </comp>
     <comp ref="D11">
-      <value>LED 0603</value>
-      <footprint>Duc:LED0603-RD_WHITE</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C965810.pdf</datasheet>
-      <description>LED WARM WHITE YELLOW LENS 0603 SMD</description>
+      <value>LED 0402</value>
+      <footprint>Duc:LED0402-R-RD</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C20608784.pdf</datasheet>
+      <description>LED EMERALD GREEN 0402 SMD</description>
       <fields>
-        <field name="Manufacturer">XINGLIGHT(成兴光)</field>
-        <field name="MPN">XL-1608WWC-06</field>
-        <field name="LCSC Part">C965810</field>
-        <field name="Footprint">Duc:LED0603-RD_WHITE</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C965810.pdf</field>
-        <field name="Description">LED WARM WHITE YELLOW LENS 0603 SMD</field>
+        <field name="Manufacturer">YONGYUTAI(永裕泰)</field>
+        <field name="MPN">YLED0402G</field>
+        <field name="LCSC Part">C20608784</field>
+        <field name="Footprint">Duc:LED0402-R-RD</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C20608784.pdf</field>
+        <field name="Description">LED EMERALD GREEN 0402 SMD</field>
       </fields>
-      <libsource lib="Duc-Diodes" part="LED 0603" description="LED WARM WHITE YELLOW LENS 0603 SMD"/>
-      <property name="Manufacturer" value="XINGLIGHT(成兴光)"/>
-      <property name="MPN" value="XL-1608WWC-06"/>
-      <property name="LCSC Part" value="C965810"/>
+      <libsource lib="Duc-Diodes" part="LED 0402" description="LED EMERALD GREEN 0402 SMD"/>
+      <property name="Manufacturer" value="YONGYUTAI(永裕泰)"/>
+      <property name="MPN" value="YLED0402G"/>
+      <property name="LCSC Part" value="C20608784"/>
       <property name="Sheetname" value="User - LED Indicators &amp; Buzzer"/>
       <property name="Sheetfile" value="User - LED Indicators &amp; Buzzer.kicad_sch"/>
-      <property name="ki_keywords" value="Light Emitting Diodes (LED)"/>
+      <property name="ki_keywords" value="LED Indication - Discrete"/>
       <sheetpath names="/Project Architecture/User - LED Indicators &amp; Buzzer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/28daf353-f3ef-4ecd-aedd-b1b76d334dfe/"/>
       <tstamps>0acd6621-bdb8-4400-b553-f17dd693dc30</tstamps>
     </comp>
     <comp ref="D12">
-      <value>LED 0603</value>
-      <footprint>Duc:LED0603-RD_WHITE</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C965810.pdf</datasheet>
-      <description>LED WARM WHITE YELLOW LENS 0603 SMD</description>
+      <value>LED 0402</value>
+      <footprint>Duc:LED0402-R-RD</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C20608784.pdf</datasheet>
+      <description>LED EMERALD GREEN 0402 SMD</description>
       <fields>
-        <field name="Manufacturer">XINGLIGHT(成兴光)</field>
-        <field name="MPN">XL-1608WWC-06</field>
-        <field name="LCSC Part">C965810</field>
-        <field name="Footprint">Duc:LED0603-RD_WHITE</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C965810.pdf</field>
-        <field name="Description">LED WARM WHITE YELLOW LENS 0603 SMD</field>
+        <field name="Manufacturer">YONGYUTAI(永裕泰)</field>
+        <field name="MPN">YLED0402G</field>
+        <field name="LCSC Part">C20608784</field>
+        <field name="Footprint">Duc:LED0402-R-RD</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C20608784.pdf</field>
+        <field name="Description">LED EMERALD GREEN 0402 SMD</field>
       </fields>
-      <libsource lib="Duc-Diodes" part="LED 0603" description="LED WARM WHITE YELLOW LENS 0603 SMD"/>
-      <property name="Manufacturer" value="XINGLIGHT(成兴光)"/>
-      <property name="MPN" value="XL-1608WWC-06"/>
-      <property name="LCSC Part" value="C965810"/>
+      <libsource lib="Duc-Diodes" part="LED 0402" description="LED EMERALD GREEN 0402 SMD"/>
+      <property name="Manufacturer" value="YONGYUTAI(永裕泰)"/>
+      <property name="MPN" value="YLED0402G"/>
+      <property name="LCSC Part" value="C20608784"/>
       <property name="Sheetname" value="User - LED Indicators &amp; Buzzer"/>
       <property name="Sheetfile" value="User - LED Indicators &amp; Buzzer.kicad_sch"/>
-      <property name="ki_keywords" value="Light Emitting Diodes (LED)"/>
+      <property name="ki_keywords" value="LED Indication - Discrete"/>
       <sheetpath names="/Project Architecture/User - LED Indicators &amp; Buzzer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/28daf353-f3ef-4ecd-aedd-b1b76d334dfe/"/>
       <tstamps>e39e5edf-7e23-48c8-bef7-53ece6d9906f</tstamps>
     </comp>
     <comp ref="D13">
-      <value>LED 0603</value>
-      <footprint>Duc:LED0603-RD_WHITE</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C965810.pdf</datasheet>
-      <description>LED WARM WHITE YELLOW LENS 0603 SMD</description>
+      <value>LED 0402</value>
+      <footprint>Duc:LED0402-R-RD</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C20608784.pdf</datasheet>
+      <description>LED EMERALD GREEN 0402 SMD</description>
       <fields>
-        <field name="Manufacturer">XINGLIGHT(成兴光)</field>
-        <field name="MPN">XL-1608WWC-06</field>
-        <field name="LCSC Part">C965810</field>
-        <field name="Footprint">Duc:LED0603-RD_WHITE</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C965810.pdf</field>
-        <field name="Description">LED WARM WHITE YELLOW LENS 0603 SMD</field>
+        <field name="Manufacturer">YONGYUTAI(永裕泰)</field>
+        <field name="MPN">YLED0402G</field>
+        <field name="LCSC Part">C20608784</field>
+        <field name="Footprint">Duc:LED0402-R-RD</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C20608784.pdf</field>
+        <field name="Description">LED EMERALD GREEN 0402 SMD</field>
       </fields>
-      <libsource lib="Duc-Diodes" part="LED 0603" description="LED WARM WHITE YELLOW LENS 0603 SMD"/>
-      <property name="Manufacturer" value="XINGLIGHT(成兴光)"/>
-      <property name="MPN" value="XL-1608WWC-06"/>
-      <property name="LCSC Part" value="C965810"/>
+      <libsource lib="Duc-Diodes" part="LED 0402" description="LED EMERALD GREEN 0402 SMD"/>
+      <property name="Manufacturer" value="YONGYUTAI(永裕泰)"/>
+      <property name="MPN" value="YLED0402G"/>
+      <property name="LCSC Part" value="C20608784"/>
       <property name="Sheetname" value="User - LED Indicators &amp; Buzzer"/>
       <property name="Sheetfile" value="User - LED Indicators &amp; Buzzer.kicad_sch"/>
-      <property name="ki_keywords" value="Light Emitting Diodes (LED)"/>
+      <property name="ki_keywords" value="LED Indication - Discrete"/>
       <sheetpath names="/Project Architecture/User - LED Indicators &amp; Buzzer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/28daf353-f3ef-4ecd-aedd-b1b76d334dfe/"/>
       <tstamps>a7c865ed-4454-466f-ba80-9bcca15c641c</tstamps>
     </comp>
     <comp ref="D14">
-      <value>LED 0603</value>
-      <footprint>Duc:LED0603-RD_WHITE</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C965810.pdf</datasheet>
-      <description>LED WARM WHITE YELLOW LENS 0603 SMD</description>
+      <value>LED 0402</value>
+      <footprint>Duc:LED0402-R-RD</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C20608784.pdf</datasheet>
+      <description>LED EMERALD GREEN 0402 SMD</description>
       <fields>
-        <field name="Manufacturer">XINGLIGHT(成兴光)</field>
-        <field name="MPN">XL-1608WWC-06</field>
-        <field name="LCSC Part">C965810</field>
-        <field name="Footprint">Duc:LED0603-RD_WHITE</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C965810.pdf</field>
-        <field name="Description">LED WARM WHITE YELLOW LENS 0603 SMD</field>
+        <field name="Manufacturer">YONGYUTAI(永裕泰)</field>
+        <field name="MPN">YLED0402G</field>
+        <field name="LCSC Part">C20608784</field>
+        <field name="Footprint">Duc:LED0402-R-RD</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C20608784.pdf</field>
+        <field name="Description">LED EMERALD GREEN 0402 SMD</field>
       </fields>
-      <libsource lib="Duc-Diodes" part="LED 0603" description="LED WARM WHITE YELLOW LENS 0603 SMD"/>
-      <property name="Manufacturer" value="XINGLIGHT(成兴光)"/>
-      <property name="MPN" value="XL-1608WWC-06"/>
-      <property name="LCSC Part" value="C965810"/>
+      <libsource lib="Duc-Diodes" part="LED 0402" description="LED EMERALD GREEN 0402 SMD"/>
+      <property name="Manufacturer" value="YONGYUTAI(永裕泰)"/>
+      <property name="MPN" value="YLED0402G"/>
+      <property name="LCSC Part" value="C20608784"/>
       <property name="Sheetname" value="User - LED Indicators &amp; Buzzer"/>
       <property name="Sheetfile" value="User - LED Indicators &amp; Buzzer.kicad_sch"/>
-      <property name="ki_keywords" value="Light Emitting Diodes (LED)"/>
+      <property name="ki_keywords" value="LED Indication - Discrete"/>
       <sheetpath names="/Project Architecture/User - LED Indicators &amp; Buzzer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/28daf353-f3ef-4ecd-aedd-b1b76d334dfe/"/>
       <tstamps>c1ee5f3a-c1c9-414f-8710-2902285360a6</tstamps>
     </comp>
     <comp ref="D15">
-      <value>LED 0603</value>
-      <footprint>Duc:LED0603-RD_WHITE</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C965810.pdf</datasheet>
-      <description>LED WARM WHITE YELLOW LENS 0603 SMD</description>
+      <value>LED 0402</value>
+      <footprint>Duc:LED0402-R-RD</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C20608784.pdf</datasheet>
+      <description>LED EMERALD GREEN 0402 SMD</description>
       <fields>
-        <field name="Manufacturer">XINGLIGHT(成兴光)</field>
-        <field name="MPN">XL-1608WWC-06</field>
-        <field name="LCSC Part">C965810</field>
-        <field name="Footprint">Duc:LED0603-RD_WHITE</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C965810.pdf</field>
-        <field name="Description">LED WARM WHITE YELLOW LENS 0603 SMD</field>
+        <field name="Manufacturer">YONGYUTAI(永裕泰)</field>
+        <field name="MPN">YLED0402G</field>
+        <field name="LCSC Part">C20608784</field>
+        <field name="Footprint">Duc:LED0402-R-RD</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C20608784.pdf</field>
+        <field name="Description">LED EMERALD GREEN 0402 SMD</field>
       </fields>
-      <libsource lib="Duc-Diodes" part="LED 0603" description="LED WARM WHITE YELLOW LENS 0603 SMD"/>
-      <property name="Manufacturer" value="XINGLIGHT(成兴光)"/>
-      <property name="MPN" value="XL-1608WWC-06"/>
-      <property name="LCSC Part" value="C965810"/>
+      <libsource lib="Duc-Diodes" part="LED 0402" description="LED EMERALD GREEN 0402 SMD"/>
+      <property name="Manufacturer" value="YONGYUTAI(永裕泰)"/>
+      <property name="MPN" value="YLED0402G"/>
+      <property name="LCSC Part" value="C20608784"/>
       <property name="Sheetname" value="User - LED Indicators &amp; Buzzer"/>
       <property name="Sheetfile" value="User - LED Indicators &amp; Buzzer.kicad_sch"/>
-      <property name="ki_keywords" value="Light Emitting Diodes (LED)"/>
+      <property name="ki_keywords" value="LED Indication - Discrete"/>
       <sheetpath names="/Project Architecture/User - LED Indicators &amp; Buzzer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/28daf353-f3ef-4ecd-aedd-b1b76d334dfe/"/>
       <tstamps>5328f6cf-94ae-4969-9b92-67a859a3abe4</tstamps>
     </comp>
     <comp ref="D16">
-      <value>LED 0603</value>
-      <footprint>Duc:LED0603-RD_WHITE</footprint>
-      <datasheet>https://www.lcsc.com/datasheet/C965810.pdf</datasheet>
-      <description>LED WARM WHITE YELLOW LENS 0603 SMD</description>
+      <value>LED 0402</value>
+      <footprint>Duc:LED0402-R-RD</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C20608784.pdf</datasheet>
+      <description>LED EMERALD GREEN 0402 SMD</description>
       <fields>
-        <field name="Manufacturer">XINGLIGHT(成兴光)</field>
-        <field name="MPN">XL-1608WWC-06</field>
-        <field name="LCSC Part">C965810</field>
-        <field name="Footprint">Duc:LED0603-RD_WHITE</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C965810.pdf</field>
-        <field name="Description">LED WARM WHITE YELLOW LENS 0603 SMD</field>
+        <field name="Manufacturer">YONGYUTAI(永裕泰)</field>
+        <field name="MPN">YLED0402G</field>
+        <field name="LCSC Part">C20608784</field>
+        <field name="Footprint">Duc:LED0402-R-RD</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C20608784.pdf</field>
+        <field name="Description">LED EMERALD GREEN 0402 SMD</field>
       </fields>
-      <libsource lib="Duc-Diodes" part="LED 0603" description="LED WARM WHITE YELLOW LENS 0603 SMD"/>
-      <property name="Manufacturer" value="XINGLIGHT(成兴光)"/>
-      <property name="MPN" value="XL-1608WWC-06"/>
-      <property name="LCSC Part" value="C965810"/>
+      <libsource lib="Duc-Diodes" part="LED 0402" description="LED EMERALD GREEN 0402 SMD"/>
+      <property name="Manufacturer" value="YONGYUTAI(永裕泰)"/>
+      <property name="MPN" value="YLED0402G"/>
+      <property name="LCSC Part" value="C20608784"/>
       <property name="Sheetname" value="User - LED Indicators &amp; Buzzer"/>
       <property name="Sheetfile" value="User - LED Indicators &amp; Buzzer.kicad_sch"/>
-      <property name="ki_keywords" value="Light Emitting Diodes (LED)"/>
+      <property name="ki_keywords" value="LED Indication - Discrete"/>
       <sheetpath names="/Project Architecture/User - LED Indicators &amp; Buzzer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/28daf353-f3ef-4ecd-aedd-b1b76d334dfe/"/>
       <tstamps>48d8868e-281c-47ce-a96d-d81776c4712a</tstamps>
     </comp>
@@ -7349,22 +7349,22 @@
         <pin num="4" name="GND" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Duc-Diodes" part="LED 0603">
-      <description>LED WARM WHITE YELLOW LENS 0603 SMD</description>
-      <docs>https://www.lcsc.com/datasheet/C965810.pdf</docs>
+    <libpart lib="Duc-Diodes" part="LED 0402">
+      <description>LED EMERALD GREEN 0402 SMD</description>
+      <docs>https://www.lcsc.com/datasheet/C20608784.pdf</docs>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">LED 0603</field>
-        <field name="Footprint">Duc:LED0603-RD_WHITE</field>
-        <field name="Datasheet">https://www.lcsc.com/datasheet/C965810.pdf</field>
-        <field name="Description">LED WARM WHITE YELLOW LENS 0603 SMD</field>
-        <field name="Manufacturer">XINGLIGHT(成兴光)</field>
-        <field name="MPN">XL-1608WWC-06</field>
-        <field name="LCSC Part">C965810</field>
+        <field name="Value">LED 0402</field>
+        <field name="Footprint">Duc:LED0402-R-RD</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C20608784.pdf</field>
+        <field name="Description">LED EMERALD GREEN 0402 SMD</field>
+        <field name="Manufacturer">YONGYUTAI(永裕泰)</field>
+        <field name="MPN">YLED0402G</field>
+        <field name="LCSC Part">C20608784</field>
       </fields>
       <pins>
-        <pin num="1" name="C" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Duc-Diodes" part="PESD1CAN">
@@ -7906,14 +7906,14 @@
       <node ref="C93" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="C94" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="C95" pin="2" pintype="passive"/>
-      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D15" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="J13" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J13" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
@@ -8889,10 +8889,10 @@
       <node ref="C98" pin="1" pintype="passive"/>
       <node ref="C99" pin="1" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D2" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D4" pin="2" pinfunction="GND" pintype="passive"/>
-      <node ref="D5" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D7" pin="2" pinfunction="GND" pintype="passive"/>
       <node ref="D8" pin="3" pinfunction="3" pintype="passive"/>
@@ -9088,43 +9088,43 @@
       <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
     <net code="164" name="Net-(D2-A)" class="Default">
-      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R45" pin="2" pintype="passive"/>
     </net>
     <net code="165" name="Net-(D5-A)" class="Default">
-      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R50" pin="2" pintype="passive"/>
     </net>
-    <net code="166" name="Net-(D9-C)" class="Default">
-      <node ref="D9" pin="1" pinfunction="C" pintype="passive"/>
+    <net code="166" name="Net-(D9-K)" class="Default">
+      <node ref="D9" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="R59" pin="2" pintype="passive"/>
     </net>
-    <net code="167" name="Net-(D10-C)" class="Default">
-      <node ref="D10" pin="1" pinfunction="C" pintype="passive"/>
+    <net code="167" name="Net-(D10-K)" class="Default">
+      <node ref="D10" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="R60" pin="2" pintype="passive"/>
     </net>
-    <net code="168" name="Net-(D11-C)" class="Default">
-      <node ref="D11" pin="1" pinfunction="C" pintype="passive"/>
+    <net code="168" name="Net-(D11-K)" class="Default">
+      <node ref="D11" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="R61" pin="2" pintype="passive"/>
     </net>
-    <net code="169" name="Net-(D12-C)" class="Default">
-      <node ref="D12" pin="1" pinfunction="C" pintype="passive"/>
+    <net code="169" name="Net-(D12-K)" class="Default">
+      <node ref="D12" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="R62" pin="2" pintype="passive"/>
     </net>
-    <net code="170" name="Net-(D13-C)" class="Default">
-      <node ref="D13" pin="1" pinfunction="C" pintype="passive"/>
+    <net code="170" name="Net-(D13-K)" class="Default">
+      <node ref="D13" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="R63" pin="2" pintype="passive"/>
     </net>
-    <net code="171" name="Net-(D14-C)" class="Default">
-      <node ref="D14" pin="1" pinfunction="C" pintype="passive"/>
+    <net code="171" name="Net-(D14-K)" class="Default">
+      <node ref="D14" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="R64" pin="2" pintype="passive"/>
     </net>
-    <net code="172" name="Net-(D15-C)" class="Default">
-      <node ref="D15" pin="1" pinfunction="C" pintype="passive"/>
+    <net code="172" name="Net-(D15-K)" class="Default">
+      <node ref="D15" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="R65" pin="2" pintype="passive"/>
     </net>
-    <net code="173" name="Net-(D16-C)" class="Default">
-      <node ref="D16" pin="1" pinfunction="C" pintype="passive"/>
+    <net code="173" name="Net-(D16-K)" class="Default">
+      <node ref="D16" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="R66" pin="2" pintype="passive"/>
     </net>
     <net code="174" name="Net-(J9-CC1)" class="Default">

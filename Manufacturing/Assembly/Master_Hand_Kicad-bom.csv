@@ -3,7 +3,7 @@ Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufactur
 2,21,C1 C2 C3 C4 C10 C13 C15 C16 C17 C18 C19 C20 C21 C22 C23 C24 C83 C85 C91 C93 C94,CAP CER 0603,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html,C0603,CAP CER 0603,YAGEO(国巨),,
 3,4,C5 C6 C7 C8,CAP CER 1206,,C1206,CAP CER 1206,,,
 4,1,C14,SM337M025E0800,https://www.lcsc.com/datasheet/C44606382.pdf,CAP-SMD_BD6.3-L6.6-W6.6-FD-1,CAP ALUM POLY 330uF ±20% 25V SMD,SHENGYANG(升阳),,
-5,10,D2 D5 D9 D10 D11 D12 D13 D14 D15 D16,LED 0603,https://www.lcsc.com/datasheet/C965810.pdf,LED0603-RD_WHITE,LED WARM WHITE YELLOW LENS 0603 SMD,XINGLIGHT(成兴光),,
+5,10,D2 D5 D9 D10 D11 D12 D13 D14 D15 D16,LED 0402,https://www.lcsc.com/datasheet/C20608784.pdf,LED0402-R-RD,LED EMERALD GREEN 0402 SMD,YONGYUTAI(永裕泰),,
 6,1,D8,PESD1CAN,https://www.lcsc.com/datasheet/C21713981.pdf,SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR,ESD DIODE 24VWM 70VC SOT-23,GOODWORK(固得沃克),,
 7,1,D1,SMAJ12A,https://lcsc.com/product-detail/TVS_Littelfuse_SMAJ12A_SMAJ12A_C148213.html,SMA_L4.3-W2.6-LS5.2-RD,TVS DIODE 12VWM 19.9VC DO-214AC(SMA),Littelfuse(美国力特),,
 8,2,D3 D6,SMAJ5.0A,https://lcsc.com/product-detail/TVS_Littelfuse_SMAJ5-0A_SMAJ5-0A_C83329.html,SMA_L4.3-W2.6-LS5.2-RD,TVS DIODE 5VWM 9.2VC DO-214AC(SMA),Littelfuse(美国力特),,
