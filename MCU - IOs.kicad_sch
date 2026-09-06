@@ -3060,7 +3060,7 @@
 		(uuid "517c757a-a236-42ce-8418-388d802be9e6")
 	)
 	(no_connect
-		(at 21.59 241.3)
+		(at 21.59 213.36)
 		(uuid "596469ba-f0f8-476c-9130-bd425e47d3bf")
 	)
 	(no_connect
@@ -3076,7 +3076,7 @@
 		(uuid "7dc13bdc-5adf-4bed-ab04-a4eaac597bbf")
 	)
 	(no_connect
-		(at 21.59 125.73)
+		(at 21.59 97.79)
 		(uuid "89e3ece2-dbe0-46d2-9729-fbbef1706050")
 	)
 	(no_connect
@@ -7545,7 +7545,7 @@
 		(uuid "2e55d1f7-60a1-4b86-aca7-eddb2b581d0c")
 	)
 	(label "GPIO-LED_P"
-		(at 105.41 200.66 180)
+		(at 105.41 228.6 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -9146,7 +9146,7 @@
 		(uuid "b82d9dd7-7a9d-4a77-8bb2-23c130a6b907")
 	)
 	(label "GPIO-LED_M"
-		(at 105.41 228.6 180)
+		(at 105.41 200.66 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -9201,7 +9201,7 @@
 		(uuid "bf225439-7211-41db-8541-7d715784ca76")
 	)
 	(label "DIAG_I"
-		(at 21.59 97.79 0)
+		(at 21.59 125.73 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -9387,7 +9387,7 @@
 		(uuid "c70d9dc4-5de0-4ba1-8864-9f8f30b943e7")
 	)
 	(label "DIAG_M"
-		(at 21.59 213.36 0)
+		(at 21.59 241.3 0)
 		(effects
 			(font
 				(face "KiCad Font")

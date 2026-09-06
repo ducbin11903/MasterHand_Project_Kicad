@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.001
         }
       },
       "diff_pair_dimensions": [
@@ -714,7 +714,9 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+VBAT": "rgb(255, 0, 245)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {

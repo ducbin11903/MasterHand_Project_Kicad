@@ -1661,16 +1661,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 132.08) (xy 114.3 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e31f9c2-97c2-464c-9bfa-629b6944b18c")
-	)
-	(wire
-		(pts
 			(xy 127 116.84) (xy 127 114.3)
 		)
 		(stroke
@@ -2071,16 +2061,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 142.24) (xy 114.3 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94a6ddeb-73df-4611-8c9c-642b0843d692")
-	)
-	(wire
-		(pts
 			(xy 191.77 48.26) (xy 227.33 48.26)
 		)
 		(stroke
@@ -2338,16 +2318,6 @@
 			(type default)
 		)
 		(uuid "c9c38d32-ac88-4999-a878-579cadf40386")
-	)
-	(wire
-		(pts
-			(xy 111.76 132.08) (xy 114.3 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9d8d2b4-bb98-4634-82a7-0f6c32ca86b8")
 	)
 	(wire
 		(pts
@@ -9988,17 +9958,6 @@
 		)
 		(uuid "eb094545-0050-4ba5-aa17-9122ba3ec8b8")
 	)
-	(hierarchical_label "+3V3"
-		(shape input)
-		(at 111.76 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f688a8ce-bf0b-4040-a6d9-ba8ace2125a1")
-	)
 	(symbol
 		(lib_id "Power_symbols:GND")
 		(at 104.14 116.84 0)
@@ -11160,122 +11119,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 0402")
-		(at 114.3 138.43 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "769e28f6-5198-42ee-97a8-88ae51c8e376")
-		(property "Reference" "C51"
-			(at 116.84 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CAP CER 0402"
-			(at 116.84 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Duc:C0402"
-			(at 127 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0402"
-			(at 121.666 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 132.08 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0402KRX5R7BB105"
-			(at 134.62 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C325464"
-			(at 137.16 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be358bfb-0762-4701-a2fc-e78fcf1b090b")
-		)
-		(pin "2"
-			(uuid "ba405293-6e56-4f18-a312-68b98877c2a8")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0e310d91-42c2-4690-bfd4-9246790b766e"
-					(reference "C57")
-					(unit 1)
-				)
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/532b36d3-d138-4afb-bda1-51f9683d78db"
-					(reference "C81")
-					(unit 1)
-				)
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/6e3f6445-cc28-4d16-974c-f01ec631a8e8"
-					(reference "C69")
-					(unit 1)
-				)
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7bf3d89d-775e-493c-829b-872d627e2e73"
-					(reference "C75")
-					(unit 1)
-				)
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/9fef4a7d-fe15-42af-a3b5-95e4268f1da7"
-					(reference "C51")
-					(unit 1)
-				)
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/c2a0337a-9573-480d-bd2e-a37678bf00c3"
-					(reference "C63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_symbols:GND")
 		(at 129.54 116.84 0)
 		(unit 1)
@@ -12308,92 +12151,6 @@
 				)
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/c2a0337a-9573-480d-bd2e-a37678bf00c3"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:GND")
-		(at 116.84 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "e0bd9e8c-6108-4e74-bae5-25dd27fa70bc")
-		(property "Reference" "#PWR046"
-			(at 116.586 136.144 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 149.098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power Symbol - Global Ground"
-			(at 116.84 151.638 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "438d81d1-02b3-422d-b617-dc3066ed13a5")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0e310d91-42c2-4690-bfd4-9246790b766e"
-					(reference "#PWR056")
-					(unit 1)
-				)
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/532b36d3-d138-4afb-bda1-51f9683d78db"
-					(reference "#PWR096")
-					(unit 1)
-				)
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/6e3f6445-cc28-4d16-974c-f01ec631a8e8"
-					(reference "#PWR076")
-					(unit 1)
-				)
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/7bf3d89d-775e-493c-829b-872d627e2e73"
-					(reference "#PWR086")
-					(unit 1)
-				)
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/9fef4a7d-fe15-42af-a3b5-95e4268f1da7"
-					(reference "#PWR046")
-					(unit 1)
-				)
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/c2a0337a-9573-480d-bd2e-a37678bf00c3"
-					(reference "#PWR066")
 					(unit 1)
 				)
 			)

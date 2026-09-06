@@ -915,54 +915,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Duc-Connectors:PZ2.54-2X5P-H25"
+		(symbol "Duc-Connectors:HCZZ0015-5"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -0.254 18.796 0)
+				(at -1.016 11.176 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "PZ2.54-2X5P-H25"
-				(at 0 -10.16 0)
+			(property "Value" "HCZZ0015-5"
+				(at -6.604 8.636 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Duc:HDR-TH_10P-P2.54-V-M-R2-C5-S2.54_2"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C42431818.pdf"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CONN HEADER 10POS 2.54mm DUAL ROW TH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "JXTCONN(聚兴泰)"
+			(property "Footprint" "Duc:CONN-SMD_5P-P1.25_HCZZ0015-5"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -971,7 +944,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "PZ2.54-2X5P-H25"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C7433471.pdf"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -980,7 +953,16 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C42431818"
+			(property "Description" "CONN HEADER SMD 5POS 1.25mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "HC(虹成电子)"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -989,10 +971,37 @@
 					(hide yes)
 				)
 			)
-			(symbol "PZ2.54-2X5P-H25_0_1"
+			(property "MPN" "HCZZ0015-5"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C7433471"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Wire To Board / Wire To Wire Connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HCZZ0015-5_0_1"
 				(rectangle
-					(start -7.62 17.78)
-					(end 7.62 -7.62)
+					(start -1.27 7.62)
+					(end 3.81 -7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -1002,7 +1011,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 15.24 0)
+					(at -3.81 5.08 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -1020,79 +1029,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 10.16 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 15.24 180)
+					(at -3.81 2.54 0)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -1110,7 +1047,25 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 10.16 180)
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -2.54 0)
 					(length 2.54)
 					(name "4"
 						(effects
@@ -1128,7 +1083,43 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 5.08 180)
+					(at -3.81 -5.08 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -10.16 90)
 					(length 2.54)
 					(name "6"
 						(effects
@@ -1138,44 +1129,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PZ2.54-2X5P-H25_1_1"
-				(pin passive line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1902,12 +1855,6 @@
 		(uuid "018bff3b-ad97-4a4a-98e5-a5c16abad5f4")
 	)
 	(junction
-		(at 129.54 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "127d258b-fb5a-4f04-ba2c-571c789171a4")
-	)
-	(junction
 		(at 54.61 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1974,12 +1921,6 @@
 		(uuid "bf5b5012-fb09-4ada-808a-91f7d989e5c6")
 	)
 	(junction
-		(at 81.28 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d04857e7-8cee-4c6e-9038-33a3c4f3133f")
-	)
-	(junction
 		(at 54.61 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1998,8 +1939,20 @@
 		(uuid "f7e7444a-9356-4ec6-865a-b4dc600d1530")
 	)
 	(no_connect
+		(at 67.31 132.08)
+		(uuid "5d002839-d41f-4f4c-8d22-6014af651a89")
+	)
+	(no_connect
 		(at 115.57 63.5)
 		(uuid "8b3ce457-57ed-489a-992a-3cbccd7639cd")
+	)
+	(no_connect
+		(at 128.27 132.08)
+		(uuid "8cb6edf0-fe6b-44b5-bfab-e4510ec75a81")
+	)
+	(no_connect
+		(at 67.31 111.76)
+		(uuid "8cdd5c19-4acf-4fb5-89f9-e7923468426d")
 	)
 	(no_connect
 		(at 68.58 95.25)
@@ -2012,6 +1965,10 @@
 	(no_connect
 		(at 115.57 48.26)
 		(uuid "c969d74d-132d-4bd0-889f-ab0dd02685fd")
+	)
+	(no_connect
+		(at 128.27 111.76)
+		(uuid "d402ad19-9089-4b2a-abfe-19d49f156315")
 	)
 	(bus_entry
 		(at 236.22 41.91)
@@ -2181,16 +2138,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 116.84) (xy 129.54 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0395285f-24c6-4dda-b87e-9e673fae9db8")
-	)
-	(wire
-		(pts
 			(xy 76.2 90.17) (xy 88.9 90.17)
 		)
 		(stroke
@@ -2271,7 +2218,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 127) (xy 95.25 127)
+			(xy 76.2 121.92) (xy 73.66 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2341,17 +2288,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 129.54) (xy 81.28 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2903d852-86ca-4b88-a137-a578f2f2c4ca")
-	)
-	(wire
-		(pts
-			(xy 95.25 116.84) (xy 81.28 116.84)
+			(xy 73.66 116.84) (xy 76.2 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2408,16 +2345,6 @@
 			(type default)
 		)
 		(uuid "304451f3-6a8d-4232-b239-e642ab57e0bf")
-	)
-	(wire
-		(pts
-			(xy 129.54 129.54) (xy 129.54 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31a3ab86-0e7e-44e6-a5ab-a3f8dcdcb784")
 	)
 	(bus
 		(pts
@@ -2491,7 +2418,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 121.92) (xy 115.57 121.92)
+			(xy 137.16 119.38) (xy 134.62 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2511,7 +2438,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 121.92) (xy 95.25 121.92)
+			(xy 76.2 119.38) (xy 73.66 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2591,7 +2518,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 116.84) (xy 129.54 116.84)
+			(xy 134.62 116.84) (xy 137.16 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2711,7 +2638,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 137.16) (xy 92.71 137.16)
+			(xy 73.66 127) (xy 76.2 127)
 		)
 		(stroke
 			(width 0)
@@ -2771,7 +2698,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 127) (xy 115.57 127)
+			(xy 137.16 121.92) (xy 134.62 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2881,7 +2808,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 137.16) (xy 118.11 137.16)
+			(xy 134.62 127) (xy 137.16 127)
 		)
 		(stroke
 			(width 0)
@@ -2961,7 +2888,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 132.08) (xy 115.57 132.08)
+			(xy 137.16 124.46) (xy 134.62 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2991,7 +2918,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 137.16) (xy 92.71 139.7)
+			(xy 76.2 127) (xy 76.2 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3018,16 +2945,6 @@
 			(type default)
 		)
 		(uuid "c4c80398-462e-4b0f-84e0-af0e3bcd967a")
-	)
-	(wire
-		(pts
-			(xy 135.89 116.84) (xy 129.54 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c523eac1-faa5-43ae-9987-226e0d7c45a8")
 	)
 	(bus
 		(pts
@@ -3071,7 +2988,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 132.08) (xy 95.25 132.08)
+			(xy 76.2 124.46) (xy 73.66 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3191,16 +3108,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 116.84) (xy 81.28 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8a7c9fe-c78f-4d8f-affc-476ee13573b2")
-	)
-	(wire
-		(pts
 			(xy 168.91 77.47) (xy 168.91 74.93)
 		)
 		(stroke
@@ -3211,23 +3118,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 137.16) (xy 118.11 139.7)
+			(xy 137.16 127) (xy 137.16 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f95324ef-170c-46a6-9820-90aee31dcfd1")
-	)
-	(wire
-		(pts
-			(xy 74.93 116.84) (xy 81.28 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9d885e3-6b58-48be-86ea-36ed46dc393c")
 	)
 	(wire
 		(pts
@@ -10854,7 +10751,7 @@
 		)
 	)
 	(label "SWDIO1"
-		(at 118.11 127 0)
+		(at 137.16 121.92 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -10931,13 +10828,13 @@
 		(uuid "235a25fa-ddf0-42a6-8f9e-b58f7d095554")
 	)
 	(label "SWCLK2"
-		(at 92.71 121.92 180)
+		(at 76.2 119.38 0)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "39c89075-2596-4d8d-abac-3bec2ff45486")
 	)
@@ -11052,7 +10949,7 @@
 		(uuid "835ba06d-d2ce-46f2-8ccf-eceba12f17ee")
 	)
 	(label "SWCLK1"
-		(at 118.11 121.92 0)
+		(at 137.16 119.38 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -11096,13 +10993,13 @@
 		(uuid "a8cb5da5-5d91-40c3-8559-bb2c35f877a8")
 	)
 	(label "SWDIO2"
-		(at 92.71 127 180)
+		(at 76.2 121.92 0)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "ac654412-f121-47cc-96b1-49424c679e5e")
 	)
@@ -11118,7 +11015,7 @@
 		(uuid "ce2ef783-a43a-43ab-b967-85ddaffce5dc")
 	)
 	(label "NRST1"
-		(at 118.11 132.08 0)
+		(at 137.16 124.46 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -11129,13 +11026,13 @@
 		(uuid "e37cd7fe-f648-41b1-bf39-0bf91b8c56f1")
 	)
 	(label "NRST2"
-		(at 92.71 132.08 180)
+		(at 76.2 124.46 0)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e57f4a53-3621-4c7e-8f43-df61c9103850")
 	)
@@ -11163,12 +11060,12 @@
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
-		(at 74.93 116.84 180)
+		(at 76.2 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1d5da075-190a-4133-b75f-ffdd08b8a55e")
 	)
@@ -11250,7 +11147,7 @@
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
-		(at 135.89 116.84 0)
+		(at 137.16 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11313,7 +11210,8 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:GND")
-		(at 95.25 139.7 0)
+		(at 73.66 129.54 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11321,7 +11219,7 @@
 		(dnp no)
 		(uuid "03b2d521-50f2-4c61-9b55-c98ee807a8c1")
 		(property "Reference" "#PWR0135"
-			(at 94.996 131.064 0)
+			(at 73.914 120.904 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11331,7 +11229,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 143.764 0)
+			(at 76.2 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11339,7 +11237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 139.7 0)
+			(at 73.66 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11348,7 +11246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 139.7 0)
+			(at 73.66 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11357,7 +11255,7 @@
 			)
 		)
 		(property "Description" "Power Symbol - Global Ground"
-			(at 95.25 146.558 0)
+			(at 73.66 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11372,6 +11270,119 @@
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/17a3bf50-6382-4412-b8e5-9c1afeb8fb2e"
 					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Duc-Connectors:HCZZ0015-5")
+		(at 130.81 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11a48d1b-6407-44cb-9c75-1c26ef562f7d")
+		(property "Reference" "J14"
+			(at 125.73 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HCZZ0015-5"
+			(at 125.73 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Duc:CONN-SMD_5P-P1.25_HCZZ0015-5"
+			(at 130.81 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7433471.pdf"
+			(at 130.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER SMD 5POS 1.25mm"
+			(at 130.81 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HC(虹成电子)"
+			(at 130.81 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HCZZ0015-5"
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7433471"
+			(at 130.81 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6a8b0f3e-f01b-40a8-9dc2-c4ff4472b3bb")
+		)
+		(pin "6"
+			(uuid "c135188d-7fe7-435f-a105-5bfd5d76db47")
+		)
+		(pin "5"
+			(uuid "516185d6-7d2c-40f9-8ea6-0e178be5e9e0")
+		)
+		(pin "1"
+			(uuid "ed9db011-f29a-46b3-a443-e5fcdf296dd1")
+		)
+		(pin "2"
+			(uuid "73ccf906-08c0-459e-887e-05327ccb7e68")
+		)
+		(pin "4"
+			(uuid "b4f86ee9-1bfb-4cc5-9157-2354dcb4d56c")
+		)
+		(pin "7"
+			(uuid "51408d4c-283d-4b9e-bc0f-fe0c7064edd2")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/17a3bf50-6382-4412-b8e5-9c1afeb8fb2e"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -11471,318 +11482,6 @@
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/17a3bf50-6382-4412-b8e5-9c1afeb8fb2e"
 					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Duc-Connectors:PZ2.54-2X5P-H25")
-		(at 105.41 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24d31963-856e-4f1e-aff0-01a4cd7f5cef")
-		(property "Reference" "J13"
-			(at 105.41 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PZ2.54-2X5P-H25"
-			(at 105.41 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Duc:HDR-TH_10P-P2.54-V-M-R2-C5-S2.54_2"
-			(at 105.41 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C42431818.pdf"
-			(at 105.41 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN HEADER 10POS 2.54mm DUAL ROW TH"
-			(at 105.41 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JXTCONN(聚兴泰)"
-			(at 105.41 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PZ2.54-2X5P-H25"
-			(at 105.41 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C42431818"
-			(at 105.41 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "a53fa527-8e87-4953-8b3c-81d62685815d")
-		)
-		(pin "4"
-			(uuid "29f76a9b-3dcb-4d9e-a915-664454180075")
-		)
-		(pin "1"
-			(uuid "efd238e7-de9e-48f1-8105-7cfe5bbd8368")
-		)
-		(pin "6"
-			(uuid "9a24e07d-7937-4a24-acbe-bbd60a4df851")
-		)
-		(pin "2"
-			(uuid "a23f8ae9-d0b9-401e-ad15-d76169d0e413")
-		)
-		(pin "9"
-			(uuid "c705d996-1a55-4795-8ba6-d21e5eee6045")
-		)
-		(pin "3"
-			(uuid "5a1c3b34-dbf2-4856-b972-8da35293cd6e")
-		)
-		(pin "5"
-			(uuid "16c8724f-162f-47eb-ab40-ad7eb06d3aa1")
-		)
-		(pin "7"
-			(uuid "9c2aa450-b509-4154-a6a9-49decb487eea")
-		)
-		(pin "10"
-			(uuid "73783ceb-be72-43ff-9b73-cf1d52af1a26")
-		)
-		(instances
-			(project ""
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/17a3bf50-6382-4412-b8e5-9c1afeb8fb2e"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 0603")
-		(at 81.28 125.73 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "272c1ad9-dec2-460a-afd0-f32c57d13745")
-		(property "Reference" "C94"
-			(at 74.93 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CAP CER 0603"
-			(at 64.77 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Duc:C0603"
-			(at 88.9 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 91.44 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0603"
-			(at 81.28 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 93.98 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CAP CER 0603"
-			(at 96.52 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C14663"
-			(at 99.06 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d22557d-5481-425f-bf7c-e8c26f1b7ee4")
-		)
-		(pin "2"
-			(uuid "e909ac57-3142-43d4-8e68-177edb00e4f0")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/17a3bf50-6382-4412-b8e5-9c1afeb8fb2e"
-					(reference "C94")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Duc-Capacitors:CAP CER 0603")
-		(at 129.54 125.73 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2f24bc9c-4cb6-43bd-b939-6a163c2fb9bb")
-		(property "Reference" "C93"
-			(at 135.89 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CAP CER 0603"
-			(at 146.05 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Duc:C0603"
-			(at 121.92 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 119.38 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0603"
-			(at 129.54 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 116.84 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CAP CER 0603"
-			(at 114.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C14663"
-			(at 111.76 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29bf6f6d-bcd5-48f3-8f6d-829baec90906")
-		)
-		(pin "2"
-			(uuid "400e3952-7e01-4601-85ab-9fee7ca0a963")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/17a3bf50-6382-4412-b8e5-9c1afeb8fb2e"
-					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -11948,139 +11647,6 @@
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/17a3bf50-6382-4412-b8e5-9c1afeb8fb2e"
 					(reference "R57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:GND")
-		(at 127 134.62 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "5fec9b4d-d00a-4377-92ca-ab780bd3ca38")
-		(property "Reference" "#PWR0132"
-			(at 127.254 125.984 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 138.684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power Symbol - Global Ground"
-			(at 127 141.478 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1fb5894b-e558-419c-9e97-000648f3dddc")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/17a3bf50-6382-4412-b8e5-9c1afeb8fb2e"
-					(reference "#PWR0132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:GND")
-		(at 83.82 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "618a4b12-a266-4af3-b528-b8a1bd120967")
-		(property "Reference" "#PWR0134"
-			(at 83.566 125.984 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.28 138.684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power Symbol - Global Ground"
-			(at 83.82 141.478 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06625de5-583f-47ed-a60c-c67128cf2dfe")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/17a3bf50-6382-4412-b8e5-9c1afeb8fb2e"
-					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -12627,6 +12193,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Duc-Connectors:HCZZ0015-5")
+		(at 69.85 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c05f940c-ec46-4157-ab63-0fd11895dcd2")
+		(property "Reference" "J13"
+			(at 64.77 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HCZZ0015-5"
+			(at 64.77 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Duc:CONN-SMD_5P-P1.25_HCZZ0015-5"
+			(at 69.85 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7433471.pdf"
+			(at 69.85 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER SMD 5POS 1.25mm"
+			(at 69.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HC(虹成电子)"
+			(at 69.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HCZZ0015-5"
+			(at 69.85 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7433471"
+			(at 69.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ed87b0ad-f5da-4f40-8f7a-9466f43e87f9")
+		)
+		(pin "6"
+			(uuid "477d2b03-aae9-481e-86ea-84843d917acf")
+		)
+		(pin "5"
+			(uuid "9076ae29-b2ed-4987-85d4-d9334ee9d1a9")
+		)
+		(pin "1"
+			(uuid "8ef5f2f3-bf14-4b52-b745-cabb623aed7f")
+		)
+		(pin "2"
+			(uuid "4f42b504-9421-43b6-bbfb-74ce85c7eb24")
+		)
+		(pin "4"
+			(uuid "8379ca45-9b13-406c-a790-220b44613604")
+		)
+		(pin "7"
+			(uuid "7711c72e-e1e2-4024-83d7-5152c1ae34e4")
+		)
+		(instances
+			(project "Master_Hand_Kicad"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/17a3bf50-6382-4412-b8e5-9c1afeb8fb2e"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Duc-Capacitors:CAP CER 0603")
 		(at 193.04 71.12 90)
 		(unit 1)
@@ -12791,7 +12470,7 @@
 	)
 	(symbol
 		(lib_id "Power_symbols:GND")
-		(at 115.57 139.7 0)
+		(at 134.62 129.54 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12800,7 +12479,7 @@
 		(dnp no)
 		(uuid "dd2cf026-4c43-4789-a017-b4e22451dbc0")
 		(property "Reference" "#PWR0133"
-			(at 115.824 131.064 0)
+			(at 134.874 120.904 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12810,7 +12489,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 143.764 0)
+			(at 137.16 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12818,7 +12497,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 139.7 0)
+			(at 134.62 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12827,7 +12506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 139.7 0)
+			(at 134.62 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12836,7 +12515,7 @@
 			)
 		)
 		(property "Description" "Power Symbol - Global Ground"
-			(at 115.57 146.558 0)
+			(at 134.62 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
