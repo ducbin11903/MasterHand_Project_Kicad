@@ -22,7 +22,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0 3.302 0)
+				(at -2.54 3.81 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,7 +30,7 @@
 				)
 			)
 			(property "Value" "CAP CER 0402"
-				(at 0 -3.81 0)
+				(at 0 10.16 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -38,12 +38,11 @@
 				)
 			)
 			(property "Footprint" "Duc:C0402"
-				(at 0 -12.7 0)
+				(at 2.54 8.382 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
@@ -431,7 +430,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0 5.08 0)
+				(at 0 2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -447,12 +446,11 @@
 				)
 			)
 			(property "Footprint" "Duc:R0402"
-				(at 0 -7.62 0)
+				(at 0 -5.588 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
@@ -7143,7 +7141,97 @@
 			"AGIAYgBkADUAbABpAEcAQQA5ADEANQA5AHYAdQBjAFEAQwBpAEMAQwBlAGwAQQBIAGoAUgB0AHAA"
 			"YwBGAFEAQgBpAEoAUwB4AGkAYgBFAG0AaABOAGgAMgBiAGQAZAAyAHYAbgBlAHgAOQB4AFkAdwBW"
 			"AHgAcQA3AHYAagA0AGQANgB2AE8AaAB2AFIAeQBiADIAOQBrADMARgBmAGMAZABNAFYAdQBsAE0A"
-			"WgAyAG4AeQArADEAcQAvAHoAVA=="
+			"WgAyAG4AeQArADEAcQAvAHoAVAB2AGQANwB2AG4ANQArAGYANQBmAEMAcQBKAGsAYQBHAFIAWgBp"
+			"AHoAZABHAEUASgBKADQARAA4AE0AUABBAEIAQQBDAEUAUABHAEkAMABzAHoASgBPAEwASQB2AGUA"
+			"dQBGAG4AQwBiAEcAcQBJADIAUgBqAEUAZABrADQAQQBpAGkASQBYADQAOABIAFcAKwAzAEcAdwBD"
+			"AHYAMQB5AHUASgBRADkATQAwAGwAVABXAHMAUgBzAHoAcwBjAHgAYwBEAG8ASgBUAE4ANABnAGoA"
+			"ZgA0AEYAQwA4AGkAUQBRACsAQgBCACsAQwAxAGkAYgBOAGgAbQBTAGoAZAA3ADQAdQBpAC8ASgB5"
+			"AEMAbQAwAE4AYgBkADEAZAB6ADgAMwBwADAASgB3AC8ANgBzAHUAeAB1AFYAOQBqADIAeABCAHcA"
+			"WQB1ADAAMABuADYAYgBMADMAVwBUADcAdABOAHoAdgBrAHUAVQBDAEUAeABPADEAWgBxADEAQQBx"
+			"AHoAZwBrAE4AYQBRADQAQQBVAEkARQBKAEsAWQB2ADIAaQBkAGYATgB5ADAASgBoADUANAB4AFMA"
+			"bgBxADYASQBsAGQAMQBVADUAWgBsAEMARwBHAFMANQB6AFkAeABiAGQATgBkAHIANwBmAEQANABm"
+			"AEQAdAA3AFUAMgBVADAANgBYAHIAZQBiAG0AYwBQAFEAcgBwAFoAUQAyAEwAbwAvAFYANwBkACsA"
+			"QgBoAFEALwBBADcAeQBCADAAUgB2AGYAZABFAEsAUABvAGYAUwBaAEkAZwBVAFkAagBoAGUAcgAz"
+			"ADAAZgBjACsAUgBtAFcATgBkADEAOABmAGoANgBYAEEANABWAEcAVgBwAHIASgBYAGUAbQBOAFYA"
+			"NgBsAGUAZgBKAHkASgBmADQAMQBSAGcATQBjAGUAZwBQADcATgBYAEQAUgBIADkAKwBRADYASAB1"
+			"AFYAMABvAEIAZwB6AFgARwBKAGsAbgB3AHMAUwB6AHUAVABkAE8ASQAxAE4AMwBoADQAKwBOADQA"
+			"UABEAFYAdABZADYAMwBkADcAWABiADcALwBYADQAMgBtAHgAbABOAFAAZwB6AEkANABGAGoARwBp"
+			"AEEALwBqACsAeQBlAFcAOABzAGUAMgBjAG0AaABuADAARgBvADAAbgBKAG4AQgBPAFgAKwA5ADMA"
+			"RQA3AG4AMAA5AHYAYgB0ACsASgArAE4AOQBiAHMAZABtAEsAaQBOADAAbABpAHQAYwBnAEQAZgBK"
+			"AHIASAA4AGYAZgBpAHUAZQBNAGoARwBUAEMAKwA2AHMATgAwAGYAKwBjAGwARABHADYAQwAxAGgA"
+			"QQBaAGQAWgBaAGwAcgA2ACsAdgBkADIAMQA3AHUAVgA1AE8AcAA1AFAAegB6AGoAdgBIAEEATQB2"
+			"AGwAVQBqAHoAWgBMAE0AdQBNAE0AWABMADgAagA2AGMAUwBEAEcAawA3AE0AVQBEAHgAQgAzAFIA"
+			"cgBvAHkAVQBiAEoATwAyAEUAUgAxAG4AMABkAG0ASwBBAHkARwB5AFQASgBFAG4AUwBHAEwAbgB2"
+			"ADIAOQBQADUAOQBQAGQALwAvAC8AZAAxAFgAYwBjAFkASAAzADcAUABkAHIAdQBkAFQAYQBmAHcA"
+			"awBLAGUARwAwAFMAcgBoADQAOQB1AC8AOABCAG8AMQBzAFoAWABXAHgAbwBCAFcAaQA3ADUAegBm"
+			"AGUAOAAvAFAAbwA3AEgAdwA3AEcAcwB5AHQAVgB5ACsAZgBTADgASAAwADcAaQBUAEwAcgBYAHgA"
+			"egBLAHMAWQBUACsAUABsAHYALwBQADMAZABuAGgANQBZAGUAcQBOAGYANwB5AEoAeABCAEsATQA3"
+			"ADMAZgA3ADIAZgBUAGEAWgBaAG4AUwBhAEsAWQBvAFEAZABtADYAWQBWAGcAKwBtAHIAWgBjAGYA"
+			"ZwAvAGsAcwBWAEcAUQAxAHEAZwBUAEcAdAB0AG0AaQBTAEgAagA4AFAAaAA0ADYATgBwADIAaABB"
+			"AGkATQBNAC8AbQBzADkASABEAGgAYwBqAE0ATQBZAFMAQQB6AHYAVgBGAFUAUgA5AFAANQA5AHYA"
+			"dABpAG8AagBMADEAWABxAHoAWABhADkAVwB5ADAAbQBlAEEANgBJAFAASABnAFkAdABMAFIASgAy"
+			"ADAARAArAHkAbQA0AGkAawBxAHQAWgBhAFMATABxAFkAVwBTAG0AVgA1AC8AbABtAHMAMgBXAEcA"
+			"MgArADEAMgBPAHAAMgA2AHYAdQB2AGEALwBYAEsAMQB5AHYATgBzADUAUABJAGEASwBwAG4AcgB1"
+			"AGoANQBmAHIAcgBXAEkAdAAyAHcAMwBMADgAOAB2AFEAbwB4AEkAbwArAGMAQwBDAEUAbwBSAHkA"
+			"dAA5ADQAQwBEAEEAawBXAEkAQQBBAFEARABGAEMAWgBLAFMARQBTAEIAbQB5AG0AUwBHAFQAUgBv"
+			"AGkAawBRAGEAdgArAGYAcQB2AHEAMAByAGQAdABYADEAeABiAGoAZQB4AGIAQwBKADAAMwB4AGgA"
+			"bgBiAEkARgA3AGEANwBuAGkANQBIAG0AOAAzAGwAYQBUAEwAeABlAGIANQArAGEAZgBWAGEAcABG"
+			"AG0AaQBWAEwAZwBJAHcAUQBHAGsAQwBiAGkAbwBaAG8AVwBIAG0AWABNAGkATQBKAFYAUABFAFQA"
+			"SABZAHQATQA0AFEAZwB5AFIARgBZAHgAQQB4AGkAZgA5ADQAegBKADYAUgBQADEAUgBpAEMAKwBW"
+			"AFkAbQBaAGoAegBHAEkAKwBGADkASwBOADAAKwBsADAAdQBWAHkAOQA4ADEAMwBmAGIAVABmAGIA"
+			"TgBNAHUAawArAEYANwBTAGMANQBmAHIAdABXAG0AYgA2AFgAUwA2AFcAVwA4ADIAMgA4ADEAawBt"
+			"AGcAdAAvAFMAdgBBAHcAOQBpAFMATQBsAEIAYgBDAFoAagBQAE8ATQBBAE0AQQBBAFEASgBwAHEA"
+			"eABsAEQAdwBCAEQAQQBoADQAegAxAEcAaQBZADIAbwBVAFMAMwBpAGYARQBYAGMAbAAwAFQAZgBO"
+			"AE0AVwBzAFcALwB2AGYARAAxAEMAbQBvAGMAawBLAHcASgBmAE8AdQA5AGMAeQBFAEQAdAA5AHkA"
+			"KwBiAGwANQBmAHQAWgBtAE0AcwB3AFMAUABaAEwAUwBvAEwAawBzAHcASgB3AHkASQBpAG8AdABH"
+			"ADkAKwBHADUAaABrAFYAUwAwAFIARwBCAG0ASQBoAFMAYQBQADIAdQBTAHgASwBiAEgAMAA3AEUA"
+			"cwB5ADcAZQAzADkANgBaAHAAOAB5AHgAbgA1AHIAcQB1AHIANwBkAHIAWABkAFYASgBtAG0AegBX"
+			"AG0ANAAwAFUAZwBSAGwASgBzAE0AWQB4AHgAdwA3AHcASwBjAHYASABYADcAYgBTAEQAegBhAHgA"
+			"OQBMAGIARwA4AE8AQgAyAEEAaQBSAE0AZABMAEwAWgBiAHAARAB3AGUARABqAGUANwByAGYANwAv"
+			"AFkANgBBAGcANgBJAHMAdwBIAGEANwBmAFgAbAA1AFcAUwB3AFcAZQBaADYASgBTAHcAWABNAEIA"
+			"RQBpAGoASQBDAGcAaQBRAG8AUgBIACsAWQBLAGsARQBFAGsAQgA0AG8ATgBlAEIAVQBSADgAVwBK"
+			"AEcAeQBXAGgAdABVAFUAbwBXAGsAZwBXAGYAVwA2AE4AWgBQAHQAQwBGAFUAVABkAGMAbQBzAGQA"
+			"YwBZAG8AbQBzAFEAbwBpAEoATQBzAHMAbABpAHQANQBuAHQAbgAvAFAAbABCAHUAWQByAG0ATQAw"
+			"ADUAUwBZAEoAdwBoAHkAcgBGAEMAaQBOAEMARgBBAHgAQwA4AE8AaQBSAEcAaQBNAE8ARQBwADYA"
+			"ZgBtAGQAbgBIAEUAVQBLAEUARQBRAFoAWQBpAFUAaQBsAGEAYgBKAGEAcgBXAEkASQB3AG8AWAB4"
+			"ADgAZgBFAGgARQBNAGQAeQB1AFYAeQB2ADEAbwB2ADUASABNAGYAcQBnAGsAZABoAEkASAA1ADkA"
+			"OABUACsALwBjAEcARABXACsAWAAxAGIAbwBoAEIAOQBDADQAcABVAGsAcQBoAEoAcABsAGQATAB2"
+			"AGQAbgB3AGYAQQBXAFQAZQBUAEMANgBBAHcANwBNAGoAMAArAFAAZwAxAHcAYgBZAEUAQQBsAGsA"
+			"OABzAHcAagB2AHUAbgBLAHkAUQB2AEgAdQBOAEEAUQBQAGsAbABNAGcATQBrADAAbABvAHoAUQA0"
+			"AGgAUgA2AE8AVQBSADAASABuAFAATQBVAGEATwBJAFUAUQBhAG8AbABmAHcASQBQAEsASwBVAGoA"
+			"VQA1ADkARQBUACsARwBZAEgAdQA2AEQAbwBNAGYAdABBAFkAQgBuAG8AaQBRAGMAWQA0AFIAbwBp"
+			"AEIAbgBYAE8AMwArADYAMgBwAEcAMQBJADAAWAB5AHoAUwB2AGsAKwBTAEoATQBUAFkAOQAzADMA"
+			"WAA5AGIAMABEAFIAUQBNAGQAbAA1AGYAawB3AHoAaQBmAG4AOAAxAHUAUAA5AHgAbQA0ADQAdgB6"
+			"AFkARAB6AEUAcQA2AFUASABDAE8ANwA2AGUARAA1AGYAMwB0ADcAZQBMADUAZQB6ADkAMgBHADMA"
+			"MwA3ADIAYQBWADgARQAwAGIAOQBjAGIATQBDAGkAdABoAGUAZgBsAHMAVwBCAGsASgA0AG0AcABv"
+			"AGcAZQA2ADgAMgBQAEQATgBEAGkALwAvAEcAVQBXAHAATwBMAGQAdQBWAGkAVgA5AGUAVgB5AE8A"
+			"VgArAGsAcwBWAEEAOQBQAFQAOABKAGoARgBiAFgAOQBiADIANABPADkAYwBmAGoAZwBkAHQAMQBH"
+			"AEkAKwBCAHkAbABpAGwAYwA4AGcASABHAGkAZgBQAHQAYwBzAFAATgA2AE4AdgB4AGgATAArAFcA"
+			"dgA4AFgAQQBNAEkAUQB4AFQARgB6AGsAVQA5AEgAdQBhAGYAQgBPAE0AQwBhAGYAeAB3AEkAaAAv"
+			"AGsAcwBnAEwAMAB5AGwASwBXAGgASAB5AFcAWgBjAFoAbwBhADYAMQBVAEkAUABWAGQAVgA1AGIA"
+			"RgBiAEQAWgB6AHYAYgB2AGQAYgBtAFYAVgBlAGUAZQBTAE4ATgA5AHMAZAAvAHUAbgAzAFcAUQB5"
+			"AGsAVwBlADAAVgBqACsAcwBPAFgAOAA1ADQAeAA1AG0ANAByAHQAUgBIAEYAOQBnAGkARwBOAEUA"
+			"dwBKAHQAUQBNAFQASgB6AG0AcQBiADcALwBaAFAAVwA1AG4ARAA0AHUATgAvAHYAUgBWAEgAbQBl"
+			"AFcAYQBOAGwAYgBOAE8AaQB2AGkASABqAEsAUgBOADUASwAwAGoAUgA2AFAAMABkADcAZQBBAHoA"
+			"eABuADYAYQBqADQAWQBBAFMASgA4AGoANABoAFkAMwBPAC8ANgAwADAARQBkADgAaABuAGYATAA1"
+			"AEEAZgBqACsAVABqAHAANABOAHQAUwBXAHgAaQBqAEEAawBoAHEARgBGAEIANgBuAHEANQAzAHUA"
+			"NQAzAFMAWABSAEsAbABuAHcAeQBuAGUANQAyAHUALwBWAG0ATwA4AGsAbgBzAHQAVAB3AFgAdwB4"
+			"AGIALwBPAGcAUwBtADIAdABVADEARQBvAFMAOABUAEwASgA3ACsALwB2AGgAOABPAEIAbQBkAE0A"
+			"MABtAFUANQBuAHEAOQBWAHEAcwBWAHoAcwA5AHIAcwAwAFQAUwBJAEgAWQBwAEwAYwAzAEsAZQBC"
+			"AEgAbwBEAG4AeAA4AGUATwBHAE0AYQBYAEYAVQBVAEsAaABvAFoAdQBBAEMAUQBBAEIAYQBDAE0A"
+			"VwBTACsAaAB0ADMAcQBhAHAAZABPAHMAegBaAEwAaQBIAGEAdgArADEAUABVAGQAQgBLAGMAVgBH"
+			"ADQAMgBwAE0AUQB1AEUAVwBmAEQAVQBkADYARgBUAHIARQBoAEYARAB3AEYAaQBRAEsARQBiAFIA"
+			"bwBVAEUAVwB2AG8AbgBFAEkAQwBrAE4AZgBlAFAAQQBjAHYAbwBZADAAWQBlAGcAeABwAHgATQBS"
+			"AFgARgBxAEkAegBCAE4ATQBtAHMAVABRAEMAdwByAHAAdQB5AEwAQgBLAGIASwBLAFYAbgBzAC8A"
+			"bAAwAE0AbABNAEsARwBVAEQAcAA0AGUARQBmAHcAYwBkADMAMAA0ADIAZgBFAC8AcgBEAGMATwBU"
+			"AHIAWgBIADEAbQA0AFEAQQBaAHcAUABlAHUAcgBxAHUAdQA3AFUAaQBwAHkAVwBTAHkAMwBlADYA"
+			"UQBzAE8ALwBkADgAWABpAFUAYwByAFIASgBuAGsAdQA2AGkAWgBrAEoAZwBUAFEARgB6ADgASABI"
+			"AHcAZABVAGQAMQBaAEcAbABoAHcAVQBaAEIAUwAxAEcAUgB0AG4AcABCAEcAQQBZAEIAawBmAGMA"
+			"OQBlADMAOQAxAGwAMwBPADcAZgAyAGUAbgBPADcAaABmAG4ARgAxAEUAVQBLAEgAeABKAFEAawBL"
+			"AGoAWABlAEcAcABoAE8AVwBwAHMAMgB6AHIAdQB1AG4AegBCAFkAVQBxAFIAawBuAFEAKwBIAEQA"
+			"bwBNAFEAeQBpAEcATgBsAEsAcABqADkAOAB3AHcATABQAHgANQBoAE0AdgA3AEQAdgB1AE4AcABP"
+			"AGsAOABjAE4AZgAzADkALwB0ADkARQBGAFkAeAA1AHAAZQAvAC8ARwBVADYAbQAvAFYAZABYADkA"
+			"ZQBWAEQANgBFAG8AaQAzAC8ANg=="
 		)
 	)
 	(label "BOOT_2"
@@ -7309,10 +7397,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1349cd85-3e06-4707-a244-dd66afb62e20")
 		(property "Reference" "C98"
-			(at 163.83 109.2199 90)
+			(at 162.56 109.855 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,8 +7407,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 0402"
-			(at 163.83 111.7599 90)
+		(property "Value" "100nF 50V"
+			(at 162.56 112.395 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7330,13 +7417,12 @@
 			)
 		)
 		(property "Footprint" "Duc:C0402"
-			(at 163.83 114.2999 90)
+			(at 162.56 114.935 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
@@ -7407,10 +7493,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1b40b9f4-5956-4d1f-a56c-ba66b978cc30")
 		(property "Reference" "R80"
-			(at 185.42 130.8099 90)
+			(at 185.42 130.175 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,8 +7503,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RES 0402"
-			(at 185.42 133.3499 90)
+		(property "Value" "10K 0.1%"
+			(at 185.42 132.715 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,12 +7513,12 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 175.26 132.08 0)
+			(at 185.42 135.255 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
@@ -7504,10 +7589,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3c007f59-3922-4645-83b7-4a018ab41f03")
 		(property "Reference" "SW1"
-			(at 215.9 97.79 0)
+			(at 215.9 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7515,7 +7599,7 @@
 			)
 		)
 		(property "Value" "DSIC02LSGET"
-			(at 215.9 100.33 0)
+			(at 215.9 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7607,14 +7691,14 @@
 		(dnp no)
 		(uuid "3c34543a-56a8-4c1d-910a-5e60ce09d6dc")
 		(property "Reference" "R75"
-			(at 160.02 64.77 0)
+			(at 160.02 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RES 0402"
+		(property "Value" "0R 0.1%"
 			(at 160.02 72.898 0)
 			(effects
 				(font
@@ -7623,12 +7707,11 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 160.02 77.47 0)
+			(at 160.02 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
@@ -7699,18 +7782,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5215c880-e64b-4d05-92dc-f5b0130b87dd")
 		(property "Reference" "R77"
-			(at 149.86 99.06 0)
+			(at 149.86 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RES 0402"
-			(at 149.86 101.6 0)
+		(property "Value" "10K 0.1%"
+			(at 149.86 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7718,12 +7800,11 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 149.86 113.03 0)
+			(at 149.86 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
@@ -7796,7 +7877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58fcda21-ac55-4851-8e95-cb2dae87a749")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR140"
 			(at 92.456 75.184 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7847,7 +7928,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "#PWR0140")
+					(reference "#PWR140")
 					(unit 1)
 				)
 			)
@@ -7863,7 +7944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d5a11bb-7cd7-4dcf-997f-99dd0dddf337")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR139"
 			(at 161.544 67.564 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7915,7 +7996,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "#PWR0139")
+					(reference "#PWR139")
 					(unit 1)
 				)
 			)
@@ -7931,14 +8012,14 @@
 		(dnp no)
 		(uuid "6cf1cfdd-a01d-4959-9849-fad9248bd823")
 		(property "Reference" "R73"
-			(at 160.02 50.8 0)
+			(at 160.02 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RES 0402"
+		(property "Value" "0R 0.1%"
 			(at 160.02 58.928 0)
 			(effects
 				(font
@@ -7947,12 +8028,11 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 160.02 63.5 0)
+			(at 160.02 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
@@ -8025,15 +8105,15 @@
 		(dnp no)
 		(uuid "748ae3e4-9c48-402d-8a55-0376bd7711ae")
 		(property "Reference" "R79"
-			(at 149.86 120.65 0)
+			(at 149.86 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RES 0402"
-			(at 149.86 128.778 0)
+		(property "Value" "10K 0.1%"
+			(at 149.86 128.143 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8041,12 +8121,11 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 149.86 133.35 0)
+			(at 149.86 130.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
@@ -8119,7 +8198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "804f3cb2-7107-41a7-b171-c11524993396")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR142"
 			(at 185.166 129.794 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8170,7 +8249,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "#PWR0142")
+					(reference "#PWR142")
 					(unit 1)
 				)
 			)
@@ -8184,10 +8263,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a175da42-8e25-4a69-96f5-eab073cc9c3e")
 		(property "Reference" "R76"
-			(at 92.71 74.9299 90)
+			(at 92.71 74.295 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8195,8 +8273,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RES 0402"
-			(at 92.71 77.4699 90)
+		(property "Value" "100K 0.1%"
+			(at 92.71 76.835 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8205,12 +8283,12 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 97.79 76.2 0)
+			(at 92.71 79.375 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
@@ -8281,10 +8359,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ada536d2-0cd3-4e40-8aa5-dfdaa07090ba")
 		(property "Reference" "R74"
-			(at 92.71 57.1499 90)
+			(at 92.71 56.515 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8292,8 +8369,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RES 0402"
-			(at 92.71 59.6899 90)
+		(property "Value" "100K 0.1%"
+			(at 92.71 59.055 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8302,12 +8379,12 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 97.79 58.42 0)
+			(at 92.71 61.595 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
@@ -8378,10 +8455,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ae1073e9-91ea-49cb-a5ce-b466b78ac109")
 		(property "Reference" "R78"
-			(at 185.42 110.4899 90)
+			(at 185.42 109.855 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8389,8 +8465,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RES 0402"
-			(at 185.42 113.0299 90)
+		(property "Value" "10K 0.1%"
+			(at 185.42 112.395 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8399,12 +8475,12 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 175.26 111.76 0)
+			(at 185.42 114.935 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
@@ -8475,10 +8551,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "df63dc41-687f-45ea-86f5-399280b123d6")
 		(property "Reference" "C99"
-			(at 163.83 129.5399 90)
+			(at 162.56 130.175 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8486,8 +8561,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 0402"
-			(at 163.83 132.0799 90)
+		(property "Value" "100nF 50V"
+			(at 162.56 132.715 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8496,7 +8571,7 @@
 			)
 		)
 		(property "Footprint" "Duc:C0402"
-			(at 163.83 134.6199 90)
+			(at 162.56 135.255 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8574,7 +8649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df7f47c5-a073-48af-84e2-6c08c5f6e605")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR141"
 			(at 185.166 109.474 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8625,7 +8700,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/0bb1cb44-88fa-40dc-bea3-1adee4cb244a"
-					(reference "#PWR0141")
+					(reference "#PWR141")
 					(unit 1)
 				)
 			)

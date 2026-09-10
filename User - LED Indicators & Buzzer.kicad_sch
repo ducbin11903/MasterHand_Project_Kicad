@@ -248,7 +248,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0 5.08 0)
+				(at 0 2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -264,12 +264,11 @@
 				)
 			)
 			(property "Footprint" "Duc:R0402"
-				(at 0 -7.62 0)
+				(at 0 -5.588 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
@@ -421,43 +420,43 @@
 		(uuid "902e1379-1ff2-4bf8-bde1-1d36358b3669")
 	)
 	(junction
-		(at 101.6 63.5)
+		(at 152.4 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50ec0a51-d84a-463f-95ba-190fca87e274")
 	)
 	(junction
-		(at 101.6 76.2)
+		(at 152.4 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "703c4859-ab5a-4dad-acbe-0d34a946b0b4")
 	)
 	(junction
-		(at 101.6 38.1)
+		(at 152.4 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82c023bc-4258-40b5-b237-dd7f63500870")
 	)
 	(junction
-		(at 101.6 101.6)
+		(at 152.4 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83236e11-a53b-4ae8-bfd2-8bf1be68a610")
 	)
 	(junction
-		(at 101.6 88.9)
+		(at 152.4 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8bb0a3ee-04bd-4dd5-bdce-d63fcd282868")
 	)
 	(junction
-		(at 101.6 50.8)
+		(at 152.4 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c99c5570-f785-49f7-bd44-cc3d963a6511")
 	)
 	(junction
-		(at 101.6 114.3)
+		(at 152.4 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cae175cc-5ec8-470f-8ae0-b54e0c846f78")
@@ -536,7 +535,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 127) (xy 81.28 127)
+			(xy 106.045 133.35) (xy 119.38 133.35)
 		)
 		(stroke
 			(width 0)
@@ -556,7 +555,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 63.5) (xy 91.44 63.5)
+			(xy 152.4 69.85) (xy 129.54 69.85)
 		)
 		(stroke
 			(width 0)
@@ -576,7 +575,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 114.3) (xy 91.44 114.3)
+			(xy 152.4 120.65) (xy 129.54 120.65)
 		)
 		(stroke
 			(width 0)
@@ -606,7 +605,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 63.5) (xy 67.31 63.5)
+			(xy 76.835 69.85) (xy 98.425 69.85)
 		)
 		(stroke
 			(width 0)
@@ -616,7 +615,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 76.2) (xy 91.44 76.2)
+			(xy 152.4 82.55) (xy 129.54 82.55)
 		)
 		(stroke
 			(width 0)
@@ -626,7 +625,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 127) (xy 91.44 127)
+			(xy 152.4 133.35) (xy 129.54 133.35)
 		)
 		(stroke
 			(width 0)
@@ -656,7 +655,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 114.3) (xy 101.6 127)
+			(xy 152.4 120.65) (xy 152.4 133.35)
 		)
 		(stroke
 			(width 0)
@@ -666,7 +665,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 101.6) (xy 67.31 101.6)
+			(xy 76.835 107.95) (xy 98.425 107.95)
 		)
 		(stroke
 			(width 0)
@@ -676,7 +675,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 101.6) (xy 91.44 101.6)
+			(xy 152.4 107.95) (xy 129.54 107.95)
 		)
 		(stroke
 			(width 0)
@@ -696,7 +695,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 76.2) (xy 67.31 76.2)
+			(xy 76.835 82.55) (xy 98.425 82.55)
 		)
 		(stroke
 			(width 0)
@@ -706,7 +705,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 50.8) (xy 101.6 63.5)
+			(xy 152.4 57.15) (xy 152.4 69.85)
 		)
 		(stroke
 			(width 0)
@@ -716,7 +715,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 63.5) (xy 101.6 76.2)
+			(xy 152.4 69.85) (xy 152.4 82.55)
 		)
 		(stroke
 			(width 0)
@@ -736,7 +735,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 50.8) (xy 67.31 50.8)
+			(xy 76.835 57.15) (xy 98.425 57.15)
 		)
 		(stroke
 			(width 0)
@@ -746,7 +745,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 50.8) (xy 91.44 50.8)
+			(xy 152.4 57.15) (xy 129.54 57.15)
 		)
 		(stroke
 			(width 0)
@@ -756,7 +755,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 50.8) (xy 81.28 50.8)
+			(xy 106.045 57.15) (xy 119.38 57.15)
 		)
 		(stroke
 			(width 0)
@@ -766,7 +765,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 38.1) (xy 67.31 38.1)
+			(xy 76.835 44.45) (xy 98.425 44.45)
 		)
 		(stroke
 			(width 0)
@@ -816,7 +815,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 101.6) (xy 101.6 114.3)
+			(xy 152.4 107.95) (xy 152.4 120.65)
 		)
 		(stroke
 			(width 0)
@@ -836,7 +835,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 114.3) (xy 81.28 114.3)
+			(xy 106.045 120.65) (xy 119.38 120.65)
 		)
 		(stroke
 			(width 0)
@@ -856,7 +855,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 38.1) (xy 81.28 38.1)
+			(xy 106.045 44.45) (xy 119.38 44.45)
 		)
 		(stroke
 			(width 0)
@@ -866,7 +865,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 76.2) (xy 81.28 76.2)
+			(xy 106.045 82.55) (xy 119.38 82.55)
 		)
 		(stroke
 			(width 0)
@@ -876,7 +875,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 76.2) (xy 101.6 88.9)
+			(xy 152.4 82.55) (xy 152.4 95.25)
 		)
 		(stroke
 			(width 0)
@@ -886,7 +885,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 88.9) (xy 81.28 88.9)
+			(xy 106.045 95.25) (xy 119.38 95.25)
 		)
 		(stroke
 			(width 0)
@@ -896,7 +895,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 88.9) (xy 101.6 101.6)
+			(xy 152.4 95.25) (xy 152.4 107.95)
 		)
 		(stroke
 			(width 0)
@@ -906,7 +905,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 88.9) (xy 91.44 88.9)
+			(xy 152.4 95.25) (xy 129.54 95.25)
 		)
 		(stroke
 			(width 0)
@@ -926,7 +925,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 63.5) (xy 81.28 63.5)
+			(xy 106.045 69.85) (xy 119.38 69.85)
 		)
 		(stroke
 			(width 0)
@@ -976,7 +975,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 101.6) (xy 81.28 101.6)
+			(xy 106.045 107.95) (xy 119.38 107.95)
 		)
 		(stroke
 			(width 0)
@@ -986,7 +985,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 127) (xy 67.31 127)
+			(xy 76.835 133.35) (xy 98.425 133.35)
 		)
 		(stroke
 			(width 0)
@@ -996,7 +995,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 38.1) (xy 101.6 50.8)
+			(xy 152.4 44.45) (xy 152.4 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1006,7 +1005,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 38.1) (xy 107.95 38.1)
+			(xy 152.4 44.45) (xy 165.1 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1016,7 +1015,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 88.9) (xy 67.31 88.9)
+			(xy 76.835 95.25) (xy 98.425 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1026,7 +1025,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 114.3) (xy 67.31 114.3)
+			(xy 76.835 120.65) (xy 98.425 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1036,7 +1035,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 38.1) (xy 91.44 38.1)
+			(xy 152.4 44.45) (xy 129.54 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1075,7 +1074,7 @@
 		(uuid "ffa80d32-1b81-4392-a98d-693e165b09cd")
 	)
 	(image
-		(at 140.6251 65.16)
+		(at 207.3001 114.69)
 		(scale 0.383677)
 		(uuid "cce2d4b1-885b-404c-a9fa-6ae6a33da887")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAfkAAAGUCAIAAAC5vsw3AAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -2265,11 +2264,101 @@
 			"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"
-			"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"
+			"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"
+			"AAAA3Z46mQBmCIBmZWQga3Vyc2l2AAAAAAAAAAAAAAAAAADbnjiZAGcIgEZldHQgS3Vyc2l2AAAA"
+			"AAAAAAAAAAAAANmePpkAaAiAR3JhcyBJdGFsaXF1ZQAAAAAAAAAAAAAA1548mQBpCIAGAAAAEAAA"
+			"AKCfvQMAAAAAAAAAAAAAAADVnjKZAGoIgFZldCBDdXJzaWVmAAAAAAAAAAAAAAAAANOeMJkAawiA"
+			"BgAAABAAAADQlb0DAAAAAAAAAAAAAAAA0Z42mQBsCIBTdGFuZGFhcmQAAAAAAAAAAAAAAAAAAADP"
+			"njSZAG0IgE5lZ3JldGEgY3Vyc2l2YQAAAAAAAAAAAM2eKpkAbgiASXRhbGlxdWUAAAAAAAAAAAAA"
+			"AAAAAAAAy54omQBvCIBIYWx2ZmV0IEt1cnNpdgAAAAAAAAAAAADJni6ZAHAIgE5vcm1hYWxpAAAA"
+			"AAAAAAAAAAAAAAAAAMeeLJkAcQiAVHXEjW7DoSBrdXJ6w612YQAAAAAAAAAAxZ4imQByCIBGZXQg"
+			"S3Vyc2l2AAAAAAAAAAAAAAAAAADDniCZAHMIgEthbMSxbiDEsHRhbGlrAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABSAGgASABhADQAMwBSAHgAUABNAEIA"
+			"VgBEAGIAcQBBAEYAYQB0ADkAYgBvAEMAQQBQAFUASQBvAEsAYwBvAEIARwB2AHQAdQBxADcATABz"
+			"AG4AUgBkADEANwBZAHQAYgBaAGEAOAB5AFAAZgA3AGYAVgBIAGsAawBZAHEARQBsAEoAUwAwAHMA"
+			"TQBhADcAMwBtAFQATwBPAHcAdgBHAEcAbQBSAEkANQBKAHgAUgBwAE8ASQBvAEYAbwBKAGIAWQA2"
+			"AGQANQBtAHEAYQBKAFcASAB3ADQAbAAwAEoASQBBAGoATgAzADQAUABsAE8ARgBpAHIASAB2ADEA"
+			"eQBHAFkAUQBEAHcARwBFADYAVQBaAGkAQgBQADUAVABaACsAdwBTAGUAOABTAGYAUgBRAGwAawBU"
+			"AG0ARQB5AEoASQA1AFcAawBzAEcARwBQAEwAcwBnADUARABUADAAaQB2AE0AdgBTAHgAYQBXAFAA"
+			"RwBjAFcAeQBiADUAbgBxADkAdABtADEASABaAFYAUgBGAGsAUgAvADIAaAA3AEkAcQBoAFoAQgBF"
+			"AC8AMwBlAHYATgB2AEMAbAB5AFEAeQAzAEIASwBUAE8AcABaAEoAeABIAEUAcwBwAHUAZQBEAHoA"
+			"dgBEAFIAdAAwAHoAYQBOAHMAWgBZAHgAZwBjAGcAWgBZADMAcgBWADAAegB5ADEAVABjAHYALwBw"
+			"AHgALwA5AHoAeABSAGcAdABaAFoAWQBzAHQAbgA5AFcAdgBoAGEAbgA4AE0ASABkAFIAaABqAFEA"
+			"cQBBAHgAcgBtADMAYQB5ACsAWABTAE4AVwAzAGIAdABlAE0AMABaAGwAbgAyACsAUABwAHgAdgA5"
+			"ACsAWABaAFMAbQBGADcAUABwAHUASABFAFoAawBLAEoAVwBpAEoAbQAxAGsANgBCADAAMQBEAE4A"
+			"QwBhADIALwA2AC8AWAA1AEoAawB4AFEAVABIAGYAdABQAFkAagBIAEgAQgBjAFYAbgBXAGEAMwAy"
+			"AHQAbQA3AHIAdgBlAHUAcQAyAFAAKwB3AFAAagA0ACsAUAByAHgANQBmADcAZgBjAEgAWgBFAGgA"
+			"dABnAEkAUQBxAHIASgBTAFMAUwBqAHAAdwBXAHAAcwBQAHIATQBoAE4AaAA5ADgATABPAGQAcQBI"
+			"AEYAcQB4AHoAagBqAE0AZgByAFYAcgBYAGwAVABvAGIAcgBwAGQATABYAFQAZgByAHMAaQBMAEQA"
+			"UABNAHUASQAxAGUATgA0AFAAQgA2AE8AQgA0AGEAcwA3AC8AdQB1ADYAOABaAHgASgBCADgAbABU"
+			"AG0ASQBwAHAARABVADIARQBDAFgAaAAzAFMAQgA2AEsAZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGFuAAAAAAAAAAAADwAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAADC1xnAIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAABvbGQA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAGltZXMgTmV3IFJvbWFuAAAAAAAAAAAADwAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZmBsnAIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAA"
+			"AAB0YWxpYwAAAAAAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAGltZXMgTmV3IFJvbWFuAAAAAAAAAAAA"
+			"DwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAR99wnAIAAAAAAAAAAAAAAAAAAAAAAAAP"
+			"AAAAAAAAAAB0YWxpYwAAAAAAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAGltZXMgTmV3IFJvbWFuAAAA"
+			"AAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWt9wnAIAAAAAAAAAAAAAAAAA"
+			"AAAAAAAPAAAAAAAAAABlZ3VsYXIAAAAAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAGltZXMgTmV3IFJv"
+			"bWFuAAAAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEaRYnAIAAAAAAAAA"
+			"AAAAAAAAAAAAAAAPAAAAAAAAAABvbGQgSXRhbGljAAAAAAAAAAAAAAAAAA8AAAAAAAAAAGltZXMg"
+			"TmV3IFJvbWFuAAAAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjD5xnAIA"
+			"AAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAABlZ3VsYXIAAAAAAAAAAAAAAAAAAAAAAA8AAAAAAAAA"
+			"AGltZXMgTmV3IFJvbWFuAAAAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"qT5xnAIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAAB0YWxpYwAAAAAAAAAAAAAAAAAAAAAAAA8A"
+			"AAAAAAAAAGltZXMgTmV3IFJvbWFuAAAAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAb8dwnAIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAABlZ3VsYXIAAAAAAAAAAAAAAAAA"
+			"AAAAAA8AAAAAAAAAAGltZXMgTmV3IFJvbWFuAAAAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAld9wnAIAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
 	(label "GPIO-LED_P"
-		(at 59.69 76.2 180)
+		(at 76.835 82.55 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -2302,7 +2391,7 @@
 		(uuid "2f37fd0b-d718-4e20-8863-317ba10d0266")
 	)
 	(label "GPIO-LED_Debug_2"
-		(at 59.69 127 180)
+		(at 76.835 133.35 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -2313,7 +2402,7 @@
 		(uuid "496a49d0-0464-4496-892c-ad748af9849f")
 	)
 	(label "GPIO-LED_R"
-		(at 59.69 88.9 180)
+		(at 76.835 95.25 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -2357,7 +2446,7 @@
 		(uuid "7d21af02-358f-43d2-be72-46522101770c")
 	)
 	(label "GPIO-LED_Debug_1"
-		(at 59.69 114.3 180)
+		(at 76.835 120.65 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -2390,7 +2479,7 @@
 		(uuid "9361ac68-8d3d-4ccf-a475-1c5676ca47c3")
 	)
 	(label "GPIO-LED_T2"
-		(at 59.69 63.5 180)
+		(at 76.835 69.85 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -2401,7 +2490,7 @@
 		(uuid "bc166df7-58d4-4d3a-ab84-5615f227076c")
 	)
 	(label "GPIO-LED_I"
-		(at 59.69 38.1 180)
+		(at 76.835 44.45 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -2423,7 +2512,7 @@
 		(uuid "c775d10d-7de4-4e38-bdf5-9f666536a78a")
 	)
 	(label "GPIO-LED_T1"
-		(at 59.69 50.8 180)
+		(at 76.835 57.15 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -2434,7 +2523,7 @@
 		(uuid "d896b56d-fc10-41bf-a566-a8a9829820e4")
 	)
 	(label "GPIO-LED_M"
-		(at 59.69 101.6 180)
+		(at 76.835 107.95 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -2485,7 +2574,7 @@
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
-		(at 107.95 38.1 0)
+		(at 165.1 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2496,7 +2585,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 71.12 101.6 0)
+		(at 102.235 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2504,15 +2593,15 @@
 		(dnp no)
 		(uuid "01c2cbb5-1663-4c1b-9868-9dace2cd8b27")
 		(property "Reference" "R64"
-			(at 71.12 96.52 0)
+			(at 102.235 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RES 0402"
-			(at 71.12 104.648 0)
+		(property "Value" "100R 0.1%"
+			(at 102.235 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,16 +2609,15 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 71.12 109.22 0)
+			(at 102.235 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-			(at 71.12 111.76 0)
+			(at 102.235 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,7 +2626,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0402"
-			(at 70.612 104.648 0)
+			(at 101.727 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +2635,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 71.12 114.3 0)
+			(at 102.235 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,7 +2644,7 @@
 			)
 		)
 		(property "MPN" "RT0402FRE07100KL"
-			(at 71.12 116.84 0)
+			(at 102.235 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,7 +2653,7 @@
 			)
 		)
 		(property "LCSC Part" "C728576"
-			(at 71.12 119.38 0)
+			(at 102.235 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,7 +2678,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Diodes:LED 0402")
-		(at 86.36 62.23 0)
+		(at 124.46 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2598,15 +2686,15 @@
 		(dnp no)
 		(uuid "0acd6621-bdb8-4400-b553-f17dd693dc30")
 		(property "Reference" "D11"
-			(at 86.36 58.42 0)
+			(at 127.635 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED 0402"
-			(at 86.36 68.58 0)
+		(property "Value" "YELLOW 0402"
+			(at 124.46 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2702,7 @@
 			)
 		)
 		(property "Footprint" "Duc:LED0402-R-RD"
-			(at 86.36 71.12 0)
+			(at 124.46 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2711,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C20608784.pdf"
-			(at 86.36 73.66 0)
+			(at 124.46 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,7 +2720,7 @@
 			)
 		)
 		(property "Description" "LED EMERALD GREEN 0402 SMD"
-			(at 86.36 62.23 0)
+			(at 124.46 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +2729,7 @@
 			)
 		)
 		(property "Manufacturer" "YONGYUTAI(永裕泰)"
-			(at 86.36 76.2 0)
+			(at 124.46 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,7 +2738,7 @@
 			)
 		)
 		(property "MPN" "YLED0402G"
-			(at 86.36 78.74 0)
+			(at 124.46 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2747,7 @@
 			)
 		)
 		(property "LCSC Part" "C20608784"
-			(at 86.36 81.28 0)
+			(at 124.46 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,7 +2772,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 71.12 63.5 0)
+		(at 102.235 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2692,15 +2780,15 @@
 		(dnp no)
 		(uuid "3151f23b-6da0-4fd3-a810-29145a0adba9")
 		(property "Reference" "R61"
-			(at 71.12 58.42 0)
+			(at 102.235 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RES 0402"
-			(at 71.12 66.548 0)
+		(property "Value" "100R 0.1%"
+			(at 102.235 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,16 +2796,15 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 71.12 71.12 0)
+			(at 102.235 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-			(at 71.12 73.66 0)
+			(at 102.235 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,7 +2813,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0402"
-			(at 70.612 66.548 0)
+			(at 101.727 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +2822,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 71.12 76.2 0)
+			(at 102.235 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +2831,7 @@
 			)
 		)
 		(property "MPN" "RT0402FRE07100KL"
-			(at 71.12 78.74 0)
+			(at 102.235 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +2840,7 @@
 			)
 		)
 		(property "LCSC Part" "C728576"
-			(at 71.12 81.28 0)
+			(at 102.235 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2778,7 +2865,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 71.12 38.1 0)
+		(at 102.235 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2786,15 +2873,15 @@
 		(dnp no)
 		(uuid "33c5c9f2-8d0b-4b3d-9150-8bd98313360b")
 		(property "Reference" "R59"
-			(at 71.12 33.02 0)
+			(at 102.235 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RES 0402"
-			(at 71.12 41.148 0)
+		(property "Value" "330R 0.1%"
+			(at 102.235 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2802,16 +2889,15 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 71.12 45.72 0)
+			(at 102.235 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-			(at 71.12 48.26 0)
+			(at 102.235 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +2906,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0402"
-			(at 70.612 41.148 0)
+			(at 101.727 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +2915,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 71.12 50.8 0)
+			(at 102.235 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2838,7 +2924,7 @@
 			)
 		)
 		(property "MPN" "RT0402FRE07100KL"
-			(at 71.12 53.34 0)
+			(at 102.235 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,7 +2933,7 @@
 			)
 		)
 		(property "LCSC Part" "C728576"
-			(at 71.12 55.88 0)
+			(at 102.235 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,7 +2958,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Diodes:LED 0402")
-		(at 86.36 125.73 0)
+		(at 124.46 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2880,15 +2966,15 @@
 		(dnp no)
 		(uuid "48d8868e-281c-47ce-a96d-d81776c4712a")
 		(property "Reference" "D16"
-			(at 86.36 121.92 0)
+			(at 127.635 130.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED 0402"
-			(at 86.36 132.08 0)
+		(property "Value" "RED 0402"
+			(at 124.46 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2896,7 +2982,7 @@
 			)
 		)
 		(property "Footprint" "Duc:LED0402-R-RD"
-			(at 86.36 134.62 0)
+			(at 124.46 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2905,7 +2991,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C20608784.pdf"
-			(at 86.36 137.16 0)
+			(at 124.46 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2914,7 +3000,7 @@
 			)
 		)
 		(property "Description" "LED EMERALD GREEN 0402 SMD"
-			(at 86.36 125.73 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +3009,7 @@
 			)
 		)
 		(property "Manufacturer" "YONGYUTAI(永裕泰)"
-			(at 86.36 139.7 0)
+			(at 124.46 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,7 +3018,7 @@
 			)
 		)
 		(property "MPN" "YLED0402G"
-			(at 86.36 142.24 0)
+			(at 124.46 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2941,7 +3027,7 @@
 			)
 		)
 		(property "LCSC Part" "C20608784"
-			(at 86.36 144.78 0)
+			(at 124.46 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,7 +3052,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Diodes:LED 0402")
-		(at 86.36 113.03 0)
+		(at 124.46 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2974,15 +3060,15 @@
 		(dnp no)
 		(uuid "5328f6cf-94ae-4969-9b92-67a859a3abe4")
 		(property "Reference" "D15"
-			(at 86.36 109.22 0)
+			(at 127.635 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED 0402"
-			(at 86.36 119.38 0)
+		(property "Value" "RED 0402"
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,7 +3076,7 @@
 			)
 		)
 		(property "Footprint" "Duc:LED0402-R-RD"
-			(at 86.36 121.92 0)
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2999,7 +3085,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C20608784.pdf"
-			(at 86.36 124.46 0)
+			(at 124.46 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3008,7 +3094,7 @@
 			)
 		)
 		(property "Description" "LED EMERALD GREEN 0402 SMD"
-			(at 86.36 113.03 0)
+			(at 124.46 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,7 +3103,7 @@
 			)
 		)
 		(property "Manufacturer" "YONGYUTAI(永裕泰)"
-			(at 86.36 127 0)
+			(at 124.46 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3026,7 +3112,7 @@
 			)
 		)
 		(property "MPN" "YLED0402G"
-			(at 86.36 129.54 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,7 +3121,7 @@
 			)
 		)
 		(property "LCSC Part" "C20608784"
-			(at 86.36 132.08 0)
+			(at 124.46 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3060,7 +3146,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 71.12 114.3 0)
+		(at 102.235 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3068,15 +3154,15 @@
 		(dnp no)
 		(uuid "6cfcb588-2942-4880-8794-775b383a28ac")
 		(property "Reference" "R65"
-			(at 71.12 109.22 0)
+			(at 102.235 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RES 0402"
-			(at 71.12 117.348 0)
+		(property "Value" "330R 0.1%"
+			(at 102.235 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,16 +3170,15 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 71.12 121.92 0)
+			(at 102.235 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-			(at 71.12 124.46 0)
+			(at 102.235 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,7 +3187,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0402"
-			(at 70.612 117.348 0)
+			(at 101.727 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3111,7 +3196,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 71.12 127 0)
+			(at 102.235 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3205,7 @@
 			)
 		)
 		(property "MPN" "RT0402FRE07100KL"
-			(at 71.12 129.54 0)
+			(at 102.235 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,7 +3214,7 @@
 			)
 		)
 		(property "LCSC Part" "C728576"
-			(at 71.12 132.08 0)
+			(at 102.235 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,7 +3239,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Diodes:LED 0402")
-		(at 86.36 87.63 0)
+		(at 124.46 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3162,15 +3247,15 @@
 		(dnp no)
 		(uuid "a7c865ed-4454-466f-ba80-9bcca15c641c")
 		(property "Reference" "D13"
-			(at 86.36 83.82 0)
+			(at 127.635 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED 0402"
-			(at 86.36 93.98 0)
+		(property "Value" "BLUE 0402"
+			(at 124.46 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,7 +3263,7 @@
 			)
 		)
 		(property "Footprint" "Duc:LED0402-R-RD"
-			(at 86.36 96.52 0)
+			(at 124.46 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3187,7 +3272,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C20608784.pdf"
-			(at 86.36 99.06 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3196,7 +3281,7 @@
 			)
 		)
 		(property "Description" "LED EMERALD GREEN 0402 SMD"
-			(at 86.36 87.63 0)
+			(at 124.46 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,7 +3290,7 @@
 			)
 		)
 		(property "Manufacturer" "YONGYUTAI(永裕泰)"
-			(at 86.36 101.6 0)
+			(at 124.46 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,7 +3299,7 @@
 			)
 		)
 		(property "MPN" "YLED0402G"
-			(at 86.36 104.14 0)
+			(at 124.46 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,7 +3308,7 @@
 			)
 		)
 		(property "LCSC Part" "C20608784"
-			(at 86.36 106.68 0)
+			(at 124.46 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,7 +3333,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 71.12 76.2 0)
+		(at 102.235 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3256,15 +3341,15 @@
 		(dnp no)
 		(uuid "b09feee4-cd02-44a6-aa73-bb7c3506f762")
 		(property "Reference" "R62"
-			(at 71.12 71.12 0)
+			(at 102.235 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RES 0402"
-			(at 71.12 79.248 0)
+		(property "Value" "100R 0.1%"
+			(at 102.235 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,16 +3357,15 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 71.12 83.82 0)
+			(at 102.235 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-			(at 71.12 86.36 0)
+			(at 102.235 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,7 +3374,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0402"
-			(at 70.612 79.248 0)
+			(at 101.727 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3299,7 +3383,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 71.12 88.9 0)
+			(at 102.235 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,7 +3392,7 @@
 			)
 		)
 		(property "MPN" "RT0402FRE07100KL"
-			(at 71.12 91.44 0)
+			(at 102.235 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3317,7 +3401,7 @@
 			)
 		)
 		(property "LCSC Part" "C728576"
-			(at 71.12 93.98 0)
+			(at 102.235 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3342,7 +3426,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Diodes:LED 0402")
-		(at 86.36 36.83 0)
+		(at 124.46 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3350,15 +3434,15 @@
 		(dnp no)
 		(uuid "b37a5e7d-ec5b-44d4-ab2a-e9c9d7267125")
 		(property "Reference" "D9"
-			(at 86.36 33.02 0)
+			(at 127 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED 0402"
-			(at 86.36 43.18 0)
+		(property "Value" "RED 0402"
+			(at 124.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +3450,7 @@
 			)
 		)
 		(property "Footprint" "Duc:LED0402-R-RD"
-			(at 86.36 45.72 0)
+			(at 124.46 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3375,7 +3459,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C20608784.pdf"
-			(at 86.36 48.26 0)
+			(at 124.46 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3384,7 +3468,7 @@
 			)
 		)
 		(property "Description" "LED EMERALD GREEN 0402 SMD"
-			(at 86.36 36.83 0)
+			(at 124.46 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3393,7 +3477,7 @@
 			)
 		)
 		(property "Manufacturer" "YONGYUTAI(永裕泰)"
-			(at 86.36 50.8 0)
+			(at 124.46 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +3486,7 @@
 			)
 		)
 		(property "MPN" "YLED0402G"
-			(at 86.36 53.34 0)
+			(at 124.46 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,7 +3495,7 @@
 			)
 		)
 		(property "LCSC Part" "C20608784"
-			(at 86.36 55.88 0)
+			(at 124.46 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3436,7 +3520,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Diodes:LED 0402")
-		(at 86.36 100.33 0)
+		(at 124.46 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3444,15 +3528,15 @@
 		(dnp no)
 		(uuid "c1ee5f3a-c1c9-414f-8710-2902285360a6")
 		(property "Reference" "D14"
-			(at 86.36 96.52 0)
+			(at 127.635 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED 0402"
-			(at 86.36 106.68 0)
+		(property "Value" "WHITE 0402"
+			(at 124.46 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,7 +3544,7 @@
 			)
 		)
 		(property "Footprint" "Duc:LED0402-R-RD"
-			(at 86.36 109.22 0)
+			(at 124.46 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,7 +3553,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C20608784.pdf"
-			(at 86.36 111.76 0)
+			(at 124.46 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3478,7 +3562,7 @@
 			)
 		)
 		(property "Description" "LED EMERALD GREEN 0402 SMD"
-			(at 86.36 100.33 0)
+			(at 124.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,7 +3571,7 @@
 			)
 		)
 		(property "Manufacturer" "YONGYUTAI(永裕泰)"
-			(at 86.36 114.3 0)
+			(at 124.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3496,7 +3580,7 @@
 			)
 		)
 		(property "MPN" "YLED0402G"
-			(at 86.36 116.84 0)
+			(at 124.46 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,7 +3589,7 @@
 			)
 		)
 		(property "LCSC Part" "C20608784"
-			(at 86.36 119.38 0)
+			(at 124.46 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3530,7 +3614,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 71.12 88.9 0)
+		(at 102.235 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3538,15 +3622,15 @@
 		(dnp no)
 		(uuid "d1c6b634-4e5f-4ed9-8525-79f1fc4cb846")
 		(property "Reference" "R63"
-			(at 71.12 83.82 0)
+			(at 102.235 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RES 0402"
-			(at 71.12 91.948 0)
+		(property "Value" "100R 0.1%"
+			(at 102.235 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,16 +3638,15 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 71.12 96.52 0)
+			(at 102.235 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-			(at 71.12 99.06 0)
+			(at 102.235 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,7 +3655,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0402"
-			(at 70.612 91.948 0)
+			(at 101.727 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,7 +3664,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 71.12 101.6 0)
+			(at 102.235 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3590,7 +3673,7 @@
 			)
 		)
 		(property "MPN" "RT0402FRE07100KL"
-			(at 71.12 104.14 0)
+			(at 102.235 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3599,7 +3682,7 @@
 			)
 		)
 		(property "LCSC Part" "C728576"
-			(at 71.12 106.68 0)
+			(at 102.235 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,7 +3707,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 71.12 127 0)
+		(at 102.235 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3632,15 +3715,15 @@
 		(dnp no)
 		(uuid "d3918934-25f3-481a-90a7-c77c9037bb7d")
 		(property "Reference" "R66"
-			(at 71.12 121.92 0)
+			(at 102.235 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RES 0402"
-			(at 71.12 130.048 0)
+		(property "Value" "330R 0.1%"
+			(at 102.235 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,16 +3731,15 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 71.12 134.62 0)
+			(at 102.235 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-			(at 71.12 137.16 0)
+			(at 102.235 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,7 +3748,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0402"
-			(at 70.612 130.048 0)
+			(at 101.727 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,7 +3757,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 71.12 139.7 0)
+			(at 102.235 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3684,7 +3766,7 @@
 			)
 		)
 		(property "MPN" "RT0402FRE07100KL"
-			(at 71.12 142.24 0)
+			(at 102.235 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,7 +3775,7 @@
 			)
 		)
 		(property "LCSC Part" "C728576"
-			(at 71.12 144.78 0)
+			(at 102.235 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3718,7 +3800,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 71.12 50.8 0)
+		(at 102.235 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3726,15 +3808,15 @@
 		(dnp no)
 		(uuid "dabb077d-79b7-488d-bee6-0c817831ada7")
 		(property "Reference" "R60"
-			(at 71.12 45.72 0)
+			(at 102.235 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RES 0402"
-			(at 71.12 53.848 0)
+		(property "Value" "330R 0.1%"
+			(at 102.235 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,16 +3824,15 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 71.12 58.42 0)
+			(at 102.235 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-			(at 71.12 60.96 0)
+			(at 102.235 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,7 +3841,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0402"
-			(at 70.612 53.848 0)
+			(at 101.727 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +3850,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 71.12 63.5 0)
+			(at 102.235 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,7 +3859,7 @@
 			)
 		)
 		(property "MPN" "RT0402FRE07100KL"
-			(at 71.12 66.04 0)
+			(at 102.235 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,7 +3868,7 @@
 			)
 		)
 		(property "LCSC Part" "C728576"
-			(at 71.12 68.58 0)
+			(at 102.235 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,7 +3893,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Diodes:LED 0402")
-		(at 86.36 74.93 0)
+		(at 124.46 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3820,15 +3901,15 @@
 		(dnp no)
 		(uuid "e39e5edf-7e23-48c8-bef7-53ece6d9906f")
 		(property "Reference" "D12"
-			(at 86.36 71.12 0)
+			(at 127.635 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED 0402"
-			(at 86.36 81.28 0)
+		(property "Value" "GREEN 0402"
+			(at 124.46 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,7 +3917,7 @@
 			)
 		)
 		(property "Footprint" "Duc:LED0402-R-RD"
-			(at 86.36 83.82 0)
+			(at 124.46 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3845,7 +3926,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C20608784.pdf"
-			(at 86.36 86.36 0)
+			(at 124.46 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3854,7 +3935,7 @@
 			)
 		)
 		(property "Description" "LED EMERALD GREEN 0402 SMD"
-			(at 86.36 74.93 0)
+			(at 124.46 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3863,7 +3944,7 @@
 			)
 		)
 		(property "Manufacturer" "YONGYUTAI(永裕泰)"
-			(at 86.36 88.9 0)
+			(at 124.46 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3872,7 +3953,7 @@
 			)
 		)
 		(property "MPN" "YLED0402G"
-			(at 86.36 91.44 0)
+			(at 124.46 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,7 +3962,7 @@
 			)
 		)
 		(property "LCSC Part" "C20608784"
-			(at 86.36 93.98 0)
+			(at 124.46 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,7 +3987,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Diodes:LED 0402")
-		(at 86.36 49.53 0)
+		(at 124.46 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3914,15 +3995,15 @@
 		(dnp no)
 		(uuid "ff3ab08c-06ab-499d-af26-4d9bc4f3c0ff")
 		(property "Reference" "D10"
-			(at 86.36 45.72 0)
+			(at 127.635 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED 0402"
-			(at 86.36 55.88 0)
+		(property "Value" "ORANGE 0402"
+			(at 124.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,7 +4011,7 @@
 			)
 		)
 		(property "Footprint" "Duc:LED0402-R-RD"
-			(at 86.36 58.42 0)
+			(at 124.46 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3939,7 +4020,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C20608784.pdf"
-			(at 86.36 60.96 0)
+			(at 124.46 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3948,7 +4029,7 @@
 			)
 		)
 		(property "Description" "LED EMERALD GREEN 0402 SMD"
-			(at 86.36 49.53 0)
+			(at 124.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3957,7 +4038,7 @@
 			)
 		)
 		(property "Manufacturer" "YONGYUTAI(永裕泰)"
-			(at 86.36 63.5 0)
+			(at 124.46 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3966,7 +4047,7 @@
 			)
 		)
 		(property "MPN" "YLED0402G"
-			(at 86.36 66.04 0)
+			(at 124.46 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,7 +4056,7 @@
 			)
 		)
 		(property "LCSC Part" "C20608784"
-			(at 86.36 68.58 0)
+			(at 124.46 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)

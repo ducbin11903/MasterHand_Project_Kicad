@@ -22,7 +22,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0 3.302 0)
+				(at -2.54 3.81 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,7 +30,7 @@
 				)
 			)
 			(property "Value" "CAP CER 0402"
-				(at 0 -3.81 0)
+				(at 0 10.16 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -38,12 +38,11 @@
 				)
 			)
 			(property "Footprint" "Duc:C0402"
-				(at 0 -12.7 0)
+				(at 2.54 8.382 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
@@ -202,7 +201,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0 5.08 0)
+				(at 0 2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -218,12 +217,11 @@
 				)
 			)
 			(property "Footprint" "Duc:R0402"
-				(at 0 -7.62 0)
+				(at 0 -5.588 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
@@ -662,7 +660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "074d06d0-4dee-4df9-9f6e-7f3c3be43bc2")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR138"
 			(at 168.656 94.234 0)
 			(do_not_autoplace yes)
 			(effects
@@ -713,7 +711,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/d30056b5-4391-456e-bc80-2bde1ca0d521"
-					(reference "#PWR0138")
+					(reference "#PWR138")
 					(unit 1)
 				)
 			)
@@ -727,10 +725,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5edd3ea7-5d04-4570-ac89-39a96bdf81d6")
 		(property "Reference" "R71"
-			(at 168.91 72.3899 90)
+			(at 168.91 70.485 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -738,8 +735,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RES 0402"
-			(at 168.91 74.9299 90)
+		(property "Value" "100K 0.1%"
+			(at 168.91 73.025 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -748,12 +745,12 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 173.99 73.66 0)
+			(at 168.91 75.565 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
@@ -824,10 +821,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "77e0ac8e-c25a-4250-bb86-a1a179bcf7db")
 		(property "Reference" "C97"
-			(at 194.31 87.6299 90)
+			(at 193.04 86.995 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -835,8 +831,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 0402"
-			(at 194.31 90.1699 90)
+		(property "Value" "100nF 50V"
+			(at 193.04 89.535 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -845,12 +841,12 @@
 			)
 		)
 		(property "Footprint" "Duc:C0402"
-			(at 203.2 88.9 0)
+			(at 193.04 92.075 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
@@ -921,10 +917,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "df3b4f5d-c4a9-49ee-a9fa-eaf2506b5121")
 		(property "Reference" "R72"
-			(at 168.91 87.6299 90)
+			(at 168.91 85.725 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,8 +927,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RES 0402"
-			(at 168.91 90.1699 90)
+		(property "Value" "47K 0.1%"
+			(at 168.91 88.265 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -942,12 +937,12 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 173.99 88.9 0)
+			(at 168.91 90.805 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"

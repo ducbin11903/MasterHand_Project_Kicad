@@ -404,9 +404,9 @@
 		)
 		(uuid "23593793-e5e2-4dd7-8899-50a4202bb53e")
 	)
-	(text "+5V"
+	(text "+3V3\n"
 		(exclude_from_sim no)
-		(at 364.744 200.152 0)
+		(at 367.03 200.025 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -419,9 +419,9 @@
 		)
 		(uuid "2d01d715-afdc-4adc-af27-7d4e6bc39749")
 	)
-	(text "+5V"
+	(text "+3V3\n"
 		(exclude_from_sim no)
-		(at 364.744 370.332 0)
+		(at 366.395 370.205 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -735,29 +735,6 @@
 		)
 		(uuid "02e6aa6a-71b1-4746-b827-1c87d2d19d98")
 	)
-	(text_box "AUX1"
-		(exclude_from_sim no)
-		(at 284.48 320.04 0)
-		(size 12.7 7.62)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 213 241 255 1)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.286 2.286)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "0523128c-2da5-46a9-9c57-300bc4c64dad")
-	)
 	(text_box "SWDIO, SWCLK, NRST"
 		(exclude_from_sim no)
 		(at 239.395 309.88 0)
@@ -895,29 +872,6 @@
 			)
 		)
 		(uuid "111352ff-190d-4165-b555-581025667bf7")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 233.68 320.04 0)
-		(size 10.16 7.62)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 213 241 255 1)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.286 2.286)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "11a2fec7-6675-40fa-aea5-857d01a917af")
 	)
 	(text_box "TB9051FTG\nMotor Driver 6\n"
 		(exclude_from_sim no)
@@ -1286,52 +1240,6 @@
 		)
 		(uuid "21323934-6c3e-4455-93cd-90601ef0b523")
 	)
-	(text_box "RC Filter"
-		(exclude_from_sim no)
-		(at 223.52 149.86 0)
-		(size 10.16 7.62)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 175 92 173 1)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2.286 2.286)
-				(bold yes)
-				(color 255 255 255 1)
-			)
-		)
-		(uuid "2221dc8b-06ab-4705-87a9-a4c7d151178d")
-	)
-	(text_box "SPI1, I2C1, USART2, TIM2_CH1-2 , TIM3_CH2"
-		(exclude_from_sim no)
-		(at 241.3 320.04 0)
-		(size 38.1 7.62)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 213 241 255 1)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.286 2.286)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "23a15027-5e30-4b8f-b7fc-f41d9312d1fe")
-	)
 	(text_box "1x FD-CAN Connectors"
 		(exclude_from_sim no)
 		(at 111.76 172.72 0)
@@ -1537,29 +1445,6 @@
 			)
 		)
 		(uuid "2b60cbcb-456f-41bc-a3e1-81d7c30b1a55")
-	)
-	(text_box "1x AUX1 Connector"
-		(exclude_from_sim no)
-		(at 185.42 149.86 0)
-		(size 27.94 7.62)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 175 92 173 1)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2.286 2.286)
-				(bold yes)
-				(color 255 255 255 1)
-			)
-		)
-		(uuid "2bc2f290-5010-4b05-9db3-b64be5692e68")
 	)
 	(text_box "STM32G474RET6\n"
 		(exclude_from_sim no)
@@ -2367,29 +2252,6 @@
 		)
 		(uuid "62163dbc-8766-4803-9b93-fe0554094721")
 	)
-	(text_box "AUX1"
-		(exclude_from_sim no)
-		(at 284.48 149.86 0)
-		(size 12.7 7.62)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 213 241 255 1)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.286 2.286)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "648431c6-e13a-43a6-b7be-b8b7dadeda3d")
-	)
 	(text_box "INTERFACE"
 		(exclude_from_sim no)
 		(at 185.42 299.72 0)
@@ -2667,29 +2529,6 @@
 		)
 		(uuid "6e21c8a2-0877-4c3d-8c02-fe55b547ff3c")
 	)
-	(text_box "RC Filter"
-		(exclude_from_sim no)
-		(at 223.52 320.04 0)
-		(size 10.16 7.62)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 175 92 173 1)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2.286 2.286)
-				(bold yes)
-				(color 255 255 255 1)
-			)
-		)
-		(uuid "6f3a9f55-0d05-4e67-8ac2-e4eddc24aefd")
-	)
 	(text_box "1x Debug Connector"
 		(exclude_from_sim no)
 		(at 185.42 139.7 0)
@@ -2758,29 +2597,6 @@
 			)
 		)
 		(uuid "72ba5f3b-a518-470b-9b2c-e6b46d839eef")
-	)
-	(text_box "1x AUX1 Connector"
-		(exclude_from_sim no)
-		(at 185.42 320.04 0)
-		(size 27.94 7.62)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 175 92 173 1)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2.286 2.286)
-				(bold yes)
-				(color 255 255 255 1)
-			)
-		)
-		(uuid "73b6299c-69a6-46df-a165-52ddef353a05")
 	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
@@ -3014,7 +2830,7 @@
 	)
 	(text_box "3x MOTOR LEDs"
 		(exclude_from_sim no)
-		(at 342.265 377.825 0)
+		(at 342.9 373.38 0)
 		(size 38.735 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -3266,29 +3082,6 @@
 			)
 		)
 		(uuid "969e6788-e6f6-41f5-a66f-8d2cfb08c5c7")
-	)
-	(text_box "SPI1, I2C1, USART2, TIM2_CH1-2 , TIM3_CH2"
-		(exclude_from_sim no)
-		(at 241.3 149.86 0)
-		(size 38.1 7.62)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 213 241 255 1)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.286 2.286)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "96a62d42-1937-41be-b4bb-48c307da8802")
 	)
 	(text_box "ADC4"
 		(exclude_from_sim no)
@@ -3841,29 +3634,6 @@
 		)
 		(uuid "b57a6a49-6f62-4032-b41e-d67af205b7d6")
 	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 213.36 149.86 0)
-		(size 10.16 7.62)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 213 241 255 1)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.286 2.286)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "b6d0580d-9ddf-481d-8d22-a345be6b9491")
-	)
 	(text_box "SECTION"
 		(exclude_from_sim no)
 		(at 195.58 220.98 0)
@@ -3932,29 +3702,6 @@
 			)
 		)
 		(uuid "ba75937b-3163-4b96-9a90-40a463e83e8d")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 233.68 149.86 0)
-		(size 10.16 7.62)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 213 241 255 1)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.286 2.286)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "bcbee3cd-8177-4908-80cc-bb50e95684c2")
 	)
 	(text_box "ADC"
 		(exclude_from_sim no)
@@ -4809,29 +4556,6 @@
 		)
 		(uuid "edd882c0-1730-4aa1-8994-4822c12deee8")
 	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 213.36 320.04 0)
-		(size 10.16 7.62)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 213 241 255 1)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.286 2.286)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "ee986cdb-dbab-4c6c-aa13-7bd404c18dd3")
-	)
 	(text_box "GPIO4\n"
 		(exclude_from_sim no)
 		(at 312.42 264.16 0)
@@ -5087,7 +4811,7 @@
 	)
 	(text_box "3x MOTOR LEDs"
 		(exclude_from_sim no)
-		(at 342.9 208.28 0)
+		(at 342.9 203.2 0)
 		(size 38.735 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke

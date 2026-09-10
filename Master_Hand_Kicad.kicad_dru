@@ -87,7 +87,7 @@
 (condition "A.Pad_Type == 'NPTH, mechanical' && B.Type == 'track'"))
 
 (rule "NPTH with copper around"
-(constraint hole_clearance (min 0.20mm))
+(constraint hole_clearance (min 0.0mm))
 (condition "A.Pad_Type == 'NPTH, mechanical' && B.Type != 'track'"))
 
 (rule "PTH to Track clearance"
@@ -101,7 +101,7 @@
 # ----------------------------------- Board Outlines (PICK ONE) -------------------------------------
 #Default Routed Edge Clearance
 (rule "Trace to Outline"
-(constraint edge_clearance (min 0.3mm))
+(constraint edge_clearance (min 0.2mm))
 (condition "A.Type == 'track'"))
 
 # ----------------------------------- Silkscreen ----------------------------------------------------

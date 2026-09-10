@@ -22,7 +22,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0 3.302 0)
+				(at -2.54 3.81 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,7 +30,7 @@
 				)
 			)
 			(property "Value" "CAP CER 0402"
-				(at 0 -3.81 0)
+				(at 0 10.16 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -38,12 +38,11 @@
 				)
 			)
 			(property "Footprint" "Duc:C0402"
-				(at 0 -12.7 0)
+				(at 2.54 8.382 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
@@ -2008,121 +2007,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_symbols:Test_Point"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 5.08 90)
-				(effects
-					(font
-						(face "Times New Roman")
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" ""
-				(at 0 10.414 90)
-				(effects
-					(font
-						(face "Times New Roman")
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-				(at 3.556 -10.668 0)
-				(effects
-					(font
-						(face "Times New Roman")
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(face "Times New Roman")
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Test Point Pad D0.5mm"
-				(at 2.032 -8.636 0)
-				(effects
-					(font
-						(face "Times New Roman")
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Test_Point_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Test_Point_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(bus_alias "USART1"
 		(members "USART1_RX1" "USART1_TX1" "USART1_CK1")
@@ -2487,6 +2371,19 @@
 			(justify right bottom)
 		)
 		(uuid "5272a2cb-b3d6-4af9-b14a-b7c6587dfbb1")
+	)
+	(text "Out of Density to Place TP\n"
+		(exclude_from_sim no)
+		(at 372.11 53.975 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "572543f2-34a3-440b-b0b2-dc57120052e8")
 	)
 	(text "MD Ring"
 		(exclude_from_sim no)
@@ -3433,16 +3330,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 142.24) (xy 388.62 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0228e8a6-b8c7-4f5d-8840-a8c5e4b04242")
-	)
-	(wire
-		(pts
 			(xy 21.59 123.19) (xy 41.91 123.19)
 		)
 		(stroke
@@ -3453,16 +3340,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 111.76) (xy 360.68 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02d29822-6eb9-4fac-9c3c-726c497224cc")
-	)
-	(wire
-		(pts
 			(xy 281.94 190.5) (xy 317.5 190.5)
 		)
 		(stroke
@@ -3470,16 +3347,6 @@
 			(type default)
 		)
 		(uuid "045178c3-1158-4c26-95f8-6dcfb56013ce")
-	)
-	(wire
-		(pts
-			(xy 342.9 147.32) (xy 360.68 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "046bb8f0-d547-4979-9fb5-3a2a213b27f3")
 	)
 	(wire
 		(pts
@@ -3501,15 +3368,15 @@
 		)
 		(uuid "06e5b091-a288-40a6-b8c6-b2956325eaa8")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 379.73 195.58) (xy 388.62 195.58)
+			(xy 340.36 236.22) (xy 401.32 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "083ba2aa-f03c-4b6a-913f-218931ff87d6")
+		(uuid "0754a911-9870-4d54-ac2b-a09cf2303867")
 	)
 	(wire
 		(pts
@@ -3541,16 +3408,6 @@
 		)
 		(uuid "09b2660a-ec7d-4231-a6a0-0a82891b8052")
 	)
-	(wire
-		(pts
-			(xy 342.9 93.98) (xy 360.68 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c30f984-366d-420c-a325-4f6005a4dfa7")
-	)
 	(bus
 		(pts
 			(xy 160.02 77.47) (xy 160.02 80.01)
@@ -3571,16 +3428,6 @@
 		)
 		(uuid "0f1b4113-5ca3-4f03-9a99-6a8316c59c09")
 	)
-	(wire
-		(pts
-			(xy 342.9 102.87) (xy 360.68 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f2e2f0d-0015-41af-adec-e1b30b45523f")
-	)
 	(bus
 		(pts
 			(xy 232.41 217.17) (xy 232.41 219.71)
@@ -3590,16 +3437,6 @@
 			(type default)
 		)
 		(uuid "0f6be878-4dca-46a6-8d9d-59ff62bc92b4")
-	)
-	(wire
-		(pts
-			(xy 379.73 215.9) (xy 388.62 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fbdf449-e605-4041-ba8d-7a4d46fe9cde")
 	)
 	(wire
 		(pts
@@ -3640,16 +3477,6 @@
 			(type default)
 		)
 		(uuid "13b64a7e-df89-40aa-9c1b-828332157e39")
-	)
-	(wire
-		(pts
-			(xy 379.73 203.2) (xy 388.62 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1520ab75-93da-41ae-95c2-2f8c858561fb")
 	)
 	(wire
 		(pts
@@ -3753,16 +3580,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 109.22) (xy 388.62 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a6a8186-604d-44bc-91ca-5d805e2df3d9")
-	)
-	(wire
-		(pts
 			(xy 82.55 59.69) (xy 105.41 59.69)
 		)
 		(stroke
@@ -3770,26 +3587,6 @@
 			(type default)
 		)
 		(uuid "1b79d7a3-ffa4-48bf-bcdd-0c8e6c4bfdfb")
-	)
-	(wire
-		(pts
-			(xy 379.73 210.82) (xy 388.62 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bde6afe-f464-40c6-b1f4-cbd1a4c5ae7a")
-	)
-	(wire
-		(pts
-			(xy 342.9 138.43) (xy 360.68 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bf16704-d28b-4d05-b39f-375abb06bc82")
 	)
 	(wire
 		(pts
@@ -3821,16 +3618,6 @@
 		)
 		(uuid "1c92d683-e754-452d-a756-65fb8197d8ec")
 	)
-	(wire
-		(pts
-			(xy 342.9 172.72) (xy 360.68 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e3cc78f-66e1-401d-a07b-66f88f01cddb")
-	)
 	(bus
 		(pts
 			(xy 153.67 158.75) (xy 153.67 161.29)
@@ -3850,16 +3637,6 @@
 			(type default)
 		)
 		(uuid "1eebccc6-cc34-40e0-970a-4e6ee8feb08a")
-	)
-	(wire
-		(pts
-			(xy 342.9 144.78) (xy 360.68 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20e5d8fd-1158-455b-916f-0a6afd5d0f84")
 	)
 	(wire
 		(pts
@@ -3903,16 +3680,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 170.18) (xy 360.68 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23119e21-c699-43bd-8276-8fa593c65dda")
-	)
-	(wire
-		(pts
 			(xy 83.82 218.44) (xy 105.41 218.44)
 		)
 		(stroke
@@ -3950,16 +3717,6 @@
 			(type default)
 		)
 		(uuid "275878f1-66e9-4e56-8388-823dd7605a36")
-	)
-	(wire
-		(pts
-			(xy 379.73 157.48) (xy 388.62 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2767931e-98d8-4321-9eb1-bc43241717bb")
 	)
 	(wire
 		(pts
@@ -4041,16 +3798,6 @@
 		)
 		(uuid "2c9a83b5-fc17-4438-a783-d529849f29aa")
 	)
-	(wire
-		(pts
-			(xy 379.73 154.94) (xy 388.62 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cb0f3cd-6b79-4128-80f0-4e0a14a3a208")
-	)
 	(bus
 		(pts
 			(xy 154.94 217.17) (xy 154.94 218.44)
@@ -4081,16 +3828,6 @@
 		)
 		(uuid "2d4ca055-8fb5-4b1a-a19f-48f26c55633f")
 	)
-	(wire
-		(pts
-			(xy 379.73 177.8) (xy 388.62 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e8f0093-3338-4570-ae4a-4f6b9e3e3e5c")
-	)
 	(bus
 		(pts
 			(xy 154.94 217.17) (xy 157.48 214.63)
@@ -4100,26 +3837,6 @@
 			(type default)
 		)
 		(uuid "2eff22c1-2f79-4012-9653-b71d3d254102")
-	)
-	(wire
-		(pts
-			(xy 342.9 100.33) (xy 360.68 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33ce1127-acc0-4cfa-b053-3cc60d86fd51")
-	)
-	(wire
-		(pts
-			(xy 342.9 114.3) (xy 360.68 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "343bc6a5-dc61-4f56-9962-2ee09410cf91")
 	)
 	(wire
 		(pts
@@ -4180,16 +3897,6 @@
 			(type default)
 		)
 		(uuid "37ce6b91-c5da-45d6-8eac-f05337c81f35")
-	)
-	(wire
-		(pts
-			(xy 342.9 91.44) (xy 360.68 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37d42f8c-45ae-4d7c-8d09-ceac88c215cf")
 	)
 	(wire
 		(pts
@@ -4273,16 +3980,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 83.82) (xy 360.68 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4007a5e4-160b-48e3-9767-584d8b8eb8e1")
-	)
-	(wire
-		(pts
 			(xy 214.63 69.85) (xy 232.41 69.85)
 		)
 		(stroke
@@ -4313,16 +4010,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 118.11) (xy 360.68 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "426b0fd7-af6d-4f79-9392-971ff13a4a2f")
-	)
-	(wire
-		(pts
 			(xy 83.82 193.04) (xy 105.41 193.04)
 		)
 		(stroke
@@ -4340,26 +4027,6 @@
 			(type default)
 		)
 		(uuid "43e5818f-5ad6-44fa-accf-39300727865b")
-	)
-	(wire
-		(pts
-			(xy 342.9 214.63) (xy 360.68 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4559af9b-fa9d-4f26-a9b6-f11e0a4f7bbd")
-	)
-	(wire
-		(pts
-			(xy 379.73 152.4) (xy 388.62 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "455b95ed-8c22-41f7-bed5-597b973bacfa")
 	)
 	(wire
 		(pts
@@ -4390,16 +4057,6 @@
 			(type default)
 		)
 		(uuid "465133b7-c92f-4d37-94e2-47d0f3e5a686")
-	)
-	(wire
-		(pts
-			(xy 342.9 96.52) (xy 360.68 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "485e4baf-ded6-4328-8225-30c208d38706")
 	)
 	(wire
 		(pts
@@ -4453,16 +4110,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 218.44) (xy 388.62 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c535df5-06a3-4a9f-ab07-c3443391770b")
-	)
-	(wire
-		(pts
 			(xy 83.82 213.36) (xy 105.41 213.36)
 		)
 		(stroke
@@ -4480,16 +4127,6 @@
 			(type default)
 		)
 		(uuid "4d7c4027-e5fa-49d4-a020-5a65db6e425b")
-	)
-	(wire
-		(pts
-			(xy 379.73 208.28) (xy 388.62 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e15927a-c0ca-4278-9eb9-5595eace68ab")
 	)
 	(wire
 		(pts
@@ -4573,16 +4210,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 114.3) (xy 388.62 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5394dda3-d6ac-4369-9c4d-ab2ffdf6d866")
-	)
-	(wire
-		(pts
 			(xy 210.82 143.51) (xy 213.36 143.51)
 		)
 		(stroke
@@ -4613,36 +4240,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 213.36) (xy 388.62 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56d48253-4a64-4dfe-9365-d867fc2b6e4d")
-	)
-	(wire
-		(pts
-			(xy 379.73 144.78) (xy 388.62 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "570dbb1d-75b6-4a02-9c6c-583cbe9cf5d9")
-	)
-	(wire
-		(pts
-			(xy 379.73 88.9) (xy 388.62 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5866dc58-5ec0-45b9-92ce-cdf93e4d79b5")
-	)
-	(wire
-		(pts
 			(xy 82.55 118.11) (xy 105.41 118.11)
 		)
 		(stroke
@@ -4660,16 +4257,6 @@
 			(type default)
 		)
 		(uuid "58f534c4-18fa-4d93-ad35-039091cfd52c")
-	)
-	(wire
-		(pts
-			(xy 379.73 185.42) (xy 388.62 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59d8bb6e-29c9-407f-850e-3ef9f5e8f306")
 	)
 	(wire
 		(pts
@@ -4691,16 +4278,6 @@
 		)
 		(uuid "5b104705-30d4-403e-9309-43a322f5e534")
 	)
-	(wire
-		(pts
-			(xy 379.73 101.6) (xy 388.62 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b43be3e-b705-47df-b616-cfe5da707abf")
-	)
 	(bus
 		(pts
 			(xy 153.67 154.94) (xy 153.67 156.21)
@@ -4710,16 +4287,6 @@
 			(type default)
 		)
 		(uuid "5b71b9ef-15fe-4863-b5bf-5775b9d10a41")
-	)
-	(wire
-		(pts
-			(xy 379.73 167.64) (xy 388.62 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bb3cf56-a6c8-460f-aac7-8277a5457129")
 	)
 	(wire
 		(pts
@@ -4740,16 +4307,6 @@
 			(type default)
 		)
 		(uuid "5c709a5e-fa0b-4046-a9f9-cfc9a609974f")
-	)
-	(wire
-		(pts
-			(xy 379.73 81.28) (xy 388.62 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dcf20a3-faf7-4d1c-9d00-0e6e87ae6d19")
 	)
 	(wire
 		(pts
@@ -4803,16 +4360,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 132.08) (xy 388.62 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6248f44c-f556-445b-8856-7862a4898561")
-	)
-	(wire
-		(pts
 			(xy 21.59 223.52) (xy 43.18 223.52)
 		)
 		(stroke
@@ -4820,16 +4367,6 @@
 			(type default)
 		)
 		(uuid "638b0188-ca73-4a83-a543-8ae2eec132d0")
-	)
-	(wire
-		(pts
-			(xy 342.9 160.02) (xy 360.68 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6402caa9-f33b-42d7-a6c1-af8ed3e1dfb9")
 	)
 	(wire
 		(pts
@@ -4873,16 +4410,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 180.34) (xy 388.62 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67adb75e-ee55-483d-a053-124256e3e379")
-	)
-	(wire
-		(pts
 			(xy 214.63 83.82) (xy 232.41 83.82)
 		)
 		(stroke
@@ -4893,16 +4420,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 106.68) (xy 388.62 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67d282b2-cc47-4a40-906a-6cf65f4faad6")
-	)
-	(wire
-		(pts
 			(xy 21.59 170.18) (xy 43.18 170.18)
 		)
 		(stroke
@@ -4910,26 +4427,6 @@
 			(type default)
 		)
 		(uuid "6805461f-29de-4764-9424-8fe03cf6ec8a")
-	)
-	(wire
-		(pts
-			(xy 379.73 137.16) (xy 388.62 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b11c057-8e2f-454a-992d-cfbf39dfdee2")
-	)
-	(wire
-		(pts
-			(xy 342.9 193.04) (xy 360.68 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b5071e7-0ef6-421b-aa08-4c3f6a2c8369")
 	)
 	(wire
 		(pts
@@ -4970,16 +4467,6 @@
 			(type default)
 		)
 		(uuid "6f393892-9372-4a55-93e2-359c888014c5")
-	)
-	(wire
-		(pts
-			(xy 342.9 212.09) (xy 360.68 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f571388-977f-45b7-b887-0481df725336")
 	)
 	(wire
 		(pts
@@ -5050,26 +4537,6 @@
 			(type default)
 		)
 		(uuid "7501f33f-c899-49af-be4a-301ff9891f16")
-	)
-	(wire
-		(pts
-			(xy 342.9 128.27) (xy 360.68 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75c39110-6ab7-4a93-a785-ad3c6a98a0cd")
-	)
-	(wire
-		(pts
-			(xy 379.73 76.2) (xy 388.62 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75fb22f9-7c2c-440f-81cb-61d6f3b6864a")
 	)
 	(bus
 		(pts
@@ -5203,16 +4670,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 139.7) (xy 388.62 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f0a988f-c2c8-4f9a-b15e-b2aac643ff4c")
-	)
-	(wire
-		(pts
 			(xy 281.94 157.48) (xy 317.5 157.48)
 		)
 		(stroke
@@ -5220,16 +4677,6 @@
 			(type default)
 		)
 		(uuid "7fa91a9d-723d-4847-b840-9fff1c28e1d6")
-	)
-	(wire
-		(pts
-			(xy 379.73 170.18) (xy 388.62 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8059dd89-42fc-4060-8eed-1627a8916803")
 	)
 	(wire
 		(pts
@@ -5263,16 +4710,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 157.48) (xy 360.68 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81f0bcce-d58b-42ae-a8fb-83f7d53965d6")
-	)
-	(wire
-		(pts
 			(xy 129.54 114.3) (xy 154.94 114.3)
 		)
 		(stroke
@@ -5293,26 +4730,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 116.84) (xy 388.62 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84b7b104-49c0-4ba1-9b12-d86637e2fbf3")
-	)
-	(wire
-		(pts
-			(xy 379.73 127) (xy 388.62 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84d4a4b1-f168-4ffd-b5a6-cb83677d254c")
-	)
-	(wire
-		(pts
 			(xy 21.59 215.9) (xy 43.18 215.9)
 		)
 		(stroke
@@ -5323,16 +4740,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 175.26) (xy 360.68 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8588ae3c-2770-4fc8-9e8d-78d47584d9dd")
-	)
-	(wire
-		(pts
 			(xy 82.55 64.77) (xy 105.41 64.77)
 		)
 		(stroke
@@ -5340,16 +4747,6 @@
 			(type default)
 		)
 		(uuid "85f3e8af-2058-48e3-9a96-2b283fb1ab94")
-	)
-	(wire
-		(pts
-			(xy 379.73 119.38) (xy 388.62 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8659bada-c803-4e2c-8002-658e373f513d")
 	)
 	(wire
 		(pts
@@ -5393,16 +4790,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 205.74) (xy 388.62 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "889ccf72-ad86-456e-a1f4-b006285637d7")
-	)
-	(wire
-		(pts
 			(xy 248.92 171.45) (xy 248.92 168.91)
 		)
 		(stroke
@@ -5430,6 +4817,16 @@
 			(type default)
 		)
 		(uuid "88c3212a-353e-417a-ac98-10923882c413")
+	)
+	(polyline
+		(pts
+			(xy 340.36 50.8) (xy 401.32 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89902ba3-853a-448a-b268-893967c00552")
 	)
 	(wire
 		(pts
@@ -5571,26 +4968,6 @@
 		)
 		(uuid "956814cf-7207-4dbd-a390-7b8f15bf0ee3")
 	)
-	(wire
-		(pts
-			(xy 342.9 130.81) (xy 360.68 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9638450a-6c9a-45d9-b3a5-5c7756f7e7b2")
-	)
-	(wire
-		(pts
-			(xy 379.73 134.62) (xy 388.62 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "983cba6a-5247-46b1-b0ea-bbf4ed078ba2")
-	)
 	(bus
 		(pts
 			(xy 232.41 110.49) (xy 234.95 107.95)
@@ -5600,16 +4977,6 @@
 			(type default)
 		)
 		(uuid "988651c0-8d03-4e8f-b70d-c3845f819353")
-	)
-	(wire
-		(pts
-			(xy 342.9 185.42) (xy 360.68 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b25b67f-0ad5-4eef-ba77-c1f1cc4d1354")
 	)
 	(wire
 		(pts
@@ -5671,16 +5038,6 @@
 		)
 		(uuid "9ccd0896-3349-46c7-af1e-e14cf7eec616")
 	)
-	(wire
-		(pts
-			(xy 379.73 91.44) (xy 388.62 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d610ea0-c91d-4a56-a01c-46ff7fe97e8c")
-	)
 	(bus
 		(pts
 			(xy 157.48 111.76) (xy 157.48 114.3)
@@ -5730,16 +5087,6 @@
 			(type default)
 		)
 		(uuid "a009dabf-4a0b-44f9-93b1-d0fa5ed359e3")
-	)
-	(wire
-		(pts
-			(xy 342.9 133.35) (xy 360.68 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a072eec3-b8ba-471c-8dfd-60fcfec13fa7")
 	)
 	(wire
 		(pts
@@ -5883,16 +5230,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 162.56) (xy 388.62 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa305598-6cfc-49b1-b4a3-9dc132c3842a")
-	)
-	(wire
-		(pts
 			(xy 281.94 71.12) (xy 317.5 71.12)
 		)
 		(stroke
@@ -5933,16 +5270,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 220.98) (xy 388.62 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acb126c2-704e-451c-8f47-b2be1063e419")
-	)
-	(wire
-		(pts
 			(xy 281.94 99.06) (xy 317.5 99.06)
 		)
 		(stroke
@@ -5950,26 +5277,6 @@
 			(type default)
 		)
 		(uuid "acc70f4f-694b-45bf-ab52-26a937cb8714")
-	)
-	(wire
-		(pts
-			(xy 379.73 78.74) (xy 388.62 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acd8dbc2-d2bc-4976-ab23-c1cea651a35d")
-	)
-	(wire
-		(pts
-			(xy 342.9 105.41) (xy 360.68 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acf3440b-44cb-4496-8e68-f20a15bea9b1")
 	)
 	(wire
 		(pts
@@ -6091,16 +5398,6 @@
 		)
 		(uuid "b12aa376-aac6-4de6-bcfc-313ee670c70b")
 	)
-	(wire
-		(pts
-			(xy 342.9 195.58) (xy 360.68 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1305714-faea-409f-8f46-80479f3deb89")
-	)
 	(bus
 		(pts
 			(xy 154.94 218.44) (xy 154.94 220.98)
@@ -6183,16 +5480,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 165.1) (xy 388.62 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6c9362d-28cf-4c6e-a02e-4e0decedb233")
-	)
-	(wire
-		(pts
 			(xy 82.55 52.07) (xy 105.41 52.07)
 		)
 		(stroke
@@ -6263,16 +5550,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 129.54) (xy 388.62 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb17fe85-3cb8-44c0-804d-e3e39554c03f")
-	)
-	(wire
-		(pts
 			(xy 82.55 72.39) (xy 105.41 72.39)
 		)
 		(stroke
@@ -6293,16 +5570,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 135.89) (xy 360.68 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc9f94ad-34bd-4d33-8a2d-2e694bac0c27")
-	)
-	(wire
-		(pts
 			(xy 129.54 116.84) (xy 154.94 116.84)
 		)
 		(stroke
@@ -6320,16 +5587,6 @@
 			(type default)
 		)
 		(uuid "bf889a1e-442a-4272-b918-bb45824ec01c")
-	)
-	(wire
-		(pts
-			(xy 379.73 193.04) (xy 388.62 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfbedf34-aad0-49e6-95f0-196bef1fd43f")
 	)
 	(wire
 		(pts
@@ -6370,36 +5627,6 @@
 			(type default)
 		)
 		(uuid "c1ac2d12-f23e-4089-855b-b7cda4c69e72")
-	)
-	(wire
-		(pts
-			(xy 342.9 182.88) (xy 360.68 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c27373b9-f10b-4eec-bee5-724b2166db17")
-	)
-	(wire
-		(pts
-			(xy 342.9 180.34) (xy 360.68 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c27b95de-4a65-48ac-a8ea-7acfb4e811d5")
-	)
-	(wire
-		(pts
-			(xy 379.73 187.96) (xy 388.62 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2801a40-a3a7-47c8-b8b0-5b3463c54aea")
 	)
 	(wire
 		(pts
@@ -6460,16 +5687,6 @@
 			(type default)
 		)
 		(uuid "c6fb232e-62f5-4ed4-a0db-c9cf213d9cdc")
-	)
-	(wire
-		(pts
-			(xy 342.9 76.2) (xy 360.68 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7644a31-e89b-4f33-920b-165399b01303")
 	)
 	(wire
 		(pts
@@ -6583,16 +5800,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 111.76) (xy 388.62 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2b3eec4-a50b-4fb4-bcd3-3acf91c8f4b2")
-	)
-	(wire
-		(pts
 			(xy 82.55 54.61) (xy 105.41 54.61)
 		)
 		(stroke
@@ -6640,16 +5847,6 @@
 			(type default)
 		)
 		(uuid "d6ce49c1-814e-4d64-908c-6247dbb69425")
-	)
-	(wire
-		(pts
-			(xy 379.73 160.02) (xy 388.62 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6f2b94a-5be1-4eae-b7e0-5da94069dcce")
 	)
 	(wire
 		(pts
@@ -6771,16 +5968,6 @@
 		)
 		(uuid "dfd25b34-66b9-4de5-b7d9-57c242e0c183")
 	)
-	(wire
-		(pts
-			(xy 379.73 104.14) (xy 388.62 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0e2ca3c-a21e-4d63-abeb-e9ca195dcb0f")
-	)
 	(bus
 		(pts
 			(xy 153.67 167.64) (xy 156.21 165.1)
@@ -6800,16 +5987,6 @@
 			(type default)
 		)
 		(uuid "e1dfdf14-7d1b-48d0-bd30-5bc9f1de48f7")
-	)
-	(wire
-		(pts
-			(xy 342.9 140.97) (xy 360.68 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1e92432-ee55-4f75-830a-420a7678deef")
 	)
 	(wire
 		(pts
@@ -6843,16 +6020,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 190.5) (xy 388.62 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5f80012-ff3c-4fbb-b5ba-2d3dc58678cb")
-	)
-	(wire
-		(pts
 			(xy 214.63 35.56) (xy 236.22 35.56)
 		)
 		(stroke
@@ -6860,26 +6027,6 @@
 			(type default)
 		)
 		(uuid "e65f51b5-1cfd-4d2a-9c60-78af6179ccdc")
-	)
-	(wire
-		(pts
-			(xy 379.73 182.88) (xy 388.62 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e83b7adf-1684-4dc6-aa40-668696274a99")
-	)
-	(wire
-		(pts
-			(xy 379.73 83.82) (xy 388.62 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb556ea3-62d6-46c7-a623-924b49a37402")
 	)
 	(wire
 		(pts
@@ -6963,26 +6110,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 86.36) (xy 388.62 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3f73eb3-8bcd-4345-a1a8-edbcd3efc89d")
-	)
-	(wire
-		(pts
-			(xy 342.9 120.65) (xy 360.68 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4bd3614-353c-4025-8810-82367de71f59")
-	)
-	(wire
-		(pts
 			(xy 82.55 92.71) (xy 105.41 92.71)
 		)
 		(stroke
@@ -7010,16 +6137,6 @@
 			(type default)
 		)
 		(uuid "f6b2d4c5-3838-4f2b-9f67-738b4fcc7938")
-	)
-	(wire
-		(pts
-			(xy 379.73 93.98) (xy 388.62 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb959460-198e-40e5-9e34-6e259d7dbec6")
 	)
 	(wire
 		(pts
@@ -7138,17 +6255,6 @@
 		)
 		(uuid "089208ed-73ad-4a8e-93ef-56fe74edeb0e")
 	)
-	(label "USB1_P"
-		(at 342.9 170.18 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "08987693-e299-48d2-9a26-c8f33018ae7c")
-	)
 	(label "OCM_R"
 		(at 281.94 132.08 0)
 		(effects
@@ -7181,17 +6287,6 @@
 			(justify left bottom)
 		)
 		(uuid "0bb952e4-b4b9-4fca-bdef-af9fbb0bd984")
-	)
-	(label "DIAG_P"
-		(at 379.73 160.02 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d56221f-32d8-4e4c-9fe9-b2d32b3502e9")
 	)
 	(label "USART1_CK2"
 		(at 21.59 236.22 0)
@@ -7237,17 +6332,6 @@
 		)
 		(uuid "0ff6acc8-1a87-423d-b48a-efc10f8b2d59")
 	)
-	(label "FDCAN1_TX"
-		(at 342.9 111.76 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "129f2a3e-4f0c-4040-acfa-08740663a745")
-	)
 	(label "EN_P"
 		(at 21.59 218.44 0)
 		(effects
@@ -7258,17 +6342,6 @@
 			(justify left bottom)
 		)
 		(uuid "141f1625-abe8-4d85-9da0-adf7ed52080b")
-	)
-	(label "ECC_I"
-		(at 379.73 93.98 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1467bf13-c6ff-4eab-b913-00a37414912b")
 	)
 	(label "EN_M"
 		(at 21.59 208.28 0)
@@ -7292,17 +6365,6 @@
 		)
 		(uuid "154d6ba7-421e-46ba-9719-765a15042121")
 	)
-	(label "OCM_T2"
-		(at 379.73 213.36 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "166195d0-0ee0-4a40-9b89-7aa4c9596e6e")
-	)
 	(label "GPIO-LED_T2"
 		(at 129.54 163.83 0)
 		(effects
@@ -7313,17 +6375,6 @@
 			(justify left bottom)
 		)
 		(uuid "17006d6b-6b9b-4ef0-8c2b-7278bdfbf4c8")
-	)
-	(label "ECB_P"
-		(at 379.73 167.64 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1a0c4f18-5874-4cbe-8758-e406bfc1b1db")
 	)
 	(label "ECB_M"
 		(at 105.41 170.18 180)
@@ -7347,17 +6398,6 @@
 		)
 		(uuid "1d7cf5d8-a0aa-4895-99d6-e75215896085")
 	)
-	(label "ECC_T2"
-		(at 379.73 220.98 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f950f67-8f0d-4279-9ae0-5b3c4641df8b")
-	)
 	(label "GPIO-LED_Debug_2"
 		(at 105.41 208.28 180)
 		(effects
@@ -7369,17 +6409,6 @@
 		)
 		(uuid "20fd0c1b-4392-4641-94c9-74526378cea4")
 	)
-	(label "SWDIO2"
-		(at 342.9 96.52 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "216f1818-9217-43b6-aa54-48648233b511")
-	)
 	(label "VBUS_DET1"
 		(at 105.41 77.47 180)
 		(effects
@@ -7390,17 +6419,6 @@
 			(justify right bottom)
 		)
 		(uuid "21d3a172-bb72-48e8-b51f-27aebbd76de4")
-	)
-	(label "OCM_P"
-		(at 379.73 162.56 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "24c4e1b2-c862-420a-99de-0fc8ddef2175")
 	)
 	(label "DIAG_T2"
 		(at 281.94 205.74 0)
@@ -7423,17 +6441,6 @@
 			(justify left bottom)
 		)
 		(uuid "25751001-80e8-41c5-908a-daea28e7c8a0")
-	)
-	(label "I2C_SDA"
-		(at 342.9 195.58 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "25dd5b1f-1b17-4e28-839f-bf8122c5b14d")
 	)
 	(label "ECB_P"
 		(at 281.94 162.56 0)
@@ -7500,17 +6507,6 @@
 		)
 		(uuid "2afd3325-e726-49e9-a2f0-d712e569546f")
 	)
-	(label "GPIO-LED_I"
-		(at 342.9 128.27 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b4f8a1f-b349-423a-9f22-1004007070f4")
-	)
 	(label "PWMB_T2"
 		(at 281.94 200.66 0)
 		(effects
@@ -7555,50 +6551,6 @@
 		)
 		(uuid "2fd4fd22-7e74-47db-97c1-487e5eb61ba0")
 	)
-	(label "GPIO-LED_R"
-		(at 342.9 138.43 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30a992b3-722b-481a-aa76-80ac89ae25f8")
-	)
-	(label "ECA_M"
-		(at 379.73 114.3 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30a9d6b3-4b52-4d83-81ad-0088e582bf07")
-	)
-	(label "DIAG_M"
-		(at 379.73 109.22 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "319ab208-5efb-4464-bb1f-4602689ef481")
-	)
-	(label "GPIO-LED_T1"
-		(at 342.9 130.81 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "31bb5c1a-2fc3-4a1c-8d7b-7f073bc42c2a")
-	)
 	(label "USB1_N"
 		(at 105.41 80.01 180)
 		(effects
@@ -7631,17 +6583,6 @@
 			(justify left bottom)
 		)
 		(uuid "349fcca8-f416-472d-ad0c-60f6e8094851")
-	)
-	(label "ECA_I"
-		(at 379.73 88.9 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3767b70b-6e73-4ab1-a928-51651568b81e")
 	)
 	(label "ECB_T2"
 		(at 281.94 213.36 0)
@@ -7730,50 +6671,6 @@
 		)
 		(uuid "3dd69a26-bd64-457d-a7f6-84988a03ae46")
 	)
-	(label "EN_R"
-		(at 379.73 132.08 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e340e3c-fa44-4183-a1f5-d36139ce9dfd")
-	)
-	(label "OCM_T1"
-		(at 379.73 187.96 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4138a8e9-0b6c-4f08-be24-d5ae1f87e70f")
-	)
-	(label "EN_P"
-		(at 379.73 157.48 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "41b62f6c-d2e8-41a1-97af-1321c884fd6b")
-	)
-	(label "PWMA_T1"
-		(at 379.73 177.8 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "422efdcf-b86d-49ac-b61d-d6a8dc2dadda")
-	)
 	(label "USB2_P"
 		(at 196.85 260.35 0)
 		(effects
@@ -7785,17 +6682,6 @@
 		)
 		(uuid "42c8ce50-b6ce-4772-8395-d12d8cd04d72")
 	)
-	(label "USB1_N"
-		(at 342.9 172.72 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "42ec00e5-d3da-4d2c-9f76-13cedc266ce0")
-	)
 	(label "ECA_P"
 		(at 281.94 160.02 0)
 		(effects
@@ -7806,39 +6692,6 @@
 			(justify left bottom)
 		)
 		(uuid "43f43b6c-3b88-4d52-966b-76ab44e8ab8f")
-	)
-	(label "PWMA_I"
-		(at 379.73 76.2 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44e220f7-b0a3-422a-a7bc-cdc9825e3570")
-	)
-	(label "FDCAN2_TX"
-		(at 342.9 118.11 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "479496ef-5447-4435-ae83-3c074a582487")
-	)
-	(label "NRST2"
-		(at 342.9 91.44 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "47a34878-280b-4632-ab2a-8999b21f7aa6")
 	)
 	(label "EN_T2"
 		(at 21.59 102.87 0)
@@ -7862,17 +6715,6 @@
 		)
 		(uuid "4844ffec-4b00-4737-ad96-f0b68b29d1ad")
 	)
-	(label "I2C-SDA"
-		(at 342.9 157.48 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4bf6b59a-2d0d-4d1f-befd-2fb77e51d464")
-	)
 	(label "ECC_M"
 		(at 281.94 114.3 0)
 		(effects
@@ -7895,17 +6737,6 @@
 		)
 		(uuid "4c97108d-4dae-4792-89e8-422ba3a0e746")
 	)
-	(label "ECB_T1"
-		(at 379.73 193.04 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d2abae6-5fd6-481c-86be-dc1395db5f05")
-	)
 	(label "UART_RX"
 		(at 21.59 118.11 0)
 		(effects
@@ -7915,17 +6746,6 @@
 			(justify left bottom)
 		)
 		(uuid "4da060ee-f9b3-4565-8219-154a206b42e8")
-	)
-	(label "GPIO-LED_T2"
-		(at 342.9 133.35 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "503379f8-f288-4ce7-91fe-f64989a56f08")
 	)
 	(label "PWMB_P"
 		(at 21.59 226.06 0)
@@ -7937,39 +6757,6 @@
 			(justify left bottom)
 		)
 		(uuid "50e9d208-ca53-4e23-9cd8-e06220e54d42")
-	)
-	(label "PWMB_M"
-		(at 379.73 104.14 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "516c41c5-c422-498e-9c45-2b7f2dd5d4d3")
-	)
-	(label "FDCAN1_RX"
-		(at 342.9 114.3 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "521208ed-98f4-42cc-9237-b878ea664f33")
-	)
-	(label "PWMB_T1"
-		(at 379.73 180.34 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5468a9c3-1a89-4c3f-9cae-a4e8ee486a38")
 	)
 	(label "OSC-OUT_1"
 		(at 21.59 69.85 0)
@@ -8080,17 +6867,6 @@
 		)
 		(uuid "59950e31-e0df-4453-9ab3-62b3ad49848d")
 	)
-	(label "SENSE_VBAT"
-		(at 342.9 76.2 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "599d05a2-a3f0-433e-88ee-694bab0d6a84")
-	)
 	(label "DIAG_R"
 		(at 281.94 129.54 0)
 		(effects
@@ -8124,17 +6900,6 @@
 		)
 		(uuid "5be5f6d5-d718-4ec1-b9bb-417f43ed4f7e")
 	)
-	(label "ECC_M"
-		(at 379.73 119.38 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d630dc9-ce40-421e-901e-b81edd19bdf9")
-	)
 	(label "USART1_CK2"
 		(at 214.63 86.36 0)
 		(effects
@@ -8157,17 +6922,6 @@
 		)
 		(uuid "5db2f187-9ba0-435a-ae41-3a3d3e12c829")
 	)
-	(label "ECA_T1"
-		(at 379.73 190.5 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5dbb1805-25aa-4afa-9bde-02a8dbc2a4dd")
-	)
 	(label "PWMA_R"
 		(at 281.94 121.92 0)
 		(effects
@@ -8178,17 +6932,6 @@
 			(justify left bottom)
 		)
 		(uuid "5e2700bf-24ee-4a7e-84cc-306bfb7c1c67")
-	)
-	(label "SWDIO1"
-		(at 342.9 105.41 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5f616107-f63b-4931-b35b-e901d8d6f30c")
 	)
 	(label "USART1_TX2"
 		(at 214.63 83.82 0)
@@ -8234,17 +6977,6 @@
 		)
 		(uuid "6771de8d-c6d9-4086-b173-a53458fd40b7")
 	)
-	(label "PWMB_R"
-		(at 379.73 129.54 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "677e3c85-5bf1-4618-8c09-5540659c8cdb")
-	)
 	(label "DIAG_M"
 		(at 281.94 104.14 0)
 		(effects
@@ -8255,17 +6987,6 @@
 			(justify left bottom)
 		)
 		(uuid "6f132193-ae6d-47ec-8df0-2d05b4f2fccb")
-	)
-	(label "ECB_I"
-		(at 379.73 91.44 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6fadb7bf-eab4-4448-9547-674817f24499")
 	)
 	(label "PWMA_T1"
 		(at 105.41 97.79 180)
@@ -8376,17 +7097,6 @@
 		)
 		(uuid "78c8cb8a-fae7-4952-b5af-11f3a9d3cbbb")
 	)
-	(label "SWCLK2"
-		(at 342.9 93.98 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "79bfe26a-8b84-4adf-a305-eff2beb28427")
-	)
 	(label "USB1_N"
 		(at 133.35 262.89 0)
 		(effects
@@ -8432,17 +7142,6 @@
 		(uuid "7d5a4561-02a0-4218-84b1-576d2f8e127f")
 	)
 	(label "GPIO-LED_Debug_1"
-		(at 342.9 144.78 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7da6cd25-be8c-42e7-869b-dfb83bba0d1c")
-	)
-	(label "GPIO-LED_Debug_1"
 		(at 105.41 92.71 180)
 		(effects
 			(font
@@ -8474,17 +7173,6 @@
 			(justify left bottom)
 		)
 		(uuid "7dee0745-e0c3-43a9-a5e7-9b892c639c31")
-	)
-	(label "ECA_P"
-		(at 379.73 165.1 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ece284d-f6e0-49f4-a694-6d09af5d3de1")
 	)
 	(label "GPIO-LED_T2"
 		(at 105.41 113.03 180)
@@ -8518,28 +7206,6 @@
 			(justify right bottom)
 		)
 		(uuid "81ab7378-cf5c-4db5-b1d2-9f99d50c516d")
-	)
-	(label "ECB_M"
-		(at 379.73 116.84 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83cb0562-009a-4cb3-90e6-1a258129dd17")
-	)
-	(label "I2C-SCL"
-		(at 342.9 160.02 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "857c8591-852d-4872-8881-0264e7a1a90b")
 	)
 	(label "PWMB_I"
 		(at 105.41 57.15 180)
@@ -8596,28 +7262,6 @@
 		)
 		(uuid "8917e00e-f2ac-410e-a31b-53703c5b5997")
 	)
-	(label "FDCAN2_RX"
-		(at 342.9 120.65 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "89cd135e-6dd2-4027-81b9-245366e4a6d6")
-	)
-	(label "VBUS_DET1"
-		(at 342.9 175.26 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a7980ea-18ec-45e1-ba82-948b8a2dcb87")
-	)
 	(label "SWDIO1"
 		(at 21.59 52.07 0)
 		(effects
@@ -8662,17 +7306,6 @@
 		)
 		(uuid "8deda6e5-a1a1-4e77-af89-45799dcdaea0")
 	)
-	(label "OCM_R"
-		(at 379.73 137.16 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ef6a87d-b20e-4661-8ffb-6eaa96615dde")
-	)
 	(label "I2C-SDA"
 		(at 105.41 187.96 180)
 		(effects
@@ -8706,28 +7339,6 @@
 		)
 		(uuid "914b5df2-de17-43a5-9ca4-ca097531ae5e")
 	)
-	(label "GPIO-LED_P"
-		(at 342.9 135.89 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "92f7358d-9c6f-4e17-888c-dbd39f2d5306")
-	)
-	(label "PWMB_T2"
-		(at 379.73 205.74 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "93e536a7-8b15-4dcf-aadf-5dad3b8b9eb7")
-	)
 	(label "BOARD_VERSION"
 		(at 105.41 95.25 180)
 		(effects
@@ -8738,17 +7349,6 @@
 			(justify right bottom)
 		)
 		(uuid "962d3c4b-62fa-415e-95d9-707a3ebd2ba5")
-	)
-	(label "EN_I"
-		(at 379.73 81.28 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "966cd065-acc1-43da-a173-3ff745491dfc")
 	)
 	(label "ECB_R"
 		(at 105.41 223.52 180)
@@ -8772,17 +7372,6 @@
 		)
 		(uuid "974d4518-b133-41e7-80ec-64dc6ebd0585")
 	)
-	(label "ECA_T2"
-		(at 379.73 215.9 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "98bf3d65-9fdb-47f2-9a08-bf837d50997a")
-	)
 	(label "ECA_M"
 		(at 281.94 109.22 0)
 		(effects
@@ -8804,17 +7393,6 @@
 			(justify left bottom)
 		)
 		(uuid "9c6f78d9-fbcb-4156-b3a8-2699c5be9e98")
-	)
-	(label "ECB_T2"
-		(at 379.73 218.44 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9cde1f12-4f7c-4a8e-868a-e1dde555c8e3")
 	)
 	(label "OSC-IN_1"
 		(at 210.82 143.51 180)
@@ -8882,17 +7460,6 @@
 		)
 		(uuid "a157235d-fa55-4ec0-b814-8731c6071707")
 	)
-	(label "OCM_I"
-		(at 379.73 86.36 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a180a395-62a9-410a-84fc-5966bc7a179e")
-	)
 	(label "GPIO-LED_T1"
 		(at 129.54 161.29 0)
 		(effects
@@ -8915,17 +7482,6 @@
 		)
 		(uuid "a23b94b2-375e-4254-88c1-569bc66a836c")
 	)
-	(label "I2C_SCL"
-		(at 342.9 193.04 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a3416ef6-22d1-4363-ac63-33716d71af36")
-	)
 	(label "USART1_RX1"
 		(at 105.41 118.11 180)
 		(effects
@@ -8937,17 +7493,6 @@
 		)
 		(uuid "a4a61892-ef69-4da1-b247-81e23dd0d504")
 	)
-	(label "PWMB_I"
-		(at 379.73 78.74 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a6522078-9a23-4b68-bc17-5dca9938dd38")
-	)
 	(label "OCM_I"
 		(at 281.94 81.28 0)
 		(effects
@@ -8958,17 +7503,6 @@
 			(justify left bottom)
 		)
 		(uuid "a76cc82e-6e3d-47e3-bb41-18b07b1c0a9e")
-	)
-	(label "GPIO-LED_M"
-		(at 342.9 140.97 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a8705e6a-a8a1-42ef-8bec-61b34f2ab466")
 	)
 	(label "EN_T2"
 		(at 281.94 203.2 0)
@@ -8991,17 +7525,6 @@
 			(justify left bottom)
 		)
 		(uuid "aaa9c2a2-6e1d-4c81-b33e-15540406a018")
-	)
-	(label "PWMA_M"
-		(at 379.73 101.6 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aad10c45-9143-44cf-bdc9-d50198b66536")
 	)
 	(label "SWCLK1"
 		(at 129.54 69.85 0)
@@ -9036,16 +7559,6 @@
 		)
 		(uuid "acbae7d2-8cef-4baa-8d2c-702011773e8c")
 	)
-	(label "MCU_ID2"
-		(at 342.9 214.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ad146409-95c1-4191-a856-fe11cff2bb0c")
-	)
 	(label "GPIO-LED_I"
 		(at 105.41 85.09 180)
 		(effects
@@ -9056,28 +7569,6 @@
 			(justify right bottom)
 		)
 		(uuid "b0615926-5213-4fcb-8679-f26748a60919")
-	)
-	(label "OCM_M"
-		(at 379.73 111.76 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b299686c-a74d-499e-ba3c-2069c62c8446")
-	)
-	(label "ECC_T1"
-		(at 379.73 195.58 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b35f3ded-bace-43d8-9001-9dff7ef2df10")
 	)
 	(label "OSC-OUT_2"
 		(at 21.59 185.42 0)
@@ -9123,17 +7614,6 @@
 		)
 		(uuid "b6e623d7-68d8-448a-a21e-3733de7daabe")
 	)
-	(label "BOARD_VERSION"
-		(at 342.9 83.82 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b7d64df0-c9a5-4c03-820e-f8f60cd0bbf8")
-	)
 	(label "USART1_TX1"
 		(at 214.63 72.39 0)
 		(effects
@@ -9167,28 +7647,6 @@
 		)
 		(uuid "ba8a3892-5c8c-4526-b37c-a6ea203b6498")
 	)
-	(label "DIAG_T1"
-		(at 379.73 185.42 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bc283b94-8a42-4055-a066-2fdaf538b5fe")
-	)
-	(label "DIAG_I"
-		(at 379.73 83.82 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd66eb46-8b95-4757-83e7-ad74917259f4")
-	)
 	(label "PWMB_R"
 		(at 105.41 215.9 180)
 		(effects
@@ -9210,17 +7668,6 @@
 			(justify left bottom)
 		)
 		(uuid "bf7b2bff-769e-46f4-b17d-a88f1e8ed1f0")
-	)
-	(label "EN_M"
-		(at 379.73 106.68 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c02578e6-a99c-4bc8-b510-9332228c9af5")
 	)
 	(label "PWMA_I"
 		(at 105.41 59.69 180)
@@ -9266,28 +7713,6 @@
 		)
 		(uuid "c1643cc2-9fba-4612-ba6a-37ce765c5fb0")
 	)
-	(label "EN_T1"
-		(at 379.73 182.88 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c271fb44-93c5-40fb-9637-8556ac8165c1")
-	)
-	(label "USB2_P"
-		(at 342.9 180.34 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c28d0eb0-01f7-4253-8c66-d07c9e4e6679")
-	)
 	(label "NRST1"
 		(at 21.59 57.15 0)
 		(effects
@@ -9331,17 +7756,6 @@
 		)
 		(uuid "c4d945a5-a0a9-4268-8364-afe247c71c27")
 	)
-	(label "ECC_R"
-		(at 379.73 144.78 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5729416-f351-4365-a419-df77792059f0")
-	)
 	(label "PWMA_P"
 		(at 21.59 228.6 0)
 		(effects
@@ -9363,17 +7777,6 @@
 			(justify right bottom)
 		)
 		(uuid "c5ef6880-c076-41db-a140-aec51a1e93c7")
-	)
-	(label "PWMA_P"
-		(at 379.73 152.4 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c69c931e-d1e2-4398-a2cf-c0a1e036ef7e")
 	)
 	(label "I2C-SDA"
 		(at 130.81 220.98 0)
@@ -9408,28 +7811,6 @@
 		)
 		(uuid "cef3d512-e60a-48c0-87a8-9105b404a506")
 	)
-	(label "ECA_R"
-		(at 379.73 139.7 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cf2a2bf1-5851-4f1b-9cbe-6b1714263dea")
-	)
-	(label "DIAG_T2"
-		(at 379.73 210.82 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cf8a1f00-7e43-4975-9f51-4b1ccd56447f")
-	)
 	(label "VBUS_DET1"
 		(at 133.35 265.43 0)
 		(effects
@@ -9463,27 +7844,6 @@
 		)
 		(uuid "d2f3ff85-9ce7-4f73-b2a4-f92cda9501b4")
 	)
-	(label "ECB_R"
-		(at 379.73 142.24 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4996f48-925b-4afd-8f86-eac7238cee8d")
-	)
-	(label "MCU_ID1"
-		(at 342.9 212.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d513928a-0c69-4116-ab70-0171dbacaa27")
-	)
 	(label "USB2_N"
 		(at 105.41 195.58 180)
 		(effects
@@ -9495,50 +7855,6 @@
 		)
 		(uuid "d671f8bb-afb6-4c16-b8af-09aebb3347ba")
 	)
-	(label "NRST1"
-		(at 342.9 100.33 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6c3a6ce-66d1-40f9-9238-a5e22f495094")
-	)
-	(label "DIAG_R"
-		(at 379.73 134.62 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6cdce4a-cc85-46c9-826e-98984bc6ef1f")
-	)
-	(label "ECC_P"
-		(at 379.73 170.18 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dbcc914c-4866-4f2a-8684-9eadc4140dbc")
-	)
-	(label "PWMA_T2"
-		(at 379.73 203.2 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dcf5ad9f-2e96-4bb7-9434-f3223de08359")
-	)
 	(label "USART1_RX2"
 		(at 105.41 233.68 180)
 		(effects
@@ -9549,17 +7865,6 @@
 			(justify right bottom)
 		)
 		(uuid "dd82c334-ceda-41f9-bbb3-32d99788dcd9")
-	)
-	(label "PWMB_P"
-		(at 379.73 154.94 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ddb66a45-d521-4457-82b5-681b56082a9a")
 	)
 	(label "FDCAN2_RX"
 		(at 129.54 127 0)
@@ -9583,17 +7888,6 @@
 		)
 		(uuid "e0efd455-4d62-4a69-a9a6-eeff12df2a65")
 	)
-	(label "EN_T2"
-		(at 379.73 208.28 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e12d6b72-c454-4c90-b05c-060e7710db32")
-	)
 	(label "ECA_I"
 		(at 281.94 83.82 0)
 		(effects
@@ -9616,17 +7910,6 @@
 		)
 		(uuid "e19f57e6-22dc-4820-9146-1f5203353ba8")
 	)
-	(label "VBUS_DET2"
-		(at 342.9 185.42 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1ccb391-24de-4281-9dcd-f4b73927b161")
-	)
 	(label "USART1_TX1"
 		(at 105.41 115.57 180)
 		(effects
@@ -9648,17 +7931,6 @@
 			(justify left bottom)
 		)
 		(uuid "e5579b9d-6a2f-4ed6-9b6c-ff09d8bf30ea")
-	)
-	(label "GPIO-LED_Debug_2"
-		(at 342.9 147.32 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e569c930-c0d7-450e-8cce-c090754704a2")
 	)
 	(label "SENSE_VBAT"
 		(at 135.89 35.56 0)
@@ -9768,17 +8040,6 @@
 			(justify left bottom)
 		)
 		(uuid "f23cd703-30cb-4c81-bc72-01b19f5879fd")
-	)
-	(label "USB2_N"
-		(at 342.9 182.88 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f3266391-f47f-4325-8c8f-77b8b81b0d92")
 	)
 	(label "MCU_ID2"
 		(at 212.09 116.84 0)
@@ -9911,17 +8172,6 @@
 		)
 		(uuid "fcee7139-393f-434c-89df-115f626b42c8")
 	)
-	(label "PWMA_R"
-		(at 379.73 127 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd2bd0c0-1e89-450c-90bb-2d8c00bb77e6")
-	)
 	(label "PWMA_I"
 		(at 281.94 71.12 0)
 		(effects
@@ -9943,17 +8193,6 @@
 			(justify left bottom)
 		)
 		(uuid "fd5a5ae9-1663-4187-b808-b56f50576227")
-	)
-	(label "SWCLK1"
-		(at 342.9 102.87 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fec12a41-6a1c-4def-b5f7-6f5c44682e67")
 	)
 	(hierarchical_label "ECA_R"
 		(shape bidirectional)
@@ -10740,154 +8979,8 @@
 		(uuid "ff8f7566-8d63-4843-a787-bce0ccf2bfc9")
 	)
 	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 101.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "014a7c28-c9a5-443f-860c-a0e496b5f3cf")
-		(property "Reference" "TP22"
-			(at 393.7 101.6 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 101.6 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 105.156 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 106.68 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 103.632 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "102cacb8-0482-4eb3-9abf-d946d9ea1a72")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 180.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06b50613-9005-45b3-982f-ab7178eba17c")
-		(property "Reference" "TP69"
-			(at 393.7 180.34 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 180.34 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 183.896 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 185.42 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 182.372 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c00dcff-00a6-4741-9aed-33019a8c40be")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP69")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Duc-Capacitors:CAP CER 0402")
-		(at 248.92 149.86 90)
+		(at 248.92 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10895,15 +8988,15 @@
 		(dnp no)
 		(uuid "0768f78e-2c24-4b34-8cb7-80240479eed7")
 		(property "Reference" "C44"
-			(at 245.872 150.876 90)
+			(at 253.365 147.955 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CAP CER 0402"
-			(at 239.522 148.082 90)
+		(property "Value" "8pF 16V"
+			(at 255.905 150.495 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10911,16 +9004,15 @@
 			)
 		)
 		(property "Footprint" "Duc:C0402"
-			(at 254.381 142.621 90)
+			(at 256.54 153.035 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 264.16 149.86 0)
+			(at 233.68 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10929,7 +9021,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0402"
-			(at 256.286 149.86 0)
+			(at 241.554 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10938,7 +9030,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 266.7 149.86 0)
+			(at 231.14 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10947,7 +9039,7 @@
 			)
 		)
 		(property "MPN" "CC0402KRX5R7BB105"
-			(at 269.24 149.86 0)
+			(at 228.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10956,7 +9048,7 @@
 			)
 		)
 		(property "LCSC Part" "C325464"
-			(at 271.78 149.86 0)
+			(at 226.06 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10980,1176 +9072,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0982940e-c3ce-400e-b94e-282f38b6ee0f")
-		(property "Reference" "TP20"
-			(at 365.76 96.52 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 96.52 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 100.076 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 101.6 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 98.552 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83a159b6-3eab-4b29-ab9a-7c676a244dff")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13f35213-4cf3-4e3c-9e41-323072070c62")
-		(property "Reference" "TP58"
-			(at 393.7 160.02 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 160.02 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 163.576 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 165.1 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 162.052 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fef097b-797f-4bd4-b4f6-42488f9fba07")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 193.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b7b7f33-018f-49b4-b7e3-eee2df536176")
-		(property "Reference" "TP77"
-			(at 393.7 193.04 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 193.04 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 196.596 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 198.12 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 195.072 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1562a89-084d-4759-9fa3-8f349783e677")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP77")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 130.81 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1faa4104-4c14-4503-a3c8-4d7a6d9b10bb")
-		(property "Reference" "TP39"
-			(at 365.76 130.81 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 130.81 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 134.366 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 135.89 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 132.842 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9ff350e-2692-449b-a6e2-64d194a44f55")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 214.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fc583f4-f1a0-4ba9-b824-39969ea1619d")
-		(property "Reference" "TP86"
-			(at 365.76 214.63 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 214.63 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 218.186 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 219.71 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 216.662 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5433dbb3-3397-4b5f-bdd7-2cc5b72d839c")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 213.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "202439cc-b064-46c4-a754-d3688c13f4fb")
-		(property "Reference" "TP85"
-			(at 393.7 213.36 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 213.36 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 216.916 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 218.44 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 215.392 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d415eafc-a0c9-4530-95ba-d3505d2ca824")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP85")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 218.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24c0eecb-49f5-4ceb-98d4-b2f5390a57d4")
-		(property "Reference" "TP88"
-			(at 393.7 218.44 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 218.44 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 221.996 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 223.52 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 220.472 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1ae5e88-a673-44fe-bdd0-2a21524791be")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP88")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 76.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27d5628e-5277-4fde-9f7b-6ffaa11f2015")
-		(property "Reference" "TP8"
-			(at 365.76 76.2 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 76.2 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 79.756 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 81.28 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 78.232 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afdfa97c-ee10-4fbe-9b73-f1ffb70e312f")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 127 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2dc3748d-7d46-42dc-965d-2676fcb7455b")
-		(property "Reference" "TP36"
-			(at 393.7 127 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 127 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 130.556 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 132.08 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 129.032 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b55d30ea-a6d2-4539-9ce8-756da67770f6")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 215.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3166872d-8a62-44dd-8cef-03a3afbb3d20")
-		(property "Reference" "TP87"
-			(at 393.7 215.9 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 215.9 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 219.456 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 220.98 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 217.932 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76a46443-92f3-4027-9ed4-1edb6ae4c5e8")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP87")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 111.76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3358f832-ae7a-4695-b8df-b82eea642bad")
-		(property "Reference" "TP28"
-			(at 365.76 111.76 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 111.76 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 115.316 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 116.84 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 113.792 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b88c6c11-56a2-45f9-b8b5-45692c382fc3")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 116.84 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "381afe58-1e80-46b0-bb34-19aafbc0e599")
-		(property "Reference" "TP32"
-			(at 393.7 116.84 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 116.84 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 120.396 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 121.92 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 118.872 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "156242f9-078a-439b-a92a-bc13a540e181")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "386bd4be-ef98-4972-9352-3dec0ebb9986")
-		(property "Reference" "TP18"
-			(at 365.76 93.98 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 93.98 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 97.536 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 99.06 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 96.012 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e924807-b7af-4678-9205-c1b95924c469")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 104.14 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d8ff61c-dfdf-404e-ab3d-e2f87a8720ad")
-		(property "Reference" "TP24"
-			(at 393.7 104.14 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 104.14 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 107.696 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 109.22 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 106.172 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6111eb18-4165-4530-89c6-087df8f3e72e")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 185.42 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3eb1aeca-7945-435f-8401-526350c3d221")
-		(property "Reference" "TP73"
-			(at 393.7 185.42 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 185.42 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 188.976 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 190.5 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 187.452 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "effd3ed4-7b42-4460-9ef7-d210537fa550")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 105.41 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "434ddf4e-c328-4960-96a9-8ba7259bc0f3")
-		(property "Reference" "TP25"
-			(at 365.76 105.41 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 105.41 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 108.966 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 110.49 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 107.442 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dab930be-5444-4db0-ab3b-061351c7627b")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Duc-Capacitors:CAP CER 0402")
-		(at 213.36 175.26 90)
+		(at 213.36 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12157,15 +9081,15 @@
 		(dnp no)
 		(uuid "45439ce0-04a4-43b9-ad2e-8fb1fbbaf476")
 		(property "Reference" "C45"
-			(at 210.312 176.276 90)
+			(at 208.915 173.355 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CAP CER 0402"
-			(at 203.962 173.482 90)
+		(property "Value" "8pF 16V"
+			(at 207.01 175.895 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12173,16 +9097,15 @@
 			)
 		)
 		(property "Footprint" "Duc:C0402"
-			(at 218.821 168.021 90)
+			(at 205.74 178.435 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 228.6 175.26 0)
+			(at 198.12 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12191,7 +9114,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0402"
-			(at 220.726 175.26 0)
+			(at 205.994 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12200,7 +9123,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 231.14 175.26 0)
+			(at 195.58 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12209,7 +9132,7 @@
 			)
 		)
 		(property "MPN" "CC0402KRX5R7BB105"
-			(at 233.68 175.26 0)
+			(at 193.04 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12218,7 +9141,7 @@
 			)
 		)
 		(property "LCSC Part" "C325464"
-			(at 236.22 175.26 0)
+			(at 190.5 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12242,79 +9165,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 134.62 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45c978d4-044f-42b9-8148-339fc2966a65")
-		(property "Reference" "TP42"
-			(at 393.7 134.62 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 134.62 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 138.176 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 139.7 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 136.652 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60c086c0-e770-4845-9414-43b98beb3ea9")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Duc-MCUs:STM32G474RET6")
 		(at 62.23 195.58 0)
 		(unit 2)
@@ -12330,6 +9180,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "STM32G474RET6"
@@ -12597,2196 +9448,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f198b85-01d1-4679-aff5-3f14b8fda4fd")
-		(property "Reference" "TP55"
-			(at 365.76 160.02 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 160.02 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 163.576 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 165.1 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 162.052 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "450ca266-a2e4-4f31-a317-a28a39cb9283")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 193.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "502fa7cb-1702-4000-9140-0d3eed3bae03")
-		(property "Reference" "TP76"
-			(at 365.76 193.04 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 193.04 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 196.596 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 198.12 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 195.072 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "737b4013-e76f-4a01-a89d-031a05ef866f")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP76")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 190.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "571d2cb5-0b98-4c6b-a13e-25f7a97cbf91")
-		(property "Reference" "TP75"
-			(at 393.7 190.5 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 190.5 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 194.056 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 195.58 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 192.532 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8da9a610-7253-450e-bf76-121fce0e95bd")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP75")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59bb25e0-9fd4-4ac3-a1f1-94a10c474c7c")
-		(property "Reference" "TP12"
-			(at 365.76 83.82 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 83.82 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 87.376 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 88.9 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 85.852 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c3297f87-da10-4c20-bb4d-53ec20c1643f")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 129.54 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59cec1f7-e14b-47dc-803b-c772b24031dc")
-		(property "Reference" "TP38"
-			(at 393.7 129.54 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 129.54 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 133.096 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 134.62 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 131.572 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe770219-75e6-41b0-9d19-7eb1ca63239d")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 78.74 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d7a802e-afe4-47b0-8b38-3e393efcc7ab")
-		(property "Reference" "TP10"
-			(at 393.7 78.74 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 78.74 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 82.296 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 83.82 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 80.772 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c1a8a1b-2660-44a8-af9a-ac2df634fb96")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 152.4 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5da8c716-4472-4449-83a9-5b1ccede85a2")
-		(property "Reference" "TP52"
-			(at 393.7 152.4 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 152.4 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 155.956 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 157.48 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 154.432 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "022ed2e5-4e0d-4248-b492-d69eecc2a043")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e429b54-a5b2-43e6-b7a4-c6700beec9a3")
-		(property "Reference" "TP17"
-			(at 393.7 91.44 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 91.44 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 94.996 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 96.52 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 93.472 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31c3eaaf-722f-491d-874e-4fe82ed6904e")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ec79ee4-a51e-4b19-989b-dfcc5c5a6574")
-		(property "Reference" "TP15"
-			(at 393.7 88.9 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 88.9 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 92.456 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 93.98 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 90.932 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f744c8c8-499f-41a1-a8fe-7c21c635b941")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 81.28 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f981dc6-0999-4ec7-85a4-9f591fd41064")
-		(property "Reference" "TP11"
-			(at 393.7 81.28 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 81.28 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 84.836 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 86.36 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 83.312 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b148fd5b-1920-41ba-8661-466eac756db8")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "604f409b-d37e-462f-9e9e-1384f1025a0d")
-		(property "Reference" "TP19"
-			(at 393.7 93.98 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 93.98 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 97.536 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 99.06 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 96.012 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10b86a61-b012-4ed8-9286-e2286b4022c7")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 157.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "612055fe-17b9-47c4-8316-28bdc1b19dec")
-		(property "Reference" "TP56"
-			(at 393.7 157.48 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 157.48 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 161.036 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 162.56 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 159.512 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dcaa5d71-70ae-42bc-bb76-18e4cb4dbf1b")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 139.7 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "653404ea-a7ed-46b4-ae8f-107de5b2a794")
-		(property "Reference" "TP46"
-			(at 393.7 139.7 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 139.7 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 143.256 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 144.78 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 141.732 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c8feaf9-61dc-49a2-8ef7-688723520489")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 147.32 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65dcc14f-1d21-4513-a9f3-0399868e0617")
-		(property "Reference" "TP51"
-			(at 365.76 147.32 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 147.32 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 150.876 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 152.4 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 149.352 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ce8bc38-7685-47df-9903-5014aa6c1a0b")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 76.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "674da0d9-e50d-4413-9a06-98aeafd40306")
-		(property "Reference" "TP9"
-			(at 393.7 76.2 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 76.2 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 79.756 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 81.28 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 78.232 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68744b04-93c1-46ea-a8e2-828e1c95fc94")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6862d2c2-a99d-4213-9f84-37ef19c4c717")
-		(property "Reference" "TP27"
-			(at 393.7 109.22 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 109.22 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 112.776 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 114.3 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 111.252 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32f95f49-a00d-41a8-8358-7f24830028b1")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 185.42 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e636568-19d7-44c3-b3f5-6f32efac65fc")
-		(property "Reference" "TP72"
-			(at 365.76 185.42 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 185.42 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 188.976 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 190.5 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 187.452 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "752ae01b-fe38-46e6-ac70-e8bafb6440ce")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP72")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 128.27 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e742ff1-3040-4e36-8664-b93e447d026a")
-		(property "Reference" "TP37"
-			(at 365.76 128.27 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 128.27 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 131.826 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 133.35 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 130.302 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6aa1fcfb-e281-45a8-afbf-ad1c4c9bf3c6")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 175.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78121706-eb6b-46d3-901e-3cb9e61254a7")
-		(property "Reference" "TP66"
-			(at 365.76 175.26 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 175.26 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 178.816 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 180.34 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 177.292 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29a84da2-c385-4e65-9b1f-32e34b830a7f")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 86.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7adc4409-5c20-4912-a6cf-0637d7d68520")
-		(property "Reference" "TP14"
-			(at 393.7 86.36 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 86.36 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 89.916 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 91.44 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 88.392 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a179f016-4803-4e4f-a563-e748d6ecd533")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 120.65 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c05ac29-ad51-4440-affd-d0207f004fe3")
-		(property "Reference" "TP35"
-			(at 365.76 120.65 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 120.65 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 124.206 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 125.73 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 122.682 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8fdbacb-724d-4b02-87f0-b967b112ac05")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 144.78 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f123caa-ca7d-49d6-8b52-47f7a9e8f925")
-		(property "Reference" "TP49"
-			(at 365.76 144.78 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 144.78 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 148.336 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 149.86 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 146.812 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0cb680d7-c0f4-44d6-8a6f-40d340b98056")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 212.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ff2bd0f-939b-4141-b2c6-0c729321b677")
-		(property "Reference" "TP84"
-			(at 365.76 212.09 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 212.09 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 215.646 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 217.17 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 214.122 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01085a1b-2ade-4410-8a7f-1c7f8d9cd5b4")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP84")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82fc23b8-ea7a-46cb-903d-30cde303273a")
-		(property "Reference" "TP13"
-			(at 393.7 83.82 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 83.82 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 87.376 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 88.9 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 85.852 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92f79616-7bce-4e15-a0c7-1a1a6e483059")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 205.74 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8930011e-b9da-4a6f-ac15-26c496ac7e1a")
-		(property "Reference" "TP81"
-			(at 393.7 205.74 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 205.74 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 209.296 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 210.82 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 207.772 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f1e2de7-3f55-43f2-9dd4-171387fd28f9")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 195.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8af15375-c4c4-426d-ad98-5e6522099aaf")
-		(property "Reference" "TP78"
-			(at 365.76 195.58 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 195.58 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 199.136 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 200.66 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 197.612 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd4f9164-7b72-4832-adef-13804d59fd75")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP78")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 133.35 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c58d425-a232-4b8c-a4b1-22d2d8833c05")
-		(property "Reference" "TP41"
-			(at 365.76 133.35 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 133.35 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 136.906 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 138.43 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 135.382 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea6d9a73-2598-49c7-aea1-646da103cde9")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 137.16 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ca36a62-6153-4963-a81d-61fb6ad6a9c1")
-		(property "Reference" "TP44"
-			(at 393.7 137.16 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 137.16 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 140.716 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 142.24 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 139.192 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f366733-1ea4-491b-ae42-b7f913d42e1b")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 111.76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "914501e0-8e0e-4f38-ab1e-a2fb6f1b857c")
-		(property "Reference" "TP29"
-			(at 393.7 111.76 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 111.76 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 115.316 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 116.84 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 113.792 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48ff561b-fa21-4fc8-8475-d199937626db")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 203.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "916b98b4-4d5e-44c1-9128-f8603e17a6c6")
-		(property "Reference" "TP80"
-			(at 393.7 203.2 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 203.2 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 206.756 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 208.28 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 205.232 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e041c9f2-6a96-407a-b0e1-45ed1b2fa32d")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP80")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_symbols:GND")
 		(at 251.46 156.21 0)
 		(unit 1)
@@ -14795,7 +9456,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "959712f8-e595-4c9a-b5cb-e9982222d861")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR35"
 			(at 251.206 147.574 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14846,445 +9507,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 142.24 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99257c77-85a4-40c3-8add-5dd17891c5ca")
-		(property "Reference" "TP48"
-			(at 393.7 142.24 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 142.24 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 145.796 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 147.32 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 144.272 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b9d0aa4-cdd5-4157-9f13-34435fb04cbc")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 177.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bbd394a-75fa-402c-ba20-743b01ffed43")
-		(property "Reference" "TP67"
-			(at 393.7 177.8 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 177.8 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 181.356 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 182.88 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 179.832 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8e90506-5748-4b4b-8447-ff229e29db4c")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 165.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9dfec74d-b42c-4e38-8de1-963412f7c106")
-		(property "Reference" "TP61"
-			(at 393.7 165.1 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 165.1 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 168.656 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 170.18 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 167.132 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0e7a9f6-f24f-426c-8e89-f625a45098ae")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 170.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a73a139d-fb56-4b50-808d-4464a4dd23e0")
-		(property "Reference" "TP63"
-			(at 365.76 170.18 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 170.18 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 173.736 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 175.26 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 172.212 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b82bb258-c296-48a3-ad7f-e08ec0d457f9")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 172.72 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b061dfac-4007-4a1c-b130-e510861dffb8")
-		(property "Reference" "TP65"
-			(at 365.76 172.72 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 172.72 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 176.276 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 177.8 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 174.752 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7257ec9-3720-488d-ace6-14a5453b8c04")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 102.87 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b28fe9c4-5f99-4e59-b392-539176819df3")
-		(property "Reference" "TP23"
-			(at 365.76 102.87 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 102.87 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 106.426 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 107.95 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 104.902 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a0ad94e-caf4-4989-9dec-e5743867114c")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP23")
+					(reference "#PWR35")
 					(unit 1)
 				)
 			)
@@ -15300,7 +9523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b56c9d5d-89e7-443e-a52b-a98518a5b428")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR36"
 			(at 215.646 172.974 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15351,7 +9574,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "#PWR036")
+					(reference "#PWR36")
 					(unit 1)
 				)
 			)
@@ -15459,665 +9682,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 208.28 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbfbc553-71ee-44b0-b940-38eaed8a9041")
-		(property "Reference" "TP82"
-			(at 393.7 208.28 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 208.28 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 211.836 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 213.36 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 210.312 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6c338a7-bd76-4c73-86fc-9aa38ce2ebc5")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP82")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 157.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd84df40-ae32-4e34-a560-1b93c47c948a")
-		(property "Reference" "TP53"
-			(at 365.76 157.48 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 157.48 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 161.036 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 162.56 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 159.512 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ccd19328-5f4b-47de-9e21-589e1cc0f8b3")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 182.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3477b2a-de48-4524-acc7-c5dde70ac4d6")
-		(property "Reference" "TP70"
-			(at 365.76 182.88 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 182.88 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 186.436 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 187.96 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 184.912 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "40210dd7-1d8b-4d0c-a0fa-54a8084ae2d6")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP70")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca9734e1-6c8b-4b86-abb0-5dfd92b8b0be")
-		(property "Reference" "TP26"
-			(at 393.7 106.68 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 106.68 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 110.236 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 111.76 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 108.712 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57c835ac-57cc-471f-ad7a-be8192c4503b")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 144.78 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cef87a82-62ab-4892-8de4-100d4778bfaa")
-		(property "Reference" "TP50"
-			(at 393.7 144.78 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 144.78 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 148.336 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 149.86 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 146.812 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0402cf3-1582-45af-8d52-e911007bf794")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 114.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf98eb6f-4e6c-49cb-8de5-9495f56d34c3")
-		(property "Reference" "TP30"
-			(at 365.76 114.3 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 114.3 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 117.856 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 119.38 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 116.332 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8938bea5-c226-454a-a81c-3bf624968774")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 114.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d13084a0-bfe6-474c-8e19-21b03a39c42e")
-		(property "Reference" "TP31"
-			(at 393.7 114.3 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 114.3 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 117.856 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 119.38 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 116.332 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b04dee99-13a4-45af-9352-55d193161953")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 154.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d19ca5a1-b147-4023-88b1-076b19e30a6b")
-		(property "Reference" "TP54"
-			(at 393.7 154.94 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 154.94 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 158.496 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 160.02 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 156.972 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "282318e2-1186-436c-8fb8-61cba939b905")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 182.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1dab989-ac71-421c-a435-9186053e6281")
-		(property "Reference" "TP71"
-			(at 393.7 182.88 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 182.88 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 186.436 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 187.96 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 184.912 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "129c43c3-a86d-4aab-812f-de3e040c55e5")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Duc-Capacitors:CAP CER 0402")
-		(at 213.36 149.86 90)
+		(at 213.36 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16125,15 +9691,15 @@
 		(dnp no)
 		(uuid "d2853cde-eebb-4c09-919c-7b588d242aba")
 		(property "Reference" "C43"
-			(at 210.312 150.876 90)
+			(at 208.915 147.955 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CAP CER 0402"
-			(at 203.962 148.082 90)
+		(property "Value" "8pF 16V"
+			(at 207.01 150.495 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16141,16 +9707,15 @@
 			)
 		)
 		(property "Footprint" "Duc:C0402"
-			(at 218.821 142.621 90)
+			(at 205.74 153.035 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 228.6 149.86 0)
+			(at 198.12 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16159,7 +9724,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0402"
-			(at 220.726 149.86 0)
+			(at 205.994 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16168,7 +9733,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 231.14 149.86 0)
+			(at 195.58 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16177,7 +9742,7 @@
 			)
 		)
 		(property "MPN" "CC0402KRX5R7BB105"
-			(at 233.68 149.86 0)
+			(at 193.04 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16186,7 +9751,7 @@
 			)
 		)
 		(property "LCSC Part" "C325464"
-			(at 236.22 149.86 0)
+			(at 190.5 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16210,152 +9775,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 119.38 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d37e40cb-4344-4850-8980-57c3c0bfb9d4")
-		(property "Reference" "TP34"
-			(at 393.7 119.38 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 119.38 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 122.936 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 124.46 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 121.412 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b3347af4-af19-4cef-a8ec-7d73d2e6449e")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 167.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5e138ad-fb82-44e2-9efa-d34babf4da3e")
-		(property "Reference" "TP62"
-			(at 393.7 167.64 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 167.64 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 171.196 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 172.72 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 169.672 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3047cc96-4ad2-4950-b470-97103934d575")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Duc-MCUs:STM32G474RET6")
 		(at 60.96 80.01 0)
 		(unit 2)
@@ -16371,6 +9790,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "STM32G474RET6"
@@ -16638,517 +10058,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 118.11 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9104329-6de7-421f-8685-ab96f65dbc14")
-		(property "Reference" "TP33"
-			(at 365.76 118.11 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 118.11 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 121.666 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 123.19 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 120.142 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bc6bde1-c2e2-45c2-8e57-99f90f0eeeee")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de1abed0-1d27-4582-9e7a-bbb744b782b3")
-		(property "Reference" "TP16"
-			(at 365.76 91.44 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 91.44 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 94.996 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 96.52 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 93.472 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f0b9c54-775f-435e-8e2d-dd835933a5dc")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 170.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e129c883-f79c-4c46-bfd0-b1020bc79664")
-		(property "Reference" "TP64"
-			(at 393.7 170.18 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 170.18 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 173.736 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 175.26 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 172.212 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bbcc0c55-3edf-4edd-9537-cfc817abb34d")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e247ed13-189c-4e6d-b3a5-d4571a9cb322")
-		(property "Reference" "TP40"
-			(at 393.7 132.08 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 132.08 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 135.636 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 137.16 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 134.112 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5b64201-c98b-4143-82d7-52cbf6963217")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 138.43 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3cf8f47-d5c5-4df6-966c-3e7a70279461")
-		(property "Reference" "TP45"
-			(at 365.76 138.43 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 138.43 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 141.986 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 143.51 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 140.462 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "194ba876-e627-41d8-9965-7e83608e7853")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 162.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e51dfb5c-1728-42a3-b815-e9b69d6b4277")
-		(property "Reference" "TP60"
-			(at 393.7 162.56 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 162.56 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 166.116 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 167.64 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 164.592 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "510bce33-22a7-42a3-931b-b8e4e7b00e16")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 135.89 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e64076c3-9bf8-48fb-bf87-60214207b94d")
-		(property "Reference" "TP43"
-			(at 365.76 135.89 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 135.89 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 139.446 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 140.97 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 137.922 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6bd800b-ae1b-4ab6-9376-86d953ceaf91")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Duc-Crystals:X322516MLB4SI")
 		(at 231.14 146.05 0)
 		(unit 1)
@@ -17259,7 +10168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec01deeb-2234-43e1-a4e5-0af461b3c8a2")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR37"
 			(at 251.206 172.974 0)
 			(do_not_autoplace yes)
 			(effects
@@ -17310,518 +10219,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec5dfcd7-41eb-426f-a9e5-c3993c1c3754")
-		(property "Reference" "TP21"
-			(at 365.76 100.33 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 100.33 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 103.886 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 105.41 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 102.362 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f3a2ebc2-95bf-4329-8aa9-c7b3ab4365d9")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 220.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eebb55b6-6b38-4593-89f2-d980ba1f2e9d")
-		(property "Reference" "TP89"
-			(at 393.7 220.98 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 220.98 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 224.536 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 226.06 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 223.012 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3cfe7f8c-79c5-4003-9f79-8e996da57d82")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP89")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 187.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f15a2230-5225-4003-a4c4-ddf869c976ba")
-		(property "Reference" "TP74"
-			(at 393.7 187.96 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 187.96 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 191.516 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 193.04 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 189.992 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "171c6f99-22ad-40cd-bbb8-7f6703b20e14")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 180.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2a8fd53-2502-4a7d-82d0-639e912457aa")
-		(property "Reference" "TP68"
-			(at 365.76 180.34 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 180.34 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 183.896 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 185.42 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 182.372 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7074c2f1-c574-4df0-bf80-d1e59a691c9f")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 195.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4301fdf-33cb-4dfc-9de5-c4c029aa53fa")
-		(property "Reference" "TP79"
-			(at 393.7 195.58 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 195.58 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 199.136 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 200.66 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 197.612 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f0f6f1a-9a0f-4a43-be94-2f4d44bb6cee")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 388.62 210.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5ed7844-4b9b-44d4-bbcf-699e0dedd347")
-		(property "Reference" "TP83"
-			(at 393.7 210.82 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 399.034 210.82 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 377.952 214.376 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 215.9 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 379.984 212.852 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ae11659-cfdf-41b2-991c-7ace9006eef9")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP83")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_symbols:Test_Point")
-		(at 360.68 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f88a7f61-9e06-4dee-be2b-870df0864dcf")
-		(property "Reference" "TP47"
-			(at 365.76 140.97 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 371.094 140.97 90)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Duc:TestPoint_Pad_D0.5mm"
-			(at 350.012 144.526 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 146.05 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point Pad D0.5mm"
-			(at 352.044 143.002 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6631aa95-a338-48c3-8c20-97b2f20de8e5")
-		)
-		(instances
-			(project "Master_Hand_Kicad"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "TP47")
+					(reference "#PWR37")
 					(unit 1)
 				)
 			)
@@ -17836,7 +10234,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "fbebfce8-b2dd-43cd-93b4-e28ce9a0c410")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR34"
 			(at 215.646 147.574 0)
 			(do_not_autoplace yes)
 			(effects
@@ -17887,7 +10285,7 @@
 		(instances
 			(project "Master_Hand_Kicad"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "#PWR034")
+					(reference "#PWR34")
 					(unit 1)
 				)
 			)
@@ -17895,7 +10293,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Capacitors:CAP CER 0402")
-		(at 248.92 175.26 90)
+		(at 248.92 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17903,15 +10301,15 @@
 		(dnp no)
 		(uuid "ff9912e2-d466-4a20-b7a1-76be5b4c6679")
 		(property "Reference" "C46"
-			(at 245.872 176.276 90)
+			(at 253.365 173.355 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CAP CER 0402"
-			(at 239.522 173.482 90)
+		(property "Value" "8pF 16V"
+			(at 255.905 175.895 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17919,16 +10317,15 @@
 			)
 		)
 		(property "Footprint" "Duc:C0402"
-			(at 254.381 168.021 90)
+			(at 256.54 178.435 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 264.16 175.26 0)
+			(at 233.68 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17937,7 +10334,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0402"
-			(at 256.286 175.26 0)
+			(at 241.554 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17946,7 +10343,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 266.7 175.26 0)
+			(at 231.14 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17955,7 +10352,7 @@
 			)
 		)
 		(property "MPN" "CC0402KRX5R7BB105"
-			(at 269.24 175.26 0)
+			(at 228.6 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17964,7 +10361,7 @@
 			)
 		)
 		(property "LCSC Part" "C325464"
-			(at 271.78 175.26 0)
+			(at 226.06 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
