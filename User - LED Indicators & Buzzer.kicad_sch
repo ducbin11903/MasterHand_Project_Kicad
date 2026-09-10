@@ -535,7 +535,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 133.35) (xy 119.38 133.35)
+			(xy 106.68 133.35) (xy 119.38 133.35)
 		)
 		(stroke
 			(width 0)
@@ -605,7 +605,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 69.85) (xy 98.425 69.85)
+			(xy 77.47 69.85) (xy 99.06 69.85)
 		)
 		(stroke
 			(width 0)
@@ -665,7 +665,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 107.95) (xy 98.425 107.95)
+			(xy 77.47 107.95) (xy 99.06 107.95)
 		)
 		(stroke
 			(width 0)
@@ -695,7 +695,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 82.55) (xy 98.425 82.55)
+			(xy 77.47 82.55) (xy 99.06 82.55)
 		)
 		(stroke
 			(width 0)
@@ -735,7 +735,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 57.15) (xy 98.425 57.15)
+			(xy 77.47 57.15) (xy 99.06 57.15)
 		)
 		(stroke
 			(width 0)
@@ -755,7 +755,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 57.15) (xy 119.38 57.15)
+			(xy 106.68 57.15) (xy 119.38 57.15)
 		)
 		(stroke
 			(width 0)
@@ -765,7 +765,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 44.45) (xy 98.425 44.45)
+			(xy 77.47 44.45) (xy 99.06 44.45)
 		)
 		(stroke
 			(width 0)
@@ -835,7 +835,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 120.65) (xy 119.38 120.65)
+			(xy 106.68 120.65) (xy 119.38 120.65)
 		)
 		(stroke
 			(width 0)
@@ -855,7 +855,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 44.45) (xy 119.38 44.45)
+			(xy 106.68 44.45) (xy 119.38 44.45)
 		)
 		(stroke
 			(width 0)
@@ -865,7 +865,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 82.55) (xy 119.38 82.55)
+			(xy 106.68 82.55) (xy 119.38 82.55)
 		)
 		(stroke
 			(width 0)
@@ -885,7 +885,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 95.25) (xy 119.38 95.25)
+			(xy 106.68 95.25) (xy 119.38 95.25)
 		)
 		(stroke
 			(width 0)
@@ -925,7 +925,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 69.85) (xy 119.38 69.85)
+			(xy 106.68 69.85) (xy 119.38 69.85)
 		)
 		(stroke
 			(width 0)
@@ -975,7 +975,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 107.95) (xy 119.38 107.95)
+			(xy 106.68 107.95) (xy 119.38 107.95)
 		)
 		(stroke
 			(width 0)
@@ -985,7 +985,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 133.35) (xy 98.425 133.35)
+			(xy 77.47 133.35) (xy 99.06 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1015,7 +1015,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 95.25) (xy 98.425 95.25)
+			(xy 77.47 95.25) (xy 99.06 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1025,7 +1025,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 120.65) (xy 98.425 120.65)
+			(xy 77.47 120.65) (xy 99.06 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2354,11 +2354,29 @@
 			"AAAAAAAAAGltZXMgTmV3IFJvbWFuAAAAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAb8dwnAIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAABlZ3VsYXIAAAAAAAAAAAAAAAAA"
 			"AAAAAA8AAAAAAAAAAGltZXMgTmV3IFJvbWFuAAAAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAld9wnAIAAAAAAAAAAAAAAAAAAAAAAA=="
+			"AAAAAAAAAAAAAAAAld9wnAIAAAAAAAAAAAAAAAAAAAAAAABKAEYANwBiAE4AbwBnAG8AawBrAEUA"
+			"MABnAEoAeQAwAE4ARgBRAHgANgBiAHUATABDAHEARQBhAHkAOABUAGcAZgBiAE4AWgBMAHoANwA5"
+			"ACsATQBQADMAMwAvACsAMQBxAGEAdgBMAGkANABzAC8ALwBlAGsALwBYAFYANQBjAE0AagBrADIA"
+			"SABMAHcAUABNAFIAaABEAGUAWgBZAEIATwBtAE8AMQBxAHEAQwBxAFoAYgBXAHUAVgBxAHUAVgBx"
+			"AEsAagBHAHkAZABsAEoAbAByAHYAVQAwAFUASgBBADEAagBCAGkAaAB3AGwATgBIAFYARABHAHMA"
+			"RwBVAGIAUABjAFcAZwBUAGUAVwByADMAVABwAHUARgB2AFYAMABLAG8AdABYADMAQwA3AGkAZABx"
+			"AG4AMQBYAG0ATgB3AGIAUABOACsATwBUAHcANQBQAGIAdQArAEsAYQA3AGYAcgB5AGUAWAAyAHUA"
+			"dQBKAFIARQBVAEIAVgBXAFgATgBNAHQAcwBQAC8AWgB2AHIAcQA2AEwASQBsACsAdgAxADkATwBt"
+			"AHgAYgBkAHUATAArAHYATAAwADgAbwBLAE4AUwBUADYATwBwAEoASwBzAFkAWQAzAHkAcwAvAGUA"
+			"dAA2ADQARAA2AG4ASwBuADgAWABQAHoANQBwAFYAMABLAEkAVQBKAEgAbgBZAE8ASQBhAEEAeABi"
+			"AHgAOQBDAEoAbgBuAEsAcQBJAHgAMwA4AG4ALwA4AG8AWABtAFgAeQBmAFEAeQBBAFcAbQBkAGkA"
+			"aQBDAEcAZwBxAGwAYgBWAC8AdgBYADEAWgBUADYAZgBiAHoAWgBiAFIARABxAC8ATwBIAHYALwAv"
+			"AHUAWgBvAGUASgBTAEsAMwBiAEYAcgBEAHUAMABRADMAWQBUAEUAaABnAFMAKwBiAHYAYQAvAG4A"
+			"RQAxADgAeQB4AHAARwBrAEEAaQBHAEQAUgBHAG8AUgBtAFQATABTAEIAcQAxAHIAdQB0ADYAVgB5"
+			"ADgAWABxADYAZQBIAHAAOABlAG4AcAB6AGEAMABaADIAZgBYADcAOAA1AFAAVAA4AGYASAAzAE8A"
+			"NwBiADMAcQBBAHAAKwA3AGgAWgA2ADMANwBYAHoAQgBmADEAWgB1AHQAOABYAFYAcgBSAFQARABF"
+			"AFQAZQAyAFIAegBlADUAUQB4AEIANgBJADYAaQBpAEsARABtAGgAQQBpAEkAQgBHAGgAVQBWAFUA"
+			"SgBqAEEAQgBzAEsAZwBSAFYAdwBRAGoARQAyAEgAVwBDAE0AUQBYAFYARQBNAEcAMwBZAGIAbABh"
+			"AFQAMQAvAG4ATAAvAE4AbAAwADgAaAA0AGYASABGAHkAYw=="
 		)
 	)
 	(label "GPIO-LED_P"
-		(at 76.835 82.55 180)
+		(at 77.47 82.55 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -2391,7 +2409,7 @@
 		(uuid "2f37fd0b-d718-4e20-8863-317ba10d0266")
 	)
 	(label "GPIO-LED_Debug_2"
-		(at 76.835 133.35 180)
+		(at 77.47 133.35 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -2402,7 +2420,7 @@
 		(uuid "496a49d0-0464-4496-892c-ad748af9849f")
 	)
 	(label "GPIO-LED_R"
-		(at 76.835 95.25 180)
+		(at 77.47 95.25 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -2446,7 +2464,7 @@
 		(uuid "7d21af02-358f-43d2-be72-46522101770c")
 	)
 	(label "GPIO-LED_Debug_1"
-		(at 76.835 120.65 180)
+		(at 77.47 120.65 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -2479,7 +2497,7 @@
 		(uuid "9361ac68-8d3d-4ccf-a475-1c5676ca47c3")
 	)
 	(label "GPIO-LED_T2"
-		(at 76.835 69.85 180)
+		(at 77.47 69.85 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -2490,7 +2508,7 @@
 		(uuid "bc166df7-58d4-4d3a-ab84-5615f227076c")
 	)
 	(label "GPIO-LED_I"
-		(at 76.835 44.45 180)
+		(at 77.47 44.45 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -2512,7 +2530,7 @@
 		(uuid "c775d10d-7de4-4e38-bdf5-9f666536a78a")
 	)
 	(label "GPIO-LED_T1"
-		(at 76.835 57.15 180)
+		(at 77.47 57.15 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -2523,7 +2541,7 @@
 		(uuid "d896b56d-fc10-41bf-a566-a8a9829820e4")
 	)
 	(label "GPIO-LED_M"
-		(at 76.835 107.95 180)
+		(at 77.47 107.95 180)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -2585,7 +2603,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 102.235 107.95 0)
+		(at 102.87 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2593,7 +2611,7 @@
 		(dnp no)
 		(uuid "01c2cbb5-1663-4c1b-9868-9dace2cd8b27")
 		(property "Reference" "R64"
-			(at 102.235 105.664 0)
+			(at 102.87 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,7 +2619,7 @@
 			)
 		)
 		(property "Value" "100R 0.1%"
-			(at 102.235 110.998 0)
+			(at 102.87 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2609,7 +2627,7 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 102.235 113.538 0)
+			(at 102.87 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2617,7 +2635,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-			(at 102.235 118.11 0)
+			(at 102.87 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,7 +2644,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0402"
-			(at 101.727 110.998 0)
+			(at 102.362 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,7 +2653,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 102.235 120.65 0)
+			(at 102.87 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,7 +2662,7 @@
 			)
 		)
 		(property "MPN" "RT0402FRE07100KL"
-			(at 102.235 123.19 0)
+			(at 102.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +2671,7 @@
 			)
 		)
 		(property "LCSC Part" "C728576"
-			(at 102.235 125.73 0)
+			(at 102.87 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2772,7 +2790,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 102.235 69.85 0)
+		(at 102.87 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2780,7 +2798,7 @@
 		(dnp no)
 		(uuid "3151f23b-6da0-4fd3-a810-29145a0adba9")
 		(property "Reference" "R61"
-			(at 102.235 67.564 0)
+			(at 102.87 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2788,7 +2806,7 @@
 			)
 		)
 		(property "Value" "100R 0.1%"
-			(at 102.235 72.898 0)
+			(at 102.87 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2796,7 +2814,7 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 102.235 75.438 0)
+			(at 102.87 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2804,7 +2822,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-			(at 102.235 80.01 0)
+			(at 102.87 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +2831,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0402"
-			(at 101.727 72.898 0)
+			(at 102.362 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +2840,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 102.235 82.55 0)
+			(at 102.87 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,7 +2849,7 @@
 			)
 		)
 		(property "MPN" "RT0402FRE07100KL"
-			(at 102.235 85.09 0)
+			(at 102.87 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2840,7 +2858,7 @@
 			)
 		)
 		(property "LCSC Part" "C728576"
-			(at 102.235 87.63 0)
+			(at 102.87 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +2883,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 102.235 44.45 0)
+		(at 102.87 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2873,7 +2891,7 @@
 		(dnp no)
 		(uuid "33c5c9f2-8d0b-4b3d-9150-8bd98313360b")
 		(property "Reference" "R59"
-			(at 102.235 42.164 0)
+			(at 102.87 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2881,7 +2899,7 @@
 			)
 		)
 		(property "Value" "330R 0.1%"
-			(at 102.235 47.498 0)
+			(at 102.87 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2889,7 +2907,7 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 102.235 50.038 0)
+			(at 102.87 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,7 +2915,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-			(at 102.235 54.61 0)
+			(at 102.87 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2906,7 +2924,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0402"
-			(at 101.727 47.498 0)
+			(at 102.362 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2915,7 +2933,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 102.235 57.15 0)
+			(at 102.87 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2924,7 +2942,7 @@
 			)
 		)
 		(property "MPN" "RT0402FRE07100KL"
-			(at 102.235 59.69 0)
+			(at 102.87 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2933,7 +2951,7 @@
 			)
 		)
 		(property "LCSC Part" "C728576"
-			(at 102.235 62.23 0)
+			(at 102.87 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3146,7 +3164,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 102.235 120.65 0)
+		(at 102.87 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3154,7 +3172,7 @@
 		(dnp no)
 		(uuid "6cfcb588-2942-4880-8794-775b383a28ac")
 		(property "Reference" "R65"
-			(at 102.235 118.364 0)
+			(at 102.87 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3162,7 +3180,7 @@
 			)
 		)
 		(property "Value" "330R 0.1%"
-			(at 102.235 123.698 0)
+			(at 102.87 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3170,7 +3188,7 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 102.235 126.238 0)
+			(at 102.87 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,7 +3196,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-			(at 102.235 130.81 0)
+			(at 102.87 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3187,7 +3205,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0402"
-			(at 101.727 123.698 0)
+			(at 102.362 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3196,7 +3214,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 102.235 133.35 0)
+			(at 102.87 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,7 +3223,7 @@
 			)
 		)
 		(property "MPN" "RT0402FRE07100KL"
-			(at 102.235 135.89 0)
+			(at 102.87 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,7 +3232,7 @@
 			)
 		)
 		(property "LCSC Part" "C728576"
-			(at 102.235 138.43 0)
+			(at 102.87 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3333,7 +3351,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 102.235 82.55 0)
+		(at 102.87 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3341,7 +3359,7 @@
 		(dnp no)
 		(uuid "b09feee4-cd02-44a6-aa73-bb7c3506f762")
 		(property "Reference" "R62"
-			(at 102.235 80.264 0)
+			(at 102.87 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,7 +3367,7 @@
 			)
 		)
 		(property "Value" "100R 0.1%"
-			(at 102.235 85.598 0)
+			(at 102.87 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3357,7 +3375,7 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 102.235 88.138 0)
+			(at 102.87 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3365,7 +3383,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-			(at 102.235 92.71 0)
+			(at 102.87 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,7 +3392,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0402"
-			(at 101.727 85.598 0)
+			(at 102.362 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,7 +3401,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 102.235 95.25 0)
+			(at 102.87 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,7 +3410,7 @@
 			)
 		)
 		(property "MPN" "RT0402FRE07100KL"
-			(at 102.235 97.79 0)
+			(at 102.87 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3401,7 +3419,7 @@
 			)
 		)
 		(property "LCSC Part" "C728576"
-			(at 102.235 100.33 0)
+			(at 102.87 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,7 +3632,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 102.235 95.25 0)
+		(at 102.87 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3622,7 +3640,7 @@
 		(dnp no)
 		(uuid "d1c6b634-4e5f-4ed9-8525-79f1fc4cb846")
 		(property "Reference" "R63"
-			(at 102.235 92.964 0)
+			(at 102.87 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,7 +3648,7 @@
 			)
 		)
 		(property "Value" "100R 0.1%"
-			(at 102.235 98.298 0)
+			(at 102.87 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3638,7 +3656,7 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 102.235 100.838 0)
+			(at 102.87 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3646,7 +3664,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-			(at 102.235 105.41 0)
+			(at 102.87 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,7 +3673,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0402"
-			(at 101.727 98.298 0)
+			(at 102.362 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,7 +3682,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 102.235 107.95 0)
+			(at 102.87 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,7 +3691,7 @@
 			)
 		)
 		(property "MPN" "RT0402FRE07100KL"
-			(at 102.235 110.49 0)
+			(at 102.87 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3682,7 +3700,7 @@
 			)
 		)
 		(property "LCSC Part" "C728576"
-			(at 102.235 113.03 0)
+			(at 102.87 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3707,7 +3725,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 102.235 133.35 0)
+		(at 102.87 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3715,7 +3733,7 @@
 		(dnp no)
 		(uuid "d3918934-25f3-481a-90a7-c77c9037bb7d")
 		(property "Reference" "R66"
-			(at 102.235 131.064 0)
+			(at 102.87 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +3741,7 @@
 			)
 		)
 		(property "Value" "330R 0.1%"
-			(at 102.235 136.398 0)
+			(at 102.87 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,7 +3749,7 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 102.235 138.938 0)
+			(at 102.87 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +3757,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-			(at 102.235 143.51 0)
+			(at 102.87 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,7 +3766,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0402"
-			(at 101.727 136.398 0)
+			(at 102.362 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3757,7 +3775,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 102.235 146.05 0)
+			(at 102.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,7 +3784,7 @@
 			)
 		)
 		(property "MPN" "RT0402FRE07100KL"
-			(at 102.235 148.59 0)
+			(at 102.87 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,7 +3793,7 @@
 			)
 		)
 		(property "LCSC Part" "C728576"
-			(at 102.235 151.13 0)
+			(at 102.87 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3800,7 +3818,7 @@
 	)
 	(symbol
 		(lib_id "Duc-Resistors:RES SMD 0402")
-		(at 102.235 57.15 0)
+		(at 102.87 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3808,7 +3826,7 @@
 		(dnp no)
 		(uuid "dabb077d-79b7-488d-bee6-0c817831ada7")
 		(property "Reference" "R60"
-			(at 102.235 54.864 0)
+			(at 102.87 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3816,7 +3834,7 @@
 			)
 		)
 		(property "Value" "330R 0.1%"
-			(at 102.235 60.198 0)
+			(at 102.87 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3824,7 +3842,7 @@
 			)
 		)
 		(property "Footprint" "Duc:R0402"
-			(at 102.235 62.738 0)
+			(at 102.87 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3832,7 +3850,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4107493.pdf"
-			(at 102.235 67.31 0)
+			(at 102.87 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3841,7 +3859,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0402"
-			(at 101.727 60.198 0)
+			(at 102.362 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3850,7 +3868,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 102.235 69.85 0)
+			(at 102.87 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3859,7 +3877,7 @@
 			)
 		)
 		(property "MPN" "RT0402FRE07100KL"
-			(at 102.235 72.39 0)
+			(at 102.87 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3868,7 +3886,7 @@
 			)
 		)
 		(property "LCSC Part" "C728576"
-			(at 102.235 74.93 0)
+			(at 102.87 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)

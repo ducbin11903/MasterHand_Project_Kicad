@@ -563,7 +563,7 @@ definitions:
   COMPANY: Willas
   DESIGNER: Damon
 
-  LOGO: 'Logos/dummy_logo.png'
+  LOGO: 'Logos/DNA_logo.png'
   GIT_URL: 'https://github.com/ducbin11903/MasterHand_Project_Kicad.git'
 
   # Preflight ==================================================================
